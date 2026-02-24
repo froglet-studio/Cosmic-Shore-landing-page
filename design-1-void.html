@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosmic Shore — The Party Game for Pilots</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/branding/favicon-32.png">
+<link rel="icon" type="image/png" sizes="256x256" href="assets/branding/favicon-256.png">
+<meta name="description" content="Cosmic Shore — The Party Game for Pilots. Play with friends and find your favorite fly style.">
+<link rel="stylesheet" href="css/design-1-void.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar" id="topbar">
+  <img src="assets/branding/froglet-logo.svg" alt="Froglet Games">
+  <div class="topbar-links">
+    <a href="https://frogletgames.itch.io/cosmic-shore" target="_blank">Play</a>
+    <a href="https://discord.gg/wNfYVbJ9dR" target="_blank">Community</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <img src="assets/branding/cosmic-shore-logo.png" alt="Cosmic Shore" class="hero-logo reveal">
+    <p class="hero-tagline reveal reveal-d1">The Party Game for Pilots</p>
+    <a href="https://frogletgames.itch.io/cosmic-shore" target="_blank" class="hero-cta reveal reveal-d2">Play Now</a>
+  </div>
+  <div class="scroll-hint"></div>
+</section>
+
+<!-- INTRO -->
+<section class="section intro">
+  <div class="divider reveal"></div>
+  <p class="intro-text reveal reveal-d1">
+    As a native of the planet Tumult you are one of the most adaptive creatures in the known universe. With a burning curiosity for the unexplored and a strong competitive streak, you&rsquo;ve left the planet to chase glory on the galaxy&rsquo;s largest space station: The Cosmic Shore.
+  </p>
+</section>
+
+<!-- VESSELS -->
+<section class="section">
+  <div class="vessels-heading reveal">
+    <h2>Find Your Fly Style</h2>
+  </div>
+
+  <div class="vessel reveal">
+    <div class="vessel-img">
+      <img src="assets/images/gameplay-squirrel.jpg" alt="Squirrel vessel gameplay">
+    </div>
+    <div class="vessel-text">
+      <h3>Squirrel</h3>
+      <p>Master the joy of three-dimensional drift. Press your luck or express your skill with the near-miss boosting abilities of the Squirrel.</p>
+    </div>
+  </div>
+
+  <div class="vessel reveal">
+    <div class="vessel-img">
+      <img src="assets/images/gameplay-sparrow.jpg" alt="Sparrow vessel gameplay">
+    </div>
+    <div class="vessel-text">
+      <h3>Sparrow</h3>
+      <p>Unleash a barrage of cannon fire and rockets to obliterate all threats with the Sparrow.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="divider reveal"></div>
+  <h2 class="reveal reveal-d1">Chase Glory</h2>
+  <p class="reveal reveal-d2">Show off the finest flying in the galaxy, or have the most fun trying.</p>
+  <div class="cta-buttons reveal reveal-d3">
+    <a href="https://frogletgames.itch.io/cosmic-shore" target="_blank" class="btn-primary">Play on Itch.io</a>
+    <a href="https://discord.gg/wNfYVbJ9dR" target="_blank" class="btn-outline">Join Discord</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <img src="assets/branding/froglet-logo.png" alt="Froglet Games" class="footer-logo"><br>
+  <div class="footer-links">
+    <a href="https://frogletgames.itch.io/cosmic-shore" target="_blank">Itch.io</a>
+    <a href="https://discord.gg/wNfYVbJ9dR" target="_blank">Discord</a>
+  </div>
+  <p class="footer-text">&copy; 2025 Froglet Games. All rights reserved.</p>
+</footer>
+
+<script>
+// Scroll reveal
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('visible');
+  });
+}, { threshold: 0.12 });
+reveals.forEach(el => observer.observe(el));
+
+// Topbar background on scroll
+const topbar = document.getElementById('topbar');
+window.addEventListener('scroll', () => {
+  topbar.classList.toggle('scrolled', window.scrollY > 60);
+});
+</script>
+</body>
+</html>
