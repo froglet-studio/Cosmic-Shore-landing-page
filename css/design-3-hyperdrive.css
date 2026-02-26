@@ -102,8 +102,8 @@ body {
   box-shadow: 0 0 8px rgba(0, 229, 255, 0.15);
 }
 .btn-neon:hover {
-  background: var(--cyan);
-  color: var(--bg);
+  color: #fff;
+  text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
   box-shadow: var(--neon-glow-cyan);
 }
 
@@ -155,17 +155,10 @@ body {
   z-index: -1;
   pointer-events: none;
 }
-.hero-title {
-  font-family: 'Orbitron', sans-serif;
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
-  font-weight: 800;
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  line-height: 1;
-  background: linear-gradient(135deg, var(--cyan) 0%, #ffffff 40%, var(--magenta) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.hero-logo {
+  display: block;
+  width: clamp(280px, 55vw, 600px);
+  height: auto;
   filter: drop-shadow(0 0 40px rgba(0, 229, 255, 0.3)) drop-shadow(0 0 80px rgba(224, 64, 251, 0.15));
 }
 @keyframes float {
@@ -224,7 +217,7 @@ body {
 
 .btn-ghost {
   padding: 0.85rem 2.5rem;
-  border: 1px solid var(--jade);
+  border: 1px solid var(--teal);
   border-radius: 8px;
   font-family: 'Rajdhani', sans-serif;
   font-size: 0.88rem;
@@ -232,11 +225,12 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--jade);
+  color: var(--teal);
   transition: all 0.3s;
 }
 .btn-ghost:hover {
   background: var(--jade);
+  border-color: var(--jade);
   color: var(--bg);
   box-shadow: var(--neon-glow-jade);
 }
@@ -292,7 +286,7 @@ body {
 }
 .section-label {
   font-family: 'Orbitron', sans-serif;
-  font-size: 0.6rem;
+  font-size: clamp(1.15rem, 2.3vw, 1.85rem);
   font-weight: 400;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -388,6 +382,12 @@ body {
   overflow: hidden;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.vessel-card-body {
+  flex: 1;
 }
 .vessel-card-img {
   aspect-ratio: 16/9;
@@ -688,7 +688,6 @@ body {
   .modes-strip { grid-template-columns: 1fr; }
   .modes-strip .mode-tile:last-child { grid-column: auto; }
   .hero-title-wrap { animation: none; }
-  .hero-title { letter-spacing: 3px; }
 }
 
 @media (max-width: 480px) {
