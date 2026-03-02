@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 /* ============================================================
    DESIGN 3 — "HYPERDRIVE"
@@ -36,7 +36,7 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -91,7 +91,7 @@ body {
   background: transparent;
   border: 1px solid var(--cyan);
   color: var(--cyan);
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -120,7 +120,7 @@ body {
 .hero-parallax-bg {
   position: absolute;
   inset: -20%;
-  background: url('../assets/images/hero-2.jpg') center/cover no-repeat;
+  background: url('../assets/images/hero-1.jpg') center/cover no-repeat;
   will-change: transform;
 }
 .hero-parallax-bg::after {
@@ -204,7 +204,7 @@ body {
   padding: 0.85rem 2.5rem;
   background: var(--bg);
   border-radius: 6px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -219,7 +219,7 @@ body {
   padding: 0.85rem 2.5rem;
   border: 1px solid var(--teal);
   border-radius: 8px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -295,7 +295,7 @@ body {
   display: block;
 }
 .section-title {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(2.3rem, 4.6vw, 3.7rem);
   font-weight: 700;
   color: var(--text-bright);
@@ -555,7 +555,7 @@ body {
   z-index: 1;
 }
 .cta-finale h2 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(2rem, 4.5vw, 3.5rem);
   font-weight: 700;
   color: var(--text-bright);
