@@ -23,9 +23,11 @@
   --text-bright: rgba(255, 255, 255, 0.95);
   --jade: #00c97b;
   --jade-dark: #00a866;
+  --lime: #7FFF00;
   --neon-glow-cyan: 0 0 20px rgba(0, 229, 255, 0.4), 0 0 60px rgba(0, 229, 255, 0.15);
   --neon-glow-magenta: 0 0 20px rgba(224, 64, 251, 0.4), 0 0 60px rgba(224, 64, 251, 0.15);
   --neon-glow-jade: 0 0 20px rgba(0, 201, 123, 0.4), 0 0 60px rgba(0, 201, 123, 0.15);
+  --neon-glow-lime: 0 0 20px rgba(127, 255, 0, 0.4), 0 0 60px rgba(127, 255, 0, 0.15);
   --gradient-neon: linear-gradient(135deg, var(--cyan), var(--magenta));
   --gradient-warm: linear-gradient(135deg, var(--magenta), var(--pink));
 }
@@ -64,6 +66,20 @@ body {
   padding: 0.8rem clamp(1.5rem, 5vw, 4rem);
   transition: all 0.4s ease;
 }
+.topbar::before {
+  content: '';
+  position: absolute;
+  inset: -20px -40px -30px;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.2) 50%, transparent 80%);
+  filter: blur(20px);
+  border-radius: 50%;
+  z-index: -1;
+  pointer-events: none;
+  transition: opacity 0.4s;
+}
+.topbar.scrolled::before {
+  opacity: 0;
+}
 .topbar.scrolled {
   background: rgba(5, 8, 16, 0.85);
   backdrop-filter: blur(20px);
@@ -89,8 +105,8 @@ body {
   display: inline-block;
   padding: 0.5rem 1.5rem;
   background: transparent;
-  border: 1px solid var(--cyan);
-  color: var(--cyan);
+  border: 1px solid var(--lime);
+  color: var(--lime);
   font-family: 'Inter', sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
@@ -99,12 +115,13 @@ body {
   text-decoration: none;
   border-radius: 4px;
   transition: all 0.3s;
-  box-shadow: 0 0 8px rgba(0, 229, 255, 0.15);
+  box-shadow: 0 0 8px rgba(127, 255, 0, 0.15);
 }
 .btn-neon:hover {
   color: #fff;
-  text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
-  box-shadow: var(--neon-glow-cyan);
+  text-shadow: 0 0 12px rgba(127, 255, 0, 0.6);
+  border-color: var(--lime);
+  box-shadow: var(--neon-glow-lime);
 }
 
 /* === HERO === */
@@ -119,7 +136,7 @@ body {
 }
 .hero-parallax-bg {
   position: absolute;
-  inset: -20%;
+  inset: -10%;
   background: url('../assets/images/hero-1.jpg') center/cover no-repeat;
   will-change: transform;
 }
@@ -138,6 +155,16 @@ body {
   text-align: center;
   padding: 0 2rem;
 }
+.hero-content::before {
+  content: '';
+  position: absolute;
+  inset: -80px -120px;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.25) 40%, transparent 70%);
+  filter: blur(35px);
+  border-radius: 50%;
+  z-index: -1;
+  pointer-events: none;
+}
 .hero-title-wrap {
   position: relative;
   display: inline-block;
@@ -148,9 +175,9 @@ body {
 .hero-title-wrap::before {
   content: '';
   position: absolute;
-  inset: -30px -60px;
-  background: radial-gradient(ellipse at center, rgba(5, 8, 16, 0.35) 0%, rgba(5, 8, 16, 0.2) 30%, transparent 70%);
-  filter: blur(25px);
+  inset: -50px -80px;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.35) 35%, transparent 70%);
+  filter: blur(30px);
   border-radius: 50%;
   z-index: -1;
   pointer-events: none;
@@ -195,10 +222,10 @@ body {
   display: inline-block;
   border-radius: 8px;
   padding: 2px;
-  background: var(--gradient-neon);
+  background: var(--lime);
   transition: box-shadow 0.3s;
 }
-.btn-glow-wrap:hover { box-shadow: var(--neon-glow-cyan); }
+.btn-glow-wrap:hover { box-shadow: var(--neon-glow-lime); }
 .btn-glow-wrap a {
   display: block;
   padding: 0.85rem 2.5rem;
@@ -210,14 +237,14 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--text-bright);
-  transition: background 0.3s;
+  color: var(--lime);
+  transition: background 0.3s, color 0.3s;
 }
-.btn-glow-wrap:hover a { background: transparent; }
+.btn-glow-wrap:hover a { background: transparent; color: var(--bg); }
 
 .btn-ghost {
   padding: 0.85rem 2.5rem;
-  border: 1px solid var(--teal);
+  border: 1px solid var(--lime);
   border-radius: 8px;
   font-family: 'Inter', sans-serif;
   font-size: 0.88rem;
@@ -225,14 +252,14 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--teal);
+  color: var(--lime);
   transition: all 0.3s;
 }
 .btn-ghost:hover {
-  background: var(--jade);
-  border-color: var(--jade);
+  background: var(--lime);
+  border-color: var(--lime);
   color: var(--bg);
-  box-shadow: var(--neon-glow-jade);
+  box-shadow: var(--neon-glow-lime);
 }
 
 /* === SCROLL INDICATOR === */
