@@ -70,7 +70,7 @@ body {
   content: '';
   position: absolute;
   inset: -20px -40px -30px;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.2) 50%, transparent 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 80%);
   filter: blur(20px);
   border-radius: 50%;
   z-index: -1;
@@ -118,7 +118,7 @@ body {
   box-shadow: 0 0 8px rgba(127, 255, 0, 0.15);
 }
 .btn-neon:hover {
-  color: #fff;
+  color: var(--lime);
   text-shadow: 0 0 12px rgba(127, 255, 0, 0.6);
   border-color: var(--lime);
   box-shadow: var(--neon-glow-lime);
@@ -159,7 +159,7 @@ body {
   content: '';
   position: absolute;
   inset: -80px -120px;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.25) 40%, transparent 70%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.45) 40%, transparent 70%);
   filter: blur(35px);
   border-radius: 50%;
   z-index: -1;
@@ -175,16 +175,16 @@ body {
 .hero-title-wrap::before {
   content: '';
   position: absolute;
-  inset: -50px -80px;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.35) 35%, transparent 70%);
-  filter: blur(30px);
+  inset: -80px -130px;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.3) 45%, rgba(0, 0, 0, 0.1) 65%, transparent 85%);
+  filter: blur(25px);
   border-radius: 50%;
   z-index: -1;
   pointer-events: none;
 }
 .hero-logo {
   display: block;
-  width: clamp(280px, 55vw, 600px);
+  width: clamp(220px, 42vw, 460px);
   height: auto;
   filter: drop-shadow(0 0 40px rgba(0, 229, 255, 0.3)) drop-shadow(0 0 80px rgba(224, 64, 251, 0.15));
 }
