@@ -124,7 +124,7 @@ body {
   box-shadow: var(--neon-glow-lime);
 }
 .topbar-nav .btn-neon {
-  color: var(--lime);
+  color: rgba(255,255,255,0.4);
 }
 .topbar-nav .btn-neon:hover {
   color: var(--lime);
