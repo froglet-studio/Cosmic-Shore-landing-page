@@ -358,15 +358,35 @@ body {
 }
 .lore-visual {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  height: 520px;
 }
 .lore-img-box {
-  position: relative;
-  width: 75%;
+  position: absolute;
+  width: 65%;
   border-radius: 12px;
   overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.lore-img-box:nth-child(1) {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.lore-img-box:nth-child(2) {
+  top: 30%;
+  left: 18%;
+  z-index: 2;
+}
+.lore-img-box:nth-child(3) {
+  top: 60%;
+  left: 36%;
+  z-index: 3;
+}
+.lore-img-box:hover {
+  transform: scale(1.04);
+  box-shadow: var(--neon-glow-cyan);
+  z-index: 10;
 }
 .lore-img-box img {
   width: 100%;
@@ -384,15 +404,44 @@ body {
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  opacity: 0.4;
+  opacity: 0;
   pointer-events: none;
   z-index: 1;
+  transition: opacity 0.35s ease;
 }
-.lore-img-top {
-  align-self: flex-start;
+.lore-img-box:hover::before {
+  opacity: 0.6;
 }
-.lore-img-bottom {
-  align-self: flex-end;
+
+/* Lightbox overlay */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(2, 4, 8, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.lightbox-overlay.active {
+  opacity: 1;
+}
+.lightbox-overlay img {
+  max-width: min(90vw, 1600px);
+  max-height: 90vh;
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 0 60px rgba(0, 229, 255, 0.15), 0 0 120px rgba(224, 64, 251, 0.08);
+  transform: scale(0.92);
+  transition: transform 0.3s ease;
+}
+.lightbox-overlay.active img {
+  transform: scale(1);
 }
 
 /* === VESSEL SHOWCASE === */
@@ -737,6 +786,21 @@ body {
 @media (max-width: 768px) {
   .topbar-nav a:not(.btn-neon) { display: none; }
   .lore-split { grid-template-columns: 1fr; }
+  .lore-visual {
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .lore-img-box {
+    position: relative;
+    width: 80%;
+    top: auto !important;
+    left: auto !important;
+  }
+  .lore-img-box:nth-child(1) { align-self: flex-start; }
+  .lore-img-box:nth-child(2) { align-self: center; margin-top: -2rem; }
+  .lore-img-box:nth-child(3) { align-self: flex-end; margin-top: -2rem; }
   .vessel-showcase { grid-template-columns: 1fr; }
   .modes-strip { grid-template-columns: 1fr; }
   .modes-strip .mode-tile:last-child { grid-column: auto; }

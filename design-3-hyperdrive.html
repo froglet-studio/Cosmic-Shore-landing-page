@@ -55,11 +55,14 @@
       <p>Here, the greatest pilots and biggest names in the Milky Way compete in a series of simple but exhilarating contests. Show off the finest flying in the Galaxy, or have the most fun trying!</p>
     </div>
     <div class="lore-visual reveal-right">
-      <div class="lore-img-box lore-img-top">
+      <div class="lore-img-box" data-lightbox>
         <img src="assets/images/Image Sequence_018_0003.jpg" alt="Cosmic Shore">
       </div>
-      <div class="lore-img-box lore-img-bottom">
+      <div class="lore-img-box" data-lightbox>
         <img src="assets/images/Image Sequence_029_0001.jpg" alt="Cosmic Shore gameplay">
+      </div>
+      <div class="lore-img-box" data-lightbox>
+        <img src="assets/images/Image Sequence_027_0000.jpg" alt="Cosmic Shore scene">
       </div>
     </div>
   </div>
@@ -208,6 +211,42 @@ const topbar = document.getElementById('topbar');
 window.addEventListener('scroll', () => {
   topbar.classList.toggle('scrolled', window.scrollY > 80);
 }, { passive: true });
+
+// ── Lightbox ────────────────────────────────────────────────
+(function() {
+  let overlay = null;
+
+  document.querySelectorAll('[data-lightbox]').forEach(box => {
+    box.addEventListener('click', () => {
+      const src = box.querySelector('img').src;
+      const alt = box.querySelector('img').alt;
+
+      overlay = document.createElement('div');
+      overlay.className = 'lightbox-overlay';
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = alt;
+      overlay.appendChild(img);
+      document.body.appendChild(overlay);
+
+      requestAnimationFrame(() => overlay.classList.add('active'));
+
+      overlay.addEventListener('click', () => {
+        overlay.classList.remove('active');
+        overlay.addEventListener('transitionend', () => overlay.remove(), { once: true });
+        overlay = null;
+      });
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && overlay) {
+      overlay.classList.remove('active');
+      overlay.addEventListener('transitionend', () => overlay.remove(), { once: true });
+      overlay = null;
+    }
+  });
+})();
 
 // ── Hero Parallax ───────────────────────────────────────────
 const heroBg = document.getElementById('heroBg');
