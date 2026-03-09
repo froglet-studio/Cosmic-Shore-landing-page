@@ -144,7 +144,7 @@ body {
 .hero-parallax-bg {
   position: absolute;
   inset: -10%;
-  background: url('../assets/images/hero-1.jpg') center/cover no-repeat;
+  background: url('../assets/images/Image Sequence_025_0000.jpg') center/cover no-repeat;
   will-change: transform;
 }
 .hero-parallax-bg::after {
@@ -358,14 +358,23 @@ body {
 }
 .lore-visual {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-.lore-visual img {
+.lore-img-box {
+  position: relative;
+  width: 75%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.lore-img-box img {
   width: 100%;
   border-radius: 12px;
   display: block;
   border: 1px solid var(--glass-border);
 }
-.lore-visual::before {
+.lore-img-box::before {
   content: '';
   position: absolute;
   inset: -1px;
@@ -377,6 +386,13 @@ body {
   mask-composite: exclude;
   opacity: 0.4;
   pointer-events: none;
+  z-index: 1;
+}
+.lore-img-top {
+  align-self: flex-start;
+}
+.lore-img-bottom {
+  align-self: flex-end;
 }
 
 /* === VESSEL SHOWCASE === */
