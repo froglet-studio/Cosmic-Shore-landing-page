@@ -216,8 +216,17 @@ window.addEventListener('scroll', () => {
 (function() {
   let overlay = null;
 
+  function closeLightbox() {
+    if (!overlay) return;
+    const el = overlay;
+    overlay = null;
+    el.classList.remove('active');
+    setTimeout(() => el.remove(), 350);
+  }
+
   document.querySelectorAll('[data-lightbox]').forEach(box => {
     box.addEventListener('click', () => {
+      if (overlay) return;
       const src = box.querySelector('img').src;
       const alt = box.querySelector('img').alt;
 
@@ -231,20 +240,12 @@ window.addEventListener('scroll', () => {
 
       requestAnimationFrame(() => overlay.classList.add('active'));
 
-      overlay.addEventListener('click', () => {
-        overlay.classList.remove('active');
-        overlay.addEventListener('transitionend', () => overlay.remove(), { once: true });
-        overlay = null;
-      });
+      overlay.addEventListener('click', closeLightbox);
     });
   });
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && overlay) {
-      overlay.classList.remove('active');
-      overlay.addEventListener('transitionend', () => overlay.remove(), { once: true });
-      overlay = null;
-    }
+    if (e.key === 'Escape') closeLightbox();
   });
 })();
 
