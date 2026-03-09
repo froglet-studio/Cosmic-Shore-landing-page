@@ -251,19 +251,99 @@ window.addEventListener('scroll', () => {
 })();
 
 // ── Video Thumbnail Click-to-Play ───────────────────────────
-document.querySelectorAll('.vessel-video').forEach(el => {
-  el.addEventListener('click', () => {
-    const id = el.dataset.videoId;
-    if (!id) return;
-    const iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
-    iframe.title = 'Cosmic Shore Trailer';
-    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-    iframe.allowFullscreen = true;
-    el.innerHTML = '';
-    el.appendChild(iframe);
+(function() {
+  // Load YouTube IFrame API
+  var tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  document.head.appendChild(tag);
+
+  document.querySelectorAll('.vessel-video').forEach(el => {
+    // Save original thumbnail HTML for restoration
+    const originalHTML = el.innerHTML;
+    let ytPlayer = null;
+    let inactivityTimer = null;
+
+    function revertToThumbnail() {
+      clearTimeout(inactivityTimer);
+      if (ytPlayer) { try { ytPlayer.destroy(); } catch(e) {} ytPlayer = null; }
+      el.innerHTML = originalHTML;
+      el.classList.remove('playing');
+      document.removeEventListener('click', outsideClickHandler, true);
+    }
+
+    // Revert when scrolled entirely off-screen
+    var scrollObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (!entry.isIntersecting && el.classList.contains('playing')) {
+          revertToThumbnail();
+        }
+      });
+    }, { threshold: 0 });
+    scrollObserver.observe(el);
+
+    function resetInactivityTimer() {
+      clearTimeout(inactivityTimer);
+      inactivityTimer = setTimeout(revertToThumbnail, 60000);
+    }
+
+    function outsideClickHandler(e) {
+      if (!el.contains(e.target)) {
+        revertToThumbnail();
+      }
+    }
+
+    el.addEventListener('click', function handler(e) {
+      // Ignore clicks if already playing (let YouTube handle those)
+      if (el.classList.contains('playing')) return;
+
+      const id = el.dataset.videoId;
+      if (!id) return;
+
+      // Replace thumbnail with a div for the YT player
+      var playerDiv = document.createElement('div');
+      playerDiv.id = 'yt-player-' + id + '-' + Date.now();
+      el.innerHTML = '';
+      el.appendChild(playerDiv);
+      el.classList.add('playing');
+
+      // Wait for API to be ready, then create player
+      function createPlayer() {
+        ytPlayer = new YT.Player(playerDiv.id, {
+          videoId: id,
+          playerVars: { autoplay: 1, rel: 0 },
+          events: {
+            onStateChange: function(event) {
+              // YT.PlayerState: PAUSED=2, ENDED=0
+              if (event.data === YT.PlayerState.PAUSED) {
+                resetInactivityTimer();
+              } else if (event.data === YT.PlayerState.ENDED) {
+                revertToThumbnail();
+              } else if (event.data === YT.PlayerState.PLAYING) {
+                clearTimeout(inactivityTimer);
+              }
+            }
+          }
+        });
+      }
+
+      if (window.YT && YT.Player) {
+        createPlayer();
+      } else {
+        // API not yet loaded; queue via global callback
+        var prev = window.onYouTubeIframeAPIReady;
+        window.onYouTubeIframeAPIReady = function() {
+          if (prev) prev();
+          createPlayer();
+        };
+      }
+
+      // Listen for clicks outside the video
+      setTimeout(() => {
+        document.addEventListener('click', outsideClickHandler, true);
+      }, 100);
+    });
   });
-});
+})();
 
 // ── Hero Parallax ───────────────────────────────────────────
 const heroBg = document.getElementById('heroBg');
