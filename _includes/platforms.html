@@ -1,0 +1,62 @@
+{%- comment -%}
+  "Get the Game" cards. Each store card goes live when its value is set in _data/stores.yml;
+  until then it reads "Coming soon". Params: source / campaign for UTM tagging (see store-urls.html).
+{%- endcomment -%}
+{%- include store-urls.html source=include.source campaign=include.campaign -%}
+{%- assign cols = 3 -%}{%- if site.play_enabled -%}{%- assign cols = 4 -%}{%- endif -%}
+<div class="platform-grid cols-{{ cols }}">
+  {%- if steam_url != "" %}
+  <a class="glass-card platform-card reveal" href="{{ steam_url }}" target="_blank" rel="noopener noreferrer">
+    <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="4" width="19" height="12.5" rx="1.5"/><path d="M8 20.5h8M12 16.5v4"/></svg>
+    <span class="platform-name">Steam</span>
+    <span class="chip chip-lime">Wishlist now</span>
+    <p>Windows PC. Fly with friends online.</p>
+  </a>
+  {%- else %}
+  <div class="glass-card platform-card is-soon reveal">
+    <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="4" width="19" height="12.5" rx="1.5"/><path d="M8 20.5h8M12 16.5v4"/></svg>
+    <span class="platform-name">Steam</span>
+    <span class="chip chip-dim">Wishlist opens soon</span>
+    <p>Windows PC. Fly with friends online.</p>
+  </div>
+  {%- endif %}
+
+  {%- if appstore_url != "" %}
+  <a class="glass-card platform-card reveal reveal-d1" href="{{ appstore_url }}" target="_blank" rel="noopener noreferrer">
+    <img class="badge-img" src="/assets/icons/appstore-badge.png" alt="Download on the App Store">
+    <span class="chip chip-lime">Available now</span>
+    <p>iPhone and iPad.</p>
+  </a>
+  {%- else %}
+  <a class="glass-card platform-card reveal reveal-d1" href="{{ site.data.stores.testflight }}" target="_blank" rel="noopener noreferrer">
+    <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.2"/><path d="M10.5 18.5h3"/></svg>
+    <span class="platform-name">iPhone &amp; iPad</span>
+    <span class="chip chip-cyan">Open beta on TestFlight</span>
+    <p>iPhone and iPad. Join the beta today; the App Store release is coming.</p>
+  </a>
+  {%- endif %}
+
+  {%- if play_url != "" %}
+  <a class="glass-card platform-card reveal reveal-d2" href="{{ play_url }}" target="_blank" rel="noopener noreferrer">
+    <img class="badge-img" src="/assets/icons/googleplay-badge.png" alt="Get it on Google Play">
+    <span class="chip chip-lime">Available now</span>
+    <p>Android phones and tablets.</p>
+  </a>
+  {%- else %}
+  <div class="glass-card platform-card is-soon reveal reveal-d2">
+    <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.2"/><path d="M10.5 18.5h3"/></svg>
+    <span class="platform-name">Android</span>
+    <span class="chip chip-dim">Coming soon</span>
+    <p>Android phones and tablets.</p>
+  </div>
+  {%- endif %}
+
+  {%- if site.play_enabled %}
+  <a class="glass-card platform-card reveal reveal-d3" href="/play">
+    <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.8 2.6 4.2 5.8 4.2 9.5s-1.4 6.9-4.2 9.5c-2.8-2.6-4.2-5.8-4.2-9.5S9.2 5.1 12 2.5z"/></svg>
+    <span class="platform-name">Browser</span>
+    <span class="chip chip-lime">Free Toybox</span>
+    <p>Fly freestyle with the toys on any desktop browser. No install.</p>
+  </a>
+  {%- endif %}
+</div>
