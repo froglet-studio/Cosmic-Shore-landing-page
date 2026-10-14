@@ -4,7 +4,6 @@ description: How to delete your Cosmic Shore account and data, what gets deleted
 image: /assets/images/Image%20Sequence_016_0005.jpg
 ---
 {%- assign legal = site.data.legal -%}
-{%- assign email = legal.support_email -%}
 {%- capture lede -%}You can ask us to delete your <strong>Cosmic Shore</strong> account, and everything tied to it, at any time. Cosmic Shore is published by {% include ph.html value=legal.store_developer_name label="DEVELOPER NAME AS SHOWN ON GOOGLE PLAY" %}.{%- endcapture -%}
 {% include page-hero.html image=page.image label="Your Data" title='Delete Your <span class="gradient-text">Account &amp; Data</span>' lede=lede %}
 
@@ -23,7 +22,7 @@ image: /assets/images/Image%20Sequence_016_0005.jpg
       <ol class="steps">
         <li><div><strong>Note your display name</strong>It&rsquo;s shown on your profile in the game. Display names are unique, so this is how we find your account.</div></li>
         <li><div><strong>Email us</strong>Send it to the address below with the subject <em>Delete my data</em>. Include your display name, the platform you play on (Steam, iPhone/iPad or Android) and roughly when you started playing.
-          <div class="copy-field" style="margin-top:.8rem"><code>{{ email }}</code><button type="button" data-copy="{{ email }}">Copy</button></div>
+          <div style="margin-top:.8rem">{% include support-email.html %}</div>
         </div></li>
         <li><div><strong>Confirm it&rsquo;s you</strong>We reply with a short code, such as <em>Pilot4821</em>. Change your display name in the game (Profile &rarr; name) to that code and tell us. That shows us the request comes from the account&rsquo;s owner.</div></li>
         <li><div><strong>We delete it</strong>We delete your account and data within {% include ph.html value=legal.deletion_time label="RESPONSE TIME" %} and email you when it&rsquo;s done.</div></li>

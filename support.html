@@ -4,7 +4,6 @@ description: Contact the Cosmic Shore team, report a bug or report another playe
 image: /assets/images/Image%20Sequence_019_0002.jpg
 ---
 {%- assign legal = site.data.legal -%}
-{%- assign email = legal.support_email -%}
 {% include page-hero.html image=page.image label="Support" title='Need a Hand, <span class="gradient-text">Pilot?</span>' lede="Questions, bugs, account trouble, or another player ruining the fun. Here&rsquo;s how to reach the Froglet team." %}
 
 <section class="page-section">
@@ -12,14 +11,9 @@ image: /assets/images/Image%20Sequence_019_0002.jpg
     <article class="glass-card" id="contact">
       <h3>Contact Support</h3>
       <p>Email us about anything: account problems, feedback or questions about the game.</p>
-      <div class="copy-field">
-        <code>{{ email }}</code>
-        <button type="button" data-copy="{{ email }}">Copy</button>
-      </div>
+      {% include support-email.html %}
       <p>We reply within {% include ph.html value=legal.support_reply_time label="RESPONSE TIME" %}.</p>
-      <div class="card-actions">
-        <a href="mailto:{{ email }}?subject=Cosmic%20Shore%20support" class="btn-neon">Email Support</a>
-      </div>
+      {% include support-email.html subject="Cosmic Shore support" label="Email Support" only_button=true %}
     </article>
 
     <article class="glass-card" id="report-player">
@@ -31,9 +25,7 @@ image: /assets/images/Image%20Sequence_019_0002.jpg
         <li>What they did</li>
         <li>A screenshot or clip, if you have one</li>
       </ul>
-      <div class="card-actions">
-        <a href="mailto:{{ email }}?subject=Player%20report" class="btn-neon">Report a Player</a>
-      </div>
+      {% include support-email.html subject="Player report" label="Report a Player" only_button=true %}
     </article>
 
     <article class="glass-card" id="bug">
@@ -45,9 +37,7 @@ image: /assets/images/Image%20Sequence_019_0002.jpg
         <li>A screenshot or clip, if you have one</li>
       </ul>
       <p>The bug report button in the game&rsquo;s Settings brings you here.</p>
-      <div class="card-actions">
-        <a href="mailto:{{ email }}?subject=Bug%20report" class="btn-neon">Email a Bug Report</a>
-      </div>
+      {% include support-email.html subject="Bug report" label="Email a Bug Report" only_button=true %}
     </article>
 
     <article class="glass-card" id="data">

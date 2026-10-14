@@ -1,0 +1,16 @@
+{%- comment -%}
+  The support address. Default: a copyable field. With only_button=true: just a mailto button
+  (params: subject, label). While _data/legal.yml has no support_email, the field renders a
+  placeholder and the button renders nothing.
+{%- endcomment -%}
+{%- assign email = site.data.legal.support_email -%}
+{%- assign has_email = false -%}{%- if email and email != "" -%}{%- assign has_email = true -%}{%- endif -%}
+{%- if include.only_button -%}
+  {%- if has_email %}
+<div class="card-actions"><a href="mailto:{{ email }}?subject={{ include.subject | uri_escape }}" class="btn-neon">{{ include.label }}</a></div>
+  {%- endif -%}
+{%- elsif has_email -%}
+<div class="copy-field"><code>{{ email }}</code><button type="button" data-copy="{{ email }}">Copy</button></div>
+{%- else -%}
+<p><span class="ph">SUPPORT EMAIL</span></p>
+{%- endif -%}
