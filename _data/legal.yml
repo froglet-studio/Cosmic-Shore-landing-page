@@ -1,0 +1,18 @@
+# Business and legal facts used by /privacy, /support and /delete-my-data.
+# An empty value renders as a pink placeholder on the page, so nothing is ever invented.
+# Fill these from the owner/counsel, then remove nothing else.
+
+entity: ""                 # legal entity name, e.g. "Froglet Inc."
+address: ""                # postal address
+store_developer_name: ""   # developer name exactly as shown on Google Play / the App Store
+effective_date: ""         # e.g. "November 1, 2026"
+updated_date: ""           # last-updated date shown under the title
+privacy_email: ""          # privacy contact address
+eu_representative: ""      # EU/UK representative, if one is appointed; leave empty if none
+support_email: support@frogletgames.zendesk.com   # the address the game already uses (to confirm)
+support_reply_time: ""     # e.g. "2 business days"
+deletion_time: ""          # e.g. "30 days"
+support_desk: ""           # support-desk provider named in the privacy policy, e.g. "Zendesk"
+analytics_retention: ""    # how long gameplay analytics are kept (UGS + PostHog), e.g. "24 months"
+crash_retention: ""        # Unity Cloud Diagnostics retention
+support_retention: ""      # how long support emails are kept

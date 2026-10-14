@@ -1,0 +1,174 @@
+---
+title: Privacy Policy — Cosmic Shore
+description: What Cosmic Shore collects, why, who processes it, and how to turn it off or have it deleted.
+image: /assets/images/Image%20Sequence_029_0001.jpg
+---
+{%- assign legal = site.data.legal -%}
+{%- capture privacy_email -%}{% include ph.html value=legal.privacy_email label="PRIVACY CONTACT EMAIL" %}{%- endcapture -%}
+{%- capture entity -%}{% include ph.html value=legal.entity label="LEGAL ENTITY NAME" %}{%- endcapture -%}
+{%- capture address -%}{% include ph.html value=legal.address label="POSTAL ADDRESS" %}{%- endcapture -%}
+{%- capture meta -%}
+<span>Effective {% include ph.html value=legal.effective_date label="EFFECTIVE DATE" %}</span>
+<span>Last updated {% include ph.html value=legal.updated_date label="DATE" %}</span>
+<span>Game on Steam, iOS &amp; Android, and this website</span>
+{%- endcapture -%}
+{% include page-hero.html image=page.image label="Legal" title='Privacy <span class="gradient-text">Policy</span>' lede="What Cosmic Shore collects, why, who handles it for us, and how you can switch it off or have it deleted." meta=meta %}
+
+<div class="doc">
+  <nav class="doc-toc" aria-label="On this page">
+    <span class="doc-toc-title">On this page</span>
+    <a href="#short">The short version</a>
+    <a href="#who">Who we are</a>
+    <a href="#collect">What we collect</a>
+    <a href="#consent">Analytics and your consent</a>
+    <a href="#children">Children</a>
+    <a href="#use">How we use it</a>
+    <a href="#share">Who handles it</a>
+    <a href="#retention">How long we keep it</a>
+    <a href="#rights">Your choices and rights</a>
+    <a href="#website">This website</a>
+    <a href="#transfers">International transfers</a>
+    <a href="#security">Security</a>
+    <a href="#changes">Changes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="doc-body">
+    <section id="short">
+      <h2>The short version</h2>
+      <div class="summary">
+        <div class="summary-item"><b>Analytics only with your OK</b><p>Gameplay analytics and crash reports switch on only if you&rsquo;re 13 or older and you agree. You can turn them off any time in Settings.</p></div>
+        <div class="summary-item"><b>Your display name is public</b><p>Other players can see the display name and avatar you pick, in parties, friend lists and leaderboards.</p></div>
+        <div class="summary-item"><b>No ads, no selling</b><p>The game has no ads and no ad tracking. We don&rsquo;t sell your data.</p></div>
+        <div class="summary-item"><b>Delete any time</b><p>Ask us to delete your account and data from the <a href="/delete-my-data">Delete My Data</a> page.</p></div>
+      </div>
+    </section>
+
+    <section id="who">
+      <h2>Who we are</h2>
+      <p>Cosmic Shore is made by {{ entity }} (&ldquo;Froglet&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;), {{ address }}. We are the controller of the personal data described here.</p>
+      <p>Questions about privacy: {{ privacy_email }}.{% if legal.eu_representative != "" %} Our EU/UK representative is {{ legal.eu_representative }}.{% endif %}</p>
+    </section>
+
+    <section id="collect">
+      <h2>What we collect</h2>
+      <p>The game runs on <strong>Unity Gaming Services</strong> from Unity Technologies. There&rsquo;s no sign-up: the first time you open the game, it creates an account for you automatically.</p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>What</th><th>Details</th><th>When</th></tr></thead>
+          <tbody>
+            <tr><td>Player account</td><td>A random player ID and sign-in token created on first launch. No email, phone number or password.</td><td><span class="chip chip-dim">Always</span></td></tr>
+            <tr><td>Display name and avatar</td><td>The name and avatar you choose. Other players can see them, and other players can search names to check one isn&rsquo;t taken.</td><td><span class="chip chip-pink">Always &middot; public</span></td></tr>
+            <tr><td>Saved progress</td><td>Your profile (crystals earned and spent, rewards, unlocked vessels, games completed, flight time, number of sessions, first and last played, game version and platform), mode progress, weekly challenges, quests, loadouts and settings.</td><td><span class="chip chip-dim">Always</span></td></tr>
+            <tr><td>Friends and parties</td><td>Friends, friend requests and blocks; your online status (including which part of the game you&rsquo;re in and your vessel); party invites and party membership.</td><td><span class="chip chip-dim">While online</span></td></tr>
+            <tr><td>Leaderboards</td><td>Your weekly-challenge completion time, shown with your display name and avatar to all players.</td><td><span class="chip chip-dim">When you finish a challenge</span></td></tr>
+            <tr><td>Connection data</td><td>Your IP address, which Unity&rsquo;s servers see when they connect you to other players.</td><td><span class="chip chip-dim">While online</span></td></tr>
+            <tr><td>Gameplay analytics</td><td>Events such as sessions, modes played and results, menu use, settings changes, and social actions (for example, sending a friend request, including the other player&rsquo;s ID). Sent with your player ID, a random install ID, game version and platform. Your display name, avatar, crystal balance and progress totals are attached as profile details.</td><td><span class="chip chip-lime">Only with consent, 13+</span></td></tr>
+            <tr><td>Crash reports</td><td>Error details, the last few lines of the game log, and device details (graphics card, processor, memory, operating system, game version). No player ID.</td><td><span class="chip chip-lime">Only with consent, 13+</span></td></tr>
+            <tr><td>Hardware statistics</td><td>The Unity engine reports basic hardware information (such as graphics card, operating system and memory) when the game starts.</td><td><span class="chip chip-dim">Always</span></td></tr>
+            <tr><td>Support messages</td><td>Whatever you send us when you contact support, plus your email address.</td><td><span class="chip chip-dim">When you write to us</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The game also keeps some data <strong>on your device</strong>: your settings, your consent and age answers, a copy of your saved progress, and any analytics waiting to be sent.</p>
+      <p>We do <strong>not</strong> collect your precise location, contacts, photos, camera or microphone, and the game has no voice or text chat, no ads and no in-app purchases.</p>
+    </section>
+
+    <section id="consent">
+      <h2>Analytics and your consent</h2>
+      <p>The first time you play, the game asks for your birth year. If you&rsquo;re 13 or older, it then asks whether you&rsquo;re happy to share gameplay analytics. We keep only your answers (13+ or not, yes or no), not your birth year.</p>
+      <ul>
+        <li>If you agree, the game sends analytics to <strong>Unity Analytics</strong> and to <strong>PostHog</strong> (on PostHog&rsquo;s EU servers), and turns on <strong>crash reports</strong> through Unity Cloud Diagnostics.</li>
+        <li>If you say no, or you&rsquo;re under 13, none of this is sent. Nothing is saved up to send later.</li>
+        <li>To change your mind, open <strong>Settings &rarr; General &rarr; Analytics</strong>. Turning it off stops collection straight away and throws away anything not yet sent.</li>
+      </ul>
+      <div class="callout">
+        <span class="callout-label">Turning analytics off isn&rsquo;t deleting</span>
+        <p>Turning analytics off stops new data. To remove what was already sent, ask us to <a href="/delete-my-data">delete your data</a>.</p>
+      </div>
+    </section>
+
+    <section id="children">
+      <h2>Children</h2>
+      <p>Cosmic Shore is not directed at children under 13. Players who tell us they&rsquo;re under 13 never send gameplay analytics or crash reports.</p>
+      <p>Players under 13 can still play, so the game still creates their account and saves their progress, and the display name they choose is visible to other players. If you&rsquo;re a parent and want your child&rsquo;s account deleted, use the <a href="/delete-my-data">Delete My Data</a> page or email {{ privacy_email }}.</p>
+    </section>
+
+    <section id="use">
+      <h2>How we use it</h2>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Purpose</th><th>Data</th><th>Legal basis (EU/UK)</th></tr></thead>
+          <tbody>
+            <tr><td>Run the game and your account</td><td>Account, saved progress, display name</td><td>Contract</td></tr>
+            <tr><td>Multiplayer, friends, parties, leaderboards</td><td>Display name, avatar, friends, connection data, leaderboard times</td><td>Contract</td></tr>
+            <tr><td>Improve the game</td><td>Gameplay analytics</td><td>Consent</td></tr>
+            <tr><td>Fix crashes and bugs</td><td>Crash reports</td><td>Consent</td></tr>
+            <tr><td>Answer support requests and moderate abuse</td><td>Support messages, display names, reports</td><td>Legitimate interests</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><span class="ph">COUNSEL TO CONFIRM LEGAL BASES</span></p>
+    </section>
+
+    <section id="share">
+      <h2>Who handles it</h2>
+      <p>We don&rsquo;t sell your personal data. These companies process it for us, under their data processing terms:</p>
+      <ul>
+        <li><strong>Unity Technologies</strong>: accounts, player names, Cloud Save, Friends, multiplayer and Relay, Leaderboards, Analytics and Cloud Diagnostics.</li>
+        <li><strong>PostHog</strong>: gameplay analytics, stored on PostHog&rsquo;s EU cloud.</li>
+        <li>{% include ph.html value=legal.support_desk label="SUPPORT DESK PROVIDER" %}: support emails.</li>
+        <li><strong>Google</strong>: analytics and ad measurement on this website only (see <a href="#website">This website</a>).</li>
+        <li><strong>Apple, Google and Valve</strong> deliver the game through their stores and handle anything you do in their store under their own privacy policies.</li>
+      </ul>
+      <p>We may also disclose data if the law requires it, or to protect players and the game from fraud or abuse.</p>
+    </section>
+
+    <section id="retention">
+      <h2>How long we keep it</h2>
+      <ul>
+        <li><strong>Account, saved progress, friends, leaderboard entries:</strong> until you ask us to delete them.</li>
+        <li><strong>Gameplay analytics:</strong> {% include ph.html value=legal.analytics_retention label="RETENTION PERIOD" %}, or until you ask us to delete it.</li>
+        <li><strong>Crash reports:</strong> {% include ph.html value=legal.crash_retention label="RETENTION PERIOD" %}.</li>
+        <li><strong>Support messages:</strong> {% include ph.html value=legal.support_retention label="RETENTION PERIOD" %}.</li>
+      </ul>
+    </section>
+
+    <section id="rights">
+      <h2>Your choices and rights</h2>
+      <ul>
+        <li><strong>Turn off analytics:</strong> Settings &rarr; General &rarr; Analytics.</li>
+        <li><strong>Delete your account and data:</strong> see <a href="/delete-my-data">Delete My Data</a>. Uninstalling the game doesn&rsquo;t delete your account.</li>
+        <li><strong>Access, correct, export or object:</strong> depending on where you live (for example under the EU/UK GDPR or California law), you can ask for a copy of your data, ask us to fix it, or object to how we use it. Email {{ privacy_email }}. We won&rsquo;t treat you differently for asking.</li>
+        <li><strong>Complain:</strong> if you&rsquo;re in the EU or UK, you can also complain to your local data protection authority.</li>
+      </ul>
+    </section>
+
+    <section id="website">
+      <h2>This website</h2>
+      <p>www.froglet.games uses Google Tag Manager, Google Analytics and the Google Ads tag to count visits and measure our ad campaigns. These set cookies and send Google your IP address, browser details and the pages you visit. The trailer on the home page is a YouTube video; YouTube loads only when you press play.</p>
+      <p>You can block or delete cookies in your browser, and opt out of Google Analytics with Google&rsquo;s browser add-on.</p>
+    </section>
+
+    <section id="transfers">
+      <h2>International transfers</h2>
+      <p>Unity processes data in the United States and other countries; PostHog stores our analytics in the EU. Where the law requires it, transfers are protected by safeguards such as the EU Standard Contractual Clauses. <span class="ph">COUNSEL TO CONFIRM</span></p>
+    </section>
+
+    <section id="security">
+      <h2>Security</h2>
+      <p>Data is encrypted in transit between the game and our providers, and access to our dashboards is limited to the team members who need it. No system is perfectly secure, so please tell us if you think something is wrong.</p>
+    </section>
+
+    <section id="changes">
+      <h2>Changes</h2>
+      <p>If we change this policy we&rsquo;ll update the date at the top. If a change affects what we collect or how we use it, we&rsquo;ll tell you in the game before it takes effect.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>{{ entity }} &middot; {{ address }} &middot; {{ privacy_email }}</p>
+      <p>For anything else, see <a href="/support">Support</a>.</p>
+    </section>
+  </div>
+</div>

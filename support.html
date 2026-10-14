@@ -1,0 +1,85 @@
+---
+title: Support — Cosmic Shore
+description: Contact the Cosmic Shore team, report a bug or report another player.
+image: /assets/images/Image%20Sequence_019_0002.jpg
+---
+{%- assign legal = site.data.legal -%}
+{%- assign email = legal.support_email -%}
+{% include page-hero.html image=page.image label="Support" title='Need a Hand, <span class="gradient-text">Pilot?</span>' lede="Questions, bugs, account trouble, or another player ruining the fun. Here&rsquo;s how to reach the Froglet team." %}
+
+<section class="page-section">
+  <div class="card-grid two">
+    <article class="glass-card" id="contact">
+      <h3>Contact Support</h3>
+      <p>Email us about anything: account problems, feedback or questions about the game.</p>
+      <div class="copy-field">
+        <code>{{ email }}</code>
+        <button type="button" data-copy="{{ email }}">Copy</button>
+      </div>
+      <p>We reply within {% include ph.html value=legal.support_reply_time label="RESPONSE TIME" %}.</p>
+      <div class="card-actions">
+        <a href="mailto:{{ email }}?subject=Cosmic%20Shore%20support" class="btn-neon">Email Support</a>
+      </div>
+    </article>
+
+    <article class="glass-card" id="report-player">
+      <h3>Report a Player</h3>
+      <p>Cheating, harassment, or an offensive name? Tell us who and what happened. Please include:</p>
+      <ul>
+        <li>Their display name, exactly as shown in the game</li>
+        <li>The mode, and roughly when it happened (with your time zone)</li>
+        <li>What they did</li>
+        <li>A screenshot or clip, if you have one</li>
+      </ul>
+      <div class="card-actions">
+        <a href="mailto:{{ email }}?subject=Player%20report" class="btn-neon">Report a Player</a>
+      </div>
+    </article>
+
+    <article class="glass-card" id="bug">
+      <h3>Report a Bug</h3>
+      <p>Found something broken? Email us and include:</p>
+      <ul>
+        <li>Your device and operating system</li>
+        <li>What you were doing, and what happened instead</li>
+        <li>A screenshot or clip, if you have one</li>
+      </ul>
+      <p>The bug report button in the game&rsquo;s Settings brings you here.</p>
+      <div class="card-actions">
+        <a href="mailto:{{ email }}?subject=Bug%20report" class="btn-neon">Email a Bug Report</a>
+      </div>
+    </article>
+
+    <article class="glass-card" id="data">
+      <h3>Your Data</h3>
+      <p>See exactly what Cosmic Shore collects and why, turn analytics off in the game, or ask us to delete your account and everything tied to it.</p>
+      <div class="card-actions">
+        <a href="/privacy">Privacy Policy &rarr;</a>
+        <a href="/delete-my-data">Delete My Data &rarr;</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="page-section">
+  <span class="section-label">Quick Answers</span>
+  <h2>Before You <span class="gradient-text">Write In</span></h2>
+  <div class="faq">
+    <details>
+      <summary>How do I turn off analytics?</summary>
+      <p>Open <strong>Settings &rarr; General &rarr; Analytics</strong> in the game and switch analytics off. We stop collecting gameplay analytics from that moment. The game works the same either way.</p>
+    </details>
+    <details>
+      <summary>How do I delete my account and data?</summary>
+      <p>Follow the steps on the <a href="/delete-my-data">Delete My Data</a> page. Uninstalling the game does not delete your account.</p>
+    </details>
+    <details>
+      <summary>Someone has an offensive display name. What do I do?</summary>
+      <p>Use <a href="#report-player">Report a Player</a> and copy the name exactly as it appears. We review every report.</p>
+    </details>
+    <details>
+      <summary>Where can I talk to other pilots?</summary>
+      <p>Join the <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer">Cosmic Shore Discord</a>. The dev team posts news and playtest calls there first. Discord is a community space; for account or privacy requests, please email support so we can check it&rsquo;s you.</p>
+    </details>
+  </div>
+</section>

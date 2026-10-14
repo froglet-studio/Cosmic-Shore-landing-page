@@ -1,0 +1,70 @@
+---
+title: Delete My Data — Cosmic Shore
+description: How to delete your Cosmic Shore account and data, what gets deleted, and how long it takes.
+image: /assets/images/Image%20Sequence_016_0005.jpg
+---
+{%- assign legal = site.data.legal -%}
+{%- assign email = legal.support_email -%}
+{%- capture lede -%}You can ask us to delete your <strong>Cosmic Shore</strong> account, and everything tied to it, at any time. Cosmic Shore is published by {% include ph.html value=legal.store_developer_name label="DEVELOPER NAME AS SHOWN ON GOOGLE PLAY" %}.{%- endcapture -%}
+{% include page-hero.html image=page.image label="Your Data" title='Delete Your <span class="gradient-text">Account &amp; Data</span>' lede=lede %}
+
+<div class="doc">
+  <nav class="doc-toc" aria-label="On this page">
+    <span class="doc-toc-title">On this page</span>
+    <a href="#request">How to ask</a>
+    <a href="#deleted">What we delete</a>
+    <a href="#kept">What we keep</a>
+    <a href="#analytics-only">Just analytics?</a>
+  </nav>
+
+  <div class="doc-body">
+    <section id="request">
+      <h2>How to ask</h2>
+      <ol class="steps">
+        <li><div><strong>Note your display name</strong>It&rsquo;s shown on your profile in the game. Display names are unique, so this is how we find your account.</div></li>
+        <li><div><strong>Email us</strong>Send it to the address below with the subject <em>Delete my data</em>. Include your display name, the platform you play on (Steam, iPhone/iPad or Android) and roughly when you started playing.
+          <div class="copy-field" style="margin-top:.8rem"><code>{{ email }}</code><button type="button" data-copy="{{ email }}">Copy</button></div>
+        </div></li>
+        <li><div><strong>Confirm it&rsquo;s you</strong>We reply with a short code, such as <em>Pilot4821</em>. Change your display name in the game (Profile &rarr; name) to that code and tell us. That shows us the request comes from the account&rsquo;s owner.</div></li>
+        <li><div><strong>We delete it</strong>We delete your account and data within {% include ph.html value=legal.deletion_time label="RESPONSE TIME" %} and email you when it&rsquo;s done.</div></li>
+      </ol>
+      <div class="callout">
+        <span class="callout-label">Uninstalling isn&rsquo;t deleting</span>
+        <p>Removing the game from your device clears what&rsquo;s stored on that device, but your account and saved progress stay on our servers until you ask us to delete them.</p>
+      </div>
+    </section>
+
+    <section id="deleted">
+      <h2>What we delete</h2>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Data</th><th>Includes</th></tr></thead>
+          <tbody>
+            <tr><td>Player account</td><td>Your player ID, sign-in and display name.</td></tr>
+            <tr><td>Saved progress</td><td>Everything saved to your account: profile, crystals, rewards, unlocked vessels, stats, mode progress, challenges, quests, loadouts and settings.</td></tr>
+            <tr><td>Friends</td><td>Your friend list, friend requests and blocks.</td></tr>
+            <tr><td>Leaderboards</td><td>Your weekly-challenge entries, including past weeks.</td></tr>
+            <tr><td>Analytics</td><td>Gameplay analytics linked to your player ID or install ID, in Unity Analytics and PostHog.</td></tr>
+            <tr><td>Support history</td><td>Your support emails, after {% include ph.html value=legal.support_retention label="RETENTION PERIOD" %}.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Deletion is permanent. If you open the game again afterwards, it starts a brand-new account.</p>
+    </section>
+
+    <section id="kept">
+      <h2>What we keep</h2>
+      <ul>
+        <li><strong>Totals that can&rsquo;t identify you</strong>, such as how many games were played in a week.</li>
+        <li><strong>Crash reports</strong> don&rsquo;t contain your player ID, so we can&rsquo;t match them to you. They are deleted after {% include ph.html value=legal.crash_retention label="RETENTION PERIOD" %}.</li>
+        <li><strong>Other players&rsquo; records</strong> may still show your player ID where you interacted with them, for example a friend request you sent. <span class="ph">CONFIRM: SCRUB OR KEEP</span></li>
+        <li><strong>Anything the law requires us to keep</strong>, for as long as it requires.</li>
+      </ul>
+    </section>
+
+    <section id="analytics-only">
+      <h2>Just want to stop analytics?</h2>
+      <p>You don&rsquo;t need to delete your account. In the game, open <strong>Settings &rarr; General &rarr; Analytics</strong> and switch it off. See the <a href="/privacy">Privacy Policy</a> for what that covers.</p>
+    </section>
+  </div>
+</div>
