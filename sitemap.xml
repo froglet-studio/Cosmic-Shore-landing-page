@@ -11,6 +11,7 @@ layout: null
   </url>
   {%- for p in site.html_pages %}
   {%- if p.url == "/" or p.url == "/index.html" or p.sitemap == false or p.url == "/404.html" %}{% continue %}{% endif %}
+  {%- if p.url == "/play.html" and site.data.toybox.build_root == "" %}{% continue %}{% endif %}
   <url>
     <loc>{{ p.url | replace: ".html", "" | absolute_url }}</loc>
     <changefreq>monthly</changefreq>

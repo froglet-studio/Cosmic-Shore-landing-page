@@ -10,7 +10,7 @@
     {%- if site.posts.size > 0 %}
     <a href="/blog/"{% if page.url contains "/blog/" %} aria-current="page"{% endif %}>Blog</a>
     {%- endif %}
-    {%- if site.play_enabled %}
+    {%- if site.data.toybox.build_root != "" %}
     <a href="/play"{% if page.url == "/play.html" %} aria-current="page"{% endif %}>Play in Browser</a>
     {%- endif %}
     <a href="{{ home }}#platforms" class="btn-neon">Get the Game</a>

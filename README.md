@@ -18,6 +18,8 @@ GitHub Pages builds the site with **Jekyll** on every push to `main`. There is n
 ├── support.html          # /support        — contact, report a player, report a bug
 ├── delete-my-data.html   # /delete-my-data — account deletion (the Google Play deletion URL)
 ├── blog/index.html       # /blog/          — dev blog index (RSS at /blog/feed.xml)
+├── play.html             # /play           — the browser Toybox loader (dark until _data/toybox.yml has a build_root)
+├── _data/toybox.yml      # where the Toybox build lives on the CDN, and the /play UTM campaign
 ├── _posts/               # published blog posts (Markdown)
 ├── _drafts/              # unpublished drafts
 ├── _data/stores.yml      # store IDs: Steam, App Store, Google Play, TestFlight, Discord
@@ -51,6 +53,8 @@ Your post in Markdown.
 The post appears at `/blog/your-slug/`. The **Blog** link in the menu and footer, and the home page's blog section, appear automatically once the first post is published. To publish a draft, move it from `_drafts/` to `_posts/` and add the date to its file name.
 
 **Turn on a store button.** Fill in the value in `_data/stores.yml`: `steam_app_id`, `app_store_id` (plus `app_store_pt`) or `google_play_live: true`. That card switches from "Coming soon" to a live, UTM-tagged link. The tags follow `Docs/Analytics/utm-conventions.md` in the game repo.
+
+**Turn on the browser Toybox.** Set `build_root` in `_data/toybox.yml` to the CDN folder the game's upload step writes, e.g. `https://play.froglet.games/toybox`. That folder must hold `latest.json` (`loader`, `data`, `framework`, `code`, `streamingAssets`, `version`, `bytes`) and the `Build/` files. It must also be served with the right `Content-Encoding`/`Content-Type` for Unity's compressed files and with CORS allowing `https://www.froglet.games`. `/play` then shows the launch button, and "Play in Browser" appears in the menu and as a fourth store card. While `build_root` is empty, `/play` says "Taking Off Soon", is `noindex` and stays out of the menu and sitemap.
 
 **Fill a legal placeholder.** Pink boxed text on `/privacy`, `/support` or `/delete-my-data` is a value missing from `_data/legal.yml`. Fill the value there and the placeholder disappears. A few markers that only counsel can resolve are written inline in the page (search for `class="ph"`).
 

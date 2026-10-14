@@ -19,9 +19,6 @@ plugins:
 feed:
   path: blog/feed.xml
 
-# The Toybox page (/play) stays off the menus until the WebGL build is hosted.
-play_enabled: false
-
 exclude:
   - README.md
   - Gemfile

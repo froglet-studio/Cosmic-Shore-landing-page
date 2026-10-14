@@ -3,7 +3,7 @@
   until then it reads "Coming soon". Params: source / campaign for UTM tagging (see store-urls.html).
 {%- endcomment -%}
 {%- include store-urls.html source=include.source campaign=include.campaign -%}
-{%- assign cols = 3 -%}{%- if site.play_enabled -%}{%- assign cols = 4 -%}{%- endif -%}
+{%- assign cols = 3 -%}{%- if site.data.toybox.build_root != "" -%}{%- assign cols = 4 -%}{%- endif -%}
 <div class="platform-grid cols-{{ cols }}">
   {%- if steam_url != "" %}
   <a class="glass-card platform-card reveal" href="{{ steam_url }}" target="_blank" rel="noopener noreferrer">
@@ -51,7 +51,7 @@
   </div>
   {%- endif %}
 
-  {%- if site.play_enabled %}
+  {%- if site.data.toybox.build_root != "" %}
   <a class="glass-card platform-card reveal reveal-d3" href="/play">
     <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.8 2.6 4.2 5.8 4.2 9.5s-1.4 6.9-4.2 9.5c-2.8-2.6-4.2-5.8-4.2-9.5S9.2 5.1 12 2.5z"/></svg>
     <span class="platform-name">Browser</span>
