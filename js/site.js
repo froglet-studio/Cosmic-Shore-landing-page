@@ -104,6 +104,31 @@
     });
   });
 
+  // ── Cookie choice (Consent Mode v2; defaults are set in the page head) ──
+  const consent = document.getElementById('consent');
+  if (consent) {
+    let stored = null;
+    try { stored = localStorage.getItem('fg_consent'); } catch (e) { stored = null; }
+    if (stored !== 'granted' && stored !== 'denied') consent.hidden = false;
+    consent.querySelectorAll('[data-consent]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const c = btn.getAttribute('data-consent');
+        try { localStorage.setItem('fg_consent', c); } catch (e) { /* choice applies to this page view only */ }
+        if (typeof window.gtag === 'function') {
+          window.gtag('consent', 'update', { ad_storage: c, ad_user_data: c, ad_personalization: c, analytics_storage: c });
+        }
+        consent.hidden = true;
+      });
+    });
+    document.querySelectorAll('[data-consent-open]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        consent.hidden = false;
+        const first = consent.querySelector('[data-consent]');
+        if (first) first.focus();
+      });
+    });
+  }
+
   // ── Contents rail highlight ───────────────────────────────
   const tocLinks = document.querySelectorAll('.doc-toc a[href^="#"]');
   if (tocLinks.length && 'IntersectionObserver' in window) {

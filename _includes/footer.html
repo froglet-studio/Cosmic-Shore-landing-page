@@ -12,5 +12,15 @@
     <a href="/privacy">Privacy</a>
     <a href="/delete-my-data">Delete My Data</a>
     <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer">Discord</a>
+    <button type="button" class="footer-link-btn" data-consent-open>Cookie Settings</button>
   </nav>
 </footer>
+
+<!-- COOKIE CHOICE (shown until the visitor picks; reopened from the footer) -->
+<div class="consent" id="consent" role="region" aria-label="Cookie choices" hidden>
+  <p>We use Google cookies to count visits and measure our ads. You choose whether they run. <a href="/privacy#website">Details</a></p>
+  <div class="consent-actions">
+    <button type="button" class="consent-btn" data-consent="denied">Reject</button>
+    <button type="button" class="consent-btn" data-consent="granted">Accept</button>
+  </div>
+</div>

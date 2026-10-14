@@ -1,3 +1,28 @@
+<!-- Consent Mode v2. Must run before any Google tag. In the EEA, UK and Switzerland, Google
+     storage stays denied until the visitor accepts; elsewhere it is granted until they reject.
+     The banner (_includes/footer.html, js/site.js) saves the choice as fg_consent in localStorage. -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied',
+    wait_for_update: 500,
+    region: ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH']
+  });
+  gtag('consent', 'default', {
+    ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted'
+  });
+  gtag('set', 'ads_data_redaction', true);
+  (function () {
+    try {
+      var c = localStorage.getItem('fg_consent');
+      if (c === 'granted' || c === 'denied') {
+        gtag('consent', 'update', { ad_storage: c, ad_user_data: c, ad_personalization: c, analytics_storage: c });
+      }
+    } catch (e) {}
+  })();
+</script>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -9,8 +34,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Global site tag (gtag.js) — Google Ads + GA4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10820982312"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'AW-10820982312');
   gtag('config', 'G-JL9BE6E3TY');
