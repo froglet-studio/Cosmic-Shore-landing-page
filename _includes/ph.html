@@ -1,0 +1,5 @@
+{%- comment -%}
+  A business/legal value from _data/legal.yml. Empty values render as a visible placeholder so
+  nothing on a legal page is ever invented. Usage: {% include ph.html value=site.data.legal.entity label="LEGAL ENTITY NAME" %}
+{%- endcomment -%}
+{%- if include.value and include.value != "" -%}{{ include.value }}{%- else -%}<span class="ph">{{ include.label }}</span>{%- endif -%}

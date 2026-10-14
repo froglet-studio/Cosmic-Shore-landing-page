@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{%- assign page_title = page.title | default: site.title %}
+{%- assign page_desc = page.description | default: site.description %}
+{%- assign canonical = page.url | replace: ".html", "" | absolute_url %}
+{%- assign og_image = page.image | default: "/assets/images/Image%20Sequence_030_0008.jpg" | absolute_url %}
+<title>{{ page_title }}</title>
+<link rel="canonical" href="{{ canonical }}">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicon-32.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/assets/branding/favicon-256.png">
+<meta name="description" content="{{ page_desc | escape }}">
+<meta name="theme-color" content="#0a0a1a">
+{%- if page.robots %}
+<meta name="robots" content="{{ page.robots }}">
+{%- endif %}
+
+<!-- Open Graph -->
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Cosmic Shore">
+<meta property="og:title" content="{{ page_title | escape }}">
+<meta property="og:description" content="{{ page_desc | escape }}">
+<meta property="og:image" content="{{ og_image }}">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title | escape }}">
+<meta name="twitter:description" content="{{ page_desc | escape }}">
+<meta name="twitter:image" content="{{ og_image }}">
+{% feed_meta %}
+
+<!-- Preconnect hints -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+
+{% include analytics-head.html %}
+
+<link rel="stylesheet" href="/css/design-3-hyperdrive.css">
+<link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+
+{% include analytics-body.html %}
+
+<!-- ANIMATED STAR FIELD -->
+<div class="stars"><canvas id="starfield"></canvas></div>
+
+{% include topbar.html %}
+
+<main{% if page.content_width %} style="--content: {{ page.content_width }}"{% endif %}>
+{{ content }}
+</main>
+
+{% include footer.html %}
+
+<script src="/js/site.js"></script>
+</body>
+</html>

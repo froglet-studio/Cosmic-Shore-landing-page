@@ -1,0 +1,16 @@
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-brand">
+    <img src="/assets/branding/froglet-logo.png" alt="Froglet Games">
+    <span>&copy; {{ site.time | date: "%Y" }} Froglet Games. All rights reserved.</span>
+  </div>
+  <nav class="footer-links" aria-label="Footer">
+    {%- if site.posts.size > 0 %}
+    <a href="/blog/">Blog</a>
+    {%- endif %}
+    <a href="/support">Support</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/delete-my-data">Delete My Data</a>
+    <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer">Discord</a>
+  </nav>
+</footer>
