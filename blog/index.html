@@ -1,0 +1,49 @@
+---
+title: Dev Blog — Cosmic Shore
+description: Build notes, design deep-dives and patch notes from the team making Cosmic Shore.
+image: /assets/images/Image%20Sequence_023_0000.jpg
+---
+{%- capture meta -%}<a href="/blog/feed.xml" class="chip chip-cyan" style="text-decoration:none">RSS Feed</a>{%- endcapture -%}
+{% include page-hero.html image=page.image label="Dev Blog" title='Notes from <span class="gradient-text">the Hangar</span>' lede="Build notes, design deep-dives and patch notes from the team making Cosmic Shore." meta=meta %}
+
+<section class="page-section">
+{%- if site.posts.size == 0 %}
+  <article class="glass-card" style="max-width: 560px; margin: 0 auto; text-align: center; align-items: center">
+    <h3>First Post Incoming</h3>
+    <p>Build notes, design deep-dives and patch notes will land here. The Discord hears about them first.</p>
+    <div class="card-actions"><a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer" class="btn-neon">Join Discord</a></div>
+  </article>
+{%- else %}
+  {%- assign cats = site.posts | map: "category" | compact | uniq %}
+  {%- if cats.size > 1 %}
+  <div class="filter-row" role="group" aria-label="Filter posts">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    {%- for c in cats %}
+    <button type="button" data-filter="{{ c | slugify }}" aria-pressed="false">{{ c }}</button>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+
+  {% include post-card.html post=site.posts.first featured=true excerpt=true %}
+
+  {%- if site.posts.size > 1 %}
+  <div class="post-grid">
+    {%- for post in site.posts offset:1 %}
+    {% include post-card.html post=post excerpt=true %}
+    {%- endfor %}
+  </div>
+  {%- endif %}
+
+  <script>
+  (function () {
+    const buttons = document.querySelectorAll('.filter-row button');
+    const cards = document.querySelectorAll('[data-tag]');
+    buttons.forEach(b => b.addEventListener('click', () => {
+      buttons.forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+      const tag = b.dataset.filter;
+      cards.forEach(c => { c.hidden = tag !== 'all' && c.dataset.tag !== tag; });
+    }));
+  })();
+  </script>
+{%- endif %}
+</section>

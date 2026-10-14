@@ -1,0 +1,15 @@
+{%- comment -%} One blog post card. Params: post, featured (bool), delay (reveal-dN class). {%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign cat = p.category | default: "Dev Log" -%}
+{%- if cat == "Patch Notes" -%}{%- assign chip = "chip-pink" -%}{%- elsif cat == "Dev Log" -%}{%- assign chip = "chip-lime" -%}{%- else -%}{%- assign chip = "chip-cyan" -%}{%- endif -%}
+<a href="{{ p.url }}" class="post-card{% if include.featured %} post-featured{% endif %} reveal {{ include.delay }}" data-tag="{{ cat | slugify }}">
+  <div class="post-card-img"><img src="{{ p.image | default: '/assets/images/Image%20Sequence_025_0000.jpg' }}" alt="{{ p.image_alt | default: '' | escape }}" loading="lazy"></div>
+  <div class="post-card-body">
+    <div class="post-meta"><span class="chip {{ chip }}">{{ cat }}</span><time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %-d, %Y" }}</time></div>
+    <h3>{{ p.title }}</h3>
+    {%- if include.excerpt %}
+    <p>{{ p.description | default: p.excerpt | strip_html | truncatewords: 40 }}</p>
+    {%- endif %}
+    <span class="read-more">Read{% if include.featured %} the post{% endif %} &rarr;</span>
+  </div>
+</a>

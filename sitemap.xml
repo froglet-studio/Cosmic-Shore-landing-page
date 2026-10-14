@@ -1,9 +1,27 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.froglet.games/</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>{{ "/" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  {%- for p in site.html_pages %}
+  {%- if p.url == "/" or p.url == "/index.html" or p.sitemap == false or p.url == "/404.html" %}{% continue %}{% endif %}
+  <url>
+    <loc>{{ p.url | replace: ".html", "" | absolute_url }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {%- endfor %}
+  {%- for post in site.posts %}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <priority>0.7</priority>
+  </url>
+  {%- endfor %}
 </urlset>
