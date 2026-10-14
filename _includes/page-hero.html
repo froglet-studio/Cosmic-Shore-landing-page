@@ -1,0 +1,14 @@
+{%- comment -%} Short parallax hero for subpages. image: URL-encoded path; title may contain HTML. {%- endcomment -%}
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image: url('{{ include.image }}')"></div>
+  <div class="page-hero-inner">
+    <span class="section-label reveal">{{ include.label }}</span>
+    <h1 class="reveal reveal-d1">{{ include.title }}</h1>
+    {%- if include.lede %}
+    <p class="lede reveal reveal-d2">{{ include.lede }}</p>
+    {%- endif %}
+    {%- if include.meta %}
+    <div class="page-meta reveal reveal-d3">{{ include.meta }}</div>
+    {%- endif %}
+  </div>
+</section>

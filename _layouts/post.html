@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{%- assign words = content | number_of_words -%}
+{%- assign minutes = words | divided_by: 200 | at_least: 1 -%}
+{%- capture post_title -%}{{ page.title_html | default: page.title }}{%- endcapture -%}
+{%- capture post_meta -%}<span class="chip {% if page.category == 'Patch Notes' %}chip-pink{% elsif page.category == 'Dev Log' %}chip-lime{% else %}chip-cyan{% endif %}">{{ page.category | default: "Dev Log" }}</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time><span>{{ minutes }} min read</span>{%- endcapture -%}
+{%- capture back -%}<a href="/blog/" style="color:inherit;text-decoration:none">&larr; Dev Blog</a>{%- endcapture -%}
+{% include page-hero.html image=page.image label=back title=post_title meta=post_meta %}
+
+<article class="article">
+  <div class="author-row">
+    <div class="author-avatar" aria-hidden="true">FG</div>
+    <div><b>{{ page.author }}</b>{% if page.role %}<span>{{ page.role }}</span>{% endif %}</div>
+  </div>
+  <div class="prose" style="margin-top:2rem">
+{{ content }}
+  </div>
+
+  <div class="post-cta">
+    <h3>Fly it yourself</h3>
+    <p>Cosmic Shore is coming to Steam, iPhone and iPad, and Android.</p>
+    <div class="cta-finale-buttons">
+      <div class="btn-glow-wrap"><a href="/#platforms">Get the Game</a></div>
+      <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer" class="btn-ghost">Join Discord</a>
+    </div>
+  </div>
+</article>

@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,13 +20,13 @@
 <meta property="og:site_name" content="Cosmic Shore">
 <meta property="og:title" content="Cosmic Shore — The Party Game for Pilots">
 <meta property="og:description" content="Play with friends and find your favorite fly style. Master drift, unleash firepower, and chase glory on the galaxy's largest space station.">
-<meta property="og:image" content="https://www.froglet.games/assets/images/Image Sequence_030_0008.jpg">
+<meta property="og:image" content="https://www.froglet.games/assets/images/Image%20Sequence_030_0008.jpg">
 
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Cosmic Shore — The Party Game for Pilots">
 <meta name="twitter:description" content="Play with friends and find your favorite fly style. Master drift, unleash firepower, and chase glory on the galaxy's largest space station.">
-<meta name="twitter:image" content="https://www.froglet.games/assets/images/Image Sequence_030_0008.jpg">
+<meta name="twitter:image" content="https://www.froglet.games/assets/images/Image%20Sequence_030_0008.jpg">
 
 <!-- Structured Data -->
 <script type="application/ld+json">
@@ -34,16 +37,9 @@
   "url": "https://www.froglet.games/",
   "description": "The Party Game for Pilots. Master drift, unleash firepower, and chase glory on the galaxy's largest space station.",
   "genre": ["Party Game", "Action"],
-  "gamePlatform": "PC",
+  "gamePlatform": ["PC", "iOS", "Android"],
   "applicationCategory": "Game",
-  "operatingSystem": "Windows",
-  "offers": {
-    "@type": "Offer",
-    "url": "https://frogletgames.itch.io/cosmic-shore",
-    "availability": "https://schema.org/InStock",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
+  "operatingSystem": "Windows, iOS, Android",
   "publisher": {
     "@type": "Organization",
     "name": "Froglet Games",
@@ -59,48 +55,22 @@
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://www.youtube.com">
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NPL97RJ');</script>
-<!-- End Google Tag Manager -->
-
-<!-- Global site tag (gtag.js) — Google Ads + GA4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10820982312"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-10820982312');
-  gtag('config', 'G-JL9BE6E3TY');
-</script>
+{% include analytics-head.html %}
 
 <link rel="stylesheet" href="css/design-3-hyperdrive.css">
+<link rel="stylesheet" href="css/pages.css">
+{% feed_meta %}
 </head>
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPL97RJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+{% include analytics-body.html %}
 
 <!-- ANIMATED STAR FIELD -->
 <div class="stars">
   <canvas id="starfield"></canvas>
 </div>
 
-<!-- TOP BAR -->
-<div class="topbar" id="topbar">
-  <img src="assets/branding/froglet-logo.svg" alt="Froglet Games">
-  <nav class="topbar-nav">
-    <a href="#lore">Story</a>
-    <a href="#vessels">Vessels</a>
-    <a href="#modes">Modes</a>
-    <a href="https://frogletgames.itch.io/cosmic-shore" target="_blank" rel="noopener noreferrer" class="btn-neon">Play Now</a>
-  </nav>
-</div>
+{% include topbar.html %}
 
 <!-- HERO -->
 <section class="hero" id="hero">
@@ -113,9 +83,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="hero-desc reveal reveal-d2">Master drift, unleash firepower, and chase glory on the galaxy&rsquo;s largest space station.</p>
     <div class="hero-actions reveal reveal-d3">
       <div class="btn-glow-wrap">
-        <a href="https://frogletgames.itch.io/cosmic-shore" target="_blank" rel="noopener noreferrer">Play on Itch.io</a>
+        <a href="#platforms">Get the Game</a>
       </div>
-      <a href="https://discord.gg/wNfYVbJ9dR" target="_blank" rel="noopener noreferrer" class="btn-ghost">Join Discord</a>
+      <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer" class="btn-ghost">Join Discord</a>
     </div>
   </div>
 </section>
@@ -200,6 +170,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
+<!-- GET THE GAME -->
+<section class="section-full" id="platforms">
+  <div class="section-header">
+    <span class="section-label reveal">Get the Game</span>
+    <h2 class="section-title reveal reveal-d1">Choose Your <span class="gradient-text">Launch Pad</span></h2>
+  </div>
+  {% include platforms.html %}
+  <p class="reveal" style="text-align:center;margin-top:2rem;font-size:.9rem">Not on your platform yet? <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer" style="color:var(--cyan)">Join the Discord</a> for launch news.</p>
+</section>
+
+{% if site.posts.size > 0 -%}
+<!-- DEV BLOG -->
+<section class="section" id="devlog">
+  <div class="section-header">
+    <span class="section-label reveal">Dev Blog</span>
+    <h2 class="section-title reveal reveal-d1">Notes from <span class="gradient-text">the Hangar</span></h2>
+  </div>
+  <div class="post-grid">
+    {%- for post in site.posts limit:3 %}
+    {%- assign delay = forloop.index0 | prepend: "reveal-d" | replace: "reveal-d0", "" %}
+    {% include post-card.html post=post delay=delay %}
+    {%- endfor %}
+  </div>
+  <div class="reveal" style="text-align:center;margin-top:2.5rem"><a href="/blog/" class="btn-ghost">All Posts</a></div>
+</section>
+{%- endif %}
+
 <!-- CTA FINALE -->
 <section class="cta-finale">
   <div class="cta-finale-inner">
@@ -208,86 +205,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="reveal reveal-d2">The galaxy's greatest competition awaits. Pick your vessel, master your style, prove you belong.</p>
     <div class="cta-finale-buttons reveal reveal-d3">
       <div class="btn-glow-wrap">
-        <a href="https://frogletgames.itch.io/cosmic-shore" target="_blank" rel="noopener noreferrer">Play Now</a>
+        <a href="#platforms">Get the Game</a>
       </div>
-      <a href="https://discord.gg/wNfYVbJ9dR" target="_blank" rel="noopener noreferrer" class="btn-ghost">Join the Community</a>
+      <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer" class="btn-ghost">Join the Community</a>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer">
-  <div class="footer-brand">
-    <img src="assets/branding/froglet-logo.png" alt="Froglet Games">
-    <span>&copy; 2026 Froglet Games. All rights reserved.</span>
-  </div>
-  <div class="footer-links">
-    <a href="https://frogletgames.itch.io/cosmic-shore" target="_blank" rel="noopener noreferrer">Itch.io</a>
-    <a href="https://discord.gg/wNfYVbJ9dR" target="_blank" rel="noopener noreferrer">Discord</a>
-  </div>
-</footer>
+{% include footer.html %}
 
+<script src="/js/site.js"></script>
 <script>
-// ── Star Field ──────────────────────────────────────────────
-(function() {
-  const canvas = document.getElementById('starfield');
-  const ctx = canvas.getContext('2d');
-  let stars = [];
-  const STAR_COUNT = 200;
-
-  function resize() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-  }
-
-  function init() {
-    resize();
-    stars = [];
-    for (let i = 0; i < STAR_COUNT; i++) {
-      stars.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        r: Math.random() * 1.2 + 0.3,
-        a: Math.random() * 0.5 + 0.2,
-        speed: Math.random() * 0.0008 + 0.0003,
-        phase: Math.random() * Math.PI * 2
-      });
-    }
-  }
-
-  function draw(t) {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    for (const s of stars) {
-      const flicker = 0.5 + 0.5 * Math.sin(t * s.speed * 1000 + s.phase);
-      ctx.globalAlpha = s.a * flicker;
-      ctx.fillStyle = '#fff';
-      ctx.beginPath();
-      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-      ctx.fill();
-    }
-    requestAnimationFrame(draw);
-  }
-
-  window.addEventListener('resize', () => { resize(); init(); });
-  init();
-  requestAnimationFrame(draw);
-})();
-
-// ── Scroll Reveal ───────────────────────────────────────────
-const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
-const revealObs = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) entry.target.classList.add('visible');
-  });
-}, { threshold: 0.1 });
-revealEls.forEach(el => revealObs.observe(el));
-
-// ── Topbar on scroll ────────────────────────────────────────
-const topbar = document.getElementById('topbar');
-window.addEventListener('scroll', () => {
-  topbar.classList.toggle('scrolled', window.scrollY > 80);
-}, { passive: true });
-
 // ── Lightbox ────────────────────────────────────────────────
 (function() {
   let overlay = null;
@@ -419,19 +347,6 @@ window.addEventListener('scroll', () => {
     });
   });
 })();
-
-// ── Hero Parallax ───────────────────────────────────────────
-const heroBg = document.getElementById('heroBg');
-const heroSection = document.getElementById('hero');
-window.addEventListener('scroll', () => {
-  const rect = heroSection.getBoundingClientRect();
-  if (rect.bottom > 0) {
-    const offset = window.scrollY * 0.3;
-    heroBg.style.transform = `translateY(${offset}px)`;
-  }
-}, { passive: true });
-
-
 </script>
 </body>
 </html>

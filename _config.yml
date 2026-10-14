@@ -1,0 +1,31 @@
+# GitHub Pages builds this site with Jekyll on every push to main (no Actions to maintain).
+# Pages with front matter use the shared layouts in _layouts/ and the includes in _includes/;
+# files without front matter (old design drafts, images) are copied as they are.
+title: Cosmic Shore
+description: The party game for pilots, by Froglet Games.
+url: https://www.froglet.games
+baseurl: ""
+
+# Blog: posts are Markdown files in _posts/ named YYYY-MM-DD-slug.md; drafts live in _drafts/
+# and are never published. A post's URL is /blog/<slug>/ (set under defaults, so it does not
+# touch the pages: privacy.html stays privacy.html and is served at /privacy).
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-feed   # built into GitHub Pages: writes /blog/feed.xml
+feed:
+  path: blog/feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope: { path: "", type: pages }
+    values: { layout: default }
+  - scope: { path: "", type: posts }
+    values: { layout: post, author: The Froglet Team, permalink: "/blog/:title/", content_width: 760px }

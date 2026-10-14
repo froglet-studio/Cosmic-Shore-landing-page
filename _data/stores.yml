@@ -1,0 +1,11 @@
+# Store links for the "Get the Game" cards, the /play page and blog posts.
+# Fill a value when the listing goes live; an empty value shows that card as "Coming soon".
+# Every link we build is tagged per Docs/Analytics/utm-conventions.md in the game repo.
+
+steam_app_id: ""          # e.g. 1234560 (Steamworks app ID)
+app_store_id: ""          # numeric part of the App Store URL, e.g. 6450000000
+app_store_pt: ""          # App Store Connect provider token (the pt= campaign parameter)
+google_play_live: false   # true once the listing for google_play_package is public
+google_play_package: com.FrogletGames.CosmicShore
+testflight: https://testflight.apple.com/join/9ReKxeGf   # iOS open beta; Apple allows no UTM here
+discord: https://discord.gg/wNfYVbJ9dR

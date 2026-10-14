@@ -1,0 +1,5 @@
+{%- comment -%} Privacy contact: privacy_email, else support_email, else a placeholder. {%- endcomment -%}
+{%- assign legal = site.data.legal -%}
+{%- if legal.privacy_email and legal.privacy_email != "" -%}{{ legal.privacy_email }}
+{%- elsif legal.support_email and legal.support_email != "" -%}{{ legal.support_email }}
+{%- else -%}<span class="ph">PRIVACY CONTACT EMAIL</span>{%- endif -%}

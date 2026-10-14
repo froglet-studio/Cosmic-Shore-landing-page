@@ -1,0 +1,25 @@
+{%- comment -%}
+  Builds the tagged store URLs from _data/stores.yml (vocabulary: Docs/Analytics/utm-conventions.md
+  in the game repo). Assigns steam_url, appstore_url, play_url; each is "" while that store has no
+  listing. Params: source (default "website"), campaign (default "evergreen"). Medium is always
+  "banner" (static placements on sites we control).
+{%- endcomment -%}
+{%- assign s = site.data.stores -%}
+{%- assign utm_source = include.source | default: "website" -%}
+{%- assign utm_campaign = include.campaign | default: "evergreen" -%}
+{%- assign steam_url = "" -%}
+{%- if s.steam_app_id != "" -%}
+  {%- capture steam_url -%}https://store.steampowered.com/app/{{ s.steam_app_id }}/Cosmic_Shore/?utm_source={{ utm_source }}&amp;utm_medium=banner&amp;utm_campaign={{ utm_campaign }}{%- endcapture -%}
+{%- endif -%}
+{%- assign appstore_url = "" -%}
+{%- if s.app_store_id != "" -%}
+  {%- if s.app_store_pt != "" -%}
+    {%- capture appstore_url -%}https://apps.apple.com/app/id{{ s.app_store_id }}?pt={{ s.app_store_pt }}&amp;ct={{ utm_campaign }}&amp;mt=8{%- endcapture -%}
+  {%- else -%}
+    {%- capture appstore_url -%}https://apps.apple.com/app/id{{ s.app_store_id }}{%- endcapture -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign play_url = "" -%}
+{%- if s.google_play_live -%}
+  {%- capture play_url -%}https://play.google.com/store/apps/details?id={{ s.google_play_package }}&amp;referrer=utm_source%3D{{ utm_source }}%26utm_medium%3Dbanner%26utm_campaign%3D{{ utm_campaign }}{%- endcapture -%}
+{%- endif -%}

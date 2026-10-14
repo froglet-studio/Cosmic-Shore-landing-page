@@ -1,0 +1,9 @@
+# The browser Toybox: the game's freestyle toybox as a WebGL build (game repo Docs/WEBGL_TOYBOX.md).
+# The build lives on the CDN, not in this repo. Its upload step writes <build_root>/latest.json, which
+# /play reads, so a new game build needs no website deploy.
+#
+# While build_root is empty, /play shows "coming soon", is left out of the menus, the home page's
+# store cards and the sitemap, and asks search engines not to index it.
+
+build_root: ""            # e.g. https://play.froglet.games/toybox (no trailing slash)
+campaign: evergreen       # utm_campaign for "get the full game" links on /play; a launch push uses e.g. 2026_11_web_toybox
