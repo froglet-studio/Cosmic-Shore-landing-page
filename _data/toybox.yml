@@ -5,5 +5,5 @@
 # While build_root is empty, /play shows "coming soon", is left out of the menus, the home page's
 # store cards and the sitemap, and asks search engines not to index it.
 
-build_root: ""            # e.g. https://play.froglet.games/toybox (no trailing slash)
+build_root: "https://pub-9f94c53ca4e4416fa39c5622426f1ccc.r2.dev/toybox"            # e.g. https://play.froglet.games/toybox (no trailing slash)
 campaign: evergreen       # utm_campaign for "get the full game" links on /play; a launch push uses e.g. 2026_11_web_toybox
