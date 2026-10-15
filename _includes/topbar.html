@@ -11,7 +11,7 @@
     <a href="/blog/"{% if page.url contains "/blog/" %} aria-current="page"{% endif %}>Blog</a>
     {%- endif %}
     {%- if site.data.toybox.build_root != "" %}
-    <a href="/play"{% if page.url == "/play.html" %} aria-current="page"{% endif %}>Play in Browser</a>
+    <a href="{{ home }}#play">Play</a>
     {%- endif %}
     <a href="{{ home }}#platforms" class="btn-neon">Get the Game</a>
   </nav>

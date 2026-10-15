@@ -170,6 +170,19 @@ layout: null
 </section>
 
 
+{% if site.data.toybox.build_root != "" -%}
+<!-- PLAY IN THE BROWSER -->
+<section class="section-full" id="play" style="--content: 1280px; scroll-margin-top: 4.5rem">
+  <div class="section-header">
+    <span class="section-label reveal">Play</span>
+    <h2 class="section-title reveal reveal-d1">Fly the <span class="gradient-text">Toybox</span></h2>
+    <p class="reveal reveal-d2">Freestyle flight with the toys, right in your browser. No install, no account. Just fly.</p>
+  </div>
+  {% include toybox-player.html %}
+</section>
+{%- endif %}
+
+
 <!-- GET THE GAME -->
 <section class="section-full" id="platforms">
   <div class="section-header">
