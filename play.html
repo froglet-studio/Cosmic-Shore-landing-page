@@ -78,7 +78,13 @@ needs_toybox: true
           <div><kbd>E</kbd><span>Flip</span></div>
           <div><kbd>Esc</kbd><span>Free the mouse</span></div>
         </div>
-        <p style="font-size:.85rem;color:var(--muted)">A gamepad works too. Your ship&rsquo;s ability icons show its keys in the game.</p>
+        <h3 style="margin-top:1.25rem">Controller</h3>
+        <div class="keys">
+          <div><kbd>L&nbsp;stick</kbd><kbd>R&nbsp;stick</kbd><span>Steer</span></div>
+          <div><kbd>A</kbd><kbd>B</kbd><kbd>X</kbd><kbd>LT</kbd><kbd>RT</kbd><span>Abilities</span></div>
+          <div><kbd>RB</kbd><span>Flip</span></div>
+        </div>
+        <p id="pad-status" style="font-size:.85rem;color:var(--muted)">Xbox and PlayStation controllers work. Browsers only show a controller to the game after you press one of its buttons, so press any button once the Toybox has loaded. Your ship&rsquo;s ability icons show its buttons in the game.</p>
       </article>
       <article class="glass-card">
         <h3>This Is Just the Toybox</h3>
@@ -205,6 +211,13 @@ needs_toybox: true
     } catch (e) {
       fail(e && e.message ? e.message : String(e));
     }
+  });
+
+  // The browser hands a controller to the page only after one of its buttons is pressed; say when it has.
+  window.addEventListener('gamepadconnected', (e) => {
+    const status = document.getElementById('pad-status');
+    if (status) status.textContent = 'Controller connected: ' + (e.gamepad.id || 'gamepad').replace(/\s*\(.*$/, '') + '.';
+    track('toybox_gamepad', { gamepad_mapping: e.gamepad.mapping || 'none' });
   });
 
   document.getElementById('fullscreen').addEventListener('click', () => {

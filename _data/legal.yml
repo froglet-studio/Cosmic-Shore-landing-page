@@ -9,10 +9,10 @@ effective_date: "January 1, 2022"                    # e.g. "November 1, 2026"
 updated_date: "October 14, 2026"                     # last-updated date shown under the title
 privacy_email: ""                                    # privacy contact; when empty the pages fall back to support_email
 eu_representative: ""                                # EU/UK representative, if one is appointed; leave empty if none
-support_email: ""                                    # pending: owner to pick (support@froglet.games recommended; the Zendesk help center is closed)
+support_email: "support@froglet.games"               # Google Group (collaborative inbox) in Froglet's Google Workspace; create it before this goes live
 support_reply_time: "2 days"                         # e.g. "2 business days"
 deletion_time: "30 days"                             # e.g. "30 days"
-support_desk: ""                                     # support-desk provider named in the privacy policy, e.g. "Zendesk"
+support_desk: "Google (Google Workspace)"            # processes support email
 analytics_retention: ""                              # how long gameplay analytics are kept (UGS + PostHog), e.g. "24 months"
 crash_retention: ""                                  # Unity Cloud Diagnostics retention
 support_retention: ""                                # how long support emails are kept
