@@ -245,8 +245,21 @@
     if (!endpoint) {
       var body = 'Please add me to the Cosmic Shore ' + label + ' test.\n\nEmail: ' + data.email +
                  '\nHow I heard about you: ' + data.heard + (data.heard_other ? ' (' + data.heard_other + ')' : '');
-      window.location.href = 'mailto:' + fallback + '?subject=' + encodeURIComponent('Cosmic Shore test request: ' + label) +
-                             '&body=' + encodeURIComponent(body);
+      var subject = 'Cosmic Shore test request: ' + label;
+      var href = 'mailto:' + fallback + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      var to = fallback.split(',').join(', ');
+      form.querySelector('[data-tester-to]').textContent = to;
+      form.querySelector('[data-tester-body]').textContent = body;
+      form.querySelector('[data-tester-mailto]').href = href;
+      var copy = form.querySelector('[data-tester-copy]');
+      copy.textContent = 'Copy message';
+      copy.onclick = function () {
+        var text = 'To: ' + to + '\nSubject: ' + subject + '\n\n' + body;
+        var done = function () { copy.textContent = 'Copied'; };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () {});
+      };
+      step('mail');
+      window.location.href = href;
       track('tester_signup_submit', { tester_platform: data.platform, tester_heard: data.heard, tester_via: 'email' });
       return;
     }

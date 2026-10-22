@@ -46,6 +46,20 @@
       <div class="card-actions"><div class="btn-glow-wrap"><button type="submit">Request access</button></div></div>
     </div>
 
+    {%- comment -%} No endpoint yet: the visitor sends the request from their own email. Shown even when their
+        email app opens, because on a computer with no email app set up a mailto: link does nothing. {%- endcomment -%}
+    <div class="tester-step" data-step="mail" hidden>
+      <span class="section-label">One More Step</span>
+      <h2>Send Us <span class="gradient-text">This Email</span></h2>
+      <p>Your email app should open with this message ready to send. If it didn&rsquo;t, copy it and email it to <strong data-tester-to></strong>.</p>
+      <pre class="tester-mail" data-tester-body></pre>
+      <div class="card-actions">
+        <a class="btn-ghost" data-tester-mailto href="#">Open email app</a>
+        <button type="button" class="btn-ghost" data-tester-copy>Copy message</button>
+        <button type="button" class="btn-ghost" data-tester-close>Close</button>
+      </div>
+    </div>
+
     <div class="tester-step" data-step="done" hidden>
       <span class="section-label">Request Sent</span>
       <h2>You&rsquo;re on the <span class="gradient-text">List</span></h2>
