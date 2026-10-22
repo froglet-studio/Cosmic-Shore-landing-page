@@ -1,6 +1,7 @@
 {%- comment -%}
   "Get the Game" cards. Each store card goes live when its value is set in _data/stores.yml;
-  until then it reads "Coming soon". Params: source / campaign for UTM tagging (see store-urls.html).
+  until then it offers a test: its button opens the sign-up form (_includes/tester-signup.html) with
+  that platform chosen. Params: source / campaign for UTM tagging (see store-urls.html).
 {%- endcomment -%}
 {%- include store-urls.html source=include.source campaign=include.campaign -%}
 {%- assign cols = 3 -%}{%- if site.data.toybox.build_root != "" -%}{%- assign cols = 4 -%}{%- endif -%}
@@ -13,11 +14,12 @@
     <p>Windows PC. Fly with friends online.</p>
   </a>
   {%- else %}
-  <div class="glass-card platform-card is-soon reveal">
+  <div class="glass-card platform-card reveal">
     <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="4" width="19" height="12.5" rx="1.5"/><path d="M8 20.5h8M12 16.5v4"/></svg>
-    <span class="platform-name">Steam</span>
-    <span class="chip chip-dim">Wishlist opens soon</span>
+    <span class="platform-name">Windows</span>
+    <span class="chip chip-cyan">Test by request</span>
     <p>Windows PC. Fly with friends online.</p>
+    <button type="button" class="btn-neon platform-test" data-tester-platform="windows">Request test access</button>
   </div>
   {%- endif %}
 
@@ -28,12 +30,13 @@
     <p>iPhone and iPad.</p>
   </a>
   {%- else %}
-  <a class="glass-card platform-card reveal reveal-d1" href="{{ site.data.stores.testflight }}" target="_blank" rel="noopener noreferrer">
+  <div class="glass-card platform-card reveal reveal-d1">
     <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.2"/><path d="M10.5 18.5h3"/></svg>
     <span class="platform-name">iPhone &amp; iPad</span>
-    <span class="chip chip-cyan">Open beta on TestFlight</span>
-    <p>iPhone and iPad. Join the beta today; the App Store release is coming.</p>
-  </a>
+    <span class="chip chip-cyan">Test by request</span>
+    <p>iPhone and iPad, through TestFlight. The App Store release is coming.</p>
+    <button type="button" class="btn-neon platform-test" data-tester-platform="ios">Request test access</button>
+  </div>
   {%- endif %}
 
   {%- if play_url != "" %}
@@ -43,11 +46,12 @@
     <p>Android phones and tablets.</p>
   </a>
   {%- else %}
-  <div class="glass-card platform-card is-soon reveal reveal-d2">
+  <div class="glass-card platform-card reveal reveal-d2">
     <svg class="platform-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.2"/><path d="M10.5 18.5h3"/></svg>
     <span class="platform-name">Android</span>
-    <span class="chip chip-dim">Coming soon</span>
+    <span class="chip chip-cyan">Test by request</span>
     <p>Android phones and tablets.</p>
+    <button type="button" class="btn-neon platform-test" data-tester-platform="android">Request test access</button>
   </div>
   {%- endif %}
 

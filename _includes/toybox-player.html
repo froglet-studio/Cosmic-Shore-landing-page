@@ -97,7 +97,7 @@
       {% include store-urls.html source="website" campaign=toybox.campaign %}
       <div class="card-actions" style="justify-content:center">
         {%- if appstore_url != "" %}<a href="{{ appstore_url }}" target="_blank" rel="noopener noreferrer"><img class="badge-img" src="/assets/icons/appstore-badge.png" alt="Download on the App Store"></a>
-        {%- else %}<a href="{{ site.data.stores.testflight }}" target="_blank" rel="noopener noreferrer" class="btn-neon">iPhone beta</a>{%- endif %}
+        {%- else %}<button type="button" class="btn-neon" data-tester-platform="ios">iPhone test</button>{%- endif %}
         {%- if play_url != "" %}<a href="{{ play_url }}" target="_blank" rel="noopener noreferrer"><img class="badge-img" src="/assets/icons/googleplay-badge.png" alt="Get it on Google Play"></a>{%- endif %}
       </div>
       <p style="font-size:.85rem">Or open the site on your computer:</p>

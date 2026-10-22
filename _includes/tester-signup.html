@@ -1,0 +1,56 @@
+{%- comment -%}
+  The test sign-up form, opened by any [data-tester-platform] button (the launch-pad cards).
+  It posts to _data/testers.yml's endpoint (a Google Apps Script web app, tools/tester-signup/),
+  which records the request and emails the team; they approve it, and the script emails the
+  tester a confirmation. With no endpoint set, it opens the visitor's email app instead.
+{%- endcomment -%}
+{%- assign t = site.data.testers -%}
+<dialog class="tester-dialog" id="tester-dialog" aria-labelledby="tester-title"
+        data-endpoint="{{ t.endpoint }}" data-fallback="{{ t.fallback_to }}">
+  <form class="tester-form" id="tester-form" method="dialog" novalidate>
+    <button type="button" class="tester-close" data-tester-close aria-label="Close">&times;</button>
+    <div class="tester-step" data-step="form">
+      <span class="section-label">Test Access</span>
+      <h2 id="tester-title">Join the <span class="gradient-text">Test</span></h2>
+      <p>Tell us where to reach you. We review every request, and email you when you&rsquo;re in.</p>
+
+      <fieldset class="tester-platforms">
+        <legend>Platform</legend>
+        {%- for p in t.platforms %}
+        <label class="tester-choice"><input type="radio" name="platform" value="{{ p.key }}" required{% if forloop.first %} checked{% endif %}><span>{{ p.label }}</span></label>
+        {%- endfor %}
+      </fieldset>
+
+      <label class="tester-field">
+        <span>Email</span>
+        <input type="email" name="email" autocomplete="email" required maxlength="254" placeholder="you@example.com">
+      </label>
+
+      <label class="tester-field">
+        <span>How did you hear about us?</span>
+        <select name="heard" required>
+          <option value="" disabled selected>Choose one</option>
+          {%- for h in t.heard %}<option>{{ h }}</option>{% endfor %}
+        </select>
+      </label>
+      <label class="tester-field" data-heard-other hidden>
+        <span>Tell us more</span>
+        <input type="text" name="heard_other" maxlength="300">
+      </label>
+
+      {%- comment -%} Bots fill every field; people never see this one. {%- endcomment -%}
+      <label class="tester-hp" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+
+      <p class="tester-note">We&rsquo;ll only use your email to manage your test access. <a href="/privacy#testers">Privacy Policy</a></p>
+      <p class="tester-error" role="alert" hidden></p>
+      <div class="card-actions"><div class="btn-glow-wrap"><button type="submit">Request access</button></div></div>
+    </div>
+
+    <div class="tester-step" data-step="done" hidden>
+      <span class="section-label">Request Sent</span>
+      <h2>You&rsquo;re on the <span class="gradient-text">List</span></h2>
+      <p>Thanks! We&rsquo;ll review your request and email <strong data-tester-email></strong> when you&rsquo;re in.</p>
+      <div class="card-actions"><button type="button" class="btn-ghost" data-tester-close>Close</button></div>
+    </div>
+  </form>
+</dialog>

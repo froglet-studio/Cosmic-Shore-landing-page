@@ -16,3 +16,4 @@ support_desk: "Google (Google Workspace)"            # processes support email
 analytics_retention: ""                              # how long gameplay analytics are kept (UGS + PostHog), e.g. "24 months"
 crash_retention: ""                                  # Unity Cloud Diagnostics retention
 support_retention: ""                                # how long support emails are kept
+tester_retention: ""                                 # how long test access requests are kept, e.g. "until the game launches"

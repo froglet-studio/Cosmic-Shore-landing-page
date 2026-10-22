@@ -88,6 +88,11 @@ image: /assets/images/Image%20Sequence_029_0001.jpg
       </div>
     </section>
 
+    <section id="testers">
+      <h2>Test access requests</h2>
+      <p>When you ask to test an unreleased build (Windows, iPhone and iPad, or Android) on this website, we receive your email address, the platform you picked and how you heard about us. We use them only to decide on your request, send you the build or the invitation, and count which channels bring testers in. Your request is stored in our Google Workspace (Google Sheets and Gmail). To withdraw it or have it deleted, email {{ privacy_email }}.</p>
+    </section>
+
     <section id="children">
       <h2>Children</h2>
       <p>Cosmic Shore is not directed at children under 13. Players who tell us they&rsquo;re under 13 never send gameplay analytics or crash reports.</p>
@@ -118,6 +123,7 @@ image: /assets/images/Image%20Sequence_029_0001.jpg
         <li><strong>Unity Technologies</strong>: accounts, player names, Cloud Save, Friends, multiplayer and Relay, Leaderboards, Analytics and Cloud Diagnostics.</li>
         <li><strong>PostHog</strong>: gameplay analytics, stored on PostHog&rsquo;s EU cloud.</li>
         <li>{% include ph.html value=legal.support_desk label="SUPPORT DESK PROVIDER" %}: support emails.</li>
+        <li><strong>Google (Google Workspace)</strong>: test access requests made on this website (see <a href="#testers">Test access requests</a>).</li>
         <li><strong>Google</strong>: analytics and ad measurement on this website only (see <a href="#website">This website</a>).</li>
         <li><strong>Apple, Google and Valve</strong> deliver the game through their stores and handle anything you do in their store under their own privacy policies.</li>
       </ul>
@@ -131,6 +137,7 @@ image: /assets/images/Image%20Sequence_029_0001.jpg
         <li><strong>Gameplay analytics:</strong> {% include ph.html value=legal.analytics_retention label="RETENTION PERIOD" %}, or until you ask us to delete it.</li>
         <li><strong>Crash reports:</strong> {% include ph.html value=legal.crash_retention label="RETENTION PERIOD" %}.</li>
         <li><strong>Support messages:</strong> {% include ph.html value=legal.support_retention label="RETENTION PERIOD" %}.</li>
+        <li><strong>Test access requests:</strong> {% include ph.html value=legal.tester_retention label="RETENTION PERIOD" %}, or until you ask us to delete them.</li>
       </ul>
     </section>
 
