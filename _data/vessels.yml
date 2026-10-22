@@ -5,98 +5,138 @@
   seats: 1
   blurb: The classic arcade flyer. Use your Pulsefire Cannons and Skyburst Rockets to destroy enemy blocks, flora, fauna, structures, everything...
   image: /assets/vessels/sparrow.webp
+  thumb: /assets/vessels/thumbs/sparrow.webp
+  trailer: null
 - name: Manta
   slug: manta
   seats: 1
   blurb: Soar at high speed through open spaces to create the biggest blocks in the Hypersea, or skim your opponents trail to steal theirs.
   image: /assets/vessels/manta.webp
+  thumb: /assets/vessels/thumbs/manta.webp
+  trailer: null
 - name: Serpent
   slug: serpent
   seats: 1
   blurb: Navigate with just one thumb and place seeds that will steal ALL local blocks into a wall that can be shielded. Use walls to disrupt enemy volume and navigation.
   image: /assets/vessels/serpent.webp
+  thumb: /assets/vessels/thumbs/serpent.webp
+  trailer: null
 - name: Rhino
   slug: rhino
   seats: 1
   blurb: Smash things with your face to gain boost and volume. Hunt down other players to stop them from making volume.
   image: /assets/vessels/rhino.webp
+  thumb: /assets/vessels/thumbs/rhino.webp
+  trailer: null
 - name: Squirrel
   slug: squirrel
   seats: 1
   blurb: Get in your flow and stay there. Hard decisions are for other classes. You’re here to bounce around and ride your speed tubes, leaving a wake of creation and destruction.
   image: /assets/vessels/squirrel.webp
+  thumb: /assets/vessels/thumbs/squirrel.webp
+  trailer: wXgtOWIc3lc
 - name: Dolphin
   slug: dolphin
   seats: 1
   blurb: Thread the narrowest needles at the highest speeds to build max charge, then drift sideways into a crystal to release one of the biggest blasts in the Hypersea.
   image: /assets/vessels/dolphin.webp
+  thumb: /assets/vessels/thumbs/dolphin.webp
+  trailer: null
 - name: Urchin
   slug: urchin
   seats: 1
   blurb: Rides other pilots' trails and surfaces like rails, turning their prismscapes into its road, then fires a cascade of chain spikes from the ride.
   image: /assets/vessels/urchin.webp
+  thumb: /assets/vessels/thumbs/urchin.webp
+  trailer: null
 - name: Butterfly
   slug: butterfly
   seats: 1
   blurb: Slow, wide and quiet. The Butterfly paints broad surfaces through the hypersea while everyone else is fighting — and folds space when it wants to be somewhere else.
   image: /assets/vessels/butterfly.webp
+  thumb: /assets/vessels/thumbs/butterfly.webp
+  trailer: null
 - name: Thresher
   slug: thresher
   seats: 1
   blurb: A small, nimble hull towing a heavy wrecking ball on a chain. Turn hard and snap back and the ball whips round; wind the chain out and let it reel in, and it cracks red-hot through everything.
   image: /assets/vessels/thresher.webp
+  thumb: /assets/vessels/thumbs/thresher.webp
+  trailer: null
 - name: Scarab
   slug: scarab
   seats: 1
   blurb: Roll a ball you made yourself. Analog throttle and drift, a side-bump juke, and crystal-funded switch rings - the Rocket League vessel, tuned for Astro League.
   image: /assets/vessels/scarab.webp
+  thumb: /assets/vessels/thumbs/scarab.webp
+  trailer: null
 - name: Stoat
   slug: stoat
   seats: 1
   blurb: Never flies straight for long. In Mass mode the triggers lay a wormhole dipole ahead - a sink and a source you fly through - and a thick trail behind; in Time mode they lay an attractor to orbit and sling off a quarter-turn round.
   image: /assets/vessels/stoat.webp
+  thumb: /assets/vessels/thumbs/stoat.webp
+  trailer: null
 - name: Goby
   slug: goby
   seats: 2
   blurb: Two seats, one hull, like a goby and the pistol shrimp it shares a burrow with. One player flies the Goby, the hull, on two thumbs and lays the path; the other rides that path side on as the Pistol, a sidescroller - diving down the hills…
   image: /assets/vessels/goby.webp
+  thumb: /assets/vessels/thumbs/goby.webp
+  trailer: null
 - name: Brittle Star
   slug: brittle-star
   seats: 1
   blurb: A one-touch flyer built round a cockpit and a five-pointed support ring. Swap between Speed, Creation, Space and Charge modes - five guns that overheat, or five cords that whip and stiffen into sabers - turn the ring to bring a turret to…
   image: /assets/vessels/brittle-star.webp
+  thumb: /assets/vessels/thumbs/brittle-star.webp
+  trailer: null
 - name: Shrike
   slug: shrike
   seats: 1
   blurb: A slow sniper that docks to whatever it touches. Build nests of super-shielded blocks, pierce anything with the Void Lance, sling across the cell on a tether, and paint targets for the missiles your nests launch.
   image: /assets/vessels/shrike.webp
+  thumb: /assets/vessels/thumbs/shrike.webp
+  trailer: null
 - name: Angler
   slug: angler
   seats: 1
   blurb: The fleet's strategist. Hold the lure light out to draw wild fauna, tame the ones you hold, and lead them as a school of two halves.
   image: /assets/vessels/angler.webp
+  thumb: /assets/vessels/thumbs/angler.webp
+  trailer: null
 - name: Wrasse
   slug: wrasse
   seats: 2
   blurb: Two seats, one hull, like a cleaner wrasse and the grouper it keeps clean. One player flies the Grouper, the hull; the other flies the Wrasse, a kite on the hull's own plane - its head picks enemy prisms off, its tail lassos motes into…
   image: /assets/vessels/wrasse.webp
+  thumb: /assets/vessels/thumbs/wrasse.webp
+  trailer: null
 - name: Orca
   slug: orca
   seats: 4
   blurb: Four seats, one hull - a helm and three gunners. The helm flies with two thumbs, boosts on the right trigger and rings the hull in danger prisms on the left; each gunner looks out of a stabilized turret and flies the missile it releases.
   image: /assets/vessels/orca.webp
+  thumb: /assets/vessels/thumbs/orca.webp
+  trailer: null
 - name: Starlings
   slug: starlings
   seats: 1
   blurb: A swarm, not a ship. The starlings roam the cell on their own after each objective in turn - the omnicrystal, elemental crystals, rival vessels, rival mass.
   image: /assets/vessels/starlings.webp
+  thumb: /assets/vessels/thumbs/starlings.webp
+  trailer: null
 - name: Jacks
   slug: jacks
   seats: 1
   blurb: Two jacks herd the cell's wildlife. Run each jack with a thumb and lift it to leave the decoy, or take off and fly them, one fish under each thumb, calling the herd to them.
   image: /assets/vessels/jacks.webp
+  thumb: /assets/vessels/thumbs/jacks.webp
+  trailer: null
 - name: Honeyguide
   slug: honeyguide
   seats: 2
   blurb: 'Two seats, one hull, like the honeyguide bird and the honey badger it leads. The Honeyguide flies the hull and rides trails: touch a trail of a domain the battery holds, nose along it, and slip to its end.'
   image: /assets/vessels/honeyguide.webp
+  thumb: /assets/vessels/thumbs/honeyguide.webp
+  trailer: null

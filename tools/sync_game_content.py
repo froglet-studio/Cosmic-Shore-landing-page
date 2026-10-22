@@ -13,11 +13,13 @@ What it reads (game repo `froglet-studio/cosmic-shore`, any branch; bleeding-edg
 
 What it writes (this repo):
   - _data/vessels.yml and _data/modes.yml, which index.html renders;
-  - assets/vessels/<slug>.webp (640x360) and assets/modes/<slug>.webp (480x319).
+  - assets/vessels/<slug>.webp (960x540) and assets/modes/<slug>.webp (768x510): the large view;
+  - assets/vessels/thumbs/<slug>.webp (256x144) and assets/modes/thumbs/<slug>.webp (192x128): the pickers.
 
 Card text is the game's own. Each card shows a "blurb": the description's opening sentences, cut
 at the first sentence end past ~90 characters. _data/content_overrides.yml replaces a blurb where the
-game's text is a placeholder or missing (it is read here, never written).
+game's text is a placeholder or missing, and `trailers` gives a vessel a YouTube trailer (it is read
+here, never written).
 """
 import argparse
 import glob
@@ -30,8 +32,8 @@ import yaml
 from PIL import Image
 
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VESSEL_SIZE = (640, 360)
-MODE_SIZE = (480, 319)
+VESSEL_SIZE, VESSEL_THUMB = (960, 540), (256, 144)
+MODE_SIZE, MODE_THUMB = (768, 510), (192, 128)
 BLURB_LIMIT = 240
 
 
@@ -128,7 +130,7 @@ def seats(description):
     return {"Two": 2, "Three": 3, "Four": 4}[m.group(1)] if m else 1
 
 
-def render(src, dest, size):
+def render(src, dest, size, quality=78):
     im = Image.open(src).convert("RGB")
     # Cover-fit: fill the box, crop the overflow from the centre.
     scale = max(size[0] / im.width, size[1] / im.height)
@@ -136,7 +138,7 @@ def render(src, dest, size):
     left, top = (im.width - size[0]) // 2, (im.height - size[1]) // 2
     im = im.crop((left, top, left + size[0], top + size[1]))
     buf = io.BytesIO()
-    im.save(buf, "WEBP", quality=78, method=6)
+    im.save(buf, "WEBP", quality=quality, method=6)
     return dest, buf.getvalue()
 
 
@@ -158,17 +160,22 @@ def build(game):
         s = slug(name)
         desc = " ".join(str(c.get("Description") or "").split())
         art = idx.path(c.get("PreviewImage"))
-        image = None
+        image = thumb = None
         if art and os.path.exists(art):
             dest, data = render(art, f"assets/vessels/{s}.webp", VESSEL_SIZE)
             files[dest] = data
             image = "/" + dest
+            dest, data = render(art, f"assets/vessels/thumbs/{s}.webp", VESSEL_THUMB, quality=72)
+            files[dest] = data
+            thumb = "/" + dest
         vessels.append({
             "name": name,
             "slug": s,
             "seats": seats(desc),
             "blurb": overrides.get("vessels", {}).get(name) or blurb(desc),
             "image": image,
+            "thumb": thumb,
+            "trailer": (overrides.get("trailers") or {}).get(name),
         })
 
     # Every class, not just the roster, so a mode naming a hull outside the Hangar still lists it.
@@ -191,11 +198,14 @@ def build(game):
                 continue
             s = slug(name)
             art = idx.path(g.get("CardBackground"))
-            image = None
+            image = thumb = None
             if art and os.path.exists(art):
                 dest, data = render(art, f"assets/modes/{s}.webp", MODE_SIZE)
                 files[dest] = data
                 image = "/" + dest
+                dest, data = render(art, f"assets/modes/thumbs/{s}.webp", MODE_THUMB, quality=72)
+                files[dest] = data
+                thumb = "/" + dest
             lo, hi = g.get("MinPlayersAllowed"), g.get("MaxPlayersAllowed")
             rows.append({
                 "name": name,
@@ -205,6 +215,7 @@ def build(game):
                             if isinstance(v, dict) and v.get("guid") in class_names],
                 "players": (f"{lo}–{hi}" if lo != hi else str(lo)) if lo and hi else None,
                 "image": image,
+                "thumb": thumb,
             })
         modes[key] = rows
 
@@ -235,7 +246,7 @@ def main():
                 with open(path, "wb") as f:
                     f.write(data)
     # Images for vessels or modes the game no longer lists.
-    for folder in ("assets/vessels", "assets/modes"):
+    for folder in ("assets/vessels", "assets/vessels/thumbs", "assets/modes", "assets/modes/thumbs"):
         for path in glob.glob(os.path.join(SITE, folder, "*.webp")):
             rel = os.path.relpath(path, SITE)
             if rel not in files:

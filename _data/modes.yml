@@ -8,6 +8,7 @@ arcade:
   - Squirrel
   players: 1–12
   image: /assets/modes/skim-race.webp
+  thumb: /assets/modes/thumbs/skim-race.webp
 - name: Joust
   slug: joust
   blurb: Score by overtaking. Sweep your faster vessel's skimmer past a slower rival to land a joust; first to the target wins.
@@ -15,6 +16,7 @@ arcade:
   - Squirrel
   players: 2–12
   image: /assets/modes/joust.webp
+  thumb: /assets/modes/thumbs/joust.webp
 - name: Scurry
   slug: scurry
   blurb: Capture all crystals as fast as you can
@@ -24,6 +26,7 @@ arcade:
   - Squirrel
   players: 1–4
   image: /assets/modes/scurry.webp
+  thumb: /assets/modes/thumbs/scurry.webp
 - name: Maelstrom
   slug: maelstrom
   blurb: A multi-game gauntlet - compete across a lineup of games for the crown.
@@ -33,6 +36,7 @@ arcade:
   - Squirrel
   players: 2–4
   image: /assets/modes/maelstrom.webp
+  thumb: /assets/modes/thumbs/maelstrom.webp
 - name: Rampage
   slug: rampage
   blurb: A cactus forest rings the membrane and there is exactly one crystal in the arena. Graze the thicket to charge your jaws, take the crystal to unleash the blast, and be the first domain to smash 2000 enemy prisms.
@@ -40,6 +44,7 @@ arcade:
   - Dolphin
   players: 1–4
   image: /assets/modes/rampage.webp
+  thumb: /assets/modes/thumbs/rampage.webp
 - name: Cleave
   slug: cleave
   blurb: Four arenas, one blade. Angled panes, wide wavy roads, a cage of nested shells, and twisted ribbons that roll out from under you - every intensity is a different place to cut, not a bigger version of the last.
@@ -47,6 +52,7 @@ arcade:
   - Rhino
   players: 2–4
   image: /assets/modes/cleave.webp
+  thumb: /assets/modes/thumbs/cleave.webp
 - name: Wildlife Liberation
   slug: wildlife-liberation
   blurb: Three cages, and wildlife everywhere - swarms, big ones and worse, scattered from the open water you spawn in all the way to the core.
@@ -54,6 +60,7 @@ arcade:
   - Sparrow
   players: 1–4
   image: /assets/modes/wildlife-liberation.webp
+  thumb: /assets/modes/thumbs/wildlife-liberation.webp
 - name: Dog Fight
   slug: dog-fight
   blurb: Sparrows only, in the wreck of a world that already lost. Guns score one, rockets score fifty, and the Boneyard is full of places to disappear into - hollow hulks, leaning spires, a reactor nobody should loiter near.
@@ -61,6 +68,7 @@ arcade:
   - Sparrow
   players: 2–4
   image: /assets/modes/dog-fight.webp
+  thumb: /assets/modes/thumbs/dog-fight.webp
 - name: The Bends
   slug: the-bends
   blurb: Dolphins only, in the cactus forest, with no guns anywhere. Graze the thicket to charge your jaws, race a rival to the crystal, and put the cone on a PILOT instead of the trees - a hit strips every element they have and leaves them four…
@@ -68,6 +76,7 @@ arcade:
   - Dolphin
   players: 2–4
   image: /assets/modes/the-bends.webp
+  thumb: /assets/modes/thumbs/the-bends.webp
 - name: Scarab Scramble
   slug: scarab-scramble
   blurb: Every bright crystal you fly through becomes YOUR ball. Roll it, bat it, bank it off the walls and through any glowing ring - first team to ten.
@@ -75,6 +84,7 @@ arcade:
   - Scarab
   players: 1–6
   image: /assets/modes/scarab-scramble.webp
+  thumb: /assets/modes/thumbs/scarab-scramble.webp
 - name: Salvo
   slug: salvo
   blurb: Sparrows only, and this time the Boneyard is the target. Guns chip, rockets level whole hulks, and every omni crystal you grab reloads the missile bays of your WHOLE team - so somebody fly the crystal line while somebody rains the salvos.
@@ -82,6 +92,7 @@ arcade:
   - Sparrow
   players: 2–4
   image: /assets/modes/salvo.webp
+  thumb: /assets/modes/thumbs/salvo.webp
 - name: Switchback
   slug: switchback
   blurb: Dolphins only, through a course of rings nobody placed twice the same way. Every gate is somewhere new and facing somewhere new, and you take them in order - drift the corners, boost the straights, and go back for the one you missed.
@@ -89,6 +100,7 @@ arcade:
   - Dolphin
   players: 2–4
   image: /assets/modes/switchback.webp
+  thumb: /assets/modes/thumbs/switchback.webp
 - name: Hijack
   slug: hijack
   blurb: Urchins only. Latch onto a rail and grind it - fast where it wears your colour, a stealing crawl where it does not - spike the road ahead to make it yours, then fly off the open end straight into the burr it points at and rake the whole…
@@ -96,6 +108,7 @@ arcade:
   - Urchin
   players: 2–4
   image: /assets/modes/hijack.webp
+  thumb: /assets/modes/thumbs/hijack.webp
 - name: Tollway
   slug: tollway
   blurb: Plants grow in the court, and a ring can only be grafted onto one. Fly at a plant, plant your ring at its foot, then drive a ball across the court and through the mouth - and every ball that threads it, yours or theirs or a stray off the…
@@ -103,6 +116,7 @@ arcade:
   - Scarab
   players: 2–4
   image: /assets/modes/tollway.webp
+  thumb: /assets/modes/thumbs/tollway.webp
 - name: Headlong
   slug: headlong
   blurb: Rhinos only, on a circuit that never lets go. Hold full throttle dead straight and the ramp winds you up to fifteen times cruise - but the boost dies the moment you steer, and every corner is cut just wide enough to take flat out if your…
@@ -110,6 +124,7 @@ arcade:
   - Rhino
   players: 2–4
   image: /assets/modes/headlong.webp
+  thumb: /assets/modes/thumbs/headlong.webp
 - name: Breakwater
   slug: breakwater
   blurb: Sparrows only, against fourteen walls. Every station is a dish of plates with its throat welded shut - a triple weave of danger bars around an eye barely wider than your hull.
@@ -117,6 +132,7 @@ arcade:
   - Sparrow
   players: 2–4
   image: /assets/modes/breakwater.webp
+  thumb: /assets/modes/thumbs/breakwater.webp
 - name: Skein
   slug: skein
   blurb: Urchins only, on a knot of rails that never quite closes. Latch on and the cable does the driving - your colour runs fast, theirs runs at a crawl, and every rail ENDS somewhere, aimed at another.
@@ -124,6 +140,7 @@ arcade:
   - Urchin
   players: 2–4
   image: /assets/modes/skein.webp
+  thumb: /assets/modes/thumbs/skein.webp
 - name: Bloomrush
   slug: bloomrush
   blurb: Mantas only, and nobody has to learn a button. Soar through the reef to arm your bombs, graze wildlife and rival rays to plant them - silently, one bomb per target, first tag takes it - then reach a crystal before the fuses burn down and…
@@ -131,6 +148,7 @@ arcade:
   - Manta
   players: 2–4
   image: /assets/modes/bloomrush.webp
+  thumb: /assets/modes/thumbs/bloomrush.webp
 - name: Redline
   slug: redline
   blurb: Mantas only, flat out. Both triggers buried is four times cruise and a turning circle you can hold through most of the lap - but the corners that will not take it are cut to the metre, and easing a trigger to make one costs you two seconds…
@@ -138,6 +156,7 @@ arcade:
   - Manta
   players: 2–4
   image: /assets/modes/redline.webp
+  thumb: /assets/modes/thumbs/redline.webp
 - name: Wrecking Ball
   slug: wrecking-ball
   blurb: Scarabs only, in a walled court grown full of cacti and coral. Fly through a bright crystal and it becomes your ball - bowl it into the thickest stand and every prism it plows through is yours; flick a dash beside the forest and the…
@@ -145,6 +164,7 @@ arcade:
   - Scarab
   players: 1–4
   image: /assets/modes/wrecking-ball.webp
+  thumb: /assets/modes/thumbs/wrecking-ball.webp
 - name: Undertow
   slug: undertow
   blurb: Scarabs only, loose in the wildlife cages, with no guns anywhere. Dash beside a rival and the cavitation plate drags them through the undertow - every element they have stripped for four seconds.
@@ -152,6 +172,7 @@ arcade:
   - Scarab
   players: 2–4
   image: /assets/modes/undertow.webp
+  thumb: /assets/modes/thumbs/undertow.webp
 - name: Waystation
   slug: waystation
   blurb: Butterflies only. The rings come in clusters - weave the coil, line up on the gate at the far end, then FOLD across the gap to the next one.
@@ -159,6 +180,7 @@ arcade:
   - Butterfly
   players: 2–4
   image: /assets/modes/waystation.webp
+  thumb: /assets/modes/thumbs/waystation.webp
 - name: Dustup
   slug: dustup
   blurb: Butterflies only, loose in the Boneyard, and not a gun between them. Flip to Dust mode and your scale dust hangs below you - fly OVER a rival and every element they have takes the bite.
@@ -166,6 +188,7 @@ arcade:
   - Butterfly
   players: 2–4
   image: /assets/modes/dustup.webp
+  thumb: /assets/modes/thumbs/dustup.webp
 - name: Tapestry
   slug: tapestry
   blurb: Butterflies only, and an empty sky to fill. Mass mode paints a wake many keys wide - Mass crystals widen your brush.
@@ -173,6 +196,7 @@ arcade:
   - Butterfly
   players: 2–4
   image: /assets/modes/tapestry.webp
+  thumb: /assets/modes/thumbs/tapestry.webp
 - name: Sirocco
   slug: sirocco
   blurb: Butterflies only, over Rampage's cactus forest. Flip to Dust mode and fly low - your scale dust shreds, shrinks or steals the other colours' plants and fortifies your own.
@@ -180,6 +204,7 @@ arcade:
   - Butterfly
   players: 1–4
   image: /assets/modes/sirocco.webp
+  thumb: /assets/modes/thumbs/sirocco.webp
 - name: Grizzly Charge
   slug: grizzly-charge
   blurb: Grizzly proving grounds. A cell full of prisms to nuke, an opponent to shove around, and room to ride your own shockwaves.
@@ -187,6 +212,7 @@ arcade:
   - Grizzly
   players: 2–4
   image: /assets/modes/grizzly-charge.webp
+  thumb: /assets/modes/thumbs/grizzly-charge.webp
 - name: Grizzly Time
   slug: grizzly-time
   blurb: Grizzlies only, against the clock. Your speed is your bombs - squeeze LT or RT to fire, pull again to freeze it, let go to blow it and ride the blast at three times cruise.
@@ -194,6 +220,7 @@ arcade:
   - Grizzly
   players: 2–4
   image: /assets/modes/grizzly-time.webp
+  thumb: /assets/modes/thumbs/grizzly-time.webp
 - name: Slingshot
   slug: slingshot
   blurb: Stoats only. You cruise slow and turn wide - your poles do the steering. Squeeze LT and RT to hold a black hole and a white hole open ahead of you - the difference pulls them apart sideways, the sum lengthways - and the field bends your…
@@ -201,6 +228,7 @@ arcade:
   - Stoat
   players: 2–4
   image: /assets/modes/slingshot.webp
+  thumb: /assets/modes/thumbs/slingshot.webp
 - name: Warpline
   slug: warpline
   blurb: Stoats only, and time is everything. Squeeze LT and RT to hold a black hole and a white hole open ahead of you - the difference pulls them apart sideways, the sum lengthways.
@@ -208,6 +236,7 @@ arcade:
   - Stoat
   players: 2–4
   image: /assets/modes/warpline.webp
+  thumb: /assets/modes/thumbs/warpline.webp
 - name: Thresher Time
   slug: thresher-time
   blurb: Threshers only, against the clock. Your speed is your sling - pull LT all the way to plant the ball and swing round it, pull RT to wind the chain in and spin up, let go to fly off at up to nearly four times cruise.
@@ -215,6 +244,7 @@ arcade:
   - Thresher
   players: 2–4
   image: /assets/modes/thresher-time.webp
+  thumb: /assets/modes/thumbs/thresher-time.webp
 - name: Wrasse Run
   slug: wrasse-run
   blurb: The Wrasse collects the rings. Grouper, fly your plane through the lit ring so the Wrasse can swing through it - the hull alone does not count.
@@ -222,6 +252,7 @@ arcade:
   - Wrasse
   players: 2–4
   image: /assets/modes/wrasse-run.webp
+  thumb: /assets/modes/thumbs/wrasse-run.webp
 arena:
 - name: Astro League
   slug: astro-league
@@ -232,6 +263,7 @@ arena:
   - Squirrel
   players: 2–6
   image: /assets/modes/astro-league.webp
+  thumb: /assets/modes/thumbs/astro-league.webp
 - name: Brood Rush
   slug: brood-rush
   blurb: Hold the nucleus. Every brood the cell births in your color scores a point - first team to three wins.
@@ -244,6 +276,7 @@ arena:
   - Sparrow
   players: 2–6
   image: /assets/modes/brood-rush.webp
+  thumb: /assets/modes/thumbs/brood-rush.webp
 - name: Regatta
   slug: regatta
   blurb: Every hull, one circuit, three laps. Three rails run the racing line in the three team colours - an Urchin grinds the one in its colour and a Squirrel skims it, while a Manta, a Rhino, a Scarab or a Sparrow flies beside it.
@@ -259,6 +292,7 @@ arena:
   - Stoat
   players: 2–6
   image: /assets/modes/regatta.webp
+  thumb: /assets/modes/thumbs/regatta.webp
 - name: Broadside
   slug: broadside
   blurb: Every hull that can fight, loose in the Boneyard, each with the weapon it actually has - a Sparrow's guns and rockets, an Urchin's spikes, a Rhino's sword, a Squirrel's joust, a Dolphin's cone, a Scarab's plate, a Manta's bloom.
@@ -272,6 +306,7 @@ arena:
   - Scarab
   players: 2–6
   image: /assets/modes/broadside.webp
+  thumb: /assets/modes/thumbs/broadside.webp
 missions:
 - name: Protect Mission
   slug: protect-mission
@@ -279,3 +314,4 @@ missions:
   vessels: []
   players: null
   image: /assets/modes/protect-mission.webp
+  thumb: /assets/modes/thumbs/protect-mission.webp

@@ -188,6 +188,79 @@
   });
 })();
 
+/* Pickers (home: vessels, and each game-mode tab). Clicking an item, or the arrows, shows it in the big
+   view; the data lives on each item's data-* attributes. A vessel with data-trailer gets a Watch the
+   trailer button that swaps the image for the YouTube player (youtube-nocookie, loaded only on press). */
+(function () {
+  document.querySelectorAll('[data-picker]').forEach(function (root) {
+    var items = Array.prototype.slice.call(root.querySelectorAll('.picker-item'));
+    if (!items.length) return;
+    var list = root.querySelector('.picker-list');
+    var media = root.querySelector('[data-media]');
+    var img = media.querySelector('img');
+    var trailerBtn = root.querySelector('[data-trailer-play]');
+    var cur = Math.max(0, items.findIndex(function (b) { return b.getAttribute('aria-pressed') === 'true'; }));
+    var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+    function field(name) { return root.querySelector('[data-f="' + name + '"]'); }
+    function setText(name, text) {
+      var el = field(name);
+      if (!el) return;
+      el.textContent = text;
+      el.hidden = !text;
+    }
+    function stopTrailer() {
+      var frame = media.querySelector('iframe');
+      if (frame) { frame.remove(); img.hidden = false; }
+    }
+    function keepInView(b) {          // scroll the picker's own box, never the page
+      var li = b.parentNode;
+      if (list.scrollHeight > list.clientHeight + 1) {
+        if (li.offsetTop < list.scrollTop) list.scrollTop = li.offsetTop;
+        else if (li.offsetTop + li.offsetHeight > list.scrollTop + list.clientHeight) list.scrollTop = li.offsetTop + li.offsetHeight - list.clientHeight;
+      }
+      if (list.scrollWidth > list.clientWidth + 1) {
+        if (li.offsetLeft < list.scrollLeft) list.scrollLeft = li.offsetLeft;
+        else if (li.offsetLeft + li.offsetWidth > list.scrollLeft + list.clientWidth) list.scrollLeft = li.offsetLeft + li.offsetWidth - list.clientWidth;
+      }
+    }
+    function show(i, fromArrow) {
+      cur = (i + items.length) % items.length;
+      var b = items[cur], d = b.dataset;
+      items.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      stopTrailer();
+      img.src = d.img;
+      img.alt = d.alt || '';
+      setText('name', d.name);
+      setText('blurb', d.blurb);
+      setText('chip', d.chip || '');
+      setText('count', pad(cur + 1) + ' / ' + pad(items.length));
+      var vessels = field('vessels');
+      if (vessels) { vessels.textContent = d.vessels || ''; field('vessels-row').hidden = !d.vessels; }
+      if (trailerBtn) trailerBtn.hidden = !d.trailer;
+      if (fromArrow) keepInView(b);
+    }
+    items.forEach(function (b, i) {
+      b.addEventListener('click', function () { show(i, false); });
+      // Warm the large image before the click lands.
+      b.addEventListener('pointerenter', function () { if (b.dataset.img) new Image().src = b.dataset.img; }, { once: true });
+    });
+    root.querySelectorAll('[data-dir]').forEach(function (a) {
+      a.addEventListener('click', function () { show(cur + Number(a.getAttribute('data-dir')), true); });
+    });
+    if (trailerBtn) trailerBtn.addEventListener('click', function () {
+      var id = items[cur].dataset.trailer;
+      if (!id || media.querySelector('iframe')) return;
+      var frame = document.createElement('iframe');
+      frame.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0';
+      frame.title = items[cur].dataset.name + ' trailer';
+      frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      frame.allowFullscreen = true;
+      img.hidden = true;
+      media.appendChild(frame);
+    });
+  });
+})();
+
 /* Test sign-up (_includes/tester-signup.html). Any [data-tester-platform] button opens it with that
    platform chosen. Posts to the Apps Script endpoint (tools/tester-signup/) as a simple text/plain
    request, so no CORS preflight; with no endpoint set, opens the visitor's email app instead. */
@@ -245,8 +318,21 @@
     if (!endpoint) {
       var body = 'Please add me to the Cosmic Shore ' + label + ' test.\n\nEmail: ' + data.email +
                  '\nHow I heard about you: ' + data.heard + (data.heard_other ? ' (' + data.heard_other + ')' : '');
-      window.location.href = 'mailto:' + fallback + '?subject=' + encodeURIComponent('Cosmic Shore test request: ' + label) +
-                             '&body=' + encodeURIComponent(body);
+      var subject = 'Cosmic Shore test request: ' + label;
+      var href = 'mailto:' + fallback + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      var to = fallback.split(',').join(', ');
+      form.querySelector('[data-tester-to]').textContent = to;
+      form.querySelector('[data-tester-body]').textContent = body;
+      form.querySelector('[data-tester-mailto]').href = href;
+      var copy = form.querySelector('[data-tester-copy]');
+      copy.textContent = 'Copy message';
+      copy.onclick = function () {
+        var text = 'To: ' + to + '\nSubject: ' + subject + '\n\n' + body;
+        var done = function () { copy.textContent = 'Copied'; };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () {});
+      };
+      step('mail');
+      window.location.href = href;
       track('tester_signup_submit', { tester_platform: data.platform, tester_heard: data.heard, tester_via: 'email' });
       return;
     }
