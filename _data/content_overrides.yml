@@ -1,0 +1,8 @@
+# Blurbs that replace the game's own card text on the website, where that text is a placeholder or
+# missing. tools/sync_game_content.py reads this; everything else on the vessel and mode cards comes
+# from the game repo. Delete a line once the game's own text is good, and re-run the sync.
+vessels:
+  Serpent: Navigate with just one thumb and place seeds that will steal ALL local blocks into a wall that can be shielded. Use walls to disrupt enemy volume and navigation.
+  Urchin: Rides other pilots' trails and surfaces like rails, turning their prismscapes into its road, then fires a cascade of chain spikes from the ride.
+modes:
+  Joust: Score by overtaking. Sweep your faster vessel's skimmer past a slower rival to land a joust; first to the target wins.

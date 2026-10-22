@@ -116,8 +116,9 @@ layout: null
 <!-- VESSELS -->
 <section class="section" id="vessels">
   <div class="section-header">
-    <span class="section-label reveal">Vessel</span>
-    <h2 class="section-title reveal reveal-d1">Fly Our <span class="gradient-text">Flagship</span></h2>
+    <span class="section-label reveal">Vessels</span>
+    <h2 class="section-title reveal reveal-d1">{{ site.data.vessels.size }} Ways to <span class="gradient-text">Fly</span></h2>
+    <p class="section-lede reveal reveal-d2">Every vessel in the hangar plays differently: one-thumb flyers, siege tanks, ball-rollers, swarms, and crew vessels that two or four pilots fly together.</p>
   </div>
 
   <div class="vessel-showcase">
@@ -135,39 +136,94 @@ layout: null
       </div>
     </div>
   </div>
+
+  {%- comment -%} The fleet: _data/vessels.yml, generated from the game's hangar roster by tools/sync_game_content.py {%- endcomment -%}
+  <div class="fleet-grid">
+    {%- for v in site.data.vessels %}
+    <article class="fleet-card reveal">
+      {%- if v.image %}<img src="{{ v.image }}" alt="The {{ v.name }}" width="640" height="360" loading="lazy" decoding="async">{% endif %}
+      <div class="fleet-card-body">
+        <h3>{{ v.name }}{% if v.seats > 1 %} <span class="chip chip-cyan">{{ v.seats }} seats</span>{% endif %}</h3>
+        <p>{{ v.blurb }}</p>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
 </section>
 
 <!-- GAME MODES -->
 <section class="section-full modes-section" id="modes">
   <div class="section-header">
     <span class="section-label reveal">Game Modes</span>
-    <h2 class="section-title reveal reveal-d1">Three Ways to <span class="gradient-text">Compete</span></h2>
+    <h2 class="section-title reveal reveal-d1">Find Your <span class="gradient-text">Game</span></h2>
+    <p class="section-lede reveal reveal-d2">Fly free in the Toybox, race and fight in the Arcade, bring mixed fleets to the Arena, or take on a Mission.</p>
   </div>
 
-  <div class="modes-strip">
-    <div class="mode-tile reveal">
-      <img src="assets/images/Image Sequence_021_0012.jpg" alt="Crystal Capture" loading="lazy">
-      <div class="mode-tile-overlay">
-        <h4>Crystal Capture</h4>
-        <p>Race for resources and foil foes in a fast-paced free-for-all.</p>
+  {%- assign modes = site.data.modes -%}
+  {%- comment -%} Without JavaScript every panel shows, one after another; js/site.js turns the row into tabs. {%- endcomment -%}
+  <div class="mode-tabs" data-tabs>
+    <div class="mode-tablist" role="tablist" aria-label="Game mode types">
+      <button type="button" role="tab" id="tab-toybox" aria-controls="panel-toybox" aria-selected="true">Toybox</button>
+      <button type="button" role="tab" id="tab-arcade" aria-controls="panel-arcade" aria-selected="false">Arcade <span class="tab-count">{{ modes.arcade.size }}</span></button>
+      <button type="button" role="tab" id="tab-arena" aria-controls="panel-arena" aria-selected="false">Arena <span class="tab-count">{{ modes.arena.size }}</span></button>
+      {%- if modes.missions.size > 0 %}
+      <button type="button" role="tab" id="tab-missions" aria-controls="panel-missions" aria-selected="false">Missions <span class="tab-count">{{ modes.missions.size }}</span></button>
+      {%- endif %}
+    </div>
+
+    <div class="mode-panel" role="tabpanel" id="panel-toybox" aria-labelledby="tab-toybox">
+      <div class="toybox-feature glass-card">
+        <img src="assets/images/Image Sequence_025_0000.jpg" alt="A vessel flying freestyle through a living cell" loading="lazy">
+        <div>
+          <h3>Toybox</h3>
+          <p>Free flight in a living cell, with no score and no clock. Swap between vessels, change the world around you, paint, and ride the Wanderway from scene to scene. It is where every pilot starts, and where the game's toys live.</p>
+          {%- if site.data.toybox.build_root != "" %}
+          <div class="card-actions"><div class="btn-glow-wrap"><a href="#play">Play the Toybox in your browser</a></div></div>
+          {%- endif %}
+        </div>
       </div>
     </div>
-    <div class="mode-tile reveal reveal-d1">
-      <img src="assets/images/Image Sequence_030_0008.jpg" alt="Joust" loading="lazy">
-      <div class="mode-tile-overlay">
-        <h4>Joust</h4>
-        <p>Hunt and be hunted in high-intensity aerial combat.</p>
+
+    {%- assign groups = "arcade|Short competitive games, most built around one vessel's way of flying.;arena|Mixed fleets: several vessel classes in one match.;missions|Objectives to take on together." | split: ";" %}
+    {%- for g in groups %}
+    {%- assign parts = g | split: "|" %}{%- assign key = parts[0] %}{%- assign list = modes[key] %}
+    {%- if list.size > 0 %}
+    <div class="mode-panel" role="tabpanel" id="panel-{{ key }}" aria-labelledby="tab-{{ key }}">
+      <p class="mode-panel-lede">{{ parts[1] }}</p>
+      <div class="mode-grid">
+        {%- for m in list %}
+        <article class="mode-card">
+          {%- if m.image %}<img src="{{ m.image }}" alt="" width="480" height="319" loading="lazy" decoding="async">{% endif %}
+          <div class="mode-card-body">
+            <h3>{{ m.name }}</h3>
+            <p>{{ m.blurb }}</p>
+            <div class="mode-meta">
+              {%- if m.players %}<span class="chip chip-dim">{{ m.players }} players</span>{% endif %}
+              {%- if m.vessels.size > 0 %}<span class="mode-vessels">{{ m.vessels | join: " · " }}</span>{% endif %}
+            </div>
+          </div>
+        </article>
+        {%- endfor %}
       </div>
     </div>
-    <div class="mode-tile reveal reveal-d2">
-      <img src="assets/images/Image Sequence_016_0005.jpg" alt="Hex Race" loading="lazy">
-      <div class="mode-tile-overlay">
-        <h4>Hex Race</h4>
-        <p>Crush 3 dimensional tracks at the speed of thought.</p>
-      </div>
-    </div>
+    {%- endif %}
+    {%- endfor %}
   </div>
 </section>
+
+
+
+{% if site.data.toybox.build_root != "" -%}
+<!-- PLAY IN THE BROWSER -->
+<section class="section-full" id="play" style="--content: 1280px; scroll-margin-top: 4.5rem">
+  <div class="section-header">
+    <span class="section-label reveal">Play</span>
+    <h2 class="section-title reveal reveal-d1">Fly the <span class="gradient-text">Toybox</span></h2>
+    <p class="reveal reveal-d2">Freestyle flight with the toys, right in your browser. No install, no account. Just fly.</p>
+  </div>
+  {% include toybox-player.html %}
+</section>
+{%- endif %}
 
 
 <!-- GET THE GAME -->

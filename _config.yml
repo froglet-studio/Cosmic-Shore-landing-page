@@ -23,6 +23,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - tools
 
 defaults:
   - scope: { path: "", type: pages }

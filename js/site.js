@@ -158,3 +158,114 @@
     }, { passive: true });
   }
 })();
+
+/* Game-mode tabs (index.html #modes). Without JS every panel shows; with it, one at a time. */
+(function () {
+  document.querySelectorAll('[data-tabs]').forEach(function (root) {
+    var tabs = Array.prototype.slice.call(root.querySelectorAll('[role="tab"]'));
+    if (!tabs.length) return;
+    root.classList.add('is-tabbed');
+    function select(tab, focus) {
+      tabs.forEach(function (t) {
+        var on = t === tab;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        var panel = document.getElementById(t.getAttribute('aria-controls'));
+        if (panel) panel.hidden = !on;
+      });
+      if (focus) tab.focus();
+    }
+    tabs.forEach(function (tab, i) {
+      tab.addEventListener('click', function () { select(tab, false); });
+      tab.addEventListener('keydown', function (e) {
+        var next = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1 : null;
+        if (next === null) return;
+        e.preventDefault();
+        select(tabs[(next + tabs.length) % tabs.length], true);
+      });
+    });
+    select(tabs.filter(function (t) { return t.getAttribute('aria-selected') === 'true'; })[0] || tabs[0], false);
+  });
+})();
+
+/* Test sign-up (_includes/tester-signup.html). Any [data-tester-platform] button opens it with that
+   platform chosen. Posts to the Apps Script endpoint (tools/tester-signup/) as a simple text/plain
+   request, so no CORS preflight; with no endpoint set, opens the visitor's email app instead. */
+(function () {
+  var dialog = document.getElementById('tester-dialog');
+  if (!dialog || typeof dialog.showModal !== 'function') return;
+  var form = document.getElementById('tester-form');
+  var errorEl = form.querySelector('.tester-error');
+  var otherWrap = form.querySelector('[data-heard-other]');
+  var submit = form.querySelector('button[type="submit"]');
+  var endpoint = dialog.getAttribute('data-endpoint') || '';
+  var fallback = dialog.getAttribute('data-fallback') || '';
+
+  function step(name) {
+    form.querySelectorAll('.tester-step').forEach(function (s) { s.hidden = s.getAttribute('data-step') !== name; });
+  }
+  function showError(msg) { errorEl.textContent = msg; errorEl.hidden = !msg; }
+  function track(event, extra) {
+    try { (window.dataLayer = window.dataLayer || []).push(Object.assign({ event: event }, extra || {})); } catch (e) {}
+  }
+
+  document.addEventListener('click', function (e) {
+    var opener = e.target.closest('[data-tester-platform]');
+    if (!opener) return;
+    var radio = form.querySelector('input[name="platform"][value="' + opener.getAttribute('data-tester-platform') + '"]');
+    if (radio) radio.checked = true;
+    step('form'); showError('');
+    dialog.showModal();
+    var email = form.querySelector('input[name="email"]');
+    if (email) email.focus();
+    track('tester_signup_open', { tester_platform: opener.getAttribute('data-tester-platform') });
+  });
+  dialog.querySelectorAll('[data-tester-close]').forEach(function (b) {
+    b.addEventListener('click', function () { dialog.close(); });
+  });
+  dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });   // backdrop
+  form.heard.addEventListener('change', function () {
+    otherWrap.hidden = form.heard.value !== 'Other';
+  });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var data = {
+      platform: (form.querySelector('input[name="platform"]:checked') || {}).value || '',
+      email: form.email.value.trim(),
+      heard: form.heard.value,
+      heard_other: form.heard.value === 'Other' ? form.heard_other.value.trim() : '',
+      website: form.website.value
+    };
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) { showError('Please enter a valid email address.'); form.email.focus(); return; }
+    if (!data.heard) { showError('Please tell us how you heard about us.'); form.heard.focus(); return; }
+    showError('');
+    var label = (form.querySelector('input[name="platform"]:checked + span') || {}).textContent || data.platform;
+
+    if (!endpoint) {
+      var body = 'Please add me to the Cosmic Shore ' + label + ' test.\n\nEmail: ' + data.email +
+                 '\nHow I heard about you: ' + data.heard + (data.heard_other ? ' (' + data.heard_other + ')' : '');
+      window.location.href = 'mailto:' + fallback + '?subject=' + encodeURIComponent('Cosmic Shore test request: ' + label) +
+                             '&body=' + encodeURIComponent(body);
+      track('tester_signup_submit', { tester_platform: data.platform, tester_heard: data.heard, tester_via: 'email' });
+      return;
+    }
+
+    submit.disabled = true;
+    fetch(endpoint, { method: 'POST', body: JSON.stringify(data) })
+      .then(function (r) { return r.json().catch(function () { return { ok: r.ok }; }); })
+      .then(function (res) {
+        if (!res || !res.ok) throw new Error(res && res.error === 'email' ? 'email' : 'failed');
+        form.querySelector('[data-tester-email]').textContent = data.email;
+        step('done');
+        track('tester_signup_submit', { tester_platform: data.platform, tester_heard: data.heard, tester_via: 'form' });
+        form.reset();
+        otherWrap.hidden = true;
+      })
+      .catch(function (err) {
+        showError(err.message === 'email' ? 'Please enter a valid email address.'
+                                          : 'That didn’t go through. Please try again in a moment.');
+      })
+      .then(function () { submit.disabled = false; });
+  });
+})();

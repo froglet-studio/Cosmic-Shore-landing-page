@@ -233,7 +233,8 @@ body {
   transition: box-shadow 0.3s;
 }
 .btn-glow-wrap:hover { box-shadow: var(--neon-glow-lime); }
-.btn-glow-wrap a {
+.btn-glow-wrap a,
+.btn-glow-wrap button {
   display: block;
   padding: 0.85rem 2.5rem;
   background: var(--bg);
@@ -247,7 +248,8 @@ body {
   color: var(--lime);
   transition: background 0.3s, color 0.3s;
 }
-.btn-glow-wrap:hover a { background: transparent; color: var(--bg); }
+.btn-glow-wrap:hover a,
+.btn-glow-wrap:hover button { background: transparent; color: var(--bg); }
 
 .btn-ghost {
   padding: 0.85rem 2.5rem;

@@ -1,0 +1,30 @@
+# Test sign-ups from the "Get the Game" launch pad (_includes/tester-signup.html).
+#
+# endpoint: the Google Apps Script web app that records a sign-up and emails the team
+#   (tools/tester-signup/README.md). Until it is set, the form opens the visitor's own email app
+#   with the request filled in, addressed to fallback_to.
+endpoint: ""
+fallback_to: "caleb@froglet.studio,shombith@froglet.studio"
+
+# What each card offers a test of. The key is what the form sends; the label is what people read.
+platforms:
+  - key: windows
+    label: Windows PC
+  - key: ios
+    label: iPhone & iPad
+  - key: android
+    label: Android
+
+# "How did you hear about us?" choices. "Other" opens a text box.
+heard:
+  - Discord
+  - Reddit
+  - YouTube
+  - TikTok
+  - Instagram
+  - X / Twitter
+  - Steam
+  - A friend
+  - An event
+  - Search
+  - Other
