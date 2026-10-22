@@ -113,97 +113,119 @@ layout: null
   </div>
 </section>
 
-<!-- VESSELS -->
-<section class="section" id="vessels">
-  <div class="section-header">
-    <span class="section-label reveal">Vessels</span>
-    <h2 class="section-title reveal reveal-d1">{{ site.data.vessels.size }} Ways to <span class="gradient-text">Fly</span></h2>
-    <p class="section-lede reveal reveal-d2">Every vessel in the hangar plays differently: one-thumb flyers, siege tanks, ball-rollers, swarms, and crew vessels that two or four pilots fly together.</p>
+<!-- VESSELS: the Hangar. One big view and a picker of every vessel (_data/vessels.yml, generated from
+     the game by tools/sync_game_content.py). js/site.js swaps the big view; without it, the first shows. -->
+{%- assign fleet = site.data.vessels -%}
+{%- assign v = fleet[0] -%}
+<section class="section section-compact" id="vessels">
+  <div class="split-head">
+    <div>
+      <span class="section-label reveal">The Fleet</span>
+      <h2 class="section-title reveal reveal-d1">{{ fleet.size }} Ways to <span class="gradient-text">Fly</span></h2>
+    </div>
+    <p class="split-lede reveal reveal-d2">Every vessel in the game. Pick one to see how it flies.</p>
   </div>
 
-  <div class="vessel-showcase">
-    <div class="vessel-card reveal" id="vesselSquirrel">
-      <div class="vessel-card-bg"></div>
-      <div class="vessel-card-inner">
-        <div class="vessel-card-img vessel-video" data-video-id="wXgtOWIc3lc">
-          <img src="assets/images/Image Sequence_020_0002.jpg" alt="Squirrel vessel" loading="lazy">
-          <button class="play-btn" aria-label="Play trailer"><svg viewBox="0 0 68 48"><path d="M66.5 7.7s-.7-4.7-2.7-6.8C61-1.7 58-.1 56.4-.4 47.1-1.1 34-1.1 34-1.1s-13.1 0-22.4.7C10-.1 7-1.7 4.2.9 2.2 3 1.5 7.7 1.5 7.7S.8 13.3.8 18.8v5.2c0 5.5.7 11.1.7 11.1s.7 4.7 2.7 6.8c2.8 2.6 6.4 2.5 8 2.8C18 45.3 34 45.5 34 45.5s13.1 0 22.4-.7c1.6-.3 4.6 1.3 7.4-1.3 2-2.1 2.7-6.8 2.7-6.8s.7-5.5.7-11.1v-5.2c0-5.5-.7-11.1-.7-11.1z" fill="rgba(0,0,0,0.7)"/><path d="M27 33V13l18.4 10L27 33z" fill="#fff"/></svg></button>
+  <div class="picker" data-picker>
+    <div class="picker-stage glass-card">
+      <div class="picker-media" data-media>
+        <img data-f="img" src="{{ v.image }}" alt="The {{ v.name }}" width="960" height="540" decoding="async">
+      </div>
+      <div class="picker-body" aria-live="polite">
+        <div class="picker-title">
+          <h3 data-f="name">{{ v.name }}</h3>
+          <span class="chip chip-cyan" data-f="chip"{% if v.seats < 2 %} hidden{% endif %}>{{ v.seats }} seats</span>
+          <span class="picker-count" data-f="count">01 / {% if fleet.size < 10 %}0{% endif %}{{ fleet.size }}</span>
         </div>
-        <div class="vessel-card-body">
-          <h3>Squirrel</h3>
-          <p>Master the ability and feel the joy of three-dimensional drift! Press your luck or express your skill with the near-miss boosting abilities of the Squirrel.</p>
+        <p data-f="blurb">{{ v.blurb }}</p>
+        <div class="picker-actions">
+          <button type="button" class="picker-arrow" data-dir="-1" aria-label="Previous vessel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button type="button" class="picker-arrow" data-dir="1" aria-label="Next vessel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+          <button type="button" class="btn-ghost picker-trailer" data-trailer-play{% unless v.trailer %} hidden{% endunless %}>Watch the trailer</button>
         </div>
       </div>
     </div>
-  </div>
 
-  {%- comment -%} The fleet: _data/vessels.yml, generated from the game's hangar roster by tools/sync_game_content.py {%- endcomment -%}
-  <div class="fleet-grid">
-    {%- for v in site.data.vessels %}
-    <article class="fleet-card reveal">
-      {%- if v.image %}<img src="{{ v.image }}" alt="The {{ v.name }}" width="640" height="360" loading="lazy" decoding="async">{% endif %}
-      <div class="fleet-card-body">
-        <h3>{{ v.name }}{% if v.seats > 1 %} <span class="chip chip-cyan">{{ v.seats }} seats</span>{% endif %}</h3>
-        <p>{{ v.blurb }}</p>
-      </div>
-    </article>
-    {%- endfor %}
+    <ul class="picker-list picker-thumbs" aria-label="Every vessel">
+      {%- for x in fleet %}
+      <li><button type="button" class="picker-item" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
+          data-img="{{ x.image }}" data-alt="The {{ x.name }}" data-name="{{ x.name }}" data-blurb="{{ x.blurb | escape }}"
+          data-chip="{% if x.seats > 1 %}{{ x.seats }} seats{% endif %}"{% if x.trailer %} data-trailer="{{ x.trailer }}"{% endif %}>
+        <img src="{{ x.thumb }}" alt="" width="256" height="144" decoding="async"><span>{{ x.name }}</span>
+      </button></li>
+      {%- endfor %}
+    </ul>
   </div>
 </section>
 
-<!-- GAME MODES -->
-<section class="section-full modes-section" id="modes">
-  <div class="section-header">
-    <span class="section-label reveal">Game Modes</span>
-    <h2 class="section-title reveal reveal-d1">Find Your <span class="gradient-text">Game</span></h2>
-    <p class="section-lede reveal reveal-d2">Fly free in the Toybox, race and fight in the Arcade, bring mixed fleets to the Arena, or take on a Mission.</p>
-  </div>
-
-  {%- assign modes = site.data.modes -%}
-  {%- comment -%} Without JavaScript every panel shows, one after another; js/site.js turns the row into tabs. {%- endcomment -%}
-  <div class="mode-tabs" data-tabs>
-    <div class="mode-tablist" role="tablist" aria-label="Game mode types">
-      <button type="button" role="tab" id="tab-toybox" aria-controls="panel-toybox" aria-selected="true">Toybox</button>
-      <button type="button" role="tab" id="tab-arcade" aria-controls="panel-arcade" aria-selected="false">Arcade <span class="tab-count">{{ modes.arcade.size }}</span></button>
-      <button type="button" role="tab" id="tab-arena" aria-controls="panel-arena" aria-selected="false">Arena <span class="tab-count">{{ modes.arena.size }}</span></button>
-      {%- if modes.missions.size > 0 %}
-      <button type="button" role="tab" id="tab-missions" aria-controls="panel-missions" aria-selected="false">Missions <span class="tab-count">{{ modes.missions.size }}</span></button>
-      {%- endif %}
+<!-- GAME MODES: tabs beside the heading; each kind is a big view plus a short list that scrolls in its
+     own box (_data/modes.yml). Without JavaScript every panel shows, one after another. -->
+{%- assign modes = site.data.modes -%}
+<section class="section section-compact modes-section" id="modes">
+  <div data-tabs class="mode-tabs">
+    <div class="split-head">
+      <div>
+        <span class="section-label reveal">Game Modes</span>
+        <h2 class="section-title reveal reveal-d1">Find Your <span class="gradient-text">Game</span></h2>
+      </div>
+      <div class="mode-tablist" role="tablist" aria-label="Kinds of game">
+        <button type="button" role="tab" id="tab-toybox" aria-controls="panel-toybox" aria-selected="false">Toybox</button>
+        <button type="button" role="tab" id="tab-arcade" aria-controls="panel-arcade" aria-selected="true">Arcade <span class="tab-count">{{ modes.arcade.size }}</span></button>
+        <button type="button" role="tab" id="tab-arena" aria-controls="panel-arena" aria-selected="false">Arena <span class="tab-count">{{ modes.arena.size }}</span></button>
+        {%- if modes.missions.size > 0 %}
+        <button type="button" role="tab" id="tab-missions" aria-controls="panel-missions" aria-selected="false">Missions <span class="tab-count">{{ modes.missions.size }}</span></button>
+        {%- endif %}
+      </div>
     </div>
 
     <div class="mode-panel" role="tabpanel" id="panel-toybox" aria-labelledby="tab-toybox">
-      <div class="toybox-feature glass-card">
-        <img src="assets/images/Image Sequence_025_0000.jpg" alt="A vessel flying freestyle through a living cell" loading="lazy">
-        <div>
+      <p class="mode-panel-lede">Free flight, no score, no clock. Where every pilot starts.</p>
+      <div class="picker">
+        <div class="picker-stage glass-card">
+          <div class="picker-media"><img src="assets/images/Image Sequence_025_0000.jpg" alt="A vessel flying freestyle through a living cell" loading="lazy"></div>
+        </div>
+        <div class="picker-side">
           <h3>Toybox</h3>
           <p>Free flight in a living cell, with no score and no clock. Swap between vessels, change the world around you, paint, and ride the Wanderway from scene to scene. It is where every pilot starts, and where the game's toys live.</p>
           {%- if site.data.toybox.build_root != "" %}
-          <div class="card-actions"><div class="btn-glow-wrap"><a href="#play">Play the Toybox in your browser</a></div></div>
+          <div class="card-actions"><div class="btn-glow-wrap"><a href="#play">Play in your browser</a></div></div>
           {%- endif %}
         </div>
       </div>
     </div>
 
-    {%- assign groups = "arcade|Short competitive games, most built around one vessel's way of flying.;arena|Mixed fleets: several vessel classes in one match.;missions|Objectives to take on together." | split: ";" %}
+    {%- assign groups = "arcade|Short, sharp matches, most of them built around one vessel.;arena|Mixed fleets: several vessel classes in one match.;missions|Objectives against the cell itself." | split: ";" %}
     {%- for g in groups %}
     {%- assign parts = g | split: "|" %}{%- assign key = parts[0] %}{%- assign list = modes[key] %}
-    {%- if list.size > 0 %}
+    {%- if list.size > 0 %}{%- assign m = list[0] %}
     <div class="mode-panel" role="tabpanel" id="panel-{{ key }}" aria-labelledby="tab-{{ key }}">
       <p class="mode-panel-lede">{{ parts[1] }}</p>
-      <div class="mode-grid">
-        {%- for m in list %}
-        <article class="mode-card">
-          {%- if m.image %}<img src="{{ m.image }}" alt="" width="480" height="319" loading="lazy" decoding="async">{% endif %}
-          <div class="mode-card-body">
-            <h3>{{ m.name }}</h3>
-            <p>{{ m.blurb }}</p>
-            <div class="mode-meta">
-              {%- if m.players %}<span class="chip chip-dim">{{ m.players }} players</span>{% endif %}
-              {%- if m.vessels.size > 0 %}<span class="mode-vessels">{{ m.vessels | join: " · " }}</span>{% endif %}
-            </div>
+      <div class="picker" data-picker>
+        <div class="picker-stage glass-card">
+          <div class="picker-media picker-media-card" data-media>
+            <img data-f="img" src="{{ m.image }}" alt="{{ m.name }}" width="768" height="510" loading="lazy" decoding="async">
           </div>
-        </article>
-        {%- endfor %}
+          <div class="picker-body" aria-live="polite">
+            <div class="picker-title">
+              <h3 data-f="name">{{ m.name }}</h3>
+              <span class="chip chip-cyan" data-f="chip"{% unless m.players %} hidden{% endunless %}>{{ m.players }} players</span>
+            </div>
+            <p data-f="blurb">{{ m.blurb }}</p>
+            <p class="picker-vessels" data-f="vessels-row"{% if m.vessels.size == 0 %} hidden{% endif %}><span>Vessels</span> <span data-f="vessels">{{ m.vessels | join: " · " }}</span></p>
+          </div>
+        </div>
+
+        <ul class="picker-list picker-rows" aria-label="{{ key | capitalize }} modes">
+          {%- for x in list %}
+          {%- capture meta %}{% if x.players %}{{ x.players }} players{% endif %}{% if x.players and x.vessels.size > 0 %} · {% endif %}{{ x.vessels | join: " · " }}{% endcapture %}
+          <li><button type="button" class="picker-item" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
+              data-img="{{ x.image }}" data-alt="{{ x.name }}" data-name="{{ x.name }}" data-blurb="{{ x.blurb | escape }}"
+              data-chip="{% if x.players %}{{ x.players }} players{% endif %}" data-vessels="{{ x.vessels | join: ' · ' }}">
+            <img src="{{ x.thumb }}" alt="" width="192" height="128" loading="lazy" decoding="async">
+            <span class="picker-row-text"><span class="picker-row-name">{{ x.name }}</span><span class="picker-row-meta">{{ meta | strip }}</span></span>
+          </button></li>
+          {%- endfor %}
+        </ul>
       </div>
     </div>
     {%- endif %}
@@ -309,100 +331,6 @@ layout: null
   });
 })();
 
-// ── Video Thumbnail Click-to-Play ───────────────────────────
-(function() {
-  // Load YouTube IFrame API
-  var tag = document.createElement('script');
-  tag.src = 'https://www.youtube.com/iframe_api';
-  document.head.appendChild(tag);
-
-  document.querySelectorAll('.vessel-video').forEach(el => {
-    // Save original thumbnail HTML for restoration
-    const originalHTML = el.innerHTML;
-    let ytPlayer = null;
-    let inactivityTimer = null;
-
-    function revertToThumbnail() {
-      clearTimeout(inactivityTimer);
-      if (ytPlayer) { try { ytPlayer.destroy(); } catch(e) {} ytPlayer = null; }
-      el.innerHTML = originalHTML;
-      el.classList.remove('playing');
-      document.removeEventListener('click', outsideClickHandler, true);
-    }
-
-    // Revert when scrolled entirely off-screen
-    var scrollObserver = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (!entry.isIntersecting && el.classList.contains('playing')) {
-          revertToThumbnail();
-        }
-      });
-    }, { threshold: 0 });
-    scrollObserver.observe(el);
-
-    function resetInactivityTimer() {
-      clearTimeout(inactivityTimer);
-      inactivityTimer = setTimeout(revertToThumbnail, 60000);
-    }
-
-    function outsideClickHandler(e) {
-      if (!el.contains(e.target)) {
-        revertToThumbnail();
-      }
-    }
-
-    el.addEventListener('click', function handler(e) {
-      // Ignore clicks if already playing (let YouTube handle those)
-      if (el.classList.contains('playing')) return;
-
-      const id = el.dataset.videoId;
-      if (!id) return;
-
-      // Replace thumbnail with a div for the YT player
-      var playerDiv = document.createElement('div');
-      playerDiv.id = 'yt-player-' + id + '-' + Date.now();
-      el.innerHTML = '';
-      el.appendChild(playerDiv);
-      el.classList.add('playing');
-
-      // Wait for API to be ready, then create player
-      function createPlayer() {
-        ytPlayer = new YT.Player(playerDiv.id, {
-          videoId: id,
-          playerVars: { autoplay: 1, rel: 0 },
-          events: {
-            onStateChange: function(event) {
-              // YT.PlayerState: PAUSED=2, ENDED=0
-              if (event.data === YT.PlayerState.PAUSED) {
-                resetInactivityTimer();
-              } else if (event.data === YT.PlayerState.ENDED) {
-                revertToThumbnail();
-              } else if (event.data === YT.PlayerState.PLAYING) {
-                clearTimeout(inactivityTimer);
-              }
-            }
-          }
-        });
-      }
-
-      if (window.YT && YT.Player) {
-        createPlayer();
-      } else {
-        // API not yet loaded; queue via global callback
-        var prev = window.onYouTubeIframeAPIReady;
-        window.onYouTubeIframeAPIReady = function() {
-          if (prev) prev();
-          createPlayer();
-        };
-      }
-
-      // Listen for clicks outside the video
-      setTimeout(() => {
-        document.addEventListener('click', outsideClickHandler, true);
-      }, 100);
-    });
-  });
-})();
 </script>
 </body>
 </html>

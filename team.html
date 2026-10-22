@@ -1,0 +1,27 @@
+---
+title: Know Your Developers — Cosmic Shore
+description: Meet the four developers at Froglet who make Cosmic Shore.
+image: /assets/images/Image%20Sequence_018_0003.jpg
+---
+{%- comment -%} The people and their lines live in _data/team.yml. {%- endcomment -%}
+{% include page-hero.html image=page.image label="The Team" title='Know Your <span class="gradient-text">Developers</span>' lede="Cosmic Shore is made by a small team at Froglet. These are the four of us." %}
+
+<section class="page-section">
+  <div class="team-grid">
+    {%- for p in site.data.team %}
+    <article class="team-card glass-card team-{{ p.color | default: 'cyan' }}">
+      <div class="team-photo">
+        {%- if p.photo and p.photo != "" %}
+        <img src="{{ p.photo }}" alt="{{ p.name }}" width="600" height="600" loading="lazy" decoding="async">
+        {%- else %}
+        <span aria-hidden="true">{{ p.name | slice: 0 }}</span>
+        {%- endif %}
+      </div>
+      <h2>{{ p.name }}</h2>
+      {%- if p.title and p.title != "" %}<span class="team-title">{{ p.title }}</span>{% endif %}
+      <p>{{ p.blurb }}</p>
+    </article>
+    {%- endfor %}
+  </div>
+  <p class="team-contact">Questions for the team? <a href="/support">Get in touch through Support</a>.</p>
+</section>

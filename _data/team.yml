@@ -1,0 +1,26 @@
+# The Know Your Developers page (/team). Order here is the order on the page.
+#   title: a job title, shown under the name; leave "" to show none.
+#   photo: a square image under assets/team/ (e.g. /assets/team/garrett.jpg, 600x600 or larger);
+#          leave "" to show the initial instead.
+#   blurb: one line on what they work on in Cosmic Shore.
+#   color: the card's accent: cyan, magenta, lime or orange.
+- name: Garrett
+  title: ""
+  photo: ""
+  blurb: Vessels, the AI pilots and the HyperSea's living ecology.
+  color: cyan
+- name: Caleb
+  title: ""
+  photo: ""
+  blurb: The arcade game modes, their card art, and play-testing every build.
+  color: magenta
+- name: Shombith
+  title: ""
+  photo: ""
+  blurb: The menus and UI, multiplayer scenes, and the online services behind your account and saves.
+  color: lime
+- name: Yash
+  title: ""
+  photo: ""
+  blurb: Multiplayer parties, leaderboards, bug hunting, and the tools the team designs vessels with.
+  color: orange
