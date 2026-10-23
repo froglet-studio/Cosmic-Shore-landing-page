@@ -29,6 +29,7 @@ permalink: /admin/
 </head>
 <body>
 <div class="st-testbar" id="testbar" role="status" hidden></div>
+<div class="st-ambient" id="ambient" aria-hidden="true"></div>
 
 <!-- SIGN IN -->
 <section class="st-gate" id="view-signin" hidden>
@@ -202,9 +203,10 @@ permalink: /admin/
       </div>
     </section>
 
-    <!-- WRITE A POST -->
+    <!-- WRITE A POST: the cover is the post's header, with the title written on it, like the published post -->
     <section id="view-write" class="st-view" hidden>
       <header class="st-head">
+        <h1>Write a post</h1>
         <span class="st-status" id="post-status"></span>
         <span class="st-fill"></span>
         <button type="button" class="st-btn" id="post-discard">Discard draft</button>
@@ -213,17 +215,23 @@ permalink: /admin/
       <p class="st-error" id="post-error" role="alert" hidden></p>
       <div class="st-split st-split-post">
         <form class="st-form" id="post-form" novalidate>
-          <div class="st-cover" id="cover-preview"><span>No cover yet</span></div>
-          <div class="st-inline">
-            <button type="button" class="st-btn st-btn-small" id="cover-pick">Choose game art</button>
-            <label class="st-btn st-btn-small st-file">Upload a cover<input type="file" accept="image/*" id="cover-file"></label>
+          <div class="st-hero" id="cover-preview">
+            <img class="st-hero-img" id="cover-img" alt="">
+            <div class="st-hero-tools">
+              <button type="button" class="st-btn st-btn-small st-btn-glass" id="cover-pick">Choose game art</button>
+              <label class="st-btn st-btn-small st-btn-glass st-file">Upload a cover<input type="file" accept="image/*" id="cover-file"></label>
+            </div>
+            <div class="st-hero-text">
+              <span class="st-hero-cat" id="hero-cat"></span>
+              <label class="st-sr" for="p-title">Title</label>
+              <textarea class="st-title-input" id="p-title" maxlength="100" rows="1" placeholder="Give it a title"></textarea>
+              <label class="st-sr" for="p-desc">One-line description</label>
+              <input class="st-desc-input" id="p-desc" maxlength="200" placeholder="One line that makes people want to read it">
+              <span class="st-hero-by"><span class="st-me-avatar st-hero-avatar" id="hero-avatar" aria-hidden="true"></span><span id="hero-by"></span></span>
+            </div>
           </div>
-          <div class="st-art" id="cover-list" hidden></div>
-          <label class="st-sr" for="p-title">Title</label>
-          <input class="st-title-input" id="p-title" maxlength="100" placeholder="Title">
-          <label class="st-sr" for="p-desc">One-line description</label>
-          <input class="st-desc-input" id="p-desc" maxlength="200" placeholder="One line for the post card and link previews">
-          <div class="st-md" data-md>
+          <div class="st-art st-art-wide" id="cover-list" hidden></div>
+          <div class="st-md st-md-post" data-md>
             <div class="st-md-bar">
               <button type="button" data-md-tab="write" aria-pressed="true">Write</button>
               <button type="button" data-md-tab="preview" aria-pressed="false">Preview</button>
@@ -231,14 +239,27 @@ permalink: /admin/
               <button type="button" data-md-wrap="**" aria-label="Bold"><b>B</b></button>
               <button type="button" data-md-wrap="_" aria-label="Italic"><i>I</i></button>
               <button type="button" data-md-line="## " aria-label="Heading">H</button>
+              <button type="button" data-md-line="> " aria-label="Quote">&ldquo;</button>
+              <button type="button" data-md-line="- " aria-label="List">&bull;</button>
               <button type="button" data-md-link aria-label="Link">Link</button>
               <label class="st-md-img" aria-label="Insert a picture">Picture<input type="file" accept="image/*" data-md-image></label>
             </div>
-            <textarea class="st-input st-md-text" id="p-body" rows="18" placeholder="Write your post. Markdown works: ## headings, **bold**, links and pictures."></textarea>
+            <textarea class="st-input st-md-text" id="p-body" rows="18" placeholder="Start with what happened, or what you made.&#10;&#10;## Use headings to break it up&#10;&#10;**Bold** the key idea, add a link, and drop in screenshots with Picture. A YouTube link on its own line becomes a player."></textarea>
             <div class="st-md-preview prose" hidden></div>
           </div>
         </form>
+
         <aside class="st-preview">
+          <span class="st-label">On the blog</span>
+          <div class="st-cardpv" aria-label="How the post card will look">
+            <img id="cardpv-img" alt="">
+            <div class="st-cardpv-body">
+              <span class="st-cardpv-cat" id="cardpv-cat"></span>
+              <b id="cardpv-title"></b>
+              <span id="cardpv-desc"></span>
+            </div>
+          </div>
+          <div class="st-stats"><span><b id="stat-words">0</b> words</span><span><b id="stat-read">1</b> min read</span><span><b id="stat-pics">0</b> pictures</span></div>
           <span class="st-label">Category</span>
           <div class="st-chips" id="cat-list"></div>
           <label class="st-label" for="p-alt">Cover description</label>

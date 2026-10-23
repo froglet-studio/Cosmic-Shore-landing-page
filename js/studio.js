@@ -27,6 +27,8 @@
     { key: 'pink', hex: '#ff4f8b', label: 'Pink' }
   ];
   var CATEGORIES = ['Dev Log', 'Design', 'Patch Notes'];
+  var CATEGORY_COLOURS = { 'Dev Log': '#7fff00', 'Design': '#00e5ff', 'Patch Notes': '#ff4081' };   // as the blog's chips
+  var DEFAULT_COVER = '/assets/images/Image%20Sequence_025_0000.jpg';
   var PIN_KINDS = ['Post', 'Code', 'Video', 'Link'];
   var MAX_LINKS = 5, MAX_PINS = 6;
   var PROFILE_NOTE = "'s profile at /team/{slug}/. Edit it in Froglet Studio (www.froglet.games/admin/), or here.";
@@ -48,6 +50,12 @@
     return e;
   }
   function show(node, on) { node.hidden = !on; }
+  // The Studio's backdrop: the banner (profile) or cover (post) being edited, blurred far behind everything.
+  function setAmbient(src) {
+    var a = $('ambient'); if (!a) return;
+    a.style.backgroundImage = src ? 'url("' + String(src).replace(/["\\\n\r]/g, '') + '")' : 'none';
+    a.classList.toggle('is-on', !!src);
+  }
 
   /* ── Storage (may be blocked: private windows, cleared site data) ───────── */
   function storage(kind) { try { var s = window[kind]; s.getItem('x'); return s; } catch (e) { return null; } }
@@ -326,8 +334,10 @@
     document.querySelectorAll('.st-nav [data-go]').forEach(function (b) {
       if (b.dataset.go === name) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
     });
-    if (name === 'posts') renderPosts();
+    if (name === 'posts') { renderPosts(); setAmbient(''); }
     if (name === 'write' && !keep && (!W.loaded || W.path)) newPost();
+    if (name === 'write' && W.loaded) renderCover();
+    if (name === 'profile' && P.loaded) updateProfilePreview();
     window.scrollTo(0, 0);
   }
   function startApp() {
@@ -525,6 +535,7 @@
     document.body.style.setProperty('--studio-accent', acc.hex);
     var bannerSrc = P.banner && d.banner === P.banner.path ? P.banner.url : (previewUrls[d.banner] || d.banner);
     $('pcard-banner').src = bannerSrc || ''; $('pcard-banner').hidden = !bannerSrc;
+    if (!$('view-profile').hidden) setAmbient(bannerSrc);
     var ph = $('pcard-photo'); ph.replaceChildren();
     var photo = P.photo ? P.photo.url : (previewUrls[d.photo] || d.photo);
     if (photo) ph.appendChild(el('img', { src: photo, alt: '' })); else ph.appendChild(el('span', null, (d.name || DEV.name).charAt(0)));
@@ -712,17 +723,38 @@
     }), W.data.category || CATEGORIES[0], function (v) { W.data.category = v; postChanged(); });
   }
   function renderCover() {
-    var box = $('cover-preview'); box.replaceChildren();
-    var src = W.cover ? W.cover.url : W.data.image;
-    if (src) box.appendChild(el('img', { src: src, alt: '' })); else box.appendChild(el('span', null, 'No cover yet'));
+    var src = W.cover ? W.cover.url : (previewUrls[W.data.image] || W.data.image);
+    $('cover-img').src = src || DEFAULT_COVER;
+    $('cover-preview').classList.toggle('is-placeholder', !src);
+    $('cardpv-img').src = src || DEFAULT_COVER;
+    if (!$('view-write').hidden) setAmbient(src || DEFAULT_COVER);
+    updatePostPreview();
+  }
+  // The header's category and byline, the blog card preview and the counts, as the post is written.
+  function updatePostPreview() {
+    var d = W.data || {}, cat = d.category || CATEGORIES[0], colour = CATEGORY_COLOURS[cat] || '#7fff00';
+    var hc = $('hero-cat'); hc.textContent = cat; hc.style.color = colour; hc.style.borderColor = colour;
+    var body = String(W.body || '');
+    var words = (body.replace(/!\[[^\]]*\]\([^)]*\)/g, ' ').match(/[A-Za-z0-9\u00C0-\uFFFF'’-]+/g) || []).length;
+    var minutes = Math.max(1, Math.floor(words / 200));
+    $('stat-words').textContent = String(words);
+    $('stat-read').textContent = String(minutes);
+    $('stat-pics').textContent = String((body.match(/!\[[^\]]*\]\([^)]*\)/g) || []).length);
+    $('hero-avatar').textContent = DEV.name.charAt(0);
+    $('hero-by').textContent = DEV.name + ' · ' + (W.path ? ((/_posts\/(\d{4}-\d{2}-\d{2})-/.exec(W.path) || [])[1] || '') : 'Today') + ' · ' + minutes + ' min read';
+    var cc = $('cardpv-cat'); cc.textContent = cat; cc.style.color = colour; cc.style.borderColor = colour;
+    $('cardpv-title').textContent = (d.title || '').trim() || 'Your title';
+    $('cardpv-desc').textContent = (d.description || '').trim() || 'Your one-liner shows here.';
+    var t = $('p-title'); t.style.height = 'auto'; t.style.height = t.scrollHeight + 'px';
   }
   function postChanged() {
-    W.data.title = $('p-title').value; W.data.description = $('p-desc').value; W.data.image_alt = $('p-alt').value;
+    W.data.title = $('p-title').value.replace(/[\r\n]+/g, ' '); W.data.description = $('p-desc').value; W.data.image_alt = $('p-alt').value;
     W.body = bodyEditor.textarea.value; W.pin = $('p-pin').checked;
     var keepImage = W.cover ? '' : W.data.image;   // an un-uploaded cover can't be kept in a draft
     writeDraft(W.key, { path: W.path, sha: W.sha, data: Object.assign({}, W.data, { image: keepImage }), body: W.body, pin: W.pin });
     var pendingPics = Object.keys(W.pending).length > 0 || W.cover;
     setStatus('post-status', (W.path ? 'Unpublished edits' : 'Draft') + ', saved only in this browser' + (pendingPics ? ' (new pictures upload when you publish; keep this tab open)' : ''), 'warn');
+    updatePostPreview();
   }
   function setupPostForm() {
     W.pending = {};
@@ -731,6 +763,7 @@
       imagePath: function (ext) { return 'assets/blog/' + today() + '-' + stamp() + '.' + ext; }
     });
     ['p-title', 'p-desc', 'p-alt'].forEach(function (id) { $(id).addEventListener('input', postChanged); });
+    $('p-title').addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); $('p-desc').focus(); } });
     bodyEditor.textarea.addEventListener('input', postChanged);
     $('p-pin').addEventListener('change', postChanged);
     $('cover-pick').addEventListener('click', function () {

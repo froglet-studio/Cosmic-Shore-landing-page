@@ -26,12 +26,18 @@ body::before {
 }
 body::after {
   background:
-    radial-gradient(60vmax 45vmax at 105% -10%, color-mix(in srgb, var(--studio-accent) 22%, transparent), transparent 70%),
-    radial-gradient(55vmax 40vmax at -10% 110%, color-mix(in srgb, var(--studio-accent) 13%, transparent), transparent 70%),
+    radial-gradient(60vmax 45vmax at 105% -10%, color-mix(in srgb, var(--studio-accent) 30%, transparent), transparent 70%),
+    radial-gradient(55vmax 40vmax at -10% 110%, color-mix(in srgb, var(--studio-accent) 18%, transparent), transparent 70%),
     radial-gradient(40vmax 30vmax at 50% 120%, rgba(124, 77, 255, 0.08), transparent 70%);
   transition: background 0.6s;
 }
 .st-app, .st-gate { position: relative; z-index: 1; }
+/* The banner or cover being edited, blurred far behind everything (studio.js, setAmbient). */
+.st-ambient {
+  position: fixed; inset: -12%; z-index: 0; pointer-events: none; opacity: 0;
+  background: center / cover no-repeat; filter: blur(70px) saturate(1.5); transition: opacity .6s, background-image .6s;
+}
+.st-ambient.is-on { opacity: 0.34; }
 a { color: var(--cyan); }
 button, input, select, textarea { font: inherit; color: inherit; }
 [hidden] { display: none !important; }
@@ -212,12 +218,48 @@ select.st-input option { background: #0a1024; }
 .st-posts li { display: flex; align-items: center; flex-wrap: wrap; gap: 0.6rem 1rem; padding: 0.8rem 1rem; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); }
 .st-posts b { flex: 1; min-width: 12rem; color: var(--bright); }
 .st-post-date { font-size: 0.78rem; color: var(--muted); min-width: 6rem; }
-.st-cover { height: 220px; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); background: #0b1430; display: flex; align-items: center; justify-content: center; }
-.st-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.st-cover span { color: var(--muted); }
-.st-title-input { width: 100%; border: 0; background: transparent; color: var(--bright); font-size: 2.3rem; font-weight: 800; padding: 0.2rem 0; outline: none; }
-.st-desc-input { width: 100%; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: rgba(255, 255, 255, 0.85); font-size: 1.1rem; padding: 0.2rem 0 0.9rem; outline: none; }
-.st-title-input:focus, .st-desc-input:focus { border-bottom-color: var(--cyan); }
+.st-btn-glass { background: rgba(5, 8, 16, 0.6); border-color: rgba(255, 255, 255, 0.25); backdrop-filter: blur(6px); }
+
+/* Write a post: the cover is the post's header, with the title written on it */
+.st-hero {
+  position: relative; min-height: 340px; border-radius: 18px; overflow: hidden; border: 1px solid var(--line);
+  display: flex; flex-direction: column; justify-content: flex-end; background: #0b1430;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+.st-hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.st-hero::after {   /* darkens the lower half so the title reads */
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to top, rgba(5, 8, 16, 0.94) 0%, rgba(5, 8, 16, 0.6) 45%, rgba(5, 8, 16, 0.1) 100%);
+}
+.st-hero.is-placeholder .st-hero-img { opacity: 0.45; filter: saturate(0.7); }
+.st-hero-tools { position: absolute; top: 14px; right: 14px; z-index: 2; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.st-hero-text { position: relative; z-index: 2; display: flex; flex-direction: column; gap: 0.55rem; padding: 1.6rem 1.8rem 1.5rem; }
+.st-hero-cat {
+  align-self: flex-start; font-size: 0.68rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+  border: 1px solid currentColor; border-radius: 999px; padding: 0.2rem 0.7rem; background: rgba(5, 8, 16, 0.55);
+}
+.st-title-input {
+  width: 100%; border: 0; background: transparent; color: var(--bright); font: inherit; font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+  font-weight: 800; line-height: 1.12; padding: 0; outline: none; resize: none; overflow: hidden; text-shadow: 0 2px 18px rgba(0, 0, 0, 0.6);
+}
+.st-title-input::placeholder, .st-desc-input::placeholder { color: rgba(255, 255, 255, 0.45); }
+.st-desc-input { width: 100%; border: 0; background: transparent; color: rgba(255, 255, 255, 0.88); font-size: 1.1rem; padding: 0; outline: none; }
+.st-title-input:focus-visible, .st-desc-input:focus-visible { box-shadow: 0 2px 0 var(--studio-accent); }
+.st-hero-by { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.4rem; font-size: 0.85rem; color: rgba(255, 255, 255, 0.75); }
+.st-hero-avatar { width: 30px; height: 30px; border-radius: 9px; border-color: var(--studio-accent); color: var(--studio-accent); font-size: 0.85rem; }
+.st-art-wide { max-height: 260px; padding: 0.8rem; border-radius: 14px; border: 1px solid var(--line); background: var(--panel); }
+.st-md-post { background: rgba(10, 16, 36, 0.55); }
+.st-md-post .st-md-text { min-height: 22rem; font-size: 0.95rem; }
+
+/* The blog card preview and the counts */
+.st-cardpv { border-radius: 14px; overflow: hidden; border: 1px solid var(--line); background: var(--panel); }
+.st-cardpv img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.st-cardpv-body { display: flex; flex-direction: column; gap: 0.45rem; padding: 0.9rem 1rem 1.1rem; }
+.st-cardpv-cat { align-self: flex-start; font-size: 0.62rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; border: 1px solid currentColor; border-radius: 999px; padding: 0.15rem 0.6rem; }
+.st-cardpv-body b { color: var(--bright); font-size: 1.05rem; line-height: 1.3; }
+.st-cardpv-body span:last-child { font-size: 0.85rem; line-height: 1.5; color: var(--muted); }
+.st-stats { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.82rem; color: var(--muted); padding: 0.2rem 0 0.4rem; }
+.st-stats b { color: var(--bright); font-size: 1rem; margin-right: 0.15rem; }
 
 .st-toast {
   position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); z-index: 50; max-width: calc(100vw - 32px);
