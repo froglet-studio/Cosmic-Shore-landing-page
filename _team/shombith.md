@@ -13,3 +13,4 @@ favourite_vessel: Thresher
 links: []
 pins: []
 ---
+I love exploring new ideas and bringing them to life. ![wp10765382-stargazing-4k-wallpapers](/assets/team/shombith/about-mvlcufrc.webp)
