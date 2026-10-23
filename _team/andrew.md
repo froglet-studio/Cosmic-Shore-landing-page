@@ -4,7 +4,7 @@
 name: Andrew
 github: Soncub
 order: 6
-title: ''
+title: QA
 bio: Plays every build and writes down what breaks.
 location: ''
 accent: jade

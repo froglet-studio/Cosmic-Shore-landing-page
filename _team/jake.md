@@ -4,7 +4,7 @@
 name: Jake
 github: jakebruin1
 order: 9
-title: ''
+title: Operations
 bio: ''
 location: ''
 accent: blue

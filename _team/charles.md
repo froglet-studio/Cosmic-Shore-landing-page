@@ -4,7 +4,7 @@
 name: Charles
 github: aradias
 order: 7
-title: ''
+title: Audio Engineer
 bio: ''
 location: ''
 accent: gold

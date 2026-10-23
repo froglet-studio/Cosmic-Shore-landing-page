@@ -4,7 +4,7 @@
 name: Iggy
 github: KidIgarus
 order: 5
-title: ''
+title: CTO
 bio: ''
 location: ''
 accent: violet

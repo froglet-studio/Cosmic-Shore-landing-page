@@ -4,7 +4,7 @@
 name: Jones
 github: jtgjones
 order: 8
-title: ''
+title: Voice Actor
 bio: ''
 location: ''
 accent: ruby
