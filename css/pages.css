@@ -885,12 +885,7 @@ kbd {
 .tester-form button.btn-ghost { cursor: pointer; background: transparent; }
 .tester-form button.btn-ghost:hover { background: var(--lime); }
 
-/* ── Developer accents (each person picks one in Froglet Studio) ────────── */
-.accent-cyan { --accent: #00e5ff; --accent-soft: rgba(0, 229, 255, 0.35); }
-.accent-magenta { --accent: #e86cfc; --accent-soft: rgba(232, 108, 252, 0.35); }
-.accent-lime { --accent: #7fff00; --accent-soft: rgba(127, 255, 0, 0.35); }
-.accent-orange { --accent: #ffaa40; --accent-soft: rgba(255, 170, 64, 0.35); }
-.accent-pink { --accent: #ff4f8b; --accent-soft: rgba(255, 79, 139, 0.35); }
+/* Developer accents (.accent-cyan and the rest) live in css/accents.css, shared with the Studio. */
 
 /* ── /team/: Know Your Developers (_team/*.md) ──────────────────────────── */
 .team-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; max-width: 1280px; margin: 0 auto; }

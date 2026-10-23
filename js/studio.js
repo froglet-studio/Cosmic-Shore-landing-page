@@ -19,13 +19,29 @@
   var TOKEN_KEY = 'froglet-studio-token';
   var DRAFT_PREFIX = 'froglet-studio:';
   var API = 'https://api.github.com';
+  // Accents: the keys and colours match css/accents.css, which draws them on the site and here.
   var ACCENTS = [
-    { key: 'cyan', hex: '#00e5ff', label: 'Cyan' },
-    { key: 'magenta', hex: '#e86cfc', label: 'Magenta' },
-    { key: 'lime', hex: '#7fff00', label: 'Lime' },
-    { key: 'orange', hex: '#ffaa40', label: 'Orange' },
-    { key: 'pink', hex: '#ff4f8b', label: 'Pink' }
+    { key: 'cyan', hex: '#00e5ff', label: 'Cyan', group: 'Colours' },
+    { key: 'magenta', hex: '#e86cfc', label: 'Magenta', group: 'Colours' },
+    { key: 'lime', hex: '#7fff00', label: 'Lime', group: 'Colours' },
+    { key: 'orange', hex: '#ffaa40', label: 'Orange', group: 'Colours' },
+    { key: 'pink', hex: '#ff4f8b', label: 'Pink', group: 'Colours' },
+    { key: 'violet', hex: '#a07cff', label: 'Violet', group: 'Colours' },
+    { key: 'fire', hex: '#ff5a36', label: 'Fire', group: 'Colours' },
+    { key: 'silver', hex: '#dfe7ff', label: 'Silver', group: 'Colours' },
+    { key: 'jade', hex: '#13fff2', label: 'Jade', group: 'Game domains' },
+    { key: 'ruby', hex: '#ff00f9', label: 'Ruby', group: 'Game domains' },
+    { key: 'gold', hex: '#ffa700', label: 'Gold', group: 'Game domains' },
+    { key: 'blue', hex: '#6680ff', label: 'Blue', group: 'Game domains' },
+    { key: 'prism', hex: '#13fff2', label: 'Prism: all four domains', group: 'Animated', stops: ['#13fff2', '#ff00f9', '#ffa700', '#6680ff'] },
+    { key: 'aurora', hex: '#13fff2', label: 'Aurora', group: 'Animated', stops: ['#13fff2', '#7fff00', '#00e5ff', '#6680ff'] },
+    { key: 'ember', hex: '#ffa700', label: 'Ember', group: 'Animated', stops: ['#ffa700', '#ff5a36', '#ff4f8b', '#ffcf40'] },
+    { key: 'nebula', hex: '#ff00f9', label: 'Nebula', group: 'Animated', stops: ['#ff00f9', '#a07cff', '#6680ff', '#e86cfc'] }
   ];
+  function setAccentClass(node, key) {
+    ACCENTS.forEach(function (a) { node.classList.remove('accent-' + a.key); });
+    node.classList.add('accent-' + key);
+  }
   var CATEGORIES = ['Dev Log', 'Design', 'Patch Notes'];
   var CATEGORY_COLOURS = { 'Dev Log': '#7fff00', 'Design': '#00e5ff', 'Patch Notes': '#ff4081' };   // as the blog's chips
   var DEFAULT_COVER = '/assets/images/Image%20Sequence_025_0000.jpg';
@@ -346,7 +362,7 @@
     $('me-login').textContent = '@' + ME.login;
     $('me-avatar').textContent = DEV.name.charAt(0);
     var who = CFG.team.filter(function (t) { return t.slug === DEV.slug; })[0];
-    if (who && who.accent) { var a0 = ACCENTS.filter(function (a) { return a.key === who.accent; })[0]; if (a0) document.body.style.setProperty('--studio-accent', a0.hex); }
+    if (who && ACCENTS.some(function (a) { return a.key === who.accent; })) setAccentClass(document.body, who.accent);
     $('nav-mypage').href = DEV.url;
     $('pcard-link').href = DEV.url; $('pcard-link').textContent = 'www.froglet.games' + DEV.url;
     document.querySelectorAll('[data-go]').forEach(function (b) { b.addEventListener('click', function () { go(b.dataset.go); }); });
@@ -431,9 +447,20 @@
     renderAccents(); renderBanners(); renderVessels(); renderLinks(); renderPins(); renderPhoto(); updateProfilePreview();
   }
   function renderAccents() {
-    radioGroup($('accent-list'), 'accent', ACCENTS.map(function (a) {
-      return { value: a.key, cls: 'st-swatch', render: function (l) { l.style.setProperty('--sw', a.hex); l.title = a.label; l.appendChild(el('span', { class: 'st-sr' }, a.label)); } };
-    }), P.data.accent, function (v) { P.data.accent = v; profileChanged(); });
+    // One radio group, shown in three rows: plain colours, the game's domains, and the animated ones
+    var box = $('accent-list'); box.replaceChildren(); box.classList.add('st-swatch-groups');
+    ['Colours', 'Game domains', 'Animated'].forEach(function (g) {
+      var row = el('div', { class: 'st-swatches' });
+      radioGroup(row, 'accent', ACCENTS.filter(function (a) { return a.group === g; }).map(function (a) {
+        return { value: a.key, cls: 'st-swatch' + (a.stops ? ' st-swatch-anim' : ''), render: function (l) {
+          l.style.setProperty('--sw', a.stops ? 'linear-gradient(120deg, ' + a.stops.concat(a.stops[0]).join(', ') + ')' : a.hex);
+          l.style.setProperty('--sw-glow', a.hex);
+          l.title = a.label; l.appendChild(el('span', { class: 'st-sr' }, a.label));
+        } };
+      }), P.data.accent, function (v) { P.data.accent = v; profileChanged(); });
+      var group = el('div', { class: 'st-swatch-group' }); group.appendChild(el('span', null, g)); group.appendChild(row);
+      box.appendChild(group);
+    });
   }
   function artItems(withNone) {
     var items = CFG.art.map(function (a) {
@@ -531,8 +558,8 @@
   }
   function updateProfilePreview() {
     var d = P.data, acc = ACCENTS.filter(function (a) { return a.key === d.accent; })[0] || ACCENTS[0];
-    var card = $('pcard'); card.style.setProperty('--accent', acc.hex);
-    document.body.style.setProperty('--studio-accent', acc.hex);
+    setAccentClass($('pcard'), acc.key);
+    setAccentClass(document.body, acc.key);
     var bannerSrc = P.banner && d.banner === P.banner.path ? P.banner.url : (previewUrls[d.banner] || d.banner);
     $('pcard-banner').src = bannerSrc || ''; $('pcard-banner').hidden = !bannerSrc;
     if (!$('view-profile').hidden) setAmbient(bannerSrc);
