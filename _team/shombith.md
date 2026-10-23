@@ -7,7 +7,7 @@ title: Jack Reacher of Froglet Games
 bio: ZIMBABWE!!!!!!
 location: Jupiter, Solar System
 accent: lime
-photo: /assets/team/shombith/photo-mvl9sbjx.webp
+photo: /assets/team/shombith/photo-mvlabg5t.webp
 banner: /assets/modes/broadside.webp
 favourite_vessel: Thresher
 links: []
