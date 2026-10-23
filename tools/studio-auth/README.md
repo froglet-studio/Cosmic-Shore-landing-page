@@ -25,7 +25,9 @@ tokens, an org owner approves it once under Organization settings > Personal acc
 
 ## 2. "Sign in with GitHub" (about 15 minutes, once)
 
-A tiny Cloudflare Worker (`worker.js`, free plan) swaps the GitHub sign-in for a token. It uses a
+A tiny Cloudflare Worker (`worker.js`, free plan) swaps the GitHub sign-in for a token. The Studio's tab
+goes to GitHub and comes straight back signed in (no popup), the token arriving in the address's
+`#fragment`, which browsers never send to a server; the Studio removes it from the address at once. It uses a
 **GitHub App**, so the token can only read and write files in the website repo, and only for the
 person who signed in. It stores nothing.
 
@@ -42,7 +44,9 @@ person who signed in. It stores nothing.
 3. Worker > Settings > **Variables and Secrets**:
    - `GITHUB_CLIENT_ID` = the App's Client ID (Text)
    - `GITHUB_CLIENT_SECRET` = the client secret (**Secret**)
-   - `ALLOWED_ORIGIN` = `https://www.froglet.games` (Text)
+   - `ALLOWED_ORIGIN` = `https://www.froglet.games,https://*.cosmic-shore-landing-page.pages.dev` (Text).
+     The sites the Studio may run on, comma-separated; `*.` allows the Cloudflare Pages branch previews.
+     The Worker only ever sends a sign-in back to one of these.
 4. Put the Worker's address (e.g. `https://froglet-studio-auth.<you>.workers.dev`) in the GitHub App's
    Callback URL as `…/callback`, and in `_data/studio.yml` as `auth_url` (no trailing slash). Push.
 

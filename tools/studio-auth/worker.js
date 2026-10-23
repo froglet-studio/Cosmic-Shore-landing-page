@@ -1,6 +1,6 @@
 /**
  * "Sign in with GitHub" for Froglet Studio (www.froglet.games/admin/): a Cloudflare Worker that turns a
- * GitHub sign-in into a token and hands it to the Studio window. It stores nothing.
+ * GitHub sign-in into a token and sends the developer back to the Studio with it. It stores nothing.
  *
  * It uses a GitHub App (not an OAuth App), so the token can only do what the App may do: read and
  * write the files of the one repository it is installed on (the website), for the signed-in person.
@@ -9,10 +9,15 @@
  * Environment (Worker > Settings > Variables and Secrets):
  *   GITHUB_CLIENT_ID      the GitHub App's Client ID
  *   GITHUB_CLIENT_SECRET  a client secret of the App (add it as a Secret, not plain text)
- *   ALLOWED_ORIGIN        https://www.froglet.games (the only page that may receive the token)
+ *   ALLOWED_ORIGIN        the sites the Studio runs on, comma-separated. A leading "*." allows any
+ *                         subdomain, for branch previews, e.g.:
+ *                         https://www.froglet.games,https://*.cosmic-shore-landing-page.pages.dev
  *
- *   GET /auth      -> redirect to GitHub's sign-in, with a one-time state in a cookie
- *   GET /callback  -> check the state, swap the code for a token, post it to the Studio, close
+ *   GET /auth?return=<Studio URL> -> remember where to return (only an allowed site) and a one-time
+ *                                    state in a cookie, then go to GitHub's sign-in
+ *   GET /callback                 -> check the state, swap the code for a token, and go back to the
+ *                                    Studio with the token in the URL fragment (#studio_token=…),
+ *                                    which browsers never send to any server
  */
 export default {
   async fetch(request, env) {
@@ -23,9 +28,25 @@ export default {
   },
 };
 
-const STATE_COOKIE = 'studio_state';
+const COOKIE = 'studio_signin';
+
+function allowedReturn(value, env) {
+  let u;
+  try { u = new URL(value); } catch (e) { return null; }
+  if (u.protocol !== 'https:' || u.username || u.password) return null;
+  const allowed = String(env.ALLOWED_ORIGIN || 'https://www.froglet.games').split(',').map((s) => s.trim()).filter(Boolean);
+  const ok = allowed.some((a) => {
+    if (a.startsWith('https://*.')) return u.hostname.endsWith('.' + a.slice('https://*.'.length));
+    return u.origin === a.replace(/\/$/, '');
+  });
+  if (!ok) return null;
+  u.hash = '';
+  return u.toString();
+}
 
 function start(url, env) {
+  const back = allowedReturn(url.searchParams.get('return') || '', env);
+  if (!back) return page('This sign-in link isn’t from a Froglet site. Open the Studio and try again.', 400);
   const state = crypto.randomUUID();
   const gh = new URL('https://github.com/login/oauth/authorize');
   gh.searchParams.set('client_id', env.GITHUB_CLIENT_ID);
@@ -35,19 +56,22 @@ function start(url, env) {
     status: 302,
     headers: {
       Location: gh.toString(),
-      'Set-Cookie': `${STATE_COOKIE}=${state}; Path=/callback; HttpOnly; Secure; SameSite=Lax; Max-Age=600`,
+      'Set-Cookie': `${COOKIE}=${state}.${encodeURIComponent(back)}; Path=/callback; HttpOnly; Secure; SameSite=Lax; Max-Age=600`,
       'Cache-Control': 'no-store',
     },
   });
 }
 
 async function finish(request, url, env) {
+  const raw = ((request.headers.get('Cookie') || '').match(new RegExp(`(?:^|;\\s*)${COOKIE}=([^;]+)`)) || [])[1] || '';
+  const dot = raw.indexOf('.');
+  const saved = dot > 0 ? raw.slice(0, dot) : '';
+  const back = dot > 0 ? allowedReturn(decodeURIComponent(raw.slice(dot + 1)), env) : null;
   const code = url.searchParams.get('code');
   const state = url.searchParams.get('state');
-  const cookie = (request.headers.get('Cookie') || '').match(new RegExp(`(?:^|;\\s*)${STATE_COOKIE}=([^;]+)`));
-  if (!code || !state || !cookie || cookie[1] !== state) {
-    return page(env, null, 'Sign-in didn’t complete. Close this window and try again.');
-  }
+  if (!back) return page('This sign-in expired. Open the Studio and press Sign in with GitHub again.', 400);
+  if (!code || !state || state !== saved) return returnTo(back, 'studio_error', 'Sign-in didn’t complete. Please try again.');
+
   const res = await fetch('https://github.com/login/oauth/access_token', {
     method: 'POST',
     headers: { Accept: 'application/json', 'Content-Type': 'application/json', 'User-Agent': 'froglet-studio-auth' },
@@ -59,26 +83,31 @@ async function finish(request, url, env) {
     }),
   });
   const data = await res.json().catch(() => ({}));
-  if (!data.access_token) return page(env, null, 'GitHub didn’t return a sign-in. Close this window and try again.');
-  return page(env, data.access_token, 'Signed in. You can close this window.');
+  if (!data.access_token) {
+    const why = data.error === 'incorrect_client_credentials' ? 'The sign-in helper’s client ID or secret is wrong.'
+      : data.error === 'redirect_uri_mismatch' ? 'The GitHub App’s callback URL doesn’t match the sign-in helper.'
+      : 'GitHub didn’t return a sign-in (' + (data.error || res.status) + ').';
+    return returnTo(back, 'studio_error', why);
+  }
+  return returnTo(back, 'studio_token', data.access_token);
 }
 
-// The token goes to the Studio window only, and only if it is on ALLOWED_ORIGIN.
-function page(env, token, message) {
-  const origin = env.ALLOWED_ORIGIN || 'https://www.froglet.games';
-  const script = token
-    ? `<script>if (window.opener) { window.opener.postMessage(${JSON.stringify({ type: 'froglet-studio-token', token })}, ${JSON.stringify(origin)}); window.close(); }</script>`
-    : '';
-  const html = `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Froglet Studio</title><body style="background:#050810;color:#fff;font:16px system-ui;display:grid;place-items:center;min-height:100vh;margin:0">
-<p>${message}</p>${script}`;
-  return new Response(html, {
+function returnTo(back, key, value) {
+  return new Response(null, {
+    status: 302,
     headers: {
-      'Content-Type': 'text/html; charset=utf-8',
+      Location: back + '#' + key + '=' + encodeURIComponent(value),
       'Cache-Control': 'no-store',
       'Referrer-Policy': 'no-referrer',
-      'Content-Security-Policy': "default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'",
-      'Set-Cookie': `${STATE_COOKIE}=; Path=/callback; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
+      'Set-Cookie': `${COOKIE}=; Path=/callback; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
     },
+  });
+}
+
+function page(message, status) {
+  return new Response(`<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Froglet Studio</title><body style="background:#050810;color:#fff;font:16px system-ui;display:grid;place-items:center;min-height:100vh;margin:0;padding:16px;text-align:center"><p>${message}</p>`, {
+    status,
+    headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'" },
   });
 }

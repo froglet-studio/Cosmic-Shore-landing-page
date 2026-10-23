@@ -3,7 +3,8 @@
    developer's own sign-in, and GitHub Pages rebuilds the site about a minute later.
 
    - Sign-in: "Sign in with GitHub" through the Cloudflare Worker in tools/studio-auth/ (when
-     _data/studio.yml has auth_url), or a fine-grained GitHub token pasted on the sign-in screen.
+     _data/studio.yml has auth_url; the tab goes to GitHub and back, the token arriving in the
+     address's #fragment), or a fine-grained GitHub token pasted on the sign-in screen.
      The token is kept in sessionStorage (or localStorage when "Remember" is ticked) and is sent only
      to api.github.com.
    - Who may edit what: the signed-in GitHub account must be the `github` of a file in _team/, and the
@@ -278,19 +279,27 @@
       setError('signin-error', e.status === 401 ? 'GitHub didn’t accept that sign-in. Check the token and try again.' : explain(e));
     });
   }
+  // Back from "Sign in with GitHub": take the token (or the reason it failed) out of the address at once.
+  function takeSignInFromAddress() {
+    if (!location.hash) return '';
+    var h = new URLSearchParams(location.hash.slice(1)), t = h.get('studio_token'), err = h.get('studio_error');
+    if (!t && !err) return '';
+    history.replaceState(null, '', location.pathname + location.search);
+    if (t) setToken(t, false);
+    return err || '';
+  }
   function wireSignIn() {
     if (CFG.authUrl) {
       try { authOrigin = new URL(CFG.authUrl).origin; } catch (e) { authOrigin = ''; }
     }
     if (authOrigin) {
       var btn = $('signin-github'); btn.hidden = false;
+      // The whole tab goes to GitHub and comes back here, with the sign-in in the address's #fragment
+      // (browsers never send a fragment to any server). No popup: popup blockers and GitHub's window
+      // isolation both break a popup's hand-back.
       btn.addEventListener('click', function () {
-        window.open(CFG.authUrl.replace(/\/$/, '') + '/auth', 'froglet-studio-auth', 'width=620,height=720');
-      });
-      window.addEventListener('message', function (e) {
-        if (e.origin !== authOrigin || !e.data || e.data.type !== 'froglet-studio-token' || typeof e.data.token !== 'string') return;
-        setToken(e.data.token, false);
-        signIn();
+        var back = location.origin + location.pathname + location.search;
+        location.assign(CFG.authUrl.replace(/\/$/, '') + '/auth?return=' + encodeURIComponent(back));
       });
     } else {
       $('token-box').open = true;
@@ -807,7 +816,9 @@
         bar.textContent = 'Test mode: saving to the branch “' + testBranch + '”, not the live site.';
         bar.hidden = false;
       }
-      wireSignIn(); return signIn();
+      var signInError = takeSignInFromAddress();
+      wireSignIn();
+      return signIn().then(function () { if (signInError) { showOnly('view-signin'); setError('signin-error', signInError); } });
     })
     .catch(function (e) { showOnly('view-signin'); setError('signin-error', e.message); });
 })();
