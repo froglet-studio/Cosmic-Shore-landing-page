@@ -12,7 +12,7 @@ permalink: /admin/data.json
   "team": [
     {%- assign team = site.team | sort: "order" -%}
     {%- for d in team %}
-    {"slug": {{ d.slug | jsonify }}, "name": {{ d.name | jsonify }}, "github": {{ d.github | jsonify }}, "path": {{ d.relative_path | default: d.path | jsonify }}, "url": {{ d.url | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {"slug": {{ d.slug | jsonify }}, "name": {{ d.name | jsonify }}, "github": {{ d.github | jsonify }}, "accent": {{ d.accent | jsonify }}, "path": {{ d.relative_path | default: d.path | jsonify }}, "url": {{ d.url | jsonify }}}{% unless forloop.last %},{% endunless %}
     {%- endfor %}
   ],
   "vessels": [

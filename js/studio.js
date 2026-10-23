@@ -333,6 +333,8 @@
     $('me-name').textContent = DEV.name;
     $('me-login').textContent = '@' + ME.login;
     $('me-avatar').textContent = DEV.name.charAt(0);
+    var who = CFG.team.filter(function (t) { return t.slug === DEV.slug; })[0];
+    if (who && who.accent) { var a0 = ACCENTS.filter(function (a) { return a.key === who.accent; })[0]; if (a0) document.body.style.setProperty('--studio-accent', a0.hex); }
     $('nav-mypage').href = DEV.url;
     $('pcard-link').href = DEV.url; $('pcard-link').textContent = 'www.froglet.games' + DEV.url;
     document.querySelectorAll('[data-go]').forEach(function (b) { b.addEventListener('click', function () { go(b.dataset.go); }); });
@@ -518,6 +520,7 @@
   function updateProfilePreview() {
     var d = P.data, acc = ACCENTS.filter(function (a) { return a.key === d.accent; })[0] || ACCENTS[0];
     var card = $('pcard'); card.style.setProperty('--accent', acc.hex);
+    document.body.style.setProperty('--studio-accent', acc.hex);
     var bannerSrc = P.banner && d.banner === P.banner.path ? P.banner.url : (previewUrls[d.banner] || d.banner);
     $('pcard-banner').src = bannerSrc || ''; $('pcard-banner').hidden = !bannerSrc;
     var ph = $('pcard-photo'); ph.replaceChildren();
