@@ -4,7 +4,7 @@ name: Caleb
 github: FenrysUnchained
 order: 2
 title: COO
-bio: The arcade game modes, their card art, and play-testing every build.
+bio: Tending the lilypads and keeping the pond clean.
 location: Edmonds, WA
 accent: magenta
 photo: /assets/team/caleb/photo-mvl8qct9.webp
@@ -13,3 +13,4 @@ favourite_vessel: Squirrel
 links: []
 pins: []
 ---
+Within the microcosm and the macrocosm there are worlds in their own time and space.
