@@ -921,6 +921,18 @@ kbd {
 }
 
 /* ── /team/<name>/: a developer's page (_layouts/profile.html) ───────────── */
+/* Soft glows in the developer's accent colour, behind the page (over the site's starfield). */
+.profile { position: relative; }
+.profile::before {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(42rem 30rem at 12% 28rem, color-mix(in srgb, var(--accent) 20%, transparent), transparent 70%),
+    radial-gradient(48rem 34rem at 100% 85%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%),
+    radial-gradient(36rem 26rem at 55% 100%, rgba(124, 77, 255, 0.07), transparent 70%);
+  /* fade out before the footer, so a short page shows no edge */
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 16rem), transparent);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 16rem), transparent);
+}
 .profile-banner {
   position: relative; z-index: 1; height: clamp(200px, 24vw, 300px); overflow: hidden;
   background: var(--bg-deep); border-bottom: 2px solid var(--accent);
