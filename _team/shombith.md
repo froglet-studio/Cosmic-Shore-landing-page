@@ -4,10 +4,10 @@ name: Shombith
 github: Shombith03
 order: 3
 title: ''
-bio: The menus and UI, multiplayer scenes, and the online services behind your account and saves.
-location: ''
+bio: ZIMBABWE!!!!!!
+location: Jupiter, Solar System
 accent: lime
-photo: ''
+photo: /assets/team/shombith/photo-mvl9sbjx.webp
 banner: /assets/modes/broadside.webp
 favourite_vessel: ''
 links: []
