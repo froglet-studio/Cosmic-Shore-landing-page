@@ -9,3 +9,4 @@ _drafts/
 # Local and preview builds (Gemfile)
 vendor/
 .bundle/
+Gemfile.lock
