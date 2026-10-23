@@ -10,10 +10,10 @@ image: /assets/images/Image%20Sequence_019_0002.jpg
   <div class="card-grid two">
     <article class="glass-card" id="contact">
       <h3>Contact Support</h3>
-      <p>Email us about anything: account problems, feedback or questions about the game.</p>
+      <p>Message us about anything: account problems, feedback or questions about the game.</p>
       {% include support-email.html %}
       <p>We reply within {% include ph.html value=legal.support_reply_time label="RESPONSE TIME" %}.</p>
-      {% include support-email.html subject="Cosmic Shore support" label="Email Support" only_button=true %}
+      {% include support-email.html topic="support" label="Send a Message" only_button=true %}
     </article>
 
     <article class="glass-card" id="report-player">
@@ -25,19 +25,19 @@ image: /assets/images/Image%20Sequence_019_0002.jpg
         <li>What they did</li>
         <li>A screenshot or clip, if you have one</li>
       </ul>
-      {% include support-email.html subject="Player report" label="Report a Player" only_button=true %}
+      {% include support-email.html topic="report" label="Report a Player" only_button=true %}
     </article>
 
     <article class="glass-card" id="bug">
       <h3>Report a Bug</h3>
-      <p>Found something broken? Email us and include:</p>
+      <p>Found something broken? Tell us:</p>
       <ul>
         <li>Your device and operating system</li>
         <li>What you were doing, and what happened instead</li>
         <li>A screenshot or clip, if you have one</li>
       </ul>
       <p>The bug report button in the game&rsquo;s Settings brings you here.</p>
-      {% include support-email.html subject="Bug report" label="Email a Bug Report" only_button=true %}
+      {% include support-email.html topic="bug" label="Report a Bug" only_button=true %}
     </article>
 
     <article class="glass-card" id="data">

@@ -865,23 +865,21 @@ kbd {
 .tester-choice input:focus-visible + span { outline: 2px solid var(--cyan); outline-offset: 2px; }
 .tester-field { display: grid; gap: 0.35rem; margin-bottom: 0.9rem; font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-bright); }
 .tester-field[hidden] { display: none; }
-.tester-field input, .tester-field select {
+.tester-field input, .tester-field select, .tester-field textarea {
   font: inherit; font-size: 0.95rem; letter-spacing: normal; text-transform: none; color: var(--text-bright);
   background: rgba(255, 255, 255, 0.04); border: 1px solid var(--glass-border); border-radius: 10px; padding: 0.7rem 0.8rem; width: 100%;
 }
 .tester-field select option { background: #0a1024; }
-.tester-field input:focus, .tester-field select:focus { outline: none; border-color: var(--cyan); }
+.tester-field textarea { resize: vertical; min-height: 7.5rem; line-height: 1.5; }
+.tester-hint { font-size: 0.85rem; margin: -0.4rem 0 0.9rem !important; color: rgba(255, 255, 255, 0.62); }
+.tester-hint[hidden] { display: none; }
+.tester-field input:focus, .tester-field select:focus, .tester-field textarea:focus { outline: none; border-color: var(--cyan); }
 .tester-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .tester-note { font-size: 0.82rem; }
 .tester-note a { color: var(--cyan); }
 .tester-error { color: var(--pink); font-size: 0.88rem; }
 .tester-form .btn-glow-wrap button { border: 0; cursor: pointer; }
 .tester-form .btn-glow-wrap button:disabled { opacity: 0.6; cursor: wait; }
-.tester-mail {
-  margin: 0 0 1rem; padding: 0.8rem 0.9rem; border-radius: 10px; border: 1px solid var(--glass-border);
-  background: rgba(255, 255, 255, 0.04); color: var(--text-bright); font: inherit; font-size: 0.88rem;
-  white-space: pre-wrap; word-break: break-word; user-select: all;
-}
 .tester-form .card-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .tester-form .btn-ghost { padding: 0.75rem 1.2rem; }
 .tester-form button.btn-ghost { cursor: pointer; background: transparent; }

@@ -1,0 +1,55 @@
+{%- comment -%}
+  The contact form, opened by any [data-contact-topic] button (Support, Report a Player, Report a Bug,
+  Delete My Data). It posts to _data/forms.yml's endpoint (a Google Apps Script web app,
+  tools/site-forms/), which emails the message to the team with Reply going to the sender. Nothing
+  opens the visitor's email app.
+{%- endcomment -%}
+<dialog class="tester-dialog" id="contact-dialog" aria-labelledby="contact-title"
+        data-endpoint="{{ site.data.forms.endpoint }}" data-support="{{ site.data.legal.support_email }}">
+  <form class="tester-form" id="contact-form" method="dialog" novalidate>
+    <button type="button" class="tester-close" data-contact-close aria-label="Close">&times;</button>
+    <div class="tester-step" data-step="form">
+      <span class="section-label">Contact</span>
+      <h2 id="contact-title">Message the <span class="gradient-text">Team</span></h2>
+      <p>We read every message and reply by email.</p>
+
+      <label class="tester-field">
+        <span>Your email</span>
+        <input type="email" name="email" autocomplete="email" required maxlength="254" placeholder="you@example.com">
+      </label>
+
+      <label class="tester-field">
+        <span>About</span>
+        <select name="topic" required>
+          <option value="support">A question or account problem</option>
+          <option value="bug">A bug</option>
+          <option value="report">Reporting a player</option>
+          <option value="delete">Deleting my data</option>
+          <option value="other">Something else</option>
+        </select>
+      </label>
+      <p class="tester-hint" data-topic-hint="bug" hidden>Include your device, what you were doing, and what happened instead.</p>
+      <p class="tester-hint" data-topic-hint="report" hidden>Include their display name exactly as shown, the mode, roughly when (with your time zone) and what they did.</p>
+      <p class="tester-hint" data-topic-hint="delete" hidden>Include your display name, the platform you play on and roughly when you started playing. We&rsquo;ll reply with how to confirm it&rsquo;s you.</p>
+
+      <label class="tester-field">
+        <span>Message</span>
+        <textarea name="message" required minlength="10" maxlength="5000" rows="6"></textarea>
+      </label>
+
+      {%- comment -%} Bots fill every field; people never see this one. {%- endcomment -%}
+      <label class="tester-hp" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+
+      <p class="tester-note">We use your email only to answer you. <a href="/privacy">Privacy Policy</a></p>
+      <p class="tester-error" role="alert" hidden></p>
+      <div class="card-actions"><div class="btn-glow-wrap"><button type="submit">Send message</button></div></div>
+    </div>
+
+    <div class="tester-step" data-step="done" hidden>
+      <span class="section-label">Message Sent</span>
+      <h2>Thanks, <span class="gradient-text">Pilot</span></h2>
+      <p>Your message is with the team. We&rsquo;ll reply to <strong data-contact-email></strong>.</p>
+      <div class="card-actions"><button type="button" class="btn-ghost" data-contact-close>Close</button></div>
+    </div>
+  </form>
+</dialog>

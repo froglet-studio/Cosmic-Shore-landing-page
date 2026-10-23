@@ -1,10 +1,5 @@
-# Test sign-ups from the "Get the Game" launch pad (_includes/tester-signup.html).
-#
-# endpoint: the Google Apps Script web app that records a sign-up and emails the team
-#   (tools/tester-signup/README.md). Until it is set, the form opens the visitor's own email app
-#   with the request filled in, addressed to fallback_to.
-endpoint: ""
-fallback_to: "caleb@froglet.studio,shombith@froglet.studio"
+# Test sign-ups from the "Get the Game" launch pad (_includes/tester-signup.html). Where the form sends
+# them: _data/forms.yml.
 
 # What each card offers a test of. The key is what the form sends; the label is what people read.
 platforms:
