@@ -1,0 +1,282 @@
+---
+layout: null
+sitemap: false
+permalink: /admin/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Froglet Studio</title>
+<meta name="robots" content="noindex, nofollow">
+{%- comment -%}
+  Froglet Studio: developers edit their profile (_team/<slug>.md) and write blog posts (_posts/).
+  A static page: it saves through the GitHub API with the developer's own sign-in, so no server of
+  ours holds anything. Scripts are only this site's own (js/studio.js, js/vendor/), and the token
+  only ever goes to api.github.com. No analytics on this page.
+{%- endcomment -%}
+{%- assign auth = site.data.studio.auth_url | default: "" -%}
+{%- assign auth_origin = "" -%}
+{%- if auth != "" -%}{%- assign parts = auth | split: "/" -%}{%- assign auth_origin = parts[0] | append: "//" | append: parts[2] -%}{%- endif %}
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://api.github.com{% if auth_origin != '' %} {{ auth_origin }}{% endif %}; frame-src https://www.youtube-nocookie.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&family=Orbitron:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/studio.css?v={{ site.time | date: "%s" }}">
+</head>
+<body>
+<div class="st-testbar" id="testbar" role="status" hidden></div>
+<div class="st-ambient" id="ambient" aria-hidden="true"></div>
+
+<!-- SIGN IN -->
+<section class="st-gate" id="view-signin" hidden>
+  <div class="st-gate-card">
+    <span class="st-brand">froglet</span>
+    <span class="st-brand-sub">Studio</span>
+    <p>Your profile and your posts on www.froglet.games.</p>
+    <button type="button" class="st-btn st-btn-lime st-wide" id="signin-github" hidden>Sign in with GitHub</button>
+    <details class="st-token" id="token-box">
+      <summary>Sign in with a GitHub token</summary>
+      <ol>
+        <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">GitHub &rsaquo; New fine-grained token</a>.</li>
+        <li>Resource owner: <b>froglet-studio</b>. Repository access: <b>Only select repositories</b> &rsaquo; <b>{{ site.data.studio.repo | split: "/" | last }}</b>.</li>
+        <li>Permissions &rsaquo; Repository &rsaquo; <b>Contents: Read and write</b>. Nothing else. Pick an expiry.</li>
+        <li>Generate it and paste it here. It stays in this browser and is sent only to GitHub.</li>
+      </ol>
+      <form id="token-form">
+        <label class="st-label" for="token-input">Token</label>
+        <input class="st-input" id="token-input" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…" required>
+        <label class="st-check"><input type="checkbox" id="token-remember"> Remember on this device</label>
+        <button type="submit" class="st-btn st-btn-lime st-wide">Sign in</button>
+      </form>
+    </details>
+    <p class="st-error" id="signin-error" role="alert" hidden></p>
+  </div>
+</section>
+
+<!-- NOT ON THE TEAM -->
+<section class="st-gate" id="view-denied" hidden>
+  <div class="st-gate-card">
+    <span class="st-brand">froglet</span>
+    <span class="st-brand-sub">Studio</span>
+    <p>You&rsquo;re signed in as <b id="denied-login"></b>, which isn&rsquo;t on the team list. Ask a teammate to add your GitHub name to your file in <code>_team/</code>.</p>
+    <button type="button" class="st-btn st-wide" data-signout>Sign out</button>
+  </div>
+</section>
+
+<!-- THE STUDIO -->
+<div class="st-app" id="view-app" hidden>
+  <nav class="st-nav" aria-label="Studio">
+    <div class="st-nav-brand"><span class="st-brand">froglet</span><span class="st-brand-sub">Studio</span></div>
+    <button type="button" class="st-nav-item" data-go="profile">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>My profile</button>
+    <button type="button" class="st-nav-item" data-go="posts">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>My posts</button>
+    <button type="button" class="st-nav-item" data-go="write">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>Write a post</button>
+    <a class="st-nav-item" id="nav-mypage" href="/team/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6"/><path d="M10 14L20 4"/><path d="M20 14v6H4V4h6"/></svg>View my page</a>
+    <span class="st-nav-fill"></span>
+    <div class="st-me">
+      <span class="st-me-avatar" id="me-avatar" aria-hidden="true"></span>
+      <span class="st-me-text"><b id="me-name"></b><span id="me-login"></span></span>
+    </div>
+    <button type="button" class="st-nav-item st-nav-small" data-signout>Sign out</button>
+  </nav>
+
+  <main class="st-main">
+    <!-- PROFILE -->
+    <section id="view-profile" class="st-view" hidden>
+      <header class="st-head">
+        <h1>Your profile</h1>
+        <span class="st-status" id="profile-status"></span>
+        <span class="st-fill"></span>
+        <button type="button" class="st-btn" id="profile-discard" hidden>Discard changes</button>
+        <button type="button" class="st-btn st-btn-lime" id="profile-publish">Publish changes</button>
+      </header>
+      <p class="st-error" id="profile-error" role="alert" hidden></p>
+
+      <div class="st-split">
+        <form class="st-form" id="profile-form" novalidate>
+          <fieldset class="st-card">
+            <legend>Look</legend>
+            <span class="st-label">Accent colour</span>
+            <div class="st-swatches" id="accent-list"></div>
+            <span class="st-label">Banner</span>
+            <div class="st-art" id="banner-list"></div>
+            <label class="st-btn st-btn-small st-file">Upload your own banner<input type="file" accept="image/*" id="banner-file"></label>
+          </fieldset>
+
+          <fieldset class="st-card">
+            <legend>About you</legend>
+            <div class="st-row st-row-photo">
+              <div>
+                <span class="st-label">Photo</span>
+                <div class="st-photo" id="photo-preview"></div>
+                <div class="st-inline">
+                  <label class="st-btn st-btn-small st-file">Upload<input type="file" accept="image/*" id="photo-file"></label>
+                  <button type="button" class="st-btn st-btn-small" id="photo-remove">Remove</button>
+                </div>
+              </div>
+              <div class="st-stack">
+                <div class="st-row">
+                  <div><label class="st-label" for="f-name">Name</label><input class="st-input" id="f-name" maxlength="40" required></div>
+                  <div><label class="st-label" for="f-title">Title</label><input class="st-input" id="f-title" maxlength="60" placeholder="Your job title"></div>
+                </div>
+                <div><label class="st-label" for="f-bio">Short bio</label><input class="st-input" id="f-bio" maxlength="200" placeholder="One line for your team card"></div>
+                <div><label class="st-label" for="f-location">Location</label><input class="st-input" id="f-location" maxlength="60" placeholder="City, country"></div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="st-card">
+            <legend>Links</legend>
+            <p class="st-hint">Up to five. Your GitHub is shown already.</p>
+            <div class="st-list" id="link-list"></div>
+            <button type="button" class="st-btn st-btn-small st-btn-dashed" id="link-add">+ Add a link</button>
+          </fieldset>
+
+          <fieldset class="st-card">
+            <legend>Favourite vessel</legend>
+            <div class="st-vessels" id="vessel-list"></div>
+          </fieldset>
+
+          <fieldset class="st-card">
+            <legend>About</legend>
+            <p class="st-hint">Anything you like: what you&rsquo;re building, how you got into games, your setup. Markdown, with pictures.</p>
+            <div class="st-md" data-md>
+              <div class="st-md-bar">
+                <button type="button" data-md-tab="write" aria-pressed="true">Write</button>
+                <button type="button" data-md-tab="preview" aria-pressed="false">Preview</button>
+                <span class="st-fill"></span>
+                <button type="button" data-md-wrap="**" aria-label="Bold"><b>B</b></button>
+                <button type="button" data-md-wrap="_" aria-label="Italic"><i>I</i></button>
+                <button type="button" data-md-line="## " aria-label="Heading">H</button>
+                <button type="button" data-md-link aria-label="Link">Link</button>
+                <label class="st-md-img" aria-label="Insert a picture">Picture<input type="file" accept="image/*" data-md-image></label>
+              </div>
+              <textarea class="st-input st-md-text" id="f-about" rows="10"></textarea>
+              <div class="st-md-preview prose" hidden></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="st-card">
+            <legend>Pinned</legend>
+            <p class="st-hint">Up to six: your posts, code you built in the game repo, a video, any link.</p>
+            <div class="st-list" id="pin-list"></div>
+            <button type="button" class="st-btn st-btn-small st-btn-dashed" id="pin-add">+ Add a pin</button>
+          </fieldset>
+        </form>
+
+        <aside class="st-preview" aria-label="Live preview">
+          <span class="st-label">Live preview</span>
+          <div class="st-pcard" id="pcard">
+            <div class="st-pcard-banner"><img id="pcard-banner" alt=""></div>
+            <div class="st-pcard-body">
+              <div class="st-pcard-photo" id="pcard-photo"></div>
+              <b id="pcard-name"></b>
+              <span class="st-pcard-title" id="pcard-title"></span>
+              <span id="pcard-bio"></span>
+              <div class="st-pcard-fav" id="pcard-fav" hidden><img id="pcard-fav-img" alt=""><b id="pcard-fav-name"></b></div>
+            </div>
+          </div>
+          <p class="st-hint">Only you publish your profile. It goes live at <a id="pcard-link" href="/team/" target="_blank" rel="noopener"></a> about a minute after you publish.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- MY POSTS -->
+    <section id="view-posts" class="st-view" hidden>
+      <header class="st-head">
+        <h1>My posts</h1>
+        <span class="st-fill"></span>
+        <button type="button" class="st-btn st-btn-lime" data-go="write">Write a post</button>
+      </header>
+      <ul class="st-posts" id="post-list"></ul>
+      <p class="st-hint" id="post-empty" hidden>No posts yet.</p>
+      <div id="draft-box" hidden>
+        <h2 class="st-h2">Drafts in this browser</h2>
+        <ul class="st-posts" id="draft-list"></ul>
+      </div>
+    </section>
+
+    <!-- WRITE A POST: the cover is the post's header, with the title written on it, like the published post -->
+    <section id="view-write" class="st-view" hidden>
+      <header class="st-head">
+        <h1>Write a post</h1>
+        <span class="st-status" id="post-status"></span>
+        <span class="st-fill"></span>
+        <button type="button" class="st-btn" id="post-discard">Discard draft</button>
+        <button type="button" class="st-btn st-btn-lime" id="post-publish">Publish</button>
+      </header>
+      <p class="st-error" id="post-error" role="alert" hidden></p>
+      <div class="st-split st-split-post">
+        <form class="st-form" id="post-form" novalidate>
+          <div class="st-hero" id="cover-preview">
+            <img class="st-hero-img" id="cover-img" alt="">
+            <div class="st-hero-tools">
+              <button type="button" class="st-btn st-btn-small st-btn-glass" id="cover-pick">Choose game art</button>
+              <label class="st-btn st-btn-small st-btn-glass st-file">Upload a cover<input type="file" accept="image/*" id="cover-file"></label>
+            </div>
+            <div class="st-hero-text">
+              <span class="st-hero-cat" id="hero-cat"></span>
+              <label class="st-sr" for="p-title">Title</label>
+              <textarea class="st-title-input" id="p-title" maxlength="100" rows="1" placeholder="Give it a title"></textarea>
+              <label class="st-sr" for="p-desc">One-line description</label>
+              <input class="st-desc-input" id="p-desc" maxlength="200" placeholder="One line that makes people want to read it">
+              <span class="st-hero-by"><span class="st-me-avatar st-hero-avatar" id="hero-avatar" aria-hidden="true"></span><span id="hero-by"></span></span>
+            </div>
+          </div>
+          <div class="st-art st-art-wide" id="cover-list" hidden></div>
+          <div class="st-md st-md-post" data-md>
+            <div class="st-md-bar">
+              <button type="button" data-md-tab="write" aria-pressed="true">Write</button>
+              <button type="button" data-md-tab="preview" aria-pressed="false">Preview</button>
+              <span class="st-fill"></span>
+              <button type="button" data-md-wrap="**" aria-label="Bold"><b>B</b></button>
+              <button type="button" data-md-wrap="_" aria-label="Italic"><i>I</i></button>
+              <button type="button" data-md-line="## " aria-label="Heading">H</button>
+              <button type="button" data-md-line="> " aria-label="Quote">&ldquo;</button>
+              <button type="button" data-md-line="- " aria-label="List">&bull;</button>
+              <button type="button" data-md-link aria-label="Link">Link</button>
+              <label class="st-md-img" aria-label="Insert a picture">Picture<input type="file" accept="image/*" data-md-image></label>
+            </div>
+            <textarea class="st-input st-md-text" id="p-body" rows="18" placeholder="Start with what happened, or what you made.&#10;&#10;## Use headings to break it up&#10;&#10;**Bold** the key idea, add a link, and drop in screenshots with Picture. A YouTube link on its own line becomes a player."></textarea>
+            <div class="st-md-preview prose" hidden></div>
+          </div>
+        </form>
+
+        <aside class="st-preview">
+          <span class="st-label">On the blog</span>
+          <div class="st-cardpv" aria-label="How the post card will look">
+            <img id="cardpv-img" alt="">
+            <div class="st-cardpv-body">
+              <span class="st-cardpv-cat" id="cardpv-cat"></span>
+              <b id="cardpv-title"></b>
+              <span id="cardpv-desc"></span>
+            </div>
+          </div>
+          <div class="st-stats"><span><b id="stat-words">0</b> words</span><span><b id="stat-read">1</b> min read</span><span><b id="stat-pics">0</b> pictures</span></div>
+          <span class="st-label">Category</span>
+          <div class="st-chips" id="cat-list"></div>
+          <label class="st-label" for="p-alt">Cover description</label>
+          <input class="st-input" id="p-alt" maxlength="140" placeholder="What the cover shows (for screen readers)">
+          <label class="st-switch"><input type="checkbox" id="p-pin"> Pin this post on my profile</label>
+          <p class="st-hint">Publish puts it on the blog and your profile in about a minute. Until then the draft stays in this browser only, never in the public repo.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="st-toast" id="toast" role="status" hidden></div>
+
+<script src="/js/vendor/js-yaml.min.js"></script>
+<script src="/js/vendor/marked.min.js"></script>
+<script src="/js/vendor/purify.min.js"></script>
+<script src="/js/studio.js?v={{ site.time | date: "%s" }}"></script>
+</body>
+</html>

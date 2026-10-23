@@ -1,0 +1,36 @@
+---
+layout: null
+sitemap: false
+permalink: /admin/data.json
+---
+{%- comment -%} What Froglet Studio needs from the built site: who is on the team, the game's art and posts. {%- endcomment -%}
+{%- assign s = site.data.studio -%}
+{
+  "repo": {{ s.repo | jsonify }},
+  "branch": {{ s.branch | default: "main" | jsonify }},
+  "authUrl": {{ s.auth_url | default: "" | jsonify }},
+  "team": [
+    {%- assign team = site.team | sort: "order" -%}
+    {%- for d in team %}
+    {"slug": {{ d.slug | jsonify }}, "name": {{ d.name | jsonify }}, "github": {{ d.github | jsonify }}, "accent": {{ d.accent | jsonify }}, "path": {{ d.relative_path | default: d.path | jsonify }}, "url": {{ d.url | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ],
+  "vessels": [
+    {%- for v in site.data.vessels %}
+    {"name": {{ v.name | jsonify }}, "thumb": {{ v.thumb | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ],
+  "art": [
+    {"name": "Toybox", "image": "/assets/images/Image%20Sequence_025_0000.jpg"},
+    {"name": "The HyperSea", "image": "/assets/images/Image%20Sequence_030_0008.jpg"},
+    {%- assign all_modes = site.data.modes.arcade | concat: site.data.modes.arena | concat: site.data.modes.missions %}
+    {%- for m in all_modes %}
+    {"name": {{ m.name | jsonify }}, "image": {{ m.image | jsonify }}, "thumb": {{ m.thumb | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ],
+  "posts": [
+    {%- for p in site.posts %}
+    {"title": {{ p.title | jsonify }}, "url": {{ p.url | jsonify }}, "path": {{ p.relative_path | default: p.path | jsonify }}, "author": {{ p.author | jsonify }}, "date": {{ p.date | date: "%Y-%m-%d" | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}

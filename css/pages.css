@@ -885,28 +885,121 @@ kbd {
 .tester-form button.btn-ghost { cursor: pointer; background: transparent; }
 .tester-form button.btn-ghost:hover { background: var(--lime); }
 
-/* ── /team: Know Your Developers (_data/team.yml) ───────────────────────── */
+/* ── Developer accents (each person picks one in Froglet Studio) ────────── */
+.accent-cyan { --accent: #00e5ff; --accent-soft: rgba(0, 229, 255, 0.35); }
+.accent-magenta { --accent: #e86cfc; --accent-soft: rgba(232, 108, 252, 0.35); }
+.accent-lime { --accent: #7fff00; --accent-soft: rgba(127, 255, 0, 0.35); }
+.accent-orange { --accent: #ffaa40; --accent-soft: rgba(255, 170, 64, 0.35); }
+.accent-pink { --accent: #ff4f8b; --accent-soft: rgba(255, 79, 139, 0.35); }
+
+/* ── /team/: Know Your Developers (_team/*.md) ──────────────────────────── */
 .team-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; max-width: 1280px; margin: 0 auto; }
-.team-card.glass-card { padding: 14px 14px 20px; gap: 0.7rem; --accent: var(--cyan); }
-.team-magenta { --accent: #e86cfc !important; }
-.team-lime { --accent: var(--lime) !important; }
-.team-orange { --accent: #ffaa40 !important; }
+.team-card {
+  display: flex; flex-direction: column; gap: 0.7rem; padding: 14px 14px 20px; border-radius: 16px; text-decoration: none;
+  color: var(--text); background: var(--glass); border: 1px solid var(--glass-border); transition: border-color .2s, transform .2s;
+}
+.team-card:hover { border-color: var(--accent-soft); transform: translateY(-3px); }
+.team-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .team-photo {
   aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; background: #0b1430;
-  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
-  display: flex; align-items: center; justify-content: center;
+  border: 1px solid var(--accent-soft); display: flex; align-items: center; justify-content: center;
 }
 .team-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .team-photo span { font-family: 'Orbitron', sans-serif; font-size: clamp(3rem, 6vw, 4.5rem); font-weight: 800; color: var(--accent); }
 .team-card h2 { margin: 0.3rem 0 0; font-family: 'Orbitron', sans-serif; font-size: 1.35rem; font-weight: 800; color: var(--text-bright); }
 .team-title { font-size: 0.7rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); }
-.team-card p { margin: 0; font-size: 0.95rem; line-height: 1.55; }
+.team-card p { margin: 0; font-size: 0.95rem; line-height: 1.55; flex: 1; }
+.team-more { font-size: 0.82rem; font-weight: 700; color: var(--accent); }
 .team-contact { max-width: 1280px; margin: 2.25rem auto 0; }
 .team-contact a { color: var(--cyan); }
 @media (max-width: 1000px) { .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) {
   .team-grid { gap: 0.75rem; }
-  .team-card.glass-card { padding: 10px 10px 14px; }
+  .team-card { padding: 10px 10px 14px; }
   .team-card h2 { font-size: 1.05rem; }
   .team-card p { font-size: 0.82rem; }
 }
+
+/* ── /team/<name>/: a developer's page (_layouts/profile.html) ───────────── */
+/* Soft glows in the developer's accent colour, behind the page (over the site's starfield). */
+.profile { position: relative; }
+.profile::before {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(42rem 30rem at 12% 28rem, color-mix(in srgb, var(--accent) 20%, transparent), transparent 70%),
+    radial-gradient(48rem 34rem at 100% 85%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%),
+    radial-gradient(36rem 26rem at 55% 100%, rgba(124, 77, 255, 0.07), transparent 70%);
+  /* fade out before the footer, so a short page shows no edge */
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 16rem), transparent);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 16rem), transparent);
+}
+.profile-banner {
+  position: relative; z-index: 1; height: clamp(200px, 24vw, 300px); overflow: hidden;
+  background: var(--bg-deep); border-bottom: 2px solid var(--accent);
+}
+.profile-banner img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.7; }
+.profile-wrap {
+  position: relative; z-index: 1; display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3.5rem);
+  max-width: 1200px; margin: 0 auto; padding: 0 var(--gutter, 16px) clamp(4rem, 8vw, 6rem); align-items: start;
+}
+.profile-side { display: flex; flex-direction: column; gap: 0.9rem; }
+.profile-photo {
+  width: 100%; max-width: 240px; aspect-ratio: 1 / 1; margin-top: -110px; border-radius: 22px; overflow: hidden;
+  background: #0b1430; border: 3px solid var(--accent); box-shadow: 0 0 40px var(--accent-soft);
+  display: flex; align-items: center; justify-content: center;
+}
+.profile-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.profile-photo span { font-family: 'Orbitron', sans-serif; font-size: 5.5rem; font-weight: 900; color: var(--accent); }
+.profile-side h1 { margin: 0.4rem 0 0; font-family: 'Orbitron', sans-serif; font-size: 2rem; font-weight: 800; letter-spacing: 1px; color: var(--text-bright); }
+.profile-title { margin: 0; font-size: 0.75rem; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--accent); }
+.profile-bio { margin: 0; line-height: 1.6; color: rgba(255, 255, 255, 0.85); }
+.profile-meta { list-style: none; margin: 0.3rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.92rem; }
+.profile-meta li { display: flex; align-items: center; gap: 0.6rem; min-width: 0; }
+.profile-meta a { color: var(--text-bright); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.profile-meta a:hover { color: var(--accent); }
+.profile-meta svg { width: 16px; height: 16px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.profile-label { display: block; font-size: 0.68rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); }
+.profile-fav { display: flex; flex-direction: column; gap: 0.5rem; border-top: 1px solid var(--glass-border); padding-top: 1rem; margin-top: 0.3rem; }
+.profile-fav-card { display: flex; align-items: center; gap: 0.75rem; padding: 6px; border-radius: 12px; border: 1px solid var(--accent-soft); text-decoration: none; }
+.profile-fav-card img { width: 96px; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; display: block; }
+.profile-fav-card span { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--text-bright); }
+.profile-main { display: flex; flex-direction: column; gap: 2.5rem; padding-top: 1.5rem; min-width: 0; }
+.profile-back { align-self: flex-start; font-size: 0.85rem; font-weight: 600; letter-spacing: 1px; color: var(--text); text-decoration: none; }
+.profile-back:hover { color: var(--accent); }
+.profile-about > :first-child { margin-top: 0; }
+.profile-about img { max-width: 100%; height: auto; border-radius: 10px; }
+.profile-h2 { margin: 0 0 1rem; font-size: 1rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--text-bright); }
+.profile-pins { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; }
+.profile-pin {
+  display: flex; flex-direction: column; gap: 0.4rem; padding: 1rem 1.1rem; border-radius: 12px; text-decoration: none;
+  color: var(--text); border: 1px solid var(--glass-border); background: var(--glass); transition: border-color .2s;
+}
+a.profile-pin[href]:hover { border-color: var(--accent-soft); }
+.profile-pin .profile-label { color: var(--accent); }
+.profile-pin strong { color: var(--text-bright); font-size: 1.02rem; }
+.profile-pin span:last-child:not(.profile-label) { font-size: 0.88rem; line-height: 1.5; }
+.profile-posts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.9rem; }
+.profile-posts a {
+  display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 1.1rem; padding: 10px; border-radius: 14px;
+  text-decoration: none; color: var(--text); border: 1px solid var(--glass-border); background: var(--glass); transition: border-color .2s;
+}
+.profile-posts a:hover { border-color: var(--accent-soft); }
+.profile-posts img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 9px; display: block; }
+.profile-post-text { display: flex; flex-direction: column; gap: 0.35rem; padding-top: 0.2rem; }
+.profile-post-text strong { color: var(--text-bright); font-size: 1.1rem; }
+.profile-post-text span:last-child { font-size: 0.9rem; line-height: 1.5; }
+.profile-empty { color: var(--muted); }
+@media (max-width: 760px) {
+  .profile-wrap { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .profile-photo { max-width: 150px; margin-top: -75px; }
+  .profile-photo span { font-size: 3.5rem; }
+  .profile-main { padding-top: 0; gap: 2rem; }
+  .profile-pins { grid-template-columns: minmax(0, 1fr); }
+  .profile-posts a { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* Post byline: the author's photo or initial, linking to their page */
+a.author-row { text-decoration: none; color: inherit; }
+a.author-row:hover b { color: var(--accent, var(--cyan)); }
+.author-avatar.has-accent { background: #0b1430; border: 2px solid var(--accent); color: var(--accent); overflow: hidden; }
+.author-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }

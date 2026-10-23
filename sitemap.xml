@@ -25,4 +25,11 @@ layout: null
     <priority>0.7</priority>
   </url>
   {%- endfor %}
+  {%- for d in site.team %}
+  <url>
+    <loc>{{ d.url | absolute_url }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  {%- endfor %}
 </urlset>
