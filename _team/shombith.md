@@ -9,7 +9,7 @@ location: Jupiter, Solar System
 accent: lime
 photo: /assets/team/shombith/photo-mvl9sbjx.webp
 banner: /assets/modes/broadside.webp
-favourite_vessel: ''
+favourite_vessel: Thresher
 links: []
 pins: []
 ---
