@@ -18,17 +18,41 @@
  *   GET /callback                 -> check the state, swap the code for a token, and go back to the
  *                                    Studio with the token in the URL fragment (#studio_token=…),
  *                                    which browsers never send to any server
+ *   GET /check                    -> whether each setting is present and looks right (never a value
+ *                                    of the secret), for fixing a setup
  */
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === '/auth') return start(url, env);
     if (url.pathname === '/callback') return finish(request, url, env);
+    if (url.pathname === '/check') return check(url, env);
     return new Response('Froglet Studio sign-in', { status: 404 });
   },
 };
 
 const COOKIE = 'studio_signin';
+
+// Settings pasted into the dashboard often carry a stray space or line break; GitHub then refuses them.
+const clientId = (env) => String(env.GITHUB_CLIENT_ID || '').trim();
+const clientSecret = (env) => String(env.GITHUB_CLIENT_SECRET || '').trim();
+
+function check(url, env) {
+  const id = clientId(env), secret = clientSecret(env);
+  const report = {
+    worker: 'froglet-studio-auth',
+    callback_url_to_use_in_the_github_app: url.origin + '/callback',
+    client_id_set: !!id,
+    client_id: id,
+    client_id_had_extra_spaces: !!env.GITHUB_CLIENT_ID && env.GITHUB_CLIENT_ID !== id,
+    client_id_looks_like_a_github_app: /^Iv[0-9a-z]{2}[A-Za-z0-9]{14,}$/.test(id),
+    client_secret_set: !!secret,
+    client_secret_had_extra_spaces: !!env.GITHUB_CLIENT_SECRET && env.GITHUB_CLIENT_SECRET !== secret,
+    client_secret_looks_right: /^[0-9a-f]{40}$/.test(secret),
+    allowed_origin: String(env.ALLOWED_ORIGIN || ''),
+  };
+  return new Response(JSON.stringify(report, null, 2), { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
+}
 
 function allowedReturn(value, env) {
   let u;
@@ -49,7 +73,7 @@ function start(url, env) {
   if (!back) return page('This sign-in link isn’t from a Froglet site. Open the Studio and try again.', 400);
   const state = crypto.randomUUID();
   const gh = new URL('https://github.com/login/oauth/authorize');
-  gh.searchParams.set('client_id', env.GITHUB_CLIENT_ID);
+  gh.searchParams.set('client_id', clientId(env));
   gh.searchParams.set('redirect_uri', url.origin + '/callback');
   gh.searchParams.set('state', state);
   return new Response(null, {
@@ -76,8 +100,8 @@ async function finish(request, url, env) {
     method: 'POST',
     headers: { Accept: 'application/json', 'Content-Type': 'application/json', 'User-Agent': 'froglet-studio-auth' },
     body: JSON.stringify({
-      client_id: env.GITHUB_CLIENT_ID,
-      client_secret: env.GITHUB_CLIENT_SECRET,
+      client_id: clientId(env),
+      client_secret: clientSecret(env),
       code,
       redirect_uri: url.origin + '/callback',
     }),
