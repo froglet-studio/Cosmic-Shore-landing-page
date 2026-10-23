@@ -13,4 +13,4 @@ favourite_vessel: Squirrel
 links: []
 pins: []
 ---
-Within the microcosm and the macrocosm there are worlds in their own time and space.
+Within the microcosm and the macrocosm there are frog ponds in their own time and space.
