@@ -43,8 +43,8 @@
 
 {% include analytics-head.html %}
 
-<link rel="stylesheet" href="/css/design-3-hyperdrive.css">
-<link rel="stylesheet" href="/css/pages.css">
+<link rel="stylesheet" href="/css/design-3-hyperdrive.css?v={{ site.time | date: "%s" }}">
+<link rel="stylesheet" href="/css/pages.css?v={{ site.time | date: "%s" }}">
 </head>
 <body>
 
@@ -61,6 +61,6 @@
 
 {% include footer.html %}
 
-<script src="/js/site.js"></script>
+<script src="/js/site.js?v={{ site.time | date: "%s" }}"></script>
 </body>
 </html>
