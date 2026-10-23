@@ -378,7 +378,19 @@
       }
       P.loaded = true;
       fillProfileForm();
-    }).catch(function (e) { setStatus('profile-status', ''); setError('profile-error', explain(e)); });
+    }).catch(function (e) {
+      setStatus('profile-status', '');
+      if (e.status !== 404) { setError('profile-error', explain(e)); return; }
+      // Not found: say whether the branch or the file is missing, rather than "refused".
+      gh('GET', '/repos/' + CFG.repo + '/branches/' + encodeURIComponent(CFG.branch)).then(function () {
+        setError('profile-error', 'Your profile file (' + DEV.path + ') isn’t on the branch “' + CFG.branch + '” yet.' +
+          (CFG.branch === 'main' ? ' If the developer pages haven’t been merged yet, test on a preview with ?branch=<the pull request’s branch> in the address.' : ''));
+      }, function (e2) {
+        setError('profile-error', e2.status === 404
+          ? 'There’s no branch called “' + CFG.branch + '”. Check the ?branch= part of the address.'
+          : explain(e2));
+      });
+    });
   }
   function markProfileDirty(dirty) {
     P.dirty = dirty;
