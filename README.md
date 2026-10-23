@@ -7,7 +7,7 @@ The official site for **Cosmic Shore**, the party game for pilots by Froglet Gam
 GitHub Pages builds the site with **Jekyll** on every push to `main`. There is no Action to maintain and nothing to install for a normal edit; the `CNAME` file points the custom domain at Pages.
 
 - Pages with front matter (the `---` block at the top) use the shared layout in `_layouts/` and the header, footer and analytics in `_includes/`.
-- Files without front matter (images, the old `design-*.html` drafts) are copied as they are.
+- Files without front matter (images, scripts) are copied as they are.
 - A page at `privacy.html` is served at `/privacy`.
 
 ## Project structure
@@ -17,13 +17,15 @@ GitHub Pages builds the site with **Jekyll** on every push to `main`. There is n
 ├── privacy.html          # /privacy        — privacy policy
 ├── support.html          # /support        — contact, report a player, report a bug
 ├── delete-my-data.html   # /delete-my-data — account deletion (the Google Play deletion URL)
+├── team.html             # /team           — Know Your Developers (_data/team.yml)
 ├── blog/index.html       # /blog/          — dev blog index (RSS at /blog/feed.xml)
 ├── play.html             # /play           — the browser Toybox loader (dark until _data/toybox.yml has a build_root)
 ├── _data/toybox.yml      # where the Toybox build lives on the CDN, and the /play UTM campaign
 ├── _posts/               # published blog posts (Markdown)
-├── _drafts/              # unpublished drafts
 ├── _data/stores.yml      # store IDs: Steam, App Store, Google Play, TestFlight, Discord
 ├── _data/legal.yml       # legal entity, contact emails, response times, retention periods
+├── _data/forms.yml       # where the contact and test sign-up forms send (tools/site-forms/)
+├── tools/                # sync_game_content.py (vessels, modes), site-forms/ (the forms' Google script)
 ├── _layouts/             # default page layout and blog post layout
 ├── _includes/            # topbar, footer, analytics, page hero, store cards, post card
 ├── css/design-3-hyperdrive.css   # the site's design (tokens, home page)
@@ -50,7 +52,7 @@ image_alt: A large green crystal next to a vessel
 Your post in Markdown.
 ```
 
-The post appears at `/blog/your-slug/`. The **Blog** link in the menu and footer, and the home page's blog section, appear automatically once the first post is published. To publish a draft, move it from `_drafts/` to `_posts/` and add the date to its file name.
+The post appears at `/blog/your-slug/`. The **Blog** link in the menu and footer, and the home page's blog section, appear automatically once the first post is published. **This repo is public, so drafts don't live here**: anything committed, on any branch, can be read on GitHub. Write drafts in the *Cosmic Shore blog drafts* folder on Google Drive (Markdown, same front matter), and add the file to `_posts/` only on the day it is published. `_drafts/` is git-ignored so a local draft is never pushed by accident.
 
 **Turn on a store button.** Fill in the value in `_data/stores.yml`: `steam_app_id`, `app_store_id` (plus `app_store_pt`) or `google_play_live: true`. That card switches from "Coming soon" to a live, UTM-tagged link. The tags follow `Docs/Analytics/utm-conventions.md` in the game repo.
 
@@ -69,7 +71,6 @@ The post appears at `/blog/your-slug/`. The **Blog** link in the menu and footer
 ```sh
 gem install jekyll -v 3.10.0 jekyll-feed webrick
 jekyll serve            # http://localhost:4000
-jekyll serve --drafts   # include _drafts/
 ```
 
 ## Links
