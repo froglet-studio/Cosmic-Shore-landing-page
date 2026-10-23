@@ -3,7 +3,7 @@
 name: Shombith
 github: Shombith03
 order: 3
-title: ''
+title: Jack Reacher of Froglet Games
 bio: ZIMBABWE!!!!!!
 location: Jupiter, Solar System
 accent: lime
