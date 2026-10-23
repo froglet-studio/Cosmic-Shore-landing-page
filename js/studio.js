@@ -5,8 +5,8 @@
    - Sign-in: "Sign in with GitHub" through the Cloudflare Worker in tools/studio-auth/ (when
      _data/studio.yml has auth_url; the tab goes to GitHub and back, the token arriving in the
      address's #fragment), or a fine-grained GitHub token pasted on the sign-in screen.
-     The token is kept in sessionStorage (or localStorage when "Remember" is ticked) and is sent only
-     to api.github.com.
+     A GitHub sign-in is remembered on this device (localStorage) until Sign out; a pasted token only
+     for the tab unless "Remember" is ticked. Either is sent only to api.github.com.
    - Who may edit what: the signed-in GitHub account must be the `github` of a file in _team/, and the
      Studio only ever opens and writes that person's profile and posts with `author: <their slug>`.
    - Drafts: unpublished profile edits and post drafts are kept in this browser only. Pictures added
@@ -276,7 +276,9 @@
     }).catch(function (e) {
       if (e.status === 401) clearToken();
       showOnly('view-signin');
-      setError('signin-error', e.status === 401 ? 'GitHub didn’t accept that sign-in. Check the token and try again.' : explain(e));
+      setError('signin-error', e.status === 401
+        ? (CFG.authUrl ? 'Your sign-in has expired. Press Sign in with GitHub to carry on.' : 'GitHub didn’t accept that sign-in. Check the token and try again.')
+        : explain(e));
     });
   }
   // Back from "Sign in with GitHub": take the token (or the reason it failed) out of the address at once.
@@ -285,7 +287,7 @@
     var h = new URLSearchParams(location.hash.slice(1)), t = h.get('studio_token'), err = h.get('studio_error');
     if (!t && !err) return '';
     history.replaceState(null, '', location.pathname + location.search);
-    if (t) setToken(t, false);
+    if (t) setToken(t, true);   // a GitHub sign-in is remembered on this device until Sign out
     return err || '';
   }
   function wireSignIn() {

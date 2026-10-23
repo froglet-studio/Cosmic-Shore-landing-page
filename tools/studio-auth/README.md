@@ -35,6 +35,8 @@ person who signed in. It stores nothing.
    - Name: `Froglet Studio`. Homepage URL: `https://www.froglet.games`.
    - Callback URL: `https://<your-worker>.workers.dev/callback` (fill in after step 2, or edit later).
    - Untick **Webhook > Active**.
+   - Under "Identifying and authorizing users", untick **Expire user authorization tokens**, so a
+     sign-in lasts until the developer presses Sign out (otherwise GitHub ends it after 8 hours).
    - Repository permissions: **Contents: Read and write**. (Metadata: Read is added automatically.)
    - Where can it be installed: **Only on this account**. Create it.
    - Note the **Client ID**, then **Generate a new client secret** and copy it.
@@ -50,7 +52,9 @@ person who signed in. It stores nothing.
 4. Put the Worker's address (e.g. `https://froglet-studio-auth.<you>.workers.dev`) in the GitHub App's
    Callback URL as `…/callback`, and in `_data/studio.yml` as `auth_url` (no trailing slash). Push.
 
-The sign-in screen then shows **Sign in with GitHub**; the token option stays as a fallback.
+The sign-in screen then shows **Sign in with GitHub**; the token option stays as a fallback. A GitHub
+sign-in is remembered on that device until **Sign out**. To end it from anywhere: GitHub > Settings >
+Applications > Authorized GitHub Apps > Froglet Studio > Revoke.
 
 ## Good to know
 
