@@ -3,13 +3,13 @@
 name: Caleb
 github: FenrysUnchained
 order: 2
-title: ''
+title: COO
 bio: The arcade game modes, their card art, and play-testing every build.
-location: ''
+location: Edmonds, WA
 accent: magenta
-photo: ''
-banner: /assets/modes/maelstrom.webp
-favourite_vessel: ''
+photo: /assets/team/caleb/photo-mvl8qct9.webp
+banner: /assets/images/Image%20Sequence_025_0000.jpg
+favourite_vessel: Squirrel
 links: []
 pins: []
 ---
