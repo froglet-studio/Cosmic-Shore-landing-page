@@ -4,7 +4,7 @@ name: Shombith
 github: Shombith03
 order: 3
 title: Jack Reacher of Froglet Games
-bio: I am literally Jack reacher
+bio: I am literally Jack reacher. Any kind of engineering - hit me up!
 location: Jupiter, Solar System
 accent: nebula
 photo: /assets/team/shombith/photo-mvlabg5t.webp
