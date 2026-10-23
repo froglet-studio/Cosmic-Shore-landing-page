@@ -4,7 +4,7 @@ name: Garrett
 github: gradies
 order: 1
 title: Vessel Mechanic and CEO
-bio: I like games in my toys and toys in my games. No fun is safe. I will hunt it down, capture it, and use it as a trophy.
+bio: I like games in my toys and toys in my games.
 location: Ada, Michigan
 accent: cyan
 photo: /assets/team/garrett/photo-mvla53aa.webp
