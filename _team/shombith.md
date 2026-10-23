@@ -4,7 +4,7 @@ name: Shombith
 github: Shombith03
 order: 3
 title: Jack Reacher of Froglet Games
-bio: I am literally Jack reacher. Looking after everything so you get the best experience. Any kind of engineering - hit me up!
+bio: Engineering and making sure the product is a beast!
 location: Calcutta
 accent: nebula
 photo: /assets/team/shombith/photo-mvlabg5t.webp
