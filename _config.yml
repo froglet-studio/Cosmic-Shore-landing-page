@@ -31,6 +31,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - tools
+  - vendor
+  - .bundle
+  - node_modules
+  - js/vendor/README.md
 
 defaults:
   - scope: { path: "", type: pages }

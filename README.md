@@ -68,11 +68,31 @@ The post appears at `/blog/your-slug/`. The **Blog** link in the menu and footer
 
 **Fill a legal placeholder.** Pink boxed text on `/privacy`, `/support` or `/delete-my-data` is a value missing from `_data/legal.yml`. Fill the value there and the placeholder disappears. A few markers that only counsel can resolve are written inline in the page (search for `class="ph"`).
 
+## Preview a branch before merging
+
+GitHub Pages only publishes `main`. **Cloudflare Pages** builds every branch and pull request at its own
+address, so a change can be checked before it goes live. Set it up once:
+
+1. Cloudflare dashboard > **Workers & Pages** > Create > **Pages** > **Connect to Git** > GitHub >
+   `froglet-studio/Cosmic-Shore-landing-page`.
+2. Production branch: `main`. Framework preset: **Jekyll**. Build command: `jekyll build`.
+   Build output directory: `_site`.
+3. Environment variables (Production and Preview): `LANG` = `C.UTF-8`.
+4. Save and Deploy. Each branch then appears at `https://<branch>.<project>.pages.dev`, and the address is
+   posted on the pull request.
+
+The `Gemfile` pins the same Jekyll and plugins GitHub Pages uses, so a preview looks like the live site.
+The preview is only for looking: www.froglet.games still comes from GitHub Pages.
+
+**Testing Froglet Studio on a preview:** open `/admin/?branch=<the branch name>`. An orange bar says
+"Test mode", and every save goes to that branch instead of `main`, so the live site is never touched.
+Without `?branch=`, the Studio saves to `main` (the live site) even on a preview.
+
 ## Preview locally
 
 ```sh
-gem install jekyll -v 3.10.0 jekyll-feed webrick
-jekyll serve            # http://localhost:4000
+bundle install
+LANG=C.UTF-8 bundle exec jekyll serve      # http://localhost:4000
 ```
 
 ## Links

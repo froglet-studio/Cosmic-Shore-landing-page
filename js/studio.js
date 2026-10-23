@@ -796,6 +796,18 @@
   });
   fetch('/admin/data.json', { cache: 'no-store' })
     .then(function (r) { if (!r.ok) throw new Error('Could not load the Studio’s settings.'); return r.json(); })
-    .then(function (cfg) { CFG = cfg; wireSignIn(); return signIn(); })
+    .then(function (cfg) {
+      CFG = cfg;
+      // Test mode: /admin/?branch=<name> saves to that branch (e.g. a pull request's, seen on a preview
+      // build) instead of the live site's. Shown in a bar on every screen so it is never mistaken.
+      var testBranch = new URLSearchParams(location.search).get('branch');
+      if (testBranch && /^[A-Za-z0-9._\/-]{1,200}$/.test(testBranch) && testBranch !== CFG.branch) {
+        CFG.branch = testBranch;
+        var bar = $('testbar');
+        bar.textContent = 'Test mode: saving to the branch “' + testBranch + '”, not the live site.';
+        bar.hidden = false;
+      }
+      wireSignIn(); return signIn();
+    })
     .catch(function (e) { showOnly('view-signin'); setError('signin-error', e.message); });
 })();

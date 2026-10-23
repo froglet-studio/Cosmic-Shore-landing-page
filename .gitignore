@@ -5,3 +5,7 @@ __pycache__/
 # Blog drafts are not kept here: this repo is public. Write them in the "Cosmic Shore blog drafts"
 # folder on Google Drive, and add a post to _posts/ only when it is ready to publish.
 _drafts/
+
+# Local and preview builds (Gemfile)
+vendor/
+.bundle/
