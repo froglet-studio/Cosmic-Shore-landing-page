@@ -1,14 +1,13 @@
 {%- comment -%}
-  The support address. Default: a copyable field. With only_button=true: just a mailto button
-  (params: subject, label). While _data/legal.yml has no support_email, the field renders a
-  placeholder and the button renders nothing.
+  The support address. Default: a copyable field. With only_button=true: a button that opens the
+  contact form (_includes/contact-form.html) on a topic (params: topic, label); the form sends the
+  message from the site, no email app. While _data/legal.yml has no support_email, the field renders
+  a placeholder.
 {%- endcomment -%}
 {%- assign email = site.data.legal.support_email -%}
 {%- assign has_email = false -%}{%- if email and email != "" -%}{%- assign has_email = true -%}{%- endif -%}
 {%- if include.only_button -%}
-  {%- if has_email %}
-<div class="card-actions"><a href="mailto:{{ email }}?subject={{ include.subject | uri_escape }}" class="btn-neon">{{ include.label }}</a></div>
-  {%- endif -%}
+<div class="card-actions"><button type="button" class="btn-neon" data-contact-topic="{{ include.topic | default: 'support' }}">{{ include.label }}</button></div>
 {%- elsif has_email -%}
 <div class="copy-field"><code>{{ email }}</code><button type="button" data-copy="{{ email }}">Copy</button></div>
 {%- else -%}

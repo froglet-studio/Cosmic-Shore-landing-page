@@ -21,8 +21,8 @@ image: /assets/images/Image%20Sequence_016_0005.jpg
       <h2>How to ask</h2>
       <ol class="steps">
         <li><div><strong>Note your display name</strong>It&rsquo;s shown on your profile in the game. Display names are unique, so this is how we find your account.</div></li>
-        <li><div><strong>Email us</strong>Send it to the address below with the subject <em>Delete my data</em>. Include your display name, the platform you play on (Steam, iPhone/iPad or Android) and roughly when you started playing.
-          <div style="margin-top:.8rem">{% include support-email.html %}</div>
+        <li><div><strong>Send us a request</strong>Press the button below and send the form. Include your display name, the platform you play on (Steam, iPhone/iPad or Android) and roughly when you started playing.
+          {% include support-email.html topic="delete" label="Request Deletion" only_button=true %}
         </div></li>
         <li><div><strong>Confirm it&rsquo;s you</strong>We reply with a short code, such as <em>Pilot4821</em>. Change your display name in the game (Profile &rarr; name) to that code and tell us. That shows us the request comes from the account&rsquo;s owner.</div></li>
         <li><div><strong>We delete it</strong>We delete your account and data within {% include ph.html value=legal.deletion_time label="RESPONSE TIME" %} and email you when it&rsquo;s done.</div></li>

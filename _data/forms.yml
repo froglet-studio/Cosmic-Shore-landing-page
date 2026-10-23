@@ -1,0 +1,4 @@
+# The site's two forms (test sign-ups and the Support contact form) post to one Google Apps Script
+# web app, which writes them to a Google Sheet and sends the emails (tools/site-forms/README.md).
+# GitHub Pages cannot send email itself; until this is set, both forms say they are not open yet.
+endpoint: ""

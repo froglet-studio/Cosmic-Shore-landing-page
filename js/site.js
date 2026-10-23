@@ -262,8 +262,8 @@
 })();
 
 /* Test sign-up (_includes/tester-signup.html). Any [data-tester-platform] button opens it with that
-   platform chosen. Posts to the Apps Script endpoint (tools/tester-signup/) as a simple text/plain
-   request, so no CORS preflight; with no endpoint set, opens the visitor's email app instead. */
+   platform chosen. Posts to the Apps Script endpoint (_data/forms.yml, tools/site-forms/) as a simple
+   text/plain request, so no CORS preflight. Nothing opens the visitor's email app. */
 (function () {
   var dialog = document.getElementById('tester-dialog');
   if (!dialog || typeof dialog.showModal !== 'function') return;
@@ -272,7 +272,6 @@
   var otherWrap = form.querySelector('[data-heard-other]');
   var submit = form.querySelector('button[type="submit"]');
   var endpoint = dialog.getAttribute('data-endpoint') || '';
-  var fallback = dialog.getAttribute('data-fallback') || '';
 
   function step(name) {
     form.querySelectorAll('.tester-step').forEach(function (s) { s.hidden = s.getAttribute('data-step') !== name; });
@@ -315,27 +314,7 @@
     showError('');
     var label = (form.querySelector('input[name="platform"]:checked + span') || {}).textContent || data.platform;
 
-    if (!endpoint) {
-      var body = 'Please add me to the Cosmic Shore ' + label + ' test.\n\nEmail: ' + data.email +
-                 '\nHow I heard about you: ' + data.heard + (data.heard_other ? ' (' + data.heard_other + ')' : '');
-      var subject = 'Cosmic Shore test request: ' + label;
-      var href = 'mailto:' + fallback + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-      var to = fallback.split(',').join(', ');
-      form.querySelector('[data-tester-to]').textContent = to;
-      form.querySelector('[data-tester-body]').textContent = body;
-      form.querySelector('[data-tester-mailto]').href = href;
-      var copy = form.querySelector('[data-tester-copy]');
-      copy.textContent = 'Copy message';
-      copy.onclick = function () {
-        var text = 'To: ' + to + '\nSubject: ' + subject + '\n\n' + body;
-        var done = function () { copy.textContent = 'Copied'; };
-        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () {});
-      };
-      step('mail');
-      window.location.href = href;
-      track('tester_signup_submit', { tester_platform: data.platform, tester_heard: data.heard, tester_via: 'email' });
-      return;
-    }
+    if (!endpoint) { showError('Sorry, test sign-ups aren\u2019t open yet. Please try again soon.'); return; }
 
     submit.disabled = true;
     fetch(endpoint, { method: 'POST', body: JSON.stringify(data) })
@@ -351,6 +330,78 @@
       .catch(function (err) {
         showError(err.message === 'email' ? 'Please enter a valid email address.'
                                           : 'That didn’t go through. Please try again in a moment.');
+      })
+      .then(function () { submit.disabled = false; });
+  });
+})();
+
+/* Contact form (_includes/contact-form.html). Any [data-contact-topic] button opens it on that topic.
+   Posts to the same Apps Script endpoint as the test sign-up, which emails the team; the visitor's
+   email app is never involved. */
+(function () {
+  var dialog = document.getElementById('contact-dialog');
+  if (!dialog || typeof dialog.showModal !== 'function') return;
+  var form = document.getElementById('contact-form');
+  var errorEl = form.querySelector('.tester-error');
+  var submit = form.querySelector('button[type="submit"]');
+  var endpoint = dialog.getAttribute('data-endpoint') || '';
+  var support = dialog.getAttribute('data-support') || '';
+
+  function step(name) {
+    form.querySelectorAll('.tester-step').forEach(function (s) { s.hidden = s.getAttribute('data-step') !== name; });
+  }
+  function showError(msg) { errorEl.textContent = msg; errorEl.hidden = !msg; }
+  function hint() {
+    form.querySelectorAll('[data-topic-hint]').forEach(function (h) { h.hidden = h.getAttribute('data-topic-hint') !== form.topic.value; });
+  }
+  function track(event, extra) {
+    try { (window.dataLayer = window.dataLayer || []).push(Object.assign({ event: event }, extra || {})); } catch (e) {}
+  }
+  var failed = 'That didn’t send. Please try again in a moment' + (support ? ', or write to ' + support + '.' : '.');
+
+  document.addEventListener('click', function (e) {
+    var opener = e.target.closest('[data-contact-topic]');
+    if (!opener) return;
+    form.topic.value = opener.getAttribute('data-contact-topic');
+    hint(); step('form'); showError('');
+    dialog.showModal();
+    form.email.focus();
+    track('contact_open', { contact_topic: form.topic.value });
+  });
+  dialog.querySelectorAll('[data-contact-close]').forEach(function (b) {
+    b.addEventListener('click', function () { dialog.close(); });
+  });
+  dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });   // backdrop
+  form.topic.addEventListener('change', hint);
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var data = {
+      kind: 'contact',
+      email: form.email.value.trim(),
+      topic: form.topic.value,
+      message: form.message.value.trim(),
+      page: location.pathname,
+      website: form.website.value
+    };
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) { showError('Please enter a valid email address.'); form.email.focus(); return; }
+    if (data.message.length < 10) { showError('Please write a little more, so we can help.'); form.message.focus(); return; }
+    showError('');
+    if (!endpoint) { showError(failed); return; }
+
+    submit.disabled = true;
+    fetch(endpoint, { method: 'POST', body: JSON.stringify(data) })
+      .then(function (r) { return r.json().catch(function () { return { ok: r.ok }; }); })
+      .then(function (res) {
+        if (!res || !res.ok) throw new Error(res && res.error || 'failed');
+        form.querySelector('[data-contact-email]').textContent = data.email;
+        step('done');
+        track('contact_submit', { contact_topic: data.topic });
+        form.reset();
+      })
+      .catch(function (err) {
+        showError(err.message === 'email' ? 'Please enter a valid email address.'
+                : err.message === 'message' ? 'Please write a little more, so we can help.' : failed);
       })
       .then(function () { submit.disabled = false; });
   });

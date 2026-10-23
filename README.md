@@ -60,7 +60,7 @@ The post appears at `/blog/your-slug/`. The **Blog** link in the menu and footer
 
 **Edit the team page.** `/team` (Know Your Developers) is built from `_data/team.yml`: each person's name, `title`, `photo` (a square image under `assets/team/`, e.g. `/assets/team/garrett.jpg`) and one-line `blurb`. An empty title shows nothing; an empty photo shows the person's initial.
 
-**Test sign-ups.** "Request test access" on the Windows, iPhone and Android cards opens a form (`_includes/tester-signup.html`). Its backend is a Google Apps Script that emails Caleb and Shombith an Approve link and sends the tester a confirmation on approval: setup in `tools/tester-signup/README.md`, then put its URL in `_data/testers.yml` as `endpoint`. Until then the form opens the visitor's email app addressed to `fallback_to`.
+**The forms (test sign-ups and contact).** "Request test access" on the Windows, iPhone and Android cards (`_includes/tester-signup.html`) and the contact form behind the Support and Delete My Data buttons (`_includes/contact-form.html`) both send from the site itself, through one Google Apps Script that emails the team: setup in `tools/site-forms/README.md`, then put its URL in `_data/forms.yml` as `endpoint`. Until then the forms say they are not open yet; nothing opens the visitor's email app.
 
 **Fill a legal placeholder.** Pink boxed text on `/privacy`, `/support` or `/delete-my-data` is a value missing from `_data/legal.yml`. Fill the value there and the placeholder disappears. A few markers that only counsel can resolve are written inline in the page (search for `class="ph"`).
 

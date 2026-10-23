@@ -1,8 +1,14 @@
 /**
- * Cosmic Shore test sign-ups: the backend of the "Request test access" form on www.froglet.games.
+ * The backend of www.froglet.games's two forms: "Request test access" and the Support contact form.
+ * A static site cannot send email; this script, running on Froglet's Google Workspace, does.
  *
  * Bound to a Google Sheet (Extensions > Apps Script) and deployed as a web app. Setup: README.md.
  *
+ * Contact form (kind: "contact"):
+ *   site form  --POST JSON-->  doPost  -> a row on the "Contact" sheet
+ *                                      -> an email to CONTACT_TO, with Reply going to the sender
+ *
+ * Test sign-ups (kind: "tester", the default):
  *   site form  --POST JSON-->  doPost  -> a row on the "Requests" sheet (Status: Pending)
  *                                      -> an email to NOTIFY_TO with Approve / Decline links
  *   Approve link -> doGet (a confirm page; a link scanner opening it changes nothing)
@@ -13,6 +19,7 @@
  * Script Properties (Project Settings > Script properties):
  *   APPROVE_SECRET       required. Any long random string; signs the Approve / Decline links.
  *   NOTIFY_TO            who reviews requests (default caleb@froglet.studio,shombith@froglet.studio).
+ *   CONTACT_TO           who gets contact-form messages (default: NOTIFY_TO).
  *   REPLY_TO             the reply-to on the tester's confirmation email (default: the first NOTIFY_TO).
  *   INSTRUCTIONS_WINDOWS / INSTRUCTIONS_IOS / INSTRUCTIONS_ANDROID
  *                        what the approved tester is told for that platform (a link, a code, steps).
@@ -25,26 +32,32 @@ var COL = { received: 1, email: 2, platform: 3, heard: 4, details: 5, status: 6,
 var PLATFORMS = { windows: 'Windows PC', ios: 'iPhone & iPad', android: 'Android' };
 var DEFAULT_NOTIFY = 'caleb@froglet.studio,shombith@froglet.studio';
 var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+var CONTACT_SHEET = 'Contact';
+var CONTACT_HEADERS = ['Received', 'Email', 'Topic', 'Message', 'Page', 'Id'];
+var TOPICS = { support: 'Support question', bug: 'Bug report', report: 'Player report', delete: 'Delete my data', other: 'Other' };
+var MESSAGE_MAX = 5000;
 
 function prop_(name, fallback) {
   var v = PropertiesService.getScriptProperties().getProperty(name);
   return v ? v : (fallback || '');
 }
 
-function sheet_() {
+function sheet_(name, headers) {
+  name = name || SHEET;
+  headers = headers || HEADERS;
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sh = ss.getSheetByName(SHEET) || ss.insertSheet(SHEET);
+  var sh = ss.getSheetByName(name) || ss.insertSheet(name);
   if (sh.getLastRow() === 0) {
-    sh.appendRow(HEADERS);
+    sh.appendRow(headers);
     sh.setFrozenRows(1);
-    sh.getRange(1, 1, 1, HEADERS.length).setFontWeight('bold');
+    sh.getRange(1, 1, 1, headers.length).setFontWeight('bold');
   }
   return sh;
 }
 
 /** A sheet cell never starts with = + - @, so a sign-up can't plant a formula. */
-function cell_(v) {
-  v = String(v == null ? '' : v).replace(/[\u0000-\u001f]/g, ' ').trim().slice(0, 300);
+function cell_(v, max) {
+  v = String(v == null ? '' : v).replace(/[\u0000-\u0009\u000b-\u001f]/g, ' ').trim().slice(0, max || 300);
   return /^[=+\-@]/.test(v) ? "'" + v : v;
 }
 
@@ -81,6 +94,7 @@ function doPost(e) {
   var data;
   try { data = JSON.parse(e.postData.contents); } catch (err) { return json_({ ok: false, error: 'bad_request' }); }
   if (data.website) return json_({ ok: true });                  // honeypot: a bot filled the hidden field
+  if (data.kind === 'contact') return contact_(data);
 
   var email = String(data.email || '').trim().toLowerCase().slice(0, 254);
   var platform = PLATFORMS[data.platform] ? data.platform : '';
@@ -118,6 +132,54 @@ function doPost(e) {
   }
   return json_({ ok: true });
 }
+
+// ---------------------------------------------------------------- the contact form
+
+function contact_(data) {
+  var email = String(data.email || '').trim().toLowerCase().slice(0, 254);
+  var topic = TOPICS[data.topic] ? data.topic : '';
+  var message = String(data.message || '').replace(/\r\n?/g, '\n').trim();
+  if (!EMAIL_RE.test(email)) return json_({ ok: false, error: 'email' });
+  if (!topic) return json_({ ok: false, error: 'topic' });
+  if (message.length < 10) return json_({ ok: false, error: 'message' });
+  message = message.slice(0, MESSAGE_MAX);
+
+  // A double click, or one sender in a loop, sends one message a minute; and no more than 30 messages
+  // reach the inbox in any 10 minutes, whoever sends them.
+  var cache = CacheService.getScriptCache();
+  var key = 'ct:' + Utilities.base64EncodeWebSafe(email);
+  if (cache.get(key)) return json_({ ok: true });
+  var lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    var burst = Number(cache.get('ct:burst') || 0);
+    if (burst >= 30) return json_({ ok: false, error: 'busy' });
+    cache.put('ct:burst', String(burst + 1), 600);
+    cache.put(key, '1', 60);
+
+    var id = Utilities.getUuid();
+    var page = cell_(data.page, 200);
+    sheet_(CONTACT_SHEET, CONTACT_HEADERS)
+      .appendRow([new Date(), cell_(email), TOPICS[topic], cell_(message, MESSAGE_MAX), page, id]);
+    var first = message.split('\n')[0].slice(0, 60);
+    MailApp.sendEmail({
+      to: prop_('CONTACT_TO', prop_('NOTIFY_TO', DEFAULT_NOTIFY)),
+      subject: '[Cosmic Shore] ' + TOPICS[topic] + ': ' + first,
+      body: message + '\n\n--\nFrom: ' + email + '\nTopic: ' + TOPICS[topic] + (page ? '\nPage: ' + page : '') +
+            '\nSent from the contact form on www.froglet.games. Reply to answer them.',
+      htmlBody: '<p style="white-space:pre-wrap">' + esc_(message) + '</p><hr><p style="color:#666">From: ' +
+                esc_(email) + '<br>Topic: ' + esc_(TOPICS[topic]) + (page ? '<br>Page: ' + esc_(page) : '') +
+                '<br>Sent from the contact form on www.froglet.games. Reply to answer them.</p>',
+      replyTo: email,
+      name: 'Cosmic Shore website'
+    });
+  } finally {
+    lock.releaseLock();
+  }
+  return json_({ ok: true });
+}
+
+// ---------------------------------------------------------------- test sign-ups
 
 function notify_(id, email, platform, heard, details) {
   var url = ScriptApp.getService().getUrl();
