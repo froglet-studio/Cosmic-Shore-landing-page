@@ -13,7 +13,7 @@
     {%- if site.data.toybox.build_root != "" %}
     <a href="{{ home }}#play">Play</a>
     {%- endif %}
-    <a href="/team"{% if page.url == "/team.html" or page.url == "/team" %} aria-current="page"{% endif %}>Team</a>
+    <a href="/team/"{% if page.url == "/team/" or page.collection == "team" %} aria-current="page"{% endif %}>Team</a>
     <a href="{{ home }}#platforms" class="btn-neon">Get the Game</a>
   </nav>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>

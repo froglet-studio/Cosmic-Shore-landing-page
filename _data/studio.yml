@@ -1,0 +1,7 @@
+# Froglet Studio (/admin/): where developers edit their profile and write blog posts. It saves
+# through the GitHub API with the developer's own GitHub sign-in (tools/studio-auth/README.md).
+repo: froglet-studio/Cosmic-Shore-landing-page
+branch: main
+# The Cloudflare Worker that turns "Sign in with GitHub" into a token (tools/studio-auth/). Until it
+# is set, developers sign in by pasting a GitHub token instead.
+auth_url: ""

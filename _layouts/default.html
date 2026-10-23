@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {%- assign page_title = page.title | default: site.title %}
 {%- assign page_desc = page.description | default: site.description %}
+{%- if page.collection == "team" %}{%- assign page_title = page.name | append: " — Froglet Games developer" %}{%- assign page_desc = page.bio | default: page_desc %}{%- endif %}
 {%- assign canonical = page.url | replace: ".html", "" | absolute_url %}
-{%- assign og_image = page.image | default: "/assets/images/Image%20Sequence_030_0008.jpg" | absolute_url %}
+{%- assign og_image = page.image | default: page.banner | default: "/assets/images/Image%20Sequence_030_0008.jpg" | absolute_url %}
 <title>{{ page_title }}</title>
 <link rel="canonical" href="{{ canonical }}">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicon-32.png">

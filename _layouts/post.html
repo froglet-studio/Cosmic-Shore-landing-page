@@ -9,10 +9,19 @@ layout: default
 {% include page-hero.html image=page.image label=back title=post_title meta=post_meta %}
 
 <article class="article">
+  {%- comment -%} author: a developer's file name in _team/ links to their page; anything else is shown as written. {%- endcomment -%}
+  {%- assign dev = site.team | where: "slug", page.author | first %}
+  {%- if dev %}
+  <a class="author-row accent-{{ dev.accent | default: 'cyan' }}" href="{{ dev.url }}">
+    <div class="author-avatar has-accent" aria-hidden="true">{% if dev.photo and dev.photo != "" %}<img src="{{ dev.photo }}" alt="">{% else %}{{ dev.name | slice: 0 }}{% endif %}</div>
+    <div><b>{{ dev.name | escape }}</b>{% if dev.title and dev.title != "" %}<span>{{ dev.title | escape }}</span>{% elsif page.role %}<span>{{ page.role }}</span>{% endif %}</div>
+  </a>
+  {%- else %}
   <div class="author-row">
     <div class="author-avatar" aria-hidden="true">FG</div>
     <div><b>{{ page.author }}</b>{% if page.role %}<span>{{ page.role }}</span>{% endif %}</div>
   </div>
+  {%- endif %}
   <div class="prose" style="margin-top:2rem">
 {{ content }}
   </div>

@@ -19,6 +19,13 @@ plugins:
 feed:
   path: blog/feed.xml
 
+# Developer profiles: one file per person in _team/ (edited in Froglet Studio at /admin/), each
+# published at /team/<file name>/ with _layouts/profile.html.
+collections:
+  team:
+    output: true
+    permalink: /team/:name/
+
 exclude:
   - README.md
   - Gemfile
@@ -28,5 +35,7 @@ exclude:
 defaults:
   - scope: { path: "", type: pages }
     values: { layout: default }
+  - scope: { path: "", type: team }
+    values: { layout: profile }
   - scope: { path: "", type: posts }
     values: { layout: post, author: The Froglet Team, permalink: "/blog/:title/", content_width: 760px }

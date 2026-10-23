@@ -17,7 +17,9 @@ GitHub Pages builds the site with **Jekyll** on every push to `main`. There is n
 ├── privacy.html          # /privacy        — privacy policy
 ├── support.html          # /support        — contact, report a player, report a bug
 ├── delete-my-data.html   # /delete-my-data — account deletion (the Google Play deletion URL)
-├── team.html             # /team           — Know Your Developers (_data/team.yml)
+├── team.html             # /team/          — Know Your Developers (one card per _team/ file)
+├── _team/                # one file per developer: their page at /team/<name>/
+├── admin/                # /admin/ — Froglet Studio, where developers edit their page and write posts
 ├── blog/index.html       # /blog/          — dev blog index (RSS at /blog/feed.xml)
 ├── play.html             # /play           — the browser Toybox loader (dark until _data/toybox.yml has a build_root)
 ├── _data/toybox.yml      # where the Toybox build lives on the CDN, and the /play UTM campaign
@@ -25,7 +27,7 @@ GitHub Pages builds the site with **Jekyll** on every push to `main`. There is n
 ├── _data/stores.yml      # store IDs: Steam, App Store, Google Play, TestFlight, Discord
 ├── _data/legal.yml       # legal entity, contact emails, response times, retention periods
 ├── _data/forms.yml       # where the contact and test sign-up forms send (tools/site-forms/)
-├── tools/                # sync_game_content.py (vessels, modes), site-forms/ (the forms' Google script)
+├── tools/                # sync_game_content.py (vessels, modes), site-forms/ (the forms' Google script), studio-auth/ (Studio sign-in)
 ├── _layouts/             # default page layout and blog post layout
 ├── _includes/            # topbar, footer, analytics, page hero, store cards, post card
 ├── css/design-3-hyperdrive.css   # the site's design (tokens, home page)
@@ -60,7 +62,7 @@ The post appears at `/blog/your-slug/`. The **Blog** link in the menu and footer
 
 **Update the vessels and game modes.** The home page's fleet and mode cards are copied from the game repo: run `python3 tools/sync_game_content.py --game ../cosmic-shore` (a checkout of `bleeding-edge`) and commit `_data/vessels.yml`, `_data/modes.yml` and `assets/vessels|modes/`. `--check` reports whether the site has fallen behind. Fix a placeholder blurb in `_data/content_overrides.yml`, or better, in the game; `trailers` there gives a vessel a Watch the trailer button.
 
-**Edit the team page.** `/team` (Know Your Developers) is built from `_data/team.yml`: each person's name, `title`, `photo` (a square image under `assets/team/`, e.g. `/assets/team/garrett.jpg`) and one-line `blurb`. An empty title shows nothing; an empty photo shows the person's initial.
+**Profiles and posts: Froglet Studio.** Each developer edits their own page and writes blog posts at **www.froglet.games/admin/** (sign-in: `tools/studio-auth/README.md`). Profiles are `_team/<name>.md` (front matter: name, github, title, bio, location, accent, photo, banner, favourite_vessel, links, pins; the body is their About), published at `/team/<name>/` with `_layouts/profile.html`, and listed on `/team/` in `order`. A post's `author:` is a `_team` file name, which links the byline to that page. To add a developer, copy a file in `_team/`, change `name`, `github` and `order`, and they can sign in.
 
 **The forms (test sign-ups and contact).** "Request test access" on the Windows, iPhone and Android cards (`_includes/tester-signup.html`) and the contact form behind the Support and Delete My Data buttons (`_includes/contact-form.html`) both send from the site itself, through one Google Apps Script that emails the team: setup in `tools/site-forms/README.md`, then put its URL in `_data/forms.yml` as `endpoint`. Until then the forms say they are not open yet; nothing opens the visitor's email app.
 

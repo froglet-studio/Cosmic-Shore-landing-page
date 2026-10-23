@@ -1,0 +1,9 @@
+{%- comment -%}
+  Prints include.url only if it is an http(s) address or a path on this site; otherwise nothing.
+  Profiles are written by developers in Froglet Studio, which checks this too; this is the second check.
+{%- endcomment -%}
+{%- assign u = include.url | strip -%}
+{%- assign lower = u | downcase -%}
+{%- assign head8 = lower | slice: 0, 8 -%}{%- assign head7 = lower | slice: 0, 7 -%}
+{%- assign head1 = u | slice: 0 -%}{%- assign head2 = u | slice: 0, 2 -%}
+{%- if head8 == "https://" or head7 == "http://" or head1 == "/" and head2 != "//" -%}{{ u }}{%- endif -%}
