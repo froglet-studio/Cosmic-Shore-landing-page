@@ -17,7 +17,7 @@ layout: default
     <aside class="profile-side">
       <div class="profile-photo">
         {%- if page.photo and page.photo != "" %}
-        <img src="{{ page.photo }}" alt="{{ page.name | escape }}" width="600" height="600" decoding="async">
+        <img src="{{ page.photo }}" alt="{{ page.name | escape }}" width="600" height="600">
         {%- else %}
         <span aria-hidden="true">{{ page.name | slice: 0 }}</span>
         {%- endif %}

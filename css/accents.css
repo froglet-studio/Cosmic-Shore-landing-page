@@ -1,0 +1,55 @@
+/* Developer accents: each person picks one in Froglet Studio (the `accent` in their _team/ file).
+   Loaded by the site and by the Studio, so a profile, its team card, a post byline and the Studio's
+   preview all draw from this one list. The keys must match ACCENTS in js/studio.js.
+
+   An accent sets --accent (text, borders, glows); --accent-soft follows it. The animated ones move
+   --accent through their colours, so everything drawn with it shifts together, and spin a gradient
+   ring around the photo. --accent is registered as a colour so the browser can blend between them. */
+
+@property --accent { syntax: '<color>'; inherits: true; initial-value: #7fff00; }
+@property --accent-ring { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
+
+[class*="accent-"] { --accent-soft: color-mix(in srgb, var(--accent) 35%, transparent); }
+
+/* Solid colours */
+.accent-cyan    { --accent: #00e5ff; }
+.accent-magenta { --accent: #e86cfc; }
+.accent-lime    { --accent: #7fff00; }
+.accent-orange  { --accent: #ffaa40; }
+.accent-pink    { --accent: #ff4f8b; }
+.accent-violet  { --accent: #a07cff; }
+.accent-fire    { --accent: #ff5a36; }
+.accent-silver  { --accent: #dfe7ff; }
+
+/* The game's four domains (Assets/_SO_Assets/Color Palettes/OriginalColorSetSO.asset) */
+.accent-jade { --accent: #13fff2; }
+.accent-ruby { --accent: #ff00f9; }
+.accent-gold { --accent: #ffa700; }
+.accent-blue { --accent: #6680ff; }
+
+/* Animated: each lists its colours for the photo ring (--a1..--a4) and cycles --accent through them */
+.accent-prism  { --a1: #13fff2; --accent: #13fff2; --a2: #ff00f9; --a3: #ffa700; --a4: #6680ff; animation: accent-prism 12s linear infinite; }
+.accent-aurora { --a1: #13fff2; --accent: #13fff2; --a2: #7fff00; --a3: #00e5ff; --a4: #6680ff; animation: accent-aurora 10s linear infinite; }
+.accent-ember  { --a1: #ffa700; --accent: #ffa700; --a2: #ff5a36; --a3: #ff4f8b; --a4: #ffcf40; animation: accent-ember 9s linear infinite; }
+.accent-nebula { --a1: #ff00f9; --accent: #ff00f9; --a2: #a07cff; --a3: #6680ff; --a4: #e86cfc; animation: accent-nebula 11s linear infinite; }
+
+@keyframes accent-prism  { 0%, 100% { --accent: #13fff2; } 25% { --accent: #ff00f9; } 50% { --accent: #ffa700; } 75% { --accent: #6680ff; } }
+@keyframes accent-aurora { 0%, 100% { --accent: #13fff2; } 25% { --accent: #7fff00; } 50% { --accent: #00e5ff; } 75% { --accent: #6680ff; } }
+@keyframes accent-ember  { 0%, 100% { --accent: #ffa700; } 25% { --accent: #ff5a36; } 50% { --accent: #ff4f8b; } 75% { --accent: #ffcf40; } }
+@keyframes accent-nebula { 0%, 100% { --accent: #ff00f9; } 25% { --accent: #a07cff; } 50% { --accent: #6680ff; } 75% { --accent: #e86cfc; } }
+@keyframes accent-ring-spin { to { --accent-ring: 360deg; } }
+
+/* The spinning ring: the photo's border becomes a conic gradient of the accent's colours */
+:is(.accent-prism, .accent-aurora, .accent-ember, .accent-nebula) :is(.profile-photo, .team-photo, .st-pcard-photo, .author-avatar.has-accent) {
+  border-color: transparent;
+  background:
+    linear-gradient(#0b1430, #0b1430) padding-box,
+    conic-gradient(from var(--accent-ring), var(--a1), var(--a2), var(--a3), var(--a4), var(--a1)) border-box;
+  animation: accent-ring-spin 6s linear infinite;
+}
+.team-card:is(.accent-prism, .accent-aurora, .accent-ember, .accent-nebula) .team-photo { border-width: 2px; border-style: solid; }
+
+@media (prefers-reduced-motion: reduce) {
+  :is(.accent-prism, .accent-aurora, .accent-ember, .accent-nebula),
+  :is(.accent-prism, .accent-aurora, .accent-ember, .accent-nebula) :is(.profile-photo, .team-photo, .st-pcard-photo, .author-avatar.has-accent) { animation: none; }
+}
