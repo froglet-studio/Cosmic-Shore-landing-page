@@ -4,4 +4,4 @@ repo: froglet-studio/Cosmic-Shore-landing-page
 branch: main
 # The Cloudflare Worker that turns "Sign in with GitHub" into a token (tools/studio-auth/). Until it
 # is set, developers sign in by pasting a GitHub token instead.
-auth_url: ""
+auth_url: "https://froglet-studio-auth.bitter-dew-611f.workers.dev"
