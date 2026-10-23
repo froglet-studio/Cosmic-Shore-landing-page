@@ -2,7 +2,7 @@
 # Jake's profile at /team/jake/. Edit it in Froglet Studio (www.froglet.games/admin/), or here.
 # github is the account allowed to edit this page in the Studio; until it is set, nobody can.
 name: Jake
-github: ''
+github: jakebruin1
 order: 9
 title: ''
 bio: ''
