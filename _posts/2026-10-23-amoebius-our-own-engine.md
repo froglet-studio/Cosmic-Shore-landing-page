@@ -60,7 +60,7 @@ As of our last measurement in October:
 
 ## What it can't do yet
 
-Plenty. This is honest-work-in-progress, not a replacement:
+Plenty. Amoebius is a work in progress, not a replacement yet:
 
 - **Shaders.** 19 of the game's 81 shaders have a proper translation so far. The rest draw with a stand-in.
 - **Particles** are not drawn yet.
