@@ -7,7 +7,7 @@ title: Game Systems Engineer
 bio: Multiplayer parties, leaderboards, bug hunting, and the tools the team designs vessels with.
 location: Kolkata, India
 accent: silver
-photo: /assets/team/yash/photo-mvn2un0z.webp
+photo: /assets/team/yash/photo-mvn2vht3.webp
 banner: /assets/team/yash/banner-mvn2dtg0.webp
 favourite_vessel: Stoat
 links:
