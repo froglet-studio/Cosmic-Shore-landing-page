@@ -1,0 +1,14 @@
+# The Cosmic Shore screensaver (repo froglet-studio/cosmic-shore-screensaver), shown at /screensaver/.
+# The downloads are on that repo's GitHub Releases, never in this site.
+#
+# The page's download button links to windows_zip below, so it works with scripts off. When the page loads
+# it also asks GitHub for the newest release and, if that one is newer, points the button at its Windows zip,
+# so a new release reaches the page without editing this file. Update the version here when convenient.
+#
+# macos_zip stays empty until the macOS .saver ships; while it is empty the page shows "coming soon".
+
+repo: froglet-studio/cosmic-shore-screensaver
+version: "0.1.0"
+windows_zip: "https://github.com/froglet-studio/cosmic-shore-screensaver/releases/download/v0.1.0/CosmicShoreScreensaver-0.1.0-windows.zip"
+windows_size_mb: "1.3"
+macos_zip: ""
