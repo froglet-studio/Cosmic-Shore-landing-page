@@ -1,0 +1,154 @@
+---
+title: Screensaver — Cosmic Shore
+description: The Cosmic Shore Home screen as a free screensaver. Vessels chase the crystal through the Garland. Watch it live, then download it for Windows.
+image: /assets/screensaver/preview-poster.jpg
+permalink: /screensaver/
+---
+{%- assign ss = site.data.screensaver -%}
+{% include page-hero.html image=page.image label="Screensaver" title='The Home Screen, <span class="gradient-text">On Your Desktop</span>' lede="The Cosmic Shore Home screen as a free screensaver: vessels chasing the crystal through the Garland. It runs on its own, with no game, no account and no internet, and it sends nothing anywhere." %}
+
+<section class="page-section" id="preview">
+  <span class="section-label">Live Preview</span>
+  <h2>Watch It <span class="gradient-text">Right Here</span></h2>
+  <div class="play-stage ss-stage" id="ssStage">
+    <img src="/assets/screensaver/preview-poster.jpg" alt="Vessels and the Garland's plants inside the cell, from the screensaver" id="ssPoster">
+    <div class="stage-shade" id="ssShade"></div>
+    <div class="stage-layer" id="ssGate">
+      <div class="stage-panel">
+        <button class="launch-btn" id="ssLaunch" type="button" aria-label="Start the live preview">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg>
+        </button>
+        <small>Start the preview &middot; about 3&nbsp;MB &middot; silent</small>
+      </div>
+    </div>
+  </div>
+  <p class="ss-note">This is the same scene the screensaver runs, drawn live in your browser. Press <kbd>V</kbd> inside it to switch between the wide view and the close-up. Want it on a TV or a Linux PC? <a href="/screensaver/preview.html" target="_blank" rel="noopener">Open it full screen</a> in any browser.</p>
+</section>
+
+<section class="page-section" id="download">
+  <span class="section-label">Download</span>
+  <h2>Get the <span class="gradient-text">Screensaver</span></h2>
+  <div class="card-grid">
+    <article class="glass-card">
+      <h3>Windows</h3>
+      <p>For Windows 10 and 11 (64-bit). A <span id="ssWinSize">{{ ss.windows_size_mb }}</span>&nbsp;MB zip.</p>
+      <p class="ss-version">Version <span id="ssWinVersion">{{ ss.version }}</span> &middot; early build, not code-signed yet</p>
+      <div class="card-actions">
+        <div class="btn-glow-wrap"><a href="{{ ss.windows_zip }}" id="ssWinDownload" data-repo="{{ ss.repo }}" data-version="{{ ss.version }}">Download for Windows</a></div>
+        <a href="#install-windows">How to install &rarr;</a>
+      </div>
+    </article>
+    <article class="glass-card">
+      <h3>macOS</h3>
+      {%- if ss.macos_zip != "" %}
+      <p>For macOS. A zip with the <code>.saver</code> inside.</p>
+      <div class="card-actions">
+        <div class="btn-glow-wrap"><a href="{{ ss.macos_zip }}">Download for Mac</a></div>
+      </div>
+      {%- else %}
+      <p>The Mac screensaver is on its way. Until then, the <a href="/screensaver/preview.html" target="_blank" rel="noopener">full-screen preview</a> runs in Safari.</p>
+      <div class="card-actions"><span class="ss-soon">Coming soon</span></div>
+      {%- endif %}
+    </article>
+    <article class="glass-card">
+      <h3>Any Browser</h3>
+      <p>Linux, a Chromebook or a spare screen: open the preview full screen and leave it running.</p>
+      <div class="card-actions">
+        <a href="/screensaver/preview.html" target="_blank" rel="noopener">Open full screen &rarr;</a>
+      </div>
+    </article>
+  </div>
+  <p class="ss-note">Older versions and checksums are on the <a href="https://github.com/{{ ss.repo }}/releases" target="_blank" rel="noopener noreferrer">releases page</a>.</p>
+</section>
+
+<section class="page-section" id="install-windows">
+  <span class="section-label">Windows</span>
+  <h2>Install in <span class="gradient-text">Three Steps</span></h2>
+  <ol class="steps">
+    <li><div><strong>Extract the zip</strong>Right-click the downloaded zip and choose <strong class="inline">Extract All&hellip;</strong>, then open the folder it makes.</div></li>
+    <li><div><strong>Copy <code>CosmicShore.scr</code> into <code>C:\Windows\System32</code></strong>Windows asks for administrator permission: click <strong class="inline">Continue</strong>. Screen Saver Settings only lists screensavers kept in that folder. Right-click &rarr; <strong class="inline">Install</strong> from anywhere else picks it once, but it drops out of the list as soon as you choose another.</div></li>
+    <li><div><strong>Choose it in Screen Saver Settings</strong>Open Start, type <em>screen saver</em> and open <strong class="inline">Change screen saver</strong>. Pick <strong class="inline">Cosmic Shore</strong>, set the wait time and click <strong class="inline">OK</strong>.</div></li>
+  </ol>
+  <div class="glass-card ss-callout">
+    <h3>&ldquo;Windows protected your PC&rdquo;</h3>
+    <p>This early build is not code-signed yet, so Windows shows a blue warning the first time it runs. Click <strong>More info</strong>, then <strong>Run anyway</strong>. Some antivirus programs are wary of unsigned screensavers too. A signed build comes later, and the warning goes away with it.</p>
+  </div>
+</section>
+
+<section class="page-section">
+  <span class="section-label">Quick Answers</span>
+  <h2>Good to <span class="gradient-text">Know</span></h2>
+  <div class="faq">
+    <details>
+      <summary>Do I need the game installed?</summary>
+      <p>No. The screensaver is a separate download that runs on its own: no game, no account and no internet. It sends nothing anywhere.</p>
+    </details>
+    <details>
+      <summary>Can I try it without installing?</summary>
+      <p>Yes. In the extracted folder, right-click <code>CosmicShore.scr</code> and choose <strong>Test</strong>. Move the mouse or press any key to leave. Double-click it to open its settings.</p>
+    </details>
+    <details>
+      <summary>What can I change?</summary>
+      <p>In Screen Saver Settings, click <strong>Settings&hellip;</strong> to choose the frame rate, which screens it runs on, and the wide or close-up camera.</p>
+    </details>
+    <details>
+      <summary>Will it drain my battery or slow my PC?</summary>
+      <p>It is built to be light. It draws 30 frames a second by default, uses the power-saving graphics chip where there is one, and stops when you come back.</p>
+    </details>
+    <details>
+      <summary>It says WebView2 is missing.</summary>
+      <p>The screensaver draws with Microsoft Edge WebView2, which comes with Windows 11 and nearly every Windows 10 PC. If yours is missing it, the screensaver offers Microsoft&rsquo;s download page.</p>
+    </details>
+    <details>
+      <summary>How do I uninstall it?</summary>
+      <p>Pick another screensaver (or None) in Screen Saver Settings, then delete <code>C:\Windows\System32\CosmicShore.scr</code>. To remove its settings too, delete the <code>Froglet\CosmicShoreScreensaver</code> folders in <code>%APPDATA%</code> and <code>%LOCALAPPDATA%</code>.</p>
+    </details>
+    <details>
+      <summary>Something went wrong.</summary>
+      <p>Tell us on the <a href="/support#bug">Support</a> page or in the <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer">Discord</a>. Please include your Windows version and what you saw.</p>
+    </details>
+  </div>
+</section>
+
+<script>
+(() => {
+  // Live preview: nothing downloads until the visitor presses play.
+  const stage = document.getElementById('ssStage');
+  document.getElementById('ssLaunch').addEventListener('click', () => {
+    const f = document.createElement('iframe');
+    f.src = '/screensaver/preview.html';
+    f.title = 'Cosmic Shore screensaver, live preview';
+    f.allow = 'fullscreen';
+    f.allowFullscreen = true;
+    stage.appendChild(f);
+    ['ssGate', 'ssShade', 'ssPoster'].forEach((id) => document.getElementById(id).remove());
+    f.focus();
+  });
+
+  // Newest release: point the Windows button at the newest zip, so a release needs no site edit.
+  // The link in the page (from _data/screensaver.yml) stays if GitHub cannot be reached.
+  const btn = document.getElementById('ssWinDownload');
+  const newer = (a, b) => {
+    const pa = a.split('.').map(Number), pb = b.split('.').map(Number);
+    for (let i = 0; i < 3; i++) if ((pa[i] || 0) !== (pb[i] || 0)) return (pa[i] || 0) > (pb[i] || 0);
+    return false;
+  };
+  fetch('https://api.github.com/repos/' + btn.dataset.repo + '/releases?per_page=10', { headers: { Accept: 'application/vnd.github+json' } })
+    .then((r) => (r.ok ? r.json() : []))
+    .then((list) => {
+      for (const rel of list) {
+        if (rel.draft) continue;
+        const zip = (rel.assets || []).find((a) => /-windows\.zip$/i.test(a.name));
+        const v = String(rel.tag_name || '').replace(/^v/, '');
+        if (!zip || !/^\d+(\.\d+){0,2}$/.test(v)) continue;
+        if (newer(v, btn.dataset.version)) {
+          btn.href = zip.browser_download_url;
+          document.getElementById('ssWinVersion').textContent = v;
+          document.getElementById('ssWinSize').textContent = (zip.size / 1048576).toFixed(1);
+        }
+        return;
+      }
+    })
+    .catch(() => {});
+})();
+</script>
