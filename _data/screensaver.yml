@@ -8,7 +8,7 @@
 # macos_zip stays empty until the macOS .saver ships; while it is empty the page shows "coming soon".
 
 repo: froglet-studio/cosmic-shore-screensaver
-version: "0.1.0"
-windows_zip: "https://github.com/froglet-studio/cosmic-shore-screensaver/releases/download/v0.1.0/CosmicShoreScreensaver-0.1.0-windows.zip"
+version: "0.2.0"
+windows_zip: "https://github.com/froglet-studio/cosmic-shore-screensaver/releases/download/v0.2.0/CosmicShoreScreensaver-0.2.0-windows.zip"
 windows_size_mb: "1.3"
 macos_zip: ""
