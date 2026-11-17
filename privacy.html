@@ -63,7 +63,7 @@ image: /assets/images/Image%20Sequence_029_0001.jpg
             <tr><td>Friends and parties</td><td>Friends, friend requests and blocks; your online status (including which part of the game you&rsquo;re in and your vessel); party invites and party membership.</td><td><span class="chip chip-dim">While online</span></td></tr>
             <tr><td>Leaderboards</td><td>Your weekly-challenge completion time, shown with your display name and avatar to all players.</td><td><span class="chip chip-dim">When you finish a challenge</span></td></tr>
             <tr><td>Connection data</td><td>Your IP address, which Unity&rsquo;s servers see when they connect you to other players.</td><td><span class="chip chip-dim">While online</span></td></tr>
-            <tr><td>Gameplay analytics</td><td>Events such as sessions, modes played and results, menu use, settings changes, and social actions (for example, sending a friend request, including the other player&rsquo;s ID). Sent with your player ID, a random install ID, game version and platform. Your display name, avatar, crystal balance and progress totals are attached as profile details.</td><td><span class="chip chip-lime">Only with consent, 13+</span></td></tr>
+            <tr><td>Gameplay analytics</td><td>Events such as sessions, modes played and results, menu use, settings changes, and social actions (for example, sending a friend request, including the other player&rsquo;s ID). Sent with your player ID, a random install ID, game version and platform. Your display name, avatar, crystal balance and progress totals are attached as profile details. Our analytics server also notes the country you connect from (two letters, worked out from your IP address); it does not store the IP address itself.</td><td><span class="chip chip-lime">Only with consent, 13+</span></td></tr>
             <tr><td>Crash reports</td><td>Error details, the last few lines of the game log, and device details (graphics card, processor, memory, operating system, game version). No player ID.</td><td><span class="chip chip-lime">Only with consent, 13+</span></td></tr>
             <tr><td>Hardware statistics</td><td>The Unity engine reports basic hardware information (such as graphics card, operating system and memory) when the game starts.</td><td><span class="chip chip-dim">Always</span></td></tr>
             <tr><td>Support messages</td><td>Whatever you send us when you contact support, plus your email address.</td><td><span class="chip chip-dim">When you write to us</span></td></tr>
@@ -78,7 +78,8 @@ image: /assets/images/Image%20Sequence_029_0001.jpg
       <h2>Analytics and your consent</h2>
       <p>The first time you play, the game asks for your birth year. If you&rsquo;re 13 or older, it then asks whether you&rsquo;re happy to share gameplay analytics. We keep only your answers (13+ or not, yes or no), not your birth year.</p>
       <ul>
-        <li>If you agree, the game sends analytics to <strong>Unity Analytics</strong> and to <strong>PostHog</strong> (on PostHog&rsquo;s EU servers), and turns on <strong>crash reports</strong> through Unity Cloud Diagnostics.</li>
+        <li>If you agree, the game sends analytics to <strong>Unity Analytics</strong> and to <strong>Froglet&rsquo;s own analytics server</strong>, and turns on <strong>crash reports</strong> through Unity Cloud Diagnostics.</li>
+        <li>Versions of the game released before November 2026 sent analytics to <strong>PostHog</strong> (on PostHog&rsquo;s EU servers) instead of our own server. We copied that history to our server without IP addresses, and we close our PostHog account on 23 November 2026.</li>
         <li>If you say no, or you&rsquo;re under 13, none of this is sent. Nothing is saved up to send later.</li>
         <li>To change your mind, open <strong>Settings &rarr; General &rarr; Analytics</strong>. Turning it off stops collection straight away and throws away anything not yet sent.</li>
       </ul>
@@ -122,7 +123,8 @@ image: /assets/images/Image%20Sequence_029_0001.jpg
       <p>We don&rsquo;t sell your personal data. These companies process it for us, under their data processing terms:</p>
       <ul>
         <li><strong>Unity Technologies</strong>: accounts, player names, Cloud Save, Friends, multiplayer and Relay, Leaderboards, Analytics and Cloud Diagnostics.</li>
-        <li><strong>PostHog</strong>: gameplay analytics, stored on PostHog&rsquo;s EU cloud.</li>
+        <li><strong>Oracle</strong>: hosts Froglet&rsquo;s own analytics server, which stores gameplay analytics. Only Froglet runs it and can read it.</li>
+        <li><strong>PostHog</strong>: gameplay analytics from versions of the game released before November 2026, on PostHog&rsquo;s EU cloud, until we close the account on 23 November 2026.</li>
         <li>{% include ph.html value=legal.support_desk label="SUPPORT DESK PROVIDER" %}: support emails.</li>
         <li><strong>Google (Google Workspace)</strong>: test access requests and contact-form messages sent from this website (see <a href="#testers">Test access requests and messages</a>).</li>
         <li><strong>Google</strong>: analytics and ad measurement on this website only (see <a href="#website">This website</a>).</li>
@@ -160,7 +162,7 @@ image: /assets/images/Image%20Sequence_029_0001.jpg
 
     <section id="transfers">
       <h2>International transfers</h2>
-      <p>Unity processes data in the United States and other countries; PostHog stores our analytics in the EU. Where the law requires it, transfers are protected by safeguards such as the EU Standard Contractual Clauses. <span class="ph">COUNSEL TO CONFIRM</span></p>
+      <p>Unity processes data in the United States and other countries. Our own analytics server runs on Oracle Cloud in <span class="ph">ORACLE REGION, CONFIRM (THE VM'S BACKUPS USE US-ASHBURN-1)</span>. PostHog stored analytics from older versions of the game in the EU until 23 November 2026. Where the law requires it, transfers are protected by safeguards such as the EU Standard Contractual Clauses. <span class="ph">COUNSEL TO CONFIRM</span></p>
     </section>
 
     <section id="security">
