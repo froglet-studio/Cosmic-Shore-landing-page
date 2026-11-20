@@ -1,0 +1,171 @@
+---
+title: Tumult — a free tabletop RPG and board game in your browser
+description: Tumult is a free tabletop RPG and board game by Froglet Games. Draft two pilots and lead an expedition across a restless world, in any browser.
+image: /assets/tumult/share.jpg
+image_width: 1200
+image_height: 630
+image_alt: The Tumult title screen over a painting of an octopus-and-raven pilot on a shipwrecked shore
+og_site_name: Froglet Games
+head_include: tumult-schema.html
+permalink: /tumult/
+---
+{%- assign tm = site.data.tumult -%}
+{% include page-hero.html image="/assets/tumult/hero.webp" label="Free browser game &middot; by Froglet Games" title='Tumult: <span class="gradient-text">an Expedition</span> Across a Restless World' lede="A tabletop RPG crossed with a board game. Draft two pilots, plan every turn against enemies that show you their next move, and lead your squad down from the Ark to the Heart at the end of the route." %}
+
+<section class="page-section tm-first" id="play">
+  {% include tumult-play.html content="tumult_page_hero" note="Free &middot; no download &middot; no account needed to play solo &middot; phone, tablet or PC" %}
+</section>
+
+<section class="page-section" id="watch">
+  <span class="section-label">Gameplay</span>
+  <h2>Every Turn Is a <span class="gradient-text">Small Puzzle</span></h2>
+  <figure class="tm-clip">
+    <video id="tmClip" muted loop playsinline preload="none" poster="/assets/tumult/clip-poster.webp" width="1280" height="800" aria-describedby="tmClipCap">
+      <source src="/assets/tumult/tumult-clip.webm" type="video/webm">
+      <source src="/assets/tumult/tumult-clip.mp4" type="video/mp4">
+    </video>
+    <button class="tm-clip-toggle" id="tmClipToggle" type="button" aria-controls="tmClip" hidden>Pause</button>
+    <figcaption id="tmClipCap">Three rounds of an early mission, recorded in the game ({{ tm.clip_seconds }}&nbsp;seconds, no sound). The red arrows are what each enemy will do when the round ends; the pilots answer with their cards and dice first.</figcaption>
+  </figure>
+</section>
+
+<section class="page-section" id="how-it-plays">
+  <span class="section-label">How It Plays</span>
+  <h2>Cards, Dice and a <span class="gradient-text">Map That Fights Back</span></h2>
+  <div class="card-grid">
+    <article class="glass-card">
+      <h3>Draft Your Squad</h3>
+      <p>Every pilot is human plus two animal bloodlines. Pick two from eleven bloodlines and 99 trait cards, or start with a ready-made hero, and grow each kit from six cards to nine as the expedition goes on.</p>
+    </article>
+    <article class="glass-card">
+      <h3>Two Faces on Every Card</h3>
+      <p>A card&rsquo;s <strong>Physical</strong> face is cheap and hits harder as you train it. Its <strong>Ethereal</strong> face spends an etherion of Mass, Charge, Space or Time to do what a body can&rsquo;t. Either way, the card cools down on a six-column track before you can play it again.</p>
+    </article>
+    <article class="glass-card">
+      <h3>The Enemy Shows Its Hand</h3>
+      <p>Before you act, every enemy declares what it is about to do. You roll four dice from a pool of fifteen, and you choose who to shield, who to strike and where to stand. Nothing interrupts your plan, and attacks never roll to hit.</p>
+    </article>
+    <article class="glass-card">
+      <h3>Not Every Problem Is a Fight</h3>
+      <p>Channel a valve before the flood, break the seals on a ledge, hold a beacon through the night. Every board is generated fresh, with its own gravity, wind, fog and time of day.</p>
+    </article>
+    <article class="glass-card">
+      <h3>A Route Across Tumult</h3>
+      <p>Cross a branching map of missions, havens and events by land, sea and air. Train between stops, pick up gear and boons, and pick your difficulty: Steady wind, or Gale when you want it harder.</p>
+    </article>
+    <article class="glass-card">
+      <h3>Solo or Pass the Screen</h3>
+      <p>Fly both pilots yourself, or play with a friend on one device: each of you drafts and flies one pilot. Your expedition saves in your browser, so you can stop and pick it up later.</p>
+    </article>
+  </div>
+</section>
+
+<section class="page-section" id="screenshots">
+  <span class="section-label">Screenshots</span>
+  <h2>A Look <span class="gradient-text">Inside</span></h2>
+  <div class="tm-shots">
+    <figure class="tm-shot tm-wide">
+      <a href="/assets/tumult/mission.webp" target="_blank" rel="noopener"><img src="/assets/tumult/mission.webp" alt="A Tumult mission: a board of linked nodes with two pilots and three enemies, the enemies' intents listed on the right and the active pilot's trait cards along the bottom" width="1440" height="900" loading="lazy" decoding="async"></a>
+      <figcaption>A mission. The objective is at the top, the enemies&rsquo; intents on the right, and your pilot&rsquo;s cards, dice and actions along the bottom.</figcaption>
+    </figure>
+    <figure class="tm-shot">
+      <a href="/assets/tumult/draft.webp" target="_blank" rel="noopener"><img src="/assets/tumult/draft.webp" alt="The draft screen: six ready-made pilots, each with a painted portrait and their two animal bloodlines" width="1440" height="900" loading="lazy" decoding="async"></a>
+      <figcaption>The draft. Six ready-made pilots, or draft your own from packs.</figcaption>
+    </figure>
+    <figure class="tm-shot">
+      <a href="/assets/tumult/route.webp" target="_blank" rel="noopener"><img src="/assets/tumult/route.webp" alt="The route screen: a log entry with a painted scene, the two pilots' health, and three missions to choose from" width="1440" height="900" loading="lazy" decoding="async"></a>
+      <figcaption>The route. Each stop tells you its objective, its enemies and its bonus goals before you set out.</figcaption>
+    </figure>
+    <figure class="tm-shot tm-phone">
+      <a href="/assets/tumult/phone-title.webp" target="_blank" rel="noopener"><img src="/assets/tumult/phone-title.webp" alt="The Tumult title screen on a phone" width="780" height="1688" loading="lazy" decoding="async"></a>
+      <figcaption>On a phone</figcaption>
+    </figure>
+    <figure class="tm-shot tm-phone">
+      <a href="/assets/tumult/phone-mission.webp" target="_blank" rel="noopener"><img src="/assets/tumult/phone-mission.webp" alt="A Tumult mission on a phone, with the board above the active pilot's cards" width="780" height="1688" loading="lazy" decoding="async"></a>
+      <figcaption>A mission on a phone</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="page-section" id="world">
+  <span class="section-label">The World</span>
+  <h2>Gravity Is a <span class="gradient-text">Geography</span></h2>
+  <div class="tm-world">
+    <div class="tm-world-text">
+      <p>Tumult is a built world about ten times the surface of Earth. Near its poles gravity is crushing; near the equator it is a tenth of Earth&rsquo;s. People say <em>uphill</em> for toward the heavy poles and <em>downhill</em> for toward the light equator, whatever the ground is doing.</p>
+      <p>A day lasts about an hour. The wind never stops, so windbreaks are infrastructure, and the ground itself collapses and is rebuilt. Every person is human plus two animal clades, and they get things done three ways: what their bodies can do, the etherions that power magic, and gear that runs on omnicrystals.</p>
+      <p>Tumult shares its pilots and its four elements with <a href="/">Cosmic Shore</a>, Froglet&rsquo;s party game for pilots.</p>
+    </div>
+    <ul class="tm-elements" aria-label="The four etherions">
+      <li><b>Mass</b><span>bodies and force: push, pull, weight, anchoring</span></li>
+      <li><b>Charge</b><span>energy and links: shock, fields, chains, sensing</span></li>
+      <li><b>Space</b><span>position and shape: reach, area, swapping, height</span></li>
+      <li><b>Time</b><span>tempo: haste, delay, stasis, foresight, recovery</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="page-section" id="faq">
+  <span class="section-label">Quick Answers</span>
+  <h2>Good to <span class="gradient-text">Know</span></h2>
+  <div class="faq">
+    <details>
+      <summary>Is Tumult free?</summary>
+      <p>Yes. The whole game is free to play, with no purchases inside it.</p>
+    </details>
+    <details>
+      <summary>Do I need to download or install anything?</summary>
+      <p>No. Tumult plays in your web browser on a phone, tablet or computer. After your first visit it keeps its files, so it starts quickly next time.</p>
+    </details>
+    <details>
+      <summary>Do I need an account?</summary>
+      <p>Not to play. Anyone can play solo, or pass one screen between two players, without signing in. Online play with friends on their own devices is on its way, and it will need a sign-in or an invite link.</p>
+    </details>
+    <details>
+      <summary>Where is my progress saved?</summary>
+      <p>In your browser, on your device. Clearing your browser&rsquo;s site data for Tumult also clears your expedition.</p>
+    </details>
+    <details>
+      <summary>How long is a game?</summary>
+      <p>A mission lasts up to about ten rounds. A full expedition, from the draft to the end of the route, is a longer session that you can stop and resume at any point.</p>
+    </details>
+    <details>
+      <summary>Who makes it?</summary>
+      <p>Froglet Games, the studio behind <a href="/">Cosmic Shore</a>. Tumult is open source: its code is on <a href="https://github.com/froglet-studio/TumultTTG" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+    </details>
+    <details>
+      <summary>Something went wrong.</summary>
+      <p>Tell us on the <a href="/support#bug">Support</a> page or in the <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer">Discord</a>. Please include your browser and what you saw.</p>
+    </details>
+  </div>
+</section>
+
+<section class="page-section tm-last">
+  <h2>Ready to <span class="gradient-text">Set Out?</span></h2>
+  {% include tumult-play.html content="tumult_page_footer" note="Free in your browser &middot; no download" %}
+</section>
+
+<script>
+(() => {
+  // The clip loads only when it scrolls into view, and stays still for anyone who asks for reduced motion.
+  const v = document.getElementById('tmClip');
+  const btn = document.getElementById('tmClipToggle');
+  if (!v) return;
+  const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  v.controls = still;
+  if (still || !('IntersectionObserver' in window)) { v.controls = true; return; }
+  let paused = false;
+  btn.hidden = false;
+  btn.addEventListener('click', () => {
+    paused = !paused;
+    if (paused) v.pause(); else v.play().catch(() => {});
+    btn.textContent = paused ? 'Play' : 'Pause';
+  });
+  new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (e.isIntersecting && !paused) v.play().catch(() => { v.controls = true; btn.hidden = true; });
+      else v.pause();
+    }
+  }, { threshold: 0.35 }).observe(v);
+})();
+</script>

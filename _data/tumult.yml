@@ -1,0 +1,15 @@
+# Tumult, Froglet's tabletop expedition game for the browser (game repo froglet-studio/TumultTTG), shown at /tumult/.
+# The game itself is hosted at play_url (its own GitHub Pages site), not in this repo.
+#
+# While live is false, every Play button on /tumult/ says "Coming soon" and links nowhere, and the
+# structured data leaves out the play link. The page itself is still published and indexed, so it can
+# start ranking before launch. Set live: true the day tumult.froglet.games serves the game.
+#
+# The Play links carry utm_source=website, utm_medium=banner, utm_campaign=<campaign> and a utm_content
+# naming the button, the same vocabulary as the Cosmic Shore store links (_includes/store-urls.html).
+
+play_url: "https://tumult.froglet.games/"   # with the trailing slash
+live: false
+campaign: evergreen                          # a launch push uses e.g. 2026_12_tumult_launch
+clip_date: "2026-11-20"                      # when assets/tumult/tumult-clip.* was recorded (VideoObject uploadDate)
+clip_seconds: 28

@@ -1,0 +1,21 @@
+{%- comment -%}
+  The big Tumult Play button (/tumult/). Params: content (utm_content, names the placement), note (small line under it).
+  While _data/tumult.yml has live: false it is a "Coming soon" chip instead of a link.
+{%- endcomment -%}
+{%- assign tm = site.data.tumult -%}
+<div class="tm-play">
+  {%- if tm.live %}
+  <a class="tm-play-btn" href="{{ tm.play_url }}?utm_source=website&amp;utm_medium=banner&amp;utm_campaign={{ tm.campaign }}&amp;utm_content={{ include.content }}" data-play="{{ include.content }}">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg>
+    <span>Play Tumult free</span>
+  </a>
+  {%- else %}
+  <span class="tm-play-btn is-soon" aria-disabled="true">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg>
+    <span>Playable soon</span>
+  </span>
+  {%- endif %}
+  {%- if include.note %}
+  <small>{{ include.note }}</small>
+  {%- endif %}
+</div>
