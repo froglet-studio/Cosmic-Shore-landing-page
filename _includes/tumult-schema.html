@@ -20,8 +20,8 @@
       "inLanguage": "en",
       "isAccessibleForFree": true,
       {%- if tm.live %}
-      "sameAs": "{{ tm.play_url }}",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "{{ tm.play_url }}" },
+      "sameAs": "{{ tm.play_url | absolute_url }}",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "{{ tm.play_url | absolute_url }}" },
       {%- endif %}
       "author": { "@id": "{{ '/' | absolute_url }}#froglet" },
       "publisher": { "@id": "{{ '/' | absolute_url }}#froglet" },
