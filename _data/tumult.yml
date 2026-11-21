@@ -10,6 +10,6 @@
 # Each button has data-play naming its placement, for counting clicks.
 
 play_url: "/tumult/play/"                  # a path on this site, with the trailing slash
-live: false
-clip_date: "2026-11-20"                      # when assets/tumult/tumult-clip.* was recorded (VideoObject uploadDate)
-clip_seconds: 28
+live: true
+clip_date: "2026-11-21"                      # when assets/tumult/tumult-clip.* was recorded (VideoObject uploadDate)
+clip_seconds: 30
