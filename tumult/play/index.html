@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="tumult-ttg 2.100.0" />
+    <meta name="description" content="Tumult: a character-driven tabletop game about completing missions on Tumult." />
+    <meta name="theme-color" content="#04070f" />
+    <title>Tumult</title>
+    <!-- The page's own colours, so the first paint is the game's night sky and not a white flash -->
+    <style>
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+        background: #04070f;
+        color: #cfe3f0;
+      }
+      /* the first paint is the loading screen's own ring (src/ui/shell.css), until the game's script draws */
+      .boot {
+        font:
+          600 14px/1.4 system-ui,
+          sans-serif;
+        letter-spacing: 0.3em;
+        text-align: center;
+        padding-top: 34vh;
+        color: #bff4fb;
+      }
+      .boot i {
+        display: block;
+        width: 96px;
+        height: 96px;
+        margin: 0 auto 32px;
+        border-radius: 50%;
+        border: 3px solid rgba(127, 227, 240, 0.15);
+        border-right-color: #7fe3f0;
+        animation: boot-spin 1.4s linear infinite;
+      }
+      .boot small {
+        display: block;
+        margin-top: 10px;
+        letter-spacing: 0.08em;
+        font-weight: 400;
+        opacity: 0.6;
+      }
+      @keyframes boot-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .boot i {
+          animation: none;
+        }
+      }
+    </style>
+    <link rel="preload" href="assets/ChakraPetch-SemiBold.49fbe9af20.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="assets/tumult.1967d28261.css" />
+    <script defer src="assets/tumult.0e547af1fe.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot" role="status"><i aria-hidden="true"></i>TUMULT<small>The tide is turning…</small></div>
+    </div>
+    <noscript><p class="boot">Tumult needs JavaScript to play.</p></noscript>
+    <script>
+      // Keep the game's files for offline play and faster return visits (sw.js). Only on https or
+      // localhost, where browsers allow a service worker; a page opened from disk simply skips it.
+      if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost'))
+        addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+    </script>
+  </body>
+</html>
