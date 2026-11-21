@@ -1,0 +1,15 @@
+# Tumult, Froglet's tabletop expedition game for the browser (game repo froglet-studio/TumultTTG), shown at /tumult/.
+# The game itself is served from play_url, a folder of this site: a TumultTTG workflow pushes the game's web
+# build (npm run build:web) into tumult/play/ here. Those files have no front matter, so Jekyll copies them as they are.
+#
+# While live is false, every Play button on /tumult/ says "Coming soon" and links nowhere, and the
+# structured data leaves out the play link. The page itself is still published and indexed, so it can
+# start ranking before launch. Set live: true once /tumult/play/ serves the game.
+#
+# The game is on this site, so the Play links carry no UTM tags (they would start a new analytics session).
+# Each button has data-play naming its placement, for counting clicks.
+
+play_url: "/tumult/play/"                  # a path on this site, with the trailing slash
+live: false
+clip_date: "2026-11-20"                      # when assets/tumult/tumult-clip.* was recorded (VideoObject uploadDate)
+clip_seconds: 28
