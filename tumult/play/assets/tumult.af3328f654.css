@@ -14282,6 +14282,464 @@ button.linkish {
 }
 
 
+/* ───── ui/audio.css ───── */
+/* ============================================================================
+   TUMULT — the Audio studio (Settings ▸ Audio studio) and the quick panel's
+   sound block (src/ui/audio.js). HyperSea: cyan for what you choose, lime for
+   what plays, cut corners and a soft glow.
+   ========================================================================== */
+.au-studio {
+  --au-cy: #00d4ff;
+  --au-lime: #99ff80;
+  --au-cut: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+  --au-cut-s: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px);
+  display: grid;
+  grid-template-columns: minmax(0, 420px) minmax(0, 1fr);
+  grid-template-areas: 'side sound' 'fx fx';
+  gap: 0 24px;
+  align-items: start;
+}
+.au-side {
+  grid-area: side;
+}
+.au-sound {
+  grid-area: sound;
+}
+.au-fx {
+  grid-area: fx;
+}
+.au-studio .au-card,
+.quick .au-now {
+  border-radius: 0;
+  clip-path: var(--au-cut);
+  background: linear-gradient(160deg, rgba(0, 212, 255, 0.07), rgba(8, 16, 30, 0.7) 40%);
+}
+@media (max-width: 900px) {
+  .au-studio {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: 'side' 'sound' 'fx';
+  }
+}
+
+/* ---------- levels ---------- */
+.au-levels {
+  display: flex;
+  flex-direction: column;
+}
+.au-lvl {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(127, 227, 240, 0.1);
+}
+.au-lvl:first-child {
+  border-top: 0;
+}
+.au-ln {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.au-ln b {
+  font-weight: 500;
+  font-size: 15px;
+}
+.au-ln small {
+  color: var(--ink-d);
+  font-size: 12px;
+}
+.au-lvl input[type='range'] {
+  flex: 1;
+  min-width: 0;
+  accent-color: var(--au-cy, #00d4ff);
+}
+.au-num {
+  width: 32px;
+  text-align: right;
+  font-family: var(--hd);
+  color: var(--ink-d);
+}
+.au-mute {
+  width: 38px;
+  height: 38px;
+  min-height: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(0, 212, 255, 0.45);
+  border-radius: 0;
+  clip-path: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px);
+  background: rgba(0, 212, 255, 0.08);
+  color: #00d4ff;
+  transition:
+    background 0.15s,
+    color 0.15s,
+    box-shadow 0.15s,
+    transform 0.15s;
+}
+.au-mute:hover {
+  background: rgba(0, 212, 255, 0.2);
+  box-shadow: 0 0 14px rgba(0, 212, 255, 0.45);
+  transform: translateY(-1px);
+}
+.au-lvl.off .au-mute {
+  color: #ff6b6b;
+  border-color: rgba(255, 107, 107, 0.5);
+  background: rgba(255, 107, 107, 0.08);
+}
+.au-lvl.off input[type='range'],
+.au-lvl.off .au-num {
+  opacity: 0.4;
+}
+.au-levels.compact .au-ln {
+  width: 70px;
+}
+.au-levels.compact .au-lvl {
+  padding: 6px 0;
+}
+.au-levels.compact .au-mute {
+  width: 32px;
+  height: 32px;
+}
+
+/* ---------- the player ---------- */
+.au-now {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 4px 0;
+}
+.quick .au-now {
+  padding: 12px;
+  margin: 6px 0 4px;
+  border: 0;
+}
+.au-np {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.au-kick {
+  font-family: var(--hd);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #99ff80;
+}
+.au-title {
+  font-family: var(--hd);
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.au-now.compact .au-title {
+  font-size: 15px;
+}
+.au-sub {
+  color: var(--ink-d);
+  font-size: 12px;
+}
+.au-bar {
+  height: 4px;
+  margin-top: 6px;
+  background: rgba(127, 227, 240, 0.14);
+  overflow: hidden;
+}
+.au-fill {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #00d4ff, #99ff80);
+  box-shadow: 0 0 10px rgba(153, 255, 128, 0.6);
+  transition: width 0.5s linear;
+}
+.au-time {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--hd);
+  font-size: 11px;
+  color: var(--ink-d);
+}
+.au-now.compact .au-time {
+  display: none;
+}
+.au-tps {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.au-tp {
+  width: 38px;
+  height: 38px;
+  min-height: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  border: 1px solid rgba(0, 212, 255, 0.4);
+  border-radius: 0;
+  clip-path: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px);
+  background: rgba(0, 212, 255, 0.06);
+  color: #dff8ff;
+  transition:
+    background 0.15s,
+    box-shadow 0.15s,
+    transform 0.15s;
+}
+.au-tp:hover {
+  background: rgba(0, 212, 255, 0.22);
+  box-shadow: 0 0 16px rgba(0, 212, 255, 0.5);
+  transform: translateY(-1px);
+}
+.au-tp.main {
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  color: #03150a;
+  border-color: #99ff80;
+  background: #99ff80;
+  box-shadow: 0 0 18px rgba(153, 255, 128, 0.45);
+}
+.au-tp.main:hover {
+  background: #b8ffa6;
+  box-shadow: 0 0 26px rgba(153, 255, 128, 0.75);
+}
+.au-now.compact .au-tp {
+  width: 32px;
+  height: 32px;
+}
+.au-now.compact .au-tp.main {
+  width: 38px;
+  height: 38px;
+}
+/* the little equaliser: still when paused, dancing when playing */
+.au-eq {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  width: 26px;
+  height: 26px;
+}
+.au-eq i {
+  flex: 1;
+  height: 30%;
+  background: #99ff80;
+  box-shadow: 0 0 6px rgba(153, 255, 128, 0.6);
+}
+.au-eq.sm {
+  width: 16px;
+  height: 14px;
+  gap: 2px;
+}
+.au-now.playing .au-eq i,
+.au-eq.sm i {
+  animation: au-eq 0.9s ease-in-out infinite alternate;
+}
+.au-eq i:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.au-eq i:nth-child(3) {
+  animation-delay: -0.6s;
+}
+.au-eq i:nth-child(4) {
+  animation-delay: -0.15s;
+}
+@keyframes au-eq {
+  from {
+    height: 20%;
+  }
+  to {
+    height: 100%;
+  }
+}
+.au-now.compact .au-eq {
+  display: none;
+}
+
+/* ---------- tracks ---------- */
+.au-tracks-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.au-count {
+  font-family: var(--hd);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--ink-d);
+}
+.au-tracks {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.au-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 8px;
+  clip-path: var(--au-cut-s);
+  transition: background 0.15s;
+}
+.au-row:hover {
+  background: rgba(0, 212, 255, 0.08);
+}
+.au-row.here {
+  background: linear-gradient(90deg, rgba(153, 255, 128, 0.16), rgba(153, 255, 128, 0.02));
+  box-shadow: inset 3px 0 0 #99ff80;
+}
+.au-i {
+  width: 22px;
+  font-family: var(--hd);
+  font-size: 12px;
+  color: var(--ink-d);
+  display: flex;
+  justify-content: center;
+}
+.au-play {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  padding: 6px 0;
+  min-height: 0;
+  background: none;
+  border: 0;
+  text-align: left;
+  color: inherit;
+}
+.au-play b {
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.15s;
+}
+.au-play:hover b {
+  color: #00d4ff;
+  text-shadow: 0 0 12px rgba(0, 212, 255, 0.6);
+}
+.au-row.here .au-play b {
+  color: #99ff80;
+}
+.au-play small {
+  color: var(--ink-d);
+  font-size: 12px;
+}
+.au-tick {
+  width: 28px;
+  height: 28px;
+  min-height: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid rgba(0, 212, 255, 0.45);
+  border-radius: 0;
+  clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+  background: none;
+  color: #00141a;
+  transition:
+    background 0.15s,
+    box-shadow 0.15s;
+}
+.au-tick.on {
+  background: #00d4ff;
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.5);
+}
+.au-tick:hover {
+  box-shadow: 0 0 14px rgba(0, 212, 255, 0.7);
+}
+.au-row.gone {
+  opacity: 0.45;
+}
+.au-row.gone .au-play,
+.au-row.gone .au-tick {
+  cursor: default;
+}
+
+/* ---------- effects ---------- */
+.au-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 6px;
+}
+.au-gl {
+  font-family: var(--hd);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #00d4ff;
+}
+.au-pads {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 8px;
+}
+.au-pad {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  min-height: 0;
+  padding: 10px 12px 10px 36px;
+  text-align: left;
+  border: 1px solid rgba(0, 212, 255, 0.22);
+  border-radius: 0;
+  clip-path: var(--au-cut-s);
+  background: rgba(0, 212, 255, 0.04);
+  color: inherit;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    box-shadow 0.15s,
+    transform 0.15s;
+}
+.au-pad:hover {
+  background: rgba(0, 212, 255, 0.14);
+  border-color: rgba(0, 212, 255, 0.7);
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.3);
+  transform: translateY(-2px);
+}
+.au-pad:active {
+  background: rgba(153, 255, 128, 0.2);
+  border-color: #99ff80;
+  transform: translateY(0);
+}
+.au-pi {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  font-size: 11px;
+  color: #99ff80;
+}
+.au-pad b {
+  font-weight: 500;
+  font-size: 14px;
+}
+.au-pad small {
+  color: var(--ink-d);
+  font-size: 11px;
+  line-height: 1.3;
+}
+.au-pad.gone {
+  opacity: 0.4;
+}
+@media (prefers-reduced-motion: reduce) {
+  .au-eq i {
+    animation: none !important;
+  }
+}
+
+
 /* ───── ui/net.css ───── */
 /* Play online (src/ui/net.js; playtest build only) */
 .title .net-pick {

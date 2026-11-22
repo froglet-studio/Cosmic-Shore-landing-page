@@ -1,6 +1,7 @@
 window.T = window.T || {};
-window.T.BUILD = {"version":"2.129.1","playtest":false};
+window.T.BUILD = {"version":"2.130.0","playtest":false};
 window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"assets/pilots/ALOIX.43e4999b34.jpg","pilot/ANOTH":"assets/pilots/ANOTH.8c8ba3872e.jpg","pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVIL":"assets/pilots/ANVIL.d03812188c.jpg","pilot/ARARA":"assets/pilots/ARARA.a9a5f5e370.jpg","pilot/ARILIA":"assets/pilots/ARILIA.811131207d.jpg","pilot/ASTROFOIL":"assets/pilots/ASTROFOIL.5c9fa6f14d.jpg","pilot/ATHARA":"assets/pilots/ATHARA.566837ceea.jpg","pilot/BANDIT":"assets/pilots/BANDIT.09391a446f.jpg","pilot/BELBERIN":"assets/pilots/BELBERIN.fe552f843d.jpg","pilot/BELDIRI":"assets/pilots/BELDIRI.bb899d0989.jpg","pilot/BELKO":"assets/pilots/BELKO.bf1893ac6e.jpg","pilot/BELMIDEK":"assets/pilots/BELMIDEK.9f9b46dd53.jpg","pilot/BELRENRO":"assets/pilots/BELRENRO.a8d1afd2ec.jpg","pilot/BELSIAR":"assets/pilots/BELSIAR.3421845c80.jpg","pilot/BELSOTH":"assets/pilots/BELSOTH.ddc38ecbd4.jpg","pilot/BELTHALY":"assets/pilots/BELTHALY.9ca6a590b5.jpg","pilot/BELWEN":"assets/pilots/BELWEN.bdae9555bc.jpg","pilot/BRILOLIA":"assets/pilots/BRILOLIA.8c33011094.jpg","pilot/BRIOLA":"assets/pilots/BRIOLA.d016ba9df1.jpg","pilot/BRIRAIX":"assets/pilots/BRIRAIX.ad5523ef69.jpg","pilot/BRISH":"assets/pilots/BRISH.7ffedf9d77.jpg","pilot/BRISILIA":"assets/pilots/BRISILIA.55b830452a.jpg","pilot/BUSHY":"assets/pilots/BUSHY.22cbdd91fa.jpg","pilot/CABEANE":"assets/pilots/CABEANE.a3f9f37902.jpg","pilot/CAKOOLA":"assets/pilots/CAKOOLA.410a91f525.jpg","pilot/CALADEK":"assets/pilots/CALADEK.4b0d375c6b.jpg","pilot/CALAOLA":"assets/pilots/CALAOLA.7d0d031d3c.jpg","pilot/CALOSH":"assets/pilots/CALOSH.a4d55479d5.jpg","pilot/CANUAR":"assets/pilots/CANUAR.224b61c8a2.jpg","pilot/CARIEL":"assets/pilots/CARIEL.5798c71984.jpg","pilot/CARIO":"assets/pilots/CARIO.fcc67b00ee.jpg","pilot/CITADEL":"assets/pilots/CITADEL.ee7edc065c.jpg","pilot/COMET":"assets/pilots/COMET.0af72b6f6d.jpg","pilot/CORANE":"assets/pilots/CORANE.c7026949b3.jpg","pilot/CORBEEK":"assets/pilots/CORBEEK.78e1c6ddb3.jpg","pilot/CORBEMO":"assets/pilots/CORBEMO.46051982a0.jpg","pilot/CORLILIA":"assets/pilots/CORLILIA.658f4b32f5.jpg","pilot/CORN":"assets/pilots/CORN.65f73d8382.jpg","pilot/CORNDO":"assets/pilots/CORNDO.c16588c87e.jpg","pilot/CORRARIN":"assets/pilots/CORRARIN.879c9ccf14.jpg","pilot/DAMSEL":"assets/pilots/DAMSEL.adb17d42d3.jpg","pilot/DAREK":"assets/pilots/DAREK.1dfdf1341f.jpg","pilot/DARSOANE":"assets/pilots/DARSOANE.3f55e457c7.jpg","pilot/DARX":"assets/pilots/DARX.4434a58e68.jpg","pilot/DELKO":"assets/pilots/DELKO.5d1e306ef5.jpg","pilot/DELLALIA":"assets/pilots/DELLALIA.1672cffe6e.jpg","pilot/DELLIAR":"assets/pilots/DELLIAR.e5a0375180.jpg","pilot/DELLOANE":"assets/pilots/DELLOANE.73d7910dea.jpg","pilot/DELLORIN":"assets/pilots/DELLORIN.408027cb25.jpg","pilot/DELMADEK":"assets/pilots/DELMADEK.3a826e35b1.jpg","pilot/DELNURI":"assets/pilots/DELNURI.3db0ec910b.jpg","pilot/DELSOKO":"assets/pilots/DELSOKO.e4c15c3589.jpg","pilot/DOE":"assets/pilots/DOE.f54ac28b36.jpg","pilot/DOZER":"assets/pilots/DOZER.0c2e273a78.jpg","pilot/ECHO":"assets/pilots/ECHO.09a66c8cd4.jpg","pilot/EMAO":"assets/pilots/EMAO.d8fb6d5e8b.jpg","pilot/ENSIGN":"assets/pilots/ENSIGN.dc51eec735.jpg","pilot/FENKORA":"assets/pilots/FENKORA.725f42bbe3.jpg","pilot/FENLALIA":"assets/pilots/FENLALIA.c2507593a2.jpg","pilot/FENRA":"assets/pilots/FENRA.11faa43159.jpg","pilot/FENX":"assets/pilots/FENX.7305adac5b.jpg","pilot/FIEST":"assets/pilots/FIEST.ca4f6072bf.jpg","pilot/FLUME":"assets/pilots/FLUME.99e34640fa.jpg","pilot/FLUX":"assets/pilots/FLUX.53b20c2d11.jpg","pilot/GALBEMO":"assets/pilots/GALBEMO.f3284426f7.jpg","pilot/GALLEON":"assets/pilots/GALLEON.4007ec2ba5.jpg","pilot/GALLITH":"assets/pilots/GALLITH.5231762b0e.jpg","pilot/GALMAO":"assets/pilots/GALMAO.52299a1823.jpg","pilot/GALSOLY":"assets/pilots/GALSOLY.fa08182309.jpg","pilot/GALSOOLA":"assets/pilots/GALSOOLA.4c636b23c0.jpg","pilot/HABEAR":"assets/pilots/HABEAR.c1432e4446.jpg","pilot/HAN":"assets/pilots/HAN.1836d0f7c3.jpg","pilot/HORNET":"assets/pilots/HORNET.c42014a776.jpg","pilot/IDIO":"assets/pilots/IDIO.cdde754cbb.jpg","pilot/ILORIN":"assets/pilots/ILORIN.b99e2531b1.jpg","pilot/IRI":"assets/pilots/IRI.37eadaad4b.jpg","pilot/ISOLO":"assets/pilots/ISOLO.2fb9735223.jpg","pilot/ITHAX":"assets/pilots/ITHAX.0ead69e72c.jpg","pilot/IVY":"assets/pilots/IVY.473c6f1896.jpg","pilot/JODIOLA":"assets/pilots/JODIOLA.1f05357781.jpg","pilot/JORIRO":"assets/pilots/JORIRO.58e95a465f.jpg","pilot/JORO":"assets/pilots/JORO.c85885531a.jpg","pilot/JOSORA":"assets/pilots/JOSORA.1cebcfd064.jpg","pilot/JOTHAAR":"assets/pilots/JOTHAAR.b0ce1e8cfd.jpg","pilot/JOUS":"assets/pilots/JOUS.1441533e13.jpg","pilot/JUGGER":"assets/pilots/JUGGER.586ce53079.jpg","pilot/KABEN":"assets/pilots/KABEN.11aeb58071.jpg","pilot/KADIWEN":"assets/pilots/KADIWEN.b7c104428c.jpg","pilot/KALARA":"assets/pilots/KALARA.dcf1fb3cb3.jpg","pilot/KAMASH":"assets/pilots/KAMASH.3f121ebad5.jpg","pilot/KARIIX":"assets/pilots/KARIIX.26a2fc2eb5.jpg","pilot/KASH":"assets/pilots/KASH.e0ac12c2b3.jpg","pilot/KRUSH":"assets/pilots/KRUSH.334b99716e.jpg","pilot/LONGSHIFT":"assets/pilots/LONGSHIFT.ddbb54691b.jpg","pilot/LUDIRA":"assets/pilots/LUDIRA.650f72fc2c.jpg","pilot/LULAANE":"assets/pilots/LULAANE.b4607cb3ba.jpg","pilot/LULIIA":"assets/pilots/LULIIA.faec6f17f0.jpg","pilot/LUNULO":"assets/pilots/LUNULO.c34b9c91ea.jpg","pilot/MAESTRO":"assets/pilots/MAESTRO.a123e74967.jpg","pilot/MAIX":"assets/pilots/MAIX.4b2949e043.jpg","pilot/MAKOOLA":"assets/pilots/MAKOOLA.d012951ffc.jpg","pilot/MALIMO":"assets/pilots/MALIMO.46cca662aa.jpg","pilot/MALOANE":"assets/pilots/MALOANE.fb0febbb8f.jpg","pilot/MAMAOLA":"assets/pilots/MAMAOLA.fd43dae51a.jpg","pilot/MAMO":"assets/pilots/MAMO.e7c7558b96.jpg","pilot/MANGER":"assets/pilots/MANGER.a0cc5e1ece.jpg","pilot/MASON":"assets/pilots/MASON.bb77e506ba.jpg","pilot/MATA":"assets/pilots/MATA.df79b0b771.jpg","pilot/MIBEN":"assets/pilots/MIBEN.ee2acc08ee.jpg","pilot/MILAWEN":"assets/pilots/MILAWEN.3fc4c98f63.jpg","pilot/MILOLY":"assets/pilots/MILOLY.7672bea8a5.jpg","pilot/MIRAVE":"assets/pilots/MIRAVE.860273dbe5.jpg","pilot/MIRIN":"assets/pilots/MIRIN.02fa308242.jpg","pilot/MIRIOLA":"assets/pilots/MIRIOLA.9f4cc46468.jpg","pilot/MIRISA":"assets/pilots/MIRISA.b07a8d02e5.jpg","pilot/MISISH":"assets/pilots/MISISH.14775cdde4.jpg","pilot/NEEDLE":"assets/pilots/NEEDLE.5c9752c43d.jpg","pilot/NEKOANE":"assets/pilots/NEKOANE.12595b28fc.jpg","pilot/NELASA":"assets/pilots/NELASA.9067cbecd6.jpg","pilot/NELOEL":"assets/pilots/NELOEL.bfd6c80df6.jpg","pilot/NEMAIX":"assets/pilots/NEMAIX.ba3482a3d6.jpg","pilot/NEMAMO":"assets/pilots/NEMAMO.99e0c5eb4e.jpg","pilot/NEMATH":"assets/pilots/NEMATH.35c2ca859f.jpg","pilot/NENUVE":"assets/pilots/NENUVE.94f14ed8e5.jpg","pilot/NENUX":"assets/pilots/NENUX.f1d1bb0fe0.jpg","pilot/NETHAEL":"assets/pilots/NETHAEL.be820038e5.jpg","pilot/OLIA":"assets/pilots/OLIA.da6136c8fe.jpg","pilot/OLO":"assets/pilots/OLO.9b6a4ab50b.jpg","pilot/OLOEL":"assets/pilots/OLOEL.69aed7c06d.jpg","pilot/OLONE":"assets/pilots/OLONE.4af0e1679c.jpg","pilot/OMAKO":"assets/pilots/OMAKO.ff8f9475a0.jpg","pilot/OMIX":"assets/pilots/OMIX.7e4cce2f55.jpg","pilot/OPAL":"assets/pilots/OPAL.f4ce50ebbd.jpg","pilot/ORA":"assets/pilots/ORA.4c9ef87a50.jpg","pilot/OTH":"assets/pilots/OTH.c00d404eac.jpg","pilot/OVEX":"assets/pilots/OVEX.0e23891b01.jpg","pilot/PEDIRI":"assets/pilots/PEDIRI.ff60b065ac.jpg","pilot/PEKOAR":"assets/pilots/PEKOAR.90011b2608.jpg","pilot/PELOWEN":"assets/pilots/PELOWEN.3961de0010.jpg","pilot/PEMIIX":"assets/pilots/PEMIIX.6e5f68277a.jpg","pilot/PENDO":"assets/pilots/PENDO.3a9665e717.jpg","pilot/PENOOLA":"assets/pilots/PENOOLA.2240a3f002.jpg","pilot/PERENSA":"assets/pilots/PERENSA.c2f79395b5.jpg","pilot/PEVETH":"assets/pilots/PEVETH.a7262bbee0.jpg","pilot/PEWEN":"assets/pilots/PEWEN.724de93a6c.jpg","pilot/QUIBEMO":"assets/pilots/QUIBEMO.cf223775f3.jpg","pilot/QUIKOTH":"assets/pilots/QUIKOTH.5b32c6fee0.jpg","pilot/QUILOX":"assets/pilots/QUILOX.74ddb1971a.jpg","pilot/RAMPART":"assets/pilots/RAMPART.d688721f54.jpg","pilot/REAPER":"assets/pilots/REAPER.fcf80ec2b0.jpg","pilot/RIPTIDE":"assets/pilots/RIPTIDE.4a3167f030.jpg","pilot/RODIIX":"assets/pilots/RODIIX.86e905da55.jpg","pilot/ROLAMO":"assets/pilots/ROLAMO.2eb683e84d.jpg","pilot/ROLODEK":"assets/pilots/ROLODEK.722a593429.jpg","pilot/ROSIRIN":"assets/pilots/ROSIRIN.d29bee21d7.jpg","pilot/ROSONDO":"assets/pilots/ROSONDO.66d75c34bc.jpg","pilot/SABERO":"assets/pilots/SABERO.1c5a6df9ce.jpg","pilot/SAMAIA":"assets/pilots/SAMAIA.2c22477f3f.jpg","pilot/SANUIA":"assets/pilots/SANUIA.57d607dc33.jpg","pilot/SARAX":"assets/pilots/SARAX.0b9ca8d036.jpg","pilot/SASOKO":"assets/pilots/SASOKO.78f94f903d.jpg","pilot/SATHAANE":"assets/pilots/SATHAANE.8061cd8012.jpg","pilot/SCALES":"assets/pilots/SCALES.87715f6be5.jpg","pilot/SHRAPNEL":"assets/pilots/SHRAPNEL.60bf432658.jpg","pilot/SIPHON":"assets/pilots/SIPHON.64319ecec6.jpg","pilot/SLINGSHOT":"assets/pilots/SLINGSHOT.782ce6f557.jpg","pilot/SPARE01":"assets/pilots/SPARE01.e7bb1001da.jpg","pilot/SPARE02":"assets/pilots/SPARE02.4661694d58.jpg","pilot/SPARE03":"assets/pilots/SPARE03.157488b8ca.jpg","pilot/SPARE04":"assets/pilots/SPARE04.8cee2a69f6.jpg","pilot/SPARE05":"assets/pilots/SPARE05.7b664e7e50.jpg","pilot/SPARE06":"assets/pilots/SPARE06.6784507633.jpg","pilot/SPARE07":"assets/pilots/SPARE07.b83ac8694b.jpg","pilot/SPARE08":"assets/pilots/SPARE08.0f29c38886.jpg","pilot/STRIDER":"assets/pilots/STRIDER.1f777221cb.jpg","pilot/SUNDIAL":"assets/pilots/SUNDIAL.e301dbb8a1.jpg","pilot/TAKOANE":"assets/pilots/TAKOANE.f587bc8275.jpg","pilot/TAKOUS":"assets/pilots/TAKOUS.7e9c0c4788.jpg","pilot/TALOLO":"assets/pilots/TALOLO.f410317b58.jpg","pilot/TALON":"assets/pilots/TALON.98273b2e9a.jpg","pilot/TAMO":"assets/pilots/TAMO.b86f11dac8.jpg","pilot/TANUWEN":"assets/pilots/TANUWEN.fcc7bda948.jpg","pilot/TENACIOUS":"assets/pilots/TENACIOUS.c0e1c59b06.jpg","pilot/TENDER":"assets/pilots/TENDER.83a2dbd7da.jpg","pilot/TOMAHAWK":"assets/pilots/TOMAHAWK.9de0540c54.jpg","pilot/TRACE":"assets/pilots/TRACE.6c835c4aad.jpg","pilot/UIX":"assets/pilots/UIX.0fe225230f.jpg","pilot/ULIA":"assets/pilots/ULIA.4a68fe9c11.jpg","pilot/ULINE":"assets/pilots/ULINE.ae7d05e530.jpg","pilot/ULOTH":"assets/pilots/ULOTH.71d6f7c78c.jpg","pilot/URO":"assets/pilots/URO.d153fb9c2a.jpg","pilot/UTHAEL":"assets/pilots/UTHAEL.0a0b4d057c.jpg","pilot/VERAO":"assets/pilots/VERAO.f428fc465b.jpg","pilot/VEVEOLA":"assets/pilots/VEVEOLA.2cb64352bc.jpg","pilot/VOLT":"assets/pilots/VOLT.80a1160ef3.jpg","pilot/WINGMAN":"assets/pilots/WINGMAN.8d484a3eaa.jpg","pilot/WYNE":"assets/pilots/WYNE.efc33aaea6.jpg","pilot/WYSOOLA":"assets/pilots/WYSOOLA.8c6ed6c54f.jpg","pilot/WYVE":"assets/pilots/WYVE.2bb9ad32fe.jpg","pilot/XABEDEK":"assets/pilots/XABEDEK.eabb0f810c.jpg","pilot/XALAAI":"assets/pilots/XALAAI.36e79f1ad5.jpg","pilot/XATHALO":"assets/pilots/XATHALO.d23dd174f6.jpg","pilot/XATHATA":"assets/pilots/XATHATA.f204d7c75c.jpg","pilot/YOMILIA":"assets/pilots/YOMILIA.b03bd1a399.jpg","pilot/YON":"assets/pilots/YON.10cd6d706c.jpg","pilot/YONE":"assets/pilots/YONE.a4357d30ec.jpg","pilot/YONOEK":"assets/pilots/YONOEK.a5e16f1f7d.jpg","pilot/YOVE":"assets/pilots/YOVE.45a3fec698.jpg","pilot/YOX":"assets/pilots/YOX.8a9d3ef821.jpg","pilot/ZEBEEL":"assets/pilots/ZEBEEL.228eb5f947.jpg","pilot/ZERIOLA":"assets/pilots/ZERIOLA.a42ba833dd.jpg","pilot/ZESONDO":"assets/pilots/ZESONDO.56538e063c.jpg","pilot/ZETH":"assets/pilots/ZETH.7549b5d26e.jpg","pilot/ZODIAC":"assets/pilots/ZODIAC.935c77c2bc.jpg","scene/AANE":"assets/scenes/AANE.19ab7f1c48.webp","scene/ALOIX":"assets/scenes/ALOIX.aaede637bf.webp","scene/ANOTH":"assets/scenes/ANOTH.849e56e96b.webp","scene/ANUDEK":"assets/scenes/ANUDEK.c7fc3c6d91.webp","scene/ANVIL":"assets/scenes/ANVIL.2e925512a0.webp","scene/ARARA":"assets/scenes/ARARA.c712c541d4.webp","scene/ARILIA":"assets/scenes/ARILIA.38d174512a.webp","scene/ASTROFOIL":"assets/scenes/ASTROFOIL.442347f8d5.webp","scene/ATHARA":"assets/scenes/ATHARA.5a0dc94b6b.webp","scene/BANDIT":"assets/scenes/BANDIT.9d2d80e3a6.webp","scene/BELBERIN":"assets/scenes/BELBERIN.9dc892d85d.webp","scene/BELDIRI":"assets/scenes/BELDIRI.7d790fdb67.webp","scene/BELKO":"assets/scenes/BELKO.56e1f880d8.webp","scene/BELMIDEK":"assets/scenes/BELMIDEK.7b1da9d6b0.webp","scene/BELRENRO":"assets/scenes/BELRENRO.dc9ff56a3a.webp","scene/BELSIAR":"assets/scenes/BELSIAR.a8eaf9d88b.webp","scene/BELSOTH":"assets/scenes/BELSOTH.54a3be9405.webp","scene/BELTHALY":"assets/scenes/BELTHALY.fa15ba2be1.webp","scene/BELWEN":"assets/scenes/BELWEN.767a6c0025.webp","scene/BRILOLIA":"assets/scenes/BRILOLIA.c6e8d0fca0.webp","scene/BRIOLA":"assets/scenes/BRIOLA.60d0f0ecf5.webp","scene/BRIRAIX":"assets/scenes/BRIRAIX.a6e34af4ca.webp","scene/BRISH":"assets/scenes/BRISH.b7278bc17a.webp","scene/BRISILIA":"assets/scenes/BRISILIA.ed69a87a70.webp","scene/BUSHY":"assets/scenes/BUSHY.37f0cffc7e.webp","scene/CABEANE":"assets/scenes/CABEANE.ae36719e11.webp","scene/CAKOOLA":"assets/scenes/CAKOOLA.1e9758eb23.webp","scene/CALADEK":"assets/scenes/CALADEK.ede525d8fd.webp","scene/CALAOLA":"assets/scenes/CALAOLA.6ba5fcbd98.webp","scene/CALOSH":"assets/scenes/CALOSH.c23b3c6773.webp","scene/CANUAR":"assets/scenes/CANUAR.40963d2f4a.webp","scene/CARIEL":"assets/scenes/CARIEL.09df404ab3.webp","scene/CARIO":"assets/scenes/CARIO.37cd14ba51.webp","scene/CITADEL":"assets/scenes/CITADEL.0c830e6ac4.webp","scene/COMET":"assets/scenes/COMET.738dc2177c.webp","scene/CORANE":"assets/scenes/CORANE.581f169af1.webp","scene/CORBEEK":"assets/scenes/CORBEEK.0873c8c795.webp","scene/CORBEMO":"assets/scenes/CORBEMO.9845817e52.webp","scene/CORLILIA":"assets/scenes/CORLILIA.e40de856b8.webp","scene/CORN":"assets/scenes/CORN.fb1b40e6f8.webp","scene/CORNDO":"assets/scenes/CORNDO.6755bf5e75.webp","scene/CORRARIN":"assets/scenes/CORRARIN.bf468113ff.webp","scene/DAMSEL":"assets/scenes/DAMSEL.59812cfeda.webp","scene/DAREK":"assets/scenes/DAREK.7ed92a3ef9.webp","scene/DARSOANE":"assets/scenes/DARSOANE.4b79c3c341.webp","scene/DARX":"assets/scenes/DARX.ff23e4f983.webp","scene/DELKO":"assets/scenes/DELKO.e44a3ebb31.webp","scene/DELLALIA":"assets/scenes/DELLALIA.56350ea109.webp","scene/DELLIAR":"assets/scenes/DELLIAR.4bc6f8803d.webp","scene/DELLOANE":"assets/scenes/DELLOANE.25922c8374.webp","scene/DELLORIN":"assets/scenes/DELLORIN.2d3d679877.webp","scene/DELMADEK":"assets/scenes/DELMADEK.cf8021a033.webp","scene/DELNURI":"assets/scenes/DELNURI.b339d62834.webp","scene/DELSOKO":"assets/scenes/DELSOKO.9dbe840e12.webp","scene/DOE":"assets/scenes/DOE.743094a514.webp","scene/DOZER":"assets/scenes/DOZER.bac0ce0f02.webp","scene/ECHO":"assets/scenes/ECHO.51b039badf.webp","scene/EMAO":"assets/scenes/EMAO.ef58a4cac6.webp","scene/ENSIGN":"assets/scenes/ENSIGN.41d1bdb5e2.webp","scene/FENKORA":"assets/scenes/FENKORA.ca6f5e4882.webp","scene/FENLALIA":"assets/scenes/FENLALIA.baec7fbcfd.webp","scene/FENRA":"assets/scenes/FENRA.a47ec27e47.webp","scene/FENX":"assets/scenes/FENX.328d8fd42c.webp","scene/FIEST":"assets/scenes/FIEST.29ffa75d52.webp","scene/FLUME":"assets/scenes/FLUME.831e812850.webp","scene/FLUX":"assets/scenes/FLUX.784c434eca.webp","scene/GALBEMO":"assets/scenes/GALBEMO.2e81ec9091.webp","scene/GALLEON":"assets/scenes/GALLEON.b9dcec2de6.webp","scene/GALLITH":"assets/scenes/GALLITH.14fe31bedf.webp","scene/GALMAO":"assets/scenes/GALMAO.b04936aa04.webp","scene/GALSOLY":"assets/scenes/GALSOLY.4d8fb255fd.webp","scene/GALSOOLA":"assets/scenes/GALSOOLA.d6b6071caf.webp","scene/HABEAR":"assets/scenes/HABEAR.c3754c0a42.webp","scene/HAN":"assets/scenes/HAN.1bd1f99f64.webp","scene/HORNET":"assets/scenes/HORNET.f9f87eec8c.webp","scene/IDIO":"assets/scenes/IDIO.bc2d1284c2.webp","scene/ILORIN":"assets/scenes/ILORIN.34002ec122.webp","scene/IRI":"assets/scenes/IRI.a76c37a550.webp","scene/ISOLO":"assets/scenes/ISOLO.b910f79333.webp","scene/ITHAX":"assets/scenes/ITHAX.28a03e245a.webp","scene/IVY":"assets/scenes/IVY.2253d01f62.webp","scene/JODIOLA":"assets/scenes/JODIOLA.0a429f4a78.webp","scene/JORIRO":"assets/scenes/JORIRO.d10f1e899a.webp","scene/JORO":"assets/scenes/JORO.dc03642cf9.webp","scene/JOSORA":"assets/scenes/JOSORA.32e3d61908.webp","scene/JOTHAAR":"assets/scenes/JOTHAAR.9ea6f9b85b.webp","scene/JOUS":"assets/scenes/JOUS.1d6c9420f6.webp","scene/JUGGER":"assets/scenes/JUGGER.d3181c4ef2.webp","scene/KABEN":"assets/scenes/KABEN.8de422d186.webp","scene/KADIWEN":"assets/scenes/KADIWEN.6c415c4ef9.webp","scene/KALARA":"assets/scenes/KALARA.e99f7c696f.webp","scene/KAMASH":"assets/scenes/KAMASH.116ea9f1e1.webp","scene/KARIIX":"assets/scenes/KARIIX.23268b67f5.webp","scene/KASH":"assets/scenes/KASH.76634040ff.webp","scene/KRUSH":"assets/scenes/KRUSH.fc3cd954e8.webp","scene/LONGSHIFT":"assets/scenes/LONGSHIFT.f9e1adaeff.webp","scene/LUDIRA":"assets/scenes/LUDIRA.ec7816d32b.webp","scene/LULAANE":"assets/scenes/LULAANE.51ebe15152.webp","scene/LULIIA":"assets/scenes/LULIIA.9077a35410.webp","scene/LUNULO":"assets/scenes/LUNULO.d1e62aa922.webp","scene/MAESTRO":"assets/scenes/MAESTRO.eca4b31129.webp","scene/MAIX":"assets/scenes/MAIX.78642e32c3.webp","scene/MAKOOLA":"assets/scenes/MAKOOLA.7c7e42d0be.webp","scene/MALIMO":"assets/scenes/MALIMO.c9a29152c0.webp","scene/MALOANE":"assets/scenes/MALOANE.de5471baf6.webp","scene/MAMAOLA":"assets/scenes/MAMAOLA.4dc26ed1a2.webp","scene/MAMO":"assets/scenes/MAMO.b283bab210.webp","scene/MANGER":"assets/scenes/MANGER.0468cebff3.webp","scene/MASON":"assets/scenes/MASON.75cea94d65.webp","scene/MATA":"assets/scenes/MATA.49f9953920.webp","scene/MIBEN":"assets/scenes/MIBEN.15388d4ad6.webp","scene/MILAWEN":"assets/scenes/MILAWEN.4c32be2cad.webp","scene/MILOLY":"assets/scenes/MILOLY.87efbbe09b.webp","scene/MIRAVE":"assets/scenes/MIRAVE.79e2dbd2bd.webp","scene/MIRIN":"assets/scenes/MIRIN.f5b4dfb3f6.webp","scene/MIRIOLA":"assets/scenes/MIRIOLA.2059a5711b.webp","scene/MIRISA":"assets/scenes/MIRISA.ddcf6f697d.webp","scene/MISISH":"assets/scenes/MISISH.911a8a377c.webp","scene/NEEDLE":"assets/scenes/NEEDLE.3dbf5b9812.webp","scene/NEKOANE":"assets/scenes/NEKOANE.d18e5cb9fc.webp","scene/NELASA":"assets/scenes/NELASA.3e445596c5.webp","scene/NELOEL":"assets/scenes/NELOEL.1ade9e4fc8.webp","scene/NEMAIX":"assets/scenes/NEMAIX.18184f34ef.webp","scene/NEMAMO":"assets/scenes/NEMAMO.5a05761c3b.webp","scene/NEMATH":"assets/scenes/NEMATH.b5b90d5a72.webp","scene/NENUVE":"assets/scenes/NENUVE.ae2897a48c.webp","scene/NENUX":"assets/scenes/NENUX.9e6f103485.webp","scene/NETHAEL":"assets/scenes/NETHAEL.114b9e3744.webp","scene/OLIA":"assets/scenes/OLIA.ee5b2e13e0.webp","scene/OLO":"assets/scenes/OLO.35b9f3df87.webp","scene/OLOEL":"assets/scenes/OLOEL.da6296c23d.webp","scene/OLONE":"assets/scenes/OLONE.2ac1694841.webp","scene/OMAKO":"assets/scenes/OMAKO.67ed22a958.webp","scene/OMIX":"assets/scenes/OMIX.50f67bdc07.webp","scene/OPAL":"assets/scenes/OPAL.3daa48ed44.webp","scene/ORA":"assets/scenes/ORA.3070108394.webp","scene/OTH":"assets/scenes/OTH.f5503d3437.webp","scene/OVEX":"assets/scenes/OVEX.a68728232f.webp","scene/PEDIRI":"assets/scenes/PEDIRI.826555c6d7.webp","scene/PEKOAR":"assets/scenes/PEKOAR.3ebc194bfd.webp","scene/PELOWEN":"assets/scenes/PELOWEN.b93e1feb77.webp","scene/PEMIIX":"assets/scenes/PEMIIX.4db83bf174.webp","scene/PENDO":"assets/scenes/PENDO.b016a66667.webp","scene/PENOOLA":"assets/scenes/PENOOLA.b65f3b48ac.webp","scene/PERENSA":"assets/scenes/PERENSA.b312ab0ac6.webp","scene/PEVETH":"assets/scenes/PEVETH.8d93ba651e.webp","scene/PEWEN":"assets/scenes/PEWEN.44fafcbc17.webp","scene/QUIBEMO":"assets/scenes/QUIBEMO.950538197c.webp","scene/QUIKOTH":"assets/scenes/QUIKOTH.a034cc225b.webp","scene/QUILOX":"assets/scenes/QUILOX.31b123f95c.webp","scene/RAMPART":"assets/scenes/RAMPART.c39804e525.webp","scene/REAPER":"assets/scenes/REAPER.d14c0aa60b.webp","scene/RIPTIDE":"assets/scenes/RIPTIDE.c9036541af.webp","scene/RODIIX":"assets/scenes/RODIIX.3d188ea9a0.webp","scene/ROLAMO":"assets/scenes/ROLAMO.107fd45e3c.webp","scene/ROLODEK":"assets/scenes/ROLODEK.968ef4eb57.webp","scene/ROSIRIN":"assets/scenes/ROSIRIN.6ecfbed451.webp","scene/ROSONDO":"assets/scenes/ROSONDO.3a73615b2d.webp","scene/SABERO":"assets/scenes/SABERO.8d0ce150ea.webp","scene/SAMAIA":"assets/scenes/SAMAIA.0643b1c910.webp","scene/SANUIA":"assets/scenes/SANUIA.42e5aa4e28.webp","scene/SARAX":"assets/scenes/SARAX.2e7e752e4b.webp","scene/SASOKO":"assets/scenes/SASOKO.864a2df87d.webp","scene/SATHAANE":"assets/scenes/SATHAANE.60583be976.webp","scene/SCALES":"assets/scenes/SCALES.0548e15be5.webp","scene/SHRAPNEL":"assets/scenes/SHRAPNEL.53eb5e756e.webp","scene/SIPHON":"assets/scenes/SIPHON.f8a26b6185.webp","scene/SLINGSHOT":"assets/scenes/SLINGSHOT.93d04d1ef7.webp","scene/SPARE01":"assets/scenes/SPARE01.b8c82ffc82.webp","scene/SPARE02":"assets/scenes/SPARE02.7cebea6d1d.webp","scene/SPARE03":"assets/scenes/SPARE03.d420985727.webp","scene/SPARE04":"assets/scenes/SPARE04.23fb0f067d.webp","scene/SPARE05":"assets/scenes/SPARE05.ac53bf8c68.webp","scene/SPARE06":"assets/scenes/SPARE06.a8814e5a25.webp","scene/SPARE07":"assets/scenes/SPARE07.3f7285ebad.webp","scene/SPARE08":"assets/scenes/SPARE08.2f72e653db.webp","scene/STRIDER":"assets/scenes/STRIDER.a0fccff34e.webp","scene/SUNDIAL":"assets/scenes/SUNDIAL.74ce284aa1.webp","scene/TAKOANE":"assets/scenes/TAKOANE.50b7909e7a.webp","scene/TAKOUS":"assets/scenes/TAKOUS.4423f66569.webp","scene/TALOLO":"assets/scenes/TALOLO.a0dc4ff99f.webp","scene/TALON":"assets/scenes/TALON.9ddf0dab5d.webp","scene/TAMO":"assets/scenes/TAMO.dc1c243760.webp","scene/TANUWEN":"assets/scenes/TANUWEN.ff811edd1c.webp","scene/TENACIOUS":"assets/scenes/TENACIOUS.3d447a26ac.webp","scene/TENDER":"assets/scenes/TENDER.e5b9cad127.webp","scene/TOMAHAWK":"assets/scenes/TOMAHAWK.66f74d0f4c.webp","scene/TRACE":"assets/scenes/TRACE.acccb15093.webp","scene/UIX":"assets/scenes/UIX.c67a2f0b9c.webp","scene/ULIA":"assets/scenes/ULIA.32294a4cda.webp","scene/ULINE":"assets/scenes/ULINE.ae6d70adb2.webp","scene/ULOTH":"assets/scenes/ULOTH.0c5c64445e.webp","scene/URO":"assets/scenes/URO.153e388940.webp","scene/UTHAEL":"assets/scenes/UTHAEL.a7c79f3ad8.webp","scene/VERAO":"assets/scenes/VERAO.c941b75d70.webp","scene/VEVEOLA":"assets/scenes/VEVEOLA.b6fc585b22.webp","scene/VOLT":"assets/scenes/VOLT.6bc64f10d3.webp","scene/WINGMAN":"assets/scenes/WINGMAN.113acd08b6.webp","scene/WYNE":"assets/scenes/WYNE.0ba11f9e6d.webp","scene/WYSOOLA":"assets/scenes/WYSOOLA.2bbeb36c29.webp","scene/WYVE":"assets/scenes/WYVE.e46330e1cc.webp","scene/XABEDEK":"assets/scenes/XABEDEK.b958807c03.webp","scene/XALAAI":"assets/scenes/XALAAI.c0c25fa102.webp","scene/XATHALO":"assets/scenes/XATHALO.b060046450.webp","scene/XATHATA":"assets/scenes/XATHATA.8e3b0348a0.webp","scene/YOMILIA":"assets/scenes/YOMILIA.172a4b32ca.webp","scene/YON":"assets/scenes/YON.96a08a3e46.webp","scene/YONE":"assets/scenes/YONE.dafec6cd55.webp","scene/YONOEK":"assets/scenes/YONOEK.913e824f05.webp","scene/YOVE":"assets/scenes/YOVE.1099c24040.webp","scene/YOX":"assets/scenes/YOX.a22bebea1c.webp","scene/ZEBEEL":"assets/scenes/ZEBEEL.81939caf01.webp","scene/ZERIOLA":"assets/scenes/ZERIOLA.01e889f7d1.webp","scene/ZESONDO":"assets/scenes/ZESONDO.3899ccfed5.webp","scene/ZETH":"assets/scenes/ZETH.446cb00c81.webp","scene/ZODIAC":"assets/scenes/ZODIAC.cf92a6f4c3.webp","portrait/sheet-1":"assets/portraits/sheet-1.044e47199d.webp","portrait/sheet-2":"assets/portraits/sheet-2.a0a86a6b7e.webp","portrait/sheet-3":"assets/portraits/sheet-3.c17b5b3caa.webp","portrait/sheet-4":"assets/portraits/sheet-4.3cc95a8dc5.webp","portrait/sheet-5":"assets/portraits/sheet-5.a07207cfc3.webp","portrait/sheet-6":"assets/portraits/sheet-6.91ea2aa75e.webp"};
+window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3","sfx/ally-mass":"assets/audio/sfx/ally-mass.a42b7e9e48.mp3","sfx/ally-space":"assets/audio/sfx/ally-space.3adb6604b2.mp3","sfx/ally-time":"assets/audio/sfx/ally-time.dcaa4691cd.mp3","sfx/big-reward":"assets/audio/sfx/big-reward.5b427853d2.mp3","sfx/block-break":"assets/audio/sfx/block-break.5e8a571b28.mp3","sfx/boost":"assets/audio/sfx/boost.032b2b658a.mp3","sfx/bump":"assets/audio/sfx/bump.a302970354.mp3","sfx/click":"assets/audio/sfx/click.62964b4526.mp3","sfx/close":"assets/audio/sfx/close.f0c5aee0d4.mp3","sfx/comeback-charge":"assets/audio/sfx/comeback-charge.7a33d514ac.mp3","sfx/comeback-mass":"assets/audio/sfx/comeback-mass.78b1590812.mp3","sfx/comeback-space":"assets/audio/sfx/comeback-space.152a325a92.mp3","sfx/comeback-time":"assets/audio/sfx/comeback-time.bc1f7be2e3.mp3","sfx/confirm":"assets/audio/sfx/confirm.e4de9811a7.mp3","sfx/creature-hit":"assets/audio/sfx/creature-hit.03d7a219c9.mp3","sfx/crystal":"assets/audio/sfx/crystal.a1b7e57321.mp3","sfx/denied":"assets/audio/sfx/denied.04957755ac.mp3","sfx/drift-release":"assets/audio/sfx/drift-release.e738945c65.mp3","sfx/energy":"assets/audio/sfx/energy.934817b223.mp3","sfx/explosion":"assets/audio/sfx/explosion.3050127e5a.mp3","sfx/game-over":"assets/audio/sfx/game-over.702ea21020.mp3","sfx/goal":"assets/audio/sfx/goal.cfe75da49b.mp3","sfx/hover":"assets/audio/sfx/hover.ccadb0cfe6.mp3","sfx/impact":"assets/audio/sfx/impact.fe37fd06b0.mp3","sfx/joust-charge":"assets/audio/sfx/joust-charge.87f06324dc.mp3","sfx/joust-mass":"assets/audio/sfx/joust-mass.6224b3cb46.mp3","sfx/joust-space":"assets/audio/sfx/joust-space.f3c0a48ee9.mp3","sfx/joust-time":"assets/audio/sfx/joust-time.bb4491648e.mp3","sfx/kill-1":"assets/audio/sfx/kill-1.b66e724a8c.mp3","sfx/kill-2":"assets/audio/sfx/kill-2.ab0d89d7b1.mp3","sfx/kill-3":"assets/audio/sfx/kill-3.502d04263f.mp3","sfx/kill-4":"assets/audio/sfx/kill-4.9ea4c9bd63.mp3","sfx/kill-5":"assets/audio/sfx/kill-5.1dcb41de1d.mp3","sfx/kill-6":"assets/audio/sfx/kill-6.e4d67b43e1.mp3","sfx/laser":"assets/audio/sfx/laser.51b7a7d958.mp3","sfx/lets-go":"assets/audio/sfx/lets-go.724c055e35.mp3","sfx/mine":"assets/audio/sfx/mine.895f98ef93.mp3","sfx/open":"assets/audio/sfx/open.3f77dc083f.mp3","sfx/redeem":"assets/audio/sfx/redeem.dc1d933feb.mp3","sfx/score":"assets/audio/sfx/score.f1a1cb678d.mp3","sfx/shield-down":"assets/audio/sfx/shield-down.fe30285159.mp3","sfx/shield-up":"assets/audio/sfx/shield-up.20446b8988.mp3","sfx/skim":"assets/audio/sfx/skim.278c4db469.mp3","sfx/small-reward":"assets/audio/sfx/small-reward.d4f5f59ac8.mp3","sfx/spawn":"assets/audio/sfx/spawn.3226f9dbb6.mp3","sfx/speed-burst":"assets/audio/sfx/speed-burst.fbba886883.mp3","sfx/switch-2":"assets/audio/sfx/switch-2.26b3b37ab0.mp3","sfx/switch":"assets/audio/sfx/switch.037e07875f.mp3","sfx/upgrade":"assets/audio/sfx/upgrade.5b427853d2.mp3","music/chill-time-3":"assets/audio/music/chill-time-3.eca02cddb7.mp3","music/cosmic-shore-2":"assets/audio/music/cosmic-shore-2.5734c1223d.mp3","music/cosmic-shore-3-loop":"assets/audio/music/cosmic-shore-3-loop.bb6b2dbb29.mp3","music/cosmic-shore-3":"assets/audio/music/cosmic-shore-3.f3edad3958.mp3","music/disoriented":"assets/audio/music/disoriented.708257d7e5.mp3","music/end-game-outro":"assets/audio/music/end-game-outro.a4b43851e7.mp3","music/secret-hide-away":"assets/audio/music/secret-hide-away.42597bb658.mp3","music/severity":"assets/audio/music/severity.2952453c7a.mp3","music/sky-fire":"assets/audio/music/sky-fire.75c69b47e4.mp3","music/space-gliding":"assets/audio/music/space-gliding.87c150d42c.mp3","music/waited-so-long":"assets/audio/music/waited-so-long.5c0c2c9e3e.mp3"};
 
 /* ───── data/cards.js ───── */
 /* ============================================================================
@@ -23636,6 +23637,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
         for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
       }
       if (ctx.state === 'suspended') ctx.resume();
+      master.gain.value = 0.9 * (U.fxGain ? U.fxGain() : 1); // the mixer in Settings (src/ui/audio.js)
       return ctx;
     } catch (e) {
       return null;
@@ -24030,11 +24032,13 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
           later(d, () => {
             flashTok(f.by, 'atk', 720);
             beam(m, by.pos, node, byFoe ? 'foe' : 'hero', melee);
+            if (U.cue) U.cue(melee ? 'melee' : byFoe ? 'foeAttack' : 'attack'); // src/ui/audio.js
           });
           d += 300;
         }
         later(d, () => {
           impact(m, node, byFoe ? 'foe' : 'hero');
+          if (U.cue && !U.cue(f.amount >= 4 ? 'heavy' : 'impact') && U.sfx.hitSynth) U.sfx.hitSynth();
           flashTok(f.ent, 'hit', 520);
           if (full()) shake(f.amount >= 4);
           if (by) toast(`${nameOf(m, f.by)} · ${f.amount}`, `hits ${nameOf(m, f.ent)}.`, byFoe ? 'rd' : 'cy');
@@ -26630,9 +26634,24 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
   /**
    * fx: how loud the sound effects are (0 to 100); text: 's', 'm', 'l' or 'xl'; hints: 'young' (the how-to
    * line in the first two missions), 'always' or 'never'; confirmEnd: ask before ending a round with 4+ AP
-   * banked; contrast: stronger lines and text.
+   * banked; contrast: stronger lines and text. The sound (src/ui/audio.js): sound is the master switch, master,
+   * music and fx the three levels (0 to 100), muteMusic and muteFx their mutes, musicMode what plays next
+   * ('game' follows the screen, 'shuffle', 'one' repeats), musicOff the tracks left out of the rotation.
    */
-  const BASE = { fx: 70, text: 'm', hints: 'young', confirmEnd: true, contrast: false };
+  const BASE = {
+    fx: 70,
+    text: 'm',
+    hints: 'young',
+    confirmEnd: true,
+    contrast: false,
+    sound: true,
+    master: 100,
+    music: 60,
+    muteMusic: false,
+    muteFx: false,
+    musicMode: 'game',
+    musicOff: [],
+  };
   U.prefs = (() => {
     try {
       const got = JSON.parse(localStorage.getItem(KEY) || '{}');
@@ -26642,9 +26661,14 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
       if (['young', 'always', 'never'].includes(got.hints)) p.hints = got.hints;
       if (typeof got.confirmEnd === 'boolean') p.confirmEnd = got.confirmEnd;
       if (typeof got.contrast === 'boolean') p.contrast = got.contrast;
+      for (const k of ['master', 'music'])
+        if (Number.isFinite(got[k])) p[k] = Math.max(0, Math.min(100, Math.round(got[k])));
+      for (const k of ['sound', 'muteMusic', 'muteFx']) if (typeof got[k] === 'boolean') p[k] = got[k];
+      if (['game', 'shuffle', 'one'].includes(got.musicMode)) p.musicMode = got.musicMode;
+      if (Array.isArray(got.musicOff)) p.musicOff = got.musicOff.filter((x) => typeof x === 'string').slice(0, 50);
       return p;
     } catch {
-      return Object.assign({}, BASE);
+      return Object.assign({}, BASE, { musicOff: [] });
     }
   })();
   function savePrefs() {
@@ -26654,6 +26678,18 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
       /* no storage: the settings last for this page */
     }
   }
+  U.savePrefs = savePrefs;
+  // the 🔊 buttons on every screen switch U.sound: it is the master switch, kept with the other settings
+  Object.defineProperty(U, 'sound', {
+    configurable: true,
+    enumerable: true,
+    get: () => U.prefs.sound !== false,
+    set: (v) => {
+      U.prefs.sound = !!v;
+      savePrefs();
+      if (U.audio) U.audio.sync();
+    },
+  });
   const TEXT = { s: 0.92, m: 1, l: 1.12, xl: 1.25 };
   /** Put the settings that change the page on it: the text size and contrast. Called after every render. */
   U.prefsApply = function () {
@@ -26694,18 +26730,20 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     `<div class="st-row"><span class="st-l"><b>Effects</b><small>Dice, hits and the rest</small></span><input type="range" min="0" max="100" step="5" value="${U.prefs.fx}" data-input="prefFx" aria-label="Effects volume"><span class="st-num">${U.prefs.fx}</span></div>`;
 
   const TABS = [
-    ['look', 'Look and sound'],
+    ['look', 'Look'],
+    ['audio', 'Audio studio'],
     ['play', 'Play'],
     ['access', 'Accessibility'],
     ['account', 'Account'],
     ['keys', 'Keys'],
   ];
   function tabBody(tab) {
+    if (tab === 'audio') return U.audioStudioHTML ? U.audioStudioHTML() : '';
     if (tab === 'look')
       return `<section class="st-card"><span class="lab gold">Theme</span>${themes()}</section>
         <section class="st-card"><span class="lab gold">Accent</span><div class="st-accents">${U.ACCENTS.map((a) => `<button class="${U.look.accent === a.id ? 'on' : ''}" style="--c:${a.c}" data-act="lookAccent" data-arg="${a.id}" aria-pressed="${U.look.accent === a.id}">${esc(a.name)}</button>`).join('')}</div><small class="dim">The colour of the one button that moves you on.</small></section>
         <section class="st-card"><span class="lab gold">Motion</span>${motionSeg()}<small class="dim">${esc(U.MOTIONS.find((m) => m.id === U.motion()).txt)}</small>${U.look.motion ? '<button class="linkish small" data-act="lookMotion" data-arg="system">Follow this device</button>' : ''}</section>
-        <section class="st-card"><span class="lab gold">Sound</span>${toggle('toggleSound', !!U.sound, 'Sound', U.sound ? 'On' : 'Off')}${fxSlider()}</section>`;
+        <section class="st-card"><span class="lab gold">Sound</span>${toggle('toggleSound', !!U.sound, 'Sound', U.sound ? 'On' : 'Off')}<div class="st-row"><span class="st-l"><b>Audio studio</b><small>The mixer, the soundtrack and every effect</small></span><button class="ghost" data-act="settingsTab" data-arg="audio">Open</button></div></section>`;
     if (tab === 'play') {
       const meta = T.loadMeta();
       return `<section class="st-card"><span class="lab gold">On the board</span><div class="st-row"><span class="st-l"><b>Hints on the map</b><small>The one-line help above the board</small></span>${seg(
@@ -26762,7 +26800,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     ).join('');
     return U.shell(
       '',
-      `<div class="page settings"><div class="pg-head"><h1>Settings</h1><div class="chips" role="group" aria-label="Section">${tabs}</div></div><div class="st-cols"><div class="st-left">${tabBody(tab)}</div>${preview()}</div></div>`,
+      `<div class="page settings"><div class="pg-head"><h1>Settings</h1><div class="chips" role="group" aria-label="Section">${tabs}</div></div>${tab === 'audio' ? tabBody(tab) : `<div class="st-cols"><div class="st-left">${tabBody(tab)}</div>${preview()}</div>`}</div>`,
     );
   };
 
@@ -26777,7 +26815,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     const inRun = U.run && U.run.mission && !U.run.mission.over;
     return `<div class="quick"><div class="qk-head"><h3>Quick settings</h3><button class="ghost" data-act="closeModal" aria-label="Close">✕</button></div>
       <span class="lab">Theme</span><div class="qk-themes"><button class="qk-sw auto${cur === 'auto' ? ' on' : ''}" data-act="lookTheme" data-arg="auto" aria-label="Follow the route" aria-pressed="${cur === 'auto'}" data-tip="Follow the route"></button>${sw}</div>
-      ${toggle('toggleSound', !!U.sound, 'Sound', U.sound ? 'On' : 'Off')}${fxSlider()}
+      ${U.audioLevelsHTML ? `<span class="lab">Sound</span>${U.audioNowHTML(true)}${U.audioLevelsHTML(true)}<button class="linkish small" data-act="settings" data-arg="audio">Open the Audio studio</button>` : toggle('toggleSound', !!U.sound, 'Sound', U.sound ? 'On' : 'Off') + fxSlider()}
       ${toggle('prefHintsQuick', U.showHints(U.run), 'Hints on the map', 'The one-line help above the board')}
       ${toggle('canonAsk', meta.askCanon !== false, 'Ask canon questions', 'A question when you draft a pilot (can be skipped)')}
       ${toggle('prefConfirm', U.prefs.confirmEnd, 'Confirm End Round', 'Only when a pilot still has AP')}
@@ -26814,6 +26852,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     switch (act) {
       case 'settings':
         if (U.modal) U.closeModal();
+        if (arg) U.settingsTab = arg;
         if (U.screen !== 'settings') U.settingsFrom = U.screen;
         U.screen = 'settings';
         U.render();
@@ -26866,8 +26905,11 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     if (U.screen === 'mission' && U.updateMission) U.updateMission();
     return true;
   };
-  /** The effects volume, 0 to 1, for the synth in core.js. */
-  U.fxGain = () => (U.prefs.fx / 70) * (U.prefs.fx > 0 ? 1 : 0);
+  /** The effects level for the synth in core.js and feel.js: master × effects, 1 at the defaults; 0 when muted. */
+  U.fxGain = () =>
+    U.prefs.sound === false || U.prefs.muteFx
+      ? 0
+      : (U.prefs.master / 100) * (U.prefs.fx / 70) * (U.prefs.fx > 0 ? 1 : 0);
   (U.ACTS = U.ACTS || []).push(U.settingsAct);
   (U.INPUTS = U.INPUTS || []).push(U.prefsInput);
   (U.SCREENS = U.SCREENS || {}).settings = U.renderSettings;
@@ -29012,6 +29054,798 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
   };
   (U.ACTS = U.ACTS || []).push(U.garageAct);
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
+/* ───── ui/audio.js ───── */
+/* ============================================================================
+   TUMULT — AUDIO (browser only): Cosmic Shore's music and sound effects.
+   The files are under assets/audio (assets/README.md says where each comes
+   from). tools/build.mjs puts their addresses in T.AUDIO: data URIs in the
+   offline file (every effect and one music loop), content-named files in the
+   web version (everything, each fetched only when it is first wanted).
+   Music streams through one <audio> element at a time, crossfaded, and
+   follows the screen (menus, the draft, the route, a mission, a win).
+   Effects are decoded once into Web Audio buffers. Until a buffer is ready,
+   and wherever a file is missing, the small synth in core.js and feel.js
+   still answers, so the game never goes silent and never waits for a file.
+   The Audio studio (Settings) is drawn here: the mixer, the player, every
+   track and every effect. Volumes and choices live in U.prefs (settings.js).
+   ========================================================================== */
+(function (T) {
+  const U = (T.UI = T.UI || {});
+  const esc = (s) => U.esc(s);
+  const browser = typeof window !== 'undefined' && typeof document !== 'undefined';
+  const SRC = () => T.AUDIO || {};
+
+  /* ───────────── what there is ───────────── */
+  /** Moods the screens ask for; a track lists the moods it suits. */
+  const MOODS = {
+    menu: 'Menus',
+    draft: 'Draft',
+    route: 'Route',
+    mission: 'Mission',
+    after: 'Victory',
+  };
+  /** Cosmic Shore's soundtrack (its Soundtrack asset's titles), in the order its Audio Studio lists them. */
+  const TRACKS = [
+    { id: 'space-gliding', title: 'Space Gliding', moods: ['menu', 'route'] },
+    { id: 'sky-fire', title: 'Sky Fire', moods: ['mission'] },
+    { id: 'cosmic-shore-2', title: 'Cosmic Shore 2 Tune', moods: ['draft', 'route'] },
+    { id: 'chill-time-3', title: 'Chill Time 3', moods: ['menu', 'route'] },
+    { id: 'waited-so-long', title: "I've Waited So Long", moods: ['draft', 'menu'] },
+    { id: 'cosmic-shore-3', title: 'Cosmic Shore 3', moods: ['mission'] },
+    { id: 'cosmic-shore-3-loop', title: 'Cosmic Shore 3 (loop)', moods: ['mission', 'route', 'menu', 'draft'] },
+    { id: 'secret-hide-away', title: 'Secret Hide Away', moods: ['menu', 'draft'] },
+    { id: 'severity', title: 'Severity', moods: ['mission'] },
+    { id: 'disoriented', title: 'Disoriented', moods: ['mission'] },
+    { id: 'end-game-outro', title: 'End Game Outro', moods: ['after'] },
+  ];
+  /**
+   * Every effect, by what it answers in Tumult. `files` are names under assets/audio/sfx (one is picked at
+   * random each time); `rate` plays it faster or slower; `vol` trims it. The Cosmic Shore event each comes
+   * from is in assets/README.md.
+   */
+  const SFX = [
+    // menus and screens
+    { id: 'click', group: 'Menus', name: 'Click', when: 'Any button', files: ['click'], vol: 0.7 },
+    { id: 'confirm', group: 'Menus', name: 'Confirm', when: 'Take a card, choose an option', files: ['confirm'] },
+    { id: 'denied', group: 'Menus', name: 'Denied', when: 'Something you cannot do', files: ['denied'], vol: 0.7 },
+    { id: 'open', group: 'Menus', name: 'Open', when: 'A panel opens', files: ['open'], vol: 0.5 },
+    {
+      id: 'close',
+      group: 'Menus',
+      name: 'Close',
+      when: 'A panel closes, back to the title',
+      files: ['close'],
+      vol: 0.5,
+    },
+    { id: 'switch', group: 'Menus', name: 'Switch', when: 'Skip a card, end the round', files: ['switch', 'switch-2'] },
+    { id: 'hover', group: 'Menus', name: 'Select', when: 'Pick a pilot', files: ['hover'], vol: 0.8 },
+    { id: 'letsgo', group: 'Menus', name: "Let's go", when: 'Set out, start a mission', files: ['lets-go'] },
+    // the run
+    {
+      id: 'smallReward',
+      group: 'The run',
+      name: 'Small reward',
+      when: 'Rewards, an objective step',
+      files: ['small-reward'],
+    },
+    { id: 'bigReward', group: 'The run', name: 'Big reward', when: 'A mission won', files: ['big-reward'] },
+    { id: 'upgrade', group: 'The run', name: 'Upgrade', when: 'Train a card', files: ['upgrade'] },
+    { id: 'redeem', group: 'The run', name: 'Purchase', when: 'Buy gear', files: ['redeem'] },
+    { id: 'score', group: 'The run', name: 'Readout', when: 'A forecast or tally appears', files: ['score'], vol: 0.6 },
+    { id: 'goal', group: 'The run', name: 'Goal line', when: 'The whole objective done', files: ['goal'] },
+    { id: 'gameOver', group: 'The run', name: 'Game over', when: 'A mission lost', files: ['game-over'] },
+    { id: 'travel', group: 'The run', name: 'Boost', when: 'Sail to the next place', files: ['boost'] },
+    { id: 'undo', group: 'The run', name: 'Drift back', when: 'Undo', files: ['drift-release'], vol: 0.6 },
+    // combat
+    { id: 'attack', group: 'Combat', name: 'Attack', when: 'A pilot strikes', files: ['laser'] },
+    { id: 'foeAttack', group: 'Combat', name: 'Foe attack', when: 'An enemy strikes', files: ['laser'], rate: 0.72 },
+    { id: 'impact', group: 'Combat', name: 'Impact', when: 'A blow lands', files: ['impact'] },
+    { id: 'heavy', group: 'Combat', name: 'Heavy impact', when: 'A blow of 4 or more', files: ['creature-hit'] },
+    {
+      id: 'kill',
+      group: 'Combat',
+      name: 'Kill',
+      when: 'An enemy falls',
+      files: ['kill-1', 'kill-2', 'kill-3', 'kill-4', 'kill-5', 'kill-6'],
+    },
+    { id: 'downed', group: 'Combat', name: 'Downed', when: 'A pilot goes down', files: ['shield-down'] },
+    { id: 'shieldUp', group: 'Combat', name: 'Shield', when: 'A shield takes a blow', files: ['shield-up'] },
+    { id: 'shatter', group: 'Combat', name: 'Shatter', when: 'Something is revealed', files: ['crystal'], vol: 0.7 },
+    { id: 'trap', group: 'Combat', name: 'Mine', when: 'A trap springs', files: ['mine'] },
+    { id: 'boom', group: 'Combat', name: 'Explosion', when: 'A heart cracks', files: ['explosion'] },
+    { id: 'spawn', group: 'Combat', name: 'Arrival', when: 'Something new on the board', files: ['spawn'], vol: 0.6 },
+    { id: 'heal', group: 'Combat', name: 'Energy', when: 'Healing and resting', files: ['energy'] },
+    { id: 'melee', group: 'Combat', name: 'Speed burst', when: 'A blow struck up close', files: ['speed-burst'] },
+    { id: 'push', group: 'Combat', name: 'Skim', when: 'A unit is pushed or swapped', files: ['skim'], vol: 0.7 },
+    {
+      id: 'bump',
+      group: 'Combat',
+      name: 'Collide',
+      when: 'A unit is thrown into something',
+      files: ['bump'],
+      vol: 0.7,
+    },
+    { id: 'pickup', group: 'Combat', name: 'Crystal', when: 'A crate, a cache, gear used', files: ['block-break'] },
+    // the elements: each etherion's face, its help to an ally and its comeback
+    { id: 'ether-M', group: 'Elements', name: 'Mass face', when: 'A Mass face is played', files: ['joust-mass'] },
+    { id: 'ether-C', group: 'Elements', name: 'Charge face', when: 'A Charge face is played', files: ['joust-charge'] },
+    { id: 'ether-S', group: 'Elements', name: 'Space face', when: 'A Space face is played', files: ['joust-space'] },
+    { id: 'ether-T', group: 'Elements', name: 'Time face', when: 'A Time face is played', files: ['joust-time'] },
+    {
+      id: 'ally-M',
+      group: 'Elements',
+      name: 'Mass help',
+      when: 'A Mass face helps a pilot',
+      files: ['ally-mass'],
+      vol: 0.6,
+    },
+    {
+      id: 'ally-C',
+      group: 'Elements',
+      name: 'Charge help',
+      when: 'A Charge face helps a pilot',
+      files: ['ally-charge'],
+      vol: 0.6,
+    },
+    {
+      id: 'ally-S',
+      group: 'Elements',
+      name: 'Space help',
+      when: 'A Space face helps a pilot',
+      files: ['ally-space'],
+      vol: 0.6,
+    },
+    {
+      id: 'ally-T',
+      group: 'Elements',
+      name: 'Time help',
+      when: 'A Time face helps a pilot',
+      files: ['ally-time'],
+      vol: 0.6,
+    },
+    {
+      id: 'comeback-M',
+      group: 'Elements',
+      name: 'Mass comeback',
+      when: 'A pilot rises again (Mass die)',
+      files: ['comeback-mass'],
+    },
+    {
+      id: 'comeback-C',
+      group: 'Elements',
+      name: 'Charge comeback',
+      when: 'A pilot rises again (Charge die)',
+      files: ['comeback-charge'],
+    },
+    {
+      id: 'comeback-S',
+      group: 'Elements',
+      name: 'Space comeback',
+      when: 'A pilot rises again (Space die)',
+      files: ['comeback-space'],
+    },
+    {
+      id: 'comeback-T',
+      group: 'Elements',
+      name: 'Time comeback',
+      when: 'A pilot rises again (Time die)',
+      files: ['comeback-time'],
+    },
+    {
+      id: 'omni',
+      group: 'Elements',
+      name: 'Physical face',
+      when: 'A Physical or Omni face is played',
+      files: ['boost'],
+      vol: 0.7,
+    },
+  ];
+  const BY = Object.fromEntries(SFX.map((s) => [s.id, s]));
+
+  /* ───────────── levels ───────────── */
+  const P = () => U.prefs || {};
+  const on = () => U.sound !== false;
+  const lvl = (v) => Math.max(0, Math.min(100, Number(v) || 0)) / 100;
+  /** The effects level, 0 to ~1.4: master × effects, 1 at the defaults (the synth's own scale). */
+  const fxLevel = () => (on() && !P().muteFx ? lvl(P().master == null ? 100 : P().master) * (lvl(P().fx) / 0.7) : 0);
+  /** The music level for an <audio> element, 0 to 1: a square law, so the slider's middle sounds like the middle. */
+  const musicLevel = () =>
+    on() && !P().muteMusic ? Math.min(1, lvl(P().master == null ? 100 : P().master) * Math.pow(lvl(P().music), 2)) : 0;
+
+  /* ───────────── effects ───────────── */
+  let ctx = null;
+  const buf = {};
+  const loading = {};
+  function audioCtx() {
+    if (!browser) return null;
+    try {
+      ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+      if (ctx.state === 'suspended') ctx.resume();
+      return ctx;
+    } catch (e) {
+      return null;
+    }
+  }
+  function load(file) {
+    if (buf[file] || loading[file]) return;
+    const url = SRC()['sfx/' + file];
+    const a = audioCtx();
+    if (!url || !a || typeof fetch === 'undefined') return;
+    loading[file] = fetch(url)
+      .then((r) => r.arrayBuffer())
+      .then((b) => new Promise((res, rej) => a.decodeAudioData(b, res, rej)))
+      .then((b) => (buf[file] = b))
+      .catch(() => {
+        loading[file] = 'failed'; // the synth keeps answering for this one
+      });
+  }
+  /** Fetch and decode every effect now (after the first tap or key, when the browser lets a page make sound). */
+  function preload() {
+    for (const s of SFX) for (const f of s.files) load(f);
+  }
+  /**
+   * Play an effect by its id (SFX above). True when it played (or was meant to be silent); false when its
+   * file is not ready, so the caller can fall back to the synth. `force` plays it even when effects are
+   * muted (the Audio studio's preview), at the effects slider's level or half volume.
+   */
+  function cue(id, o) {
+    o = o || {};
+    const s = BY[id];
+    if (!s || !browser) return false;
+    let g = fxLevel();
+    if (o.force && g <= 0) g = Math.max(0.5, lvl(P().fx) / 0.7);
+    if (g <= 0) return true;
+    const file = s.files[Math.floor(Math.random() * s.files.length)];
+    const b = buf[file];
+    if (!b) {
+      load(file);
+      return false;
+    }
+    const a = audioCtx();
+    if (!a) return false;
+    try {
+      const src = a.createBufferSource();
+      src.buffer = b;
+      // a little variety: no two hits quite the same
+      src.playbackRate.value = (s.rate || 1) * (o.rate || 1) * (o.exact ? 1 : 0.96 + Math.random() * 0.08);
+      const gain = a.createGain();
+      gain.gain.value = 0.55 * g * (s.vol == null ? 1 : s.vol) * (o.vol == null ? 1 : o.vol);
+      src.connect(gain);
+      gain.connect(a.destination);
+      src.start(a.currentTime + Math.max(0, (o.at || 0) / 1000));
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+  U.cue = cue;
+
+  // A cue played by an action below takes the place of that action's plain click in the same moment.
+  let quiet = 0;
+  const hush = () => {
+    quiet = Date.now() + 80;
+  };
+  /** Cosmic Shore's sounds in place of the synth's, where one fits; the synth stays as the fallback. */
+  function swap(name, pick) {
+    const synth = U.sfx && U.sfx[name];
+    if (!U.sfx) return;
+    U.sfx[name] = function () {
+      const id = pick.apply(null, arguments);
+      if (id === null) return; // answered elsewhere (the show's own cues)
+      if (id && cue(id)) return;
+      if (synth) synth.apply(null, arguments);
+    };
+  }
+  if (U.sfx) {
+    U.sfx.hitSynth = U.sfx.hit; // the show falls back to it while the impact file loads
+    swap('click', () => (Date.now() < quiet ? null : 'click'));
+    // a blow is sounded by the show (src/ui/show.js) as it lands, in time with the beam
+    swap('hit', () => (U.showFx ? null : 'impact'));
+    swap('heal', () => 'heal');
+    swap('shield', () => 'shieldUp');
+    swap('whoosh', () => 'push');
+    swap('fall', () => 'kill');
+    swap('tap', () => 'omni');
+    swap('ether', (el) => (BY['ether-' + el] ? 'ether-' + el : 'omni'));
+    swap('reveal', () => 'shatter');
+    swap('trap', () => 'trap');
+    swap('readout', () => 'score');
+    swap('turn', () => 'switch');
+    swap('goal', (done) => (done ? 'goal' : 'smallReward'));
+    swap('win', () => 'bigReward');
+    swap('lose', () => 'gameOver');
+    // the dice keep the synth's clatter (roll, land): nothing in Cosmic Shore is a die
+  }
+
+  /** The board's other moments, from the same effects queue the feel and the show read (mission.js playFx). */
+  const elOfCard = (id) => {
+    const c = T.CARD && T.CARD[id];
+    return c ? (c.E && c.E.elt) || c.el : null;
+  };
+  if (U.feelFx) {
+    const feel = U.feelFx;
+    const KIND = ['Shield', 'Hidden', 'Empower', 'Preempt', 'Thorns', 'Engine', 'Linked', 'Anchored'];
+    let lastEl = null; // the element of the last Ethereal face played, for the help it gives
+    let helped = 0;
+    U.feelFx = function (m, f, ent, node, delay) {
+      const r = feel.apply(this, arguments);
+      const at = { at: delay || 0 };
+      const hero = (uid) => m && m.heroes && m.heroes.find((x) => x.uid === uid);
+      switch (f.t) {
+        case 'play': {
+          const c = T.CARD && T.CARD[f.card];
+          lastEl = c && f.face === 'E' ? (c.E && c.E.elt) || c.el : null;
+          helped = 0;
+          break;
+        }
+        case 'down':
+          cue('downed', at);
+          break;
+        case 'revive': {
+          const h = hero(f.ent);
+          const k = h && h.rollPick && h.rollPick[0];
+          const el = /^[MCST]$/.test(k || '') ? k : 'T';
+          cue('comeback-' + el, at);
+          break;
+        }
+        case 'phase2':
+          cue('boom', at);
+          break;
+        case 'spawn':
+        case 'decoy':
+          cue('spawn', at);
+          break;
+        case 'gear':
+          cue('pickup', at);
+          break;
+        case 'move':
+          if (!f.how && f.from == null) cue('bump', at); // knocked back
+          break;
+        case 'state':
+          // a helping state on a pilot rings in the colour of the Ethereal face that gave it, once a play
+          if (lastEl && !helped && BY['ally-' + lastEl] && hero(f.ent) && KIND.includes(f.name)) {
+            helped = 1;
+            cue('ally-' + lastEl, at);
+          }
+          break;
+      }
+      return r;
+    };
+  }
+
+  /** Actions that get a sound of their own, ahead of every screen's handler (which then skips its click). */
+  const ACT_CUE = {
+    takeCard: 'confirm',
+    evTakeCard: 'confirm',
+    amRwCard: 'confirm',
+    amRwHero: 'confirm',
+    kitPick: 'confirm',
+    adoptPet: 'confirm',
+    eventOpt: 'confirm',
+    choice: 'confirm',
+    skipCard: 'switch',
+    evSkipCard: 'switch',
+    endRound: 'switch',
+    train: 'upgrade',
+    upRun: 'upgrade',
+    autoUpRun: 'upgrade',
+    amUpCard: 'upgrade',
+    amUpFace: 'upgrade',
+    buyGear: 'redeem',
+    sellGear: 'redeem',
+    goNode: 'travel',
+    undo: 'undo',
+    newRun: 'letsgo',
+    newRunSolo: 'letsgo',
+    playNow: 'letsgo',
+    continueRun: 'letsgo',
+    selHero: 'hover',
+    selHeroTok: 'hover',
+    quitToTitle: 'close',
+    toTitle: 'close',
+  };
+  function actCue(act) {
+    const id = ACT_CUE[act];
+    if (id && cue(id)) hush();
+    return false; // never takes the action: the screens still do it
+  }
+  (U.ACTS = U.ACTS || []).unshift(actCue);
+
+  /* ───────────── music ───────────── */
+  const M = {
+    el: null,
+    cur: null,
+    mood: null,
+    pinned: false, // played from the studio: it plays to its end before the screen chooses again
+    paused: false,
+    started: false,
+    history: [],
+    fades: [],
+  };
+  const urlOf = (id) => SRC()['music/' + id];
+  const available = () => TRACKS.filter((t) => urlOf(t.id));
+  const rotation = () => {
+    const off = P().musicOff || [];
+    const r = available().filter((t) => !off.includes(t.id));
+    return r.length ? r : available();
+  };
+  function moodNow() {
+    const s = U.screen;
+    if (s === 'mission') {
+      const m = U.run && U.run.mission;
+      return m && m.over && m.won ? 'after' : 'mission';
+    }
+    if (s === 'draft') return 'draft';
+    if (s === 'map' || s === 'reward' || s === 'haven' || s === 'event') return 'route';
+    if (s === 'summary') return U.run && U.run.won ? 'after' : 'route';
+    return 'menu';
+  }
+  const fits = (t, mood) => !!t && (P().musicMode === 'shuffle' || t.moods.includes(mood));
+  function pick(mood) {
+    const r = rotation();
+    if (!r.length) return null;
+    const pool = P().musicMode === 'shuffle' ? r : r.filter((t) => t.moods.includes(mood));
+    const from = pool.length ? pool : r;
+    const fresh = from.filter((t) => t.id !== M.cur && !M.history.slice(-2).includes(t.id));
+    const list = fresh.length
+      ? fresh
+      : from.filter((t) => t.id !== M.cur).length
+        ? from.filter((t) => t.id !== M.cur)
+        : from;
+    return list[Math.floor(Math.random() * list.length)];
+  }
+  function fade(el, to, ms, then) {
+    const from = el.volume;
+    const t0 = Date.now();
+    const id = setInterval(() => {
+      const k = Math.min(1, (Date.now() - t0) / ms);
+      try {
+        el.volume = Math.max(0, Math.min(1, from + (to - from) * k));
+      } catch (e) {}
+      if (k >= 1) {
+        clearInterval(id);
+        M.fades = M.fades.filter((x) => x !== id);
+        if (then) then();
+      }
+    }, 50);
+    M.fades.push(id);
+  }
+  /** Start a track (crossfading from the one playing). */
+  function play(id, o) {
+    o = o || {};
+    const t = TRACKS.find((x) => x.id === id);
+    const url = t && urlOf(t.id);
+    if (!browser || !url) return false;
+    const old = M.el;
+    if (old) {
+      old.onended = null;
+      fade(old, 0, o.cut ? 150 : 1400, () => {
+        try {
+          old.pause();
+          old.removeAttribute('src');
+          old.load();
+        } catch (e) {}
+      });
+    }
+    let el;
+    try {
+      el = new Audio();
+    } catch (e) {
+      return false;
+    }
+    el.preload = 'auto';
+    el.src = url;
+    el.volume = 0;
+    el.loop = P().musicMode === 'one';
+    el.onended = () => next(true);
+    M.el = el;
+    if (M.cur && M.cur !== id) M.history.push(M.cur);
+    if (M.history.length > 20) M.history.shift();
+    M.cur = id;
+    M.pinned = !!o.pinned;
+    M.paused = false;
+    const go = el.play();
+    if (go && go.catch) go.catch(() => (M.paused = true)); // not allowed yet: the next tap starts it
+    fade(el, musicLevel(), 1400);
+    refresh();
+    return true;
+  }
+  /** The next track: the screen's choice, or anything in the rotation when shuffling. */
+  function next(ended) {
+    let mood = M.mood || moodNow();
+    if (ended && mood === 'after') mood = 'route'; // the outro plays once
+    const t = pick(mood);
+    if (t) play(t.id);
+  }
+  function prev() {
+    const id = M.history.pop();
+    if (id) {
+      const keep = M.cur;
+      play(id, { pinned: true });
+      M.history = M.history.filter((x) => x !== keep);
+    } else if (M.el) M.el.currentTime = 0;
+  }
+  function toggle() {
+    if (!M.el) return next();
+    if (M.el.paused) {
+      M.paused = false;
+      const go = M.el.play();
+      if (go && go.catch) go.catch(() => {});
+      fade(M.el, musicLevel(), 400);
+    } else {
+      M.paused = true;
+      M.el.pause();
+    }
+    refresh();
+  }
+  /** Follow the screen: a new mood changes the track unless the one playing suits it too (or was chosen). */
+  function scene() {
+    if (!browser) return;
+    const mood = moodNow();
+    const was = M.mood;
+    M.mood = mood;
+    if (!M.started || M.paused) return;
+    const t = TRACKS.find((x) => x.id === M.cur);
+    if (!M.el || !t) return next();
+    if (mood !== was && !M.pinned && !fits(t, mood)) next();
+    else if (mood === 'after' && was !== 'after' && !M.pinned && P().musicMode !== 'one') next();
+  }
+  /** Apply the volumes now (a slider moved, a mute pressed, sound switched off). */
+  function sync() {
+    if (M.el && !M.paused) {
+      M.fades.forEach(clearInterval);
+      M.fades = [];
+      try {
+        M.el.volume = musicLevel();
+        M.el.loop = P().musicMode === 'one';
+      } catch (e) {}
+    }
+    if (M.started && !M.el && musicLevel() > 0) next();
+  }
+  /** The first tap or key: the browser now lets the page make sound. */
+  function unlock() {
+    if (M.started) return;
+    M.started = true;
+    audioCtx();
+    preload();
+    if (M.paused && M.el) toggle();
+    else scene();
+  }
+  if (browser) {
+    ['pointerdown', 'keydown', 'touchstart'].forEach((ev) =>
+      document.addEventListener(ev, unlock, { capture: true, passive: true }),
+    );
+    const render = U.render;
+    if (render)
+      U.render = function () {
+        const r = render.apply(this, arguments);
+        scene();
+        startTick();
+        return r;
+      };
+  }
+  U.audio = {
+    TRACKS,
+    SFX,
+    MOODS,
+    cue,
+    play,
+    next,
+    prev,
+    toggle,
+    sync,
+    scene,
+    available,
+    now: () => ({
+      id: M.cur,
+      track: TRACKS.find((t) => t.id === M.cur) || null,
+      playing: !!(M.el && !M.el.paused),
+      time: M.el ? M.el.currentTime || 0 : 0,
+      dur: M.el && isFinite(M.el.duration) ? M.el.duration : 0,
+      mood: M.mood,
+    }),
+  };
+
+  /* ───────────── the Audio studio (Settings) ───────────── */
+  const clock = (s) => {
+    s = Math.max(0, Math.floor(s || 0));
+    return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
+  };
+  const LEVELS = [
+    ['master', 'Master', 'Everything Tumult plays', 'sound'],
+    ['music', 'Music', "Cosmic Shore's soundtrack", 'muteMusic'],
+    ['fx', 'Effects', 'Cards, blows, menus and the dice', 'muteFx'],
+  ];
+  function muted(which) {
+    return which === 'master' ? !on() : !!P()[which === 'music' ? 'muteMusic' : 'muteFx'];
+  }
+  const speaker = (off) =>
+    `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/>${off ? '<path d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' : '<path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>'}</svg>`;
+  /** One level: its mute and its slider. `compact` for the quick panel. */
+  function levelRow([id, name, sub], compact) {
+    const v = P()[id] == null ? (id === 'master' ? 100 : 60) : P()[id];
+    const off = muted(id);
+    return `<div class="au-lvl${off ? ' off' : ''}"><button class="au-mute" data-act="auMute" data-arg="${id}" aria-pressed="${off}" aria-label="${off ? 'Unmute' : 'Mute'} ${esc(name)}" data-tip="${off ? 'Unmute' : 'Mute'}">${speaker(off)}</button><span class="au-ln"><b>${esc(name)}</b>${compact ? '' : `<small>${esc(sub)}</small>`}</span><input type="range" min="0" max="100" step="5" value="${v}" data-input="auVol" data-arg="${id}" aria-label="${esc(name)} volume"><span class="au-num" data-au-num="${id}">${v}</span></div>`;
+  }
+  U.audioLevelsHTML = (compact) =>
+    `<div class="au-levels${compact ? ' compact' : ''}">${LEVELS.map((l) => levelRow(l, compact)).join('')}</div>`;
+  const MODES = [
+    ['game', 'Follow the game'],
+    ['shuffle', 'Shuffle all'],
+    ['one', 'Repeat one'],
+  ];
+  function nowHTML(compact) {
+    const n = U.audio.now();
+    const t = n.track;
+    const pct = n.dur ? Math.min(100, (n.time / n.dur) * 100) : 0;
+    const title = t ? t.title : available().length ? 'Nothing playing yet' : 'No music in this file';
+    const sub = t
+      ? (n.playing ? 'Playing' : 'Paused') + (n.mood ? ' · ' + MOODS[n.mood] + ' screen' : '')
+      : available().length
+        ? 'Tap anywhere and the soundtrack starts'
+        : 'The web version carries the soundtrack';
+    const btn = (act, label, icon, extra) =>
+      `<button class="au-tp${extra || ''}" data-act="${act}" aria-label="${label}" data-tip="${label}">${icon}</button>`;
+    return `<div class="au-now${n.playing ? ' playing' : ''}${compact ? ' compact' : ''}"><div class="au-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div class="au-np"><span class="au-kick">Now playing</span><b class="au-title">${esc(title)}</b><small class="au-sub">${esc(sub)}</small><div class="au-bar"><span class="au-fill" style="width:${pct.toFixed(1)}%"></span></div><span class="au-time"><span data-au-t>${clock(n.time)}</span><span>${n.dur ? clock(n.dur) : '–:––'}</span></span></div><div class="au-tps">${btn('auPrev', 'Back', '⏮')}${btn('auToggle', n.playing ? 'Pause' : 'Play', n.playing ? '❚❚' : '▶', ' main')}${btn('auNext', 'Skip', '⏭')}</div></div>`;
+  }
+  U.audioNowHTML = nowHTML;
+  function tracksHTML() {
+    const off = P().musicOff || [];
+    const n = U.audio.now();
+    const inRot = TRACKS.filter((t) => urlOf(t.id) && !off.includes(t.id)).length;
+    const rows = TRACKS.map((t, i) => {
+      const has = !!urlOf(t.id);
+      const ticked = has && !off.includes(t.id);
+      const here = n.id === t.id;
+      return `<div class="au-row${here ? ' here' : ''}${has ? '' : ' gone'}"><span class="au-i">${here && n.playing ? '<span class="au-eq sm"><i></i><i></i><i></i></span>' : String(i + 1).padStart(2, '0')}</span><button class="au-play" data-act="auPlay" data-arg="${t.id}" ${has ? '' : 'disabled'} aria-label="Play ${esc(t.title)} now"><b>${esc(t.title)}</b><small>${has ? t.moods.map((m) => MOODS[m]).join(' · ') : 'In the web version'}</small></button><button class="au-tick${ticked ? ' on' : ''}" data-act="auRot" data-arg="${t.id}" ${has ? '' : 'disabled'} role="switch" aria-checked="${ticked}" aria-label="${esc(t.title)} in the rotation" data-tip="${ticked ? 'In the rotation' : 'Left out of the rotation'}">${ticked ? '✓' : ''}</button></div>`;
+    }).join('');
+    return `<div class="au-tracks-head"><span class="au-count">${inRot} of ${available().length} in rotation</span><div class="seg" role="group" aria-label="What plays next">${MODES.map(([id, name]) => `<button class="${(P().musicMode || 'game') === id ? 'on' : ''}" aria-pressed="${(P().musicMode || 'game') === id}" data-act="auMode" data-arg="${id}">${esc(name)}</button>`).join('')}</div></div><div class="au-tracks">${rows}</div>`;
+  }
+  function sfxHTML() {
+    const groups = [...new Set(SFX.map((s) => s.group))];
+    return groups
+      .map(
+        (g) =>
+          `<div class="au-group"><span class="au-gl">${esc(g)}</span><div class="au-pads">${SFX.filter(
+            (s) => s.group === g,
+          )
+            .map(
+              (s) =>
+                `<button class="au-pad${s.files.some((f) => SRC()['sfx/' + f]) ? '' : ' gone'}" data-act="auSfx" data-arg="${s.id}" aria-label="Preview ${esc(s.name)}"><span class="au-pi">▶</span><b>${esc(s.name)}</b><small>${esc(s.when)}</small></button>`,
+            )
+            .join('')}</div></div>`,
+      )
+      .join('');
+  }
+  /** The Audio studio: Settings' Audio tab. */
+  U.audioStudioHTML = function () {
+    return `<div class="au-studio"><div class="au-side"><section class="st-card au-card"><span class="lab gold">Mixer</span>${U.audioLevelsHTML(false)}</section>
+      <section class="st-card au-card"><span class="lab gold">Player</span>${nowHTML(false)}</section></div>
+      <section class="st-card au-card au-sound"><span class="lab gold">Soundtrack</span>${tracksHTML()}<small class="dim">Follow the game plays what suits the screen: calm in the menus, the draft and on the route, harder in a mission, the outro after a win. Untick a track to leave it out.</small></section>
+      <section class="st-card au-card au-fx"><span class="lab gold">Effects</span><small class="dim">Press one to hear it. Every one is Cosmic Shore's, played where it fits in Tumult.</small>${sfxHTML()}</section></div>`;
+  };
+
+  /** Keep the player's clock and bar moving while it is on screen, without redrawing the page. */
+  function refresh() {
+    if (!browser) return;
+    document.querySelectorAll('.au-now').forEach((box) => {
+      box.outerHTML = nowHTML(box.classList.contains('compact'));
+    });
+    const list = document.querySelector('.au-tracks');
+    if (list) {
+      const head = document.querySelector('.au-tracks-head');
+      const wrap = document.createElement('div');
+      wrap.innerHTML = tracksHTML();
+      if (head) head.replaceWith(wrap.firstElementChild);
+      list.replaceWith(wrap.lastElementChild);
+    }
+    startTick();
+  }
+  // only while a player is on screen and music is playing, so a closed page or a test leaves no timer running
+  let ticking = null;
+  function tick() {
+    const boxes = browser ? document.querySelectorAll('.au-now') : [];
+    if (!boxes.length || !M.el || M.el.paused) {
+      clearInterval(ticking);
+      ticking = null;
+      return;
+    }
+    const n = U.audio.now();
+    boxes.forEach((box) => {
+      const f = box.querySelector('.au-fill');
+      const t = box.querySelector('[data-au-t]');
+      if (f && n.dur) f.style.width = ((n.time / n.dur) * 100).toFixed(1) + '%';
+      if (t) t.textContent = clock(n.time);
+      if (t && t.nextElementSibling && n.dur) t.nextElementSibling.textContent = clock(n.dur);
+    });
+  }
+  function startTick() {
+    if (!ticking && browser && M.el && !M.el.paused && document.querySelector('.au-now'))
+      ticking = setInterval(tick, 500);
+  }
+
+  function save() {
+    if (U.savePrefs) U.savePrefs();
+  }
+  function studioAct(act, arg) {
+    switch (act) {
+      case 'auMute':
+        if (arg === 'master') U.sound = !on();
+        else if (arg === 'music') P().muteMusic = !P().muteMusic;
+        else P().muteFx = !P().muteFx;
+        save();
+        sync();
+        redraw();
+        if (arg !== 'music') cue('click');
+        return true;
+      case 'auPlay':
+        M.started = true;
+        play(arg, { pinned: true });
+        return true;
+      case 'auToggle':
+        M.started = true;
+        toggle();
+        return true;
+      case 'auNext':
+        M.started = true;
+        M.pinned = false;
+        next();
+        return true;
+      case 'auPrev':
+        M.started = true;
+        prev();
+        return true;
+      case 'auMode':
+        P().musicMode = arg;
+        save();
+        sync();
+        refresh();
+        return true;
+      case 'auRot': {
+        const off = new Set(P().musicOff || []);
+        if (off.has(arg)) off.delete(arg);
+        else off.add(arg);
+        P().musicOff = [...off];
+        save();
+        refresh();
+        return true;
+      }
+      case 'auSfx':
+        if (!cue(arg, { force: true })) {
+          // not decoded yet: fetch it and play it the moment it is here
+          const s = BY[arg];
+          if (s) s.files.forEach(load);
+          setTimeout(() => cue(arg, { force: true }), 250);
+        }
+        return true;
+    }
+    return false;
+  }
+  function redraw() {
+    if (!browser) return;
+    document.querySelectorAll('.au-levels').forEach((box) => {
+      box.outerHTML = U.audioLevelsHTML(box.classList.contains('compact'));
+    });
+    if (U.screen !== 'settings' && !(U.modal && U.modal.side)) U.render();
+  }
+  function studioInput(name, value, el) {
+    if (name !== 'auVol' || !el) return false;
+    const id = el.getAttribute('data-arg');
+    P()[id] = Math.max(0, Math.min(100, Math.round(Number(value) || 0)));
+    document.querySelectorAll(`[data-au-num="${id}"]`).forEach((n) => (n.textContent = P()[id]));
+    save();
+    sync();
+    if (id !== 'music') {
+      clearTimeout(studioInput.t);
+      studioInput.t = setTimeout(() => cue('click'), 60); // hear the level as you set it
+    }
+    return true;
+  }
+  (U.ACTS = U.ACTS || []).push(studioAct);
+  (U.INPUTS = U.INPUTS || []).push(studioInput);
+})((window.T = window.T || {}));
 
 
 /* ───── web/server.js ───── */
