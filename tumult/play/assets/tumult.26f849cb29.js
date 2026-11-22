@@ -1,5 +1,5 @@
 window.T = window.T || {};
-window.T.BUILD = {"version":"2.130.1","playtest":false};
+window.T.BUILD = {"version":"2.131.0","playtest":false};
 window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"assets/pilots/ALOIX.43e4999b34.jpg","pilot/ANOTH":"assets/pilots/ANOTH.8c8ba3872e.jpg","pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVIL":"assets/pilots/ANVIL.d03812188c.jpg","pilot/ARARA":"assets/pilots/ARARA.a9a5f5e370.jpg","pilot/ARILIA":"assets/pilots/ARILIA.811131207d.jpg","pilot/ASTROFOIL":"assets/pilots/ASTROFOIL.5c9fa6f14d.jpg","pilot/ATHARA":"assets/pilots/ATHARA.566837ceea.jpg","pilot/BANDIT":"assets/pilots/BANDIT.09391a446f.jpg","pilot/BELBERIN":"assets/pilots/BELBERIN.fe552f843d.jpg","pilot/BELDIRI":"assets/pilots/BELDIRI.bb899d0989.jpg","pilot/BELKO":"assets/pilots/BELKO.bf1893ac6e.jpg","pilot/BELMIDEK":"assets/pilots/BELMIDEK.9f9b46dd53.jpg","pilot/BELRENRO":"assets/pilots/BELRENRO.a8d1afd2ec.jpg","pilot/BELSIAR":"assets/pilots/BELSIAR.3421845c80.jpg","pilot/BELSOTH":"assets/pilots/BELSOTH.ddc38ecbd4.jpg","pilot/BELTHALY":"assets/pilots/BELTHALY.9ca6a590b5.jpg","pilot/BELWEN":"assets/pilots/BELWEN.bdae9555bc.jpg","pilot/BRILOLIA":"assets/pilots/BRILOLIA.8c33011094.jpg","pilot/BRIOLA":"assets/pilots/BRIOLA.d016ba9df1.jpg","pilot/BRIRAIX":"assets/pilots/BRIRAIX.ad5523ef69.jpg","pilot/BRISH":"assets/pilots/BRISH.7ffedf9d77.jpg","pilot/BRISILIA":"assets/pilots/BRISILIA.55b830452a.jpg","pilot/BUSHY":"assets/pilots/BUSHY.22cbdd91fa.jpg","pilot/CABEANE":"assets/pilots/CABEANE.a3f9f37902.jpg","pilot/CAKOOLA":"assets/pilots/CAKOOLA.410a91f525.jpg","pilot/CALADEK":"assets/pilots/CALADEK.4b0d375c6b.jpg","pilot/CALAOLA":"assets/pilots/CALAOLA.7d0d031d3c.jpg","pilot/CALOSH":"assets/pilots/CALOSH.a4d55479d5.jpg","pilot/CANUAR":"assets/pilots/CANUAR.224b61c8a2.jpg","pilot/CARIEL":"assets/pilots/CARIEL.5798c71984.jpg","pilot/CARIO":"assets/pilots/CARIO.fcc67b00ee.jpg","pilot/CITADEL":"assets/pilots/CITADEL.ee7edc065c.jpg","pilot/COMET":"assets/pilots/COMET.0af72b6f6d.jpg","pilot/CORANE":"assets/pilots/CORANE.c7026949b3.jpg","pilot/CORBEEK":"assets/pilots/CORBEEK.78e1c6ddb3.jpg","pilot/CORBEMO":"assets/pilots/CORBEMO.46051982a0.jpg","pilot/CORLILIA":"assets/pilots/CORLILIA.658f4b32f5.jpg","pilot/CORN":"assets/pilots/CORN.65f73d8382.jpg","pilot/CORNDO":"assets/pilots/CORNDO.c16588c87e.jpg","pilot/CORRARIN":"assets/pilots/CORRARIN.879c9ccf14.jpg","pilot/DAMSEL":"assets/pilots/DAMSEL.adb17d42d3.jpg","pilot/DAREK":"assets/pilots/DAREK.1dfdf1341f.jpg","pilot/DARSOANE":"assets/pilots/DARSOANE.3f55e457c7.jpg","pilot/DARX":"assets/pilots/DARX.4434a58e68.jpg","pilot/DELKO":"assets/pilots/DELKO.5d1e306ef5.jpg","pilot/DELLALIA":"assets/pilots/DELLALIA.1672cffe6e.jpg","pilot/DELLIAR":"assets/pilots/DELLIAR.e5a0375180.jpg","pilot/DELLOANE":"assets/pilots/DELLOANE.73d7910dea.jpg","pilot/DELLORIN":"assets/pilots/DELLORIN.408027cb25.jpg","pilot/DELMADEK":"assets/pilots/DELMADEK.3a826e35b1.jpg","pilot/DELNURI":"assets/pilots/DELNURI.3db0ec910b.jpg","pilot/DELSOKO":"assets/pilots/DELSOKO.e4c15c3589.jpg","pilot/DOE":"assets/pilots/DOE.f54ac28b36.jpg","pilot/DOZER":"assets/pilots/DOZER.0c2e273a78.jpg","pilot/ECHO":"assets/pilots/ECHO.09a66c8cd4.jpg","pilot/EMAO":"assets/pilots/EMAO.d8fb6d5e8b.jpg","pilot/ENSIGN":"assets/pilots/ENSIGN.dc51eec735.jpg","pilot/FENKORA":"assets/pilots/FENKORA.725f42bbe3.jpg","pilot/FENLALIA":"assets/pilots/FENLALIA.c2507593a2.jpg","pilot/FENRA":"assets/pilots/FENRA.11faa43159.jpg","pilot/FENX":"assets/pilots/FENX.7305adac5b.jpg","pilot/FIEST":"assets/pilots/FIEST.ca4f6072bf.jpg","pilot/FLUME":"assets/pilots/FLUME.99e34640fa.jpg","pilot/FLUX":"assets/pilots/FLUX.53b20c2d11.jpg","pilot/GALBEMO":"assets/pilots/GALBEMO.f3284426f7.jpg","pilot/GALLEON":"assets/pilots/GALLEON.4007ec2ba5.jpg","pilot/GALLITH":"assets/pilots/GALLITH.5231762b0e.jpg","pilot/GALMAO":"assets/pilots/GALMAO.52299a1823.jpg","pilot/GALSOLY":"assets/pilots/GALSOLY.fa08182309.jpg","pilot/GALSOOLA":"assets/pilots/GALSOOLA.4c636b23c0.jpg","pilot/HABEAR":"assets/pilots/HABEAR.c1432e4446.jpg","pilot/HAN":"assets/pilots/HAN.1836d0f7c3.jpg","pilot/HORNET":"assets/pilots/HORNET.c42014a776.jpg","pilot/IDIO":"assets/pilots/IDIO.cdde754cbb.jpg","pilot/ILORIN":"assets/pilots/ILORIN.b99e2531b1.jpg","pilot/IRI":"assets/pilots/IRI.37eadaad4b.jpg","pilot/ISOLO":"assets/pilots/ISOLO.2fb9735223.jpg","pilot/ITHAX":"assets/pilots/ITHAX.0ead69e72c.jpg","pilot/IVY":"assets/pilots/IVY.473c6f1896.jpg","pilot/JODIOLA":"assets/pilots/JODIOLA.1f05357781.jpg","pilot/JORIRO":"assets/pilots/JORIRO.58e95a465f.jpg","pilot/JORO":"assets/pilots/JORO.c85885531a.jpg","pilot/JOSORA":"assets/pilots/JOSORA.1cebcfd064.jpg","pilot/JOTHAAR":"assets/pilots/JOTHAAR.b0ce1e8cfd.jpg","pilot/JOUS":"assets/pilots/JOUS.1441533e13.jpg","pilot/JUGGER":"assets/pilots/JUGGER.586ce53079.jpg","pilot/KABEN":"assets/pilots/KABEN.11aeb58071.jpg","pilot/KADIWEN":"assets/pilots/KADIWEN.b7c104428c.jpg","pilot/KALARA":"assets/pilots/KALARA.dcf1fb3cb3.jpg","pilot/KAMASH":"assets/pilots/KAMASH.3f121ebad5.jpg","pilot/KARIIX":"assets/pilots/KARIIX.26a2fc2eb5.jpg","pilot/KASH":"assets/pilots/KASH.e0ac12c2b3.jpg","pilot/KRUSH":"assets/pilots/KRUSH.334b99716e.jpg","pilot/LONGSHIFT":"assets/pilots/LONGSHIFT.ddbb54691b.jpg","pilot/LUDIRA":"assets/pilots/LUDIRA.650f72fc2c.jpg","pilot/LULAANE":"assets/pilots/LULAANE.b4607cb3ba.jpg","pilot/LULIIA":"assets/pilots/LULIIA.faec6f17f0.jpg","pilot/LUNULO":"assets/pilots/LUNULO.c34b9c91ea.jpg","pilot/MAESTRO":"assets/pilots/MAESTRO.a123e74967.jpg","pilot/MAIX":"assets/pilots/MAIX.4b2949e043.jpg","pilot/MAKOOLA":"assets/pilots/MAKOOLA.d012951ffc.jpg","pilot/MALIMO":"assets/pilots/MALIMO.46cca662aa.jpg","pilot/MALOANE":"assets/pilots/MALOANE.fb0febbb8f.jpg","pilot/MAMAOLA":"assets/pilots/MAMAOLA.fd43dae51a.jpg","pilot/MAMO":"assets/pilots/MAMO.e7c7558b96.jpg","pilot/MANGER":"assets/pilots/MANGER.a0cc5e1ece.jpg","pilot/MASON":"assets/pilots/MASON.bb77e506ba.jpg","pilot/MATA":"assets/pilots/MATA.df79b0b771.jpg","pilot/MIBEN":"assets/pilots/MIBEN.ee2acc08ee.jpg","pilot/MILAWEN":"assets/pilots/MILAWEN.3fc4c98f63.jpg","pilot/MILOLY":"assets/pilots/MILOLY.7672bea8a5.jpg","pilot/MIRAVE":"assets/pilots/MIRAVE.860273dbe5.jpg","pilot/MIRIN":"assets/pilots/MIRIN.02fa308242.jpg","pilot/MIRIOLA":"assets/pilots/MIRIOLA.9f4cc46468.jpg","pilot/MIRISA":"assets/pilots/MIRISA.b07a8d02e5.jpg","pilot/MISISH":"assets/pilots/MISISH.14775cdde4.jpg","pilot/NEEDLE":"assets/pilots/NEEDLE.5c9752c43d.jpg","pilot/NEKOANE":"assets/pilots/NEKOANE.12595b28fc.jpg","pilot/NELASA":"assets/pilots/NELASA.9067cbecd6.jpg","pilot/NELOEL":"assets/pilots/NELOEL.bfd6c80df6.jpg","pilot/NEMAIX":"assets/pilots/NEMAIX.ba3482a3d6.jpg","pilot/NEMAMO":"assets/pilots/NEMAMO.99e0c5eb4e.jpg","pilot/NEMATH":"assets/pilots/NEMATH.35c2ca859f.jpg","pilot/NENUVE":"assets/pilots/NENUVE.94f14ed8e5.jpg","pilot/NENUX":"assets/pilots/NENUX.f1d1bb0fe0.jpg","pilot/NETHAEL":"assets/pilots/NETHAEL.be820038e5.jpg","pilot/OLIA":"assets/pilots/OLIA.da6136c8fe.jpg","pilot/OLO":"assets/pilots/OLO.9b6a4ab50b.jpg","pilot/OLOEL":"assets/pilots/OLOEL.69aed7c06d.jpg","pilot/OLONE":"assets/pilots/OLONE.4af0e1679c.jpg","pilot/OMAKO":"assets/pilots/OMAKO.ff8f9475a0.jpg","pilot/OMIX":"assets/pilots/OMIX.7e4cce2f55.jpg","pilot/OPAL":"assets/pilots/OPAL.f4ce50ebbd.jpg","pilot/ORA":"assets/pilots/ORA.4c9ef87a50.jpg","pilot/OTH":"assets/pilots/OTH.c00d404eac.jpg","pilot/OVEX":"assets/pilots/OVEX.0e23891b01.jpg","pilot/PEDIRI":"assets/pilots/PEDIRI.ff60b065ac.jpg","pilot/PEKOAR":"assets/pilots/PEKOAR.90011b2608.jpg","pilot/PELOWEN":"assets/pilots/PELOWEN.3961de0010.jpg","pilot/PEMIIX":"assets/pilots/PEMIIX.6e5f68277a.jpg","pilot/PENDO":"assets/pilots/PENDO.3a9665e717.jpg","pilot/PENOOLA":"assets/pilots/PENOOLA.2240a3f002.jpg","pilot/PERENSA":"assets/pilots/PERENSA.c2f79395b5.jpg","pilot/PEVETH":"assets/pilots/PEVETH.a7262bbee0.jpg","pilot/PEWEN":"assets/pilots/PEWEN.724de93a6c.jpg","pilot/QUIBEMO":"assets/pilots/QUIBEMO.cf223775f3.jpg","pilot/QUIKOTH":"assets/pilots/QUIKOTH.5b32c6fee0.jpg","pilot/QUILOX":"assets/pilots/QUILOX.74ddb1971a.jpg","pilot/RAMPART":"assets/pilots/RAMPART.d688721f54.jpg","pilot/REAPER":"assets/pilots/REAPER.fcf80ec2b0.jpg","pilot/RIPTIDE":"assets/pilots/RIPTIDE.4a3167f030.jpg","pilot/RODIIX":"assets/pilots/RODIIX.86e905da55.jpg","pilot/ROLAMO":"assets/pilots/ROLAMO.2eb683e84d.jpg","pilot/ROLODEK":"assets/pilots/ROLODEK.722a593429.jpg","pilot/ROSIRIN":"assets/pilots/ROSIRIN.d29bee21d7.jpg","pilot/ROSONDO":"assets/pilots/ROSONDO.66d75c34bc.jpg","pilot/SABERO":"assets/pilots/SABERO.1c5a6df9ce.jpg","pilot/SAMAIA":"assets/pilots/SAMAIA.2c22477f3f.jpg","pilot/SANUIA":"assets/pilots/SANUIA.57d607dc33.jpg","pilot/SARAX":"assets/pilots/SARAX.0b9ca8d036.jpg","pilot/SASOKO":"assets/pilots/SASOKO.78f94f903d.jpg","pilot/SATHAANE":"assets/pilots/SATHAANE.8061cd8012.jpg","pilot/SCALES":"assets/pilots/SCALES.87715f6be5.jpg","pilot/SHRAPNEL":"assets/pilots/SHRAPNEL.60bf432658.jpg","pilot/SIPHON":"assets/pilots/SIPHON.64319ecec6.jpg","pilot/SLINGSHOT":"assets/pilots/SLINGSHOT.782ce6f557.jpg","pilot/SPARE01":"assets/pilots/SPARE01.e7bb1001da.jpg","pilot/SPARE02":"assets/pilots/SPARE02.4661694d58.jpg","pilot/SPARE03":"assets/pilots/SPARE03.157488b8ca.jpg","pilot/SPARE04":"assets/pilots/SPARE04.8cee2a69f6.jpg","pilot/SPARE05":"assets/pilots/SPARE05.7b664e7e50.jpg","pilot/SPARE06":"assets/pilots/SPARE06.6784507633.jpg","pilot/SPARE07":"assets/pilots/SPARE07.b83ac8694b.jpg","pilot/SPARE08":"assets/pilots/SPARE08.0f29c38886.jpg","pilot/STRIDER":"assets/pilots/STRIDER.1f777221cb.jpg","pilot/SUNDIAL":"assets/pilots/SUNDIAL.e301dbb8a1.jpg","pilot/TAKOANE":"assets/pilots/TAKOANE.f587bc8275.jpg","pilot/TAKOUS":"assets/pilots/TAKOUS.7e9c0c4788.jpg","pilot/TALOLO":"assets/pilots/TALOLO.f410317b58.jpg","pilot/TALON":"assets/pilots/TALON.98273b2e9a.jpg","pilot/TAMO":"assets/pilots/TAMO.b86f11dac8.jpg","pilot/TANUWEN":"assets/pilots/TANUWEN.fcc7bda948.jpg","pilot/TENACIOUS":"assets/pilots/TENACIOUS.c0e1c59b06.jpg","pilot/TENDER":"assets/pilots/TENDER.83a2dbd7da.jpg","pilot/TOMAHAWK":"assets/pilots/TOMAHAWK.9de0540c54.jpg","pilot/TRACE":"assets/pilots/TRACE.6c835c4aad.jpg","pilot/UIX":"assets/pilots/UIX.0fe225230f.jpg","pilot/ULIA":"assets/pilots/ULIA.4a68fe9c11.jpg","pilot/ULINE":"assets/pilots/ULINE.ae7d05e530.jpg","pilot/ULOTH":"assets/pilots/ULOTH.71d6f7c78c.jpg","pilot/URO":"assets/pilots/URO.d153fb9c2a.jpg","pilot/UTHAEL":"assets/pilots/UTHAEL.0a0b4d057c.jpg","pilot/VERAO":"assets/pilots/VERAO.f428fc465b.jpg","pilot/VEVEOLA":"assets/pilots/VEVEOLA.2cb64352bc.jpg","pilot/VOLT":"assets/pilots/VOLT.80a1160ef3.jpg","pilot/WINGMAN":"assets/pilots/WINGMAN.8d484a3eaa.jpg","pilot/WYNE":"assets/pilots/WYNE.efc33aaea6.jpg","pilot/WYSOOLA":"assets/pilots/WYSOOLA.8c6ed6c54f.jpg","pilot/WYVE":"assets/pilots/WYVE.2bb9ad32fe.jpg","pilot/XABEDEK":"assets/pilots/XABEDEK.eabb0f810c.jpg","pilot/XALAAI":"assets/pilots/XALAAI.36e79f1ad5.jpg","pilot/XATHALO":"assets/pilots/XATHALO.d23dd174f6.jpg","pilot/XATHATA":"assets/pilots/XATHATA.f204d7c75c.jpg","pilot/YOMILIA":"assets/pilots/YOMILIA.b03bd1a399.jpg","pilot/YON":"assets/pilots/YON.10cd6d706c.jpg","pilot/YONE":"assets/pilots/YONE.a4357d30ec.jpg","pilot/YONOEK":"assets/pilots/YONOEK.a5e16f1f7d.jpg","pilot/YOVE":"assets/pilots/YOVE.45a3fec698.jpg","pilot/YOX":"assets/pilots/YOX.8a9d3ef821.jpg","pilot/ZEBEEL":"assets/pilots/ZEBEEL.228eb5f947.jpg","pilot/ZERIOLA":"assets/pilots/ZERIOLA.a42ba833dd.jpg","pilot/ZESONDO":"assets/pilots/ZESONDO.56538e063c.jpg","pilot/ZETH":"assets/pilots/ZETH.7549b5d26e.jpg","pilot/ZODIAC":"assets/pilots/ZODIAC.935c77c2bc.jpg","scene/AANE":"assets/scenes/AANE.19ab7f1c48.webp","scene/ALOIX":"assets/scenes/ALOIX.aaede637bf.webp","scene/ANOTH":"assets/scenes/ANOTH.849e56e96b.webp","scene/ANUDEK":"assets/scenes/ANUDEK.c7fc3c6d91.webp","scene/ANVIL":"assets/scenes/ANVIL.2e925512a0.webp","scene/ARARA":"assets/scenes/ARARA.c712c541d4.webp","scene/ARILIA":"assets/scenes/ARILIA.38d174512a.webp","scene/ASTROFOIL":"assets/scenes/ASTROFOIL.442347f8d5.webp","scene/ATHARA":"assets/scenes/ATHARA.5a0dc94b6b.webp","scene/BANDIT":"assets/scenes/BANDIT.9d2d80e3a6.webp","scene/BELBERIN":"assets/scenes/BELBERIN.9dc892d85d.webp","scene/BELDIRI":"assets/scenes/BELDIRI.7d790fdb67.webp","scene/BELKO":"assets/scenes/BELKO.56e1f880d8.webp","scene/BELMIDEK":"assets/scenes/BELMIDEK.7b1da9d6b0.webp","scene/BELRENRO":"assets/scenes/BELRENRO.dc9ff56a3a.webp","scene/BELSIAR":"assets/scenes/BELSIAR.a8eaf9d88b.webp","scene/BELSOTH":"assets/scenes/BELSOTH.54a3be9405.webp","scene/BELTHALY":"assets/scenes/BELTHALY.fa15ba2be1.webp","scene/BELWEN":"assets/scenes/BELWEN.767a6c0025.webp","scene/BRILOLIA":"assets/scenes/BRILOLIA.c6e8d0fca0.webp","scene/BRIOLA":"assets/scenes/BRIOLA.60d0f0ecf5.webp","scene/BRIRAIX":"assets/scenes/BRIRAIX.a6e34af4ca.webp","scene/BRISH":"assets/scenes/BRISH.b7278bc17a.webp","scene/BRISILIA":"assets/scenes/BRISILIA.ed69a87a70.webp","scene/BUSHY":"assets/scenes/BUSHY.37f0cffc7e.webp","scene/CABEANE":"assets/scenes/CABEANE.ae36719e11.webp","scene/CAKOOLA":"assets/scenes/CAKOOLA.1e9758eb23.webp","scene/CALADEK":"assets/scenes/CALADEK.ede525d8fd.webp","scene/CALAOLA":"assets/scenes/CALAOLA.6ba5fcbd98.webp","scene/CALOSH":"assets/scenes/CALOSH.c23b3c6773.webp","scene/CANUAR":"assets/scenes/CANUAR.40963d2f4a.webp","scene/CARIEL":"assets/scenes/CARIEL.09df404ab3.webp","scene/CARIO":"assets/scenes/CARIO.37cd14ba51.webp","scene/CITADEL":"assets/scenes/CITADEL.0c830e6ac4.webp","scene/COMET":"assets/scenes/COMET.738dc2177c.webp","scene/CORANE":"assets/scenes/CORANE.581f169af1.webp","scene/CORBEEK":"assets/scenes/CORBEEK.0873c8c795.webp","scene/CORBEMO":"assets/scenes/CORBEMO.9845817e52.webp","scene/CORLILIA":"assets/scenes/CORLILIA.e40de856b8.webp","scene/CORN":"assets/scenes/CORN.fb1b40e6f8.webp","scene/CORNDO":"assets/scenes/CORNDO.6755bf5e75.webp","scene/CORRARIN":"assets/scenes/CORRARIN.bf468113ff.webp","scene/DAMSEL":"assets/scenes/DAMSEL.59812cfeda.webp","scene/DAREK":"assets/scenes/DAREK.7ed92a3ef9.webp","scene/DARSOANE":"assets/scenes/DARSOANE.4b79c3c341.webp","scene/DARX":"assets/scenes/DARX.ff23e4f983.webp","scene/DELKO":"assets/scenes/DELKO.e44a3ebb31.webp","scene/DELLALIA":"assets/scenes/DELLALIA.56350ea109.webp","scene/DELLIAR":"assets/scenes/DELLIAR.4bc6f8803d.webp","scene/DELLOANE":"assets/scenes/DELLOANE.25922c8374.webp","scene/DELLORIN":"assets/scenes/DELLORIN.2d3d679877.webp","scene/DELMADEK":"assets/scenes/DELMADEK.cf8021a033.webp","scene/DELNURI":"assets/scenes/DELNURI.b339d62834.webp","scene/DELSOKO":"assets/scenes/DELSOKO.9dbe840e12.webp","scene/DOE":"assets/scenes/DOE.743094a514.webp","scene/DOZER":"assets/scenes/DOZER.bac0ce0f02.webp","scene/ECHO":"assets/scenes/ECHO.51b039badf.webp","scene/EMAO":"assets/scenes/EMAO.ef58a4cac6.webp","scene/ENSIGN":"assets/scenes/ENSIGN.41d1bdb5e2.webp","scene/FENKORA":"assets/scenes/FENKORA.ca6f5e4882.webp","scene/FENLALIA":"assets/scenes/FENLALIA.baec7fbcfd.webp","scene/FENRA":"assets/scenes/FENRA.a47ec27e47.webp","scene/FENX":"assets/scenes/FENX.328d8fd42c.webp","scene/FIEST":"assets/scenes/FIEST.29ffa75d52.webp","scene/FLUME":"assets/scenes/FLUME.831e812850.webp","scene/FLUX":"assets/scenes/FLUX.784c434eca.webp","scene/GALBEMO":"assets/scenes/GALBEMO.2e81ec9091.webp","scene/GALLEON":"assets/scenes/GALLEON.b9dcec2de6.webp","scene/GALLITH":"assets/scenes/GALLITH.14fe31bedf.webp","scene/GALMAO":"assets/scenes/GALMAO.b04936aa04.webp","scene/GALSOLY":"assets/scenes/GALSOLY.4d8fb255fd.webp","scene/GALSOOLA":"assets/scenes/GALSOOLA.d6b6071caf.webp","scene/HABEAR":"assets/scenes/HABEAR.c3754c0a42.webp","scene/HAN":"assets/scenes/HAN.1bd1f99f64.webp","scene/HORNET":"assets/scenes/HORNET.f9f87eec8c.webp","scene/IDIO":"assets/scenes/IDIO.bc2d1284c2.webp","scene/ILORIN":"assets/scenes/ILORIN.34002ec122.webp","scene/IRI":"assets/scenes/IRI.a76c37a550.webp","scene/ISOLO":"assets/scenes/ISOLO.b910f79333.webp","scene/ITHAX":"assets/scenes/ITHAX.28a03e245a.webp","scene/IVY":"assets/scenes/IVY.2253d01f62.webp","scene/JODIOLA":"assets/scenes/JODIOLA.0a429f4a78.webp","scene/JORIRO":"assets/scenes/JORIRO.d10f1e899a.webp","scene/JORO":"assets/scenes/JORO.dc03642cf9.webp","scene/JOSORA":"assets/scenes/JOSORA.32e3d61908.webp","scene/JOTHAAR":"assets/scenes/JOTHAAR.9ea6f9b85b.webp","scene/JOUS":"assets/scenes/JOUS.1d6c9420f6.webp","scene/JUGGER":"assets/scenes/JUGGER.d3181c4ef2.webp","scene/KABEN":"assets/scenes/KABEN.8de422d186.webp","scene/KADIWEN":"assets/scenes/KADIWEN.6c415c4ef9.webp","scene/KALARA":"assets/scenes/KALARA.e99f7c696f.webp","scene/KAMASH":"assets/scenes/KAMASH.116ea9f1e1.webp","scene/KARIIX":"assets/scenes/KARIIX.23268b67f5.webp","scene/KASH":"assets/scenes/KASH.76634040ff.webp","scene/KRUSH":"assets/scenes/KRUSH.fc3cd954e8.webp","scene/LONGSHIFT":"assets/scenes/LONGSHIFT.f9e1adaeff.webp","scene/LUDIRA":"assets/scenes/LUDIRA.ec7816d32b.webp","scene/LULAANE":"assets/scenes/LULAANE.51ebe15152.webp","scene/LULIIA":"assets/scenes/LULIIA.9077a35410.webp","scene/LUNULO":"assets/scenes/LUNULO.d1e62aa922.webp","scene/MAESTRO":"assets/scenes/MAESTRO.eca4b31129.webp","scene/MAIX":"assets/scenes/MAIX.78642e32c3.webp","scene/MAKOOLA":"assets/scenes/MAKOOLA.7c7e42d0be.webp","scene/MALIMO":"assets/scenes/MALIMO.c9a29152c0.webp","scene/MALOANE":"assets/scenes/MALOANE.de5471baf6.webp","scene/MAMAOLA":"assets/scenes/MAMAOLA.4dc26ed1a2.webp","scene/MAMO":"assets/scenes/MAMO.b283bab210.webp","scene/MANGER":"assets/scenes/MANGER.0468cebff3.webp","scene/MASON":"assets/scenes/MASON.75cea94d65.webp","scene/MATA":"assets/scenes/MATA.49f9953920.webp","scene/MIBEN":"assets/scenes/MIBEN.15388d4ad6.webp","scene/MILAWEN":"assets/scenes/MILAWEN.4c32be2cad.webp","scene/MILOLY":"assets/scenes/MILOLY.87efbbe09b.webp","scene/MIRAVE":"assets/scenes/MIRAVE.79e2dbd2bd.webp","scene/MIRIN":"assets/scenes/MIRIN.f5b4dfb3f6.webp","scene/MIRIOLA":"assets/scenes/MIRIOLA.2059a5711b.webp","scene/MIRISA":"assets/scenes/MIRISA.ddcf6f697d.webp","scene/MISISH":"assets/scenes/MISISH.911a8a377c.webp","scene/NEEDLE":"assets/scenes/NEEDLE.3dbf5b9812.webp","scene/NEKOANE":"assets/scenes/NEKOANE.d18e5cb9fc.webp","scene/NELASA":"assets/scenes/NELASA.3e445596c5.webp","scene/NELOEL":"assets/scenes/NELOEL.1ade9e4fc8.webp","scene/NEMAIX":"assets/scenes/NEMAIX.18184f34ef.webp","scene/NEMAMO":"assets/scenes/NEMAMO.5a05761c3b.webp","scene/NEMATH":"assets/scenes/NEMATH.b5b90d5a72.webp","scene/NENUVE":"assets/scenes/NENUVE.ae2897a48c.webp","scene/NENUX":"assets/scenes/NENUX.9e6f103485.webp","scene/NETHAEL":"assets/scenes/NETHAEL.114b9e3744.webp","scene/OLIA":"assets/scenes/OLIA.ee5b2e13e0.webp","scene/OLO":"assets/scenes/OLO.35b9f3df87.webp","scene/OLOEL":"assets/scenes/OLOEL.da6296c23d.webp","scene/OLONE":"assets/scenes/OLONE.2ac1694841.webp","scene/OMAKO":"assets/scenes/OMAKO.67ed22a958.webp","scene/OMIX":"assets/scenes/OMIX.50f67bdc07.webp","scene/OPAL":"assets/scenes/OPAL.3daa48ed44.webp","scene/ORA":"assets/scenes/ORA.3070108394.webp","scene/OTH":"assets/scenes/OTH.f5503d3437.webp","scene/OVEX":"assets/scenes/OVEX.a68728232f.webp","scene/PEDIRI":"assets/scenes/PEDIRI.826555c6d7.webp","scene/PEKOAR":"assets/scenes/PEKOAR.3ebc194bfd.webp","scene/PELOWEN":"assets/scenes/PELOWEN.b93e1feb77.webp","scene/PEMIIX":"assets/scenes/PEMIIX.4db83bf174.webp","scene/PENDO":"assets/scenes/PENDO.b016a66667.webp","scene/PENOOLA":"assets/scenes/PENOOLA.b65f3b48ac.webp","scene/PERENSA":"assets/scenes/PERENSA.b312ab0ac6.webp","scene/PEVETH":"assets/scenes/PEVETH.8d93ba651e.webp","scene/PEWEN":"assets/scenes/PEWEN.44fafcbc17.webp","scene/QUIBEMO":"assets/scenes/QUIBEMO.950538197c.webp","scene/QUIKOTH":"assets/scenes/QUIKOTH.a034cc225b.webp","scene/QUILOX":"assets/scenes/QUILOX.31b123f95c.webp","scene/RAMPART":"assets/scenes/RAMPART.c39804e525.webp","scene/REAPER":"assets/scenes/REAPER.d14c0aa60b.webp","scene/RIPTIDE":"assets/scenes/RIPTIDE.c9036541af.webp","scene/RODIIX":"assets/scenes/RODIIX.3d188ea9a0.webp","scene/ROLAMO":"assets/scenes/ROLAMO.107fd45e3c.webp","scene/ROLODEK":"assets/scenes/ROLODEK.968ef4eb57.webp","scene/ROSIRIN":"assets/scenes/ROSIRIN.6ecfbed451.webp","scene/ROSONDO":"assets/scenes/ROSONDO.3a73615b2d.webp","scene/SABERO":"assets/scenes/SABERO.8d0ce150ea.webp","scene/SAMAIA":"assets/scenes/SAMAIA.0643b1c910.webp","scene/SANUIA":"assets/scenes/SANUIA.42e5aa4e28.webp","scene/SARAX":"assets/scenes/SARAX.2e7e752e4b.webp","scene/SASOKO":"assets/scenes/SASOKO.864a2df87d.webp","scene/SATHAANE":"assets/scenes/SATHAANE.60583be976.webp","scene/SCALES":"assets/scenes/SCALES.0548e15be5.webp","scene/SHRAPNEL":"assets/scenes/SHRAPNEL.53eb5e756e.webp","scene/SIPHON":"assets/scenes/SIPHON.f8a26b6185.webp","scene/SLINGSHOT":"assets/scenes/SLINGSHOT.93d04d1ef7.webp","scene/SPARE01":"assets/scenes/SPARE01.b8c82ffc82.webp","scene/SPARE02":"assets/scenes/SPARE02.7cebea6d1d.webp","scene/SPARE03":"assets/scenes/SPARE03.d420985727.webp","scene/SPARE04":"assets/scenes/SPARE04.23fb0f067d.webp","scene/SPARE05":"assets/scenes/SPARE05.ac53bf8c68.webp","scene/SPARE06":"assets/scenes/SPARE06.a8814e5a25.webp","scene/SPARE07":"assets/scenes/SPARE07.3f7285ebad.webp","scene/SPARE08":"assets/scenes/SPARE08.2f72e653db.webp","scene/STRIDER":"assets/scenes/STRIDER.a0fccff34e.webp","scene/SUNDIAL":"assets/scenes/SUNDIAL.74ce284aa1.webp","scene/TAKOANE":"assets/scenes/TAKOANE.50b7909e7a.webp","scene/TAKOUS":"assets/scenes/TAKOUS.4423f66569.webp","scene/TALOLO":"assets/scenes/TALOLO.a0dc4ff99f.webp","scene/TALON":"assets/scenes/TALON.9ddf0dab5d.webp","scene/TAMO":"assets/scenes/TAMO.dc1c243760.webp","scene/TANUWEN":"assets/scenes/TANUWEN.ff811edd1c.webp","scene/TENACIOUS":"assets/scenes/TENACIOUS.3d447a26ac.webp","scene/TENDER":"assets/scenes/TENDER.e5b9cad127.webp","scene/TOMAHAWK":"assets/scenes/TOMAHAWK.66f74d0f4c.webp","scene/TRACE":"assets/scenes/TRACE.acccb15093.webp","scene/UIX":"assets/scenes/UIX.c67a2f0b9c.webp","scene/ULIA":"assets/scenes/ULIA.32294a4cda.webp","scene/ULINE":"assets/scenes/ULINE.ae6d70adb2.webp","scene/ULOTH":"assets/scenes/ULOTH.0c5c64445e.webp","scene/URO":"assets/scenes/URO.153e388940.webp","scene/UTHAEL":"assets/scenes/UTHAEL.a7c79f3ad8.webp","scene/VERAO":"assets/scenes/VERAO.c941b75d70.webp","scene/VEVEOLA":"assets/scenes/VEVEOLA.b6fc585b22.webp","scene/VOLT":"assets/scenes/VOLT.6bc64f10d3.webp","scene/WINGMAN":"assets/scenes/WINGMAN.113acd08b6.webp","scene/WYNE":"assets/scenes/WYNE.0ba11f9e6d.webp","scene/WYSOOLA":"assets/scenes/WYSOOLA.2bbeb36c29.webp","scene/WYVE":"assets/scenes/WYVE.e46330e1cc.webp","scene/XABEDEK":"assets/scenes/XABEDEK.b958807c03.webp","scene/XALAAI":"assets/scenes/XALAAI.c0c25fa102.webp","scene/XATHALO":"assets/scenes/XATHALO.b060046450.webp","scene/XATHATA":"assets/scenes/XATHATA.8e3b0348a0.webp","scene/YOMILIA":"assets/scenes/YOMILIA.172a4b32ca.webp","scene/YON":"assets/scenes/YON.96a08a3e46.webp","scene/YONE":"assets/scenes/YONE.dafec6cd55.webp","scene/YONOEK":"assets/scenes/YONOEK.913e824f05.webp","scene/YOVE":"assets/scenes/YOVE.1099c24040.webp","scene/YOX":"assets/scenes/YOX.a22bebea1c.webp","scene/ZEBEEL":"assets/scenes/ZEBEEL.81939caf01.webp","scene/ZERIOLA":"assets/scenes/ZERIOLA.01e889f7d1.webp","scene/ZESONDO":"assets/scenes/ZESONDO.3899ccfed5.webp","scene/ZETH":"assets/scenes/ZETH.446cb00c81.webp","scene/ZODIAC":"assets/scenes/ZODIAC.cf92a6f4c3.webp","portrait/sheet-1":"assets/portraits/sheet-1.044e47199d.webp","portrait/sheet-2":"assets/portraits/sheet-2.a0a86a6b7e.webp","portrait/sheet-3":"assets/portraits/sheet-3.c17b5b3caa.webp","portrait/sheet-4":"assets/portraits/sheet-4.3cc95a8dc5.webp","portrait/sheet-5":"assets/portraits/sheet-5.a07207cfc3.webp","portrait/sheet-6":"assets/portraits/sheet-6.91ea2aa75e.webp"};
 window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3","sfx/ally-mass":"assets/audio/sfx/ally-mass.a42b7e9e48.mp3","sfx/ally-space":"assets/audio/sfx/ally-space.3adb6604b2.mp3","sfx/ally-time":"assets/audio/sfx/ally-time.dcaa4691cd.mp3","sfx/big-reward":"assets/audio/sfx/big-reward.5b427853d2.mp3","sfx/block-break":"assets/audio/sfx/block-break.5e8a571b28.mp3","sfx/boost":"assets/audio/sfx/boost.032b2b658a.mp3","sfx/bump":"assets/audio/sfx/bump.a302970354.mp3","sfx/click":"assets/audio/sfx/click.62964b4526.mp3","sfx/close":"assets/audio/sfx/close.f0c5aee0d4.mp3","sfx/comeback-charge":"assets/audio/sfx/comeback-charge.7a33d514ac.mp3","sfx/comeback-mass":"assets/audio/sfx/comeback-mass.78b1590812.mp3","sfx/comeback-space":"assets/audio/sfx/comeback-space.152a325a92.mp3","sfx/comeback-time":"assets/audio/sfx/comeback-time.bc1f7be2e3.mp3","sfx/confirm":"assets/audio/sfx/confirm.e4de9811a7.mp3","sfx/creature-hit":"assets/audio/sfx/creature-hit.03d7a219c9.mp3","sfx/crystal":"assets/audio/sfx/crystal.a1b7e57321.mp3","sfx/denied":"assets/audio/sfx/denied.04957755ac.mp3","sfx/drift-release":"assets/audio/sfx/drift-release.e738945c65.mp3","sfx/energy":"assets/audio/sfx/energy.934817b223.mp3","sfx/explosion":"assets/audio/sfx/explosion.3050127e5a.mp3","sfx/game-over":"assets/audio/sfx/game-over.702ea21020.mp3","sfx/goal":"assets/audio/sfx/goal.cfe75da49b.mp3","sfx/hover":"assets/audio/sfx/hover.ccadb0cfe6.mp3","sfx/impact":"assets/audio/sfx/impact.fe37fd06b0.mp3","sfx/joust-charge":"assets/audio/sfx/joust-charge.87f06324dc.mp3","sfx/joust-mass":"assets/audio/sfx/joust-mass.6224b3cb46.mp3","sfx/joust-space":"assets/audio/sfx/joust-space.f3c0a48ee9.mp3","sfx/joust-time":"assets/audio/sfx/joust-time.bb4491648e.mp3","sfx/kill-1":"assets/audio/sfx/kill-1.b66e724a8c.mp3","sfx/kill-2":"assets/audio/sfx/kill-2.ab0d89d7b1.mp3","sfx/kill-3":"assets/audio/sfx/kill-3.502d04263f.mp3","sfx/kill-4":"assets/audio/sfx/kill-4.9ea4c9bd63.mp3","sfx/kill-5":"assets/audio/sfx/kill-5.1dcb41de1d.mp3","sfx/kill-6":"assets/audio/sfx/kill-6.e4d67b43e1.mp3","sfx/laser":"assets/audio/sfx/laser.51b7a7d958.mp3","sfx/lets-go":"assets/audio/sfx/lets-go.724c055e35.mp3","sfx/mine":"assets/audio/sfx/mine.895f98ef93.mp3","sfx/open":"assets/audio/sfx/open.3f77dc083f.mp3","sfx/redeem":"assets/audio/sfx/redeem.dc1d933feb.mp3","sfx/score":"assets/audio/sfx/score.f1a1cb678d.mp3","sfx/shield-down":"assets/audio/sfx/shield-down.fe30285159.mp3","sfx/shield-up":"assets/audio/sfx/shield-up.20446b8988.mp3","sfx/skim":"assets/audio/sfx/skim.278c4db469.mp3","sfx/small-reward":"assets/audio/sfx/small-reward.d4f5f59ac8.mp3","sfx/spawn":"assets/audio/sfx/spawn.3226f9dbb6.mp3","sfx/speed-burst":"assets/audio/sfx/speed-burst.fbba886883.mp3","sfx/switch-2":"assets/audio/sfx/switch-2.26b3b37ab0.mp3","sfx/switch":"assets/audio/sfx/switch.037e07875f.mp3","sfx/upgrade":"assets/audio/sfx/upgrade.5b427853d2.mp3","music/chill-time-3":"assets/audio/music/chill-time-3.eca02cddb7.mp3","music/cosmic-shore-2":"assets/audio/music/cosmic-shore-2.5734c1223d.mp3","music/cosmic-shore-3-loop":"assets/audio/music/cosmic-shore-3-loop.bb6b2dbb29.mp3","music/cosmic-shore-3":"assets/audio/music/cosmic-shore-3.f3edad3958.mp3","music/disoriented":"assets/audio/music/disoriented.708257d7e5.mp3","music/end-game-outro":"assets/audio/music/end-game-outro.a4b43851e7.mp3","music/secret-hide-away":"assets/audio/music/secret-hide-away.42597bb658.mp3","music/severity":"assets/audio/music/severity.2952453c7a.mp3","music/sky-fire":"assets/audio/music/sky-fire.75c69b47e4.mp3","music/space-gliding":"assets/audio/music/space-gliding.87c150d42c.mp3","music/waited-so-long":"assets/audio/music/waited-so-long.5c0c2c9e3e.mp3"};
 
@@ -25861,6 +25861,8 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      signIn(provider)       go to Google or Discord; comes back to this page signed in (linking the guest)
      emailStart(email) / emailVerify(email, code)
      rename(name), signOut(), remove()
+     update({ name?, avatar? }) your profile (src/ui/profile.js); checkName(name) → { ok, problem }
+     pictureUrl(user)       the address of the Google or Discord picture a player shows, or null
      onChange(fn)           called with the user whenever it changes
    Stored on the device under localStorage 'tumult_v2_account' = { token, user }.
    ========================================================================== */
@@ -25968,6 +25970,19 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     save({ token: A.token(), user: d.user });
     return d.user;
   };
+  /** Change the profile: a new display name, a new avatar, or both. Rejects with the server's reason. */
+  A.update = async function (fields) {
+    const d = await api('PATCH', '/auth/me', fields || {});
+    save({ token: A.token(), user: d.user });
+    return d.user;
+  };
+  /** Could this player take this name? { ok, problem } from the server (taken, filtered, reserved). */
+  A.checkName = (name) => api('GET', '/auth/name?name=' + encodeURIComponent(name || ''));
+  /** The picture a player shows (avatar 'google' or 'discord'), always through Tumult's own server. */
+  A.pictureUrl = (u) =>
+    base() && u && u.id && (u.avatar === 'google' || u.avatar === 'discord')
+      ? base() + '/auth/picture/' + encodeURIComponent(u.id) + '?v=' + u.avatar
+      : null;
   A.signOut = async function () {
     await api('POST', '/auth/signout').catch(() => {});
     save(null);
@@ -28141,7 +28156,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const who = !A
       ? ''
       : signedIn()
-        ? `<button class="hm-me" data-act="account" data-tip="${esc(u.name || 'Your account')}" aria-label="Your account">${face(u.name)}</button>`
+        ? `<button class="hm-me" data-act="account" data-tip="${esc(u.name || 'Your profile')}" aria-label="Your profile">${U.myAvatarHTML ? U.myAvatarHTML('hm-av') : face(u.name)}</button>`
         : `<button class="ghost sm hm-signin" data-act="signIn">Sign in</button>`;
     return lobby + who;
   }
@@ -28617,13 +28632,22 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     return st.where === 'game' ? 'In an online game' : st.where === 'solo' ? 'Playing solo' : 'On Home';
   }
   const dotOf = (p) => (stOf(p).where === 'solo' ? 'away' : 'on');
-  /** A player's face in the Lobby: their first pilot's portrait when their card has one, else their initials. */
+  /**
+   * A player's face in the Lobby: the avatar they chose on their profile (src/ui/profile.js), else their
+   * first pilot's portrait when their card has one, else their initials.
+   */
   function lobbyFace(id, name, cls) {
     const S = SOC();
     const card = S && id ? S.card(id) : null;
-    const art = card && card.pilots && card.pilots.find((x) => x.art);
-    const a = art && (U.PILOT_ART || []).find((x) => x.key === art.art);
-    const src = a && U.portraitSrc ? U.portraitSrc(a) : null;
+    const row = id ? (U.lobbyPeople || []).find((x) => x.id === id) : null;
+    const avatar = (row && row.avatar) || (card && card.avatar) || '';
+    let src = null;
+    if (U.avatarSrc) src = U.avatarSrc({ id, name, avatar }, card);
+    else {
+      const art = card && card.pilots && card.pilots.find((x) => x.art);
+      const a = art && (U.PILOT_ART || []).find((x) => x.key === art.art);
+      src = a && U.portraitSrc ? U.portraitSrc(a) : null;
+    }
     return src
       ? `<img class="lb-face ${cls || ''}" src="${src}" alt="" draggable="false">`
       : face(name, null, `lb-face ${cls || ''}`);
@@ -28961,7 +28985,8 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         else if (acct() && T.Account.signIn) T.Account.signIn('google');
         return true;
       case 'account':
-        if (U.askSignIn) U.askSignIn('');
+        if (U.openProfile) U.openProfile();
+        else if (U.askSignIn) U.askSignIn('');
         return true;
       case 'netHost':
       case 'netJoin':
@@ -28994,6 +29019,407 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       if (['title', 'host', 'join'].includes(U.screen) && U.render) U.render();
     });
 })((window.T = window.T || {}));
+
+
+/* ───── ui/profile.js ───── */
+/* ============================================================================
+   TUMULT — YOUR PROFILE (the web version's account page; docs/reference/ACCOUNTS.md "Your profile").
+   Frogma - Tumult, "Profile (Nov 22)", Profile 1 "Profile page": the account button at the top right opens
+   it. On the left, your card as other players see it; on the right, your display name and your avatar;
+   below, the sign-ins on the account.
+
+   An avatar is one of:
+     ''            automatic: the first pilot on your card, else your initials (what everyone starts with)
+     'p:<KEY>'     any pilot painting in the game (U.PILOT_ART), your own pilots listed first
+     'google' | 'discord'   the picture that sign-in gave, fetched through Tumult's Worker (T.Account.pictureUrl)
+     'initials'    your initials
+   The same face is drawn everywhere a player is shown: the account button, the Lobby, profile cards
+   (U.avatarSrc, U.avatarHTML). Names follow the server's rules (server/src/auth/names.js): this page checks
+   them as you type, and the server has the last word.
+
+   Inert without an account server: the offline file never shows it.
+   ========================================================================== */
+(function (T) {
+  const U = (T.UI = T.UI || {});
+  const esc = (s) => (U.esc ? U.esc(s) : String(s));
+  const A = () => (T.Account && typeof T.Account.available === 'function' && T.Account.available() ? T.Account : null);
+  const me = () => {
+    const a = A();
+    const u = a && a.user();
+    return u && u.id ? u : null;
+  };
+  const NAME_MIN = 3;
+  const NAME_MAX = 20;
+  const LABEL = { google: 'Google', discord: 'Discord', email: 'email' };
+
+  /* ───────────── faces, everywhere a player is shown ───────────── */
+  const artOf = (key) => (U.PILOT_ART || []).find((a) => a.key === key) || null;
+  /**
+   * The picture for a player { id, avatar } (and, for an automatic avatar, their card's pilots), or null for
+   * initials.
+   */
+  U.avatarSrc = function (person, card) {
+    const av = (person && person.avatar) || '';
+    if (av === 'initials') return null;
+    if (av.startsWith('p:')) {
+      const a = artOf(av.slice(2));
+      return a && U.portraitSrc ? U.portraitSrc(a) : null;
+    }
+    if (av === 'google' || av === 'discord') {
+      const a = A();
+      return a && a.pictureUrl ? a.pictureUrl(person) : null;
+    }
+    const first = card && Array.isArray(card.pilots) ? card.pilots.find((p) => p && artOf(p.art)) : null;
+    return first && U.portraitSrc ? U.portraitSrc(artOf(first.art)) : null;
+  };
+  const initials = (name) =>
+    String(name || '?')
+      .split(/\s+/)
+      .map((w) => w[0] || '')
+      .join('')
+      .slice(0, 2)
+      .toUpperCase() || '?';
+  U.initials = initials;
+  /** A player's face as markup: their picture, else their initials. */
+  U.avatarHTML = function (person, cls, card) {
+    const src = U.avatarSrc(person, card);
+    return src
+      ? `<span class="av-face ${cls || ''}"><img src="${esc(src)}" alt="" draggable="false" loading="lazy"></span>`
+      : `<span class="av-face ini ${cls || ''}" aria-hidden="true">${esc(initials(person && person.name))}</span>`;
+  };
+  /** My own card's pilots, for an automatic avatar (the paintings of the pilots I fly and have made). */
+  function myPilots() {
+    const run = U.run || (T.loadRun && T.loadRun());
+    const heroes = ((run && run.heroes) || []).filter(Boolean);
+    const made = T.loadMade ? T.loadMade() : [];
+    const out = [];
+    for (const h of heroes.concat(made)) {
+      let a = null;
+      try {
+        a = U.pilotOf ? U.pilotOf(h) : null;
+      } catch (e) {
+        a = null;
+      }
+      if (a && !out.some((o) => o.art === a.key)) out.push({ name: h.name || a.name, art: a.key });
+    }
+    return out;
+  }
+  U.myAvatarHTML = (cls) => {
+    const u = me();
+    return u ? U.avatarHTML(u, cls, { pilots: myPilots() }) : '';
+  };
+
+  /* ───────────── the page ───────────── */
+  // what is being edited: kept until saved or the page is left
+  const P = (U.profile = { name: null, avatar: null, tab: 'mine', check: null, busy: false, msg: '', bad: false });
+  let checking = null;
+
+  function reset() {
+    const u = me();
+    Object.assign(P, {
+      name: u ? u.name : '',
+      avatar: u ? u.avatar || '' : '',
+      check: null,
+      busy: false,
+      msg: '',
+      bad: false,
+    });
+    const av = P.avatar;
+    P.tab = av === 'google' || av === 'discord' ? 'picture' : av === 'initials' ? 'initials' : 'mine';
+    if (av.startsWith('p:') && !myPilots().some((p) => 'p:' + p.art === av)) P.tab = 'all';
+  }
+  U.openProfile = function () {
+    if (!me() || me().guest) {
+      if (U.askSignIn) U.askSignIn('Sign in to have a profile: a name and a face other players see.');
+      return;
+    }
+    reset();
+    U.screen = 'profile';
+    U.render();
+  };
+
+  /** What the name box would say about a name before asking the server. */
+  function localProblem(name) {
+    const n = String(name || '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (n.length < NAME_MIN) return `At least ${NAME_MIN} characters.`;
+    if (n.length > NAME_MAX) return `At most ${NAME_MAX} characters.`;
+    if (!/^[\p{L}\p{M}\p{N} ._'-]+$/u.test(n)) return "Letters, numbers, spaces and . _ - ' only.";
+    if (!/\p{L}/u.test(n)) return 'At least one letter.';
+    return '';
+  }
+  const cleanName = (v) =>
+    String(v || '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+  function rulesHTML() {
+    const u = me();
+    const n = cleanName(P.name);
+    const mine = u && n === u.name;
+    const local = localProblem(n);
+    const c = P.check && P.check.name === n ? P.check : null;
+    const row = (ok, txt) =>
+      `<span class="pf-rule ${ok === true ? 'ok' : ok === false ? 'no' : ''}"><i aria-hidden="true">${ok === true ? '✓' : ok === false ? '✕' : '·'}</i>${esc(txt)}</span>`;
+    const fits = !localProblem(n);
+    let server = null;
+    if (mine) server = true;
+    else if (c) server = c.ok;
+    const sp = c && !c.ok ? c.problem : '';
+    const takenish = /already flies/.test(sp);
+    const fitWord = sp && !takenish ? false : server === true ? true : null;
+    const free = takenish ? false : server === true ? true : null;
+    return `${row(fits, local || `${NAME_MIN} to ${NAME_MAX} letters, numbers, spaces`)}${row(fits ? free : null, takenish ? sp : 'Nobody else has it')}${row(fits ? fitWord : null, sp && !takenish ? sp : 'Fit for the table')}`;
+  }
+  function refreshRules() {
+    if (typeof document === 'undefined') return;
+    const el = document.getElementById('pfRules');
+    if (el) el.innerHTML = rulesHTML();
+    const ct = document.getElementById('pfCount');
+    if (ct) ct.textContent = `${cleanName(P.name).length} / ${NAME_MAX}`;
+    document.querySelectorAll('[data-pf-name]').forEach((e) => (e.textContent = cleanName(P.name) || '…'));
+    document.querySelectorAll('[data-pf-ini]').forEach((e) => (e.textContent = initials(cleanName(P.name))));
+    // Save lights up once something changed, and not for a name the server has turned down
+    const u = me();
+    const n = cleanName(P.name);
+    const changed = u && (n !== u.name || P.avatar !== (u.avatar || ''));
+    const wait = u && u.renameAt && u.renameAt > Date.now() && n !== u.name;
+    const refused = P.check && P.check.name === n && !P.check.ok;
+    const btn = document.querySelector('[data-act="profSave"]');
+    const und = document.querySelector('[data-act="profReset"]');
+    if (btn) btn.disabled = !changed || P.busy || !!wait || !!refused;
+    if (und) und.disabled = !changed || P.busy;
+  }
+  function askServer() {
+    clearTimeout(checking);
+    const n = cleanName(P.name);
+    const u = me();
+    if (!u || n === u.name || localProblem(n)) return;
+    checking = setTimeout(() => {
+      const a = A();
+      if (!a || !a.checkName) return;
+      a.checkName(n)
+        .then((r) => {
+          P.check = { name: n, ok: !!(r && r.ok), problem: (r && r.problem) || '' };
+          refreshRules();
+        })
+        .catch(() => {
+          /* an older server, or offline: Save will say */
+        });
+    }, 350);
+  }
+
+  function tiles(list) {
+    return list
+      .map((t) => {
+        const on = P.avatar === t.value;
+        return `<button class="pf-opt${on ? ' sel' : ''}" data-act="profAvatar" data-arg="${esc(t.value)}" aria-pressed="${on}" aria-label="${esc(t.label)}" data-tip="${esc(t.label)}">${t.inner}</button>`;
+      })
+      .join('');
+  }
+  function avatarTab() {
+    const u = me();
+    const paint = (a, label) => ({
+      value: 'p:' + a.key,
+      label: label || a.name,
+      inner: `<img src="${esc(U.portraitSrc(a))}" alt="" draggable="false" loading="lazy">`,
+    });
+    if (P.tab === 'mine') {
+      const mine = myPilots()
+        .map((p) => artOf(p.art) && paint(artOf(p.art), p.name))
+        .filter(Boolean);
+      const auto = {
+        value: '',
+        label: 'Automatic: your first pilot',
+        inner: `<span class="pf-auto">AUTO</span>`,
+      };
+      return mine.length
+        ? `<div class="pf-grid">${tiles([auto].concat(mine))}</div>`
+        : `<p class="pf-note">Your pilots show here once you fly or make one. Pick any painting under <b>All paintings</b> meanwhile.</p>`;
+    }
+    if (P.tab === 'all')
+      return `<div class="pf-scroll"><div class="pf-grid pf-all">${tiles((U.PILOT_ART || []).filter((a) => U.portraitSrc(a)).map((a) => paint(a)))}</div></div>`;
+    if (P.tab === 'picture') {
+      const pics = (u && u.pictures) || [];
+      const a = A();
+      const list = pics.map((p) => ({
+        value: p,
+        label: `Your ${LABEL[p]} picture`,
+        inner: `<img src="${esc((a && a.pictureUrl && a.pictureUrl({ id: u.id, avatar: p })) || '')}" alt="" draggable="false"><em>${LABEL[p]}</em>`,
+      }));
+      const missing = ['google', 'discord'].filter((p) => !pics.includes(p));
+      const how = missing.length
+        ? `<p class="pf-note">${pics.length ? '' : 'No sign-in picture yet. '}Sign in with ${missing.map((p) => LABEL[p]).join(' or ')} to bring ${missing.length > 1 ? 'its' : 'that'} picture; a sign-in you already have brings its picture the next time you use it.</p><div class="pf-row">${missing.map((p) => `<button class="pf-btn cy" data-act="acctProvider" data-arg="${p}">${(u.links || []).includes(p) ? 'Sign in again with' : 'Add'} ${LABEL[p]}</button>`).join('')}</div>`
+        : '';
+      return `${list.length ? `<div class="pf-grid">${tiles(list)}</div>` : ''}${how}<p class="pf-note">Your picture is fetched through Tumult's own server, and only shown if you pick it. Uploading your own picture is not offered yet.</p>`;
+    }
+    return `<div class="pf-grid">${tiles([{ value: 'initials', label: 'Your initials', inner: `<span class="pf-ini" data-pf-ini>${esc(initials(cleanName(P.name)))}</span>` }])}</div><p class="pf-note">Just your initials, on the sea's colours.</p>`;
+  }
+
+  function stats() {
+    const meta = T.loadMeta ? T.loadMeta() : {};
+    const canon = T.loadCanon ? T.loadCanon().length : 0;
+    const stat = (n, l) => `<div class="pf-stat"><b>${n}</b><span>${l}</span></div>`;
+    return `<div class="pf-stats">${stat(meta.runs || 0, 'Expeditions')}${stat(meta.wins || 0, 'Hearts')}${stat(canon, 'Canon')}</div>`;
+  }
+
+  U.renderProfile = function () {
+    const u = me();
+    if (!u || u.guest) {
+      const inner = `<div class="pf"><div class="pf-empty"><h2>Your profile</h2><p>Sign in to have a name and a face other players see in the Lobby.</p>${A() ? '<button class="pf-btn go" data-act="signIn">Sign in</button>' : ''}</div></div>`;
+      return U.shell ? U.shell('', inner) : inner;
+    }
+    if (P.name == null) reset();
+    const draft = { id: u.id, name: cleanName(P.name) || u.name, avatar: P.avatar };
+    const card = { pilots: myPilots() };
+    const links = u.links || [];
+    const changed = cleanName(P.name) !== u.name || P.avatar !== (u.avatar || '');
+    const wait = u.renameAt && u.renameAt > Date.now() && cleanName(P.name) !== u.name;
+    const waitH = wait ? Math.ceil((u.renameAt - Date.now()) / 3600000) : 0;
+    const tabs = [
+      ['mine', 'Your pilots'],
+      ['all', 'All paintings'],
+      ['picture', 'Sign-in picture'],
+      ['initials', 'Initials'],
+    ]
+      .map(
+        ([id, name]) =>
+          `<button class="${P.tab === id ? 'on' : ''}" data-act="profTab" data-arg="${id}" aria-pressed="${P.tab === id}">${name}</button>`,
+      )
+      .join('');
+    const add = ['google', 'discord']
+      .filter((p) => !links.includes(p))
+      .map((p) => `<button class="pf-btn cy sm" data-act="acctProvider" data-arg="${p}">+ ${LABEL[p]}</button>`)
+      .join('');
+    const inner = `<div class="pf">
+      <section class="pf-me" aria-label="Your card">
+        <span class="pf-eye">Your profile</span>
+        <div class="pf-ring">${U.avatarHTML(draft, 'pf-big', card)}</div>
+        <h1 class="pf-name" data-pf-name>${esc(draft.name)}</h1>
+        <p class="pf-sub"><i class="pf-dot" aria-hidden="true"></i> Signed in with ${esc(links.map((l) => LABEL[l] || l).join(', ') || 'Tumult')}</p>
+        ${stats()}
+        <div class="pf-lab">How others see you</div>
+        <div class="pf-preview">${U.avatarHTML(draft, 'pf-small', card)}<span><b data-pf-name>${esc(draft.name)}</b><span>On Home</span></span><span class="pf-tag">+ Add</span></div>
+      </section>
+      <section class="pf-edit" aria-label="Edit your profile">
+        <div class="pf-sec">
+          <label class="pf-h" for="pfName">Display name</label>
+          <div class="pf-field"><input id="pfName" maxlength="${NAME_MAX + 4}" autocomplete="nickname" spellcheck="false" value="${esc(P.name)}"><span id="pfCount">${cleanName(P.name).length} / ${NAME_MAX}</span></div>
+          <div class="pf-rules" id="pfRules" aria-live="polite">${rulesHTML()}</div>
+          <p class="pf-note">Shown in the Lobby, on your card, at tables and on the canon notes you write.${wait ? ` <b>You can change it again in ${waitH} hour${waitH === 1 ? '' : 's'}.</b>` : ' You can change it once a day.'}</p>
+        </div>
+        <div class="pf-sec">
+          <div class="pf-headrow"><span class="pf-h">Avatar</span><div class="pf-seg" role="group" aria-label="Where your avatar comes from">${tabs}</div></div>
+          ${avatarTab()}
+        </div>
+        ${P.msg ? `<p class="pf-msg${P.bad ? ' bad' : ''}" role="status">${esc(P.msg)}</p>` : ''}
+        <div class="pf-actions"><button class="pf-btn" data-act="profReset" ${changed && !P.busy ? '' : 'disabled'}>Undo</button><button class="pf-cta" data-act="profSave" ${changed && !P.busy && !wait ? '' : 'disabled'}>${P.busy ? 'Saving…' : 'Save profile'}</button></div>
+      </section>
+      <section class="pf-links" aria-label="Sign-ins">
+        <span class="pf-h">Sign-ins</span>${links.map((l) => `<span class="pf-tag ok">${esc(LABEL[l] || l)} ✓</span>`).join('')}${add}
+        <span class="pf-end"><button class="pf-btn sm" data-act="acctSignOut">Sign out</button><button class="pf-btn sm danger" data-act="acctOpen">Delete account…</button></span>
+      </section>
+    </div>`;
+    return U.shell ? U.shell('', inner) : inner;
+  };
+  (U.SCREENS = U.SCREENS || {}).profile = U.renderProfile;
+
+  async function save() {
+    const a = A();
+    const u = me();
+    if (!a || !u || P.busy) return;
+    const fields = {};
+    const n = cleanName(P.name);
+    if (n !== u.name) {
+      const local = localProblem(n);
+      if (local) {
+        Object.assign(P, { msg: local, bad: true });
+        return U.render();
+      }
+      fields.name = n;
+    }
+    if (P.avatar !== (u.avatar || '')) fields.avatar = P.avatar;
+    if (!Object.keys(fields).length) return;
+    Object.assign(P, { busy: true, msg: '', bad: false });
+    U.render();
+    try {
+      const nu = await a.update(fields);
+      if (fields.avatar !== undefined && (nu.avatar || '') !== fields.avatar)
+        throw new Error('Avatars arrive with the next server update. Your name is saved.');
+      Object.assign(P, { busy: false, msg: 'Saved. The Lobby shows your new profile now.', bad: false });
+      P.name = nu.name;
+      P.check = null;
+      try {
+        const lobby = T.Backend && T.Backend.available() ? await T.Backend.use('lobby') : null;
+        if (lobby && lobby.refreshMe) lobby.refreshMe();
+      } catch (e) {
+        /* the lobby hears it on the next connect */
+      }
+      if (U.social && U.social.publish) U.social.publish(true);
+    } catch (e) {
+      Object.assign(P, { busy: false, msg: (e && e.message) || 'That did not save. Try again.', bad: true });
+    }
+    if (U.screen === 'profile') U.render();
+  }
+
+  if (typeof window === 'undefined') return;
+  const prevExtra = U.extraAct;
+  U.extraAct = function (act, arg, el, e) {
+    switch (act) {
+      case 'account':
+      case 'profileOpen':
+        U.openProfile();
+        return true;
+      case 'profTab':
+        P.tab = arg || 'mine';
+        U.render();
+        return true;
+      case 'profAvatar':
+        P.avatar = arg || '';
+        P.msg = '';
+        U.render();
+        return true;
+      case 'profReset':
+        reset();
+        U.render();
+        return true;
+      case 'profSave':
+        save();
+        return true;
+    }
+    return prevExtra ? prevExtra(act, arg, el, e) : false;
+  };
+  document.addEventListener('input', (e) => {
+    if (!e.target || e.target.id !== 'pfName') return;
+    P.name = e.target.value;
+    P.msg = '';
+    refreshRules();
+    askServer();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && e.target && e.target.id === 'pfName') save();
+  });
+  // on a phone the profile is also under More (the web version only, where there are accounts)
+  window.addEventListener('load', () => {
+    if (!A() || !U.MORE_ITEMS || U.MORE_ITEMS.some((m) => m.act === 'profileOpen')) return;
+    const at = U.MORE_ITEMS.findIndex((m) => m.act === 'settings');
+    U.MORE_ITEMS.splice(at < 0 ? U.MORE_ITEMS.length : at, 0, {
+      act: 'profileOpen',
+      name: 'Profile',
+      icon: '☺',
+      txt: 'Your name and avatar',
+    });
+  });
+  // a sign-in, sign-out or save elsewhere: the page follows the account
+  if (T.Account && typeof T.Account.onChange === 'function')
+    T.Account.onChange((u) => {
+      if (U.screen !== 'profile') return;
+      if (!u || u.guest) U.screen = 'title';
+      else if (!P.busy && P.name === null) reset();
+      if (!U.modal) U.render();
+    });
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
 /* ───── ui/vehicles.js ───── */
@@ -29912,6 +30338,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      room  join('tumult-<CODE>'): the same socket's live channel between the game's screens.
      user  id(), can(), canEdit(), isOwner(), profiles(ids), from the sign-in module (T.Account).
      lobby watch(fn) → stop: who is online in Tumult now (the game's Lobby panel), while signed in;
+           refreshMe() after a profile change;
            nudge(to) and onNudge(fn): "a note is waiting", so the Lobby's requests arrive at once.
 
    It also keeps a signed-in player's run in the cloud (saves/<user id>), so it follows them to another
@@ -30320,6 +30747,10 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       /** Tell another player's screens that a note is waiting for them (src/ui/social.js). */
       nudge(to) {
         if (ws && ws.readyState === 1) ws.send(JSON.stringify({ op: 'nudge', to }));
+      },
+      /** This player changed their name or avatar: the lobby reads them again (src/ui/profile.js). */
+      refreshMe() {
+        if (ws && ws.readyState === 1) ws.send(JSON.stringify({ op: 'me' }));
       },
       /** Hear that someone left this player a note: fn(fromId). Returns a function that stops it. */
       onNudge(fn) {
@@ -32276,8 +32707,10 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         return { name: h.name || '', art: a ? a.key : '' };
       })
       .filter((p) => p.name);
+    const u = me();
     return {
-      name: myName,
+      name: (u && u.name) || myName,
+      avatar: (u && u.avatar) || '',
       pilots,
       runs: meta.runs || 0,
       wins: meta.wins || 0,
@@ -32363,7 +32796,16 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     return prevExtra ? prevExtra(act, arg, el, e) : false;
   };
 
-  if (T.Account && typeof T.Account.onChange === 'function') T.Account.onChange(() => start());
+  if (T.Account && typeof T.Account.onChange === 'function')
+    T.Account.onChange(() => {
+      const u = me();
+      // the same player with a new name or avatar (src/ui/profile.js): their card says so at once
+      if (u && u.id === uid && (u.name !== myName || (cards.get(uid) || {}).avatar !== (u.avatar || ''))) {
+        myName = u.name || '';
+        S.publish(true);
+      }
+      start();
+    });
   window.addEventListener('load', () => setTimeout(start, 0));
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 

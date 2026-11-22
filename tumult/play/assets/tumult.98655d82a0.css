@@ -14287,6 +14287,756 @@ button.linkish {
 }
 
 
+/* ───── ui/profile.css ───── */
+/* Tumult — your profile (src/ui/profile.js): the Profile page, and a player's face wherever it is drawn.
+   HyperSea look, as the Lobby and sign-in (Frogma - Tumult, "Profile (Nov 22)", Profile 1). */
+
+/* ---------- a face, anywhere ---------- */
+.av-face {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+}
+.av-face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.av-face.ini {
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #0a2a5c, #00041f);
+}
+
+/* the account button: a cut-corner square with a lime edge that brightens on hover */
+.hm-me .av-face.hm-av {
+  width: 38px;
+  height: 38px;
+  border-radius: 0;
+  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+  border: 0;
+  background: #99ff80;
+  padding: 2px;
+  transition:
+    transform 0.2s,
+    filter 0.2s;
+}
+.hm-me .av-face.hm-av img,
+.hm-me .av-face.hm-av.ini {
+  clip-path: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px);
+}
+.hm-me .av-face.hm-av.ini {
+  background: linear-gradient(135deg, #0a2a5c, #00041f);
+  box-shadow: inset 0 0 0 2px #99ff80;
+  font-size: 13px;
+}
+.hm-me:hover .av-face.hm-av,
+.hm-me:focus-visible .av-face.hm-av {
+  transform: translateY(-1px);
+  filter: drop-shadow(0 0 8px rgba(153, 255, 128, 0.7));
+}
+
+/* ---------- the page ---------- */
+.pf {
+  --pf-ground: #00041f;
+  --pf-line: #2f3670;
+  --pf-line2: #434c89;
+  --pf-cyan: #00d4ff;
+  --pf-lime: #99ff80;
+  --pf-violet: #a600ff;
+  --pf-text: #e6e9ff;
+  --pf-soft: #c3c8ee;
+  --pf-mute: #9aa0cc;
+  --pf-bad: #ff8aa1;
+  --pf-cut: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+  --pf-cut-s: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 36px clamp(16px, 4vw, 56px) 48px;
+  display: grid;
+  grid-template-columns: minmax(260px, 360px) 1fr;
+  grid-template-areas: 'me edit' 'me links';
+  gap: 24px 48px;
+  color: var(--pf-text);
+  box-sizing: border-box;
+}
+.pf * {
+  box-sizing: border-box;
+}
+.pf-me {
+  grid-area: me;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: start;
+  animation: pf-rise 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.pf-eye,
+.pf-h,
+.pf-lab {
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-size: 12px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pf-cyan);
+  font-weight: 600;
+}
+.pf-lab {
+  color: var(--pf-mute);
+  font-size: 11px;
+  margin-top: 4px;
+}
+.pf-ring {
+  position: relative;
+  width: 172px;
+  height: 172px;
+  padding: 3px;
+  clip-path: var(--pf-cut);
+  overflow: hidden;
+}
+.pf-ring::before {
+  content: '';
+  position: absolute;
+  inset: -60%;
+  background: conic-gradient(var(--pf-cyan), var(--pf-lime), var(--pf-violet), var(--pf-cyan));
+  animation: pf-spin 6s linear infinite;
+}
+.pf-ring .av-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  clip-path: var(--pf-cut);
+}
+.pf-big.ini {
+  font-size: 56px;
+}
+.pf-name {
+  margin: 0;
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-size: clamp(30px, 4vw, 44px);
+  letter-spacing: 0.04em;
+  line-height: 1.05;
+  color: #fff;
+  word-break: break-word;
+}
+.pf-sub {
+  margin: 0;
+  font-size: 13px;
+  color: var(--pf-mute);
+}
+.pf-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--pf-lime);
+  box-shadow: 0 0 8px var(--pf-lime);
+  vertical-align: 1px;
+}
+.pf-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--pf-line2);
+  background: rgba(0, 4, 31, 0.66);
+  clip-path: var(--pf-cut-s);
+}
+.pf-stat {
+  padding: 10px 12px;
+}
+.pf-stat b {
+  display: block;
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-size: 22px;
+}
+.pf-stat span {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pf-mute);
+}
+.pf-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--pf-line);
+  background: rgba(0, 4, 31, 0.72);
+  clip-path: var(--pf-cut-s);
+}
+.pf-preview > span:nth-child(2) {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.pf-preview b {
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pf-preview > span:nth-child(2) > span {
+  font-size: 12px;
+  color: var(--pf-mute);
+}
+.pf-small {
+  width: 40px;
+  height: 40px;
+  clip-path: var(--pf-cut-s);
+  border: 1px solid var(--pf-line2);
+}
+.pf-small.ini {
+  font-size: 14px;
+}
+.pf-tag {
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border: 1px solid var(--pf-line2);
+  color: var(--pf-mute);
+}
+.pf-tag.ok {
+  border-color: var(--pf-lime);
+  color: var(--pf-lime);
+}
+
+/* the editor: a panel with a light running round its edge */
+.pf-edit {
+  grid-area: edit;
+  position: relative;
+  padding: 30px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  clip-path: var(--pf-cut);
+  background: rgba(0, 4, 31, 0.86);
+  isolation: isolate;
+  animation: pf-rise 0.8s 0.12s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.pf-edit::before {
+  content: '';
+  position: absolute;
+  inset: -50%;
+  z-index: -2;
+  background: conic-gradient(
+    rgba(0, 212, 255, 0) 0deg,
+    rgba(0, 212, 255, 0.95) 40deg,
+    rgba(166, 0, 255, 0.8) 80deg,
+    rgba(0, 212, 255, 0) 130deg,
+    rgba(0, 212, 255, 0) 360deg
+  );
+  animation: pf-spin 7s linear infinite;
+}
+.pf-edit::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  z-index: -1;
+  clip-path: var(--pf-cut);
+  background: linear-gradient(180deg, rgba(0, 8, 44, 0.98), rgba(0, 3, 22, 0.98));
+}
+.pf-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.pf-headrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.pf-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 52px;
+  padding: 0 16px;
+  border: 1px solid var(--pf-line2);
+  background: rgba(0, 4, 31, 0.8);
+  clip-path: var(--pf-cut-s);
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.pf-field:focus-within {
+  border-color: var(--pf-cyan);
+  box-shadow:
+    0 0 0 1px rgba(0, 212, 255, 0.3),
+    0 0 22px rgba(0, 212, 255, 0.25);
+}
+.pf-field input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: #fff;
+  font: inherit;
+  font-size: 18px;
+}
+.pf-field span {
+  font-size: 12px;
+  color: var(--pf-mute);
+  font-variant-numeric: tabular-nums;
+}
+.pf-rules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+}
+.pf-rule {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--pf-soft);
+}
+.pf-rule i {
+  font-style: normal;
+  width: 16px;
+  text-align: center;
+  color: var(--pf-mute);
+}
+.pf-rule.ok i {
+  color: var(--pf-lime);
+}
+.pf-rule.no {
+  color: var(--pf-bad);
+}
+.pf-rule.no i {
+  color: var(--pf-bad);
+}
+.pf-note {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--pf-mute);
+}
+.pf-note b {
+  color: var(--pf-soft);
+}
+
+/* where the avatar comes from */
+.pf-seg {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--pf-line2);
+  clip-path: var(--pf-cut-s);
+}
+.pf-seg button {
+  padding: 9px 14px;
+  border: 0;
+  background: none;
+  color: var(--pf-mute);
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+.pf-seg button:hover {
+  color: #fff;
+  background: rgba(0, 212, 255, 0.08);
+}
+.pf-seg button.on {
+  color: #fff;
+  background: rgba(0, 212, 255, 0.14);
+  box-shadow: inset 0 -2px 0 var(--pf-cyan);
+}
+.pf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  gap: 10px;
+}
+.pf-scroll {
+  max-height: 372px;
+  overflow-y: auto;
+  padding: 4px 6px 4px 4px;
+  margin: -4px -6px -4px -4px;
+  scrollbar-color: var(--pf-line2) transparent;
+}
+.pf-opt {
+  position: relative;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 1px solid var(--pf-line2);
+  background: rgba(0, 4, 31, 0.7);
+  clip-path: var(--pf-cut-s);
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    transform 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.pf-opt img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s;
+}
+.pf-opt:hover,
+.pf-opt:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--pf-cyan);
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.35);
+  outline: none;
+}
+.pf-opt:hover img {
+  transform: scale(1.06);
+}
+.pf-opt.sel {
+  border: 2px solid var(--pf-lime);
+  box-shadow:
+    0 0 0 1px rgba(153, 255, 128, 0.4),
+    0 0 22px rgba(153, 255, 128, 0.45);
+}
+.pf-opt.sel::after {
+  content: '✓';
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  background: var(--pf-lime);
+  color: var(--pf-ground);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pf-opt em {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 3px 0;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: rgba(0, 4, 31, 0.8);
+  color: var(--pf-soft);
+}
+.pf-auto,
+.pf-ini {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  color: #fff;
+  background: linear-gradient(135deg, #0a2a5c, #00041f);
+}
+.pf-auto {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--pf-cyan);
+}
+.pf-ini {
+  font-size: 28px;
+}
+.pf-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* buttons */
+.pf-btn {
+  height: 40px;
+  padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--pf-line2);
+  background: rgba(0, 4, 31, 0.6);
+  color: var(--pf-text);
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  clip-path: var(--pf-cut-s);
+  transition:
+    border-color 0.2s,
+    color 0.2s,
+    box-shadow 0.2s,
+    transform 0.2s;
+}
+.pf-btn.sm {
+  height: 34px;
+  padding: 0 12px;
+}
+.pf-btn:hover:not(:disabled) {
+  border-color: var(--pf-cyan);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(0, 212, 255, 0.3);
+  transform: translateY(-1px);
+}
+.pf-btn.cy {
+  border-color: var(--pf-cyan);
+  color: var(--pf-cyan);
+}
+.pf-btn.go {
+  background: var(--pf-lime);
+  color: var(--pf-ground);
+  border: 0;
+}
+.pf-btn.danger {
+  color: var(--pf-bad);
+  border-color: #6b2a45;
+}
+.pf-btn.danger:hover:not(:disabled) {
+  border-color: var(--pf-bad);
+  box-shadow: 0 0 16px rgba(255, 107, 138, 0.3);
+}
+.pf-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.pf-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.pf-cta {
+  position: relative;
+  height: 52px;
+  padding: 0 32px;
+  border: 0;
+  background: var(--pf-lime);
+  color: var(--pf-ground);
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  clip-path: var(--pf-cut);
+  overflow: hidden;
+  transition:
+    transform 0.2s,
+    filter 0.2s;
+}
+.pf-cta::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  left: -80px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+  transform: skewX(-20deg);
+  animation: pf-sweep 3.4s ease-in-out infinite;
+}
+.pf-cta:hover:not(:disabled) {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 0 14px rgba(153, 255, 128, 0.7));
+}
+.pf-cta:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.pf-cta:disabled::after {
+  display: none;
+}
+.pf-msg {
+  margin: 0;
+  font-size: 13px;
+  color: var(--pf-lime);
+}
+.pf-msg.bad {
+  color: var(--pf-bad);
+}
+
+/* sign-ins */
+.pf-links {
+  grid-area: links;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 16px;
+  padding: 14px 20px;
+  border: 1px solid var(--pf-line2);
+  background: rgba(0, 4, 31, 0.66);
+  clip-path: var(--pf-cut-s);
+  animation: pf-rise 0.8s 0.24s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.pf-end {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.pf-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 80px 16px;
+}
+.pf-empty h2 {
+  font-family: var(--hd, 'Chakra Petch', sans-serif);
+  letter-spacing: 0.08em;
+}
+
+@keyframes pf-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pf-rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pf-sweep {
+  0%,
+  55% {
+    left: -80px;
+  }
+  100% {
+    left: 120%;
+  }
+}
+
+/* a phone: one column, the card on top, Save in reach */
+@media (max-width: 860px) {
+  .pf {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'me' 'edit' 'links';
+    padding: 20px 16px 32px;
+    gap: 20px;
+  }
+  .pf-me {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 6px 16px;
+    align-items: center;
+  }
+  .pf-eye {
+    grid-column: 1 / -1;
+  }
+  .pf-ring {
+    width: 96px;
+    height: 96px;
+    grid-row: span 2;
+  }
+  .pf-big.ini {
+    font-size: 34px;
+  }
+  .pf-name {
+    font-size: 26px;
+    align-self: end;
+  }
+  .pf-sub {
+    align-self: start;
+  }
+  .pf-stats,
+  .pf-lab,
+  .pf-preview {
+    grid-column: 1 / -1;
+  }
+  .pf-edit {
+    padding: 22px 18px;
+  }
+  .pf-rules {
+    flex-direction: column;
+  }
+  .pf-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .pf-seg {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .pf-seg button {
+    padding: 10px 6px;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+  }
+  .pf-scroll {
+    max-height: 320px;
+  }
+  /* Save stays in reach above the phone's bottom bar */
+  .pf-actions {
+    position: sticky;
+    bottom: calc(var(--dock-h, 72px) + 8px);
+    z-index: 2;
+    flex-wrap: nowrap;
+    margin: 0 -10px;
+    padding: 10px;
+    background: rgba(0, 3, 22, 0.96);
+    border: 1px solid var(--pf-line);
+    clip-path: var(--pf-cut-s);
+  }
+  .pf-actions .pf-btn {
+    padding: 0 12px;
+    white-space: nowrap;
+  }
+  .pf-cta {
+    flex: 1;
+    height: 46px;
+    padding: 0 12px;
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    white-space: nowrap;
+  }
+  .pf-end {
+    margin-left: 0;
+  }
+}
+
+:root[data-motion='off'] .pf *,
+:root[data-motion='off'] .pf *::before,
+:root[data-motion='off'] .pf *::after,
+:root[data-motion='off'] .pf-me,
+:root[data-motion='off'] .pf-edit,
+:root[data-motion='off'] .pf-links {
+  animation: none !important;
+  transition: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .pf *,
+  .pf *::before,
+  .pf *::after,
+  .pf-me,
+  .pf-edit,
+  .pf-links {
+    animation: none !important;
+  }
+}
+
+
 /* ───── ui/audio.css ───── */
 /* ============================================================================
    TUMULT — the Audio studio (Settings ▸ Audio studio) and the quick panel's
