@@ -3,8 +3,8 @@
    the cache first. The page itself is fetched from the network first, so a new release is picked up on the
    next visit, and the cached page is the fallback when there is no network. A new release has a new cache
    name; the old caches are deleted once it takes over. */
-const CACHE = 'tumult-1adc4d139e';
-const CORE = ["./","./assets/tumult.4a677ad75b.js","./assets/tumult.288ec1bd11.css","./assets/ChakraPetch-SemiBold.49fbe9af20.woff2","./assets/Cinzel-Bold.8efa224fe7.woff2"];
+const CACHE = 'tumult-6698eb0956';
+const CORE = ["./","./assets/tumult.b4aff2b83d.js","./assets/tumult.ac565a7fd3.css","./assets/ChakraPetch-SemiBold.49fbe9af20.woff2","./assets/Cinzel-Bold.8efa224fe7.woff2"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

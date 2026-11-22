@@ -7393,30 +7393,30 @@ body:has(.mission.hud) .net-away {
 }
 @keyframes shShake {
   25% {
-    transform: translate(-4px, 2px);
+    translate: -4px 2px;
   }
   50% {
-    transform: translate(3px, -2px);
+    translate: 3px -2px;
   }
   75% {
-    transform: translate(-2px, 1px);
+    translate: -2px 1px;
   }
 }
 @keyframes shShake2 {
   15% {
-    transform: translate(-9px, 4px);
+    translate: -9px 4px;
   }
   30% {
-    transform: translate(8px, -5px);
+    translate: 8px -5px;
   }
   45% {
-    transform: translate(-6px, 3px);
+    translate: -6px 3px;
   }
   60% {
-    transform: translate(4px, -2px);
+    translate: 4px -2px;
   }
   80% {
-    transform: translate(-2px, 1px);
+    translate: -2px 1px;
   }
 }
 
@@ -7734,6 +7734,25 @@ body:has(.mission.hud) .net-away {
   border-top: 1px solid color-mix(in srgb, var(--sh-gold) 30%, transparent);
   font-size: 12.5px;
   color: #c3c8ee;
+}
+
+/* ── the tilt: the board lies on the table in front of the scene ── */
+.board > svg {
+  transition: transform 0.5s ease;
+}
+.board.tilt > svg {
+  transform: perspective(1500px) rotateX(24deg) scale(0.97);
+  transform-origin: 50% 70%;
+}
+@media (max-width: 700px) {
+  .board.tilt > svg {
+    transform: perspective(1100px) rotateX(16deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .board > svg {
+    transition: none;
+  }
 }
 
 /* ── the camera ── */
