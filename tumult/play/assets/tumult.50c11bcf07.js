@@ -1,5 +1,5 @@
 window.T = window.T || {};
-window.T.BUILD = {"version":"2.127.0","playtest":false};
+window.T.BUILD = {"version":"2.128.0","playtest":false};
 window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"assets/pilots/ALOIX.43e4999b34.jpg","pilot/ANOTH":"assets/pilots/ANOTH.8c8ba3872e.jpg","pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVIL":"assets/pilots/ANVIL.d03812188c.jpg","pilot/ARARA":"assets/pilots/ARARA.a9a5f5e370.jpg","pilot/ARILIA":"assets/pilots/ARILIA.811131207d.jpg","pilot/ASTROFOIL":"assets/pilots/ASTROFOIL.5c9fa6f14d.jpg","pilot/ATHARA":"assets/pilots/ATHARA.566837ceea.jpg","pilot/BANDIT":"assets/pilots/BANDIT.09391a446f.jpg","pilot/BELBERIN":"assets/pilots/BELBERIN.fe552f843d.jpg","pilot/BELDIRI":"assets/pilots/BELDIRI.bb899d0989.jpg","pilot/BELKO":"assets/pilots/BELKO.bf1893ac6e.jpg","pilot/BELMIDEK":"assets/pilots/BELMIDEK.9f9b46dd53.jpg","pilot/BELRENRO":"assets/pilots/BELRENRO.a8d1afd2ec.jpg","pilot/BELSIAR":"assets/pilots/BELSIAR.3421845c80.jpg","pilot/BELSOTH":"assets/pilots/BELSOTH.ddc38ecbd4.jpg","pilot/BELTHALY":"assets/pilots/BELTHALY.9ca6a590b5.jpg","pilot/BELWEN":"assets/pilots/BELWEN.bdae9555bc.jpg","pilot/BRILOLIA":"assets/pilots/BRILOLIA.8c33011094.jpg","pilot/BRIOLA":"assets/pilots/BRIOLA.d016ba9df1.jpg","pilot/BRIRAIX":"assets/pilots/BRIRAIX.ad5523ef69.jpg","pilot/BRISH":"assets/pilots/BRISH.7ffedf9d77.jpg","pilot/BRISILIA":"assets/pilots/BRISILIA.55b830452a.jpg","pilot/BUSHY":"assets/pilots/BUSHY.22cbdd91fa.jpg","pilot/CABEANE":"assets/pilots/CABEANE.a3f9f37902.jpg","pilot/CAKOOLA":"assets/pilots/CAKOOLA.410a91f525.jpg","pilot/CALADEK":"assets/pilots/CALADEK.4b0d375c6b.jpg","pilot/CALAOLA":"assets/pilots/CALAOLA.7d0d031d3c.jpg","pilot/CALOSH":"assets/pilots/CALOSH.a4d55479d5.jpg","pilot/CANUAR":"assets/pilots/CANUAR.224b61c8a2.jpg","pilot/CARIEL":"assets/pilots/CARIEL.5798c71984.jpg","pilot/CARIO":"assets/pilots/CARIO.fcc67b00ee.jpg","pilot/CITADEL":"assets/pilots/CITADEL.ee7edc065c.jpg","pilot/COMET":"assets/pilots/COMET.0af72b6f6d.jpg","pilot/CORANE":"assets/pilots/CORANE.c7026949b3.jpg","pilot/CORBEEK":"assets/pilots/CORBEEK.78e1c6ddb3.jpg","pilot/CORBEMO":"assets/pilots/CORBEMO.46051982a0.jpg","pilot/CORLILIA":"assets/pilots/CORLILIA.658f4b32f5.jpg","pilot/CORN":"assets/pilots/CORN.65f73d8382.jpg","pilot/CORNDO":"assets/pilots/CORNDO.c16588c87e.jpg","pilot/CORRARIN":"assets/pilots/CORRARIN.879c9ccf14.jpg","pilot/DAMSEL":"assets/pilots/DAMSEL.adb17d42d3.jpg","pilot/DAREK":"assets/pilots/DAREK.1dfdf1341f.jpg","pilot/DARSOANE":"assets/pilots/DARSOANE.3f55e457c7.jpg","pilot/DARX":"assets/pilots/DARX.4434a58e68.jpg","pilot/DELKO":"assets/pilots/DELKO.5d1e306ef5.jpg","pilot/DELLALIA":"assets/pilots/DELLALIA.1672cffe6e.jpg","pilot/DELLIAR":"assets/pilots/DELLIAR.e5a0375180.jpg","pilot/DELLOANE":"assets/pilots/DELLOANE.73d7910dea.jpg","pilot/DELLORIN":"assets/pilots/DELLORIN.408027cb25.jpg","pilot/DELMADEK":"assets/pilots/DELMADEK.3a826e35b1.jpg","pilot/DELNURI":"assets/pilots/DELNURI.3db0ec910b.jpg","pilot/DELSOKO":"assets/pilots/DELSOKO.e4c15c3589.jpg","pilot/DOE":"assets/pilots/DOE.f54ac28b36.jpg","pilot/DOZER":"assets/pilots/DOZER.0c2e273a78.jpg","pilot/ECHO":"assets/pilots/ECHO.09a66c8cd4.jpg","pilot/EMAO":"assets/pilots/EMAO.d8fb6d5e8b.jpg","pilot/ENSIGN":"assets/pilots/ENSIGN.dc51eec735.jpg","pilot/FENKORA":"assets/pilots/FENKORA.725f42bbe3.jpg","pilot/FENLALIA":"assets/pilots/FENLALIA.c2507593a2.jpg","pilot/FENRA":"assets/pilots/FENRA.11faa43159.jpg","pilot/FENX":"assets/pilots/FENX.7305adac5b.jpg","pilot/FIEST":"assets/pilots/FIEST.ca4f6072bf.jpg","pilot/FLUME":"assets/pilots/FLUME.99e34640fa.jpg","pilot/FLUX":"assets/pilots/FLUX.53b20c2d11.jpg","pilot/GALBEMO":"assets/pilots/GALBEMO.f3284426f7.jpg","pilot/GALLEON":"assets/pilots/GALLEON.4007ec2ba5.jpg","pilot/GALLITH":"assets/pilots/GALLITH.5231762b0e.jpg","pilot/GALMAO":"assets/pilots/GALMAO.52299a1823.jpg","pilot/GALSOLY":"assets/pilots/GALSOLY.fa08182309.jpg","pilot/GALSOOLA":"assets/pilots/GALSOOLA.4c636b23c0.jpg","pilot/HABEAR":"assets/pilots/HABEAR.c1432e4446.jpg","pilot/HAN":"assets/pilots/HAN.1836d0f7c3.jpg","pilot/HORNET":"assets/pilots/HORNET.c42014a776.jpg","pilot/IDIO":"assets/pilots/IDIO.cdde754cbb.jpg","pilot/ILORIN":"assets/pilots/ILORIN.b99e2531b1.jpg","pilot/IRI":"assets/pilots/IRI.37eadaad4b.jpg","pilot/ISOLO":"assets/pilots/ISOLO.2fb9735223.jpg","pilot/ITHAX":"assets/pilots/ITHAX.0ead69e72c.jpg","pilot/IVY":"assets/pilots/IVY.473c6f1896.jpg","pilot/JODIOLA":"assets/pilots/JODIOLA.1f05357781.jpg","pilot/JORIRO":"assets/pilots/JORIRO.58e95a465f.jpg","pilot/JORO":"assets/pilots/JORO.c85885531a.jpg","pilot/JOSORA":"assets/pilots/JOSORA.1cebcfd064.jpg","pilot/JOTHAAR":"assets/pilots/JOTHAAR.b0ce1e8cfd.jpg","pilot/JOUS":"assets/pilots/JOUS.1441533e13.jpg","pilot/JUGGER":"assets/pilots/JUGGER.586ce53079.jpg","pilot/KABEN":"assets/pilots/KABEN.11aeb58071.jpg","pilot/KADIWEN":"assets/pilots/KADIWEN.b7c104428c.jpg","pilot/KALARA":"assets/pilots/KALARA.dcf1fb3cb3.jpg","pilot/KAMASH":"assets/pilots/KAMASH.3f121ebad5.jpg","pilot/KARIIX":"assets/pilots/KARIIX.26a2fc2eb5.jpg","pilot/KASH":"assets/pilots/KASH.e0ac12c2b3.jpg","pilot/KRUSH":"assets/pilots/KRUSH.334b99716e.jpg","pilot/LONGSHIFT":"assets/pilots/LONGSHIFT.ddbb54691b.jpg","pilot/LUDIRA":"assets/pilots/LUDIRA.650f72fc2c.jpg","pilot/LULAANE":"assets/pilots/LULAANE.b4607cb3ba.jpg","pilot/LULIIA":"assets/pilots/LULIIA.faec6f17f0.jpg","pilot/LUNULO":"assets/pilots/LUNULO.c34b9c91ea.jpg","pilot/MAESTRO":"assets/pilots/MAESTRO.a123e74967.jpg","pilot/MAIX":"assets/pilots/MAIX.4b2949e043.jpg","pilot/MAKOOLA":"assets/pilots/MAKOOLA.d012951ffc.jpg","pilot/MALIMO":"assets/pilots/MALIMO.46cca662aa.jpg","pilot/MALOANE":"assets/pilots/MALOANE.fb0febbb8f.jpg","pilot/MAMAOLA":"assets/pilots/MAMAOLA.fd43dae51a.jpg","pilot/MAMO":"assets/pilots/MAMO.e7c7558b96.jpg","pilot/MANGER":"assets/pilots/MANGER.a0cc5e1ece.jpg","pilot/MASON":"assets/pilots/MASON.bb77e506ba.jpg","pilot/MATA":"assets/pilots/MATA.df79b0b771.jpg","pilot/MIBEN":"assets/pilots/MIBEN.ee2acc08ee.jpg","pilot/MILAWEN":"assets/pilots/MILAWEN.3fc4c98f63.jpg","pilot/MILOLY":"assets/pilots/MILOLY.7672bea8a5.jpg","pilot/MIRAVE":"assets/pilots/MIRAVE.860273dbe5.jpg","pilot/MIRIN":"assets/pilots/MIRIN.02fa308242.jpg","pilot/MIRIOLA":"assets/pilots/MIRIOLA.9f4cc46468.jpg","pilot/MIRISA":"assets/pilots/MIRISA.b07a8d02e5.jpg","pilot/MISISH":"assets/pilots/MISISH.14775cdde4.jpg","pilot/NEEDLE":"assets/pilots/NEEDLE.5c9752c43d.jpg","pilot/NEKOANE":"assets/pilots/NEKOANE.12595b28fc.jpg","pilot/NELASA":"assets/pilots/NELASA.9067cbecd6.jpg","pilot/NELOEL":"assets/pilots/NELOEL.bfd6c80df6.jpg","pilot/NEMAIX":"assets/pilots/NEMAIX.ba3482a3d6.jpg","pilot/NEMAMO":"assets/pilots/NEMAMO.99e0c5eb4e.jpg","pilot/NEMATH":"assets/pilots/NEMATH.35c2ca859f.jpg","pilot/NENUVE":"assets/pilots/NENUVE.94f14ed8e5.jpg","pilot/NENUX":"assets/pilots/NENUX.f1d1bb0fe0.jpg","pilot/NETHAEL":"assets/pilots/NETHAEL.be820038e5.jpg","pilot/OLIA":"assets/pilots/OLIA.da6136c8fe.jpg","pilot/OLO":"assets/pilots/OLO.9b6a4ab50b.jpg","pilot/OLOEL":"assets/pilots/OLOEL.69aed7c06d.jpg","pilot/OLONE":"assets/pilots/OLONE.4af0e1679c.jpg","pilot/OMAKO":"assets/pilots/OMAKO.ff8f9475a0.jpg","pilot/OMIX":"assets/pilots/OMIX.7e4cce2f55.jpg","pilot/OPAL":"assets/pilots/OPAL.f4ce50ebbd.jpg","pilot/ORA":"assets/pilots/ORA.4c9ef87a50.jpg","pilot/OTH":"assets/pilots/OTH.c00d404eac.jpg","pilot/OVEX":"assets/pilots/OVEX.0e23891b01.jpg","pilot/PEDIRI":"assets/pilots/PEDIRI.ff60b065ac.jpg","pilot/PEKOAR":"assets/pilots/PEKOAR.90011b2608.jpg","pilot/PELOWEN":"assets/pilots/PELOWEN.3961de0010.jpg","pilot/PEMIIX":"assets/pilots/PEMIIX.6e5f68277a.jpg","pilot/PENDO":"assets/pilots/PENDO.3a9665e717.jpg","pilot/PENOOLA":"assets/pilots/PENOOLA.2240a3f002.jpg","pilot/PERENSA":"assets/pilots/PERENSA.c2f79395b5.jpg","pilot/PEVETH":"assets/pilots/PEVETH.a7262bbee0.jpg","pilot/PEWEN":"assets/pilots/PEWEN.724de93a6c.jpg","pilot/QUIBEMO":"assets/pilots/QUIBEMO.cf223775f3.jpg","pilot/QUIKOTH":"assets/pilots/QUIKOTH.5b32c6fee0.jpg","pilot/QUILOX":"assets/pilots/QUILOX.74ddb1971a.jpg","pilot/RAMPART":"assets/pilots/RAMPART.d688721f54.jpg","pilot/REAPER":"assets/pilots/REAPER.fcf80ec2b0.jpg","pilot/RIPTIDE":"assets/pilots/RIPTIDE.4a3167f030.jpg","pilot/RODIIX":"assets/pilots/RODIIX.86e905da55.jpg","pilot/ROLAMO":"assets/pilots/ROLAMO.2eb683e84d.jpg","pilot/ROLODEK":"assets/pilots/ROLODEK.722a593429.jpg","pilot/ROSIRIN":"assets/pilots/ROSIRIN.d29bee21d7.jpg","pilot/ROSONDO":"assets/pilots/ROSONDO.66d75c34bc.jpg","pilot/SABERO":"assets/pilots/SABERO.1c5a6df9ce.jpg","pilot/SAMAIA":"assets/pilots/SAMAIA.2c22477f3f.jpg","pilot/SANUIA":"assets/pilots/SANUIA.57d607dc33.jpg","pilot/SARAX":"assets/pilots/SARAX.0b9ca8d036.jpg","pilot/SASOKO":"assets/pilots/SASOKO.78f94f903d.jpg","pilot/SATHAANE":"assets/pilots/SATHAANE.8061cd8012.jpg","pilot/SCALES":"assets/pilots/SCALES.87715f6be5.jpg","pilot/SHRAPNEL":"assets/pilots/SHRAPNEL.60bf432658.jpg","pilot/SIPHON":"assets/pilots/SIPHON.64319ecec6.jpg","pilot/SLINGSHOT":"assets/pilots/SLINGSHOT.782ce6f557.jpg","pilot/SPARE01":"assets/pilots/SPARE01.e7bb1001da.jpg","pilot/SPARE02":"assets/pilots/SPARE02.4661694d58.jpg","pilot/SPARE03":"assets/pilots/SPARE03.157488b8ca.jpg","pilot/SPARE04":"assets/pilots/SPARE04.8cee2a69f6.jpg","pilot/SPARE05":"assets/pilots/SPARE05.7b664e7e50.jpg","pilot/SPARE06":"assets/pilots/SPARE06.6784507633.jpg","pilot/SPARE07":"assets/pilots/SPARE07.b83ac8694b.jpg","pilot/SPARE08":"assets/pilots/SPARE08.0f29c38886.jpg","pilot/STRIDER":"assets/pilots/STRIDER.1f777221cb.jpg","pilot/SUNDIAL":"assets/pilots/SUNDIAL.e301dbb8a1.jpg","pilot/TAKOANE":"assets/pilots/TAKOANE.f587bc8275.jpg","pilot/TAKOUS":"assets/pilots/TAKOUS.7e9c0c4788.jpg","pilot/TALOLO":"assets/pilots/TALOLO.f410317b58.jpg","pilot/TALON":"assets/pilots/TALON.98273b2e9a.jpg","pilot/TAMO":"assets/pilots/TAMO.b86f11dac8.jpg","pilot/TANUWEN":"assets/pilots/TANUWEN.fcc7bda948.jpg","pilot/TENACIOUS":"assets/pilots/TENACIOUS.c0e1c59b06.jpg","pilot/TENDER":"assets/pilots/TENDER.83a2dbd7da.jpg","pilot/TOMAHAWK":"assets/pilots/TOMAHAWK.9de0540c54.jpg","pilot/TRACE":"assets/pilots/TRACE.6c835c4aad.jpg","pilot/UIX":"assets/pilots/UIX.0fe225230f.jpg","pilot/ULIA":"assets/pilots/ULIA.4a68fe9c11.jpg","pilot/ULINE":"assets/pilots/ULINE.ae7d05e530.jpg","pilot/ULOTH":"assets/pilots/ULOTH.71d6f7c78c.jpg","pilot/URO":"assets/pilots/URO.d153fb9c2a.jpg","pilot/UTHAEL":"assets/pilots/UTHAEL.0a0b4d057c.jpg","pilot/VERAO":"assets/pilots/VERAO.f428fc465b.jpg","pilot/VEVEOLA":"assets/pilots/VEVEOLA.2cb64352bc.jpg","pilot/VOLT":"assets/pilots/VOLT.80a1160ef3.jpg","pilot/WINGMAN":"assets/pilots/WINGMAN.8d484a3eaa.jpg","pilot/WYNE":"assets/pilots/WYNE.efc33aaea6.jpg","pilot/WYSOOLA":"assets/pilots/WYSOOLA.8c6ed6c54f.jpg","pilot/WYVE":"assets/pilots/WYVE.2bb9ad32fe.jpg","pilot/XABEDEK":"assets/pilots/XABEDEK.eabb0f810c.jpg","pilot/XALAAI":"assets/pilots/XALAAI.36e79f1ad5.jpg","pilot/XATHALO":"assets/pilots/XATHALO.d23dd174f6.jpg","pilot/XATHATA":"assets/pilots/XATHATA.f204d7c75c.jpg","pilot/YOMILIA":"assets/pilots/YOMILIA.b03bd1a399.jpg","pilot/YON":"assets/pilots/YON.10cd6d706c.jpg","pilot/YONE":"assets/pilots/YONE.a4357d30ec.jpg","pilot/YONOEK":"assets/pilots/YONOEK.a5e16f1f7d.jpg","pilot/YOVE":"assets/pilots/YOVE.45a3fec698.jpg","pilot/YOX":"assets/pilots/YOX.8a9d3ef821.jpg","pilot/ZEBEEL":"assets/pilots/ZEBEEL.228eb5f947.jpg","pilot/ZERIOLA":"assets/pilots/ZERIOLA.a42ba833dd.jpg","pilot/ZESONDO":"assets/pilots/ZESONDO.56538e063c.jpg","pilot/ZETH":"assets/pilots/ZETH.7549b5d26e.jpg","pilot/ZODIAC":"assets/pilots/ZODIAC.935c77c2bc.jpg","scene/AANE":"assets/scenes/AANE.19ab7f1c48.webp","scene/ALOIX":"assets/scenes/ALOIX.aaede637bf.webp","scene/ANOTH":"assets/scenes/ANOTH.849e56e96b.webp","scene/ANUDEK":"assets/scenes/ANUDEK.c7fc3c6d91.webp","scene/ANVIL":"assets/scenes/ANVIL.2e925512a0.webp","scene/ARARA":"assets/scenes/ARARA.c712c541d4.webp","scene/ARILIA":"assets/scenes/ARILIA.38d174512a.webp","scene/ASTROFOIL":"assets/scenes/ASTROFOIL.442347f8d5.webp","scene/ATHARA":"assets/scenes/ATHARA.5a0dc94b6b.webp","scene/BANDIT":"assets/scenes/BANDIT.9d2d80e3a6.webp","scene/BELBERIN":"assets/scenes/BELBERIN.9dc892d85d.webp","scene/BELDIRI":"assets/scenes/BELDIRI.7d790fdb67.webp","scene/BELKO":"assets/scenes/BELKO.56e1f880d8.webp","scene/BELMIDEK":"assets/scenes/BELMIDEK.7b1da9d6b0.webp","scene/BELRENRO":"assets/scenes/BELRENRO.dc9ff56a3a.webp","scene/BELSIAR":"assets/scenes/BELSIAR.a8eaf9d88b.webp","scene/BELSOTH":"assets/scenes/BELSOTH.54a3be9405.webp","scene/BELTHALY":"assets/scenes/BELTHALY.fa15ba2be1.webp","scene/BELWEN":"assets/scenes/BELWEN.767a6c0025.webp","scene/BRILOLIA":"assets/scenes/BRILOLIA.c6e8d0fca0.webp","scene/BRIOLA":"assets/scenes/BRIOLA.60d0f0ecf5.webp","scene/BRIRAIX":"assets/scenes/BRIRAIX.a6e34af4ca.webp","scene/BRISH":"assets/scenes/BRISH.b7278bc17a.webp","scene/BRISILIA":"assets/scenes/BRISILIA.ed69a87a70.webp","scene/BUSHY":"assets/scenes/BUSHY.37f0cffc7e.webp","scene/CABEANE":"assets/scenes/CABEANE.ae36719e11.webp","scene/CAKOOLA":"assets/scenes/CAKOOLA.1e9758eb23.webp","scene/CALADEK":"assets/scenes/CALADEK.ede525d8fd.webp","scene/CALAOLA":"assets/scenes/CALAOLA.6ba5fcbd98.webp","scene/CALOSH":"assets/scenes/CALOSH.c23b3c6773.webp","scene/CANUAR":"assets/scenes/CANUAR.40963d2f4a.webp","scene/CARIEL":"assets/scenes/CARIEL.09df404ab3.webp","scene/CARIO":"assets/scenes/CARIO.37cd14ba51.webp","scene/CITADEL":"assets/scenes/CITADEL.0c830e6ac4.webp","scene/COMET":"assets/scenes/COMET.738dc2177c.webp","scene/CORANE":"assets/scenes/CORANE.581f169af1.webp","scene/CORBEEK":"assets/scenes/CORBEEK.0873c8c795.webp","scene/CORBEMO":"assets/scenes/CORBEMO.9845817e52.webp","scene/CORLILIA":"assets/scenes/CORLILIA.e40de856b8.webp","scene/CORN":"assets/scenes/CORN.fb1b40e6f8.webp","scene/CORNDO":"assets/scenes/CORNDO.6755bf5e75.webp","scene/CORRARIN":"assets/scenes/CORRARIN.bf468113ff.webp","scene/DAMSEL":"assets/scenes/DAMSEL.59812cfeda.webp","scene/DAREK":"assets/scenes/DAREK.7ed92a3ef9.webp","scene/DARSOANE":"assets/scenes/DARSOANE.4b79c3c341.webp","scene/DARX":"assets/scenes/DARX.ff23e4f983.webp","scene/DELKO":"assets/scenes/DELKO.e44a3ebb31.webp","scene/DELLALIA":"assets/scenes/DELLALIA.56350ea109.webp","scene/DELLIAR":"assets/scenes/DELLIAR.4bc6f8803d.webp","scene/DELLOANE":"assets/scenes/DELLOANE.25922c8374.webp","scene/DELLORIN":"assets/scenes/DELLORIN.2d3d679877.webp","scene/DELMADEK":"assets/scenes/DELMADEK.cf8021a033.webp","scene/DELNURI":"assets/scenes/DELNURI.b339d62834.webp","scene/DELSOKO":"assets/scenes/DELSOKO.9dbe840e12.webp","scene/DOE":"assets/scenes/DOE.743094a514.webp","scene/DOZER":"assets/scenes/DOZER.bac0ce0f02.webp","scene/ECHO":"assets/scenes/ECHO.51b039badf.webp","scene/EMAO":"assets/scenes/EMAO.ef58a4cac6.webp","scene/ENSIGN":"assets/scenes/ENSIGN.41d1bdb5e2.webp","scene/FENKORA":"assets/scenes/FENKORA.ca6f5e4882.webp","scene/FENLALIA":"assets/scenes/FENLALIA.baec7fbcfd.webp","scene/FENRA":"assets/scenes/FENRA.a47ec27e47.webp","scene/FENX":"assets/scenes/FENX.328d8fd42c.webp","scene/FIEST":"assets/scenes/FIEST.29ffa75d52.webp","scene/FLUME":"assets/scenes/FLUME.831e812850.webp","scene/FLUX":"assets/scenes/FLUX.784c434eca.webp","scene/GALBEMO":"assets/scenes/GALBEMO.2e81ec9091.webp","scene/GALLEON":"assets/scenes/GALLEON.b9dcec2de6.webp","scene/GALLITH":"assets/scenes/GALLITH.14fe31bedf.webp","scene/GALMAO":"assets/scenes/GALMAO.b04936aa04.webp","scene/GALSOLY":"assets/scenes/GALSOLY.4d8fb255fd.webp","scene/GALSOOLA":"assets/scenes/GALSOOLA.d6b6071caf.webp","scene/HABEAR":"assets/scenes/HABEAR.c3754c0a42.webp","scene/HAN":"assets/scenes/HAN.1bd1f99f64.webp","scene/HORNET":"assets/scenes/HORNET.f9f87eec8c.webp","scene/IDIO":"assets/scenes/IDIO.bc2d1284c2.webp","scene/ILORIN":"assets/scenes/ILORIN.34002ec122.webp","scene/IRI":"assets/scenes/IRI.a76c37a550.webp","scene/ISOLO":"assets/scenes/ISOLO.b910f79333.webp","scene/ITHAX":"assets/scenes/ITHAX.28a03e245a.webp","scene/IVY":"assets/scenes/IVY.2253d01f62.webp","scene/JODIOLA":"assets/scenes/JODIOLA.0a429f4a78.webp","scene/JORIRO":"assets/scenes/JORIRO.d10f1e899a.webp","scene/JORO":"assets/scenes/JORO.dc03642cf9.webp","scene/JOSORA":"assets/scenes/JOSORA.32e3d61908.webp","scene/JOTHAAR":"assets/scenes/JOTHAAR.9ea6f9b85b.webp","scene/JOUS":"assets/scenes/JOUS.1d6c9420f6.webp","scene/JUGGER":"assets/scenes/JUGGER.d3181c4ef2.webp","scene/KABEN":"assets/scenes/KABEN.8de422d186.webp","scene/KADIWEN":"assets/scenes/KADIWEN.6c415c4ef9.webp","scene/KALARA":"assets/scenes/KALARA.e99f7c696f.webp","scene/KAMASH":"assets/scenes/KAMASH.116ea9f1e1.webp","scene/KARIIX":"assets/scenes/KARIIX.23268b67f5.webp","scene/KASH":"assets/scenes/KASH.76634040ff.webp","scene/KRUSH":"assets/scenes/KRUSH.fc3cd954e8.webp","scene/LONGSHIFT":"assets/scenes/LONGSHIFT.f9e1adaeff.webp","scene/LUDIRA":"assets/scenes/LUDIRA.ec7816d32b.webp","scene/LULAANE":"assets/scenes/LULAANE.51ebe15152.webp","scene/LULIIA":"assets/scenes/LULIIA.9077a35410.webp","scene/LUNULO":"assets/scenes/LUNULO.d1e62aa922.webp","scene/MAESTRO":"assets/scenes/MAESTRO.eca4b31129.webp","scene/MAIX":"assets/scenes/MAIX.78642e32c3.webp","scene/MAKOOLA":"assets/scenes/MAKOOLA.7c7e42d0be.webp","scene/MALIMO":"assets/scenes/MALIMO.c9a29152c0.webp","scene/MALOANE":"assets/scenes/MALOANE.de5471baf6.webp","scene/MAMAOLA":"assets/scenes/MAMAOLA.4dc26ed1a2.webp","scene/MAMO":"assets/scenes/MAMO.b283bab210.webp","scene/MANGER":"assets/scenes/MANGER.0468cebff3.webp","scene/MASON":"assets/scenes/MASON.75cea94d65.webp","scene/MATA":"assets/scenes/MATA.49f9953920.webp","scene/MIBEN":"assets/scenes/MIBEN.15388d4ad6.webp","scene/MILAWEN":"assets/scenes/MILAWEN.4c32be2cad.webp","scene/MILOLY":"assets/scenes/MILOLY.87efbbe09b.webp","scene/MIRAVE":"assets/scenes/MIRAVE.79e2dbd2bd.webp","scene/MIRIN":"assets/scenes/MIRIN.f5b4dfb3f6.webp","scene/MIRIOLA":"assets/scenes/MIRIOLA.2059a5711b.webp","scene/MIRISA":"assets/scenes/MIRISA.ddcf6f697d.webp","scene/MISISH":"assets/scenes/MISISH.911a8a377c.webp","scene/NEEDLE":"assets/scenes/NEEDLE.3dbf5b9812.webp","scene/NEKOANE":"assets/scenes/NEKOANE.d18e5cb9fc.webp","scene/NELASA":"assets/scenes/NELASA.3e445596c5.webp","scene/NELOEL":"assets/scenes/NELOEL.1ade9e4fc8.webp","scene/NEMAIX":"assets/scenes/NEMAIX.18184f34ef.webp","scene/NEMAMO":"assets/scenes/NEMAMO.5a05761c3b.webp","scene/NEMATH":"assets/scenes/NEMATH.b5b90d5a72.webp","scene/NENUVE":"assets/scenes/NENUVE.ae2897a48c.webp","scene/NENUX":"assets/scenes/NENUX.9e6f103485.webp","scene/NETHAEL":"assets/scenes/NETHAEL.114b9e3744.webp","scene/OLIA":"assets/scenes/OLIA.ee5b2e13e0.webp","scene/OLO":"assets/scenes/OLO.35b9f3df87.webp","scene/OLOEL":"assets/scenes/OLOEL.da6296c23d.webp","scene/OLONE":"assets/scenes/OLONE.2ac1694841.webp","scene/OMAKO":"assets/scenes/OMAKO.67ed22a958.webp","scene/OMIX":"assets/scenes/OMIX.50f67bdc07.webp","scene/OPAL":"assets/scenes/OPAL.3daa48ed44.webp","scene/ORA":"assets/scenes/ORA.3070108394.webp","scene/OTH":"assets/scenes/OTH.f5503d3437.webp","scene/OVEX":"assets/scenes/OVEX.a68728232f.webp","scene/PEDIRI":"assets/scenes/PEDIRI.826555c6d7.webp","scene/PEKOAR":"assets/scenes/PEKOAR.3ebc194bfd.webp","scene/PELOWEN":"assets/scenes/PELOWEN.b93e1feb77.webp","scene/PEMIIX":"assets/scenes/PEMIIX.4db83bf174.webp","scene/PENDO":"assets/scenes/PENDO.b016a66667.webp","scene/PENOOLA":"assets/scenes/PENOOLA.b65f3b48ac.webp","scene/PERENSA":"assets/scenes/PERENSA.b312ab0ac6.webp","scene/PEVETH":"assets/scenes/PEVETH.8d93ba651e.webp","scene/PEWEN":"assets/scenes/PEWEN.44fafcbc17.webp","scene/QUIBEMO":"assets/scenes/QUIBEMO.950538197c.webp","scene/QUIKOTH":"assets/scenes/QUIKOTH.a034cc225b.webp","scene/QUILOX":"assets/scenes/QUILOX.31b123f95c.webp","scene/RAMPART":"assets/scenes/RAMPART.c39804e525.webp","scene/REAPER":"assets/scenes/REAPER.d14c0aa60b.webp","scene/RIPTIDE":"assets/scenes/RIPTIDE.c9036541af.webp","scene/RODIIX":"assets/scenes/RODIIX.3d188ea9a0.webp","scene/ROLAMO":"assets/scenes/ROLAMO.107fd45e3c.webp","scene/ROLODEK":"assets/scenes/ROLODEK.968ef4eb57.webp","scene/ROSIRIN":"assets/scenes/ROSIRIN.6ecfbed451.webp","scene/ROSONDO":"assets/scenes/ROSONDO.3a73615b2d.webp","scene/SABERO":"assets/scenes/SABERO.8d0ce150ea.webp","scene/SAMAIA":"assets/scenes/SAMAIA.0643b1c910.webp","scene/SANUIA":"assets/scenes/SANUIA.42e5aa4e28.webp","scene/SARAX":"assets/scenes/SARAX.2e7e752e4b.webp","scene/SASOKO":"assets/scenes/SASOKO.864a2df87d.webp","scene/SATHAANE":"assets/scenes/SATHAANE.60583be976.webp","scene/SCALES":"assets/scenes/SCALES.0548e15be5.webp","scene/SHRAPNEL":"assets/scenes/SHRAPNEL.53eb5e756e.webp","scene/SIPHON":"assets/scenes/SIPHON.f8a26b6185.webp","scene/SLINGSHOT":"assets/scenes/SLINGSHOT.93d04d1ef7.webp","scene/SPARE01":"assets/scenes/SPARE01.b8c82ffc82.webp","scene/SPARE02":"assets/scenes/SPARE02.7cebea6d1d.webp","scene/SPARE03":"assets/scenes/SPARE03.d420985727.webp","scene/SPARE04":"assets/scenes/SPARE04.23fb0f067d.webp","scene/SPARE05":"assets/scenes/SPARE05.ac53bf8c68.webp","scene/SPARE06":"assets/scenes/SPARE06.a8814e5a25.webp","scene/SPARE07":"assets/scenes/SPARE07.3f7285ebad.webp","scene/SPARE08":"assets/scenes/SPARE08.2f72e653db.webp","scene/STRIDER":"assets/scenes/STRIDER.a0fccff34e.webp","scene/SUNDIAL":"assets/scenes/SUNDIAL.74ce284aa1.webp","scene/TAKOANE":"assets/scenes/TAKOANE.50b7909e7a.webp","scene/TAKOUS":"assets/scenes/TAKOUS.4423f66569.webp","scene/TALOLO":"assets/scenes/TALOLO.a0dc4ff99f.webp","scene/TALON":"assets/scenes/TALON.9ddf0dab5d.webp","scene/TAMO":"assets/scenes/TAMO.dc1c243760.webp","scene/TANUWEN":"assets/scenes/TANUWEN.ff811edd1c.webp","scene/TENACIOUS":"assets/scenes/TENACIOUS.3d447a26ac.webp","scene/TENDER":"assets/scenes/TENDER.e5b9cad127.webp","scene/TOMAHAWK":"assets/scenes/TOMAHAWK.66f74d0f4c.webp","scene/TRACE":"assets/scenes/TRACE.acccb15093.webp","scene/UIX":"assets/scenes/UIX.c67a2f0b9c.webp","scene/ULIA":"assets/scenes/ULIA.32294a4cda.webp","scene/ULINE":"assets/scenes/ULINE.ae6d70adb2.webp","scene/ULOTH":"assets/scenes/ULOTH.0c5c64445e.webp","scene/URO":"assets/scenes/URO.153e388940.webp","scene/UTHAEL":"assets/scenes/UTHAEL.a7c79f3ad8.webp","scene/VERAO":"assets/scenes/VERAO.c941b75d70.webp","scene/VEVEOLA":"assets/scenes/VEVEOLA.b6fc585b22.webp","scene/VOLT":"assets/scenes/VOLT.6bc64f10d3.webp","scene/WINGMAN":"assets/scenes/WINGMAN.113acd08b6.webp","scene/WYNE":"assets/scenes/WYNE.0ba11f9e6d.webp","scene/WYSOOLA":"assets/scenes/WYSOOLA.2bbeb36c29.webp","scene/WYVE":"assets/scenes/WYVE.e46330e1cc.webp","scene/XABEDEK":"assets/scenes/XABEDEK.b958807c03.webp","scene/XALAAI":"assets/scenes/XALAAI.c0c25fa102.webp","scene/XATHALO":"assets/scenes/XATHALO.b060046450.webp","scene/XATHATA":"assets/scenes/XATHATA.8e3b0348a0.webp","scene/YOMILIA":"assets/scenes/YOMILIA.172a4b32ca.webp","scene/YON":"assets/scenes/YON.96a08a3e46.webp","scene/YONE":"assets/scenes/YONE.dafec6cd55.webp","scene/YONOEK":"assets/scenes/YONOEK.913e824f05.webp","scene/YOVE":"assets/scenes/YOVE.1099c24040.webp","scene/YOX":"assets/scenes/YOX.a22bebea1c.webp","scene/ZEBEEL":"assets/scenes/ZEBEEL.81939caf01.webp","scene/ZERIOLA":"assets/scenes/ZERIOLA.01e889f7d1.webp","scene/ZESONDO":"assets/scenes/ZESONDO.3899ccfed5.webp","scene/ZETH":"assets/scenes/ZETH.446cb00c81.webp","scene/ZODIAC":"assets/scenes/ZODIAC.cf92a6f4c3.webp","portrait/sheet-1":"assets/portraits/sheet-1.044e47199d.webp","portrait/sheet-2":"assets/portraits/sheet-2.a0a86a6b7e.webp","portrait/sheet-3":"assets/portraits/sheet-3.c17b5b3caa.webp","portrait/sheet-4":"assets/portraits/sheet-4.3cc95a8dc5.webp","portrait/sheet-5":"assets/portraits/sheet-5.a07207cfc3.webp","portrait/sheet-6":"assets/portraits/sheet-6.91ea2aa75e.webp"};
 
 /* ───── data/cards.js ───── */
@@ -19894,6 +19894,336 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
+/* ───── ui/fauna.js ───── */
+/* ============================================================================
+   TUMULT — FAUNA (browser only)
+   The foes drawn as creatures in Cosmic Shore's fauna language, not as
+   discs with a glyph: an Etherion crystal heart leads, a wireframe of braid
+   spindles trails behind it, teal health prisms ride the limbs (the outermost
+   first), and one long red danger prism is the sting. Every kind of foe has
+   its own body plan; four forms (Mass, Charge, Space, Time) change the shape,
+   never the colour, and vary how a swarm looks. The form is only a look: it
+   comes from the foe's id and no rule reads it.
+   A creature animates by the classes on any ancestor: .atk (its blow), .hit
+   (a hit taken) and .die (it withers outside-in and drops its heart as one
+   Etherion). Idle motion stops under reduced motion (src/ui/fauna in hud.css).
+   Nothing here touches the mission.
+   ========================================================================== */
+(function (T) {
+  const U = (T.UI = T.UI || {});
+  const DARK = '#141A3E',
+    SLATE = '#5A6FA8',
+    LIGHT = '#A9BCF0',
+    TEAL = '#2FE0C8',
+    TEAL_HI = '#B8FFF2',
+    RED = '#FF3B5C',
+    RED_HI = '#FFC2CD',
+    HEART = '#DDF6FF',
+    HEART_LO = '#7FD8FF';
+  const SPACE_K = 1.6477; // a Space body's span, as in Cosmic Shore
+  const f1 = (n) => (Math.round(n * 10) / 10).toString();
+  const deg = (r) => (r * 180) / Math.PI;
+
+  function qpt(p0, p1, p2, t) {
+    const a = (1 - t) * (1 - t),
+      b = 2 * (1 - t) * t,
+      c = t * t;
+    const dx = 2 * (1 - t) * (p1[0] - p0[0]) + 2 * t * (p2[0] - p1[0]);
+    const dy = 2 * (1 - t) * (p1[1] - p0[1]) + 2 * t * (p2[1] - p1[1]);
+    return [a * p0[0] + b * p1[0] + c * p2[0], a * p0[1] + b * p1[1] + c * p2[1], deg(Math.atan2(dy, dx))];
+  }
+
+  function prism(x, y, ang, L, W, danger, shield) {
+    const fill = danger ? RED : TEAL,
+      hi = danger ? RED_HI : TEAL_HI;
+    const h = W / 2,
+      a = Math.min(h, L / 2);
+    const body = `M${f1(-L / 2)} 0L${f1(-L / 2 + a)} ${f1(-h)}L${f1(L / 2 - a)} ${f1(-h)}L${f1(L / 2)} 0L${f1(L / 2 - a)} ${f1(h)}L${f1(-L / 2 + a)} ${f1(h)}Z`;
+    const top = `M${f1(-L / 2)} 0L${f1(-L / 2 + a)} ${f1(-h)}L${f1(L / 2 - a)} ${f1(-h)}L${f1(L / 2)} 0Z`;
+    return (
+      `<g transform="translate(${f1(x)} ${f1(y)}) rotate(${Math.round(ang)})"><path d="${body}" fill="${DARK}" transform="scale(1.25)"/>` +
+      `<path d="${body}" fill="${fill}"/><path d="${top}" fill="${hi}" opacity=".55"/>` +
+      (shield ? `<path d="${body}" fill="none" stroke="#F4F7FF" stroke-width="1.6"/>` : '') +
+      '</g>'
+    );
+  }
+
+  function braid(p0, p1, p2, form, w) {
+    const d = `M${f1(p0[0])} ${f1(p0[1])}Q${f1(p1[0])} ${f1(p1[1])} ${f1(p2[0])} ${f1(p2[1])}`;
+    if (form === 'S') w *= 0.7;
+    const k = form === 'M' ? 1.35 : 1;
+    let out = `<path d="${d}" fill="none" stroke="${DARK}" stroke-width="${f1(5.2 * w * k)}" stroke-linecap="round"/>`;
+    if (form === 'C') {
+      // Charge: the braid's strands part
+      for (const [o, c] of [
+        [-2.4, SLATE],
+        [2.4, LIGHT],
+        [0, '#7C8FCC'],
+      ])
+        out += `<path d="${d}" fill="none" stroke="${c}" stroke-width="${f1(1.3 * w)}" stroke-linecap="round" transform="translate(0 ${o})"/>`;
+    } else {
+      const dash = form === 'S' ? '5 4' : '7 5';
+      out += `<path d="${d}" fill="none" stroke="${SLATE}" stroke-width="${f1(3 * w * k)}" stroke-linecap="round" stroke-dasharray="${dash}"/>`;
+      out += `<path d="${d}" fill="none" stroke="${LIGHT}" stroke-width="${f1(1.5 * w * k)}" stroke-linecap="round" stroke-dasharray="${dash}" stroke-dashoffset="6"/>`;
+    }
+    return out;
+  }
+
+  function heart(x, y, r) {
+    const pts = (k) =>
+      [0, 60, 120, 180, 240, 300]
+        .map(
+          (a) =>
+            f1(x + Math.cos((a * Math.PI) / 180) * r * k) + ',' + f1(y + Math.sin((a * Math.PI) / 180) * r * k * 0.86),
+        )
+        .join(' ');
+    return (
+      `<polygon points="${pts(1.18)}" fill="${DARK}"/><polygon points="${pts(1)}" fill="${HEART_LO}"/>` +
+      `<polygon points="${f1(x - r)},${f1(y)} ${f1(x - r / 2)},${f1(y - r * 0.86)} ${f1(x + r / 2)},${f1(y - r * 0.86)} ${f1(x)},${f1(y)}" fill="${HEART}"/>` +
+      `<polygon points="${f1(x)},${f1(y)} ${f1(x + r / 2)},${f1(y - r * 0.86)} ${f1(x + r)},${f1(y)}" fill="#fff"/>` +
+      `<circle class="core" cx="${f1(x)}" cy="${f1(y)}" r="${f1(r * 0.32)}" fill="#fff"/>`
+    );
+  }
+
+  /** Limbs radiating all round a heart: the anchored and the boss kinds have no front. */
+  function radial(cx, cy, n, r1, r2, bend, ts, stingAt) {
+    const out = [];
+    for (let i = 0; i < n; i++) {
+      const a = (i / n) * Math.PI * 2 + 0.3;
+      const p1 = [cx + Math.cos(a + bend) * r1, cy + Math.sin(a + bend) * r1 * 0.8];
+      const p2 = [cx + Math.cos(a) * r2, cy + Math.sin(a) * r2 * 0.8];
+      out.push(['r' + i, null, p1, p2, ts, stingAt.includes(i)]);
+    }
+    return out;
+  }
+
+  // A plan: the heart [x, y, r], limbs [name, start (null = the heart), control, end, prism ts, sting?],
+  // front tines that close like a jaw, how heavy the braids are, and whether the body has a front at all.
+  const PLANS = {
+    biter: {
+      h: [34, 50, 14],
+      front: [
+        ['jawU', [18, 30], [6, 40]],
+        ['jawL', [18, 70], [6, 60]],
+      ],
+      limbs: [
+        ['u', null, [70, 14], [122, 20], [0.55, 0.85]],
+        ['l', null, [70, 86], [122, 80], [0.55, 0.85]],
+        ['m', null, [80, 50], [112, 50], [], true],
+      ],
+    },
+    stinger: {
+      h: [26, 52, 11],
+      limbs: [
+        ['u', null, [54, 30], [78, 34], [0.7]],
+        ['l', null, [54, 74], [80, 70], [0.7]],
+        ['tail', null, [70, 50], [100, 40], [0.4, 0.8]],
+        ['tail2', [100, 40], [118, 32], [126, 52], [], true],
+      ],
+    },
+    kiter: {
+      h: [52, 50, 13],
+      limbs: [
+        ['vu', null, [66, 4], [104, 10], [0.5, 0.82, 1]],
+        ['vl', null, [66, 96], [104, 90], [0.5, 0.82, 1]],
+        ['vu2', null, [80, 24], [96, 32], [0.9]],
+        ['vl2', null, [80, 76], [96, 68], [0.9]],
+        ['lash', null, [100, 50], [136, 54], [], true],
+      ],
+    },
+    brute: {
+      h: [38, 50, 18],
+      heavy: 1.5,
+      front: [
+        ['jawU', [16, 26], [2, 38]],
+        ['jawL', [16, 74], [2, 62]],
+      ],
+      limbs: [
+        ['u', null, [66, 6], [118, 14], [0.4, 0.7, 0.95]],
+        ['l', null, [66, 94], [118, 86], [0.4, 0.7, 0.95]],
+        ['m', null, [80, 50], [104, 50], [0.6], true],
+      ],
+    },
+    lurker: {
+      h: [24, 50, 9],
+      heavy: 0.7,
+      limbs: [
+        ['u', null, [60, 36], [96, 44], [0.75]],
+        ['l', null, [60, 64], [96, 56], [0.75]],
+        ['tail', null, [80, 50], [110, 50], [0.6]],
+        ['tail2', [110, 50], [124, 50], [134, 50], [], true],
+      ],
+    },
+    harrier: {
+      h: [40, 50, 12],
+      limbs: [
+        ['vu', null, [58, 14], [120, 4], [0.45, 0.8, 1]],
+        ['vl', null, [58, 86], [120, 96], [0.45, 0.8, 1]],
+        ['lash', null, [100, 50], [134, 50], [0.5], true],
+      ],
+    },
+    tidecaller: {
+      h: [42, 50, 13],
+      limbs: [
+        ['vu', null, [70, 10], [104, 16], [0.6, 1]],
+        ['vl', null, [70, 90], [104, 84], [0.6, 1]],
+        ['t1', null, [90, 36], [134, 30], [0.55, 0.85]],
+        ['t2', null, [90, 64], [134, 70], [0.55, 0.85]],
+        ['lash', null, [100, 50], [138, 50], [], true],
+      ],
+    },
+    warden: { h: [70, 50, 17], radial: true, heavy: 1.4, limbs: radial(70, 50, 6, 30, 44, 0.35, [0.9], []), ring: 6 },
+    bulwark: {
+      h: [70, 50, 18],
+      radial: true,
+      heavy: 1.5,
+      limbs: radial(70, 50, 7, 32, 50, 0.3, [0.6, 1], [3]),
+      ring: 8,
+    },
+    binder: { h: [70, 50, 13], radial: true, limbs: radial(70, 50, 5, 46, 58, 0.6, [0.5, 1], [2]), web: true },
+    spawner: { h: [70, 50, 14], radial: true, limbs: radial(70, 50, 4, 22, 34, 0.5, [], []), buds: true },
+    heart: { h: [70, 50, 24], radial: true, heavy: 1.3, limbs: radial(70, 50, 8, 44, 64, 0.45, [0.55, 0.9], [1, 5]) },
+  };
+  const ALIAS = { decoy: 'stinger' };
+
+  /** The inside of a creature's own <svg>: its body, ghosts for a Time form, and the blow it throws. */
+  function body(kind, form) {
+    const P = PLANS[kind] || PLANS[ALIAS[kind]] || PLANS.biter;
+    const [hx, hy, hr] = P.h;
+    const sx = form === 'S' && !P.radial ? SPACE_K : 1;
+    const X = (p) => [hx + (p[0] - hx) * sx, p[1]];
+    const w = P.heavy || 1;
+    const prisms = [];
+    const limbs = P.limbs.map((l, li) => {
+      const [name, start, c, e, ts, sting] = l;
+      const p0 = start ? X(start) : [hx, hy];
+      const p1 = X(c),
+        p2 = X(e);
+      ts.forEach((t) => {
+        const [x, y, a] = qpt(p0, p1, p2, t);
+        prisms.push({
+          li,
+          x,
+          y,
+          a,
+          L: 13 * Math.min(1.3, w),
+          W: 7 * Math.min(1.3, w),
+          danger: form === 'C',
+          shield: form === 'M',
+        });
+      });
+      if (sting) {
+        const [x, y, a] = qpt(p0, p1, p2, 1);
+        const ln = kind === 'stinger' ? 34 : 28;
+        const r = (a * Math.PI) / 180;
+        prisms.push({
+          li,
+          x: x + (Math.cos(r) * ln) / 2,
+          y: y + (Math.sin(r) * ln) / 2,
+          a,
+          L: ln,
+          W: 4,
+          danger: true,
+          sting: true,
+        });
+      }
+      return { name, br: braid(p0, p1, p2, form, w) };
+    });
+    // prisms wither outside-in: the furthest from the heart goes first
+    const order = prisms
+      .map((p, i) => i)
+      .sort((a, b) => Math.hypot(prisms[b].x - hx, prisms[b].y - hy) - Math.hypot(prisms[a].x - hx, prisms[a].y - hy));
+    order.forEach((i, k) => (prisms[i].delay = k * 0.12));
+    let out = '';
+    limbs.forEach((l, li) => {
+      const pr = prisms
+        .filter((p) => p.li === li)
+        .map((p) => {
+          const drift = p.y < hy - 6 ? 'pa' : p.y > hy + 6 ? 'pb' : 'pc';
+          return `<g class="pr ${drift}${p.sting ? ' st' : ''}" style="animation-delay:${p.delay.toFixed(2)}s">${prism(p.x, p.y, p.a, p.L, p.W, p.danger || p.sting, p.shield)}</g>`;
+        })
+        .join('');
+      out += `<g class="sp sp-${l.name}${P.radial ? ' rad' : ''}" style="transform-origin:${hx}px ${hy}px">${l.br}${pr}</g>`;
+    });
+    (P.front || []).forEach(([name, c, e]) => {
+      const p0 = [hx, hy];
+      const [x, y, a] = qpt(p0, c, e, 0.95);
+      out += `<g class="jw ${name}" style="transform-origin:${hx}px ${hy}px">${braid(p0, c, e, form, 0.9 * w)}${prism(x, y, a, 10, 6, form === 'C', form === 'M')}</g>`;
+    });
+    if (P.ring) {
+      // a guardian's ring of shield plates round the heart
+      let ring = '';
+      for (let i = 0; i < P.ring; i++) {
+        const a = (i / P.ring) * Math.PI * 2;
+        ring += prism(hx + Math.cos(a) * (hr + 9), hy + Math.sin(a) * (hr + 9) * 0.86, deg(a) + 90, 12, 6, false, true);
+      }
+      out += `<g class="ring">${ring}</g>`;
+    }
+    if (P.web) {
+      const ends = P.limbs.map((l) => l[3]);
+      out += `<path class="web" d="${ends.map((p, i) => (i ? 'L' : 'M') + f1(p[0]) + ' ' + f1(p[1])).join('')}Z" fill="none" stroke="${LIGHT}" stroke-width="0.9" stroke-dasharray="2 3" opacity=".7"/>`;
+    }
+    if (P.buds) {
+      P.limbs.forEach((l) => {
+        out += `<g class="bud">${heart(l[3][0], l[3][1], 6)}</g>`;
+      });
+    }
+    if (form === 'C')
+      [
+        [hx + 30, hy - 22],
+        [hx + 52, hy + 16],
+        [hx + 16, hy + 20],
+      ].forEach(([x, y], i) => {
+        out += `<path class="spk" style="animation-delay:${(i * 0.23).toFixed(2)}s" d="M${f1(x)} ${f1(y)}l4 -5 1 4 5 -6" fill="none" stroke="#FFE38A" stroke-width="1.5" stroke-linecap="round"/>`;
+      });
+    return { out, hx, hy, hr, radial: !!P.radial, span: P.radial ? 140 : 140 + (140 - hx) * (sx - 1) };
+  }
+
+  const cache = {};
+  /**
+   * A creature as an <svg> of width `w` (in the units of whatever holds it). Its own viewport, so its
+   * animations turn about its own heart wherever it is drawn. `x`/`y` place it (centred) inside a board.
+   */
+  U.creature = function (kind, form, w, o = {}) {
+    const key = kind + form;
+    const b = (cache[key] = cache[key] || body(kind, form));
+    const big = form === 'M' ? 1 / 1.14 : 1;
+    const vw = b.span * big,
+      vh = 100 * big;
+    const vx = (b.span - vw) / 2,
+      vy = (100 - vh) / 2;
+    const h = (w * vh) / vw;
+    const pos = o.x != null ? ` x="${f1(o.x - w / 2)}" y="${f1(o.y - h / 2)}"` : '';
+    const ghosts =
+      form === 'T'
+        ? `<g class="ghost g1" opacity=".22">${b.out}</g><g class="ghost g2" opacity=".12">${b.out}</g>`
+        : '';
+    const bolt =
+      kind === 'biter' || kind === 'brute' || b.radial
+        ? ''
+        : `<g class="proj" style="transform-origin:${b.hx}px ${b.hy}px"><path d="M${b.hx - 6} ${b.hy}h-26" stroke="${RED}" stroke-width="4" stroke-linecap="round"/><path d="M${b.hx - 6} ${b.hy}h-26" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></g>`;
+    const hrt = `<g class="hrt" style="transform-origin:${b.hx}px ${b.hy}px">${heart(b.hx, b.hy, b.hr * (form === 'M' ? 1.12 : 1))}</g>`;
+    return (
+      `<svg class="cr cr-${kind} el-${form}${b.radial ? ' cr-rad' : ''}${o.cls ? ' ' + o.cls : ''}"${pos} width="${f1(w)}" height="${f1(h)}" viewBox="${f1(vx)} ${f1(vy)} ${f1(vw)} ${f1(vh)}" overflow="visible" aria-hidden="true">` +
+      `<g class="bd" style="transform-origin:${b.hx}px ${b.hy}px">${ghosts}<g class="live">${b.out}${hrt}</g>${bolt}</g></svg>`
+    );
+  };
+  U.creatureKinds = Object.keys(PLANS);
+
+  /** A foe's form: only a look, the same for a foe every time it is drawn, varied across a swarm. */
+  U.formOf = function (e) {
+    const s = String(e.uid != null ? e.uid : '') + (e.type || '');
+    let h = 7;
+    for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+    return 'MCST'[h % 4];
+  };
+  U.foeArt = (e, w, o) => U.creature(e.type, U.formOf(e), w, o);
+  /** How wide a foe's body is drawn on the board, in board units (a node's cell is 118). */
+  U.foeWidth = (e) =>
+    e.boss ? 190 : e.elite ? 140 : { brute: 132, warden: 120, spawner: 110, kiter: 124 }[e.type] || 112;
+})((window.T = window.T || {}));
+
+
 /* ───── ui/mission.js ───── */
 /* ============================================================================
    TUMULT v2.0 — UI MISSION SCREEN
@@ -20224,6 +20554,8 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     U.ms.built = true;
     U.ms.g = g;
     U.ms.svg = svg;
+    // drag and wheel move the view on a PC; − / % / + anywhere (src/ui/show.js)
+    if (U.cameraOn) U.cameraOn(host, svg, g.W, g.H);
   }
   function tipFor(id) {
     const m = M();
@@ -20357,6 +20689,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     U.ms.trackRound = m.round;
     scheduleCombos();
     playFx(m);
+    if (U.showRemember) U.showRemember(m);
     if (U.feelUpdate) U.feelUpdate(m);
     if (m.over && !U.ms.overShown) {
       U.ms.overShown = true;
@@ -20731,8 +21064,9 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     const intents =
       live
         .map(
-          (e) =>
-            `<div class="intent" data-tipid="e${e.uid}" data-tip=""><span class="g">${U.icEnemy(e.type, e.glyph)}</span><span class="who"><b>${esc(e.name)}</b> <span class="dim mono small">${Math.max(0, e.hp)}hp${e.shield ? ' ' + U.ic('enemy.bulwark', '🛡', 'tiny') + e.shield : ''}</span><i class="ehp"><i style="width:${Math.round((100 * Math.max(0, e.hp)) / (e.maxHp || 1))}%"></i></i></span><span class="right small">${U.kw(esc(e.intent.label))}</span></div>`,
+          // The Stack (Frogma, In-game B): the foes' plans as cards, numbered in the order they act at round end
+          (e, i) =>
+            `<div class="intent stk" data-tipid="e${e.uid}" data-tip=""><span class="no">${i + 1}</span><span class="g">${U.foeArt ? U.foeArt(e, 62) : U.icEnemy(e.type, e.glyph)}</span><span class="who"><span class="nm"><b>${esc(e.name)}</b><span class="dim mono small">${Math.max(0, e.hp)}/${e.maxHp}${e.shield ? ' ' + U.ic('enemy.bulwark', '🛡', 'tiny') + e.shield : ''}</span></span><span class="what">${U.kw(esc(e.intent.label))}</span><i class="ehp"><i style="width:${Math.round((100 * Math.max(0, e.hp)) / (e.maxHp || 1))}%"></i></i></span></div>`,
         )
         .join('') || '<span class="dim small">No foes standing.</span>';
     const open = U.layout.intents;
@@ -21549,12 +21883,11 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
           el.setAttribute('data-act', 'tgtEnemy');
           el.setAttribute('data-arg', String(e.uid));
           el.setAttribute('data-tipid', 'e' + e.uid);
-          svgEl('circle', { r: e.boss ? 24 : 18, class: 'body' }, el);
-          const ps = U.iconPaths('enemy.' + e.type);
-          if (ps) {
-            const k = e.boss ? 1.25 : 0.9;
-            const g = svgEl('g', { class: 'glyph-ic', transform: `translate(${-12 * k},${-12 * k}) scale(${k})` }, el);
-            ps.forEach((d) => svgEl('path', { d }, g));
+          // the foe's body (src/ui/fauna.js) over a soft disc that keeps it easy to click
+          svgEl('ellipse', { rx: e.boss ? 30 : 22, ry: e.boss ? 14 : 10, cy: 14, class: 'body' }, el);
+          if (U.foeArt) {
+            const cw = svgEl('g', { class: 'crw' }, el);
+            cw.innerHTML = U.foeArt(e, U.foeWidth(e), { x: 0, y: -4 });
           } else svgEl('text', { y: 6, class: 'glyph' }, el).textContent = e.glyph;
           svgEl('rect', { x: -16, y: 22, width: 32, height: 4, rx: 2, class: 'hpb' }, el);
           svgEl('rect', { x: -16, y: 22, width: 32, height: 4, rx: 2, class: 'hpf enemy' }, el);
@@ -21565,6 +21898,14 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
           el.querySelector('.hpf').setAttribute('width', (32 * Math.max(0, e.hp)) / e.maxHp);
           el.querySelector('.hp').textContent = e.hp;
           stateBadges(el, e, e.boss ? 24 : 18);
+          // a creature faces what it means to hit; its heart leads
+          const cw = el.querySelector('.crw');
+          const tg =
+            e.intent && e.intent.target != null
+              ? m.heroes.find((h) => h.uid === e.intent.target) || m.decoys.find((d) => d.uid === e.intent.target)
+              : null;
+          const aim = e.intent && e.intent.aim != null ? N[e.intent.aim] : tg ? N[tg.pos] : null;
+          if (cw && aim && N[e.pos]) cw.setAttribute('transform', aim.x > N[e.pos].x ? 'scale(-1,1)' : '');
           el.setAttribute('data-tip', tipFor('e' + e.uid));
         },
       );
@@ -22165,10 +22506,12 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
         if (took && delay < 4000) delay += Math.min(took, 1500);
       }
       if (U.feelFx) U.feelFx(m, f, ent, node, delay);
+      // the show (src/ui/show.js) may hold what follows back, so each blow is seen before the next
+      if (U.showFx) delay = U.showFx(m, f, ent, node, delay);
       switch (f.t) {
         case 'dmg':
           lunge(m, f, delay);
-          if (node != null) floater(node, '−' + f.amount, 'dmg', delay);
+          if (node != null) floater(node, '−' + f.amount, 'dmg big' + (f.amount >= 4 ? ' huge' : ''), delay);
           hitSound = true;
           delay += 160;
           break;
@@ -22196,14 +22539,14 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
           if (node != null) floater(node, '✕', 'miss', delay);
           break;
         case 'down':
-          banner('DOWNED');
+          if (!U.showBand) banner('DOWNED');
           break;
         case 'revive':
-          banner('RISES');
+          if (!U.showBand) banner('RISES');
           if (U.sound) U.sfx.heal();
           break;
         case 'phase2':
-          banner('THE HEART CRACKS');
+          if (!U.showBand) banner('THE HEART CRACKS');
           break;
         case 'flood':
           break;
@@ -22497,6 +22840,10 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     if ((act === 'face' || act === 'basic' || act === 'gear') && previewFirst(act, arg, el)) return true;
     if (act !== 'mmenu' && ms.menu) ms.menu = false;
     switch (act) {
+      // the board's view: zoom in or out, or show the whole board (src/ui/show.js)
+      case 'cam':
+        if (U.cameraZoom) U.cameraZoom(arg === 'in' ? 1.25 : arg === 'out' ? 0.8 : 0);
+        return true;
       // the screen's own folds: they change only what is shown on this screen
       case 'mmenu':
       case 'conds':
@@ -23413,6 +23760,432 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
       lfo.start();
       bed = { s, g };
     } catch (e) {}
+  };
+})((window.T = window.T || {}));
+
+
+/* ───── ui/show.js ───── */
+/* ============================================================================
+   TUMULT — THE SHOW (browser only)
+   Every blow of a mission played out where the player can see it, in the
+   spirit of a card duel and a dark-fantasy fight (Frogma "In-game screen",
+   B, The Stack, picked 2026-11-22): the card being played is held up, the
+   striker lunges, a bolt or a slash crosses the board, the target flashes,
+   a big number lands, a toast logs it; a slow serif banner marks a foe
+   felled, a pilot fallen and each new round, and a round ends with its
+   tally and any feat worth naming. The board drags and zooms on a PC.
+   It reads the mission and its effects queue (m.fx) and draws; it never
+   touches the mission, so nothing here can change an outcome.
+   ========================================================================== */
+(function (T) {
+  const U = (T.UI = T.UI || {});
+  const esc = (s) => U.esc(s);
+  const $ = (s, r) => (r || document).querySelector(s);
+  const NS = 'http://www.w3.org/2000/svg';
+  const full = () => (U.motion ? U.motion() === 'full' : true);
+  const later = (ms, fn) => setTimeout(fn, Math.max(0, ms));
+
+  /* ───────────── where things are ───────────── */
+  const unitOf = (m, uid) =>
+    uid == null
+      ? null
+      : m.heroes.find((h) => h.uid === uid) ||
+        m.enemies.find((e) => e.uid === uid) ||
+        (m.decoys || []).find((d) => d.uid === uid) ||
+        (m.pets || []).find((p) => p.uid === uid);
+  const isFoe = (m, uid) => m.enemies.some((e) => e.uid === uid);
+  const nameOf = (m, uid) => {
+    const u = unitOf(m, uid);
+    return u ? u.name || (T.ENEMIES[u.type] && T.ENEMIES[u.type].name) || '' : '';
+  };
+  const boardPt = (m, pos) => {
+    const n = pos != null && m.board.nodes[pos];
+    const g = U.ms && U.ms.g;
+    return n && g ? [g.px(n), g.py(n)] : null;
+  };
+  /** The layer the show draws on inside the board's SVG, above the tokens. */
+  function layer() {
+    const svg = U.ms && U.ms.svg;
+    if (!svg) return null;
+    let l = svg.querySelector('#showfx');
+    if (!l) {
+      l = document.createElementNS(NS, 'g');
+      l.setAttribute('id', 'showfx');
+      svg.appendChild(l);
+    }
+    return l;
+  }
+  /** The overlay over the board for cards, banners, toasts and the round's tally. */
+  function overlay() {
+    const wrap = $('.mission .boardwrap');
+    if (!wrap) return null;
+    let o = $('#mshow', wrap);
+    if (!o) {
+      o = document.createElement('div');
+      o.id = 'mshow';
+      o.innerHTML = '<div class="sh-toasts" aria-live="polite"></div>';
+      wrap.appendChild(o);
+    }
+    return o;
+  }
+  function put(html, ms, cls) {
+    const o = overlay();
+    if (!o) return;
+    const d = document.createElement('div');
+    d.className = cls;
+    d.innerHTML = html;
+    o.appendChild(d);
+    later(ms, () => d.remove());
+  }
+  /** A class on a token for a moment: .atk for a blow, .hit for a hit taken. */
+  function flashTok(uid, cls, ms) {
+    const el = U.ms && U.ms.svg && U.ms.svg.querySelector('#tok-' + uid);
+    if (!el) return;
+    el.classList.remove(cls);
+    el.getBoundingClientRect && el.getBoundingClientRect();
+    el.classList.add(cls);
+    later(ms, () => el.classList.remove(cls));
+  }
+
+  /* ───────────── the pieces ───────────── */
+  function beam(m, from, to, side, melee) {
+    const a = boardPt(m, from),
+      b = boardPt(m, to),
+      l = layer();
+    if (!a || !b || !l) return;
+    const g = document.createElementNS(NS, 'g');
+    g.setAttribute('class', 'sh-beam ' + side + (melee ? ' melee' : ''));
+    if (melee) {
+      // a slash across the target
+      g.innerHTML = [-38, -22, -52]
+        .map(
+          (r, i) =>
+            `<line class="sl s${i}" x1="${b[0] - 34}" y1="${b[1] - 6 + i * 8}" x2="${b[0] + 34}" y2="${b[1] - 6 + i * 8}" transform="rotate(${r} ${b[0]} ${b[1]})"/>`,
+        )
+        .join('');
+    } else {
+      const len = Math.hypot(b[0] - a[0], b[1] - a[1]);
+      g.innerHTML = `<line class="ln" x1="${a[0]}" y1="${a[1] - 8}" x2="${b[0]}" y2="${b[1] - 8}" style="stroke-dasharray:${len};stroke-dashoffset:${len}"/><circle class="bo" r="9" cx="${a[0]}" cy="${a[1] - 8}"><animate attributeName="cx" from="${a[0]}" to="${b[0]}" dur="0.3s" fill="freeze"/><animate attributeName="cy" from="${a[1] - 8}" to="${b[1] - 8}" dur="0.3s" fill="freeze"/></circle>`;
+    }
+    l.appendChild(g);
+    later(700, () => g.remove());
+  }
+  function impact(m, pos, cls) {
+    const b = boardPt(m, pos),
+      l = layer();
+    if (!b || !l) return;
+    const g = document.createElementNS(NS, 'g');
+    g.setAttribute('class', 'sh-imp ' + (cls || ''));
+    g.setAttribute('transform', `translate(${b[0]} ${b[1] - 6})`);
+    g.innerHTML = '<circle class="fl" r="40"/><circle class="rg" r="30"/><circle class="rg r2" r="30"/>';
+    l.appendChild(g);
+    later(800, () => g.remove());
+  }
+  /** A felled foe's body stays a moment to wither outside-in and drop its heart. */
+  function wither(m, e) {
+    const b = boardPt(m, e.pos),
+      l = layer();
+    if (!b || !l || !U.foeArt) return;
+    const g = document.createElementNS(NS, 'g');
+    g.setAttribute('class', 'sh-wither die');
+    g.innerHTML = U.foeArt(e, U.foeWidth(e), { x: b[0], y: b[1] - 4 });
+    l.appendChild(g);
+    later(1900, () => g.remove());
+  }
+  function shake(big) {
+    const b = $('.mission .board');
+    if (!b) return;
+    b.classList.remove('sh-shake', 'sh-shake2');
+    b.getBoundingClientRect();
+    b.classList.add(big ? 'sh-shake2' : 'sh-shake');
+    later(480, () => b.classList.remove('sh-shake', 'sh-shake2'));
+  }
+  /** The card being played, held up: the pilot's on the left, a foe's on the right. */
+  function castCard(side, kicker, name, text, art) {
+    if (!full()) return;
+    put(
+      `<span class="ck">${esc(kicker)}</span><span class="cn">${esc(name)}</span>${art ? `<div class="ca">${art}</div>` : ''}${text ? `<span class="ct">${text}</span>` : ''}`,
+      1300,
+      'sh-cast ' + side,
+    );
+  }
+  /** A slow serif title across the board. */
+  U.showBand = function (title, sub, cls) {
+    put(`<b>${esc(title)}</b>${sub ? `<span>${esc(sub)}</span>` : ''}`, 2700, 'sh-band ' + (cls || ''));
+  };
+  /** One line in the blow-by-blow feed (the last three stay a few seconds). */
+  function toast(title, sub, cls) {
+    const o = overlay();
+    const box = o && $('.sh-toasts', o);
+    if (!box) return;
+    const d = document.createElement('div');
+    d.className = 'sh-toast ' + (cls || '');
+    d.innerHTML = `<i></i><span><b>${esc(title)}</b>${sub ? ' ' + esc(sub) : ''}</span>`;
+    box.appendChild(d);
+    while (box.children.length > 3) box.firstChild.remove();
+    later(6000, () => d.remove());
+  }
+
+  /* ───────────── the round's tally ───────────── */
+  const fresh = () => ({ dealt: 0, taken: 0, blocked: 0, felled: 0, falls: 0, first: false });
+  function tally() {
+    U.ms.tally = U.ms.tally || fresh();
+    return U.ms.tally;
+  }
+  function feat(t, m) {
+    const left = T.liveEnemies(m).length;
+    if (t.felled >= 2) return ['MULTI-FELL', t.felled + ' foes felled in one round.'];
+    if (t.taken === 0 && left && t.dealt + t.blocked > 0) return ['UNTOUCHED', 'A whole enemy turn without a scratch.'];
+    if (t.blocked >= 3) return ['SHIELD WALL', t.blocked + ' damage turned aside by shields.'];
+    if (t.dealt >= 8) return ['ONSLAUGHT', t.dealt + ' damage dealt in a single round.'];
+    return null;
+  }
+  function summary(m, round, at) {
+    const t = tally();
+    U.ms.tally = fresh();
+    U.ms.tally.first = t.first;
+    if (!t.dealt && !t.taken && !t.blocked && !t.felled) return 0;
+    const f = feat(t, m);
+    later(at, () => {
+      put(
+        `<div class="sk">Round ${round - 1} resolved</div><div class="sn">${f ? f[0] : 'The line holds'}</div><div class="row"><div><b>${t.dealt}</b>dealt</div><div><b>${t.taken}</b>taken</div><div><b>${t.blocked}</b>blocked</div><div><b>${t.felled}</b>felled</div></div>${f ? `<div class="acc">${esc(f[1])}</div>` : ''}`,
+        3400,
+        'sh-sum',
+      );
+      if (f) toast(f[0], f[1], 'gold');
+    });
+    return 3400;
+  }
+
+  /* ───────────── the effects queue ───────────── */
+  /**
+   * Called by the mission screen for each new effect, in order, with the delay it would play at. Returns the
+   * delay what follows should wait for, so a foe's blow has time to be seen before the next one.
+   */
+  U.showFx = function (m, f, ent, node, delay) {
+    if (!U.ms) return delay;
+    const t = tally();
+    switch (f.t) {
+      case 'play': {
+        const h = m.heroes.find((x) => x.uid === f.hero);
+        const c = T.CARD && T.CARD[f.card];
+        const face = c && c[f.face];
+        if (h && face) {
+          const txt = face.txt ? U.kw(esc(face.txt(T.heroP(h, f.card), T.heroE(h, f.card)))) : '';
+          later(delay, () => castCard('hero', h.name + ' plays', face.n, txt, U.cardArt ? U.cardArt(c, false) : ''));
+          return delay + (full() ? 280 : 0);
+        }
+        return delay;
+      }
+      case 'dmg': {
+        const foeHit = isFoe(m, f.ent);
+        const by = f.by != null ? unitOf(m, f.by) : null;
+        const byFoe = by && isFoe(m, f.by);
+        if (foeHit) t.dealt += f.amount;
+        else if (m.heroes.some((h) => h.uid === f.ent)) t.taken += f.amount;
+        let d = delay;
+        if (by && by.pos != null && full()) {
+          const melee =
+            by.pos === node || (T.Board && T.Board.adjacent ? !!T.Board.adjacent(m.board, by.pos, node) : false);
+          if (byFoe) {
+            const said = (U.ms.intentsSeen && U.ms.intentsSeen[f.by]) || '';
+            const move = said.split(/[\s]*[→(,]/)[0].trim() || 'Strikes';
+            later(d, () =>
+              castCard(
+                'foe',
+                by.name,
+                move,
+                `→ ${esc(nameOf(m, f.ent))} · ${f.amount}`,
+                U.foeArt ? U.foeArt(by, 150) : '',
+              ),
+            );
+            d += 520;
+          }
+          later(d, () => {
+            flashTok(f.by, 'atk', 720);
+            beam(m, by.pos, node, byFoe ? 'foe' : 'hero', melee);
+          });
+          d += 300;
+        }
+        later(d, () => {
+          impact(m, node, byFoe ? 'foe' : 'hero');
+          flashTok(f.ent, 'hit', 520);
+          if (full()) shake(f.amount >= 4);
+          if (by) toast(`${nameOf(m, f.by)} · ${f.amount}`, `hits ${nameOf(m, f.ent)}.`, byFoe ? 'rd' : 'cy');
+        });
+        return d;
+      }
+      case 'shielded':
+        t.blocked += f.blocked || 0;
+        later(delay, () => toast('BLOCKED ' + (f.blocked || ''), `${nameOf(m, f.ent)}'s shield takes it.`, 'cy'));
+        return delay;
+      case 'miss':
+        later(delay, () => toast('MISSED', `${nameOf(m, f.ent)} is not where the blow lands.`, 'cy'));
+        return delay;
+      case 'death': {
+        const e = m.enemies.find((x) => x.uid === f.ent);
+        if (!e) return delay;
+        t.felled++;
+        const first = !t.first;
+        t.first = true;
+        const nm = (e.name || '').toUpperCase();
+        later(delay, () => {
+          wither(m, Object.assign({}, e, { pos: f.pos != null ? f.pos : e.pos }));
+          if (full()) shake(true);
+          toast(nm + ' FELLED', 'It withers outside-in; its heart drops as one Etherion.', 'gold');
+          if (first) toast('FIRST BLOOD', 'The first of the tide falls.', 'gold');
+        });
+        later(delay + 500, () =>
+          U.showBand(nm + ' FELLED', e.boss ? 'The Heart is still' : 'Its heart drops as one Etherion'),
+        );
+        return delay;
+      }
+      case 'down': {
+        const h = unitOf(m, f.ent);
+        t.falls++;
+        later(delay, () => U.showBand((h ? h.name.toUpperCase() : 'A PILOT') + ' HAS FALLEN', 'Downed', 'red'));
+        return delay;
+      }
+      case 'revive': {
+        const h = unitOf(m, f.ent);
+        later(delay, () => U.showBand((h ? h.name.toUpperCase() : 'A PILOT') + ' RISES', 'Back in the fight', 'cyan'));
+        return delay;
+      }
+      case 'phase2':
+        later(delay, () => U.showBand('THE HEART CRACKS', 'Half-dead, it floods the Vault', 'red'));
+        return delay;
+      case 'round': {
+        const at = delay + 400;
+        const was = summary(m, f.round, at);
+        later(at + (was ? 3500 : 300), () => U.showBand('ROUND ' + f.round, 'The tide comes on', 'violet'));
+        return delay;
+      }
+      case 'over':
+        later(delay + 300, () =>
+          U.showBand(
+            f.won ? 'VICTORY' : 'DEFEAT',
+            f.won ? 'Mission complete' : 'Tumult keeps this one',
+            f.won ? '' : 'red',
+          ),
+        );
+        return delay;
+    }
+    return delay;
+  };
+  /** What each foe has declared, kept from the last drawing so its blow can be named after the turn moves on. */
+  U.showRemember = function (m) {
+    const seen = {};
+    m.enemies.forEach((e) => {
+      if (e.intent) seen[e.uid] = e.intent.label;
+    });
+    U.ms.intentsSeen = Object.assign(U.ms.intentsSeen || {}, seen);
+  };
+
+  /* ───────────── the camera: drag to pan, wheel to zoom (a PC; the buttons work anywhere) ───────────── */
+  /**
+   * The board's view, as a part of its full drawing: zoom 1 is the whole board. It changes the SVG's viewBox,
+   * so everything drawn on the board, and everything placed over it from the viewBox, follows.
+   */
+  U.cameraOn = function (host, svg, W, H) {
+    if (!host || !svg) return;
+    const cam = (U.ms.cam = U.ms.cam && U.ms.cam.W === W && U.ms.cam.H === H ? U.ms.cam : { x: 0, y: 0, z: 1, W, H });
+    const apply = () => {
+      const w = W / cam.z,
+        h = H / cam.z;
+      cam.x = Math.max(-W * 0.25, Math.min(W - w + W * 0.25, cam.x));
+      cam.y = Math.max(-H * 0.25, Math.min(H - h + H * 0.25, cam.y));
+      if (cam.z <= 1.001) {
+        cam.x = (W - w) / 2;
+        cam.y = (H - h) / 2;
+      }
+      svg.setAttribute('viewBox', `${cam.x.toFixed(1)} ${cam.y.toFixed(1)} ${w.toFixed(1)} ${h.toFixed(1)}`);
+      const pc = host.querySelector('.camz .pc');
+      if (pc) pc.textContent = Math.round(cam.z * 100) + '%';
+      host.classList.toggle('zoomed', cam.z > 1.001);
+    };
+    // from a point on the screen to a point in the board's drawing
+    const toBoard = (cx, cy) => {
+      const r = svg.getBoundingClientRect();
+      const w = W / cam.z,
+        h = H / cam.z;
+      const s = Math.min(r.width / w, r.height / h) || 1;
+      const ox = r.left + (r.width - w * s) / 2,
+        oy = r.top + (r.height - h * s) / 2;
+      return [cam.x + (cx - ox) / s, cam.y + (cy - oy) / s, s];
+    };
+    const zoomAt = (cx, cy, k) => {
+      const [bx, by] = toBoard(cx, cy);
+      const z = Math.max(1, Math.min(3, cam.z * k));
+      // keep the point under the pointer where it is
+      cam.x = bx - ((bx - cam.x) * cam.z) / z;
+      cam.y = by - ((by - cam.y) * cam.z) / z;
+      cam.z = z;
+      apply();
+    };
+    U.cameraZoom = (k) => {
+      const r = svg.getBoundingClientRect();
+      if (k === 0) cam.z = 1;
+      else zoomAt(r.left + r.width / 2, r.top + r.height / 2, k);
+      apply();
+    };
+    if (!host.querySelector('.camz')) {
+      const z = document.createElement('div');
+      z.className = 'camz';
+      z.innerHTML =
+        '<button class="ghost" data-act="cam" data-arg="out" aria-label="Zoom out">−</button><button class="ghost pc" data-act="cam" data-arg="reset" aria-label="Show the whole board">100%</button><button class="ghost" data-act="cam" data-arg="in" aria-label="Zoom in">+</button>';
+      host.appendChild(z);
+    }
+    apply();
+    if (host._camWired) return;
+    host._camWired = true;
+    host.addEventListener(
+      'wheel',
+      (e) => {
+        if (e.ctrlKey && !e.deltaY) return;
+        e.preventDefault();
+        zoomAt(e.clientX, e.clientY, e.deltaY < 0 ? 1.15 : 1 / 1.15);
+      },
+      { passive: false },
+    );
+    let drag = null;
+    host.addEventListener('pointerdown', (e) => {
+      if (e.pointerType !== 'mouse' || e.button !== 0 || (e.target.closest && e.target.closest('.camz, button')))
+        return;
+      drag = { x: e.clientX, y: e.clientY, cx: cam.x, cy: cam.y, moved: false };
+    });
+    host.addEventListener('pointermove', (e) => {
+      if (!drag) return;
+      const dx = e.clientX - drag.x,
+        dy = e.clientY - drag.y;
+      if (!drag.moved && Math.hypot(dx, dy) < 6) return;
+      if (cam.z <= 1.001) return; // the whole board is already in view
+      drag.moved = true;
+      host.classList.add('dragging');
+      const s = toBoard(0, 0)[2];
+      cam.x = drag.cx - dx / s;
+      cam.y = drag.cy - dy / s;
+      apply();
+    });
+    const end = () => {
+      if (!drag) return;
+      host._dragged = drag.moved;
+      host.classList.remove('dragging');
+      drag = null;
+    };
+    host.addEventListener('pointerup', end);
+    host.addEventListener('pointerleave', end);
+    // a drag is not a click on whatever it ended over
+    host.addEventListener(
+      'click',
+      (e) => {
+        if (host._dragged) {
+          host._dragged = false;
+          e.stopPropagation();
+          e.preventDefault();
+        }
+      },
+      true,
+    );
   };
 })((window.T = window.T || {}));
 

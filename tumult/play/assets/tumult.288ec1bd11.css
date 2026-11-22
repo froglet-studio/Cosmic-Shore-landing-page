@@ -1,4 +1,5 @@
 @font-face { font-family: 'Chakra Petch'; font-weight: 600; font-style: normal; font-display: swap; src: url(ChakraPetch-SemiBold.49fbe9af20.woff2) format('woff2'); }
+@font-face { font-family: 'Cinzel'; font-weight: 700; font-style: normal; font-display: swap; src: url(Cinzel-Bold.8efa224fe7.woff2) format('woff2'); }
 
 /* ───── ui/style.css ───── */
 /* TUMULT v2.0 — styles. Deep-sea ink palette; system fonts only (offline-safe). */
@@ -6729,6 +6730,1062 @@ body:has(.mission.hud) .net-away {
 .mission.hud .sq-st.ai,
 .mission.hud .sq-st.ai.done {
   color: var(--glow);
+}
+
+
+/* ───── ui/fauna.css ───── */
+/* ============================================================================
+   TUMULT — FAUNA (browser only): how the foes' creature bodies move (src/ui/fauna.js).
+   Idle by default; .atk, .hit and .die on any ancestor play a blow, a hit taken and the wither.
+   Reduced motion keeps the bodies still and the wither short.
+   ========================================================================== */
+.cr {
+  overflow: visible;
+  display: block;
+}
+.cr .bd {
+  transform-box: view-box;
+  animation: crIdle 3.2s ease-in-out infinite;
+}
+@keyframes crIdle {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+  30% {
+    transform: translate(-2px, -3px) rotate(-2deg);
+  }
+  65% {
+    transform: translate(1px, 2px) rotate(1.5deg);
+  }
+}
+.cr .sp {
+  transform-box: view-box;
+  transform-origin: 30px 50px;
+  animation: crSp 2.4s ease-in-out infinite alternate;
+}
+.cr .sp-l,
+.cr .sp-vl,
+.cr .sp-vl2 {
+  animation-delay: -1.2s;
+}
+.cr .sp-tail,
+.cr .sp-tail2,
+.cr .sp-lash {
+  animation-duration: 1.7s;
+}
+@keyframes crSp {
+  from {
+    transform: rotate(-3deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+.cr .jw {
+  transform-box: view-box;
+}
+.cr .jawU {
+  animation: crJu 2.8s ease-in-out infinite;
+}
+.cr .jawL {
+  animation: crJl 2.8s ease-in-out infinite;
+}
+@keyframes crJu {
+  0%,
+  70%,
+  100% {
+    transform: rotate(0);
+  }
+  80% {
+    transform: rotate(-14deg);
+  }
+  88% {
+    transform: rotate(4deg);
+  }
+}
+@keyframes crJl {
+  0%,
+  70%,
+  100% {
+    transform: rotate(0);
+  }
+  80% {
+    transform: rotate(14deg);
+  }
+  88% {
+    transform: rotate(-4deg);
+  }
+}
+.cr-kiter .sp-vu,
+.cr-kiter .sp-vu2 {
+  transform-origin: 52px 50px;
+  animation: crVu 1.9s ease-in-out infinite;
+}
+.cr-kiter .sp-vl,
+.cr-kiter .sp-vl2 {
+  transform-origin: 52px 50px;
+  animation: crVl 1.9s ease-in-out infinite;
+}
+@keyframes crVu {
+  50% {
+    transform: scaleY(0.72) rotate(4deg);
+  }
+}
+@keyframes crVl {
+  50% {
+    transform: scaleY(0.72) rotate(-4deg);
+  }
+}
+.cr .hrt {
+  transform-box: view-box;
+  animation: crH 1.8s ease-in-out infinite;
+}
+@keyframes crH {
+  50% {
+    transform: scale(1.07);
+  }
+}
+.cr .core {
+  animation: crC 1.8s ease-in-out infinite;
+}
+@keyframes crC {
+  50% {
+    opacity: 0.35;
+  }
+}
+.cr .pr {
+  transform-box: view-box;
+}
+.cr .spk {
+  opacity: 0;
+  animation: crSpk 1.1s steps(1) infinite;
+}
+@keyframes crSpk {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+}
+.cr .ghost {
+  transform-box: view-box;
+}
+.cr .g1 {
+  animation: crG1 3.2s ease-in-out infinite;
+}
+.cr .g2 {
+  animation: crG2 3.2s ease-in-out infinite;
+}
+@keyframes crG1 {
+  0%,
+  100% {
+    transform: translate(9px, 1px);
+  }
+  50% {
+    transform: translate(13px, -3px);
+  }
+}
+@keyframes crG2 {
+  0%,
+  100% {
+    transform: translate(18px, 2px);
+  }
+  50% {
+    transform: translate(25px, -5px);
+  }
+}
+.cr .proj {
+  opacity: 0;
+  transform-box: view-box;
+}
+/* attack */
+.atk .cr .bd {
+  animation: crLunge 0.7s cubic-bezier(0.3, 0, 0.2, 1);
+}
+@keyframes crLunge {
+  0% {
+    transform: translate(0, 0);
+  }
+  35% {
+    transform: translate(10px, 0) scale(0.94);
+  }
+  55% {
+    transform: translate(-22px, 0) scale(1.08);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.atk .cr .jawU {
+  animation: crJuA 0.7s ease;
+}
+.atk .cr .jawL {
+  animation: crJlA 0.7s ease;
+}
+@keyframes crJuA {
+  0% {
+    transform: rotate(0);
+  }
+  35% {
+    transform: rotate(-34deg);
+  }
+  55% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes crJlA {
+  0% {
+    transform: rotate(0);
+  }
+  35% {
+    transform: rotate(34deg);
+  }
+  55% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+.atk .cr .sp-tail,
+.atk .cr .sp-tail2 {
+  animation: crCoil 0.7s ease;
+}
+@keyframes crCoil {
+  40% {
+    transform: rotate(-16deg) scale(0.9);
+  }
+  60% {
+    transform: rotate(8deg);
+  }
+}
+.atk .cr-kiter .sp-vu,
+.atk .cr-kiter .sp-vu2 {
+  animation: crVuA 0.7s ease;
+}
+.atk .cr-kiter .sp-vl,
+.atk .cr-kiter .sp-vl2 {
+  animation: crVlA 0.7s ease;
+}
+@keyframes crVuA {
+  40% {
+    transform: scaleY(1.25) rotate(-8deg);
+  }
+}
+@keyframes crVlA {
+  40% {
+    transform: scaleY(1.25) rotate(8deg);
+  }
+}
+.atk .cr .proj {
+  animation: crProj 0.7s ease-out;
+}
+@keyframes crProj {
+  0%,
+  45% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-70px);
+  }
+}
+.atk .cr .hrt {
+  animation: crHA 0.7s ease;
+}
+@keyframes crHA {
+  40% {
+    transform: scale(1.3);
+  }
+}
+/* hit */
+.hit .cr .bd {
+  animation: crHit 0.5s ease;
+}
+@keyframes crHit {
+  0% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(12px, -2px) rotate(6deg);
+  }
+  35% {
+    transform: translate(-5px, 1px) rotate(-3deg);
+  }
+  60% {
+    transform: translate(3px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.hit .cr .live {
+  animation: crFl 0.5s steps(2);
+}
+@keyframes crFl {
+  0% {
+    filter: brightness(3) saturate(0);
+  }
+  50% {
+    filter: none;
+  }
+}
+/* wither: prisms shed outside-in, braids fade, the heart drops as one Etherion */
+.die .cr .bd {
+  animation: none;
+}
+.die .cr .pr {
+  animation: crShedC 0.55s ease-in forwards;
+}
+.die .cr .pr.pa {
+  animation-name: crShedA;
+}
+.die .cr .pr.pb {
+  animation-name: crShedB;
+}
+@keyframes crShedA {
+  to {
+    transform: translate(8px, -26px) rotate(40deg);
+    opacity: 0;
+  }
+}
+@keyframes crShedB {
+  to {
+    transform: translate(8px, 26px) rotate(-40deg);
+    opacity: 0;
+  }
+}
+@keyframes crShedC {
+  to {
+    transform: translate(30px, 4px) rotate(70deg);
+    opacity: 0;
+  }
+}
+.die .cr .sp,
+.die .cr .jw,
+.die .cr .ghost,
+.die .cr .spk {
+  animation: crWither 1.1s ease-in 0.5s forwards;
+}
+@keyframes crWither {
+  to {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+.die .cr .hrt {
+  animation: crDrop 1.6s ease-in forwards;
+}
+@keyframes crDrop {
+  0%,
+  45% {
+    transform: none;
+  }
+  70% {
+    transform: translateY(-6px) scale(0.8) rotate(30deg);
+  }
+  100% {
+    transform: translateY(16px) scale(0.62) rotate(90deg);
+    opacity: 0.95;
+  }
+}
+.cr .ring {
+  transform-box: view-box;
+  transform-origin: 70px 50px;
+  animation: crRing 14s linear infinite;
+}
+@keyframes crRing {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cr .sp.rad {
+  animation-duration: 3.2s;
+}
+.cr .bud {
+  animation: crC 2.2s ease-in-out infinite;
+}
+.atk .cr-rad .bd {
+  animation: crPulse 0.7s ease;
+}
+@keyframes crPulse {
+  35% {
+    transform: scale(0.9);
+  }
+  55% {
+    transform: scale(1.18);
+  }
+}
+.die .cr .ring,
+.die .cr .bud,
+.die .cr .web {
+  animation: crWither 1.1s ease-in 0.4s forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cr .bd,
+  .cr .sp,
+  .cr .jw,
+  .cr .hrt,
+  .cr .core,
+  .cr .ghost,
+  .cr .ring,
+  .cr .spk,
+  .cr .bud {
+    animation: none !important;
+  }
+}
+.calm .cr .bd,
+.calm .cr .sp,
+.calm .cr .jw,
+.calm .cr .hrt,
+.calm .cr .core,
+.calm .cr .ghost,
+.calm .cr .ring,
+.calm .cr .spk,
+.calm .cr .bud {
+  animation: none;
+}
+
+
+/* ───── ui/show.css ───── */
+/* ============================================================================
+   TUMULT — THE SHOW (browser only): blows, banners, toasts, the round's tally, the board's camera and the
+   foes' plans as the Stack (src/ui/show.js; Frogma "In-game screen", B, picked 2026-11-22). The overlays are
+   always the deep-sea panel, whichever sea theme is worn, so they read over any place's painting.
+   ========================================================================== */
+.mission {
+  --sh-red: #ff3b5c;
+  --sh-red-hi: #ff6b85;
+  --sh-cyan: #00d4ff;
+  --sh-gold: #e8c27a;
+  --sh-panel: linear-gradient(180deg, #141b52, #070b2c);
+  --sh-serif: 'Cinzel', var(--flavor);
+}
+
+/* ── the Stack: each foe's plan as a card, numbered in the order the foes act ── */
+.mission.hud .intent.stk {
+  position: relative;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 10px;
+  padding: 8px 10px 8px 6px;
+  margin-top: 6px;
+  border: 1px solid color-mix(in srgb, var(--sh-red) 28%, transparent);
+  border-top: 1px solid color-mix(in srgb, var(--sh-red) 28%, transparent);
+  background: color-mix(in srgb, var(--panel2) 85%, transparent);
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  transition:
+    transform 0.25s,
+    border-color 0.25s;
+}
+.mission.hud .intent.stk:hover {
+  transform: translateX(-4px);
+  border-color: var(--sh-red-hi);
+}
+.mission.hud .intent.stk .no {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  background: var(--sh-red-hi);
+  color: #1a0008;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 12px;
+}
+.mission.hud .intent.stk .g {
+  width: 70px;
+  height: 50px;
+  border: 0;
+  border-radius: 0;
+  background: radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--sh-red) 22%, transparent), transparent 70%);
+}
+.mission.hud .intent.stk .who {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.mission.hud .intent.stk .nm {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.mission.hud .intent.stk .what {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.2;
+  color: #ffd2da;
+}
+.mission.hud .intent.stk .ehp {
+  max-width: none;
+  height: 4px;
+}
+
+/* ── numbers ── */
+.floater.dmg.big {
+  font-family: var(--sh-serif);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--sh-red-hi);
+  text-shadow:
+    0 0 18px rgba(255, 59, 92, 0.85),
+    0 3px 0 #2a0010;
+  animation: shNum 1.4s cubic-bezier(0.2, 1.4, 0.4, 1) forwards;
+  z-index: 7;
+}
+.floater.dmg.huge {
+  font-size: 56px;
+}
+@keyframes shNum {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 20px) scale(0.3);
+  }
+  22% {
+    opacity: 1;
+    transform: translate(-50%, -18px) scale(1.3);
+  }
+  40% {
+    transform: translate(-50%, -18px) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50px) scale(1);
+  }
+}
+
+/* ── on the board: bolts, slashes, impacts, the wither ── */
+#showfx {
+  pointer-events: none;
+}
+.sh-beam .ln {
+  stroke-width: 5;
+  stroke-linecap: round;
+  animation: shLn 0.55s ease-out forwards;
+}
+.sh-beam.foe .ln {
+  stroke: var(--sh-red);
+  filter: drop-shadow(0 0 6px var(--sh-red));
+}
+.sh-beam.hero .ln {
+  stroke: var(--sh-cyan);
+  filter: drop-shadow(0 0 6px var(--sh-cyan));
+}
+@keyframes shLn {
+  40% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+}
+.sh-beam .bo {
+  fill: #fff;
+  animation: shFade 0.5s ease-in forwards;
+}
+.sh-beam.foe .bo {
+  filter: drop-shadow(0 0 8px var(--sh-red));
+}
+.sh-beam.hero .bo {
+  filter: drop-shadow(0 0 8px var(--sh-cyan));
+}
+.sh-beam .sl {
+  stroke: #fff;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: 70;
+  stroke-dashoffset: 70;
+  animation: shSlash 0.42s ease-out forwards;
+}
+.sh-beam.foe .sl {
+  filter: drop-shadow(0 0 5px var(--sh-red));
+}
+.sh-beam.hero .sl {
+  filter: drop-shadow(0 0 5px var(--sh-cyan));
+}
+.sh-beam .s1 {
+  animation-delay: 0.06s;
+}
+.sh-beam .s2 {
+  animation-delay: 0.12s;
+}
+@keyframes shSlash {
+  50% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: -70;
+    opacity: 0;
+  }
+}
+@keyframes shFade {
+  to {
+    opacity: 0;
+  }
+}
+.sh-imp .fl {
+  fill: rgba(255, 255, 255, 0.85);
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: shFl 0.35s ease-out forwards;
+}
+.sh-imp .rg {
+  fill: none;
+  stroke-width: 4;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: shRing 0.6s ease-out forwards;
+}
+.sh-imp .rg.r2 {
+  stroke-width: 2;
+  animation-delay: 0.08s;
+}
+.sh-imp.foe .rg {
+  stroke: var(--sh-red);
+}
+.sh-imp.hero .rg {
+  stroke: var(--sh-cyan);
+}
+@keyframes shFl {
+  from {
+    transform: scale(0.3);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+@keyframes shRing {
+  from {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+.board.sh-shake > svg {
+  animation: shShake 0.42s ease;
+}
+.board.sh-shake2 > svg {
+  animation: shShake2 0.46s ease;
+}
+@keyframes shShake {
+  25% {
+    transform: translate(-4px, 2px);
+  }
+  50% {
+    transform: translate(3px, -2px);
+  }
+  75% {
+    transform: translate(-2px, 1px);
+  }
+}
+@keyframes shShake2 {
+  15% {
+    transform: translate(-9px, 4px);
+  }
+  30% {
+    transform: translate(8px, -5px);
+  }
+  45% {
+    transform: translate(-6px, 3px);
+  }
+  60% {
+    transform: translate(4px, -2px);
+  }
+  80% {
+    transform: translate(-2px, 1px);
+  }
+}
+
+/* ── over the board: the card being played, banners, toasts, the round's tally ── */
+#mshow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 8;
+  overflow: hidden;
+}
+.sh-cast {
+  position: absolute;
+  top: 40px;
+  width: 210px;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #e6e9ff;
+  background: var(--sh-panel);
+  border: 1px solid color-mix(in srgb, var(--sh-cyan) 60%, transparent);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.7),
+    0 0 40px color-mix(in srgb, var(--sh-cyan) 25%, transparent);
+  clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+  animation: shCast 1.3s cubic-bezier(0.2, 1.2, 0.3, 1) forwards;
+}
+.sh-cast.hero {
+  left: 24px;
+}
+.sh-cast.foe {
+  right: 24px;
+  border-color: color-mix(in srgb, var(--sh-red) 70%, transparent);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.7),
+    0 0 40px color-mix(in srgb, var(--sh-red) 30%, transparent);
+  animation-name: shCastF;
+}
+@keyframes shCast {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) rotate(-6deg) scale(0.7);
+  }
+  18% {
+    opacity: 1;
+    transform: translateY(0) rotate(1deg) scale(1.04);
+  }
+  30% {
+    transform: none;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-16px) scale(0.96);
+  }
+}
+@keyframes shCastF {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) rotate(6deg) scale(0.7);
+  }
+  18% {
+    opacity: 1;
+    transform: translateY(0) rotate(-1deg) scale(1.04);
+  }
+  30% {
+    transform: none;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-16px) scale(0.96);
+  }
+}
+.sh-cast .ck {
+  font-family: var(--serif);
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--sh-cyan);
+}
+.sh-cast.foe .ck {
+  color: var(--sh-red-hi);
+}
+.sh-cast .cn {
+  font-family: var(--sh-serif);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.05;
+  color: #fff;
+}
+.sh-cast .ca {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: radial-gradient(circle, color-mix(in srgb, var(--sh-red) 25%, transparent), transparent 70%);
+}
+.sh-cast .ca .hart {
+  width: 100%;
+  height: 100%;
+}
+.sh-cast .ct {
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: #c3c8ee;
+}
+.sh-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 38%;
+  height: 130px;
+  margin-top: -65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(180deg, transparent, rgba(0, 1, 10, 0.8) 30%, rgba(0, 1, 10, 0.8) 70%, transparent);
+  animation: shBand 2.7s ease forwards;
+}
+.sh-band b {
+  font-family: var(--sh-serif);
+  font-weight: 700;
+  font-size: clamp(28px, 4.4vw, 58px);
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: var(--sh-gold);
+  text-shadow: 0 0 30px rgba(232, 194, 122, 0.45);
+  animation: shBandT 2.7s ease forwards;
+}
+.sh-band span {
+  font-family: var(--serif);
+  font-size: 13px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #c3c8ee;
+}
+.sh-band.red b {
+  color: var(--sh-red-hi);
+  text-shadow: 0 0 36px rgba(255, 59, 92, 0.55);
+}
+.sh-band.cyan b {
+  color: #8fefff;
+  text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+}
+.sh-band.violet b {
+  color: #d8b4ff;
+  text-shadow: 0 0 30px rgba(166, 0, 255, 0.5);
+  font-size: clamp(24px, 3.4vw, 44px);
+}
+@keyframes shBand {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes shBandT {
+  0% {
+    letter-spacing: 0.42em;
+    filter: blur(6px);
+    opacity: 0;
+  }
+  25% {
+    letter-spacing: 0.2em;
+    filter: none;
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: 0.16em;
+  }
+}
+.sh-toasts {
+  position: absolute;
+  left: 14px;
+  bottom: 58px;
+  width: min(280px, 60%);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sh-toast {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  padding: 6px 10px 6px 0;
+  font-size: 12px;
+  line-height: 1.35;
+  color: #e6e9ff;
+  background: rgba(6, 10, 40, 0.9);
+  border: 1px solid rgba(120, 130, 200, 0.25);
+  animation: shToast 0.35s cubic-bezier(0.2, 1.3, 0.4, 1);
+}
+.sh-toast i {
+  width: 4px;
+  align-self: stretch;
+  flex: 0 0 auto;
+  background: var(--sh-cyan);
+}
+.sh-toast b {
+  font-family: var(--serif);
+  letter-spacing: 0.1em;
+}
+.sh-toast.rd i {
+  background: var(--sh-red);
+}
+.sh-toast.rd b {
+  color: var(--sh-red-hi);
+}
+.sh-toast.gold i {
+  background: #ffc94d;
+}
+.sh-toast.gold b {
+  color: #ffe29a;
+}
+.sh-toast.cy b {
+  color: #7fe9ff;
+}
+@keyframes shToast {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+}
+.sh-sum {
+  position: absolute;
+  left: 50%;
+  top: 34px;
+  width: 400px;
+  max-width: calc(100% - 32px);
+  margin-left: -200px;
+  padding: 14px 18px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #e6e9ff;
+  background: linear-gradient(180deg, rgba(20, 27, 82, 0.96), rgba(7, 11, 44, 0.96));
+  border: 1px solid color-mix(in srgb, var(--sh-gold) 55%, transparent);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+  animation: shSum 3.4s ease forwards;
+}
+@media (max-width: 460px) {
+  .sh-sum {
+    left: 16px;
+    margin-left: 0;
+  }
+}
+@keyframes shSum {
+  0% {
+    opacity: 0;
+    transform: translateY(-14px) scale(0.95);
+  }
+  10% {
+    opacity: 1;
+    transform: none;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.sh-sum .sk {
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--sh-gold);
+}
+.sh-sum .sn {
+  font-family: var(--sh-serif);
+  font-weight: 700;
+  font-size: 24px;
+  margin: 4px 0 10px;
+}
+.sh-sum .row {
+  display: flex;
+  justify-content: space-around;
+}
+.sh-sum .row div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--serif);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8a90c0;
+}
+.sh-sum .row b {
+  font-family: var(--sh-serif);
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 0;
+}
+.sh-sum .acc {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid color-mix(in srgb, var(--sh-gold) 30%, transparent);
+  font-size: 12.5px;
+  color: #c3c8ee;
+}
+
+/* ── the camera ── */
+.board .camz {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+.board .camz:hover {
+  opacity: 1;
+}
+.board .camz button {
+  min-width: 32px;
+  height: 30px;
+  padding: 0 8px;
+  font-family: var(--serif);
+  font-size: 14px;
+  background: var(--panel2);
+}
+.board .camz .pc {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+@media (pointer: fine) {
+  .board.zoomed > svg {
+    cursor: grab;
+  }
+  .board.zoomed.dragging > svg {
+    cursor: grabbing;
+  }
+}
+
+/* reduced motion: the numbers and words stay, the motion goes */
+.calm .sh-beam,
+.calm .sh-imp {
+  display: none;
+}
+.calm .board.sh-shake > svg,
+.calm .board.sh-shake2 > svg {
+  animation: none;
+}
+.calm .sh-band,
+.calm .sh-band b,
+.calm .sh-sum {
+  animation-duration: 2s;
 }
 
 
