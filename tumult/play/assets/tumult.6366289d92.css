@@ -369,6 +369,27 @@ hr {
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 10px;
 }
+/* the Kit view's loadout (2.107): a reserve trait to bring in, and the traits it could replace */
+.kit-pick {
+  cursor: pointer;
+  border-radius: 10px;
+  outline: 2px solid transparent;
+  transition: outline-color 0.15s;
+}
+.kit-pick:hover,
+.kit-pick:focus-visible {
+  outline-color: var(--line2);
+}
+.kit-pick.on {
+  outline-color: var(--gold, #d9b45a);
+}
+.kit-pick.dim {
+  cursor: default;
+  opacity: 0.55;
+}
+.pack.reserve .tcard {
+  filter: saturate(0.8);
+}
 
 /* ---------- Trait card ---------- */
 .tcard {
@@ -1602,6 +1623,52 @@ button:disabled .acost {
 .edge.ramp {
   stroke: #7fd08a;
 }
+/* pocket vehicles and big maps (2.101): a path for vehicles only, a space's ground, a vehicle token */
+.edge.vpath {
+  stroke: #2f5f78;
+  stroke-dasharray: 2 7;
+  stroke-width: 3;
+}
+.node .terrain {
+  opacity: 0.7;
+  pointer-events: none;
+}
+.node .terrain.t-gap {
+  opacity: 0.85;
+}
+.token.vehicle .body {
+  fill: #1d2a40;
+  stroke: #c9b37a;
+}
+.token.vehicle.ridden .body {
+  stroke-width: 3;
+}
+.token.vehicle .hpf.hull {
+  fill: #c9b37a;
+}
+.veh-chip {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  padding: 2px 8px;
+  border: 1px solid #c9b37a99;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f3e7c4;
+  background: #16233a;
+  opacity: 1;
+}
+.mission.hud .dk-acts .actions > .veh-chip {
+  grid-column: 1 / 3;
+  min-height: 30px;
+  justify-content: center;
+  border-radius: 10px;
+}
+.tag.mounted {
+  border: 1px solid #c9b37a88;
+  color: #c9b37a;
+}
 .zone-glow {
   opacity: 0.08;
 }
@@ -1646,6 +1713,22 @@ button:disabled .acost {
   fill: #2a2f3a;
   stroke: var(--decoy);
   stroke-dasharray: 2 3;
+}
+.token.pet .body {
+  fill: #23362b;
+  stroke: var(--jade, #5fd39a);
+  stroke-width: 2;
+}
+.token.pet.safe .body {
+  stroke-dasharray: 4 2;
+  opacity: 0.85;
+}
+.state.pet.dead {
+  opacity: 0.55;
+  text-decoration: line-through;
+}
+.petmark {
+  font-size: 0.9em;
 }
 .token.targetable .body {
   stroke: var(--gold);
@@ -3118,6 +3201,7 @@ html.calm .combo-mark {
 }
 /* the next roll's dice, chosen from the pool (2.82) */
 .nextroll {
+  --c: var(--AP);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -3138,17 +3222,17 @@ html.calm .combo-mark {
   gap: 3px;
   padding: 2px 5px;
 }
-.nextroll button svg.dbody {
+.nextroll svg.dbody {
   width: 20px;
   height: 20px;
   overflow: visible;
 }
-.nextroll button svg.dbody .o {
+.nextroll svg.dbody .o {
   fill: color-mix(in srgb, var(--c) 16%, #121b2e);
   stroke: color-mix(in srgb, var(--c) 80%, #fff);
   stroke-width: 2;
 }
-.nextroll button svg.dbody .l {
+.nextroll svg.dbody .l {
   fill: none;
   stroke: currentColor;
   stroke-width: 1;
@@ -3156,6 +3240,17 @@ html.calm .combo-mark {
 }
 .nextroll button.rp-pick.banked {
   opacity: 0.5;
+}
+
+/* the garage (2.101): each pilot picks a vehicle before a Crossing */
+.veh-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+.veh-pick.on {
+  outline: 2px solid #c9b37a;
 }
 
 

@@ -1,5 +1,5 @@
 window.T = window.T || {};
-window.T.BUILD = {"version":"2.100.0","playtest":false};
+window.T.BUILD = {"version":"2.122.0","playtest":false};
 window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVIL":"assets/pilots/ANVIL.d03812188c.jpg","pilot/ASTROFOIL":"assets/pilots/ASTROFOIL.5c9fa6f14d.jpg","pilot/ATHARA":"assets/pilots/ATHARA.566837ceea.jpg","pilot/BANDIT":"assets/pilots/BANDIT.09391a446f.jpg","pilot/BELRENRO":"assets/pilots/BELRENRO.a8d1afd2ec.jpg","pilot/BELSIAR":"assets/pilots/BELSIAR.3421845c80.jpg","pilot/BELSOTH":"assets/pilots/BELSOTH.ddc38ecbd4.jpg","pilot/BELTHALY":"assets/pilots/BELTHALY.9ca6a590b5.jpg","pilot/BRILOLIA":"assets/pilots/BRILOLIA.8c33011094.jpg","pilot/BRIOLA":"assets/pilots/BRIOLA.d016ba9df1.jpg","pilot/BRIRAIX":"assets/pilots/BRIRAIX.ad5523ef69.jpg","pilot/BRISILIA":"assets/pilots/BRISILIA.55b830452a.jpg","pilot/BUSHY":"assets/pilots/BUSHY.22cbdd91fa.jpg","pilot/CAKOOLA":"assets/pilots/CAKOOLA.410a91f525.jpg","pilot/CANUAR":"assets/pilots/CANUAR.224b61c8a2.jpg","pilot/CARIO":"assets/pilots/CARIO.fcc67b00ee.jpg","pilot/CITADEL":"assets/pilots/CITADEL.ee7edc065c.jpg","pilot/COMET":"assets/pilots/COMET.0af72b6f6d.jpg","pilot/CORLILIA":"assets/pilots/CORLILIA.658f4b32f5.jpg","pilot/CORRARIN":"assets/pilots/CORRARIN.879c9ccf14.jpg","pilot/DAMSEL":"assets/pilots/DAMSEL.adb17d42d3.jpg","pilot/DELLALIA":"assets/pilots/DELLALIA.1672cffe6e.jpg","pilot/DELLIAR":"assets/pilots/DELLIAR.e5a0375180.jpg","pilot/DELLORIN":"assets/pilots/DELLORIN.408027cb25.jpg","pilot/DELSOKO":"assets/pilots/DELSOKO.e4c15c3589.jpg","pilot/DOE":"assets/pilots/DOE.f54ac28b36.jpg","pilot/DOZER":"assets/pilots/DOZER.0c2e273a78.jpg","pilot/ECHO":"assets/pilots/ECHO.09a66c8cd4.jpg","pilot/EMAO":"assets/pilots/EMAO.d8fb6d5e8b.jpg","pilot/ENSIGN":"assets/pilots/ENSIGN.dc51eec735.jpg","pilot/FENRA":"assets/pilots/FENRA.11faa43159.jpg","pilot/FENX":"assets/pilots/FENX.7305adac5b.jpg","pilot/FIEST":"assets/pilots/FIEST.ca4f6072bf.jpg","pilot/FLUME":"assets/pilots/FLUME.99e34640fa.jpg","pilot/FLUX":"assets/pilots/FLUX.53b20c2d11.jpg","pilot/GALLEON":"assets/pilots/GALLEON.4007ec2ba5.jpg","pilot/GALSOOLA":"assets/pilots/GALSOOLA.4c636b23c0.jpg","pilot/HORNET":"assets/pilots/HORNET.c42014a776.jpg","pilot/IRI":"assets/pilots/IRI.37eadaad4b.jpg","pilot/ITHAX":"assets/pilots/ITHAX.0ead69e72c.jpg","pilot/IVY":"assets/pilots/IVY.473c6f1896.jpg","pilot/JODIOLA":"assets/pilots/JODIOLA.1f05357781.jpg","pilot/JORIRO":"assets/pilots/JORIRO.58e95a465f.jpg","pilot/JUGGER":"assets/pilots/JUGGER.586ce53079.jpg","pilot/KRUSH":"assets/pilots/KRUSH.334b99716e.jpg","pilot/LONGSHIFT":"assets/pilots/LONGSHIFT.ddbb54691b.jpg","pilot/LUDIRA":"assets/pilots/LUDIRA.650f72fc2c.jpg","pilot/LULAANE":"assets/pilots/LULAANE.b4607cb3ba.jpg","pilot/LUNULO":"assets/pilots/LUNULO.c34b9c91ea.jpg","pilot/MAESTRO":"assets/pilots/MAESTRO.a123e74967.jpg","pilot/MAIX":"assets/pilots/MAIX.4b2949e043.jpg","pilot/MAKOOLA":"assets/pilots/MAKOOLA.d012951ffc.jpg","pilot/MALOANE":"assets/pilots/MALOANE.fb0febbb8f.jpg","pilot/MAMAOLA":"assets/pilots/MAMAOLA.fd43dae51a.jpg","pilot/MAMO":"assets/pilots/MAMO.e7c7558b96.jpg","pilot/MANGER":"assets/pilots/MANGER.a0cc5e1ece.jpg","pilot/MASON":"assets/pilots/MASON.bb77e506ba.jpg","pilot/MATA":"assets/pilots/MATA.df79b0b771.jpg","pilot/MIBEN":"assets/pilots/MIBEN.ee2acc08ee.jpg","pilot/MIRIN":"assets/pilots/MIRIN.02fa308242.jpg","pilot/MIRISA":"assets/pilots/MIRISA.b07a8d02e5.jpg","pilot/NEEDLE":"assets/pilots/NEEDLE.5c9752c43d.jpg","pilot/NELOEL":"assets/pilots/NELOEL.bfd6c80df6.jpg","pilot/NEMAIX":"assets/pilots/NEMAIX.ba3482a3d6.jpg","pilot/NEMATH":"assets/pilots/NEMATH.35c2ca859f.jpg","pilot/NETHAEL":"assets/pilots/NETHAEL.be820038e5.jpg","pilot/OLO":"assets/pilots/OLO.9b6a4ab50b.jpg","pilot/OLONE":"assets/pilots/OLONE.4af0e1679c.jpg","pilot/OPAL":"assets/pilots/OPAL.f4ce50ebbd.jpg","pilot/ORA":"assets/pilots/ORA.4c9ef87a50.jpg","pilot/OTH":"assets/pilots/OTH.c00d404eac.jpg","pilot/OVEX":"assets/pilots/OVEX.0e23891b01.jpg","pilot/PEDIRI":"assets/pilots/PEDIRI.ff60b065ac.jpg","pilot/PEKOAR":"assets/pilots/PEKOAR.90011b2608.jpg","pilot/PEVETH":"assets/pilots/PEVETH.a7262bbee0.jpg","pilot/PEWEN":"assets/pilots/PEWEN.724de93a6c.jpg","pilot/QUIBEMO":"assets/pilots/QUIBEMO.cf223775f3.jpg","pilot/QUIKOTH":"assets/pilots/QUIKOTH.5b32c6fee0.jpg","pilot/QUILOX":"assets/pilots/QUILOX.74ddb1971a.jpg","pilot/RAMPART":"assets/pilots/RAMPART.d688721f54.jpg","pilot/REAPER":"assets/pilots/REAPER.fcf80ec2b0.jpg","pilot/RIPTIDE":"assets/pilots/RIPTIDE.4a3167f030.jpg","pilot/ROLAMO":"assets/pilots/ROLAMO.2eb683e84d.jpg","pilot/ROSONDO":"assets/pilots/ROSONDO.66d75c34bc.jpg","pilot/SABERO":"assets/pilots/SABERO.1c5a6df9ce.jpg","pilot/SASOKO":"assets/pilots/SASOKO.78f94f903d.jpg","pilot/SCALES":"assets/pilots/SCALES.87715f6be5.jpg","pilot/SHRAPNEL":"assets/pilots/SHRAPNEL.60bf432658.jpg","pilot/SIPHON":"assets/pilots/SIPHON.64319ecec6.jpg","pilot/SLINGSHOT":"assets/pilots/SLINGSHOT.782ce6f557.jpg","pilot/SPARE01":"assets/pilots/SPARE01.e7bb1001da.jpg","pilot/SPARE02":"assets/pilots/SPARE02.4661694d58.jpg","pilot/SPARE03":"assets/pilots/SPARE03.157488b8ca.jpg","pilot/SPARE04":"assets/pilots/SPARE04.8cee2a69f6.jpg","pilot/SPARE05":"assets/pilots/SPARE05.7b664e7e50.jpg","pilot/SPARE06":"assets/pilots/SPARE06.6784507633.jpg","pilot/SPARE07":"assets/pilots/SPARE07.b83ac8694b.jpg","pilot/SPARE08":"assets/pilots/SPARE08.0f29c38886.jpg","pilot/STRIDER":"assets/pilots/STRIDER.1f777221cb.jpg","pilot/SUNDIAL":"assets/pilots/SUNDIAL.e301dbb8a1.jpg","pilot/TAKOANE":"assets/pilots/TAKOANE.f587bc8275.jpg","pilot/TALOLO":"assets/pilots/TALOLO.f410317b58.jpg","pilot/TALON":"assets/pilots/TALON.98273b2e9a.jpg","pilot/TANUWEN":"assets/pilots/TANUWEN.fcc7bda948.jpg","pilot/TENACIOUS":"assets/pilots/TENACIOUS.c0e1c59b06.jpg","pilot/TENDER":"assets/pilots/TENDER.83a2dbd7da.jpg","pilot/TOMAHAWK":"assets/pilots/TOMAHAWK.9de0540c54.jpg","pilot/TRACE":"assets/pilots/TRACE.6c835c4aad.jpg","pilot/ULINE":"assets/pilots/ULINE.ae7d05e530.jpg","pilot/URO":"assets/pilots/URO.d153fb9c2a.jpg","pilot/UTHAEL":"assets/pilots/UTHAEL.0a0b4d057c.jpg","pilot/VERAO":"assets/pilots/VERAO.f428fc465b.jpg","pilot/VEVEOLA":"assets/pilots/VEVEOLA.2cb64352bc.jpg","pilot/VOLT":"assets/pilots/VOLT.80a1160ef3.jpg","pilot/WINGMAN":"assets/pilots/WINGMAN.8d484a3eaa.jpg","pilot/WYVE":"assets/pilots/WYVE.2bb9ad32fe.jpg","pilot/XABEDEK":"assets/pilots/XABEDEK.eabb0f810c.jpg","pilot/XALAAI":"assets/pilots/XALAAI.36e79f1ad5.jpg","pilot/XATHATA":"assets/pilots/XATHATA.f204d7c75c.jpg","pilot/YOX":"assets/pilots/YOX.8a9d3ef821.jpg","pilot/ZEBEEL":"assets/pilots/ZEBEEL.228eb5f947.jpg","pilot/ZERIOLA":"assets/pilots/ZERIOLA.a42ba833dd.jpg","pilot/ZESONDO":"assets/pilots/ZESONDO.56538e063c.jpg","pilot/ZETH":"assets/pilots/ZETH.7549b5d26e.jpg","pilot/ZODIAC":"assets/pilots/ZODIAC.935c77c2bc.jpg","scene/ANUDEK":"assets/scenes/ANUDEK.94bfd1f6ee.webp","scene/ANVIL":"assets/scenes/ANVIL.be019dd123.webp","scene/ASTROFOIL":"assets/scenes/ASTROFOIL.f8d6ceb42b.webp","scene/ATHARA":"assets/scenes/ATHARA.c1292809f2.webp","scene/BANDIT":"assets/scenes/BANDIT.888a4c7a20.webp","scene/BELRENRO":"assets/scenes/BELRENRO.0c668e15d8.webp","scene/BELSIAR":"assets/scenes/BELSIAR.48f683d960.webp","scene/BELSOTH":"assets/scenes/BELSOTH.68441a03c8.webp","scene/BELTHALY":"assets/scenes/BELTHALY.4a8060bcd0.webp","scene/BRILOLIA":"assets/scenes/BRILOLIA.85595d3483.webp","scene/BRIOLA":"assets/scenes/BRIOLA.3d907d29e4.webp","scene/BRIRAIX":"assets/scenes/BRIRAIX.853225911d.webp","scene/BRISILIA":"assets/scenes/BRISILIA.54d9fe1cca.webp","scene/BUSHY":"assets/scenes/BUSHY.802a2b71e0.webp","scene/CAKOOLA":"assets/scenes/CAKOOLA.ee1c383ec2.webp","scene/CANUAR":"assets/scenes/CANUAR.f4541db243.webp","scene/CARIO":"assets/scenes/CARIO.b7f362641b.webp","scene/CITADEL":"assets/scenes/CITADEL.c1bb2c8fd9.webp","scene/COMET":"assets/scenes/COMET.c33d02a6d6.webp","scene/CORLILIA":"assets/scenes/CORLILIA.cab91d134e.webp","scene/CORRARIN":"assets/scenes/CORRARIN.20584ed8d7.webp","scene/DAMSEL":"assets/scenes/DAMSEL.302a3d4fab.webp","scene/DELLALIA":"assets/scenes/DELLALIA.e9bdbcba00.webp","scene/DELLIAR":"assets/scenes/DELLIAR.92a1b6e864.webp","scene/DELLORIN":"assets/scenes/DELLORIN.26ab61a9df.webp","scene/DELSOKO":"assets/scenes/DELSOKO.dd9ba1283e.webp","scene/DOE":"assets/scenes/DOE.8dd118f140.webp","scene/DOZER":"assets/scenes/DOZER.9f0dc8579c.webp","scene/ECHO":"assets/scenes/ECHO.e7bb00decd.webp","scene/EMAO":"assets/scenes/EMAO.3e77333478.webp","scene/ENSIGN":"assets/scenes/ENSIGN.5d8cffe0f4.webp","scene/FENRA":"assets/scenes/FENRA.570ce0f0c8.webp","scene/FENX":"assets/scenes/FENX.ce87fc78ae.webp","scene/FIEST":"assets/scenes/FIEST.791e29462c.webp","scene/FLUME":"assets/scenes/FLUME.15d0aa4510.webp","scene/FLUX":"assets/scenes/FLUX.4a8f3e1c1e.webp","scene/GALLEON":"assets/scenes/GALLEON.c5fe125a49.webp","scene/GALSOOLA":"assets/scenes/GALSOOLA.a383e5947d.webp","scene/HORNET":"assets/scenes/HORNET.050f0d82b2.webp","scene/IRI":"assets/scenes/IRI.bda87dee9b.webp","scene/ITHAX":"assets/scenes/ITHAX.f4152771d8.webp","scene/IVY":"assets/scenes/IVY.3f61a19867.webp","scene/JODIOLA":"assets/scenes/JODIOLA.6a0f834719.webp","scene/JORIRO":"assets/scenes/JORIRO.be0775b509.webp","scene/JUGGER":"assets/scenes/JUGGER.06baaf7b87.webp","scene/KRUSH":"assets/scenes/KRUSH.3c2622afa3.webp","scene/LONGSHIFT":"assets/scenes/LONGSHIFT.c2f993a3ce.webp","scene/LUDIRA":"assets/scenes/LUDIRA.4d3767b685.webp","scene/LULAANE":"assets/scenes/LULAANE.423cb1470b.webp","scene/LUNULO":"assets/scenes/LUNULO.203d607063.webp","scene/MAESTRO":"assets/scenes/MAESTRO.8ee4c62acf.webp","scene/MAIX":"assets/scenes/MAIX.c974331031.webp","scene/MAKOOLA":"assets/scenes/MAKOOLA.59dd5d51aa.webp","scene/MALOANE":"assets/scenes/MALOANE.79f33eaf4c.webp","scene/MAMAOLA":"assets/scenes/MAMAOLA.a93c03d247.webp","scene/MAMO":"assets/scenes/MAMO.428477b5e1.webp","scene/MANGER":"assets/scenes/MANGER.2f1977beb3.webp","scene/MASON":"assets/scenes/MASON.92fe5a1200.webp","scene/MATA":"assets/scenes/MATA.9fa4460095.webp","scene/MIBEN":"assets/scenes/MIBEN.494288a53b.webp","scene/MIRIN":"assets/scenes/MIRIN.1bdfac53fc.webp","scene/MIRISA":"assets/scenes/MIRISA.94a42dfabb.webp","scene/NEEDLE":"assets/scenes/NEEDLE.d5f39b1059.webp","scene/NELOEL":"assets/scenes/NELOEL.d214a69823.webp","scene/NEMAIX":"assets/scenes/NEMAIX.77f95c8f27.webp","scene/NEMATH":"assets/scenes/NEMATH.3f612f52ce.webp","scene/NETHAEL":"assets/scenes/NETHAEL.a1e655b0f4.webp","scene/OLO":"assets/scenes/OLO.5255dbc490.webp","scene/OLONE":"assets/scenes/OLONE.44ea7576ce.webp","scene/OPAL":"assets/scenes/OPAL.51fa010ffe.webp","scene/ORA":"assets/scenes/ORA.6d363e9e5f.webp","scene/OTH":"assets/scenes/OTH.cd507e2b24.webp","scene/OVEX":"assets/scenes/OVEX.2b90701da3.webp","scene/PEDIRI":"assets/scenes/PEDIRI.e4107f34fd.webp","scene/PEKOAR":"assets/scenes/PEKOAR.db80ae2d14.webp","scene/PEVETH":"assets/scenes/PEVETH.f74d78c63e.webp","scene/PEWEN":"assets/scenes/PEWEN.7941fd159e.webp","scene/QUIBEMO":"assets/scenes/QUIBEMO.85ccfa76cd.webp","scene/QUIKOTH":"assets/scenes/QUIKOTH.940c32cf3a.webp","scene/QUILOX":"assets/scenes/QUILOX.12672b3d66.webp","scene/RAMPART":"assets/scenes/RAMPART.ed01c017c3.webp","scene/REAPER":"assets/scenes/REAPER.cebfc7e568.webp","scene/RIPTIDE":"assets/scenes/RIPTIDE.6ef06fb947.webp","scene/ROLAMO":"assets/scenes/ROLAMO.a13c00574c.webp","scene/ROSONDO":"assets/scenes/ROSONDO.19b518e3fd.webp","scene/SABERO":"assets/scenes/SABERO.23ae7ad7dd.webp","scene/SASOKO":"assets/scenes/SASOKO.95d3fc967a.webp","scene/SCALES":"assets/scenes/SCALES.d4233cbd5f.webp","scene/SHRAPNEL":"assets/scenes/SHRAPNEL.50fe2cbbf8.webp","scene/SIPHON":"assets/scenes/SIPHON.6267cb8f80.webp","scene/SLINGSHOT":"assets/scenes/SLINGSHOT.9d20aa4b5e.webp","scene/SPARE01":"assets/scenes/SPARE01.d553be477a.webp","scene/SPARE02":"assets/scenes/SPARE02.72b0c0d76c.webp","scene/SPARE03":"assets/scenes/SPARE03.da1c384040.webp","scene/SPARE04":"assets/scenes/SPARE04.d53117be2b.webp","scene/SPARE05":"assets/scenes/SPARE05.a40b62efd7.webp","scene/SPARE06":"assets/scenes/SPARE06.3551e29e1e.webp","scene/SPARE07":"assets/scenes/SPARE07.1897d33948.webp","scene/SPARE08":"assets/scenes/SPARE08.bcf8e40b0c.webp","scene/STRIDER":"assets/scenes/STRIDER.d174d195a2.webp","scene/SUNDIAL":"assets/scenes/SUNDIAL.47dbc7036d.webp","scene/TAKOANE":"assets/scenes/TAKOANE.9727649e2b.webp","scene/TALOLO":"assets/scenes/TALOLO.0245cca9a2.webp","scene/TALON":"assets/scenes/TALON.ab6a504e9f.webp","scene/TANUWEN":"assets/scenes/TANUWEN.04d41b9807.webp","scene/TENACIOUS":"assets/scenes/TENACIOUS.de94e7d8f1.webp","scene/TENDER":"assets/scenes/TENDER.eb39b3ed8d.webp","scene/TOMAHAWK":"assets/scenes/TOMAHAWK.352bf94614.webp","scene/TRACE":"assets/scenes/TRACE.5f3327a6e5.webp","scene/ULINE":"assets/scenes/ULINE.f148f7c0c5.webp","scene/URO":"assets/scenes/URO.557102b2e5.webp","scene/UTHAEL":"assets/scenes/UTHAEL.e8e65c2261.webp","scene/VERAO":"assets/scenes/VERAO.8a848f3230.webp","scene/VEVEOLA":"assets/scenes/VEVEOLA.8eace005e9.webp","scene/VOLT":"assets/scenes/VOLT.c98a0f9e27.webp","scene/WINGMAN":"assets/scenes/WINGMAN.0d35678260.webp","scene/WYVE":"assets/scenes/WYVE.bf99531b4a.webp","scene/XABEDEK":"assets/scenes/XABEDEK.37c590abc7.webp","scene/XALAAI":"assets/scenes/XALAAI.24efbf97a7.webp","scene/XATHATA":"assets/scenes/XATHATA.16d9444b97.webp","scene/YOX":"assets/scenes/YOX.5bea84da58.webp","scene/ZEBEEL":"assets/scenes/ZEBEEL.e11a4b6276.webp","scene/ZERIOLA":"assets/scenes/ZERIOLA.14e189691a.webp","scene/ZESONDO":"assets/scenes/ZESONDO.99ad80ac98.webp","scene/ZETH":"assets/scenes/ZETH.46b12698bb.webp","scene/ZODIAC":"assets/scenes/ZODIAC.ae78e8644a.webp","portrait/sheet-1":"assets/portraits/sheet-1.044e47199d.webp","portrait/sheet-2":"assets/portraits/sheet-2.a0a86a6b7e.webp","portrait/sheet-3":"assets/portraits/sheet-3.c17b5b3caa.webp","portrait/sheet-4":"assets/portraits/sheet-4.3cc95a8dc5.webp","portrait/sheet-5":"assets/portraits/sheet-5.a07207cfc3.webp","portrait/sheet-6":"assets/portraits/sheet-6.91ea2aa75e.webp"};
 
 /* ───── data/cards.js ───── */
@@ -55,9 +55,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Read', ap:1, el:0, cd:1, dur:0, tgt:'foe_any',
       fx:[{v:'mark'},{v:'weaken', val:(P,E)=>h(P), dur:1}],
       txt:(P,E)=>`Mark a foe: the next hit on it deals +2${P>=2?`, and its own next hit deals −${h(P)}`:''}.` },
-    { n:'Pre-empt', ap:0, el:2, cd:3, dur:2, tgt:'self',
-      fx:[{v:'shield', next:true, val:(P,E)=>4+2*E, reflect:(P,E)=>1+E}],
-      txt:(P,E)=>`Pre-arm: Shield: Shield: the next hit on you is reduced by ${4+2*E} and reflects ${1+E} back. Dur 2.` },
+    { n:'Pre-empt', ap:0, el:2, cd:3, dur:0, tgt:'foe_any',
+      fx:[{v:'aim', radius:(P,E)=>E-1}],
+      txt:(P,E)=>`Read ${E>1?`a foe and every foe within ${E-1} of it`:'a foe'}: this round its attack is Aimed, at the space its target stands on now. Step away and it strikes whoever stands there then, foe or pilot.` },
     'A brain that models other minds.');
   C('human','hum_tool','Tool Use','S',2,
     { n:'Improvise', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -71,22 +71,22 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Pace', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
       fx:[{v:'cleanse'},{v:'move', n:(P,E)=>1+P}],
       txt:(P,E)=>`Shrug off Anchored/Weakened, then move ${1+P}.` },
-    { n:'Second Wind', ap:0, el:2, cd:4, dur:4, tgt:'self',
-      fx:[{v:'engine', kind:'regen', val:(P,E)=>3+E}],
-      txt:(P,E)=>`Engine: regenerate ${3+E} vitality at the start of each of your turns. Dur 4.` },
+    { n:'Second Wind', ap:0, el:2, cd:3, dur:0, tgt:'self',
+      fx:[{v:'rewind', cap:(P,E)=>4+2*E}],
+      txt:(P,E)=>`Brace to recover: at round end, regain all the vitality you lose from now until then, up to ${4+2*E}.` },
     'A body tuned for relentless endurance.');
   C('human','hum_throw','Throwing Arm','M',0,
     { n:'Hurl', ap:1, el:0, cd:1, dur:0, tgt:'foe_los',
       fx:[{v:'strike', kind:'los', dmg:(P,E)=>2+P}],
       txt:(P,E)=>`Zone strike for ${2+P}.` },
-    { n:'Heavy Throw', ap:0, el:2, cd:3, dur:0, tgt:'foe_los',
-      fx:[{v:'strike', kind:'los', dmg:(P,E)=>5+P+E, pierce:(P,E)=>E>=2},{v:'force', kind:'push', n:(P,E)=>1+E}],
-      txt:(P,E)=>`Zone strike for ${5+P+E}${E>=2?' that pierces Shield':''}, knockback ${1+E}.` },
+    { n:'Heavy Throw', ap:0, el:2, cd:3, dur:0, tgt:'ally_throw',
+      fx:[{v:'throw', reach:(P,E)=>2+E, height:true}],
+      txt:(P,E)=>`Throw your ally from beside you onto a free space within ${2+E} of you, ledges included.` },
     'The one ranged attack no other species does naturally.');
   C('human','hum_lang','Language','C',1,
     { n:'Call', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P}],
-      txt:(P,E)=>`Call an ally up to ${1+P} nodes: you choose where they go, now.` },
+      fx:[{v:'guide', n:(P,E)=>1+P}],
+      txt:(P,E)=>`Call an ally: Guide them ${1+P}, to a space you choose, now.` },
     { n:'Rally', ap:0, el:1, cd:3, dur:2, tgt:'party',
       fx:[{v:'empower', val:(P,E)=>E>=2?2:1, uses:99, party:true, dur:2},{v:'weaken', val:1, dur:1, area:'adj'}],
       txt:(P,E)=>`Party strikes +${E>=2?2:1} for 2 turns; foes adjacent to you are Weakened 1.` },
@@ -211,9 +211,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Rasp', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'weaken', val:1, dur:1, area:'adj'},{v:'empower', val:(P,E)=>P, uses:1, target:'ally'}],
       txt:(P,E)=>`A sustained tone: adjacent foes Weakened 1${P>0?`; an ally's next strike +${P}`:''}.` },
-    { n:'Resonance', ap:0, el:2, cd:4, dur:0, tgt:'self',
-      fx:[{v:'strike', kind:'zone_all', dmg:(P,E)=>3+E},{v:'weaken', val:(P,E)=>E>=2?2:1, dur:1, area:'zone'}],
-      txt:(P,E)=>`A harmful frequency: every foe in your zone takes ${3+E} and is Weakened ${E>=2?2:1} this round.` },
+    { n:'Thrum', ap:0, el:2, cd:4, dur:0, tgt:'self',
+      fx:[{v:'spring', radius:(P,E)=>1+E}],
+      txt:(P,E)=>`A shattering note: within ${1+E} of you, every Field and hazard springs on whoever stands in it and every Wound bites, now (each still does at round end).` },
     'Tune the resonance until it hurts.');
   C('hopper','hop_tireless','Tireless Respiration','T',0,
     { n:'Diffuse', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -257,8 +257,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'Consumed mass becomes etherions.');
   C('hopper','hop_swarm','Swarm Pheromone','C',1,
     { n:'Cue', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'empower', val:(P,E)=>1+P, uses:1, target:'ally'},{v:'rally', move:1}],
-      txt:(P,E)=>`Gregarious cue: an ally's next strike +${1+P}, and you step them 1 node where you choose.` },
+      fx:[{v:'empower', val:(P,E)=>1+P, uses:1, target:'ally'},{v:'guide', n:1}],
+      txt:(P,E)=>`Gregarious cue: an ally's next strike +${1+P}, and Guide them 1.` },
     { n:'Swarm Phase', ap:0, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'engine', kind:'ap', val:1, dur:(P,E)=>1+E, party:true},{v:'weaken', val:1, dur:1, area:'adjParty'}],
       txt:(P,E)=>`The swarm phase: all heroes mint 1 AP at the start of their turns for ${1+E} rounds; foes adjacent to any hero are Weakened 1.` },
@@ -269,7 +269,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Glide ${1+P}, over foes.` },
     { n:'Hover', ap:1, el:1, cd:3, dur:0, tgt:'self',
       fx:[{v:'hover', dur:(P,E)=>1+E}],
-      txt:(P,E)=>`Hover-drift for ${1+E} rounds: hazards and Fields don't touch you, and nothing pushes or pulls you; mint 1 AP each turn.` },
+      txt:(P,E)=>`Hover-drift: Hover ${1+E} (off the ground: hazards and Fields don't touch you, nothing pushes or pulls you, and you may fly onto ledges).` },
     'Buzz the tegmina and drift.');
 
   /* ───────────────────────── 3 · BARN OWL (S/C) ───────────────────────── */
@@ -317,17 +317,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Thermal Ride', ap:2, el:0, cd:1, dur:0, tgt:'node_move',
       fx:[{v:'move', n:(P,E)=>3+P}],
       txt:(P,E)=>`Ride a thermal ${3+P} nodes.` },
-    { n:'Updraft', ap:2, el:1, cd:3, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+E, carryAlly:(P,E)=>E>=2}],
-      txt:(P,E)=>`Lift yourself onto any node within ${1+E} — height nodes included${E>=2?' — and carry an adjacent ally up with you':''}.` },
+    { n:'Updraft', ap:2, el:1, cd:3, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+E, carryAlly:(P,E)=>E>=2}],
+      txt:(P,E)=>`Lift yourself ${1+E}, climbing${E>=2?', carrying an ally beside you':''}.` },
     'An updraft you create.');
   C('owl','owl_bones','Hollow Bones','M',0,
     { n:'Lighten', ap:1, el:0, cd:1, dur:1, tgt:'node_move',
       fx:[{v:'move', n:(P,E)=>1+P},{v:'hazardImmune', dur:1}],
       txt:(P,E)=>`Move ${1+P}; hazards can't touch you this round.` },
     { n:'Weightless', ap:1, el:1, cd:3, dur:0, tgt:'self',
-      fx:[{v:'weightless', dur:(P,E)=>1+E}],
-      txt:(P,E)=>`Shed apparent weight for ${1+E} rounds: nothing pushes or pulls you, and hazards and Fields don't touch you, and you may walk onto height nodes.` },
+      fx:[{v:'hover', dur:(P,E)=>1+E}],
+      txt:(P,E)=>`Shed apparent weight: Hover ${1+E} (off the ground: hazards and Fields don't touch you, nothing pushes or pulls you, and you may fly onto ledges).` },
     'So light you drift.');
   C('owl','owl_foresight','Binocular Foresight','T',0,
     { n:'Spot Threat', ap:0, el:0, cd:1, dur:0, tgt:'self',
@@ -351,9 +351,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Mimic', ap:2, el:0, cd:1, dur:0, tgt:'node_adj',
       fx:[{v:'decoy', dur:(P,E)=>2+h(P)}],
       txt:(P,E)=>`Become something else: a decoy on an adjacent node draws attacks for ${2+h(P)} rounds.` },
-    { n:'Become', ap:1, el:2, cd:3, dur:0, tgt:'self',
-      fx:[{v:'hidden', dur:1},{v:'empower', val:(P,E)=>2+E, uses:1, pierce:true}],
-      txt:(P,E)=>`Take a borrowed form: Hidden 1, and your next strike pierces Shield and deals +${2+E}.` },
+    { n:'Become', ap:1, el:2, cd:3, dur:0, tgt:'foe_r2',
+      fx:[{v:'swap', foe:true, reach:(P,E)=>1+E}],
+      txt:(P,E)=>`Take its place: trade spaces with a foe within ${1+E} (not one that nothing can move).` },
     'Impersonates other creatures outright.');
   C('octopus','oct_cloak','Chromatic Cloak','C',2,
     { n:'Blend', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -368,8 +368,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'move', n:(P,E)=>1+P}],
       txt:(P,E)=>`Burst ${1+P} in any direction.` },
     { n:'Recoil Slam', ap:2, el:1, cd:2, dur:0, tgt:'foe_melee',
-      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+P},{v:'force', kind:'push', n:(P,E)=>E},{v:'move', n:1, free:true}],
-      txt:(P,E)=>`Melee ${2+P}, shove the foe ${E}, and recoil 1 node.` },
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+P},{v:'force', kind:'push', n:(P,E)=>E},{v:'anchor', who:'foe', dur:1, ifAir:'C'},{v:'move', n:1, free:true}],
+      txt:(P,E)=>`Melee ${2+P}, shove the foe ${E}, and recoil 1 node. Draws on Charge in the air: the foe is also Anchored 1.` },
     'Launch yourself and shove them the other way.');
   C('octopus','oct_ink','Ink Screen','S',0,
     { n:'Ink', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -408,8 +408,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+P},{v:'weaken', val:1, dur:1}],
       txt:(P,E)=>`Melee ${2+P} and Weaken 1.` },
     { n:'Neurotoxin', ap:0, el:2, cd:4, dur:0, tgt:'foe_melee',
-      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+P},{v:'weaken', val:2, dur:(P,E)=>1+h(E)},{v:'anchor', who:'foe', dur:(P,E)=>1+h(E)}],
-      txt:(P,E)=>`Melee ${2+P}; the foe is enervated for ${1+h(E)} round${E>=2?'s':''}: its hits deal −2 and it is Anchored. It still acts.` },
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+P},{v:'fix', dur:(P,E)=>E}],
+      txt:(P,E)=>`Melee ${2+P}; the venom fixes its mind: for ${E} round${E>1?'s':''} after this, it repeats this round's intent, the same move at the same target. It still acts.` },
     'It still acts fully; it just does less per effort.');
   C('octopus','oct_intellect','Adaptive Intellect','C',0,
     { n:'Study', ap:1, el:0, cd:1, dur:0, tgt:'foe_any',
@@ -422,9 +422,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 
   /* ───────────────────────── 5 · TOKAY GECKO (C/M) ───────────────────────── */
   C('gecko','gec_setae','Adhesive Setae','C',2,
-    { n:'Climb', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P}],
-      txt:(P,E)=>`Walk walls and ceilings: move ${1+P}, height nodes included.` },
+    { n:'Climb', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P}],
+      txt:(P,E)=>`Walk walls and ceilings: move ${1+P}, climbing.` },
     { n:'Van der Waals', ap:0, el:1, cd:3, dur:0, tgt:'foe_los',
       fx:[{v:'force', kind:'pull', n:(P,E)=>1+E},{v:'anchor', who:'foe', dur:(P,E)=>E>=2?1:0}],
       txt:(P,E)=>`Command the molecular bond: pull a foe in your zone ${1+E} toward you${E>=2?' and Anchor it 1':''}.` },
@@ -548,8 +548,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'morph', bonus:(P,E)=>2+h(P), move:1, dur:2}],
       txt:(P,E)=>`Trigger the buried adult form for 2 rounds: strikes +${2+h(P)}, +1 move.` },
     { n:'Apex Form', ap:0, el:3, cd:5, dur:0, tgt:'self',
-      fx:[{v:'morph', bonus:4, reach:1, move:1, shield:3, dur:(P,E)=>1+E}],
-      txt:(P,E)=>`The war-form, for ${1+E} rounds: strikes +4, melee reaches 2 nodes, +1 move, Shield 3.` },
+      fx:[{v:'morph', bonus:0, push:1, crash:(P,E)=>3+E, dur:(P,E)=>1+E}],
+      txt:(P,E)=>`The war-form, for ${1+E} rounds: your melee strikes knock the foe back 1, and a foe you push that is stopped short crashes: it takes ${3+E}, and so does whatever stopped it.` },
     'A metamorphosis kept in reserve.');
   C('axolotl','axo_suction','Suction Gape','M',0,
     { n:'Gulp', ap:1, el:0, cd:1, dur:0, tgt:'foe_r2',
@@ -574,8 +574,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'strike', kind:'los', dmg:(P,E)=>2+P}],
       txt:(P,E)=>`Zone strike for ${2+P}.` },
     { n:'Tesla Cascade', ap:1, el:3, cd:4, dur:0, tgt:'foe_los',
-      fx:[{v:'stripShield', amount:(P,E)=>2+E},{v:'link', within:2, dur:(P,E)=>E},{v:'strike', kind:'los', dmg:(P,E)=>6+P}],
-      txt:(P,E)=>`Strip ${2+E} of the target's Shield, Link it to the nearest foe within 2 of it for ${E} ${E>1?'rounds':'round'}, and strike it for ${6+P}: the Linked foe takes the same.` },
+      fx:[{v:'link', within:(P,E)=>1+E, dur:1},{v:'strike', kind:'los', dmg:(P,E)=>6+P}],
+      txt:(P,E)=>`Arc it: Link the target to the nearest foe within ${1+E} of it this round, then strike it for ${6+P}: the Linked foe takes the same.` },
     '600 volts.');
   C('eel','eel_electro','Electroreception','S',2,
     { n:'Sense', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -630,8 +630,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'anchor', who:'self', dur:1},{v:'shield', val:(P,E)=>1+P, dur:1}],
       txt:(P,E)=>`Hold depth: Anchored (nothing moves you, your own steps included) and Shield ${1+P}.` },
     { n:'Hover-Anchor', ap:1, el:1, cd:3, dur:0, tgt:'self',
-      fx:[{v:'hover', dur:(P,E)=>1+E, noAp:true},{v:'anchor', who:'ally', dur:(P,E)=>E>=2?1+E:0, adjacent:true}],
-      txt:(P,E)=>`Alter your weight for ${1+E} rounds: hazards and Fields don't touch you, and nothing pushes or pulls you${E>=2?'; an adjacent ally is anchored too':''}.` },
+      fx:[{v:'hover', dur:(P,E)=>1+E},{v:'anchor', who:'ally', dur:(P,E)=>E>=2?1+E:0, adjacent:true}],
+      txt:(P,E)=>`Alter your weight: Hover ${1+E} (off the ground: hazards and Fields don't touch you, nothing pushes or pulls you, and you may rise onto ledges)${E>=2?'; an adjacent ally is Anchored too':''}.` },
     'Rise, sink, or hold.');
   C('eel','eel_galvanic','Galvanic Counterstrike','C',0,
     { n:'Static', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -796,8 +796,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'shield', val:(P,E)=>4+P, dur:1, all:true},{v:'anchor', who:'self', dur:1}],
       txt:(P,E)=>`Curl into the tun: Shield ${4+P} against everything and Anchored (nothing moves you, your own steps included) this round.` },
     { n:'Step Out of Time', ap:0, el:3, cd:4, dur:1, tgt:'self',
-      fx:[{v:'stasis', dur:1},{v:'haste', n:(P,E)=>1+E},{v:'heal', n:(P,E)=>2+E}],
-      txt:(P,E)=>`Leave time: untargetable through the next enemy phase, heal ${2+E}, and Haste: your track slides ${1+E} extra columns.` },
+      fx:[{v:'stasis', dur:1},{v:'haste', n:(P,E)=>1+E}],
+      txt:(P,E)=>`Leave time: untargetable through the next enemy phase, and Haste: your track slides ${1+E} extra columns.` },
     'Vacuum, radiation, boiling, freezing.');
   C('tardigrade','tar_dsup','Dsup Shielding','C',2,
     { n:'Repair Proteins', ap:1, el:0, cd:1, dur:1, tgt:'self',
@@ -820,8 +820,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>1+P},{v:'anchor', who:'foe', dur:1},{v:'anchor', who:'self', dur:1}],
       txt:(P,E)=>`Eight claws lock on: melee ${1+P}; you and the foe are both Anchored 1.` },
     { n:'Immovable Hold', ap:0, el:3, cd:4, dur:0, tgt:'foe_melee',
-      fx:[{v:'anchor', who:'foe', dur:(P,E)=>2+E},{v:'anchor', who:'self', dur:(P,E)=>2+E},{v:'weaken', val:2, dur:(P,E)=>2+E},{v:'strike', kind:'melee', dmg:(P,E)=>2+E}],
-      txt:(P,E)=>`An immovable hold for ${2+E} rounds: the foe takes ${2+E}, cannot move or be moved by anyone, and is Weakened 2.` },
+      fx:[{v:'hold', dur:(P,E)=>1+E}],
+      txt:(P,E)=>`Eight claws lock on for ${1+E} rounds: when you walk, the foe beside you is dragged along to stay beside you. It still acts; if it walks off, it is free.` },
     'Nearly impossible to dislodge.');
   C('tardigrade','tar_revival','Anhydrobiosis Revival','T',0,
     { n:'Rehydrate', ap:1, el:0, cd:2, dur:0, tgt:'self',
@@ -874,6 +874,94 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   CARDS.forEach(c => (c.clades = c.clades || [c.sp]));
   T.shareTrait = (id, ...sps) => sps.forEach(sp => T.CARD[id].clades.includes(sp) || T.CARD[id].clades.push(sp));
   T.cardsOf = (sp) => T.CARDS.filter(c => c.clades.includes(sp));
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
+/* ───── data/pets.js ───── */
+/* ============================================================================
+   TUMULT — DATA: PETS (2.102)
+   ----------------------------------------------------------------------------
+   A pet is a sidekick, as in Unmatched: a small unit of its own on the board, with its own vitality, that foes
+   see, target and hit. It is not a decoy: it lasts the mission and acts. Garrett, 2026-11-21:
+     "pets that act kinda like the sidekicks in unmatched. they will have their own cards cut into the 9 card max"
+     "found on the expedition" · "2 pets maximum. pets can die" · "pets can occupy the same space as their player"
+     "a pet in a player space is invulnerable"
+     "pets also have three species but none of them can be human" (drafting their cards was replaced the same day)
+
+   • A pet is a hybrid of three clades, none of them human (a pilot is human and two). Pilots find them on the
+     expedition (a haven's stray, T.havenStock), two at most.
+   • A pet comes with one card, made when it is found (Garrett, 2026-11-21: "it has a random card from each of
+     the three species. grab the physical part from all three cards and turn it into one card with three
+     physical abilities. the whole card goes on cooldown when one is used"). One trait is drawn from each of
+     its clades, and the pet card carries the three Physical faces, as faces P, P2 and P3. It has no Ethereal
+     face. It sits in the pilot's kit, counts toward the nine, and grows with P like any Physical face.
+   • A pet card is paid with the pilot's dice and goes on the pilot's track whole, whichever face was played,
+     but it acts from the pet: its reach, its strikes, its steps, its own states ("you" on the face is the
+     pet). What a face does to dice, the track or the purse still goes to the pilot (T.PET_PILOT_VERBS).
+   • Heel (1 AP): the pet moves up to T.PET.SPEED.
+   • A pet at 0 vitality dies. It leaves the board and its card is out for the rest of the mission; it comes
+     back, whole, for the next one (Garrett, 2026-11-21: "if a player or pet dies it is gone for the mission.
+     and comes back next mission").
+   • A pet may share its own pilot's node, and its pilot may share its node; nobody else can. While it is on
+     its standing pilot's node nothing can hurt it.
+
+   A pet, kept on its pilot (h.pets), is plain data: { id, name, species: [3 clades], traits: [3 card ids],
+   card }. Its card is built from that by T.registerPet and kept in T.CARD under `card`, so every lookup by id
+   finds it; it is not in T.CARDS, the clades' catalog.
+   ========================================================================== */
+(function (T) {
+  T.PET = {
+    HP: 8, // a pet's vitality, every mission
+    SPEED: 3, // how far Heel takes it
+    HEEL_AP: 1,
+    MAX: 2, // pets per pilot
+    PRICE: 4, // ◇ to adopt one at a haven
+  };
+  /** Names a haven's stray answers to (drawn from the run's 'pets' stream). */
+  T.PET_NAMES = [
+    'Burr', 'Pip', 'Moss', 'Tock', 'Ember', 'Wick', 'Nib', 'Sorrel', 'Quill', 'Biscuit', 'Fennel', 'Rook',
+    'Juniper', 'Skip', 'Cinder', 'Bramble', 'Dot', 'Marrow', 'Tansy', 'Flint', 'Kip', 'Soot', 'Pebble', 'Whisk',
+  ];
+  /**
+   * Verbs that work on the dice, the track or the purse. On a pet card they still go to the pilot: the pet
+   * has neither dice nor a track.
+   */
+  T.PET_PILOT_VERBS = ['mint', 'draw', 'reroll', 'haste', 'engine', 'rest', 'execute'];
+
+  /** The face keys of a card: P and E for a trait, P, P2 and P3 for a pet's card. */
+  T.PET_FACES = ['P', 'P2', 'P3'];
+  T.faceKeys = (cardId) => {
+    const c = T.CARD[cardId];
+    return c && c.pet ? T.PET_FACES : c && c.faces ? c.faces : ['P', 'E']; // a gear card names its own (world.js)
+  };
+  /** A card that belongs to no clade: a pet's or a gear's. It counts toward the nine, never toward a 3-of-9. */
+  T.isKinless = (cardId) => {
+    const c = T.CARD[cardId];
+    return !!(c && (c.pet || c.gear));
+  };
+  T.isPetCardId = (cardId) => typeof cardId === 'string' && cardId.startsWith('pet~');
+  /** Build a pet's card from its record and put it in T.CARD. The same record always builds the same card. */
+  T.registerPet = function (rec) {
+    const traits = rec.traits.map((id) => T.CARD[id]);
+    const card = {
+      id: rec.card,
+      pet: rec.id,
+      sp: rec.species[0], // the clade its art is drawn from; it counts toward no clade (T.cladeSlots)
+      clades: [],
+      kin: 'Pet',
+      name: rec.name,
+      el: traits[0].el,
+      sig: 0,
+      E: null,
+      flavor: `A ${rec.species.map((sp) => (T.SPECIES[sp] ? T.SPECIES[sp].name : sp)).join(', ')} hybrid.`,
+    };
+    T.PET_FACES.forEach((k, i) => (card[k] = Object.assign({}, traits[i].P, { from: traits[i].id })));
+    T.CARD[card.id] = card;
+    return card;
+  };
+  /** Make sure every pet of these heroes has its card in T.CARD (after a save or a made pilot is loaded). */
+  T.registerPets = (heroes) =>
+    (heroes || []).forEach((h) => ((h && h.pets) || []).forEach((p) => T.CARD[p.card] || T.registerPet(p)));
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
@@ -930,17 +1018,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`All heroes heal ${1+E} and hold Shield 1 for 2 rounds.` },
     'Trust, one hair at a time.', 'Primates');
   K(['orangutan','lemur'],'pri_canopy','Canopy Leap','S',0,
-    { n:'Swing', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:1}],
-      txt:(P,E)=>`Move ${1+P}, height nodes included; your next strike this turn deals +1.` },
+    { n:'Swing', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Move ${1+P}, climbing; your next strike this turn deals +1.` },
     { n:'Treetops', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E, height:true},{v:'shield', val:1, dur:1, party:true, allyRange:1}],
-      txt:(P,E)=>`Leap to any node within ${2+E}, height included; you and an adjacent ally hold Shield 1 this round.` },
+      txt:(P,E)=>`Leap ${2+E}, climbing; you and an adjacent ally hold Shield 1 this round.` },
     'The ground is for other animals.', 'Primates');
   K(['lemur','mandrill'],'pri_troop','Troop Call','C',0,
     { n:'Hoot', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:1},{v:'empower', val:(P,E)=>1+P, uses:1, target:'ally'}],
-      txt:(P,E)=>`Step an ally 1 node, where you choose; their next strike deals +${1+P}.` },
+      fx:[{v:'guide', n:1},{v:'empower', val:(P,E)=>1+P, uses:1, target:'ally'}],
+      txt:(P,E)=>`Guide an ally 1; their next strike deals +${1+P}.` },
     { n:'Troop', ap:2, el:1, cd:3, dur:2, tgt:'party',
       fx:[{v:'empower', val:(P,E)=>E>=2?2:1, uses:99, party:true, dur:2},{v:'shield', val:1, dur:2, party:true}],
       txt:(P,E)=>`Party strikes +${E>=2?2:1} for 2 rounds, and all heroes hold Shield 1.` },
@@ -1077,9 +1165,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Unsheathe', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
       fx:[{v:'stripShield', amount:1},{v:'strike', kind:'melee', dmg:(P,E)=>2+P}],
       txt:(P,E)=>`Peel 1 Shield off a foe beside you, then melee ${2+P}.` },
-    { n:'Rake', ap:1, el:1, cd:2, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+E},{v:'strike', kind:'area', dmg:(P,E)=>1+E}],
-      txt:(P,E)=>`Climb up to ${1+E}, height included, and rake every foe beside where you land for ${1+E}.` },
+    { n:'Rake', ap:1, el:1, cd:2, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+E},{v:'strike', kind:'area', dmg:(P,E)=>1+E}],
+      txt:(P,E)=>`Climb ${1+E}, and rake every foe beside where you land for ${1+E}.` },
     'Kept sharp by never touching the ground.', 'Cats');
   K(CATS_CLAWED,'cat_eyes','Night Eyes','S',0,
     { n:'Eyeshine', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -1152,12 +1240,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Hook a foe within 3 and drag it ${1+E} toward you; if it lands beside you, melee ${2+E}. It is Anchored 1.` },
     'Birds three metres up are not safe.');
   K(['caracal'],'car_leap','Vertical Leap','S',0,
-    { n:'Spring', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>2+P},{v:'shield', val:1, next:true}],
-      txt:(P,E)=>`Jump to any node within ${2+P}, height included; Shield: the next hit on you is 1 less.` },
+    { n:'Spring', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>2+P},{v:'shield', val:1, next:true}],
+      txt:(P,E)=>`Jump ${2+P}, climbing; Shield: the next hit on you is 1 less.` },
     { n:'Sky Leap', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E, height:true},{v:'strike', kind:'area', dmg:(P,E)=>1+E}],
-      txt:(P,E)=>`Leap to any node within ${2+E}, height included, landing on every foe beside it for ${1+E}.` },
+      txt:(P,E)=>`Leap ${2+E}, climbing, landing on every foe beside it for ${1+E}.` },
     'Straight up, from standing.');
 
   // Ocelot: the six cat traits and these three
@@ -1170,9 +1258,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`You and every ally within 2 are Hidden for ${1+E} rounds; all heroes' next strike deals +1.` },
     'Spots that are shadows that are spots.');
   K(['ocelot'],'oce_descent','Headfirst Descent','S',0,
-    { n:'Descend', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'strike', kind:'area', dmg:(P,E)=>1+h(P)}],
-      txt:(P,E)=>`Climb up to ${1+P}, height included, and drop on every foe beside where you land for ${1+h(P)}.` },
+    { n:'Descend', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'strike', kind:'area', dmg:(P,E)=>1+h(P)}],
+      txt:(P,E)=>`Climb ${1+P}, and drop on every foe beside where you land for ${1+h(P)}.` },
     { n:'Branch Drop', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E, dest:'adjTarget', height:true},{v:'strike', kind:'melee', dmg:(P,E)=>3+E},{v:'weaken', val:1, dur:1}],
       txt:(P,E)=>`Drop beside a foe within ${2+E}, melee ${3+E}, and it is Weakened 1.` },
@@ -1396,11 +1484,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   // Golden jackal: the dogs' four, the jackal and coyote's two, and these three
   K(['jackal'],'jac_pair','Pair Hunt','C',2,
     { n:'Flank', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
-      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>1+P},{v:'mark', n:1, dur:3}],
-      txt:(P,E)=>`Melee ${1+P}, opening it up: it is Marked +1 for 3 rounds.` },
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+P, ifFlanked:true, elseVal:(P,E)=>1+P},{v:'mark', n:1, dur:3}],
+      txt:(P,E)=>`Melee ${1+P}, or ${3+P} if it is Flanked, opening it up: it is Marked +1 for 3 rounds.` },
     { n:'Pair Hunt', ap:1, el:1, cd:3, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:2},{v:'empower', val:(P,E)=>1+E, uses:1, dur:2, party:true}],
-      txt:(P,E)=>`Send an ally up to 2; all heroes' next strike deals +${1+E}.` },
+      fx:[{v:'guide', n:2},{v:'empower', val:(P,E)=>1+E, uses:1, dur:2, party:true}],
+      txt:(P,E)=>`Send an ally on: Guide them 2; all heroes' next strike deals +${1+E}.` },
     'One drives, one waits.');
   K(['jackal'],'jac_coat','Golden Coat','T',0,
     { n:'Golden Coat', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -1448,16 +1536,16 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   // Spotted hyena: Keen Nose, Pack Howl, Long Trot, Killing Bite, and these five
   K(['hyena'],'hye_crush','Bone Crush','M',2,
     { n:'Crunch', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
-      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+P, pierce:(P,E)=>P>=2},{v:'weaken', val:1, dur:1}],
-      txt:(P,E)=>`Melee ${2+P}${P >= 2 ? ' through Shield' : ''}; it is Weakened 1 this round.` },
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>4+P, ifFlanked:true, elseVal:(P,E)=>2+P, pierce:(P,E)=>P>=2},{v:'weaken', val:1, dur:1}],
+      txt:(P,E)=>`Melee ${2+P}, or ${4+P} if it is Flanked${P >= 2 ? ', through Shield' : ''}; it is Weakened 1 this round.` },
     { n:'Bone Crack', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'stripShield', amount:(P,E)=>1+E},{v:'strike', kind:'melee', dmg:(P,E)=>3+E},{v:'weaken', val:2, dur:(P,E)=>1+h(E)}],
       txt:(P,E)=>`Crack ${1+E} off its Shield, melee ${3+E}, and it is Weakened 2 for ${1+h(E)} ${1+h(E) > 1 ? 'rounds' : 'round'}.` },
     'Jaws that eat the bones too.');
   K(['hyena'],'hye_whoop','Clan Whoop','C',0,
     { n:'Whoop', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:2},{v:'empower', val:(P,E)=>1+h(P), uses:1, dur:2, target:'ally'}],
-      txt:(P,E)=>`Call an ally up to 2 nodes; their next strike deals +${1+h(P)}.` },
+      fx:[{v:'guide', n:2},{v:'empower', val:(P,E)=>1+h(P), uses:1, dur:2, target:'ally'}],
+      txt:(P,E)=>`Call an ally: Guide them 2; their next strike deals +${1+h(P)}.` },
     { n:'Mob', ap:1, el:1, cd:3, dur:0, tgt:'self',
       fx:[{v:'weaken', val:1, dur:(P,E)=>1+E, area:'radius', radius:2},{v:'empower', val:1, uses:1, dur:2, party:true}],
       txt:(P,E)=>`Every foe within 2 is Weakened 1 for ${1+E} rounds; all heroes' next strike deals +1.` },
@@ -1637,9 +1725,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Heal ${1+h(E)} at the start of each turn for 3 rounds; Hidden 1.` },
     'Draped over a branch, tail over the nose.');
   K(['red_panda'],'rpa_tail','Tail Wrap','S',0,
-    { n:'Balance', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
-      txt:(P,E)=>`Climb up to ${1+P}, height included, balanced on your tail: Shield 1 this round.` },
+    { n:'Balance', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
+      txt:(P,E)=>`Climb ${1+P}, balanced on your tail: Shield 1 this round.` },
     { n:'Wrap Up', ap:1, el:1, cd:3, dur:0, tgt:'self',
       fx:[{v:'shield', val:(P,E)=>1+E, dur:2},{v:'anchor', who:'self', dur:2}],
       txt:(P,E)=>`Wrap up tight: Shield ${1+E} for 2 rounds, and nothing can push or pull you.` },
@@ -1746,8 +1834,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Melee ${2+E}, and heal ${1+E}.` },
     'It eats clams by sucking them out of the shell.');
   K(['walrus'],'wal_ice','Ice Haul','T',0,
-    { n:'Tusk Up', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
+    { n:'Tusk Up', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
       txt:(P,E)=>`Haul yourself up on your tusks: climb ${1+P}, and hold Shield 1 this round.` },
     { n:'Break the Ice', ap:1, el:1, cd:4, dur:0, tgt:'self',
       fx:[{v:'field', around:true, radius:1, on:'end', dur:2, fx:[{kw:'weaken', n:1}]},{v:'hazardImmune', dur:(P,E)=>1+E}],
@@ -1789,8 +1877,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'They wash seals off the ice together.');
   K(['orca'],'orc_apex','Apex','M',0,
     { n:'Take Down', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
-      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+P},{v:'execute', threshold:(P,E)=>2+P}],
-      txt:(P,E)=>`Melee ${2+P}; a foe left at ${2+P} or less is finished.` },
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>4+P, ifFlanked:true, elseVal:(P,E)=>2+P},{v:'execute', threshold:(P,E)=>2+P}],
+      txt:(P,E)=>`Melee ${2+P}, or ${4+P} if it is Flanked; a foe left at ${2+P} or less is finished.` },
     { n:'Top of the Sea', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'cleanse', ward:1},{v:'strike', kind:'melee', dmg:(P,E)=>4+E, pierce:true}],
       txt:(P,E)=>`Melee ${4+E} that ignores Shield, and Cleanse, and you can't be Weakened or Anchored by a foe this round.` },
@@ -1815,8 +1903,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'The tusk is a tooth that feels the sea.');
   K(['narwhal'],'nar_lead','Ice Lead','T',0,
     { n:'Show the Way', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P}],
-      txt:(P,E)=>`An ally moves ${1+P}.` },
+      fx:[{v:'guide', n:(P,E)=>1+P}],
+      txt:(P,E)=>`Guide an ally ${1+P}.` },
     { n:'Open Water', ap:0, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'hazardImmune', dur:(P,E)=>1+E},{v:'hazardImmune', dur:1, party:true},{v:'engine', kind:'ap', val:1, dur:1, party:true}],
       txt:(P,E)=>`All heroes gain 1 AP next turn and ignore hazards this round; you for ${1+E} rounds.` },
@@ -1863,8 +1951,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'move', n:(P,E)=>2+P}],
       txt:(P,E)=>`Move ${2+P}.` },
     { n:'Gallop', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:(P,E)=>3+E, ignoreFoes:true},{v:'hazardImmune', dur:1},{v:'empower', val:1, uses:1, dur:1}],
-      txt:(P,E)=>`Move ${3+E}, passing foes and ignoring hazards this round; your next hit this turn deals +1.` },
+      fx:[{v:'move', n:(P,E)=>3+E, trample:1},{v:'hazardImmune', dur:1},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Move ${3+E}, trampling: each foe in your way is pushed 1 aside as you reach it. Ignore hazards this round, and your next hit this turn deals +1.` },
     'Built for ground, and lots of it.', 'Hoofed animals');
   K(HOOVED,'hoof_ring','Herd Ring','T',0,
     { n:'Close Ranks', ap:1, el:0, cd:1, dur:0, tgt:'party',
@@ -1934,8 +2022,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'Wool that keeps out a mountain night.');
   K(['yak'],'yak_bearer','Pack Bearer','C',0,
     { n:'Carry', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P},{v:'shield', val:1, dur:1, party:true, allyRange:1}],
-      txt:(P,E)=>`An ally moves ${1+P}; then you and every ally beside you hold Shield 1 this round.` },
+      fx:[{v:'guide', n:(P,E)=>1+P},{v:'shield', val:1, dur:1, party:true, allyRange:1}],
+      txt:(P,E)=>`Guide an ally ${1+P}; then you and every ally beside you hold Shield 1 this round.` },
     { n:'Supplies', ap:1, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'engine', kind:'ap', val:1, dur:(P,E)=>1+E, target:'ally'},{v:'heal', n:1, party:true}],
       txt:(P,E)=>`All heroes heal 1, and an ally gains 1 AP at the start of each turn for ${1+E} ${1+E > 1 ? 'rounds' : 'round'}.` },
@@ -1944,8 +2032,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Steady Breath', ap:1, el:0, cd:2, dur:0, tgt:'self',
       fx:[{v:'engine', kind:'ap', val:1, dur:1},{v:'heal', n:(P,E)=>1+h(P)}],
       txt:(P,E)=>`Gain 1 AP next turn, and heal ${1+h(P)}.` },
-    { n:'High Pass', ap:1, el:1, cd:3, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+E, carryAlly:(P,E)=>E>=2},{v:'shield', val:2, dur:1}],
+    { n:'High Pass', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+E, carryAlly:(P,E)=>E>=2},{v:'shield', val:2, dur:1}],
       txt:(P,E)=>`Climb ${1+E}${E>=2?', carrying an ally beside you,':''} and hold Shield 2 this round.` },
     'Where other lungs give out, it keeps walking.');
 
@@ -2011,8 +2099,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Charge up to 3 toward a foe within 3; if you end beside it, melee ${4+E} and push it 2.` },
     'The crack can be heard a mile off.');
   K(['ram'],'ram_sure','Sure Hooves','S',0,
-    { n:'Ledge Walk', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>2+P},{v:'anchor', who:'self', dur:1}],
+    { n:'Ledge Walk', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>2+P},{v:'anchor', who:'self', dur:1}],
       txt:(P,E)=>`Climb ${2+P}; nothing can push or pull you this round.` },
     { n:'Cliff Run', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E, height:true},{v:'empower', val:(P,E)=>1+E, uses:1, dur:1}],
@@ -2090,8 +2178,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'Hard to count, harder to pick out.');
   K(['zebra'],'zeb_bolt','Herd Bolt','S',0,
     { n:'Bolt', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P},{v:'move', n:1, free:true}],
-      txt:(P,E)=>`An ally moves ${1+P}, and you step 1.` },
+      fx:[{v:'guide', n:(P,E)=>1+P},{v:'move', n:1, free:true}],
+      txt:(P,E)=>`Guide an ally ${1+P}, and you step 1.` },
     { n:'All Together', ap:1, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'engine', kind:'ap', val:1, dur:1, party:true},{v:'shield', val:(P,E)=>1+E, next:true, party:true}],
       txt:(P,E)=>`All heroes gain 1 AP next turn, and Shield: the next hit on each is ${1+E} less.` },
@@ -2225,11 +2313,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Every foe within ${1+h(E)} is pushed 1, and every foe within 2 is Weakened 1 for ${1+E} rounds.` },
     'It shakes its tail like a box of knives.');
   K(['porcupine'],'por_climb','Tree Climb','S',0,
-    { n:'Climb', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
+    { n:'Climb', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
       txt:(P,E)=>`Climb ${1+P}, and hold Shield 1 this round.` },
-    { n:'High Fork', ap:1, el:1, cd:3, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>2+E, carryAlly:(P,E)=>E>=2},{v:'engine', kind:'regen', val:1, dur:2}],
+    { n:'High Fork', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>2+E, carryAlly:(P,E)=>E>=2},{v:'engine', kind:'regen', val:1, dur:2}],
       txt:(P,E)=>`Climb ${2+E}${E>=2?', carrying an ally beside you,':''} and heal 1 at the start of each turn for 2 rounds.` },
     'Slow up the trunk, and nobody follows.');
   K(['porcupine'],'por_back','Back Turn','T',0,
@@ -2397,11 +2485,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Haste: the next card you play this turn doesn't go to the track, and gain 1 AP at the start of each turn for ${1+h(E)} ${1+h(E) > 1 ? 'rounds' : 'round'}.` },
     'Nothing is so urgent it can’t wait.');
   K(['sloth'],'slo_hang','Hang On','S',0,
-    { n:'Hang', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'anchor', who:'self', dur:1}],
+    { n:'Hang', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'anchor', who:'self', dur:1}],
       txt:(P,E)=>`Climb ${1+P}; nothing can push or pull you this round.` },
-    { n:'Upside Down', ap:1, el:1, cd:3, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>2+E, carryAlly:(P,E)=>E>=2},{v:'shield', val:2, dur:1}],
+    { n:'Upside Down', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>2+E, carryAlly:(P,E)=>E>=2},{v:'shield', val:2, dur:1}],
       txt:(P,E)=>`Climb ${2+E}${E>=2?', carrying an ally beside you,':''} and hold Shield 2 this round.` },
     'It sleeps hanging, and dies hanging, and does not fall.');
   K(['sloth'],'slo_swim','Slow Swim','S',0,
@@ -2567,8 +2655,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'strike', kind:'area', dmg:(P,E)=>1+P}],
       txt:(P,E)=>`Uncurl with a snap: every foe beside you takes ${1+P}.` },
     { n:'Pop', ap:1, el:1, cd:3, dur:0, tgt:'foe_adj_all',
-      fx:[{v:'strike', kind:'area', dmg:(P,E)=>2+E},{v:'force', kind:'push', n:1, area:true},{v:'shield', val:1, dur:1}],
-      txt:(P,E)=>`Every foe beside you takes ${2+E} and is pushed 1; hold Shield 1 this round.` },
+      fx:[{v:'strike', kind:'area', dmg:(P,E)=>2+E},{v:'force', kind:'push', n:1, area:true},{v:'force', kind:'push', n:1, area:true, ifAir:'S'},{v:'shield', val:1, dur:1}],
+      txt:(P,E)=>`Every foe beside you takes ${2+E} and is pushed 1; hold Shield 1 this round. Draws on Space in the air: they are pushed 1 more.` },
     'Curled tight, then all at once.');
   K(['hedgehog'],'heh_huff','Huff','C',0,
     { n:'Huff', ap:1, el:0, cd:1, dur:0, tgt:'foe_r2',
@@ -2634,8 +2722,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'The tail takes its whole weight.');
   K(['kangaroo'],'kan_mob','Mob Lead','C',0,
     { n:'Thump the Mob', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:2, target:'ally'}],
-      txt:(P,E)=>`An ally moves ${1+P}, and their next hit deals +1.` },
+      fx:[{v:'guide', n:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:2, target:'ally'}],
+      txt:(P,E)=>`Guide an ally ${1+P}, and their next hit deals +1.` },
     { n:'Whole Mob', ap:1, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'empower', val:(P,E)=>1+E, uses:1, dur:2, party:true},{v:'engine', kind:'ap', val:1, dur:1, target:'ally'}],
       txt:(P,E)=>`Each hero's next hit deals +${1+E}, and an ally gains 1 AP next turn.` },
@@ -2675,8 +2763,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Play dead: nothing can touch you until your next turn, foes are drawn to where you lie for ${1+E} rounds, and you heal 1.` },
     'Not on purpose. It simply faints.');
   K(['opossum'],'opo_tail','Prehensile Tail','S',0,
-    { n:'Hang', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
+    { n:'Hang', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
       txt:(P,E)=>`Climb ${1+P}, and hold Shield 1 this round.` },
     { n:'Swing Down', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E, height:true},{v:'empower', val:(P,E)=>1+E, uses:1, dur:1}],
@@ -2819,11 +2907,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   // Bald eagle: Hollow Bones, Talon Strike, Keen Sight, Stoop, and these five
   K(['eagle'],'eag_soar','Soar','S',0,
     { n:'Ride the Wind', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:(P,E)=>1+P, ignoreFoes:true},{v:'hazardImmune', dur:1}],
-      txt:(P,E)=>`Glide ${1+P}, over foes; hazards can't touch you this round.` },
-    { n:'High Circle', ap:1, el:1, cd:3, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>2+E},{v:'reveal', radius:(P,E)=>2+E, dur:1},{v:'empower', val:1, uses:1, dur:1}],
-      txt:(P,E)=>`Rise onto any node within ${2+E}, height included; see within ${2+E}, and your next hit this turn deals +1.` },
+      fx:[{v:'hover', dur:1},{v:'move', n:(P,E)=>1+P, ignoreFoes:true}],
+      txt:(P,E)=>`Hover this round and glide ${1+P}, over foes and ledges.` },
+    { n:'High Circle', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>2+E},{v:'reveal', radius:(P,E)=>2+E, dur:1},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Rise ${2+E}, climbing; see within ${2+E}, and your next hit this turn deals +1.` },
     'Hours on one thermal without a wingbeat.');
   K(['eagle'],'eag_lock','Talon Lock','M',0,
     { n:'Clamp', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
@@ -2846,8 +2934,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'strike', kind:'los', dmg:(P,E)=>1+P},{v:'force', kind:'pull', n:1}],
       txt:(P,E)=>`Swoop on a foe within 3: it takes ${1+P} and is dragged 1 toward you.` },
     { n:'Skim and Lift', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:(P,E)=>2+E, ignoreFoes:true},{v:'hazardImmune', dur:1},{v:'heal', n:(P,E)=>1+E}],
-      txt:(P,E)=>`Skim ${2+E}, over foes and through hazards, snatching a meal on the way: heal ${1+E}.` },
+      fx:[{v:'hover', dur:1},{v:'move', n:(P,E)=>2+E, ignoreFoes:true},{v:'heal', n:(P,E)=>1+E}],
+      txt:(P,E)=>`Hover this round and skim ${2+E}, over foes and ledges, snatching a meal on the way: heal ${1+E}.` },
     'Down to the water and up again, and never wet past the ankles.');
   K(['eagle'],'eag_nest','Nest Guard','T',0,
     { n:'Over the Nest', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -2861,11 +2949,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   // Red-tailed hawk: Hollow Bones, Talon Strike, Keen Sight, Stoop, and these five
   K(['hawk'],'haw_hyper','Sky Hyperspeed','S',0,
     { n:'Sky Dash', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:4, exact:true, ignoreFoes:true},{v:'hazardImmune', dur:1},{v:'empower', val:(P,E)=>P, uses:1, dur:1}],
-      txt:(P,E)=>`Fly exactly 4, over foes and hazards${P ? `; your next strike this turn deals +${P}` : ''}.` },
+      fx:[{v:'hover', dur:1},{v:'move', n:4, exact:true, ignoreFoes:true},{v:'empower', val:(P,E)=>P, uses:1, dur:1}],
+      txt:(P,E)=>`Hover this round and fly exactly 4, over foes and ledges${P ? `; your next strike this turn deals +${P}` : ''}.` },
     { n:'Sky Burst', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:4, exact:true, ignoreFoes:true},{v:'hazardImmune', dur:1},{v:'empower', val:(P,E)=>2+E, uses:1, dur:1},{v:'mark', nearest:true}],
-      txt:(P,E)=>`Fly exactly 4, over foes and hazards; Mark the nearest foe (the next hit on it deals +2), and your next strike this turn deals +${2+E}.` },
+      fx:[{v:'hover', dur:1},{v:'move', n:4, exact:true, ignoreFoes:true},{v:'empower', val:(P,E)=>2+E, uses:1, dur:1},{v:'mark', nearest:true}],
+      txt:(P,E)=>`Hover this round and fly exactly 4, over foes and ledges; Mark the nearest foe (the next hit on it deals +2), and your next strike this turn deals +${2+E}.` },
     'The cheetah’s run, with nothing underfoot to slow it.');
   K(['hawk'],'haw_kite','Kite','S',0,
     { n:'Hang', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
@@ -2873,7 +2961,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Slip ${1+P} and hang on the wind: see within 2, and your next hit this turn deals +1.` },
     { n:'Hold the Wind', ap:0, el:1, cd:4, dur:0, tgt:'self',
       fx:[{v:'hover', dur:(P,E)=>1+E},{v:'reveal', radius:(P,E)=>2+E, dur:1}],
-      txt:(P,E)=>`Hover for ${1+E} rounds: hazards and Fields don't touch you, and nothing pushes or pulls you, and mint 1 AP each turn; see within ${2+E}.` },
+      txt:(P,E)=>`Hover ${1+E} (off the ground: hazards and Fields don't touch you, nothing pushes or pulls you, and you may fly onto ledges); see within ${2+E}.` },
     'Perfectly still in a gale.');
   K(['hawk'],'haw_bind','Talon Bind','M',0,
     { n:'Bind', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
@@ -2933,9 +3021,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'High Step', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
       fx:[{v:'move', n:(P,E)=>1+P, ignoreFoes:true},{v:'shield', val:1, dur:1}],
       txt:(P,E)=>`Step ${1+P} over foes, and hold Shield 1 this round.` },
-    { n:'Stand Tall', ap:1, el:1, cd:3, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+E},{v:'reveal', radius:(P,E)=>2+E, dur:1},{v:'empower', val:1, uses:1, dur:1}],
-      txt:(P,E)=>`Step up onto any node within ${1+E}, height included; see within ${2+E}, and your next hit this turn deals +1.` },
+    { n:'Stand Tall', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+E},{v:'reveal', radius:(P,E)=>2+E, dur:1},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Step up ${1+E}, climbing; see within ${2+E}, and your next hit this turn deals +1.` },
     'Stilts that fold the wrong way.', 'Waders');
   K(SPEARS,'wad_spear','Spear Bill','M',0,
     { n:'Stab', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
@@ -2957,8 +3045,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   // Crane: Hollow Bones, Spear Bill, Still Hunt, Wade, Long Legs, and these four
   K(['crane'],'cra_migrate','Migration','S',0,
     { n:'Long Haul', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:(P,E)=>2+h(P)},{v:'hazardImmune', dur:1}],
-      txt:(P,E)=>`Fly ${2+h(P)}; hazards can't touch you this round.` },
+      fx:[{v:'hover', dur:1},{v:'move', n:(P,E)=>2+h(P)}],
+      txt:(P,E)=>`Hover this round and fly ${2+h(P)}, ledges included.` },
     { n:'Flyway', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
       fx:[{v:'move', n:(P,E)=>2+E},{v:'haste', n:(P,E)=>1+h(E)},{v:'heal', n:1}],
       txt:(P,E)=>`Fly ${2+E} and heal 1; Haste: your track slides ${1+h(E)} extra (your cards come back sooner).` },
@@ -2976,8 +3064,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'move', n:(P,E)=>1+P}],
       txt:(P,E)=>`Stride ${1+P}.` },
     { n:'Run-Up', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
-      fx:[{v:'blink', reach:(P,E)=>3+E, height:true},{v:'hazardImmune', dur:1}],
-      txt:(P,E)=>`Run, flap and lift: land on any node within ${3+E}, height included; hazards can't touch you this round.` },
+      fx:[{v:'blink', reach:(P,E)=>3+E, height:true},{v:'hover', dur:1}],
+      txt:(P,E)=>`Run, flap and lift: land on any node within ${3+E}, height included, and Hover this round.` },
     'Three long steps and it is in the air.');
   K(['crane'],'cra_trumpet','Trumpet','C',0,
     { n:'Call', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -3040,12 +3128,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Swap places with an ally, wherever they are; all heroes' next hit deals +${1+E}.` },
     'Where the big animals walk, the insects jump.');
   K(['egret'],'egr_lift','Graceful Lift','S',0,
-    { n:'Lift', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
-      txt:(P,E)=>`Lift onto any node within ${1+P}, height included, and hold Shield 1 this round.` },
+    { n:'Lift', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
+      txt:(P,E)=>`Lift ${1+P}, climbing, and hold Shield 1 this round.` },
     { n:'Float', ap:1, el:1, cd:3, dur:0, tgt:'self',
-      fx:[{v:'weightless', dur:(P,E)=>1+E},{v:'empower', val:1, uses:1, dur:2},{v:'heal', n:1}],
-      txt:(P,E)=>`Float for ${1+E} rounds: nothing pushes or pulls you, and hazards and Fields don't touch you, and you may walk onto height nodes; heal 1, and your next hit deals +1.` },
+      fx:[{v:'hover', dur:(P,E)=>1+E},{v:'empower', val:1, uses:1, dur:2},{v:'heal', n:1}],
+      txt:(P,E)=>`Hover ${1+E} (off the ground: hazards and Fields don't touch you, nothing pushes or pulls you, and you may fly onto ledges); heal 1, and your next hit deals +1.` },
     'Up off the water without a splash.');
 
   // Ibis: Hollow Bones, Spear Bill, Still Hunt, Wade, Long Legs, and these four
@@ -3075,11 +3163,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'The bird of the scribes, in the oldest stories.');
   K(['ibis'],'ibi_flock','Flock V','S',0,
     { n:'Formation', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P},{v:'shield', val:1, dur:1, party:true}],
-      txt:(P,E)=>`An ally moves ${1+P}, where you choose; all heroes hold Shield 1 this round.` },
+      fx:[{v:'guide', n:(P,E)=>1+P},{v:'shield', val:1, dur:1, party:true}],
+      txt:(P,E)=>`Guide an ally ${1+P}; all heroes hold Shield 1 this round.` },
     { n:'V-Flight', ap:1, el:1, cd:4, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>2+E},{v:'shield', val:(P,E)=>1+h(E), dur:1, party:true},{v:'haste', n:1, who:'ally'}],
-      txt:(P,E)=>`An ally moves ${2+E} in your slipstream; all heroes hold Shield ${1+h(E)} this round, and Haste: their track slides 1 extra.` },
+      fx:[{v:'guide', n:(P,E)=>2+E},{v:'shield', val:(P,E)=>1+h(E), dur:1, party:true},{v:'haste', n:1, who:'ally'}],
+      txt:(P,E)=>`Guide an ally ${2+E} in your slipstream; all heroes hold Shield ${1+h(E)} this round, and Haste: their track slides 1 extra.` },
     'The bird in front breaks the wind for the one behind.');
 
   // Shoebill: Hollow Bones, Spear Bill, Still Hunt, Wade, Long Legs, Big Bill, and these three
@@ -3249,8 +3337,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'Three gallons of water and whatever was in it.');
   K(['pelican'],'pel_line','Fishing Line','C',0,
     { n:'Line Up', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:2, target:'ally'}],
-      txt:(P,E)=>`An ally moves ${1+P}, where you choose, and their next hit deals +1.` },
+      fx:[{v:'guide', n:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:2, target:'ally'}],
+      txt:(P,E)=>`Guide an ally ${1+P}, and their next hit deals +1.` },
     { n:'Drive the Shoal', ap:1, el:1, cd:3, dur:0, tgt:'foe_r3',
       fx:[{v:'link', within:2, dur:2},{v:'force', kind:'pull', n:2},{v:'empower', val:(P,E)=>1+h(E), uses:1, dur:2, party:true}],
       txt:(P,E)=>`Link a foe within 3 to the nearest foe within 2 of it for 2 rounds, then drive it two nodes toward you (the other comes too); all heroes' next hit deals +${1+h(E)}.` },
@@ -3260,8 +3348,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'move', n:(P,E)=>2+h(P), ignoreFoes:true}],
       txt:(P,E)=>`Glide ${2+h(P)}, over foes.` },
     { n:'Wave Ride', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
-      fx:[{v:'blink', reach:(P,E)=>3+E},{v:'reveal', radius:(P,E)=>2+E, dur:1},{v:'hazardImmune', dur:1}],
-      txt:(P,E)=>`Ride the air over a wave to any node within ${3+E}; see within ${2+E}, and ignore hazards this round.` },
+      fx:[{v:'blink', reach:(P,E)=>3+E},{v:'reveal', radius:(P,E)=>2+E, dur:1},{v:'hover', dur:1}],
+      txt:(P,E)=>`Ride the air over a wave to any node within ${3+E}; see within ${2+E}, and Hover this round.` },
     'An inch above the swell, and never a wingbeat.');
   K(['pelican'],'pel_crash','Pelican Crash','M',0,
     { n:'Crash Down', ap:1, el:0, cd:2, dur:0, tgt:'foe_r3',
@@ -3397,8 +3485,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'move', n:(P,E)=>1+P, ignoreFoes:true},{v:'reveal', radius:1, dur:1}],
       txt:(P,E)=>`Circle down ${1+P}, over foes, and see everything beside where you land.` },
     { n:'Pick the Weak', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
-      fx:[{v:'blink', reach:(P,E)=>2+E, dest:'adjTarget'},{v:'strike', kind:'melee', dmg:(P,E)=>2+E},{v:'execute', threshold:(P,E)=>1+E}],
-      txt:(P,E)=>`Drop beside a foe within ${2+E} and peck it for ${2+E}; if that leaves it at ${1+E} hp or less, it falls.` },
+      fx:[{v:'blink', reach:(P,E)=>2+E, dest:'adjTarget'},{v:'strike', kind:'melee', dmg:(P,E)=>2+E},{v:'execute', threshold:(P,E)=>1+E},{v:'execute', threshold:(P,E)=>3+2*E, ifAir:'M'}],
+      txt:(P,E)=>`Drop beside a foe within ${2+E} and peck it for ${2+E}; if that leaves it at ${1+E} hp or less, it falls. Draws on Mass in the air: it falls at ${3+2*E} or less.` },
     'It knows a fight is coming before the fighters do.');
   K(['raven'],'rav_memory','Raven Memory','T',0,
     { n:'I Know You', ap:1, el:0, cd:1, dur:0, tgt:'foe_r3',
@@ -3410,8 +3498,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'It remembers a face for years, and tells its children.');
   K(['raven'],'rav_wolf','Wolf Guide','C',0,
     { n:'This Way', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P},{v:'reveal', radius:2, dur:1}],
-      txt:(P,E)=>`Call an ally on: they move ${1+P} where you choose, and you see within 2.` },
+      fx:[{v:'guide', n:(P,E)=>1+P},{v:'reveal', radius:2, dur:1}],
+      txt:(P,E)=>`Call an ally on: Guide them ${1+P}, and you see within 2.` },
     { n:'Lead the Hunt', ap:1, el:1, cd:4, dur:0, tgt:'foe_any',
       fx:[{v:'reveal', target:true, dur:2},{v:'mark'},{v:'empower', val:(P,E)=>2+E, uses:1, dur:2, target:'ally'}],
       txt:(P,E)=>`Lead an ally to any foe: Revealed for 2 rounds and is Marked, and their next hit deals +${2+E}.` },
@@ -3477,12 +3565,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Throw an ally a fruit: they heal ${1+E}, and their next hit deals +1.` },
     'Up, back, open, gone.');
   K(['toucan'],'tou_hop','Canopy Hop','S',0,
-    { n:'Hop', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P}],
-      txt:(P,E)=>`Hop onto any node within ${1+P}, height included.` },
+    { n:'Hop', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P}],
+      txt:(P,E)=>`Hop ${1+P}, climbing.` },
     { n:'Branch to Branch', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E, height:true},{v:'empower', val:1, uses:1, dur:1},{v:'reveal', radius:2, dur:1}],
-      txt:(P,E)=>`Hop to any node within ${2+E}, height included; see within 2, and your next hit this turn deals +1.` },
+      txt:(P,E)=>`Hop ${2+E}, climbing; see within 2, and your next hit this turn deals +1.` },
     'It hops more than it flies.');
   K(['toucan'],'tou_cool','Bill Cool','T',0,
     { n:'Shed Heat', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -3520,11 +3608,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   // Hummingbird: Hollow Bones, and these eight
   K(['hummingbird'],'hmb_hover','Hover','S',0,
     { n:'Hold Still', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:(P,E)=>1+P},{v:'hazardImmune', dur:1},{v:'empower', val:1, uses:1, dur:1}],
-      txt:(P,E)=>`Dart ${1+P} and hang in the air: hazards can't touch you this round, and your next hit this turn deals +1.` },
+      fx:[{v:'hover', dur:1},{v:'move', n:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Hover this round and dart ${1+P}, ledges included; your next hit this turn deals +1.` },
     { n:'Hang in the Air', ap:1, el:1, cd:4, dur:0, tgt:'self',
       fx:[{v:'hover', dur:(P,E)=>1+E},{v:'shield', val:1, dur:1}],
-      txt:(P,E)=>`Hover for ${1+E} rounds: hazards and Fields don't touch you, and nothing pushes or pulls you, and mint 1 AP each turn; Shield 1 this round.` },
+      txt:(P,E)=>`Hover ${1+E} (off the ground: hazards and Fields don't touch you, nothing pushes or pulls you, and you may fly onto ledges); Shield 1 this round.` },
     'Wings in a figure eight, and it does not move an inch.');
   K(['hummingbird'],'hmb_beats','Thousand Beats','T',0,
     { n:'Blur', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -3609,12 +3697,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Melee ${3+E}, shake off Anchored and Weakened, and Cleanse, and you can't be Weakened or Anchored by a foe for 2 rounds.` },
     'It eats cobras, and shrugs off the bite.');
   K(['peacock'],'pea_roost','Jungle Roost','S',0,
-    { n:'Flap Up', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
-      txt:(P,E)=>`Flap up onto any node within ${1+P}, height included, and hold Shield 1 this round.` },
-    { n:'High Roost', ap:1, el:1, cd:4, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+E},{v:'heal', n:(P,E)=>1+E},{v:'engine', kind:'regen', val:1, dur:2}],
-      txt:(P,E)=>`Roost on any node within ${1+E}, height included: heal ${1+E} now, and 1 at the start of each turn for 2 rounds.` },
+    { n:'Flap Up', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'shield', val:1, dur:1}],
+      txt:(P,E)=>`Flap up ${1+P}, climbing, and hold Shield 1 this round.` },
+    { n:'High Roost', ap:1, el:1, cd:4, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+E},{v:'heal', n:(P,E)=>1+E},{v:'engine', kind:'regen', val:1, dur:2}],
+      txt:(P,E)=>`Climb ${1+E} to a roost: heal ${1+E} now, and 1 at the start of each turn for 2 rounds.` },
     'High up, out of reach, all night.');
   K(['peacock'],'pea_iris','Iridescence','C',0,
     { n:'Shimmer', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -3708,9 +3796,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Someone always has their head up: see everything within ${1+E} for 2 rounds; all heroes hold Shield ${1+E} this round, and Shield 1 more against the next hit.` },
     'One feeds while another looks.');
   K(['turkey'],'tur_roost','Roost Flight','S',0,
-    { n:'Flush', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'shield', val:1, next:true}],
-      txt:(P,E)=>`Burst up onto any node within ${1+P}, height included; Shield: the next hit on you is 1 less.` },
+    { n:'Flush', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'shield', val:1, next:true}],
+      txt:(P,E)=>`Burst up ${1+P}, climbing; Shield: the next hit on you is 1 less.` },
     { n:'Up for the Night', ap:1, el:1, cd:4, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E, height:true},{v:'heal', n:(P,E)=>1+E},{v:'hidden', dur:1}],
       txt:(P,E)=>`Fly up to any node within ${2+E}, height included; heal ${1+E}, and Hidden 1.` },
@@ -3763,9 +3851,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       txt:(P,E)=>`Reel a foe within 3 two nodes toward you; if it arrives beside you, melee ${2+E}, and it is Anchored 1.` },
     'Out and back in a twentieth of a second.');
   K(['chameleon'],'cha_grip','Grip Feet','S',0,
-    { n:'Grip', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'anchor', who:'self', dur:1}],
-      txt:(P,E)=>`Climb onto any node within ${1+P}, height included, and grip: nothing can push or pull you this round.` },
+    { n:'Grip', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'anchor', who:'self', dur:1}],
+      txt:(P,E)=>`Climb ${1+P}, and grip: nothing can push or pull you this round.` },
     { n:'Branch Hold', ap:1, el:1, cd:3, dur:0, tgt:'self',
       fx:[{v:'cleanse', ward:2},{v:'anchor', who:'self', dur:2},{v:'shield', val:(P,E)=>1+E, dur:2}],
       txt:(P,E)=>`Hold on with all four feet and the tail: Shield ${1+E} for 2 rounds; Cleanse, and nothing can push or pull you, Weaken you or Anchor you for 2 rounds.` },
@@ -3926,9 +4014,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Sink', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'hidden', dur:1},{v:'empower', val:(P,E)=>1+P, uses:1, dur:2}],
       txt:(P,E)=>`Sink until only your eyes show: Hidden 1, and your next hit within 2 rounds deals +${1+P}.` },
-    { n:'Log in the River', ap:1, el:1, cd:4, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:(P,E)=>1+E},{v:'hidden', dur:(P,E)=>1+h(E), canMove:true},{v:'empower', val:(P,E)=>2+E, uses:1, dur:3}],
-      txt:(P,E)=>`Drift ${1+E} like a log: Hidden ${1+h(E)} even if you move, and your next hit within 3 rounds deals +${2+E}.` },
+    { n:'Under the Surface', ap:1, el:1, cd:4, dur:0, tgt:'node_r2', dusk:true,
+      fx:[{v:'strike', kind:'nodeArea', radius:0, remote:(P,E)=>2+E, dmg:(P,E)=>5+2*E, pierce:true}],
+      txt:(P,E)=>`Choose a space within ${2+E}. At dusk: when the foes have acted, the foe standing on it then takes ${5+2*E}, through Shield.` },
     'It looks like a log. It is not a log.');
   K(['crocodile'],'cro_jaws','Ambush Jaws','M',0,
     { n:'Lunge', ap:1, el:0, cd:1, dur:0, tgt:'foe_r2',
@@ -4063,12 +4151,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 
   // Tree frog: Toxic Secretion, External Gills, Adhesive Setae, and these six
   K(['tree_frog'],'tfr_leap','Leaf Leap','S',2,
-    { n:'Leap', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:1}],
-      txt:(P,E)=>`Leap onto any node within ${1+P}, height included; your next hit this turn deals +1.` },
+    { n:'Leap', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Leap ${1+P}, climbing; your next hit this turn deals +1.` },
     { n:'Leaf to Leaf', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>3+E, height:true},{v:'hidden', dur:1}],
-      txt:(P,E)=>`Leap to any node within ${3+E}, height included, and land Hidden 1.` },
+      txt:(P,E)=>`Leap ${3+E}, climbing, and land Hidden 1.` },
     'Twenty times its own length, and it sticks the landing.');
   K(['tree_frog'],'tfr_rain','Rain Call','C',0,
     { n:'Croak for Rain', ap:1, el:0, cd:1, dur:0, tgt:'party',
@@ -4133,8 +4221,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 
   K(['koi','clownfish'],'fis_school','Schooling','S',0,
     { n:'Swim Together', ap:1, el:0, cd:1, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+P},{v:'move', n:1, free:true}],
-      txt:(P,E)=>`Turn as one: an ally moves ${1+P} where you choose, and you take a free step.` },
+      fx:[{v:'guide', n:(P,E)=>1+P},{v:'move', n:1, free:true}],
+      txt:(P,E)=>`Turn as one: Guide an ally ${1+P}, and you take a free step.` },
     { n:'Bait Ball', ap:1, el:1, cd:3, dur:0, tgt:'party',
       fx:[{v:'shield', val:(P,E)=>1+E, dur:1, party:true},{v:'shield', val:1, next:true, party:true}],
       txt:(P,E)=>`Close up tight: all heroes hold Shield ${1+E} this round, and Shield: each one's next hit taken is 1 less.` },
@@ -4142,9 +4230,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 
   // Koi: Buoyancy Control, Lateral Line, Schooling, Long Life, and these five
   K(['koi'],'koi_gate','Dragon Gate','S',2,
-    { n:'Leap the Falls', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:1}],
-      txt:(P,E)=>`Leap up the falls onto any node within ${1+P}, height included; your next hit this turn deals +1.` },
+    { n:'Leap the Falls', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Leap up the falls ${1+P}, climbing; your next hit this turn deals +1.` },
     { n:'Become the Dragon', ap:0, el:1, cd:4, dur:0, tgt:'self',
       fx:[{v:'morph', bonus:(P,E)=>1+h(E), reach:0, dur:(P,E)=>1+E},{v:'heal', n:(P,E)=>1+E}],
       txt:(P,E)=>`For ${1+E} rounds your strikes deal +${1+h(E)}; heal ${1+E}.` },
@@ -4325,8 +4413,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'No scales: rings of bone, all the way down.');
   K(['seahorse'],'sea_fin','Slow Fin','S',0,
     { n:'Flutter', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
-      fx:[{v:'move', n:(P,E)=>1+P},{v:'hazardImmune', dur:1}],
-      txt:(P,E)=>`Flutter ${1+P}; hazards can't touch you this round.` },
+      fx:[{v:'hover', dur:1},{v:'move', n:(P,E)=>1+P}],
+      txt:(P,E)=>`Hover this round and flutter ${1+P}, ledges included.` },
     { n:'Ride the Current', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E},{v:'hidden', dur:1},{v:'hazardImmune', dur:1}],
       txt:(P,E)=>`Let the current carry you to any node within ${2+E}; Hidden 1, and hazards can't touch you this round.` },
@@ -4346,9 +4434,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 
   // Snail: Boneless Squeeze, Chemo-Suckers, Shell, Regeneration, and these five
   K(['snail'],'snl_slime','Slime Trail','T',2,
-    { n:'Glide', ap:1, el:0, cd:1, dur:0, tgt:'node_climb',
-      fx:[{v:'climb', reach:(P,E)=>1+P},{v:'hazardImmune', dur:1},{v:'empower', val:1, uses:1, dur:1}],
-      txt:(P,E)=>`Glide ${1+P} on your own slime, up walls and over anything sharp: height nodes included, hazards can't touch you this round, and your next hit this turn deals +1.` },
+    { n:'Glide', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'hazardImmune', dur:1},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Glide ${1+P} on your own slime, up walls and over anything sharp, climbing: hazards can't touch you this round, and your next hit this turn deals +1.` },
     { n:'Slick', ap:1, el:1, cd:3, dur:0, tgt:'node_r2',
       fx:[{v:'wound', n:2, kind:'slime', area:'nodeArea'},{v:'weaken', val:1, dur:(P,E)=>1+E, area:'adj'}],
       txt:(P,E)=>`Lay a slick on a node within 2: foes on or beside it are Wounded 2, and foes beside you are Weakened 1 for ${1+E} ${1+E > 1 ? 'rounds' : 'round'}.` },
@@ -4492,8 +4580,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'move', n:(P,E)=>1+P},{v:'shield', val:1, dur:1, party:true, allyRange:2}],
       txt:(P,E)=>`Walk ${1+P} in line: you and every ally within 2 hold Shield 1 this round.` },
     { n:'March On', ap:1, el:1, cd:4, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+E},{v:'engine', kind:'regen', val:1, dur:2, party:true}],
-      txt:(P,E)=>`Lead the march: move an ally ${1+E}, and all heroes heal 1 at the start of their next 2 turns.` },
+      fx:[{v:'guide', n:(P,E)=>1+E},{v:'engine', kind:'regen', val:1, dur:2, party:true}],
+      txt:(P,E)=>`Lead the march: Guide an ally ${1+E}, and all heroes heal 1 at the start of their next 2 turns.` },
     'In autumn they walk the sea floor in long lines, each touching the one ahead.');
   K(['lobster'],'lob_feelers','Long Feelers','C',0,
     { n:'Feel Out', ap:1, el:0, cd:1, dur:0, tgt:'self',
@@ -4518,8 +4606,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+P}],
       txt:(P,E)=>`Club it faster than a bullet: melee ${3+P}.` },
     { n:'Cavitation', ap:1, el:1, cd:4, dur:0, tgt:'foe_melee',
-      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+E},{v:'strike', kind:'area', dmg:(P,E)=>1+h(E)}],
-      txt:(P,E)=>`Punch so fast the water boils: melee ${3+E}, then the shock hits every foe beside you for ${1+h(E)}.` },
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+E},{v:'strike', kind:'melee', dmg:(P,E)=>3+E, ifAir:'T'},{v:'strike', kind:'area', dmg:(P,E)=>1+h(E)}],
+      txt:(P,E)=>`Punch so fast the water boils: melee ${3+E}, then the shock hits every foe beside you for ${1+h(E)}. Draws on Time in the air: the punch lands twice.` },
     'Two strikes from one punch: the club, then the bubble.');
   K(['mantis_shrimp'],'msh_spear','Spearer Arms','S',0,
     { n:'Spear', ap:1, el:0, cd:1, dur:0, tgt:'foe_r2',
@@ -4620,17 +4708,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Pop', ap:1, el:0, cd:1, dur:0, tgt:'foe_r2',
       fx:[{v:'strike', kind:'los', dmg:(P,E)=>1+P},{v:'weaken', val:1, dur:1}],
       txt:(P,E)=>`Spray boiling chemicals at a foe within 2: ${1+P}, and it is Weakened 1.` },
-    { n:'Boiling Burst', ap:1, el:1, cd:4, dur:0, tgt:'node_r2',
-      fx:[{v:'wound', n:(P,E)=>2+h(E), kind:'scald', area:'nodeArea'},{v:'weaken', val:1, dur:2, area:'adj'}],
-      txt:(P,E)=>`Burst at a node within 2: every foe on or beside it is scalded: Wounded ${2+h(E)}; foes beside you are Weakened 1 for 2 rounds.` },
+    { n:'Boiling Burst', ap:1, el:1, cd:4, dur:0, tgt:'node_r2', burn:true,
+      fx:[{v:'wound', n:(P,E)=>2+h(E), kind:'scald', area:'nodeArea'},{v:'field', remote:2, radius:1, on:'end', label:'boiling ground', fx:[{kw:'strike', n:(P,E)=>1+E}]}],
+      txt:(P,E)=>`Burn: empty both chambers on a node within 2. Every foe on or beside it is Wounded ${2+h(E)}, and the ground there boils until the mission ends: a Field, and every foe that ends a round in it takes ${1+E}.` },
     'Two chemicals, mixed at the last moment, at boiling point.');
   K(['beetle'],'btl_strong','Strong Back','M',0,
     { n:'Dig In', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'anchor', who:'self', dur:1},{v:'empower', val:(P,E)=>1+h(P), uses:1, dur:1}],
       txt:(P,E)=>`Set your six legs: nothing can push or pull you this round, and your next hit this turn deals +${1+h(P)}.` },
     { n:'Carry', ap:1, el:1, cd:3, dur:0, tgt:'ally_move',
-      fx:[{v:'rally', move:(P,E)=>1+E},{v:'shield', val:(P,E)=>1+E, dur:1, party:true}],
-      txt:(P,E)=>`Shoulder an ally: move them ${1+E}, and all heroes hold Shield ${1+E} this round.` },
+      fx:[{v:'guide', n:(P,E)=>1+E},{v:'shield', val:(P,E)=>1+E, dur:1, party:true}],
+      txt:(P,E)=>`Shoulder an ally: Guide them ${1+E}, and all heroes hold Shield ${1+E} this round.` },
     'Pound for pound, nothing alive is stronger.');
   K(['beetle'],'btl_dead','Play Dead','T',0,
     { n:'Drop', ap:1, el:0, cd:2, dur:0, tgt:'self',
@@ -4746,9 +4834,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Wait', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'hidden', dur:1},{v:'empower', val:(P,E)=>1+h(P), uses:1, dur:2}],
       txt:(P,E)=>`Do nothing at all: Hidden 1, and your next hit within 2 rounds deals +${1+h(P)}.` },
-    { n:'Patience', ap:1, el:1, cd:4, dur:0, tgt:'self',
-      fx:[{v:'hidden', dur:1},{v:'empower', val:(P,E)=>2+E, uses:1, dur:2},{v:'shield', val:1, next:true}],
-      txt:(P,E)=>`Wait as long as it takes: Hidden 1, Shield: the next hit on you is 1 less, and your next hit within 2 rounds deals +${2+E}.` },
+    { n:'Patience', ap:1, el:1, cd:4, dur:0, tgt:'self', dusk:true,
+      fx:[{v:'strike', kind:'area', dmg:(P,E)=>4+E}],
+      txt:(P,E)=>`At dusk: when the foes have acted, every foe then beside you takes ${4+E}. Let them come to you.` },
     'It can wait all day. It usually does.');
   K(['mantis'],'man_sway','Leaf Sway','S',0,
     { n:'Sway', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
@@ -4788,9 +4876,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { n:'Sting', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>1+P},{v:'wound', n:2, kind:'venom'}],
       txt:(P,E)=>`Arch your tail and sting: melee ${1+P}; it is Wounded 2.` },
-    { n:'Full Dose', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
-      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+E},{v:'wound', n:(P,E)=>2+h(E), kind:'venom'},{v:'weaken', val:1, dur:2}],
-      txt:(P,E)=>`Spend the venom: melee ${2+E}; it is Wounded ${2+h(E)} and is Weakened 1 for 2 rounds.` },
+    { n:'Full Dose', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee', burn:true,
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+E},{v:'wound', n:(P,E)=>3+E, kind:'venom', stay:(P,E)=>2+E}],
+      txt:(P,E)=>`Burn: spend all the venom at once. Melee ${2+E}; it is Wounded ${3+E}, and the Wound does not drop for ${2+E} rounds.` },
     'The tail is the last thing it uses, and the worst.');
   K(['scorpion'],'sco_pincers','Pincers','M',0,
     { n:'Grab', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
@@ -4835,6 +4923,41 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
+/* ───── data/instincts.js ───── */
+/* ============================================================================
+   TUMULT — DATA: CLADE INSTINCTS (2.121)
+   ----------------------------------------------------------------------------
+   An instinct is one always-on rule a clade brings to every pilot of it, one
+   line on the pilot sheet (from the borrowed-mechanics shortlist: what makes a
+   fighter play like itself). It is not a card. Each bends one keyword a little,
+   through the same passive hooks gear uses (T.BOON_HOOKS), so the engine acts
+   on the hook and its value, never on the clade. Human is in every pilot and
+   has none. The first set covers the pre-made pilots' clades; the rest follow.
+   No instinct may be what a mission needs: each is small, and each is a twist
+   on something the whole squad can do another way.
+   ========================================================================== */
+(function (T) {
+  T.INSTINCTS = {};
+  const I = (clade, name, hook, val, txt) => (T.INSTINCTS[clade] = { clade, name, hook, val, txt });
+
+  I('octopus', 'Suckers', 'noPull', true, 'Nothing can pull you: your suckers hold.');
+  I('raven', 'Watcher', 'spot', 2, 'As your turn begins, the nearest foe within 2 of you is Marked.');
+  I('otter', 'Pocket Stone', 'missionStart', { bank: 'AP' }, 'You start each mission with 1 AP already banked: the stone you keep.');
+  I('eel', 'Live Wire', 'fieldDur', 1, 'Every Field you lay that has rounds lasts 1 round longer.');
+  I('hedgehog', 'Spines', 'thornsBonus', 1, 'Every Thorns you gain is 1 more.');
+  I('tortoise', 'Shell', 'shieldBonus', 1, 'Every Shield you gain is 1 more.');
+  I('mouse', 'Scurry', 'blinkReach', 1, 'Your Blinks reach 1 further.');
+  I('owl', 'Night Sight', 'keen', 1, 'Your reveals reach 1 further, and Hidden foes beside you are revealed as your turn begins.');
+  I('axolotl', 'Regrowth', 'autoRevive', 3, 'Once a mission, when you would go down, you rise with 3 hp instead.');
+  I('koi', 'Lucky Scales', 'missionStart', { bank: 'O' }, 'You start each mission with 1 Omni already banked.');
+  I('flamingo', 'Caustic Feet', 'hazardSoft', 1, 'Hazards deal 1 less to you.');
+  I('mantis_shrimp', 'Smasher', 'weapon', { reach: 'melee', n: 1 }, 'Your melee strikes deal 1 more.');
+
+  /** The instincts a pilot is born with: one for each of its clades that has one. */
+  T.instinctsOf = (h) => [...new Set(h.species || [])].map((sp) => T.INSTINCTS[sp]).filter(Boolean);
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
 /* ───── data/world.js ───── */
 /* ============================================================================
    TUMULT v2.0 — DATA: WORLD
@@ -4854,7 +4977,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     TRACK: 6,                // track columns
     FACES: ['M','C','S','T','O','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP'], // the plain die, a d20: each element once, 15 AP
     ELEMENT_DICE: 1,         // each card awakened (E 1+) puts one die of its element in the pool in place of a plain die (2.29)
-    FOE_HP: 145,             // foes' vitality, percent of the bestiary's (140 in 2.83: the chosen element die; 145 since 2.85)
+    FOE_HP: 180,             // foes' vitality, percent of the bestiary's (140 in 2.83: the chosen element die; 145 in 2.85; 150 in 2.108: weapons; 160 in 2.119: gear runs on Omni; 166 in 2.120: dice as AP; 180 since 2.122: instincts)
     MOVE_AP: 1,              // AP per walk step
     INTERACT_AP: 2,
     RALLY_AP: 2, RALLY_HP: 8,  // revive a downed adjacent ally
@@ -4890,74 +5013,111 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       desc:'Fields that drag. Lay a line on the ground and whatever crosses it is reeled toward you.',
       passive:{ hook:'fieldForce', val:1, txt:'Your Fields push and pull 1 further.' },
       abilities:[
-        { n:'Reel Line', cost:1, cd:1, tgt:'node_r2', fx:[{v:'field', on:'enter', trips:1, dur:f(3), remote:f(2), fx:[{kw:'pull', n:f(2)}]}], txt:()=>'A Field on a space within 2 for 3 rounds: the first foe to enter is pulled 2 toward you.' },
-        { n:'Winch', cost:2, cd:3, tgt:'node_r3', fx:[{v:'field', radius:f(1), on:'enter', trips:f(2), dur:f(2), remote:f(3), fx:[{kw:'pull', n:f(2)},{kw:'anchor', t:f(1)}]}], txt:()=>'A Field on a space within 3 and its neighbours for 2 rounds: the first 2 foes to enter are pulled 2 toward you and Anchored 1.' },
+        { n:'Reel Line', cd:1, tgt:'node_r2', fx:[{v:'field', on:'enter', trips:1, dur:f(3), remote:f(2), fx:[{kw:'pull', n:f(2)}]}], txt:()=>'A Field on a space within 2 for 3 rounds: the first foe to enter is pulled 2 toward you.' },
+        { n:'Winch', omni:1, cd:3, tgt:'node_r3', fx:[{v:'field', radius:f(1), on:'enter', trips:f(2), dur:f(2), remote:f(3), fx:[{kw:'pull', n:f(2)},{kw:'anchor', t:f(1)}]}], txt:()=>'A Field on a space within 3 and its neighbours for 2 rounds: the first 2 foes to enter are pulled 2 toward you and Anchored 1.' },
       ]},
     { id:'scope', name:'Scope', price:5, icon:'🔭',
       desc:'Reveal for any build. Finds Hidden foes and the hidden objective.',
       passive:{ hook:'keen', val:1, txt:'Your reveals reach 1 further, and Hidden foes beside you are revealed as your turn begins.' },
       abilities:[
-        { n:'Glance', cost:1, cd:1, tgt:'self', fx:[{v:'reveal', radius:f(2), dur:f(1)}], txt:()=>'Reveal everything within 2.' },
-        { n:'Survey', cost:2, cd:3, tgt:'self', fx:[{v:'reveal', radius:f(99), dur:f(2), findObjective:true}], txt:()=>'Reveal the whole board for 2 rounds and pinpoint the hidden objective.' },
+        { n:'Glance', cd:1, tgt:'self', fx:[{v:'reveal', radius:f(2), dur:f(1)}], txt:()=>'Reveal everything within 2.' },
+        { n:'Survey', omni:1, cd:3, tgt:'self', fx:[{v:'reveal', radius:f(99), dur:f(2), findObjective:true}], txt:()=>'Reveal the whole board for 2 rounds and pinpoint the hidden objective.' },
       ]},
     { id:'capacitor', name:'Capacitor', price:6, icon:'🔋',
       desc:'Economy. Convert omnicrystals into dice when the weather is bad.',
       passive:{ hook:'missionStart', val:{bank:'AP'}, txt:'Start each mission with 1 AP already banked.' },
       abilities:[
-        { n:'Store', cost:1, cd:1, tgt:'self', fx:[{v:'draw', face:'O', n:f(1)}], txt:()=>'Draw 1 pool die into your bank as Omni.' },
-        { n:'Discharge', cost:2, cd:3, tgt:'self', fx:[{v:'mint', face:'AP', n:f(2)},{v:'mint', face:'C', n:f(1)}], txt:()=>'Mint 2 AP and 1 Charge this turn.' },
+        { n:'Store', cd:3, tgt:'self', fx:[{v:'draw', face:'O', n:f(1)}], txt:()=>'Draw 1 pool die into your bank as Omni.' },
+        { n:'Discharge', omni:1, cd:3, tgt:'self', fx:[{v:'mint', face:'AP', n:f(2)},{v:'mint', face:'C', n:f(1)}], txt:()=>'Mint 2 AP and 1 Charge this turn.' },
       ]},
     { id:'phasebrace', name:'Phase-brace', price:7, icon:'🌀',
       desc:'Space for any build. Reaches height nodes.',
       passive:{ hook:'blinkReach', val:1, txt:'Your blinks reach 1 further.' },
       abilities:[
-        { n:'Blink', cost:2, cd:2, tgt:'node_tele', fx:[{v:'blink', reach:f(2), height:true}], txt:()=>'Blink to any node within 2 — height included.' },
-        { n:'Fade', cost:1, cd:2, tgt:'self', fx:[{v:'hidden', dur:f(1)}], txt:()=>'Hidden 1.' },
+        { n:'Blink', omni:1, cd:2, tgt:'node_tele', fx:[{v:'blink', reach:f(2), height:true}], txt:()=>'Blink to any node within 2 — height included.' },
+        { n:'Fade', cd:2, tgt:'self', fx:[{v:'hidden', dur:f(1)}], txt:()=>'Hidden 1.' },
       ]},
     { id:'chronoshim', name:'Chrono-shim', price:7, icon:'⏳',
       desc:'Time for any build. Returns cards sooner, buys rounds from the clock.',
       passive:{ hook:'roundStart', val:{round:2, hasten:1}, txt:'As round 2 begins, your track slides 1 extra column: what you played in round 1 comes home sooner.' },
       abilities:[
-        { n:'Shim', cost:1, cd:1, tgt:'self', fx:[{v:'haste', n:f(1)}], txt:()=>'Haste: every card on your track returns 1 column sooner.' },
-        { n:'Rewind', cost:3, cd:4, tgt:'self', fx:[{v:'haste', n:f(3)},{v:'haste', clock:true, n:f(2)}], txt:()=>'Haste: your track slides 3 extra columns, and the mission clock gains 2.' },
+        { n:'Shim', cd:1, tgt:'self', fx:[{v:'haste', n:f(1)}], txt:()=>'Haste: every card on your track returns 1 column sooner.' },
+        { n:'Rewind', omni:2, cd:4, tgt:'self', fx:[{v:'haste', n:f(3)},{v:'haste', clock:true, n:f(2)}], txt:()=>'Haste: your track slides 3 extra columns, and the mission clock gains 2.' },
       ]},
     { id:'aegis', name:'Aegis Plate', price:6, icon:'🛡️',
       desc:'Mitigation for any build. Even against area.',
       passive:{ hook:'shieldBonus', val:1, txt:'Every Shield you gain is +1.' },
       abilities:[
-        { n:'Brace', cost:1, cd:1, tgt:'self', fx:[{v:'shield', val:f(3), dur:f(1), all:true}], txt:()=>'Shield 3 against everything this round.' },
-        { n:'Bulwark', cost:2, cd:3, tgt:'party', fx:[{v:'shield', val:f(3), dur:f(2), all:true, party:true, allyRange:f(1)}], txt:()=>'Shield 3 against everything for 2 rounds, on you and every ally beside you.' },
+        { n:'Brace', cd:1, tgt:'self', fx:[{v:'shield', val:f(3), dur:f(1), all:true}], txt:()=>'Shield 3 against everything this round.' },
+        { n:'Bulwark', omni:1, cd:3, tgt:'party', fx:[{v:'shield', val:f(3), dur:f(2), all:true, party:true, allyRange:f(1)}], txt:()=>'Shield 3 against everything for 2 rounds, on you and every ally beside you.' },
       ]},
     { id:'lantern', name:'Storm Lantern', price:5, icon:'🏮',
       desc:'Reveal + Mark, and a beacon for an ally.',
       passive:{ hook:'spot', val:1, txt:'As your turn begins, a foe within 1 of you (beside you) is Marked.' },
       abilities:[
-        { n:'Flare', cost:1, cd:2, tgt:'self', fx:[{v:'reveal', radius:f(2), dur:f(1)},{v:'mark', area:true, radius:f(2)}], txt:()=>'Reveal within 2 and Mark every foe revealed.' },
-        { n:'Beacon', cost:2, cd:2, tgt:'ally_move', fx:[{v:'rally', move:f(2)}], txt:()=>'Guide an ally up to 2 nodes, to a node you choose, now.' },
+        { n:'Flare', cd:2, tgt:'self', fx:[{v:'reveal', radius:f(2), dur:f(1)},{v:'mark', area:true, radius:f(2)}], txt:()=>'Reveal within 2 and Mark every foe revealed.' },
+        { n:'Beacon', omni:1, cd:2, tgt:'ally_move', fx:[{v:'guide', n:f(2)}], txt:()=>'Guide an ally up to 2 nodes, to a node you choose, now.' },
       ]},
     { id:'harpoon', name:'Turret', price:6, icon:'🎯',
       desc:'Fields that strike. Set a turret down and it holds the ground around it.',
       passive:{ hook:'fieldDur', val:1, txt:'Your Fields last 1 round longer.' },
       abilities:[
-        { n:'Sentry', cost:1, cd:1, tgt:'node_r2', fx:[{v:'field', radius:f(1), on:'end', dur:f(2), remote:f(2), fx:[{kw:'strike', n:f(2)}]}], txt:()=>'A turret on a space within 2 for 2 rounds: every foe that ends the round on it or beside it takes 2.' },
-        { n:'Skewer', cost:2, cd:3, tgt:'node_r2', fx:[{v:'field', on:'enter', trips:1, dur:f(3), remote:f(2), fx:[{kw:'strike', n:f(5), pierce:true}]}], txt:()=>'A spike on a space within 2 for 3 rounds: the first foe to enter takes 5, Pierce.' },
+        { n:'Sentry', cd:1, tgt:'node_r2', fx:[{v:'field', radius:f(1), on:'end', dur:f(2), remote:f(2), fx:[{kw:'strike', n:f(2)}]}], txt:()=>'A turret on a space within 2 for 2 rounds: every foe that ends the round on it or beside it takes 2.' },
+        { n:'Skewer', omni:1, cd:3, tgt:'node_r2', fx:[{v:'field', on:'enter', trips:1, dur:f(3), remote:f(2), fx:[{kw:'strike', n:f(5), pierce:true}]}], txt:()=>'A spike on a space within 2 for 3 rounds: the first foe to enter takes 5, Pierce.' },
       ]},
     { id:'climbrig', name:'Climbing Rig', price:4, icon:'🧗',
       desc:'The cheap answer to height.',
       passive:{ hook:'noPull', val:true, txt:'Mag boots: you cannot be pulled.' },
       abilities:[
-        { n:'Ascend', cost:1, cd:1, tgt:'node_climb', fx:[{v:'climb', reach:f(1)}], txt:()=>'Climb onto an adjacent node, height included.' },
-        { n:'Rappel', cost:1, cd:1, tgt:'node_move', fx:[{v:'move', n:f(2), ignoreFoes:true}], txt:()=>'Move 2, through foes.' },
+        { n:'Ascend', cd:1, tgt:'node_move', fx:[{v:'move', climb:true, n:f(1)}], txt:()=>'Climb 1.' },
+        { n:'Rappel', cd:1, tgt:'node_move', fx:[{v:'move', n:f(2), ignoreFoes:true}], txt:()=>'Move 2, through foes.' },
       ]},
     { id:'medkit', name:'Medkit', price:5, icon:'🩹',
       desc:'Heal and revive, fueled by omnicrystals.',
       passive:{ hook:'autoRevive', val:10, txt:'Once a mission, when you would go down, you rise with 10 hp instead.' },
       abilities:[
-        { n:'Patch', cost:1, cd:1, tgt:'self', fx:[{v:'field', radius:f(1), on:'end', dur:f(2), fx:[{kw:'heal', n:f(3)}]}], txt:()=>'A mending Field on your space and beside it for 2 rounds: allies ending the round there Heal 3 (a downed one gets up).' },
-        { n:'Revive', cost:2, cd:3, tgt:'self', fx:[{v:'heal', n:f(10), target:'downedAdj'}], txt:()=>'Heal 10 a downed ally beside you: it gets up with 10.' },
+        { n:'Patch', cd:1, tgt:'self', fx:[{v:'field', radius:f(1), on:'end', dur:f(2), fx:[{kw:'heal', n:f(3)}]}], txt:()=>'A mending Field on your space and beside it for 2 rounds: allies ending the round there Heal 3 (a downed one gets up).' },
+        { n:'Revive', omni:1, cd:3, tgt:'self', fx:[{v:'heal', n:f(10), target:'downedAdj'}], txt:()=>'Heal 10 a downed ally beside you: it gets up with 10.' },
+      ]},
+    // Weapons (2.108: Garrett, 2026-11-21): tech that makes your own strikes hit harder. A weapon never strikes on
+    // its own; its passive adds to every strike of its reach you make, and its Overcharge takes banked Omni dice
+    // (the omnicrystals a player rolls) for an Empower on every such strike this round.
+    { id:'baton', name:'Shock Baton', price:6, icon:'⚡',
+      desc:'A melee weapon. Every blow you land in melee hits harder; feed it Omni and it hits much harder.',
+      passive:{ hook:'weapon', val:{ reach:'melee', n:1 }, txt:'Your melee strikes deal 1 more.' },
+      abilities:[
+        { n:'Overcharge', omni:1, cd:0, tgt:'self', fx:[{v:'empower', val:f(2), kind:['melee'], uses:99, dur:f(1), stack:true}], txt:()=>'Put a banked Omni on the baton: Empowered 2 for every melee strike you make this round. Stack as many as you have.' },
+        { n:'Arc Guard', cd:2, tgt:'self', fx:[{v:'thorns', val:f(2), dur:f(1)}], txt:()=>'Thorns 2 this round: anything that strikes you in melee takes 2.' },
+      ]},
+    { id:'coilgun', name:'Coil Rifle', price:6, icon:'🔫',
+      desc:'A ranged weapon. Every shot you take at range hits harder; feed it Omni and it hits much harder.',
+      passive:{ hook:'weapon', val:{ reach:'ranged', n:1 }, txt:'Your ranged strikes deal 1 more.' },
+      abilities:[
+        { n:'Overcharge', omni:1, cd:0, tgt:'self', fx:[{v:'empower', val:f(2), kind:['los','any'], uses:99, dur:f(1), stack:true}], txt:()=>'Put a banked Omni on the rifle: Empowered 2 for every ranged strike you make this round. Stack as many as you have.' },
+        { n:'Rangefinder', cd:2, tgt:'foe_los', fx:[{v:'reveal', target:true, dur:f(2)},{v:'mark'}], txt:()=>'A foe in your zone is Revealed for 2 rounds and Marked: the next hit on it deals 2 more.' },
       ]},
   ];
   T.GEAR_BY = {}; T.GEAR.forEach(g => T.GEAR_BY[g.id] = g);
+
+  /* Equipment cards (2.119; Garrett, 2026-11-21: "equipment cards will be either free or cost omnicrystals and
+     they only need a card if they go on cooldown, which still adds to the 9 card max"). Every gear ability with a
+     cooldown sits on the gear's one card: faces P (and P2), each free or paid in banked Omni dice (`omni`), never
+     in ◇. The card counts toward the nine and waits in the reserve like a trait (2.107); playing either face sends
+     the whole card to the track for that face's cooldown. It is bought, not trained: no P or E ever goes on it.
+     An ability with no cooldown (a weapon's Overcharge) needs no card: it is used from the gear itself, for Omni. */
+  T.GEAR_FACES = ['P', 'P2'];
+  T.gearCardId = (gearId) => 'gear~' + gearId;
+  T.onGearCard = (ab) => ab.cd > 0;
+  T.GEAR.forEach(g => {
+    const abs = g.abilities.filter(T.onGearCard);
+    if (!abs.length) return;
+    const card = { id: T.gearCardId(g.id), gear: g.id, sp: null, clades: [], kin: 'Gear', name: g.name, el: 'O',
+      sig: 0, E: null, flavor: g.desc, faces: T.GEAR_FACES.slice(0, abs.length) };
+    abs.forEach((ab, i) => (card[T.GEAR_FACES[i]] = { n: ab.n, ap: 0, el: ab.omni || 0, elt: 'O', cd: ab.cd, dur: 0,
+      tgt: ab.tgt, fx: ab.fx, txt: ab.txt, ability: g.abilities.indexOf(ab) }));
+    g.card = card.id;
+    T.CARD[card.id] = card;
+  });
 
   /* ───────────────────────────── DICE KINDS (2.29) ───────────────────────────── */
   // Garrett's original dice: a plain d20 (T.RULES.FACES: every element once, the rest AP), an ethereal d12 with two
@@ -5015,11 +5175,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { id:'shove_M',    n:'Shove',    icon:'↦', ap:0, el:'M', tgt:'foe_melee', fx:[{v:'force', kind:'push', n:f(1)}],                       txt:'Channel Mass: push an adjacent foe 1 node.' },
     { id:'arc_C',      n:'Arc',      icon:'ϟ', ap:0, el:'C', tgt:'foe_r3',    fx:[{v:'strike', kind:'any', dmg:f(1)}],                     txt:'Channel Charge: 1 damage to a foe up to 3 nodes away.' },
     { id:'reach_C',    n:'Reach',    icon:'⚙', ap:1, el:'C', tgt:'node_r2',   fx:[{v:'interact', range:f(2)}],                             txt:'Channel Charge: Interact with an objective up to 2 nodes away (not up a ledge from below).' },
-    { id:'scramble_S', n:'Scramble', icon:'⤴', ap:0, el:'S', tgt:'node_climb', fx:[{v:'climb', reach:f(1)}],                               txt:'Channel Space: step to a free node 1 away, up or down a ledge included.' },
+    { id:'scramble_S', n:'Scramble', icon:'⤴', ap:0, el:'S', tgt:'node_move', fx:[{v:'move', climb:true, n:f(1)}],                               txt:'Channel Space: climb 1 (a step that may take a ledge).' },
     // Duet moves (2.28): one pilot sets up, the other cashes in, so a turn can be spent on your partner's.
     // General verbs that already exist (mark, rally, mint); each needs a partner to pay off in full.
     { id:'spot',  n:'Spot',   icon:'◎', ap:2, tgt:'foe_r3',   fx:[{v:'mark'}],                                   txt:'Mark a foe up to 3 nodes away: the next hit on it, by anyone, deals +2.' },
-    { id:'legup', n:'Leg up', icon:'⇡', ap:1, tgt:'ally_adj_move', fx:[{v:'rally', move:f(2)}],                  txt:'Boost an adjacent ally up to 2 nodes, to a node you choose, now.' },
+    { id:'legup', n:'Leg up', icon:'⇡', ap:1, tgt:'ally_adj_move', fx:[{v:'guide', n:f(2)}],                  txt:'Boost an adjacent ally: Guide them 2, now.' },
     { id:'lend',  n:'Lend',   icon:'⇄', ap:2, tgt:'ally_adj', fx:[{v:'mint', face:'AP', n:f(2), target:'ally'}], txt:'Give an adjacent ally 2 AP to spend this round. Lent after their turn, it is lost.' },
     { id:'brace_T',    n:'Brace',    icon:'🛡', ap:0, el:'T', tgt:'self',      fx:[{v:'shield', val:f(1), dur:f(1)},{v:'haste', n:f(1)}], txt:'Channel Time: Shield 1 until your next turn, and Haste: your track slides 1 extra column.' },
   ];
@@ -5051,7 +5211,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       abilities:{ sting:{ n:'Sting', kind:'los', dmg:[2,3,3] } },
       flavor:'Keeps its zone and never closes.' },
     brute:    { name:'Brute', glyph:'🦍', role:'bruiser', hp:[10,13,16], speed:1, policy:'brute',
-      abilities:{ slam:{ n:'Slam', kind:'melee', dmg:[5,6,7], push:1 } },
+      abilities:{ slam:{ n:'Slam', kind:'melee', dmg:[5,6,7], push:1, aimed:true } },
       flavor:'Slow. Then not.' },
     kiter:    { name:'Kiter', glyph:'🏹', role:'zoner', hp:[7,9,11], speed:2, policy:'kiter',
       abilities:{ shot:{ n:'Shot', kind:'los', dmg:[3,4,5] } },
@@ -5097,7 +5257,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       options:[
         { label:'Pay the toll (3 ◇)', cost:{crystals:3}, fx:{}, result:'They salute, almost sincerely, and let you through.' },
         { label:'Refuse', fx:{nextElite:true, crystals:4}, result:'You keep your crystals and take theirs (+4 ◇) — but word travels. The next stop will be guarded by an elite.' },
-        { label:'Offer a trade', fx:{tradeCard:true}, result:'One hero swaps a trait for something from the privateers\' hold.' },
+        { label:'Offer a trade', fx:{tradeCard:true}, result:'One hero sets a trait aside, kept in reserve, for something from the privateers\' hold.' },
       ]},
     { id:'storm', title:'Etherion Storm', icon:'⛈️',
       text:'The weather itself turns to etherion. Mass, Charge, Space, Time — a raw front of one of them rolls over the squad. To stand in it is to be changed by it.',
@@ -5144,7 +5304,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     { id:'molt', title:'Molt Season', icon:'🐚',
       text:'The whole reef is shedding. A hero could shed too — one trait for another from the same bloodline.',
       options:[
-        { label:'Molt a trait', fx:{tradeCard:true}, result:'One hero swaps a trait for a new one from their species.' },
+        { label:'Molt a trait', fx:{tradeCard:true}, result:'One hero sheds a trait into reserve and grows a new one from their species in its place.' },
         { label:'Keep your skin', fx:{}, result:'Not this season.' },
       ]},
     { id:'audit', title:'Terminal Audit', icon:'⚖️',
@@ -6190,8 +6350,192 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       ],
     },
   ];
+  /* ───────────── BIG MAPS (2.101) ─────────────
+     Wide country, eight spaces across (A–H) and four deep (1–4), too far to walk comfortably: the pages a
+     Crossing is played on, where each player brings a pocket vehicle (src/data/vehicles.js). A space may add
+     its ground as a fourth field (T.TERRAIN_KEY): 'r' rough, 'w' water, 'g' a gap, 'z' a hazard vent on open
+     ground. Every path joins neighbouring spaces; on foot only the ground spaces are walked, so water and gaps
+     are crossed by vehicle or walked round. Not drawn for small missions: only a Crossing goes here. */
+  T.BIG_ATLAS = [
+    {
+      id: 'delta', name: 'Reed Delta', ground: 'sea', gravity: 0.9, plate: 'scene/SPARE06', from: 'SPARE06', big: true,
+      suggest: ['skiff', 'crawler', 'wing', 'diver', 'skiff'],
+      weather: 'Low gold light over the reeds, and a barge horn somewhere downriver.',
+      skies: ['calm', 'fog', 'wind'],
+      blurb: 'A river breaking into a hundred channels through reed beds taller than a pilot, on its way to the sea.',
+      spaces: {
+        A1: [0.0, 0.0, 'A'], B1: [1.3, 0.0, 'AE', 'w'], C1: [2.6, 0.0, 'BE', 'w'], D1: [3.9, 0.0, 'BE', 'w'], E1: [5.2, 0.0, 'CE', 'w'], F1: [6.5, 0.0, 'CE', 'w'], G1: [7.8, 0.0, 'DE', 'w'], H1: [9.1, 0.0, 'D'],
+        A2: [0.0, 1.2, 'A'], B2: [1.3, 1.2, 'A', 'r'], C2: [2.6, 1.2, 'B', 'w'], D2: [3.9, 1.2, 'B', 'w'], E2: [5.2, 1.2, 'C', 'r'], F2: [6.5, 1.2, 'C', 'r'], G2: [7.8, 1.2, 'D'], H2: [9.1, 1.2, 'D'],
+        A3: [0.0, 2.4, 'A'], B3: [1.3, 2.4, 'A'], C3: [2.6, 2.4, 'B', 'r'], D3: [3.9, 2.4, 'B', 'r'], E3: [5.2, 2.4, 'C'], F3: [6.5, 2.4, 'C'], G3: [7.8, 2.4, 'D', 'w'], H3: [9.1, 2.4, 'D', 'r'],
+        A4: [0.0, 3.6, 'A', 'r'], B4: [1.3, 3.6, 'A'], C4: [2.6, 3.6, 'B'], D4: [3.9, 3.6, 'B', 'r'], E4: [5.2, 3.6, 'C', 'r'], F4: [6.5, 3.6, 'C', 'r'], G4: [7.8, 3.6, 'D'], H4: [9.1, 3.6, 'D'],
+      },
+      edges: 'A1-B1 A1-A2 B1-C1 B1-B2 C1-D1 C1-C2 D1-E1 D1-D2 E1-F1 E1-E2 F1-G1 F1-F2 G1-H1 G1-G2 H1-H2 A2-B2 A2-A3 B2-C2 B2-B3 C2-D2 C2-C3 D2-E2 D2-D3 E2-F2 E2-E3 F2-G2 F2-F3 G2-H2 G2-G3 H2-H3 A3-B3 A3-A4 B3-C3 B3-B4 C3-D3 C3-C4 D3-E3 D3-D4 E3-F3 E3-E4 F3-G3 F3-F4 G3-H3 G3-G4 H3-H4 A4-B4 B4-C4 C4-D4 D4-E4 E4-F4 F4-G4 G4-H4',
+      extras: {},
+      rules: [
+        'The main channel runs the whole top row, B1 to G1: a Skiff or a Diver goes from one bank to the other along it, and anyone on it shares its zone (E), so a gun on the water covers the whole channel.',
+        'On foot the reed beds and the sandbars wind through the middle; two ways cross the delta, by B2–B3–C3–D3 and by A4–B4–C4–D4. Water is never walked.',
+        'Reeds (rough ground) stop a Skiff and a Runner, but not a Crawler or a pilot on foot.',
+      ],
+      notes: [
+        { h: 'What it is', t: 'Where a slow river reaches the sea it breaks into channels, and the channels braid through reed beds and sandbars that move a little every season. Barges work the deep water; everything else goes by the paths on the bars.' },
+        { h: 'Ecology', t: 'The reeds grow taller than a pilot and close over a channel in a year if nobody cuts it. Fish shoal in the warm shallows under them, and wading birds stand in the mud all day waiting for them.' },
+        { h: 'Life here', t: 'Delta people cut reed for thatch and mats, and know which channel is deep this year. A stranger keeps to the barge lanes, or hires a guide who reads the water.' },
+        { h: 'Who comes from such places', t: 'Tamsin Dusklight: hare and tiger, crouched in the reeds above a channel at sundown with a barge going by below.' },
+      ],
+    },
+    {
+      id: 'saltflat', name: 'Ashfall Salt Flat', ground: 'land', gravity: 2, plate: 'scene/TOMAHAWK', from: 'TOMAHAWK', big: true,
+      suggest: ['runner', 'crawler', 'wing', 'runner', 'crawler'],
+      weather: 'A low red sun, and a mountain smoking at the end of the flat.',
+      skies: ['calm', 'wind'],
+      blurb: 'A dry lake of white salt as flat as a table, split by black fissures where the ground is still warm.',
+      spaces: {
+        A1: [0.0, 0.0, 'A'], B1: [1.3, 0.0, 'A'], C1: [2.6, 0.0, 'B', 'r'], D1: [3.9, 0.0, 'B'], E1: [5.2, 0.0, 'C'], F1: [6.5, 0.0, 'C'], G1: [7.8, 0.0, 'D'], H1: [9.1, 0.0, 'D'],
+        A2: [0.0, 1.2, 'AE'], B2: [1.3, 1.2, 'AE'], C2: [2.6, 1.2, 'BE', 'z'], D2: [3.9, 1.2, 'BE', 'g'], E2: [5.2, 1.2, 'CE'], F2: [6.5, 1.2, 'CE', 'g'], G2: [7.8, 1.2, 'DE'], H2: [9.1, 1.2, 'DE'],
+        A3: [0.0, 2.4, 'A'], B3: [1.3, 2.4, 'A', 'r'], C3: [2.6, 2.4, 'B'], D3: [3.9, 2.4, 'B'], E3: [5.2, 2.4, 'C'], F3: [6.5, 2.4, 'C', 'g'], G3: [7.8, 2.4, 'D', 'z'], H3: [9.1, 2.4, 'D'],
+        A4: [0.0, 3.6, 'A'], B4: [1.3, 3.6, 'A'], C4: [2.6, 3.6, 'B', 'r'], D4: [3.9, 3.6, 'B', 'g'], E4: [5.2, 3.6, 'C', 'r'], F4: [6.5, 3.6, 'C'], G4: [7.8, 3.6, 'D', 'r'], H4: [9.1, 3.6, 'D'],
+      },
+      edges: 'A1-B1 A1-A2 B1-C1 B1-B2 C1-D1 C1-C2 D1-E1 D1-D2 E1-F1 E1-E2 F1-G1 F1-F2 G1-H1 G1-G2 H1-H2 A2-B2 A2-A3 B2-C2 B2-B3 C2-D2 C2-C3 D2-E2 D2-D3 E2-F2 E2-E3 F2-G2 F2-F3 G2-H2 G2-G3 H2-H3 A3-B3 A3-A4 B3-C3 B3-B4 C3-D3 C3-C4 D3-E3 D3-D4 E3-F3 E3-E4 F3-G3 F3-F4 G3-H3 G3-G4 H3-H4 A4-B4 B4-C4 C4-D4 D4-E4 E4-F4 F4-G4 G4-H4',
+      extras: {},
+      rules: [
+        'Two fissures cut the flat (gaps: D2 and D4, then F2 and F3). On foot or on wheels you cross the first at D1 or D3 and the second at F1 or F4; only a Wing flies straight over.',
+        'C2 and G3 are vents (hazards): whoever ends the round on one is burned. A sealed Crawler does not mind them.',
+        'The salt road, row 2, is one long zone (E): from anywhere on it you are in range of anyone else on it.',
+      ],
+      notes: [
+        { h: 'What it is', t: 'A dry lake bed of white salt, flat to the horizon, split by black fissures where the crust has cracked over warm rock. At the far end a mountain smokes.' },
+        { h: 'Ecology', t: 'Nothing grows on the salt. Brine flies live in the wet cracks, and the birds that eat them nest on the fissure walls, out of the sun.' },
+        { h: 'Life here', t: 'Salt is cut in slabs and stacked in rows to dry; the cutters work at dawn and dusk, when the crust is cool enough to kneel on. A flat like this is crossed fast, by anything with wheels or wings.' },
+        { h: 'Who comes from such places', t: 'Tomahawk: basilisk and hawk, sprinting across the wet salt at sundown, wings half open, with the mountain smoking behind.' },
+      ],
+    },
+  ];
   T.PAGE_BY = {};
   T.ATLAS.forEach((p) => (T.PAGE_BY[p.id] = p));
+  T.BIG_ATLAS.forEach((p) => (T.PAGE_BY[p.id] = p));
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
+/* ───── data/vehicles.js ───── */
+/* ============================================================================
+   TUMULT — VEHICLES (data)
+   Pocket vehicles (Garrett, 2026-11-21): on the big maps of the atlas, right
+   before a mission that needs them, each player picks a vehicle for their pilot.
+   Getting in or out costs 1 AP. Inside, a pilot moves as the vehicle does (its
+   speed, over the ground it can cross) and plays only the vehicle's own cards
+   and their trait faces marked Mounted. Vehicles differ in seats, the ground
+   they cross, speed and hull, and some carry long-range weapons.
+
+   Everything here is resolvable at the table:
+     Board   1 AP: get into a vehicle beside you with a free seat.
+     Leave   1 AP: get out onto a free space beside it that you could walk on.
+     Drive   1 AP (the driver): move the vehicle up to its speed, over its ground, with everyone inside.
+     Hull    a blow that lands on anyone inside lands on the hull instead. At 0 the vehicle is wrecked and
+             its riders are set down on the nearest free ground.
+   The rules text lives in docs/reference/VEHICLES.md; the engine is src/engine/vehicles.js.
+   ========================================================================== */
+(function (T) {
+  const f = (n) => () => n;
+
+  /**
+   * Ground on the big maps (a space's `terrain`). Open ground and rough ground can be walked; water and gaps
+   * (a chasm, a fissure, open air) cannot, so a pilot on foot goes round. Every space of a page can still be
+   * reached on foot or the page is refused (test/vehicles.test.js): no mission needs a vehicle.
+   */
+  T.TERRAIN = {
+    open: { name: 'Open ground', foot: true, color: null },
+    rough: { name: 'Rough ground', foot: true, color: '#7d6b4f', txt: 'Reeds, scree or lava rubble: walkable, but only a Crawler or a Wing gets a vehicle over it.' },
+    water: { name: 'Water', foot: false, color: '#3f7f9e', txt: 'Too deep to wade: a Skiff or a Diver crosses it, a Wing flies over it.' },
+    gap: { name: 'Gap', foot: false, color: '#2a2333', txt: 'A fissure or a drop: only a Wing crosses it.' },
+  };
+  T.TERRAIN_KEY = { '': 'open', r: 'rough', w: 'water', g: 'gap' };
+
+  /**
+   * The vehicles. `ground`: the terrains it can drive over (and `height`: it can reach high ground).
+   * `speed`: spaces a Drive moves it, for 1 AP. `seats`: riders, the driver included. `hull`: what it takes
+   * before it is wrecked. `ride`: a state its riders have while inside (an existing keyword: Hover, HazardImmune).
+   * Cards are played like a basic action, once a round each for the vehicle (whoever plays it), and only from
+   * inside: `seat: 'driver'` only by the one driving, `'any'` by any rider (a gunner's seat).
+   * `weapon`: a long-range or mounted weapon, the vehicle's (docs/reference/VEHICLES.md, Weapons).
+   */
+  T.VEHICLES = [
+    {
+      id: 'skiff', name: 'Skiff', icon: '⛵', seats: 2, speed: 3, hull: 6, ground: ['open', 'water'],
+      blurb: 'A flat-bottomed sail-skimmer that runs up on a beach as easily as it crosses a channel.',
+      cards: [
+        { id: 'swivel', n: 'Swivel Gun', icon: '➶', ap: 2, seat: 'any', weapon: 'ranged', tgt: 'foe_los',
+          fx: [{ v: 'strike', kind: 'los', dmg: f(2) }], txt: '2 damage to a foe in your zone.' },
+        { id: 'wake', n: 'Wake', icon: '≋', ap: 1, seat: 'driver', tgt: 'foe_adj_all',
+          fx: [{ v: 'force', kind: 'push', n: f(1), area: true }], txt: 'Push every foe beside the Skiff 1 space.' },
+      ],
+    },
+    {
+      id: 'wing', name: 'Wing', icon: '🪁', seats: 1, speed: 3, hull: 4, ground: ['open', 'rough', 'water', 'gap'], height: true,
+      ride: 'Hover',
+      blurb: 'A one-seat kite-wing: it goes anywhere, over anything, and takes very little hitting.',
+      cards: [
+        { id: 'stoop', n: 'Stoop', icon: '⤓', ap: 2, seat: 'driver', tgt: 'foe_melee',
+          fx: [{ v: 'strike', kind: 'melee', dmg: f(3) }], txt: '3 damage to a foe beside you.' },
+        { id: 'spotter', n: 'Spotter', icon: '◎', ap: 1, seat: 'any', tgt: 'foe_any',
+          fx: [{ v: 'mark' }], txt: 'Mark any foe you can see: the next hit on it, by anyone, deals +2.' },
+      ],
+    },
+    {
+      id: 'crawler', name: 'Crawler', icon: '🛞', seats: 3, speed: 2, hull: 10, ground: ['open', 'rough'],
+      ride: 'HazardImmune',
+      blurb: 'A sealed, slow, many-legged hauler with a long gun on its roof. Hazards do not get inside.',
+      cards: [
+        { id: 'longgun', n: 'Long Gun', icon: '⌖', ap: 3, seat: 'any', weapon: 'ranged', tgt: 'foe_any',
+          fx: [{ v: 'strike', kind: 'any', dmg: f(3) }], txt: '3 damage to any foe on the board you can see.' },
+        { id: 'plough', n: 'Plough', icon: '⇥', ap: 2, seat: 'driver', tgt: 'foe_melee',
+          fx: [{ v: 'force', kind: 'push', n: f(2) }], txt: 'Push a foe beside the Crawler 2 spaces.' },
+      ],
+    },
+    {
+      id: 'diver', name: 'Diver', icon: '🐟', seats: 2, speed: 4, hull: 6, ground: ['water'],
+      blurb: 'A two-seat underwater sled. Fast and armed, but it never leaves the water.',
+      cards: [
+        { id: 'torpedo', n: 'Torpedo', icon: '➵', ap: 2, seat: 'any', weapon: 'ranged', tgt: 'foe_los',
+          fx: [{ v: 'strike', kind: 'los', dmg: f(3) }], txt: '3 damage to a foe in your zone.' },
+        { id: 'submerge', n: 'Submerge', icon: '▾', ap: 1, seat: 'driver', tgt: 'self',
+          fx: [{ v: 'hidden', dur: f(1) }], txt: 'Hidden until your next turn.' },
+      ],
+    },
+    {
+      id: 'runner', name: 'Runner', icon: '🏍', seats: 1, speed: 4, hull: 4, ground: ['open'],
+      blurb: 'A one-seat ground racer: the fastest thing on open ground, useless off it.',
+      cards: [
+        { id: 'ram', n: 'Ram', icon: '⇒', ap: 2, seat: 'driver', tgt: 'foe_melee',
+          fx: [{ v: 'strike', kind: 'melee', dmg: f(2) }, { v: 'force', kind: 'push', n: f(1) }], txt: '2 damage to a foe beside you, and push it 1 space.' },
+        { id: 'swerve', n: 'Swerve', icon: '↯', ap: 1, seat: 'driver', tgt: 'self',
+          fx: [{ v: 'shield', val: f(2), dur: f(1) }], txt: 'Shield 2 until your next turn.' },
+      ],
+    },
+  ];
+  T.VEHICLE_BY = {};
+  T.VEHICLES.forEach((v) => {
+    T.VEHICLE_BY[v.id] = v;
+    v.cards.forEach((c) => (c.vehicle = v.id));
+  });
+
+  /**
+   * Mounted (keyword, 2.101): a trait face a pilot can play from inside a vehicle. Garrett, 2026-11-21:
+   * "vehicle cards plus Mounted faces". A face is Mounted when it neither moves its player nor needs to touch:
+   * it works on yourself, your squad, or a foe at range. Printed on the card, so it is resolvable at the table:
+   *   not Mounted: a face that moves you (move, climb, blink, a boost), hides you, swaps, changes your form,
+   *   lays a decoy or rests, or one that strikes, shoves or pulls in melee, or works on a space or an ally beside you.
+   * T.MOUNTED_EXCEPT can turn the rule over for a face by id ('card:P').
+   */
+  const NOT_MOUNTED_VERBS = new Set(['move', 'climb', 'blink', 'rally', 'guide', 'hidden', 'rest', 'swap', 'morph', 'stasis', 'decoy', 'force', 'throw']);
+  const NOT_MOUNTED_TGT = new Set(['foe_melee', 'foe_adj_all', 'node_move', 'node_climb', 'node_tele', 'ally_adj_move', 'ally_move', 'node_adj', 'ally_adj', 'foe_or_ally_adj', 'ally_throw']);
+  T.MOUNTED_EXCEPT = {};
+  T.isMounted = function (card, faceKey) {
+    const face = card[faceKey];
+    const ex = T.MOUNTED_EXCEPT[card.id + ':' + faceKey];
+    if (ex != null) return ex;
+    if (NOT_MOUNTED_TGT.has(face.tgt)) return false;
+    return !face.fx.some((x) => NOT_MOUNTED_VERBS.has(x.v) || (x.v === 'strike' && !['los', 'any', 'zone_all'].includes(x.kind)));
+  };
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
@@ -6574,10 +6918,16 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       byLabel[label] = id;
       return id++;
     };
-    for (const [label, [x, y, zones]] of Object.entries(page.spaces)) {
+    let cols = 0,
+      rows = 0;
+    for (const [label, [x, y, zones, ground]] of Object.entries(page.spaces)) {
       const c = label.charCodeAt(0) - 65,
         r = +label.slice(1) - 1;
-      at[c + ',' + r] = add(label, x, y, zones);
+      cols = Math.max(cols, c + 1);
+      rows = Math.max(rows, r + 1);
+      // a big map's ground (src/data/vehicles.js): only a space that is not open ground says so
+      const extra = !ground ? null : ground === 'z' ? { hazard: true } : { terrain: T.TERRAIN_KEY[ground] };
+      at[c + ',' + r] = add(label, x, y, zones, extra);
     }
     for (const [label, ex] of Object.entries(page.extras || {}))
       add(label, ex.at[0], ex.at[1], ex.zones, { height: !!ex.h, hazard: !!ex.hz });
@@ -6590,7 +6940,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       for (const a of pairs(ex.climb)) climb.push([byLabel[a], byLabel[label]]);
       for (const a of pairs(ex.edges)) edges.push([byLabel[a], byLabel[label]]);
     }
-    return { nodes, edges, climb, at, cols: 5, rows: 3, nextId: id, page: page.id };
+    return { nodes, edges, climb, at, cols, rows, nextId: id, page: page.id };
   }
   /**
    * The board a mission is played on: its atlas page's, or, with no page, a grid. `cols` and `rows` are the
@@ -7005,6 +7355,70 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         };
       },
     },
+    crossing: {
+      // played on a big map (T.BIG_ATLAS), where each player brings a pocket vehicle (src/engine/vehicles.js)
+      big: true,
+      title: ['The Long Crossing', 'Signal Fires', 'Across the Wide Country'],
+      blurb:
+        'Signal posts stand far apart across country too wide to walk, and the light is going. Each player has brought a vehicle: drive it (1 AP a Drive), get out (1 AP) to light a post on foot, standing on it (Interact: 2 AP or a die of its element), and get back in. Foes patrol the far side.',
+      gen(rng, tier, tide, page) {
+        const up = tideAt(tide, tier);
+        const b = boardFor(rng, page, 8, 4);
+        const ground = (id) => {
+          const n = b.nodes[id];
+          return !n.height && !n.hazard && (!n.terrain || T.TERRAIN[n.terrain].foot);
+        };
+        const near = [b.at['0,1'], b.at['0,2'], b.at['0,0'], b.at['0,3']].filter(ground);
+        const starts = near.slice(0, 2);
+        // posts on ground a pilot can stand on, at least one in each third of the way across, the last at the far edge
+        let need = [3, 4, 5][tier - 1] + up.need;
+        const spaces = (c0, c1) =>
+          shuffle(
+            rng,
+            Object.keys(b.at)
+              .filter((k) => +k.split(',')[0] >= c0 && +k.split(',')[0] <= c1)
+              .map((k) => b.at[k])
+              .filter(ground),
+          );
+        const posts = [spaces(2, 3)[0], spaces(4, 5)[0], spaces(6, 7)[0]];
+        const rest = spaces(2, 7).filter((i) => !posts.includes(i));
+        while (posts.length < need + 1 && rest.length) posts.push(rest.shift());
+        need = Math.min(need, posts.length - 1); // one post to spare: which to leave dark is a choice
+        posts.forEach(
+          (i) => (b.nodes[i].objective = { kind: 'mark', el: pick(rng, ['M', 'C', 'S', 'T']), veiled: false }),
+        );
+        // patrols on the far half, on the ground, never on a post
+        const crew = ['kiter', 'biter', 'stinger']
+          .concat(tier >= 2 ? ['brute', 'binder'] : ['biter'])
+          .concat(tier >= 3 ? ['kiter', 'lurker'] : [])
+          .concat(up.escorts ? ['biter'] : []);
+        const enemies = [];
+        const open = spaces(3, 7).filter((i) => !b.nodes[i].objective);
+        for (const type of crew) if (open.length) enemies.push({ type, node: open.shift() });
+        return {
+          board: b,
+          starts,
+          enemies,
+          objective: {
+            kind: 'survey',
+            need,
+            total: posts.length,
+            done: 0,
+            text: `Light ${need} of the ${posts.length} signal posts (get out, stand on one and Interact: 2 AP or a die of its element)`,
+          },
+          clock: {
+            value: Math.max(4, [8, 8, 7][tier - 1] - up.clock - Math.floor(((tide && tide.squadNeed) || 0) / 2)),
+            label: 'Rounds before dark',
+            onZero: 'lose',
+          },
+          spawns: [],
+          bonus: [
+            { id: 'fast', text: 'Finish with 2+ rounds to spare', clockLeft: 2 },
+            { id: 'intact', text: 'No vehicle wrecked' },
+          ],
+        };
+      },
+    },
   });
 
   /* ───────────────────────────── TIDE MAP ───────────────────────────── */
@@ -7016,7 +7430,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   T.LENGTHS = { short: { stops: 5 }, full: { stops: 7 } };
   const SHORT_ROWS = [
     { tier: 1, types: (rng) => shuffle(rng, ['swarm', 'vault', 'cascade']) },
-    { tier: 2, types: (rng) => shuffle(rng, ['hidden', 'event', 'salvage']) },
+    { tier: 2, types: (rng) => shuffle(rng, ['hidden', 'crossing', 'salvage']) },
     { tier: 2, types: () => ['haven', 'elite', 'vault'] },
     { tier: 2, types: (rng) => shuffle(rng, ['survey', 'haven', 'swarm']) },
     { tier: 3, types: () => ['boss'] },
@@ -7031,7 +7445,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       if (r === 0) return shuffle(rng, ['swarm', 'vault', 'cascade']);
       if (r === 1) return shuffle(rng, ['hidden', 'event', 'salvage']);
       if (r === 2) return shuffle(rng, ['elite', 'haven', 'vault']);
-      if (r === 3) return shuffle(rng, ['survey', 'event', 'hidden']);
+      if (r === 3) return shuffle(rng, ['survey', 'crossing', 'hidden']);
       if (r === 4) return ['haven', 'elite', 'swarm'];
       if (r === 5) return shuffle(rng, ['vault', 'salvage', 'event']);
       return ['boss'];
@@ -7091,7 +7505,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 /* ============================================================================
    TUMULT v2.0 — ENGINE (pure; no DOM)
    The canonical rules, implemented once:
-     • 15-die economy (pool + banked = 15, roll 3, mint, draw, anti-brick valve)
+     • 15-die economy (pool + banked = 15, roll 4, mint, draw, anti-brick valve, dice as AP)
      • 6-column track (duration → cooldown → hand), hasten, freecast
      • P/E grammar: every magnitude is a function (P,E)
      • Verbs: strike/move/force/reveal/hidden/shield/anchor/mark/engine/... (51)
@@ -7181,9 +7595,13 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         board.walkAdj[k] = [];
         board.allAdj[k] = [];
       });
+      // a big map's water and gaps are never walked (src/data/vehicles.js): their paths are for vehicles only
+      const foot = (k) => !board.nodes[k].terrain || T.TERRAIN[board.nodes[k].terrain].foot;
       board.edges.forEach(([a, b]) => {
-        board.walkAdj[a].push(b);
-        board.walkAdj[b].push(a);
+        if (foot(a) && foot(b)) {
+          board.walkAdj[a].push(b);
+          board.walkAdj[b].push(a);
+        }
         board.allAdj[a].push(b);
         board.allAdj[b].push(a);
       });
@@ -7293,6 +7711,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       title: spec.title || '',
       species: spec.species.slice(),
       cards: spec.cards.slice(),
+      reserve: (spec.reserve || []).slice(), // traits it holds but leaves behind this mission (T.loadCard)
       up: {},
       hp: R().VITALITY,
       maxHp: R().VITALITY,
@@ -7310,8 +7729,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       stats: { dmgDealt: 0, dmgTaken: 0, kills: 0 },
       boons: [],
       faces: null,
+      // pets (src/data/pets.js): each one's clades, the three traits its card is made of, and that card's id
+      pets: (spec.pets || []).map((p) => ({
+        id: p.id,
+        name: p.name,
+        species: p.species.slice(),
+        traits: p.traits.slice(),
+        card: p.card,
+      })),
     };
-    spec.cards.forEach((c) => (h.up[c] = [0, 0]));
+    T.registerPets([h]);
+    spec.cards.concat(h.reserve).forEach((c) => (h.up[c] = [0, 0]));
     if (spec.up)
       Object.keys(spec.up).forEach((c) => {
         if (h.up[c]) h.up[c] = spec.up[c].slice();
@@ -7370,17 +7798,40 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'spot', // val: as the holder's turn begins, the nearest foe within that many steps is Marked
     'fieldDur', // val: added to the rounds of every Field the holder lays that has rounds
     'fieldForce', // val: added to every push and pull of the holder's Fields
+    'weapon', // val: { reach: 'melee' | 'ranged', n } — added to every strike of that reach the holder makes (2.108)
+    'thornsBonus', // val: added to every Thorns the holder gains (2.121)
+    'hazardSoft', // val: taken off every hazard's damage to the holder (2.121)
   ];
   T.boonVals = function (h, hook) {
     if (!T.BOON_HOOKS.includes(hook)) throw new Error('unknown passive hook ' + hook);
     const gear = (h.gear || []).map((g) => T.GEAR_BY[g.id] && T.GEAR_BY[g.id].passive);
     const boons = (h.boons || []).map((id) => T.BOON_BY[id]);
+    // a clade's instinct (2.121) is a passive the pilot is born with: one per clade, src/data/instincts.js
+    const inst = h.kind === 'hero' ? T.instinctsOf(h) : [];
     return gear
-      .concat(boons)
+      .concat(boons, inst)
       .filter((b) => b && b.hook === hook)
       .map((b) => b.val);
   };
   const boonSum = (h, hook) => T.boonVals(h, hook).reduce((sum, v) => sum + v, 0);
+  T.boonSum = boonSum;
+  /** The damage a hazard does to this unit: the rule's, less what softens it for a pilot (2.121). */
+  const hazardDmg = (u) => Math.max(0, R().HAZARD_DMG - (u.kind === 'hero' ? boonSum(u, 'hazardSoft') : 0));
+  /** A weapon's reach for a strike of this kind: melee is melee; a strike along a line or anywhere is ranged;
+   *  an area strike has none, so no weapon adds to it (2.108). */
+  T.weaponReach = (kind) => (kind === 'melee' ? 'melee' : kind === 'los' || kind === 'any' ? 'ranged' : null);
+  /**
+   * How much more a pilot's strike of this kind deals for its weapons (2.108): each weapon of that reach adds its
+   * number. The one place a weapon's bonus is read, so any other source of weapons (a vehicle's, say) joins here.
+   * A weapon's Overcharge is an Empower on the same strike kinds (src/data/world.js).
+   */
+  T.weaponBonus = function (h, kind) {
+    const reach = T.weaponReach(kind);
+    if (!reach || !h || h.kind !== 'hero') return 0;
+    return T.boonVals(h, 'weapon')
+      .filter((v) => v.reach === reach)
+      .reduce((sum, v) => sum + v.n, 0);
+  };
 
   /** Put a new foe on the board. The only way one comes to be: it takes its uid from the mission. */
   /** A foe's vitality: its bestiary value scaled by T.RULES.FOE_HP (percent), rounded. */
@@ -7450,6 +7901,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       heroes: run.heroes,
       enemies: [],
       decoys: [],
+      pets: [],
+      dusk: [],
+      air: { M: 0, C: 0, S: 0, T: 0, O: 0 },
       fields: [],
       objective: spec.objective,
       clock: spec.clock ? Object.assign({}, spec.clock) : null,
@@ -7490,6 +7944,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       h.pool = R().POOL;
       h.rested = false;
       h.carrying = 0;
+      delete h.ride;
       h.gear.forEach((g) => (g.cds = [0, 0]));
       h.roundFlags = { struck: false };
       for (const v of T.boonVals(h, 'missionStart'))
@@ -7498,6 +7953,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           bank(h, v.bank, 'plain');
         }
     });
+    // each pilot's pets set out on its own node with it (src/data/pets.js)
+    T.registerPets(m.heroes);
+    // a pet sets out only when its card flies this mission; with its card in reserve it stays in the pocket
+    m.heroes.forEach((h) => (h.pets || []).forEach((pr) => h.cards.includes(pr.card) && T.addPet(m, h, pr)));
     if (run.bossBonusHp && m.isBoss)
       m.enemies
         .filter((e) => e.boss)
@@ -7505,6 +7964,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           e.hp += run.bossBonusHp;
           e.maxHp += run.bossBonusHp;
         });
+    if (spec.vehicles) T.setupVehicles(m, spec.vehicles);
     m.log.push({ r: 0, who: 'dm', text: spec.blurb });
     m.board.fog = m.place.weather === 'fog' ? T.FOG_RANGE : 0;
     for (const t of T.placeRules(m)) m.log.push({ r: 0, who: 'sys', text: t });
@@ -7516,6 +7976,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   const say = (m, text, who) => m.log.push({ r: m.round, who: who || 'dm', text });
   const fx = (m, o) => m.fx.push(o);
   T.say = say;
+  T.fx = fx;
   /**
    * A player's line of story for a turn (the box beside End turn): kept in the mission's log as
    * { r, who: 'note', hero, text }, one per hero a round (a new one replaces it; an empty one takes it
@@ -7545,7 +8006,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
    * element, or Omni Core's ethereal d12), and the rest plain d20s, the AP dice. The choice stays from roll to
    * roll until changed. With nothing chosen, or none of that kind left in the pool, the element die is the kind
    * the pool holds most of (the first such in the pilot's set); with no element die in the pool it is plain, and
-   * with too few plain dice the rest are drawn at random. Choosing a die never chooses its face.
+   * with too few plain dice the rest are the element dice the pool holds most of. No die is ever drawn at random
+   * (2.101): a hand in the bag feels a d20 from a d8. Choosing a die never chooses its face.
    */
   T.setRollPick = function (h, kinds) {
     const set = T.diceSet(h);
@@ -7588,11 +8050,25 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const take = T.rollPickNow(h).slice(0, k);
     while (take.length < k && left.filter((x) => x === 'plain').length > take.filter((x) => x === 'plain').length)
       take.push('plain');
+    // too few plain dice: the rest are element dice taken by hand, never at random (2.101): the kind the pool
+    // still holds most of, the first such in the pilot's set
+    while (take.length < k) {
+      const rest = left.slice();
+      take.forEach((x) => rest.splice(rest.indexOf(x), 1));
+      let best = null;
+      let most = 0;
+      for (const x of T.diceSet(h)) {
+        const c = rest.filter((y) => y === x).length;
+        if (c > most) ((most = c), (best = x));
+      }
+      if (!best) break;
+      take.push(best);
+    }
     const out = [];
     const kinds = [];
     const at = [];
     for (let i = 0; i < k; i++) {
-      const j = i < take.length ? left.indexOf(take[i]) : dice.int(left.length);
+      const j = left.indexOf(take[i]);
       const kind = left.splice(j, 1)[0];
       const f = dice.pick(T.dieFaces(h, kind));
       out.push(f);
@@ -7622,7 +8098,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   T.canPay = function (h, ap, elt, eln) {
     if (T.apValue(h) < (ap || 0)) return false;
     if (eln && elt) {
-      if (T.elCount(h, elt) + T.omniCount(h) < eln) return false;
+      // an Omni cost (a gear card's face, 2.119) is paid in Omni alone, counted once
+      if ((elt === 'O' ? 0 : T.elCount(h, elt)) + T.omniCount(h) < eln) return false;
     }
     return true;
   };
@@ -7662,11 +8139,31 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   T.mint = (h, face, n) => {
     for (let i = 0; i < n; i++) h.temp.push(face);
   };
+  /**
+   * The die a pilot takes from the pool to Draw a face (2.101; Garrett, 2026-11-21: "grabbing a specific die is
+   * great, but not a random one"): a die is picked by hand, never at random. The plain d20 first (it has every
+   * face), then the element die that shows that face most, then any die that shows it; null if none can.
+   */
+  T.drawKind = function (h, face) {
+    const left = T.poolDice(h);
+    let best = null;
+    let most = 0;
+    for (const k of ['plain'].concat(left.filter((x, i) => x !== 'plain' && left.indexOf(x) === i))) {
+      if (!left.includes(k)) continue;
+      const c = T.dieFaces(h, k).filter((x) => x === face).length;
+      if (k === 'plain' && c > 0) return k;
+      if (c > most) ((most = c), (best = k));
+    }
+    return best;
+  };
+  /** Draw N: take N dice of your choice from the pool and bank them showing that face (T.drawKind). */
   T.draw = (h, face, n) => {
     let got = 0;
     for (let i = 0; i < n && h.pool > 0; i++) {
+      const kind = T.drawKind(h, face);
+      if (!kind) break;
       h.pool--;
-      bank(h, face, 'plain');
+      bank(h, face, kind);
       got++;
     }
     return got;
@@ -7680,9 +8177,75 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       h.pool++;
     });
     h.pool--;
-    bank(h, 'O', 'plain');
+    bank(h, 'O', T.drawKind(h, 'O') || 'plain');
     say(m, `${h.name} folds one of each etherion into an Omni.`, 'sys');
     return true;
+  };
+  /**
+   * Dice as AP (2.120; Garrett, 2026-11-21: "make any two or any omni work as an AP"): one banked Omni, or any
+   * two banked etherions (the same or different), become 1 AP. At the table: put the dice back in the pool and
+   * mint 1 AP (it evaporates with the hero phase, like any minted die). No AP to do it, as often as the bank
+   * allows, so a rolled element is never dead weight: unused, it still walks, strikes or works an objective.
+   */
+  T.AS_AP = ['M', 'C', 'S', 'T'];
+  T.canSpendAsAP = function (h, idx) {
+    if (!h || h.downed || !Array.isArray(idx)) return false;
+    if (idx.length === 1) return h.held[idx[0]] === 'O';
+    return idx.length === 2 && idx[0] !== idx[1] && idx.every((i) => T.AS_AP.includes(h.held[i]));
+  };
+  /** The ways a pilot could turn dice into AP now, each different one once: [i] for an Omni, [i, j] for a pair. */
+  T.apSpends = function (h) {
+    const out = [];
+    const o = h.held.indexOf('O');
+    if (o >= 0) out.push([o]);
+    const seen = new Set();
+    h.held.forEach((a, i) =>
+      h.held.forEach((b, j) => {
+        if (j <= i || !T.canSpendAsAP(h, [i, j])) return;
+        const key = [a, b].sort().join('');
+        if (!seen.has(key)) (seen.add(key), out.push([i, j]));
+      }),
+    );
+    return out;
+  };
+  /** Turn the banked dice at idx into 1 minted AP (T.canSpendAsAP). m may be null for a planner's sketch. */
+  T.spendAsAP = function (m, h, idx) {
+    if (!T.canSpendAsAP(h, idx)) return { ok: false, why: 'needs one banked Omni or two banked etherions' };
+    const faces = idx.map((i) => h.held[i]);
+    idx
+      .slice()
+      .sort((a, b) => b - a)
+      .forEach((i) => {
+        unbank(h, i);
+        h.pool++;
+      });
+    T.mint(h, 'AP', 1);
+    if (h.pool + h.held.length !== R().POOL) throw new Error('dice invariant broken (as AP) for ' + h.name);
+    const nm = (f) => (f === 'O' ? 'an Omni' : T.ETHERIONS[f].name);
+    if (m)
+      say(
+        m,
+        `${h.name} spends ${faces.length === 1 ? nm(faces[0]) : faces[0] === faces[1] ? 'two ' + nm(faces[0]) : nm(faces[0]) + ' and ' + nm(faces[1])} as 1 AP.`,
+        'sys',
+      );
+    return { ok: true };
+  };
+  /**
+   * Could this cost be paid once spare dice are spent as AP? The etherions it needs are its own first, then
+   * Omni; what is left over (Omni 1 AP each, any other etherions 1 AP a pair) makes up the AP it is short.
+   */
+  T.payableAsAP = function (h, ap, elt, eln) {
+    if (T.canPay(h, ap, elt, eln)) return false;
+    const all = h.held.concat(h.temp);
+    const count = (f) => all.filter((x) => x === f).length;
+    const own = elt && elt !== 'O' ? count(elt) : 0; // an Omni cost is paid in Omni alone (T.canPay)
+    const useOwn = Math.min(own, eln || 0);
+    const useO = (eln || 0) - useOwn;
+    if (useO > count('O')) return false;
+    const spareO = h.held.filter((x) => x === 'O').length - Math.max(0, useO - h.temp.filter((x) => x === 'O').length);
+    const fromHeld = Math.max(0, useOwn - h.temp.filter((x) => x === elt).length); // a cost takes minted dice first
+    const spareEl = h.held.filter((f) => T.AS_AP.includes(f)).length - fromHeld;
+    return T.apValue(h) + spareO + Math.floor(Math.max(0, spareEl) / 2) >= (ap || 0);
   };
   T.dump = function (m, h, idx) {
     if (idx < 0 || idx >= h.held.length) return false;
@@ -7720,6 +8283,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     for (let k = 0; k < n; k++) {
       const keep = [];
       for (const t of h.track) {
+        if (t.phase === 'burnt') {
+          keep.push(t); // a burnt card stays off the hand until the mission ends
+          continue;
+        }
         t.left -= 1;
         if (t.left <= 0) {
           if (t.phase === 'dur' && t.cd > 0) {
@@ -7768,7 +8335,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     return !!(st(ent).Anchored || ent.anchoredPerm);
   }
   function forceImmune(ent) {
-    return isAnchored(ent) || !!st(ent).Hover || !!st(ent).Weightless;
+    // a vehicle's riders go where it goes, and nowhere else (src/engine/vehicles.js)
+    return isAnchored(ent) || !!st(ent).Hover || !!st(ent).Weightless || ent.ride != null;
   }
   function hazardImmune(ent) {
     return !!(st(ent).HazardImmune || st(ent).Hover || st(ent).Weightless || st(ent).Stasis);
@@ -7776,9 +8344,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   function trapImmune(ent) {
     return !!(st(ent).Hover || st(ent).Weightless);
   }
-  /** Weightless heroes and climbing forms walk the climb edges up to height nodes. */
+  /** Hovering heroes and climbing forms walk the climb edges up to height nodes (Weightless: an older save's Hover). */
   function canClimb(ent) {
-    return !!(st(ent).Weightless || (st(ent).Morph && st(ent).Morph.climb));
+    return !!(st(ent).Hover || st(ent).Weightless || (st(ent).Morph && st(ent).Morph.climb));
   }
   function addTimed(m, ent, name, t, extra) {
     const cur = st(ent)[name];
@@ -7811,12 +8379,113 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     for (const h of m.heroes) if (!h.downed && h.pos === node) return h;
     for (const e of m.enemies) if (e.alive && e.pos === node) return e;
     for (const d of m.decoys) if (d.pos === node) return d;
+    for (const p of m.pets || []) if (!p.dead && p.pos === node) return p;
     return null;
   };
-  T.occupied = (m, node) => !!T.entityAt(m, node);
+  /* ───────────────────────────── PETS ───────────────────────────── */
+  /** A pilot's pet joins the mission on the pilot's own node (a pet may share it: Garrett, 2026-11-21). */
+  T.addPet = function (m, h, rec) {
+    const p = {
+      kind: 'pet',
+      uid: nextUid(m),
+      owner: h.uid,
+      pid: rec.id,
+      species: rec.species.slice(),
+      name: rec.name,
+      hp: T.PET.HP,
+      maxHp: T.PET.HP,
+      pos: h.pos,
+      states: {},
+      dead: false,
+    };
+    m.pets.push(p);
+    return p;
+  };
+  T.livePets = (m) => (m.pets || []).filter((p) => !p.dead);
+  /**
+   * Resonance (2.118): elements in the air. Playing an Ethereal face leaves its element there, strong
+   * (2) this round and fading (1) the next, then gone. A face that draws on an element takes it for a
+   * bonus and spends it; Omni in the air stands in for any element. The squad shares the air.
+   */
+  T.AIR_ELS = ['M', 'C', 'S', 'T', 'O'];
+  T.leaveInAir = function (m, el) {
+    m.air = m.air || { M: 0, C: 0, S: 0, T: 0, O: 0 };
+    m.air[el] = 2;
+    say(m, `${T.ETHERIONS[el].name} hangs in the air.`, 'sys');
+  };
+  /** What the air holds of `el` (its own, else Omni), or null. */
+  T.inAir = (m, el) => (m.air && m.air[el] > 0 ? el : m.air && m.air.O > 0 ? 'O' : null);
+  /** Draw on `el` for this play: spend it (or Omni) once, however many effects of the face ask for it. */
+  function drawAir(m, el, ctx) {
+    ctx.drewAir = ctx.drewAir || {};
+    if (ctx.drewAir[el]) return true;
+    const got = T.inAir(m, el);
+    if (!got) return false;
+    m.air[got] = 0;
+    ctx.drewAir[el] = got;
+    say(m, `It draws on the ${T.ETHERIONS[got].name} in the air.`, 'sys');
+    return true;
+  }
+  /**
+   * Flanked (2.115): a unit with units of the other side on two different spaces beside it. For a foe,
+   * the other side is the squad: pilots standing, their pets and their decoys. For a pilot, it is foes.
+   */
+  T.isFlanked = function (m, u) {
+    if (!u || u.pos == null) return false;
+    const others = u.kind === 'enemy' ? T.liveHeroes(m).concat(T.livePets(m), m.decoys || []) : T.liveEnemies(m);
+    const spaces = new Set();
+    for (const o of others)
+      if (o.pos != null && o.pos !== u.pos && B.adjacent(m.board, u.pos, o.pos)) spaces.add(o.pos);
+    return spaces.size >= 2;
+  };
+  T.petsOf = (m, h) => (m.pets || []).filter((p) => p.owner === h.uid && !p.dead);
+  T.petOwner = (m, p) => m.heroes.find((h) => h.uid === p.owner) || null;
+  /** The pet a pet card plays off, or null if that pet is not (or no longer) with its pilot. */
+  /** Is this card one of the hero's pets' cards (whether or not that pet is on the board)? */
+  T.petRecOf = (h, cardId) => (h.pets || []).find((p) => p.card === cardId) || null;
+  T.isPetCard = (h, cardId) => !!T.petRecOf(h, cardId);
+  T.petFor = (m, h, cardId) => {
+    const rec = T.petRecOf(h, cardId);
+    return rec ? T.petsOf(m, h).find((p) => p.pid === rec.id) || null : null;
+  };
+  /** A pet on its own pilot's node, the pilot standing, is invulnerable (Garrett, 2026-11-21). */
+  T.sheltered = (m, p) => {
+    if (p.kind !== 'pet' || p.dead) return false;
+    const o = T.petOwner(m, p);
+    return !!(o && !o.downed && o.pos === p.pos);
+  };
+  /** Pets a foe can go for: alive, and not sheltered on their pilot's node. */
+  T.exposedPets = (m) => T.livePets(m).filter((p) => !T.sheltered(m, p));
+  /** Pilot and pet are partners: one may stand on the other's node. */
+  const partners = (a, b) =>
+    (a.kind === 'pet' && b.kind === 'hero' && a.owner === b.uid) ||
+    (b.kind === 'pet' && a.kind === 'hero' && b.owner === a.uid);
+  /** Everything standing on a node. */
+  T.unitsAt = (m, node) =>
+    []
+      .concat(
+        m.heroes.filter((h) => !h.downed && h.pos === node),
+        m.enemies.filter((e) => e.alive && e.pos === node),
+        m.decoys.filter((d) => d.pos === node),
+      )
+      .concat(T.livePets(m).filter((p) => p.pos === node));
+  /**
+   * Can this unit stop on this node? Empty, or holding only its partners: a pilot's own pets, or a pet's own
+   * pilot (and that pilot's other pets).
+   */
+  T.freeFor = (m, ent, node) =>
+    !(m.vehicles && T.vehicleAt(m, node)) &&
+    T.unitsAt(m, node).every(
+      (u) => u === ent || partners(ent, u) || (ent.kind === 'pet' && u.kind === 'pet' && u.owner === ent.owner),
+    );
+  // a parked vehicle stands on its space too: nobody stops there, though anyone may pass
+  T.occupied = (m, node) => !!T.entityAt(m, node) || !!(m.vehicles && m.vehicles.some((v) => v.pos === node));
   T.liveEnemies = (m) => m.enemies.filter((e) => e.alive);
   T.liveHeroes = (m) => m.heroes.filter((h) => !h.downed);
-  T.foesFor = (m, actor) => (actor.kind === 'hero' ? T.liveEnemies(m) : T.liveHeroes(m).concat(m.decoys));
+  T.foesFor = (m, actor) =>
+    actor.kind === 'hero' || actor.kind === 'pet'
+      ? T.liveEnemies(m)
+      : T.liveHeroes(m).concat(m.decoys, T.exposedPets(m));
   /**
    * "Your ally": with two pilots, the other one. With more, the nearest ally standing (the first in squad order
    * on a tie), or if none stands, the nearest one down, so a face that reaches "your ally" reaches the
@@ -7884,6 +8553,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       }
       return amount;
     }
+    if (target.kind === 'pet' && T.sheltered(m, target)) {
+      say(m, `${target.name} is safe beside ${T.petOwner(m, target).name}: the blow finds nothing.`);
+      return 0;
+    }
     const ts = st(target);
     if (ts.Stasis) {
       say(m, `${target.name} is outside time — the blow passes through nothing.`);
@@ -7897,12 +8570,14 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     let dmg = amount;
     let pierce = !!opts.pierce;
     const trueDmg = !!opts.trueDmg;
-    // attacker modifiers (heroes)
-    if (source && source.kind === 'hero') {
+    // attacker modifiers (heroes, and pets, who strike for their pilot)
+    if (source && (source.kind === 'hero' || source.kind === 'pet')) {
       const ss = st(source);
       if (opts.strike && ss.Empower && ss.Empower.length) {
         // consume the first matching empower
-        const idx = ss.Empower.findIndex((e) => !e.kind || e.kind === kind);
+        const idx = ss.Empower.findIndex(
+          (e) => !e.kind || e.kind === kind || (Array.isArray(e.kind) && e.kind.includes(kind)),
+        );
         if (idx >= 0) {
           const e = ss.Empower[idx];
           dmg += e.v;
@@ -7913,6 +8588,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         }
       }
       if (opts.strike && ss.Morph) dmg += ss.Morph.bonus || 0;
+      // a weapon adds to every strike of its reach (2.108); a strike that deals nothing stays at nothing
+      if (opts.strike && dmg > 0) dmg += T.weaponBonus(source, kind);
       if (opts.strike) {
         const flags = source.roundFlags || (source.roundFlags = {});
         flags.struck = true;
@@ -7962,7 +8639,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         say(m, `${target.name} pre-empted the blow and reflects ${p.reflect}.`);
         checkEnemyDeath(m, source, target);
       }
-      if (p.reposition && target.kind === 'hero') {
+      if (p.reposition && target.kind === 'hero' && target.ride == null) {
         const away = B.walkNeighbors(m.board, target.pos)
           .filter((n) => !T.occupied(m, n))
           .sort((a, b) => B.dist(m.board, b, source ? source.pos : a) - B.dist(m.board, a, source ? source.pos : b))[0];
@@ -7973,13 +8650,19 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       }
       delete ts.Preempt;
     }
+    // a blow on anyone inside a vehicle lands on its hull (src/engine/vehicles.js)
+    const hull = dmg > 0 && target.kind === 'hero' && target.ride != null ? T.vehicleOf(m, target) : null;
     if (dmg > 0) {
-      target.hp -= dmg;
+      if (!hull) target.hp -= dmg;
       // `by`: who struck, for the screen to show the blow coming from them (no rule reads it)
       const hit = { t: 'dmg', ent: target.uid, amount: dmg, pos: target.pos, kind };
       if (source && source.uid != null && kind !== 'area' && kind !== 'true') hit.by = source.uid;
       fx(m, hit);
       if (source && source.kind === 'hero') source.stats.dmgDealt += dmg;
+      else if (source && source.kind === 'pet') {
+        const o = T.petOwner(m, source);
+        if (o) o.stats.dmgDealt += dmg;
+      }
       if (target.kind === 'hero') {
         target.stats.dmgTaken += dmg;
         if (opts.ambush) m.stats.ambushDmg += dmg;
@@ -7987,9 +8670,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       }
       say(
         m,
-        `${source ? source.name : 'The hazard'} ${opts.label || 'hits'} ${target.name} for ${dmg}${pierce ? ' (pierce)' : ''}${trueDmg ? ' (true)' : ''}.`,
-        source && source.kind === 'hero' ? 'hero' : 'enemy',
+        `${source ? source.name : 'The hazard'} ${opts.label || 'hits'} ${target.name}${hull ? `'s ${T.VEHICLE_BY[hull.type].name}` : ''} for ${dmg}${pierce ? ' (pierce)' : ''}${trueDmg ? ' (true)' : ''}.`,
+        source && (source.kind === 'hero' || source.kind === 'pet') ? 'hero' : 'enemy',
       );
+      if (hull) T.hitHull(m, hull, dmg);
     } else {
       say(m, `${source ? source.name : 'The blow'} is fully blunted by ${target.name}.`);
     }
@@ -8024,10 +8708,13 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     // contact / area reveals
     if (isHidden(target) && (kind === 'melee' || kind === 'area' || kind === 'any') && !opts.noReveal)
       breakHidden(m, target, 'contact');
-    if (source && source.kind === 'hero' && isHidden(source)) breakHidden(m, source, 'striking');
+    if (source && (source.kind === 'hero' || source.kind === 'pet') && isHidden(source))
+      breakHidden(m, source, 'striking');
     // death
-    if (target.kind === 'enemy') checkEnemyDeath(m, target, source);
+    if (target.kind === 'enemy')
+      checkEnemyDeath(m, target, source && source.kind === 'pet' ? T.petOwner(m, source) : source);
     else if (target.kind === 'hero') checkHeroDown(m, target);
+    else if (target.kind === 'pet') checkPetDeath(m, target);
     return dmg;
   };
   function checkEnemyDeath(m, e, killer) {
@@ -8041,6 +8728,15 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       m.won = true;
     }
   }
+  /** A pet at 0 dies: it leaves the board, and after the mission its pilot loses it and its cards. */
+  function checkPetDeath(m, p) {
+    if (p.dead || p.hp > 0) return;
+    p.dead = true;
+    p.hp = 0;
+    say(m, `${p.name} dies.`, 'sys');
+    fx(m, { t: 'death', ent: p.uid, pos: p.pos });
+  }
+  T.checkPetDeath = checkPetDeath;
   function checkHeroDown(m, h) {
     if (h.downed || h.hp > 0) return;
     const ph = h.states.Phoenix;
@@ -8112,13 +8808,29 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     let moved = 0;
     for (let i = 0; i < n; i++) {
       const cands = B.walkNeighbors(m.board, target.pos).filter((x) => canEnter(m, target, x, false));
-      if (!cands.length) break;
       const best = cands.sort((a, b) => B.dist(m.board, b, source.pos, true) - B.dist(m.board, a, source.pos, true))[0];
-      if (B.dist(m.board, best, source.pos, true) <= B.dist(m.board, target.pos, source.pos, true)) break;
+      if (best == null || B.dist(m.board, best, source.pos, true) <= B.dist(m.board, target.pos, source.pos, true)) {
+        crash(m, source, target);
+        break;
+      }
       moveEntity(m, target, best, 'forced');
       moved++;
     }
     return landed(m, source, target, moved);
+  }
+  /**
+   * Crash (2.104): a unit pushed by one in a crashing form (Apex Form's `crash`) that is stopped short takes
+   * the crash, and so does the unit in the way: the one beside it farthest from the pusher.
+   */
+  function crash(m, source, target) {
+    const c = source && st(source).Morph && st(source).Morph.crash;
+    if (!c || !standing(target)) return;
+    const far = (x) => B.dist(m.board, x, source.pos, true);
+    const away = B.allNeighbors(m.board, target.pos).filter((x) => far(x) > far(target.pos));
+    const by = away.map((x) => T.entityAt(m, x)).find((u) => u && standing(u) && u.kind !== 'decoy');
+    say(m, `${target.name} crashes${by ? ' into ' + by.name : ''}.`, 'hero');
+    T.damage(m, source, target, c, { kind: 'true', trueDmg: true, label: 'crashes for' });
+    if (by) T.damage(m, source, by, c, { kind: 'true', trueDmg: true, label: 'is crashed into for' });
   }
   function pullToward(m, source, target, n, viaLink) {
     if (!viaLink) {
@@ -8154,6 +8866,31 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     onEnter(m, ent, node);
     if (ent.kind === 'hero' && how !== 'forced' && isHidden(ent) && !st(ent).Hidden.canMove)
       breakHidden(m, ent, 'moved');
+    if (how === 'walk' && st(ent).Holding) dragHeld(m, ent, from);
+  }
+  /**
+   * Hold (2.104): a unit that holds a foe drags it along when it walks: the foe goes into the space the
+   * holder left, or the free space beside the holder nearest it. A foe that walked off, fell, or is
+   * Anchored by anything else is let go.
+   */
+  function dragHeld(m, holder, from) {
+    const hd = st(holder).Holding;
+    const foe = unitBy(m, hd.uid);
+    const held = foe && st(foe).Held;
+    const near = foe && B.dist(m.board, from, foe.pos, true) <= 1;
+    if (!standing(foe) || !held || held.by !== holder.uid || !near || forceImmune(foe)) {
+      delete st(holder).Holding;
+      if (held && held.by === holder.uid) delete st(foe).Held;
+      return;
+    }
+    const spots = B.walkNeighbors(m.board, holder.pos)
+      .filter((n) => n === foe.pos || !T.occupied(m, n))
+      .sort((a, b) => B.dist(m.board, a, from, true) - B.dist(m.board, b, from, true) || (a < b ? -1 : 1));
+    if (!spots.length) return;
+    if (spots[0] !== foe.pos) {
+      moveEntity(m, foe, spots[0], 'forced');
+      say(m, `${holder.name} drags ${foe.name} along.`, 'hero');
+    }
   }
   T.moveEntity = moveEntity;
   T.pushAway = pushAway;
@@ -8166,8 +8903,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
    * takes the same: the damage it was dealt (as true damage), the same push or pull from the same source,
    * the same heal. A unit has one Link at a time; a new one replaces it, and it ends when either falls.
    */
-  const unitBy = (m, uid) => m.heroes.find((h) => h.uid === uid) || m.enemies.find((e) => e.uid === uid) || null;
-  const standing = (u) => !!u && (u.kind === 'enemy' ? u.alive : !u.downed);
+  const unitBy = (m, uid) =>
+    m.heroes.find((h) => h.uid === uid) ||
+    m.enemies.find((e) => e.uid === uid) ||
+    (m.pets || []).find((p) => p.uid === uid) ||
+    null;
+  const standing = (u) => !!u && (u.kind === 'enemy' ? u.alive : u.kind === 'pet' ? !u.dead : !u.downed);
   function linkedTo(m, u) {
     const l = u && st(u).Linked;
     if (!l) return null;
@@ -8233,7 +8974,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   T.markUnit = markUnit;
   /** Heal a unit: restore vitality, or get a downed pilot up with that much (2.90: Heal raises the downed). */
   function healUnit(m, u, amt) {
-    if (amt <= 0) return 0;
+    if (amt <= 0 || u.dead) return 0;
     if (u.kind === 'hero' && u.downed) {
       u.downed = false;
       u.hp = Math.min(u.maxHp, amt);
@@ -8248,15 +8989,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   }
   T.healUnit = healUnit;
   /** Wound a unit: it takes the Wound at round end, one less each round. A new Wound replaces a smaller one. */
-  function woundUnit(m, u, n, source, heal, kind) {
+  function woundUnit(m, u, n, source, heal, kind, stay) {
     const w = st(u).Wound;
-    if (w && w.n >= n) return;
+    if (w && w.n >= n && (w.stay || 0) >= (stay || 0)) return;
     st(u).Wound = {
-      n,
+      n: Math.max(n, w ? w.n : 0),
       owner: source ? source.uid : w ? w.owner : null,
       heal: Math.max(heal || 0, w ? w.heal : 0),
       kind: kind || (w && w.kind) || 'wound',
     };
+    // a Wound that holds (2.119): it does not drop for `stay` round ends
+    if (stay > 0 || (w && w.stay)) st(u).Wound.stay = Math.max(stay || 0, (w && w.stay) || 0);
     fx(m, { t: 'state', ent: u.uid, name: 'Wound' });
   }
   T.woundUnit = woundUnit;
@@ -8364,6 +9107,41 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     m.fields = m.fields.filter((f) => f.trips == null || f.trips > 0);
   }
 
+  /**
+   * Spring everything set within `radius` of a unit, now: every Field (anyone's) on the units standing in
+   * its spaces there, every hazard there on whoever stands on it, and every Wound there bites (without
+   * dropping). None of it is spent: each still does its work at round end.
+   */
+  T.springAround = function (m, actor, radius) {
+    const bd = m.board;
+    const near = new Set([actor.pos].concat(B.within(bd, actor.pos, radius, true)));
+    const units = () =>
+      T.liveHeroes(m)
+        .concat(T.liveEnemies(m))
+        .filter((u) => near.has(u.pos));
+    say(m, `${actor.name} sets everything within ${radius} springing.`, actor.kind === 'enemy' ? 'enemy' : 'hero');
+    for (const f of m.fields.slice()) {
+      const set = new Set(fieldNodes(m, f).filter((n) => near.has(n)));
+      if (!set.size) continue;
+      for (const u of units()) {
+        if (f.trips != null && f.trips <= 0) break;
+        if (set.has(u.pos) && springField(m, f, u, false)) fx(m, { t: 'trap', node: u.pos });
+      }
+    }
+    m.fields = m.fields.filter((f) => f.trips == null || f.trips > 0);
+    for (const u of units())
+      if (bd.nodes[u.pos].hazard && !hazardImmune(u) && !u.boss) {
+        const d = T.damage(m, null, u, hazardDmg(u), { kind: 'true', trueDmg: true, label: 'floods over' });
+        if (u.kind === 'hero') m.stats.hazardDmg += d;
+      }
+    for (const u of units()) {
+      const w = st(u).Wound;
+      if (!w) continue;
+      const owner = unitBy(m, w.owner);
+      T.damage(m, owner || null, u, w.n, { kind: 'true', trueDmg: true, label: `(${w.kind || 'wound'}) wounds` });
+    }
+  };
+
   /* ───────────────────────────── REVEAL ───────────────────────────── */
   function revealArea(m, actor, center, radius, dur, opts) {
     opts = opts || {};
@@ -8404,14 +9182,14 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
    */
   const allyRef = (f, P, E) => {
     if (f.carryAlly != null) return bool(f.carryAlly, P, E) ? 'adj' : null;
-    if (f.v === 'rally' || f.v === 'swap') return 'any';
+    if (f.v === 'guide' || (f.v === 'swap' && !f.foe)) return 'any';
     if (f.target !== 'ally' && f.who !== 'ally') return null;
     if (!f.pierce && ['val', 'n'].some((k) => f[k] != null && num(f[k], P, E) <= 0)) return null;
     if (f.v === 'anchor' && num(f.dur, P, E) <= 0) return null;
     return f.adjacent ? 'adj' : 'any';
   };
   const allyReach = (tgt, face, P, E) => {
-    if (tgt === 'ally_adj' || tgt === 'ally_adj_move') return 'adj';
+    if (tgt === 'ally_adj' || tgt === 'ally_adj_move' || tgt === 'ally_throw') return 'adj';
     if (tgt === 'ally' || tgt === 'ally_move') return 'any';
     const refs = ((face && face.fx) || []).map((f) => allyRef(f, P, E)).filter(Boolean);
     if (!refs.length) return null;
@@ -8469,8 +9247,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         if (!ally || ally.downed) return { need: 'none', invalid: 'no ally standing' };
         if (tgt === 'ally_adj_move' && !B.adjacent(bd, h.pos, ally.pos))
           return { need: 'none', invalid: 'your ally must be beside you' };
-        const rl = face && face.fx.find((x) => x.v === 'rally');
-        const n = rl ? num(rl.move, P, E) : 0;
+        const rl = face && face.fx.find((x) => x.v === 'guide');
+        const n = rl ? num(rl.n, P, E) : 0;
         const steps = isAnchored(ally) ? [] : T.reachableWalk(m, ally, n, false);
         return { need: 'node', options: [ally.pos].concat(steps), ally: ally.uid, allyMove: n };
       }
@@ -8490,11 +9268,15 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         return { need: 'foe', options: foes.filter((e) => B.los(bd, h.pos, e.pos) && vis(e)).map((e) => e.uid) };
       case 'foe_any':
         return { need: 'foe', options: foes.filter(vis).map((e) => e.uid) };
-      case 'foe_r2':
+      case 'foe_r2': {
+        // a face may reach further as it grows: an effect's `reach` sets the range (2 at least)
+        const rx = face && face.fx.find((x) => x.reach != null);
+        const r = rx ? Math.max(2, num(rx.reach, P, E)) : 2;
         return {
           need: 'foe',
-          options: foes.filter((e) => B.dist(bd, h.pos, e.pos, true) <= 2 && vis(e)).map((e) => e.uid),
+          options: foes.filter((e) => B.dist(bd, h.pos, e.pos, true) <= r && vis(e)).map((e) => e.uid),
         };
+      }
       case 'foe_r3':
         return {
           need: 'foe',
@@ -8510,7 +9292,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         return { need: 'foeOrAlly', options: opts };
       }
       case 'node_adj':
-        return { need: 'node', options: B.walkNeighbors(bd, h.pos).filter((n) => !T.occupied(m, n)) };
+        return { need: 'node', options: B.walkNeighbors(bd, h.pos).filter((n) => T.freeFor(m, h, n)) };
       case 'node_r2': {
         const r = face
           ? Math.max(
@@ -8526,21 +9308,26 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           face &&
           face.fx.some((x) => x.v === 'decoy' && !x.here) &&
           !face.fx.some((x) => /^(interact|dot|zone|strike|trap)$/.test(x.v));
-        return { need: 'node', options: decoyOnly ? all.filter((n) => !T.occupied(m, n)) : all };
+        return { need: 'node', options: decoyOnly ? all.filter((n) => T.freeFor(m, h, n)) : all };
       }
       case 'node_r3': {
         const r = face ? Math.max(...face.fx.map((x) => (x.remote != null ? num(x.remote, P, E) : 0)), 3) : 3;
-        return { need: 'node', options: B.within(bd, h.pos, r, true).filter((n) => !T.occupied(m, n)) };
+        return { need: 'node', options: B.within(bd, h.pos, r, true).filter((n) => T.freeFor(m, h, n)) };
       }
       case 'node_move': {
         const mv = face.fx.find((x) => x.v === 'move');
         const n = num(mv.n, P, E);
-        return { need: 'node', options: T.reachableWalk(m, h, n, mv.ignoreFoes, mv.exact) };
+        // a face that lifts you off the ground before it moves you (Hover, then Move) may take the ledges
+        const hi = face.fx.findIndex((x) => x.v === 'hover');
+        const lift = hi >= 0 && hi < face.fx.indexOf(mv);
+        const climbing = bool(mv.climb, P, E) || lift;
+        const through = mv.ignoreFoes || num(mv.trample, P, E) > 0;
+        return { need: 'node', options: T.reachableWalk(m, h, n, through, mv.exact, climbing) };
       }
       case 'node_tele': {
         const tp = face.fx.find((x) => x.v === 'blink');
         const r = num(tp.reach, P, E) + boonSum(h, 'blinkReach');
-        let opts = B.within(bd, h.pos, r, true).filter((n) => !T.occupied(m, n) && (tp.height || !bd.nodes[n].height));
+        let opts = B.within(bd, h.pos, r, true).filter((n) => T.freeFor(m, h, n) && (tp.height || !bd.nodes[n].height));
         if (tp.dest === 'adjTarget')
           return {
             need: 'foe',
@@ -8548,10 +9335,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           };
         return { need: 'node', options: opts };
       }
-      case 'node_climb': {
-        const cl = face.fx.find((x) => x.v === 'climb');
-        const r = num(cl.reach, P, E);
-        return { need: 'node', options: B.within(bd, h.pos, r, true).filter((n) => !T.occupied(m, n)) };
+      case 'ally_throw': {
+        // you throw your ally, beside you, to a free node within reach of you
+        if (!ally || ally.downed) return { need: 'none', invalid: 'no ally standing' };
+        if (!B.adjacent(bd, h.pos, ally.pos)) return { need: 'none', invalid: 'your ally must be beside you' };
+        if (isAnchored(ally)) return { need: 'none', invalid: 'your ally is Anchored' };
+        const tw = face.fx.find((x) => x.v === 'throw');
+        const r = num(tw.reach, P, E);
+        const opts = B.within(bd, h.pos, r, true).filter(
+          (n) => n !== ally.pos && !T.occupied(m, n) && (tw.height || !bd.nodes[n].height),
+        );
+        return { need: 'node', options: opts, ally: ally.uid };
       }
       default:
         return { need: 'none' };
@@ -8563,15 +9357,16 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
    * 2.81.1 it was the nodes whose *shortest* walk is n, which on a small or well-joined board left a run of 4
    * nowhere to go from most of it: the whole threshing floor of Mast-Crop Hills.)
    */
-  T.reachableWalk = function (m, h, n, ignoreFoes, exact) {
+  T.reachableWalk = function (m, h, n, ignoreFoes, exact, climb) {
     const bd = m.board;
-    const climber = canClimb(h);
+    const climber = canClimb(h) || !!climb;
     // a step onto y: is it allowed, and is y somewhere a walk may pass (but not stop, if occupied)?
     const step = (y) => {
       if (bd.nodes[y].height && !climber && !bd.ramp) return null;
-      const occ = T.entityAt(m, y);
-      if (occ && !(ignoreFoes || occ.kind === 'hero')) return null; // can't pass through foes unless ignoring
-      return { empty: !occ };
+      const occ = T.unitsAt(m, y).filter((u) => u !== h);
+      // the squad's pilots and pets can be walked through; foes only when ignoring them
+      if (occ.some((u) => !(ignoreFoes || u.kind === 'hero' || u.kind === 'pet'))) return null;
+      return { empty: T.freeFor(m, h, y) };
     };
     if (exact) {
       const out = new Set();
@@ -8623,11 +9418,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const elt = face.elt || card.el;
     const eln = face.el || 0;
     if (faceKey === 'E' && E < R().ETHEREAL_MIN_E) return { ok: false, why: 'needs E ' + R().ETHEREAL_MIN_E };
+    // a pet's card acts from the pet (src/data/pets.js): no pet on the board, no play
+    const body = T.isPetCard(h, cardId) ? T.petFor(m, h, cardId) : h;
+    if (!body) return { ok: false, why: 'your pet is not here' };
+    // inside a vehicle only Mounted faces; a pet riding with its pilot plays by the same rule
+    if (T.ridingWith(m, h, body) && !T.isMountedFace(card, faceKey))
+      return { ok: false, why: 'not Mounted: get out first' };
     if (!T.canPay(h, face.ap, elt, eln)) return { ok: false, why: 'cannot pay' };
-    const tg = T.targetsFor(m, h, face.tgt, face, P, E, pick);
+    const tg = T.targetsFor(m, body, face.tgt, face, P, E, pick);
     if (tg.invalid) return { ok: false, why: tg.invalid };
     if (tg.need !== 'none' && (!tg.options || !tg.options.length)) return { ok: false, why: 'no valid target' };
-    return { ok: true, tg };
+    return { ok: true, tg, body };
   };
   T.playFace = function (m, h, cardId, faceKey, ctx) {
     const chk = T.canPlay(m, h, cardId, faceKey, ctx && ctx.ally);
@@ -8641,18 +9442,39 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const elt = face.elt || card.el;
     const eln = face.el || 0;
     T.pay(h, face.ap, elt, eln);
+    const body = chk.body;
     say(
       m,
-      `${h.name} plays ${card.name} — ${face.n}${faceKey === 'E' ? ' (' + T.ETHERIONS[elt].name + ')' : ''}.`,
+      `${h.name} plays ${card.name} — ${face.n}${faceKey === 'E' ? ' (' + T.ETHERIONS[elt].name + ')' : ''}${body !== h ? ', through ' + body.name : ''}.`,
       'hero',
     );
     fx(m, { t: 'play', hero: h.uid, card: cardId, face: faceKey });
     const how = T.commit(h, cardId, face.dur || 0, face.cd || 0, face.n);
-    if (how === 'free') say(m, `(${card.name} does not go to the track.)`, 'sys');
+    if (face.burn) {
+      // Burn (2.119): the card leaves the track until the mission ends; nothing brings it back sooner
+      h.track = h.track.filter((t) => t.card !== cardId);
+      h.track.push({ card: cardId, phase: 'burnt', left: 0, cd: 0, note: 'burnt' });
+      say(m, `(${card.name} is burnt: it is gone until the mission ends.)`, 'sys');
+    } else if (how === 'free') say(m, `(${card.name} does not go to the track.)`, 'sys');
     const rctx = ctx || {};
     Object.assign(rctx, { P, E, card, faceKey });
     if (al.ally != null) rctx.ally = al.ally;
-    T.runEffects(m, h, face.fx, rctx);
+    if (face.dusk) {
+      // Dusk (2.115): the face is placed now and lands at round end, after the foes have acted. What it
+      // needs is kept as plain data (who, which face, its levels, the space chosen), not the effects.
+      (m.dusk = m.dusk || []).push({
+        uid: body.uid,
+        card: cardId,
+        face: faceKey,
+        P,
+        E,
+        node: rctx.node != null ? rctx.node : null,
+      });
+      say(m, `${body.name} waits for dusk.`, 'hero');
+    } else T.runEffects(m, body, face.fx, rctx);
+    // Resonance (2.118): an Ethereal face leaves its element in the air, after it has drawn on what was there
+    if (faceKey === 'E' && T.AIR_ELS.includes(elt)) T.leaveInAir(m, elt);
+    if (body !== h) delete rctx.pendingFreeMove; // a free step a pet's face grants is the pet's, and it has taken it
     T.afterAction(m);
     return { ok: true, ctx: rctx };
   };
@@ -8676,6 +9498,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       m.enemies.find((e) => e.uid === ctx.target && e.alive) ||
       m.heroes.find((h) => h.uid === ctx.target) ||
       m.decoys.find((d) => d.uid === ctx.target) ||
+      (m.pets || []).find((p) => p.uid === ctx.target && !p.dead) ||
       null
     );
   };
@@ -8702,7 +9525,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const P = ctx.P || 0,
       E = ctx.E || 0;
     const bd = m.board;
-    const isHero = actor.kind === 'hero';
+    // a pet card acts from the pet, but what it does to dice, the track or the purse goes to the pilot
+    if (actor.kind === 'pet' && T.PET_PILOT_VERBS.includes(f.v)) actor = T.petOwner(m, actor) || actor;
+    const isHero = actor.kind === 'hero' || actor.kind === 'pet';
     const ally = isHero ? T.chosenAlly(m, actor, ctx) : null;
     const party = () => (isHero ? T.liveHeroes(m) : [actor]);
     // Conditions gate the whole effect, whatever its verb. The ones about a target need it
@@ -8711,13 +9536,16 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const condOk = () => {
       if (f.ifOnHazard && !bd.nodes[actor.pos].hazard) return false;
       if (f.ifE && E < f.ifE) return false;
-      if (f.ifAnchored || f.ifAdjacent || f.ifHpBelow != null) {
+      if (f.ifAnchored || f.ifAdjacent || f.ifFlanked || f.ifHpBelow != null) {
         const t = targetEnt(m, ctx) || ctx.lastTarget;
         if (!t || t.alive === false || t.downed) return false;
         if (f.ifAnchored && !isAnchored(t)) return false;
         if (f.ifAdjacent && !B.adjacent(bd, actor.pos, t.pos)) return false;
+        if (f.ifFlanked && !T.isFlanked(m, t)) return false;
         if (f.ifHpBelow != null && t.hp >= num(f.ifHpBelow, P, E)) return false;
       }
+      // last, so the element is spent only when everything else holds
+      if (f.ifAir && !drawAir(m, f.ifAir, ctx)) return false;
       return true;
     };
     const met = condOk();
@@ -8739,7 +9567,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         else if (f.kind === 'zone_all') targets = T.liveEnemies(m).filter((e) => B.los(bd, actor.pos, e.pos));
         else if (f.kind === 'nodeArea') {
           const center = ctx.node != null ? ctx.node : actor.pos;
-          targets = foesWithin(m, center, 1);
+          targets = foesWithin(m, center, f.radius != null ? num(f.radius, P, E) : 1);
         } else if (f.nearest) {
           const e = nearestFoe(m, actor, f.kind === 'los');
           if (e) targets = [e];
@@ -8758,6 +9586,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           }
           if (f.revealTarget) breakHidden(m, t, 'twitch');
           T.damage(m, actor, t, dmg, opts);
+          const mp = st(actor).Morph && st(actor).Morph.push;
+          if (mp && opts.kind === 'melee' && standing(t)) pushAway(m, actor, t, mp);
           if (f.onKill && t.kind === 'enemy' && !t.alive) T.applyEffect(m, actor, f.onKill, ctx);
           ctx.lastTarget = t;
         }
@@ -8798,22 +9628,23 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         let targets = [];
         if (f.area === 'nodeArea') {
           const center = ctx.node != null ? ctx.node : actor.pos;
-          targets = foesWithin(m, center, 1);
+          targets = foesWithin(m, center, f.radius != null ? num(f.radius, P, E) : 1);
         } else {
           const t = targetEnt(m, ctx) || ctx.lastTarget;
           if (t) targets = [t];
         }
         const n = num(f.n, P, E);
         const heal = num(f.healOwner, P, E) || 0;
+        const stay = num(f.stay, P, E) || 0;
         for (const t of targets) {
           if (n <= 0 || (t.kind === 'enemy' ? !t.alive : t.downed)) continue;
-          woundUnit(m, t, n, actor, heal, f.kind);
+          woundUnit(m, t, n, actor, heal, f.kind, stay);
         }
         break;
       }
       /* ---------- MOVEMENT ---------- */
       case 'move': {
-        if (actor.kind !== 'hero') break;
+        if (!isHero) break;
         const n = num(f.n, P, E);
         if (n <= 0) break;
         if (isAnchored(actor)) {
@@ -8848,7 +9679,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           }
           break;
         }
-        const opts = T.reachableWalk(m, actor, n, f.ignoreFoes, f.exact);
+        const climbing = bool(f.climb, P, E);
+        const tramp = num(f.trample, P, E);
+        const opts = T.reachableWalk(m, actor, n, f.ignoreFoes || tramp > 0, f.exact, climbing);
         if (!opts.includes(dest)) {
           if (f.free) {
             ctx.pendingFreeMove = n;
@@ -8856,13 +9689,34 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           break;
         }
         const fromN = actor.pos;
-        moveEntity(m, actor, dest, 'walk');
-        say(m, `${actor.name} moves ${fromN} → ${dest}.`, 'hero');
-        onHeroEnter(m, actor, dest);
+        if (tramp > 0) {
+          // Trample N (2.103): step by step through the foes in the way, each pushed N away as you reach it
+          const p = B.path(bd, actor.pos, dest, null, canClimb(actor) || climbing) || [actor.pos, dest];
+          for (let i = 1; i < p.length; i++) {
+            const foe = T.entityAt(m, p[i]);
+            if (foe && foe.kind === 'enemy' && foe.alive) pushAway(m, actor, foe, tramp);
+            moveEntity(m, actor, p[i], 'walk');
+            onHeroEnter(m, actor, p[i]);
+          }
+          if (actor.pos !== dest) moveEntity(m, actor, dest, 'walk');
+        } else {
+          moveEntity(m, actor, dest, climbing ? 'climb' : 'walk');
+          onHeroEnter(m, actor, dest);
+        }
+        say(m, `${actor.name} ${climbing ? 'climbs' : 'moves'} ${fromN} → ${dest}.`, 'hero');
+        // carrying an ally: one beside where you set out comes along, onto a free space beside where you stop
+        if (bool(f.carryAlly, P, E) && ally && !ally.downed && !isAnchored(ally) && B.adjacent(bd, fromN, ally.pos)) {
+          const spot = B.allNeighbors(bd, dest).filter((x) => !T.occupied(m, x) && x !== fromN)[0];
+          if (spot) {
+            moveEntity(m, ally, spot, climbing ? 'climb' : 'walk');
+            onHeroEnter(m, ally, spot);
+            say(m, `${ally.name} is carried along.`, 'hero');
+          }
+        }
         break;
       }
       case 'blink': {
-        if (actor.kind !== 'hero') break;
+        if (!isHero) break;
         const r = num(f.reach, P, E) + boonSum(actor, 'blinkReach');
         let dest = ctx.node;
         if (f.dest === 'adjTarget') {
@@ -8876,7 +9730,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           dest = cands.sort((a, b) => B.dist(bd, actor.pos, a, true) - B.dist(bd, actor.pos, b, true))[0];
         }
         if (dest == null) break;
-        if (B.dist(bd, actor.pos, dest, true) > r || T.occupied(m, dest) || (bd.nodes[dest].height && !f.height)) {
+        if (
+          B.dist(bd, actor.pos, dest, true) > r ||
+          !T.freeFor(m, actor, dest) ||
+          (bd.nodes[dest].height && !f.height)
+        ) {
           say(m, 'Out of reach.', 'sys');
           break;
         }
@@ -8897,29 +9755,33 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         onHeroEnter(m, actor, dest);
         break;
       }
-      case 'climb': {
-        if (actor.kind !== 'hero') break;
-        const r = num(f.reach, P, E);
-        const dest = ctx.node;
-        if (dest == null) break;
-        if (B.dist(bd, actor.pos, dest, true) > r || T.occupied(m, dest)) {
-          say(m, 'Out of reach.', 'sys');
+      case 'swap': {
+        if (f.foe) {
+          // Take its place: you and a foe trade spaces. Anything that cannot be moved holds fast.
+          const t = targetEnt(m, ctx);
+          if (!standing(t) || t.kind !== 'enemy') break;
+          if (B.dist(bd, actor.pos, t.pos, true) > Math.max(2, num(f.reach, P, E))) {
+            say(m, 'Out of reach.', 'sys');
+            break;
+          }
+          if (isAnchored(actor) || forceImmune(t)) {
+            say(m, `${isAnchored(actor) ? actor.name : t.name} holds fast.`, 'sys');
+            break;
+          }
+          const a = actor.pos,
+            b = t.pos;
+          actor.pos = b;
+          t.pos = a;
+          fx(m, { t: 'move', ent: actor.uid, from: a, to: b, how: 'swap' });
+          fx(m, { t: 'move', ent: t.uid, from: b, to: a, how: 'forced' });
+          if (isHidden(t)) breakHidden(m, t, 'moved');
+          say(m, `${actor.name} and ${t.name} trade places.`, 'hero');
+          onEnter(m, t, a);
+          onEnter(m, actor, b);
+          if (actor.kind === 'hero') onHeroEnter(m, actor, b);
+          ctx.lastTarget = t;
           break;
         }
-        const from = actor.pos;
-        moveEntity(m, actor, dest, 'climb');
-        say(m, `${actor.name} climbs ${from} → ${dest}.`, 'hero');
-        onHeroEnter(m, actor, dest);
-        if (bool(f.carryAlly, P, E) && ally && !ally.downed && B.adjacent(bd, from, ally.pos)) {
-          const spot = B.allNeighbors(bd, dest).filter((n) => !T.occupied(m, n) && n !== from)[0];
-          if (spot) {
-            moveEntity(m, ally, spot, 'climb');
-            say(m, `${ally.name} is lifted along.`, 'hero');
-          }
-        }
-        break;
-      }
-      case 'swap': {
         if (!ally || ally.downed) break;
         const a = actor.pos,
           b = ally.pos;
@@ -8930,11 +9792,82 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         say(m, `${actor.name} and ${ally.name} swap places.`, 'hero');
         break;
       }
-      case 'rally': {
-        // the player who plays it moves their partner, at once, to the node they chose (ctx.node): nothing is
-        // left for the partner to decide, so whoever plays it can plan the rest of their turn exactly
+      case 'throw': {
+        // Throw your ally, beside you, onto a free node within reach (ledges where it says).
+        if (!ally || ally.downed || !B.adjacent(bd, actor.pos, ally.pos)) break;
+        const dest = ctx.node;
+        const r = num(f.reach, P, E);
+        if (dest == null || T.occupied(m, dest) || B.dist(bd, actor.pos, dest, true) > r) {
+          say(m, 'Out of reach.', 'sys');
+          break;
+        }
+        if (bd.nodes[dest].height && !f.height) break;
+        if (isAnchored(ally)) {
+          say(m, `${ally.name} is Anchored and cannot be thrown.`, 'sys');
+          break;
+        }
+        const from = ally.pos;
+        moveEntity(m, ally, dest, 'thrown');
+        say(m, `${actor.name} throws ${ally.name} ${from} → ${dest}.`, 'hero');
+        if (ally.kind === 'hero') onHeroEnter(m, ally, dest);
+        break;
+      }
+      case 'hold': {
+        // Lock on to a foe beside you for N rounds: when you walk, it is dragged along.
+        const t = targetEnt(m, ctx);
+        if (!standing(t) || !B.adjacent(bd, actor.pos, t.pos)) break;
+        const d = num(f.dur, P, E);
+        st(actor).Holding = { uid: t.uid, t: d };
+        st(t).Held = { by: actor.uid, t: d };
+        say(m, `${actor.name} locks on to ${t.name}.`, 'hero');
+        ctx.lastTarget = t;
+        break;
+      }
+      case 'fix': {
+        // Fix its mind: for N rounds after this one, the foe repeats this round's intent (same move, same
+        // target). It still acts.
+        const t = targetEnt(m, ctx) || ctx.lastTarget;
+        if (!standing(t) || t.kind !== 'enemy' || !t.intent) break;
+        st(t).Fixed = { intent: JSON.parse(JSON.stringify(t.intent)), t: num(f.dur, P, E) + 1 };
+        say(m, `${t.name} is fixed on what it means to do.`, 'hero');
+        break;
+      }
+      case 'aim': {
+        // Read a foe (and the foes within `radius` of it): its attack this round is Aimed, at the space its
+        // target stands on now.
+        const t = targetEnt(m, ctx);
+        if (!standing(t) || t.kind !== 'enemy') break;
+        const r = num(f.radius, P, E) || 0;
+        const foes = [t].concat(r > 0 ? foesWithin(m, t.pos, r).filter((x) => x !== t) : []);
+        let n = 0;
+        for (const e of foes) if (T.aimIntent && T.aimIntent(m, e)) n++;
+        say(
+          m,
+          n
+            ? `${actor.name} reads ${n === 1 ? t.name : n + ' foes'}: the blow is Aimed.`
+            : `${t.name} has nothing to aim.`,
+          'hero',
+        );
+        break;
+      }
+      case 'spring': {
+        // Everything set springs now: within `radius` of you, every Field and hazard on whoever stands in it,
+        // and every Wound bites. They still do again at round end.
+        T.springAround(m, actor, num(f.radius, P, E));
+        break;
+      }
+      case 'rewind': {
+        // At round end, regain what you lose from now until then, up to `cap`.
+        st(actor).Rewind = { hp: actor.hp, cap: num(f.cap, P, E), t: 1 };
+        say(m, `${actor.name} braces to recover what this round takes.`, 'hero');
+        break;
+      }
+      case 'guide': {
+        // Guide N (2.103, was the verb `rally`): the player who plays it moves an ally, at once, to the node they
+        // chose (ctx.node): nothing is left for the ally to decide, so whoever plays it can plan the rest of their
+        // turn exactly. Rally is the basic action that raises the downed, and nothing else.
         if (!ally || ally.downed) break;
-        const n = num(f.move, P, E);
+        const n = num(f.n, P, E);
         if (ctx.node == null || ctx.node === ally.pos) {
           if (ctx.node === ally.pos) say(m, `${ally.name} holds their ground.`, 'hero');
           break;
@@ -9127,13 +10060,19 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         const list = f.party ? T.liveHeroes(m) : f.target === 'ally' ? (ally && !ally.downed ? [ally] : []) : [actor];
         list.forEach((h) => {
           h.states.Empower = h.states.Empower || [];
-          h.states.Empower.push({
-            v,
-            uses: f.uses || 1,
-            kind: f.kind || null,
-            pierce: !!f.pierce,
-            t: num(f.dur, P, E) || null,
-          });
+          // `stack` (a weapon's Overcharge, 2.108): a second one adds to the first instead of waiting behind it
+          const same =
+            f.stack &&
+            h.states.Empower.find((e) => e.stack && JSON.stringify(e.kind) === JSON.stringify(f.kind || null));
+          if (same) {
+            same.v += v;
+            same.t = Math.max(same.t || 0, num(f.dur, P, E) || 0) || null;
+            fx(m, { t: 'state', ent: h.uid, name: 'Empower' });
+            return;
+          }
+          const e = { v, uses: f.uses || 1, kind: f.kind || null, pierce: !!f.pierce, t: num(f.dur, P, E) || null };
+          if (f.stack) e.stack = true;
+          h.states.Empower.push(e);
           fx(m, { t: 'state', ent: h.uid, name: 'Empower' });
         });
         if (list.length)
@@ -9143,7 +10082,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       case 'thorns': {
         // Thorns N: anything that strikes you in melee takes N, for `dur` rounds; `next`, only the next one (and
         // `push` pushes it back). It absorbs Counter.
-        const n = num(f.val, P, E);
+        const n = num(f.val, P, E) + (actor.kind === 'hero' ? boonSum(actor, 'thornsBonus') : 0);
         const d = num(f.dur, P, E) || 1;
         if (n <= 0) break;
         const th = st(actor).Thorns || {};
@@ -9162,12 +10101,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         say(m, `${actor.name} steps outside time.`, 'hero');
         break;
       case 'hover':
-        addTimed(m, actor, 'Hover', num(f.dur, P, E), { noAp: !!f.noAp });
-        say(m, `${actor.name} hovers.`, 'hero');
-        break;
-      case 'weightless':
-        addTimed(m, actor, 'Weightless', num(f.dur, P, E));
-        say(m, `${actor.name} is weightless.`, 'hero');
+        // Hover N (2.102): off the ground for N rounds: no hazard or Field touches you, nothing pushes or pulls you,
+        // and your steps may take the ledges. It folds in Weightless, and no longer mints AP.
+        addTimed(m, actor, 'Hover', num(f.dur, P, E));
+        say(m, `${actor.name} lifts off the ground.`, 'hero');
         break;
       case 'hazardImmune': {
         const d = num(f.dur, P, E);
@@ -9185,6 +10122,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           move: f.move || 0,
           t: d,
         };
+        if (f.crash != null) actor.states.Morph.crash = num(f.crash, P, E);
+        if (f.push != null) actor.states.Morph.push = num(f.push, P, E);
         if (f.shield) addShield(m, actor, f.shield, d, false);
         say(
           m,
@@ -9491,6 +10430,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   /* ───────────────────────────── BASIC ACTIONS ───────────────────────────── */
   T.walk = function (m, h, dest) {
     if (h.downed || h.rested) return { ok: false, why: 'cannot act' };
+    if (h.ride != null) return { ok: false, why: 'inside a vehicle: drive, or get out' };
     if (isAnchored(h)) return { ok: false, why: 'Anchored' };
     const bd = m.board;
     const free = h.freeMove || 0;
@@ -9508,7 +10448,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       climber,
     );
     if (!p || p.length < 2) return { ok: false, why: 'no path' };
-    if (T.occupied(m, dest)) return { ok: false, why: 'occupied' };
+    if (!T.freeFor(m, h, dest)) return { ok: false, why: 'occupied' };
     const steps = p.length - 1;
     const bonus = st(h).Morph && st(h).Morph.move ? 1 : 0;
     const payable = Math.max(0, steps - free - bonus);
@@ -9540,6 +10480,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const nd = bd.nodes[node];
     const ob = m.objective;
     if (!nd || !nd.objective) return { ok: false, why: 'nothing here' };
+    if (h.ride != null) return { ok: false, why: 'get out first: objectives are worked on foot' };
     const here = h.pos === node,
       adj = B.adjacent(bd, h.pos, node);
     if (nd.objective.kind === 'crate' && h.carrying) return { ok: false, why: 'already carrying a crate' };
@@ -9626,6 +10567,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   T.rally = function (m, h) {
     const ally = T.downedAllyOf(m, h);
     if (!ally || !ally.downed) return { ok: false, why: 'no downed ally' };
+    if (h.ride != null) return { ok: false, why: 'get out first' };
     if (!B.adjacent(m.board, h.pos, ally.pos)) return { ok: false, why: 'not adjacent' };
     if (T.apValue(h) < R().RALLY_AP) return { ok: false, why: 'need 2 AP' };
     T.pay(h, R().RALLY_AP);
@@ -9636,11 +10578,50 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     T.afterAction(m);
     return { ok: true };
   };
+  /**
+   * Heel (src/data/pets.js): for T.PET.HEEL_AP, one of the hero's pets moves up to T.PET.SPEED, a walk like any
+   * other (through the squad, around foes), and may end on its pilot's node.
+   */
+  /** Is this body (the pilot, or a pet of theirs) inside a vehicle? A pet on its riding pilot's node rides along. */
+  T.ridingWith = (m, h, body) => h.ride != null && (body === h || body.pos === h.pos);
+  /** Is this face Mounted? A pet card's face is Mounted when the trait face it was made from is. */
+  T.isMountedFace = (card, faceKey) =>
+    card.gear ? false : card.pet ? T.isMounted(T.CARD[card[faceKey].from], 'P') : T.isMounted(card, faceKey);
+  T.heelTargets = function (m, h, petUid) {
+    const p = T.petsOf(m, h).find((x) => x.uid === petUid);
+    if (!p || isAnchored(p) || T.ridingWith(m, h, p)) return [];
+    return T.reachableWalk(m, p, T.PET.SPEED, false);
+  };
+  T.canHeel = function (m, h, petUid) {
+    if (h.downed || h.rested) return { ok: false, why: h.downed ? 'downed' : 'resting' };
+    const p = T.petsOf(m, h).find((x) => x.uid === petUid);
+    if (!p) return { ok: false, why: 'no such pet' };
+    if (isAnchored(p)) return { ok: false, why: 'Anchored' };
+    if (T.ridingWith(m, h, p)) return { ok: false, why: 'riding with you' };
+    if (T.apValue(h) < T.PET.HEEL_AP) return { ok: false, why: 'need ' + T.PET.HEEL_AP + ' AP' };
+    const options = T.heelTargets(m, h, petUid);
+    if (!options.length) return { ok: false, why: 'nowhere to go' };
+    return { ok: true, options };
+  };
+  T.heel = function (m, h, petUid, node) {
+    const chk = T.canHeel(m, h, petUid);
+    if (!chk.ok) return chk;
+    if (!chk.options.includes(node)) return { ok: false, why: 'out of reach' };
+    const p = T.petsOf(m, h).find((x) => x.uid === petUid);
+    T.pay(h, T.PET.HEEL_AP);
+    const from = p.pos;
+    moveEntity(m, p, node, 'walk');
+    onHeroEnter(m, p, node);
+    say(m, `${h.name} calls ${p.name} to heel: ${from} → ${node}.`, 'hero');
+    T.afterAction(m);
+    return { ok: true };
+  };
   /** Can this hero take this basic action now? Returns { ok, why?, tg? } like T.canPlay. */
   T.canUseBasic = function (m, h, id, pick) {
     const b = T.BASIC_BY[id];
     if (!b) return { ok: false, why: 'unknown action' };
     if (h.downed || h.rested) return { ok: false, why: h.downed ? 'downed' : 'resting' };
+    if (h.ride != null) return { ok: false, why: 'inside a vehicle: its cards, or a Mounted face' };
     if (T.apValue(h) < b.ap) return { ok: false, why: 'need ' + b.ap + ' AP' };
     if (b.el && !T.canPay(h, b.ap, b.el, 1)) return { ok: false, why: 'needs ' + b.el + ' (or Omni)' };
     const tg = T.targetsFor(m, h, b.tgt, b, 0, 0, pick);
@@ -9663,22 +10644,40 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     T.afterAction(m);
     return { ok: true, ctx: rctx };
   };
+  /** What a gear ability costs, as a player reads it: omnicrystals from the purse, or banked Omni dice (2.108). */
+  T.gearCostText = (ab) => (ab.omni ? `${ab.omni} Omni` : 'free');
+  /** How a gear ability is used, in a few words: its cost, and whether it is played from the gear's card. */
+  T.gearUseText = (ab) =>
+    `${T.gearCostText(ab)} · ${T.onGearCard(ab) ? `on its card, cooldown ${ab.cd}` : 'from the gear, no cooldown'}`;
+  /** The line a shop shows under a piece of gear whose abilities sit on a card. */
+  T.gearCardNote = (g) => (g.card ? 'Its card joins your kit and counts toward the nine.' : '');
+  /** Whether this pilot can pay for and use this gear ability now, leaving aside its target. */
+  T.canUseGear = function (m, h, gi, ai) {
+    const g = h.gear[gi];
+    if (!g) return { ok: false };
+    const ab = T.GEAR_BY[g.id].abilities[ai];
+    if (h.downed || h.rested) return { ok: false, why: 'cannot act' };
+    if (h.ride != null) return { ok: false, why: 'inside a vehicle: its cards, or a Mounted face' };
+    // an ability with a cooldown is played from the gear's card in the kit (2.119), not from the gear
+    if (T.onGearCard(ab)) return { ok: false, why: 'on its card' };
+    if (g.cds[ai] > 0) return { ok: false, why: 'cooling' };
+    if (ab.omni && T.omniCount(h) < ab.omni) return { ok: false, why: 'need a banked Omni' };
+    return { ok: true };
+  };
   T.useGear = function (m, h, gi, ai, ctx) {
     const g = h.gear[gi];
     if (!g) return { ok: false };
     const def = T.GEAR_BY[g.id];
     const ab = def.abilities[ai];
-    if (h.downed || h.rested) return { ok: false, why: 'cannot act' };
-    if (g.cds[ai] > 0) return { ok: false, why: 'cooling' };
-    const seat = T.purseSeat(m, m.heroes.indexOf(h));
-    if (m.purses[seat] < ab.cost) return { ok: false, why: 'need ◇' };
+    const can = T.canUseGear(m, h, gi, ai);
+    if (!can.ok) return can;
     const tg = T.targetsFor(m, h, ab.tgt, ab, 0, 0, ctx && ctx.ally);
     if (tg.need !== 'none' && (!tg.options || !tg.options.length)) return { ok: false, why: 'no target' };
     const al = allyFor(m, tg, ctx);
     if (!al.ok) return al;
-    m.purses[seat] -= ab.cost;
+    if (ab.omni) T.pay(h, 0, 'O', ab.omni);
     g.cds[ai] = ab.cd;
-    say(m, `${h.name} uses ${def.name} — ${ab.n} (${ab.cost} ◇).`, 'hero');
+    say(m, `${h.name} uses ${def.name} — ${ab.n} (${T.gearCostText(ab)}).`, 'hero');
     fx(m, { t: 'gear', hero: h.uid });
     const rctx = ctx || {};
     Object.assign(rctx, { P: 0, E: 0 });
@@ -9705,6 +10704,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   /* ───────────────────────────── ROUND STRUCTURE ───────────────────────────── */
   T.beginRound = function (m) {
     m.round += 1;
+    if (m.vehicles) m.vehicles.forEach((v) => (v.used = [])); // a vehicle's cards are once a round
     m.phase = 'hero';
     say(m, `— Round ${m.round} —`, 'sys');
     // spawns
@@ -9776,7 +10776,6 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         T.mint(h, 'AP', en.val || 1);
       }
     }
-    if (h.states.Hover && !h.states.Hover.noAp) T.mint(h, 'AP', 1);
     if (!h.rolledAhead) T.rollDice(m, h);
     // keen sense
     if (T.boonVals(h, 'keen').length)
@@ -9849,6 +10848,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   };
   T.roundEnd = function (m) {
     m.phase = 'end';
+    // Dusk faces land now, after the foes have acted, in the order they were placed (2.115)
+    const dusk = m.dusk || [];
+    m.dusk = [];
+    for (const d of dusk) {
+      if (m.over) break;
+      const actor = m.heroes.find((h) => h.uid === d.uid) || (m.pets || []).find((p) => p.uid === d.uid && !p.dead);
+      const card = T.CARD[d.card];
+      if (!actor || !card) continue;
+      say(m, `At dusk, ${actor.name}'s ${card[d.face].n} lands.`, 'hero');
+      T.runEffects(m, actor, card[d.face].fx, { P: d.P, E: d.E, card, faceKey: d.face, node: d.node });
+    }
     // decoy strikes
     for (const d of m.decoys.slice()) {
       if (d.strike) {
@@ -9864,11 +10874,21 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     // wind: every unit moves 1 space downwind if it can (before hazards, so the wind can blow you into one)
     if (m.place && m.place.weather === 'wind') T.blowWind(m);
     // hazards
-    for (const h of T.liveHeroes(m))
-      if (m.board.nodes[h.pos].hazard && !hazardImmune(h)) {
-        say(m, `${h.name} is caught in the hazard.`, 'enemy');
-        const d = T.damage(m, null, h, R().HAZARD_DMG, { kind: 'true', trueDmg: true, label: 'floods over' });
-        m.stats.hazardDmg += d;
+    const hulls = new Set(); // a vehicle on a hazard is caught once, however many ride in it
+    for (const h of T.liveHeroes(m)) {
+      if (!m.board.nodes[h.pos].hazard || hazardImmune(h)) continue;
+      if (h.ride != null) {
+        if (hulls.has(h.ride)) continue;
+        hulls.add(h.ride);
+      }
+      say(m, `${h.name} is caught in the hazard.`, 'enemy');
+      const d = T.damage(m, null, h, hazardDmg(h), { kind: 'true', trueDmg: true, label: 'floods over' });
+      m.stats.hazardDmg += d;
+    }
+    for (const p of T.livePets(m))
+      if (m.board.nodes[p.pos].hazard && !hazardImmune(p)) {
+        say(m, `${p.name} is caught in the hazard.`, 'enemy');
+        T.damage(m, null, p, R().HAZARD_DMG, { kind: 'true', trueDmg: true, label: 'floods over' });
       }
     for (const e of T.liveEnemies(m))
       if (m.board.nodes[e.pos].hazard && !hazardImmune(e) && !e.boss) {
@@ -9876,16 +10896,30 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       }
     // Fields spring on whoever ends the round in them
     fieldsAtRoundEnd(m);
+    // Resonance: strong fades, fading is gone
+    if (m.air) for (const k of T.AIR_ELS) if (m.air[k] > 0) m.air[k]--;
     // Wounds bite, then drop by 1
-    for (const u of T.liveEnemies(m).concat(T.liveHeroes(m))) {
+    for (const u of T.liveEnemies(m).concat(T.liveHeroes(m), T.livePets(m))) {
       const w = st(u).Wound;
       if (!w) continue;
       const owner = unitBy(m, w.owner);
       T.damage(m, owner || null, u, w.n, { kind: 'true', trueDmg: true, label: `(${w.kind || 'wound'}) wounds` });
       if (w.heal && owner && owner.kind === 'hero' && !owner.downed)
         owner.hp = Math.min(owner.maxHp, owner.hp + w.heal);
-      w.n--;
+      if (w.stay > 0) w.stay--;
+      else w.n--;
       if (w.n <= 0) delete st(u).Wound;
+    }
+    // Rewind: regain what this round took since it was set, up to its cap
+    for (const h of T.liveHeroes(m)) {
+      const rw = st(h).Rewind;
+      if (!rw) continue;
+      const back = Math.min(rw.cap, rw.hp - h.hp);
+      if (back > 0) {
+        h.hp = Math.min(h.maxHp, h.hp + back);
+        say(m, `${h.name} recovers ${back} of what the round took.`, 'hero');
+      }
+      delete st(h).Rewind;
     }
     // objective: hold
     const ob = m.objective;
@@ -9957,6 +10991,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       }
     };
     m.heroes.forEach(tick);
+    T.livePets(m).forEach(tick);
     m.enemies
       .filter((e) => e.alive)
       .forEach((e) => {
@@ -10031,6 +11066,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         b.achieved = m.won && (m.stats.foundRound != null ? m.stats.foundRound : m.round) <= b.byRound;
       else if (b.id === 'noambush') b.achieved = m.stats.ambushDmg === 0;
       else if (b.id === 'dry') b.achieved = m.stats.hazardDmg === 0;
+      else if (b.id === 'intact') b.achieved = !m.stats.wrecks;
       else if (b.id === 'both') b.achieved = m.won && T.liveHeroes(m).length === 2;
       else if (b.id === 'spawners') b.achieved = !m.enemies.some((e) => e.type === 'spawner' && e.alive);
       if (!m.won) b.achieved = false;
@@ -10075,8 +11111,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       Thorns: `Thorns — ${[v.v ? `melee attackers take ${v.v}` : '', v.next ? `the next takes ${v.next}${v.push ? ' and is pushed ' + v.push : ''}` : ''].filter(Boolean).join('; ')}.`,
       Preempt: `Shield ${v.v} against the next hit${v.reflect ? ', and ' + v.reflect + ' of it goes back' : ''}${v.reposition ? ', and you step away' : ''}.`,
       Stasis: 'Stasis — untargetable.',
-      Hover: 'Hover — off the ground: hazards and Fields do not touch it; immune to push/pull.',
-      Weightless: 'Weightless — immune to force, Fields and hazards; may walk onto height.',
+      Hover:
+        'Hover — off the ground: hazards and Fields do not touch it, nothing pushes or pulls it, and its steps may take the ledges.',
+      Weightless:
+        'Hover — off the ground: hazards and Fields do not touch it, nothing pushes or pulls it, and its steps may take the ledges.',
       Morph: `Morph — strikes +${v.bonus}${v.reach ? ', reach 2' : ''}${v.climb ? ', can climb' : ''}.`,
       HazardImmune: 'Immune to hazards.',
       StatusImmune: 'Cleansed — no foe can Weaken or Anchor it while this lasts.',
@@ -10085,9 +11123,362 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       Engines: 'Engine running.',
       Empower: 'Empowered — next strike(s) boosted.',
       Linked: `Linked for ${v.t} — damage, pushes, pulls and heals on either reach the other.`,
-      Wound: `Wound ${v.n} — takes ${v.n} at round end, then the Wound drops by 1.`,
+      Wound: `Wound ${v.n} — takes ${v.n} at round end, then the Wound drops by 1${v.stay ? ` (it holds for ${v.stay} more round${v.stay === 1 ? '' : 's'} first)` : ''}.`,
+      Rewind: `At round end, regains what it lost since, up to ${v.cap}.`,
+      Holding: `Holding a foe for ${v.t}: when it walks, the foe is dragged along.`,
+      Held: `Held for ${v.t}: dragged along when its holder walks. It still acts.`,
+      Fixed: `Fixed for ${v.t}: repeats the same intent each round. It still acts.`,
     };
     return map[k] || k;
+  };
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
+/* ───── engine/vehicles.js ───── */
+/* ============================================================================
+   TUMULT — VEHICLES (rules)
+   Pocket vehicles on the big maps (Garrett, 2026-11-21). The data, and the
+   Mounted rule, are in src/data/vehicles.js; how a player resolves them by
+   hand is docs/reference/VEHICLES.md.
+
+   A mission that carries vehicles holds them in m.vehicles, plain data:
+     { uid, type, owner, pos, hull, driver, used }
+   owner: the hero index that picked it; driver: the uid of the rider driving, or null when it is parked;
+   used: the vehicle's cards played this round. A pilot inside has h.ride = the vehicle's uid, and stands on
+   its space; nothing else records who is in it, so nothing is held in two places.
+   ========================================================================== */
+(function (T) {
+  const B = T.Board;
+  const R = () => T.RULES;
+  const st = (ent) => ent.states;
+  const say = (m, text, who) => T.say(m, text, who);
+  const ENTER_AP = 1; // getting in, getting out and each Drive (Garrett: "1 ap to get in or out")
+  T.VEHICLE_AP = ENTER_AP;
+
+  T.vehicleOf = (m, h) => (h.ride != null && m.vehicles ? m.vehicles.find((v) => v.uid === h.ride) || null : null);
+  T.vehicleAt = (m, node) => (m.vehicles ? m.vehicles.find((v) => v.pos === node) || null : null);
+  T.ridersOf = (m, v) => m.heroes.filter((h) => h.ride === v.uid);
+  T.vehicleDef = (v) => T.VEHICLE_BY[v.type];
+
+  /** Can this vehicle stand on this space? Its ground, or high ground for one that flies there. */
+  T.vehicleCanEnter = function (board, v, node) {
+    const def = T.vehicleDef(v);
+    const n = board.nodes[node];
+    if (n.height) return !!def.height;
+    return def.ground.includes(n.terrain || 'open');
+  };
+  const footGround = (board, node) => {
+    const n = board.nodes[node];
+    return !n.height && (!n.terrain || T.TERRAIN[n.terrain].foot);
+  };
+
+  /** A rider's state from the vehicle (Hover for a Wing, HazardImmune in a sealed Crawler), for as long as they ride. */
+  function rideOn(h, v) {
+    const s = T.vehicleDef(v).ride;
+    if (s && !st(h)[s]) st(h)[s] = { t: 99, ride: true };
+  }
+  function rideOff(h) {
+    for (const k of Object.keys(st(h))) if (st(h)[k] && st(h)[k].ride) delete st(h)[k];
+    delete h.ride;
+  }
+  /**
+   * Pocket pets ride along (Garrett, 2026-11-21: "a pet on a player will ride with them even in a one seater"):
+   * the pets standing on their pilot's node go where the pilot goes, in and out, and take no seat.
+   */
+  function petsOn(m, h, node) {
+    return (T.petsOf ? T.petsOf(m, h) : []).filter((p) => !p.dead && p.pos === node);
+  }
+  function carryPets(pets, node) {
+    for (const p of pets) p.pos = node;
+  }
+  /** The next rider in squad order takes the controls when the driver gets out (or none: it is parked). */
+  function passControls(m, v) {
+    const r = T.ridersOf(m, v).find((x) => !x.downed);
+    v.driver = r ? r.uid : null;
+  }
+
+  /**
+   * The vehicles a mission starts with: `picks[i]` is the type hero i brings (or null). Each sets out from its
+   * pilot's start with the pilot inside when the ground there suits it; otherwise (a Diver on a beach) it waits on
+   * the nearest free space it can stand on, and its pilot boards it there.
+   */
+  T.setupVehicles = function (m, picks) {
+    m.vehicles = [];
+    m.heroes.forEach((h, i) => {
+      const type = picks[i];
+      if (!type || !T.VEHICLE_BY[type]) return;
+      const def = T.VEHICLE_BY[type];
+      const v = { uid: ++m.uids, type, owner: i, pos: null, hull: def.hull, driver: null, used: [] };
+      const bd = m.board;
+      if (T.vehicleCanEnter(bd, v, h.pos) && !T.vehicleAt(m, h.pos)) {
+        v.pos = h.pos;
+        m.vehicles.push(v);
+        h.ride = v.uid;
+        v.driver = h.uid;
+        rideOn(h, v);
+        return;
+      }
+      // the nearest free space it can stand on
+      const seen = new Set([h.pos]);
+      const q = [h.pos];
+      while (q.length) {
+        const x = q.shift();
+        for (const y of B.allNeighbors(bd, x)) {
+          if (seen.has(y)) continue;
+          seen.add(y);
+          if (T.vehicleCanEnter(bd, v, y) && !T.occupied(m, y)) {
+            v.pos = y;
+            m.vehicles.push(v);
+            return;
+          }
+          q.push(y);
+        }
+      }
+    });
+    if (m.vehicles.length)
+      say(
+        m,
+        'Vehicles: ' +
+          m.vehicles
+            .map(
+              (v) => `${m.heroes[v.owner].name} brings a ${T.vehicleDef(v).name}${v.driver ? '' : ' (parked nearby)'}`,
+            )
+            .join('; ') +
+          '.',
+        'sys',
+      );
+  };
+
+  /* ───────────── getting in and out ───────────── */
+  /** The vehicles this pilot could get into now: beside them, with a free seat. */
+  T.boardOptions = function (m, h) {
+    if (!m.vehicles || h.ride != null || h.downed || h.rested) return [];
+    if (T.isAnchored(h) || T.apValue(h) < ENTER_AP) return [];
+    return m.vehicles
+      .filter((v) => B.adjacent(m.board, h.pos, v.pos) && T.ridersOf(m, v).length < T.vehicleDef(v).seats)
+      .map((v) => v.uid);
+  };
+  T.board = function (m, h, uid) {
+    const v = m.vehicles && m.vehicles.find((x) => x.uid === uid);
+    if (!v) return { ok: false, why: 'no such vehicle' };
+    if (!T.boardOptions(m, h).includes(uid)) {
+      if (h.ride != null) return { ok: false, why: 'already inside' };
+      if (!B.adjacent(m.board, h.pos, v.pos)) return { ok: false, why: 'stand beside it' };
+      if (T.ridersOf(m, v).length >= T.vehicleDef(v).seats) return { ok: false, why: 'no free seat' };
+      return { ok: false, why: T.isAnchored(h) ? 'Anchored' : 'need 1 AP' };
+    }
+    T.pay(h, ENTER_AP);
+    const pets = petsOn(m, h, h.pos);
+    T.moveEntity(m, h, v.pos, 'board');
+    carryPets(pets, h.pos);
+    h.ride = v.uid;
+    if (v.driver == null) v.driver = h.uid;
+    rideOn(h, v);
+    say(
+      m,
+      `${h.name} gets into the ${T.vehicleDef(v).name}${v.driver === h.uid ? ' and takes the controls' : ''}.`,
+      'hero',
+    );
+    T.afterAction(m);
+    return { ok: true };
+  };
+  /** Where a pilot inside could get out: a free space beside the vehicle that can be walked on. */
+  T.leaveOptions = function (m, h) {
+    const v = T.vehicleOf(m, h);
+    if (!v || h.downed || h.rested || T.apValue(h) < ENTER_AP) return [];
+    return B.allNeighbors(m.board, v.pos).filter((n) => footGround(m.board, n) && !T.occupied(m, n));
+  };
+  T.leave = function (m, h, node) {
+    const v = T.vehicleOf(m, h);
+    if (!v) return { ok: false, why: 'not inside a vehicle' };
+    if (!T.leaveOptions(m, h).includes(node))
+      return { ok: false, why: T.apValue(h) < ENTER_AP ? 'need 1 AP' : 'nowhere to step' };
+    T.pay(h, ENTER_AP);
+    const pets = petsOn(m, h, h.pos);
+    rideOff(h);
+    if (v.driver === h.uid) passControls(m, v);
+    T.moveEntity(m, h, node, 'leave');
+    carryPets(pets, h.pos);
+    T.sightAround(m, h);
+    say(m, `${h.name} gets out of the ${T.vehicleDef(v).name}.`, 'hero');
+    T.afterAction(m);
+    return { ok: true };
+  };
+
+  /* ───────────── driving ───────────── */
+  /** Is the vehicle held? An Anchored rider holds it where it is. */
+  const held = (m, v) => T.ridersOf(m, v).some((r) => st(r).Anchored);
+  /**
+   * The spaces a Drive could end on: up to the vehicle's speed over its own ground, never through a foe, a decoy or
+   * another vehicle (a pilot on foot it passes), ending on a free space. For its driver only, for 1 AP.
+   */
+  T.driveOptions = function (m, h) {
+    const v = T.vehicleOf(m, h);
+    if (!v || v.driver !== h.uid || h.downed || h.rested || held(m, v) || T.apValue(h) < ENTER_AP) return [];
+    return T.driveReach(m, v);
+  };
+  T.driveReach = function (m, v) {
+    const bd = m.board;
+    const speed = T.vehicleDef(v).speed;
+    const blocked = new Set(
+      T.liveEnemies(m)
+        .map((e) => e.pos)
+        .concat(m.decoys.map((d) => d.pos))
+        .concat(m.vehicles.filter((o) => o !== v).map((o) => o.pos)),
+    );
+    const out = [];
+    const seen = new Set([v.pos]);
+    const q = [[v.pos, 0]];
+    while (q.length) {
+      const [x, d] = q.shift();
+      if (d >= speed) continue;
+      for (const y of B.allNeighbors(bd, x)) {
+        if (seen.has(y) || !T.vehicleCanEnter(bd, v, y) || blocked.has(y)) continue;
+        seen.add(y);
+        if (!T.occupied(m, y)) out.push(y);
+        q.push([y, d + 1]);
+      }
+    }
+    return out;
+  };
+  /** The way a Drive goes, space by space (shortest, then by space number), so every screen moves it alike. */
+  function drivePath(m, v, dest) {
+    const bd = m.board;
+    const blocked = new Set(
+      T.liveEnemies(m)
+        .map((e) => e.pos)
+        .concat(m.decoys.map((d) => d.pos))
+        .concat(m.vehicles.filter((o) => o !== v).map((o) => o.pos)),
+    );
+    const prev = { [v.pos]: null };
+    const q = [v.pos];
+    while (q.length) {
+      const x = q.shift();
+      for (const y of B.allNeighbors(bd, x)
+        .slice()
+        .sort((a, b) => a - b)) {
+        if (y in prev || !T.vehicleCanEnter(bd, v, y) || blocked.has(y)) continue;
+        prev[y] = x;
+        if (y === dest) {
+          const p = [dest];
+          let c = dest;
+          while (prev[c] !== null) p.unshift((c = prev[c]));
+          return p;
+        }
+        q.push(y);
+      }
+    }
+    return null;
+  }
+  T.drive = function (m, h, dest) {
+    const v = T.vehicleOf(m, h);
+    if (!v) return { ok: false, why: 'not inside a vehicle' };
+    if (v.driver !== h.uid) return { ok: false, why: 'someone else is driving' };
+    if (!T.driveOptions(m, h).includes(dest))
+      return { ok: false, why: held(m, v) ? 'Anchored' : T.apValue(h) < ENTER_AP ? 'need 1 AP' : 'out of reach' };
+    const path = drivePath(m, v, dest);
+    T.pay(h, ENTER_AP);
+    const riders = T.ridersOf(m, v);
+    for (let i = 1; i < path.length; i++) {
+      for (const r of riders) if (r.ride === v.uid) carryPets(petsOn(m, r, v.pos), path[i]);
+      v.pos = path[i];
+      for (const r of riders) if (r.ride === v.uid) T.moveEntity(m, r, path[i], 'drive');
+      if (!m.vehicles.includes(v)) break; // a Field on the way wrecked it
+    }
+    for (const r of riders) if (!r.downed) T.sightAround(m, r);
+    say(
+      m,
+      `${h.name} drives the ${T.vehicleDef(v).name} ${path.length - 1} space${path.length === 2 ? '' : 's'}.`,
+      'hero',
+    );
+    T.afterAction(m);
+    return { ok: true };
+  };
+
+  /* ───────────── the vehicle's cards ───────────── */
+  /** The vehicle cards this pilot could use now, as { id, card } (whether or not they are affordable). */
+  T.vehicleCards = function (m, h) {
+    const v = T.vehicleOf(m, h);
+    if (!v) return [];
+    return T.vehicleDef(v).cards.filter((c) => c.seat === 'any' || v.driver === h.uid);
+  };
+  T.canUseVehicleCard = function (m, h, id, pick) {
+    const v = T.vehicleOf(m, h);
+    if (!v) return { ok: false, why: 'not inside a vehicle' };
+    const c = T.vehicleDef(v).cards.find((x) => x.id === id);
+    if (!c) return { ok: false, why: 'not this vehicle' };
+    if (h.downed || h.rested) return { ok: false, why: 'cannot act' };
+    if (c.seat === 'driver' && v.driver !== h.uid) return { ok: false, why: 'the driver’s' };
+    if (v.used.includes(id)) return { ok: false, why: 'once a round' };
+    if (!T.canPay(h, c.ap, c.el, c.el ? 1 : 0)) return { ok: false, why: 'need ' + c.ap + ' AP' };
+    const tg = T.targetsFor(m, h, c.tgt, c, 0, 0, pick);
+    if (tg.invalid) return { ok: false, why: tg.invalid };
+    if (tg.need !== 'none' && (!tg.options || !tg.options.length)) return { ok: false, why: 'no valid target' };
+    return { ok: true, tg, card: c };
+  };
+  T.useVehicleCard = function (m, h, id, ctx) {
+    const chk = T.canUseVehicleCard(m, h, id, ctx && ctx.ally);
+    if (!chk.ok) return chk;
+    const v = T.vehicleOf(m, h);
+    const c = chk.card;
+    if (chk.tg.need === 'foe' && !(ctx && chk.tg.options.includes(ctx.target)))
+      return { ok: false, why: 'choose a target' };
+    T.pay(h, c.ap, c.el, c.el ? 1 : 0);
+    v.used.push(id);
+    say(m, `${h.name}: ${T.vehicleDef(v).name} — ${c.n} (${c.ap} AP).`, 'hero');
+    T.fx(m, { t: 'gear', hero: h.uid });
+    const rctx = Object.assign({}, ctx || {}, { P: 0, E: 0 });
+    T.runEffects(m, h, c.fx, rctx);
+    T.afterAction(m);
+    return { ok: true, ctx: rctx };
+  };
+
+  /* ───────────── the hull ───────────── */
+  T.hitHull = function (m, v, dmg) {
+    v.hull = Math.max(0, v.hull - dmg);
+    T.fx(m, { t: 'hull', vehicle: v.uid, amount: dmg, pos: v.pos });
+    if (v.hull <= 0) T.wreck(m, v);
+  };
+  /** A wrecked vehicle is gone; its riders are set down on its space, or the nearest free ground. */
+  T.wreck = function (m, v) {
+    const bd = m.board;
+    const riders = T.ridersOf(m, v);
+    m.vehicles = m.vehicles.filter((x) => x !== v);
+    m.stats.wrecks = (m.stats.wrecks || 0) + 1;
+    say(m, `The ${T.vehicleDef(v).name} is wrecked!`, 'enemy');
+    for (const r of riders) {
+      const pets = petsOn(m, r, r.pos);
+      rideOff(r);
+      let spot = null;
+      if (
+        footGround(bd, v.pos) &&
+        !T.liveEnemies(m).some((e) => e.pos === v.pos) &&
+        !m.heroes.some((x) => x !== r && x.pos === v.pos && !x.downed && x.ride == null)
+      )
+        spot = v.pos;
+      if (spot == null) {
+        const seen = new Set([v.pos]);
+        const q = [v.pos];
+        while (q.length && spot == null) {
+          const x = q.shift();
+          for (const y of B.allNeighbors(bd, x)
+            .slice()
+            .sort((a, b) => a - b)) {
+            if (seen.has(y)) continue;
+            seen.add(y);
+            if (footGround(bd, y) && !T.occupied(m, y)) {
+              spot = y;
+              break;
+            }
+            q.push(y);
+          }
+        }
+      }
+      if (spot != null && spot !== r.pos) T.moveEntity(m, r, spot, 'forced');
+      carryPets(pets, r.pos);
+      say(m, `${r.name} is thrown clear.`, 'enemy');
+    }
+    T.fx(m, { t: 'wreck', vehicle: v.uid, pos: v.pos });
   };
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
@@ -10107,7 +11498,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 
   /* ───────────────────────────── TARGET HELPERS ───────────────────────────── */
   function candidates(m) {
-    return T.liveHeroes(m).concat(m.decoys);
+    // a pet on its own pilot's node is out of reach (src/data/pets.js)
+    return T.liveHeroes(m).concat(m.decoys, T.exposedPets(m));
   }
   function dist(m, a, b) {
     return B.dist(m.board, a, b, true);
@@ -10131,7 +11523,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     return hs.slice().sort((a, b) => a.hp - b.hp)[0];
   }
   function zoneTargets(m, e) {
-    return candidates(m).filter((c) => B.los(m.board, e.pos, c.pos) && !(c.kind === 'hero' && T.isHidden(c)));
+    return candidates(m).filter(
+      (c) => B.los(m.board, e.pos, c.pos) && !((c.kind === 'hero' || c.kind === 'pet') && T.isHidden(c)),
+    );
   }
   function adjacentTargets(m, e) {
     return candidates(m).filter((c) => B.adjacent(m.board, e.pos, c.pos));
@@ -10145,6 +11539,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   /* ───────────────────────────── INTENTS ───────────────────────────── */
   T.chooseIntents = function (m) {
     for (const e of T.liveEnemies(m)) {
+      // a Fixed foe repeats the intent it was fixed on (same move, same target)
+      if (e.states.Fixed && e.states.Fixed.intent) {
+        e.intent = JSON.parse(JSON.stringify(e.states.Fixed.intent));
+        continue;
+      }
       const A = T.ENEMIES[e.type].abilities;
       let intent = null;
       const setI = (key, target, extra, opts) => {
@@ -10267,8 +11666,50 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         }
       }
       e.intent = intent;
+      // an aimed ability strikes the space its target stands on now, whoever stands there when it lands
+      if (intent && A[intent.key].aimed) T.aimIntent(m, e);
     }
   };
+  /**
+   * Aimed (2.103): the intent locks on the space its target stands on now. When it lands it strikes whoever
+   * stands there then, pilot or foe; on an empty space it misses. Only a melee or zone attack can be aimed.
+   */
+  T.aimIntent = function (m, e) {
+    const I = e.intent;
+    if (!I || I.aim != null || I.target == null) return false;
+    const ab = T.ENEMIES[e.type].abilities[I.key];
+    if (!ab || (ab.kind !== 'melee' && ab.kind !== 'los')) return false;
+    const t = findTarget(m, I.target);
+    if (!t) return false;
+    I.aim = t.pos;
+    I.label = `${ab.n} → node ${t.pos} (aimed)${I.label.replace(/^[^(]*/, ' ').trimEnd()}`;
+    return true;
+  };
+  function aimedStrike(m, e, ab, I) {
+    const at = I.aim;
+    if (ab.kind === 'melee') {
+      if (!B.adjacent(m.board, e.pos, at) && e.pos !== at) approach(m, e, at, e.speed);
+      if (!B.adjacent(m.board, e.pos, at)) {
+        if (e.alive) T.say(m, `${e.name} cannot reach node ${at}.`, 'enemy');
+        return;
+      }
+    } else {
+      if (!B.los(m.board, e.pos, at)) moveToZone(m, e, { pos: at }, e.speed);
+      if (!B.los(m.board, e.pos, at)) {
+        if (e.alive) T.say(m, `${e.name} has no line to node ${at}.`, 'enemy');
+        return;
+      }
+    }
+    if (!e.alive) return;
+    const v = T.entityAt(m, at);
+    if (!v || v === e || v.kind === 'decoy' || (v.kind === 'hero' && st(v).Stasis)) {
+      T.say(m, `${e.name}'s ${ab.n} lands on empty ground at node ${at}.`, 'enemy');
+      return;
+    }
+    if (v.kind === 'enemy') T.say(m, `${e.name}'s ${ab.n} lands on ${v.name}!`, 'enemy');
+    hit(m, e, ab, v);
+    if (T.isHidden(e)) delete st(e).Hidden;
+  }
 
   /* ───────────────────────────── EXECUTION ───────────────────────────── */
   function canMove(e) {
@@ -10289,6 +11730,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           .concat(
             T.liveHeroes(m).map((h) => h.pos),
             m.decoys.map((d) => d.pos),
+            T.livePets(m).map((p) => p.pos),
           ),
       );
       const p = B.path(m.board, e.pos, targetNode, blocked);
@@ -10335,7 +11777,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     if (dist(m, best, from.pos) > dist(m, e.pos, from.pos)) T.moveEntity(m, e, best, 'walk');
   }
   function findTarget(m, uid) {
-    return T.liveHeroes(m).find((h) => h.uid === uid) || m.decoys.find((d) => d.uid === uid) || null;
+    return (
+      T.liveHeroes(m).find((h) => h.uid === uid) ||
+      m.decoys.find((d) => d.uid === uid) ||
+      T.exposedPets(m).find((p) => p.uid === uid) ||
+      null
+    );
   }
   function hit(m, e, ab, t, opts) {
     const d = dmgOf(e, ab);
@@ -10344,7 +11791,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       opts || {},
     );
     const dealt = T.damage(m, e, t, d, o);
-    if (t.kind === 'hero' && !t.downed) {
+    if ((t.kind === 'hero' && !t.downed) || (t.kind === 'pet' && !t.dead)) {
       if (ab.push) T.pushAway(m, e, t, ab.push);
       if (ab.anchor) {
         if (!st(t).StatusImmune) {
@@ -10375,6 +11822,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       const ab = A[I.key];
       e.lastKey = I.key;
       e.bracedRecently = false;
+      if (I.aim != null && (ab.kind === 'melee' || ab.kind === 'los')) {
+        aimedStrike(m, e, ab, I);
+        e.intent = null;
+        T.checkEnd(m);
+        continue;
+      }
       let t = I.target != null ? findTarget(m, I.target) : null;
       if (t && t.kind === 'hero' && (t.downed || st(t).Stasis)) t = null;
       switch (ab.kind) {
@@ -10565,10 +12018,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     if (ob.kind === 'vault') {
       const canReach =
         m.board.ramp ||
-        h.cards.some(
-          (c) =>
-            T.CARD[c].E.fx.some((x) => (x.v === 'blink' && x.height) || x.v === 'climb') ||
-            T.CARD[c].P.fx.some((x) => x.v === 'climb'),
+        h.cards.some((c) =>
+          T.faceKeys(c).some((fk) =>
+            T.CARD[c][fk].fx.some(
+              (x) => (fk === 'E' && x.v === 'blink' && x.height) || (x.v === 'move' && x.climb) || x.v === 'hover',
+            ),
+          ),
         ) ||
         h.gear.some((g) => ['phasebrace', 'climbrig'].includes(g.id));
       return canReach ? { node: ob.node, needOn: true } : { node: ob.leverNode, needOn: false };
@@ -10582,16 +12037,21 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     }
     return null;
   }
+  // The heuristic has never used gear: since 2.119 a gear ability with a cooldown is a card in the kit, and the
+  // heuristic leaves those cards alone, so it plays as it did and the balance tables keep their meaning. The
+  // look-ahead player plays them like any other card (src/engine/lookahead.js).
+  const heuristicPlays = (cid) => !(T.CARD[cid] && T.CARD[cid].gear);
   function tryMoveToward(m, h, goal) {
     // 1) movement faces (cheap, long), 2) plain walk. Returns true if progressed.
     const cur = B.dist(m.board, h.pos, goal.node, true);
     if (cur === 0 || (!goal.needOn && cur <= 1)) return false;
     let best = null;
-    for (const cid of h.cards)
-      for (const fk of ['P', 'E']) {
+    for (const cid of h.cards.filter(heuristicPlays))
+      for (const fk of T.faceKeys(cid)) {
+        if (T.isPetCard(h, cid)) continue; // a pet's step moves the pet, not the pilot
         const card = T.CARD[cid],
           face = card[fk];
-        const mv = face.fx.find((x) => ['move', 'blink', 'climb'].includes(x.v));
+        const mv = face.fx.find((x) => ['move', 'blink'].includes(x.v));
         if (!mv || face.fx.some((x) => x.v === 'rest')) continue;
         const chk = T.canPlay(m, h, cid, fk);
         if (!chk.ok || chk.tg.need !== 'node' || !chk.tg.options.length) continue;
@@ -10615,6 +12075,64 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         const r = T.walk(m, h, nxt);
         if (r.ok) return true;
       }
+    }
+    return false;
+  }
+
+  /**
+   * The heuristic player in a vehicle (src/engine/vehicles.js): ride toward the objective, step out beside it to
+   * work it on foot, get back in when the next one is far; a rider fires the vehicle's guns at what it can hit.
+   * Returns true when it did something.
+   */
+  function autoVehicle(m, h, goal) {
+    if (!m.vehicles) return false;
+    const bd = m.board;
+    const d = (a, b) => B.dist(bd, a, b, true);
+    if (h.ride != null) {
+      const v = T.vehicleOf(m, h);
+      // the vehicle's cards: a strike at the weakest foe it can hurt
+      for (const c of T.vehicleCards(m, h)) {
+        const strike = c.fx.find((x) => x.v === 'strike');
+        if (!strike) continue;
+        const chk = T.canUseVehicleCard(m, h, c.id);
+        if (!chk.ok || chk.tg.need !== 'foe') continue;
+        const foe = pickFoe(m, h, chk.tg.options);
+        if (!foe || foe.shield >= strike.dmg()) continue;
+        if (T.useVehicleCard(m, h, c.id, { target: foe.uid }).ok) return true;
+      }
+      if (!goal) return false;
+      const cur = d(h.pos, goal.node);
+      // beside the goal: out onto it (or beside it), to work it on foot
+      const outs = T.leaveOptions(m, h);
+      if (cur <= 1 && outs.length) {
+        const spot =
+          outs.includes(goal.node) && goal.needOn
+            ? goal.node
+            : outs.sort((a, b) => d(a, goal.node) - d(b, goal.node) || a - b)[0];
+        if (d(spot, goal.node) <= (goal.needOn ? 0 : 1) && T.leave(m, h, spot).ok) return true;
+      }
+      if (v.driver === h.uid) {
+        // drive to a space beside the goal (or as near as it gets): never onto it, a post is worked on foot
+        const opts = T.driveOptions(m, h).filter((n) => n !== goal.node);
+        const score = (n) => Math.max(1, d(n, goal.node));
+        const best = opts.sort((a, b) => score(a) - score(b) || a - b)[0];
+        if (best != null && score(best) < Math.max(1, cur) && T.drive(m, h, best).ok) return true;
+      }
+      // a passenger beside the goal, or a driver who can get no nearer: out, if the goal is a step or two away
+      if (outs.length && cur <= 2) {
+        const spot = outs.sort((a, b) => d(a, goal.node) - d(b, goal.node) || a - b)[0];
+        if (d(spot, goal.node) < cur && T.leave(m, h, spot).ok) return true;
+      }
+      return false;
+    }
+    // on foot: back into a vehicle beside you when the goal is far
+    if (goal && d(h.pos, goal.node) > 2) {
+      const mine = T.boardOptions(m, h).sort(
+        (a, b) =>
+          (m.vehicles.find((v) => v.uid === b).owner === m.heroes.indexOf(h)) -
+          (m.vehicles.find((v) => v.uid === a).owner === m.heroes.indexOf(h)),
+      )[0];
+      if (mine != null && T.apValue(h) >= 2 && T.board(m, h, mine).ok) return true;
     }
     return false;
   }
@@ -10646,6 +12164,40 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   };
   const pickAll = (m) => m.heroes.forEach((h) => !m.over && T.autoRollPick(m, h));
 
+  /**
+   * The weak player's use of dice as AP (T.spendAsAP): when a face in hand is short only of AP, and spare Omni or
+   * etherion pairs would make it up, spend one of them (an etherion pair first, keeping Omni) and look again.
+   */
+  function asAPForFace(m, h) {
+    for (const cid of h.cards) {
+      if (!T.inHand(h, cid)) continue;
+      for (const fk of T.faceKeys(cid)) {
+        const card = T.CARD[cid];
+        const f = card[fk];
+        if (fk === 'E' && T.heroE(h, cid) < T.RULES.ETHEREAL_MIN_E) continue;
+        const elt = f.elt || card.el;
+        const eln = f.el || 0;
+        if (!T.payableAsAP(h, f.ap, elt, eln)) continue;
+        // sketch it on a copy: spend until the face is paid for, and only if it then has something to do
+        const c = T.clone(h);
+        let first = null;
+        for (let g = 0; g < 8 && !T.canPay(c, f.ap, elt, eln); g++) {
+          const dice = T.apSpends(c)
+            .sort((x, y) => y.length - x.length)
+            .find((d) => {
+              const t = T.clone(c);
+              T.spendAsAP(null, t, d);
+              return T.canPay(t, f.ap, elt, eln) || T.payableAsAP(t, f.ap, elt, eln);
+            });
+          if (!dice) break;
+          T.spendAsAP(null, c, dice);
+          first = first || dice;
+        }
+        if (first && T.canPlay(m, c, cid, fk).ok) return T.spendAsAP(m, h, first).ok;
+      }
+    }
+    return false;
+  }
   T.autoHeroPhase = function (m) {
     for (const h of m.heroes) {
       if (h.downed || m.over) continue;
@@ -10657,6 +12209,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           T.rally(m, h);
           continue;
         }
+        // 1b. a vehicle: ride toward the objective, step out to work it
+        if (autoVehicle(m, h, objectiveGoal(m, h))) continue;
         // 2. interact
         const ob = m.objective;
         let didInteract = false;
@@ -10688,10 +12242,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         if (goal && (m.clock || (ob && ob.kind === 'find')) && (!adjFoe || h.carrying)) {
           if (tryMoveToward(m, h, goal)) continue;
         }
+        // 3b. spare dice as AP, when that pays for a face in hand the bank cannot pay for yet
+        if (asAPForFace(m, h)) continue;
         // 4. best face
         let best = null;
-        for (const cid of h.cards) {
-          for (const fk of ['P', 'E']) {
+        for (const cid of h.cards.filter(heuristicPlays)) {
+          for (const fk of T.faceKeys(cid)) {
             const chk = T.canPlay(m, h, cid, fk);
             if (!chk.ok) continue;
             const card = T.CARD[cid],
@@ -10765,7 +12321,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
               )[0];
               ctx.node = node;
               score = 1.5;
-            } else if (face.fx.some((x) => x.v === 'blink' || x.v === 'climb' || x.v === 'move')) {
+            } else if (face.fx.some((x) => x.v === 'blink' || x.v === 'move')) {
               const goal =
                 objectiveNode(m) ||
                 (T.liveEnemies(m)[0]
@@ -10869,6 +12425,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
        gear      { gear, ability, target?, node?, choice? }
        item      { item }
        valve     {}                 fold one of each etherion into an Omni
+       asAP      { dice }           one banked Omni, or two banked etherions (indices), become 1 AP
+       board     { vehicle }        get into a vehicle beside you (its uid)
+       leave     { node }           get out onto a space beside it
+       drive     { node }           drive it there (the driver)
+       vcard     { id, target? … }  one of the vehicle's cards
      A list of them, applied in order to the same mission, replays it. */
 
   /** Every way to resolve one face or gear ability: its targets, and push-or-pull where it asks. */
@@ -10909,7 +12470,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       if (h.downed || h.rested) return;
       const ap = T.apValue(h);
       for (const card of h.cards)
-        for (const face of ['P', 'E']) {
+        for (const face of T.faceKeys(card)) {
           const chk = T.canPlay(m, h, card, face);
           if (!chk.ok) continue;
           for (const r of resolutionsByAlly(chk.tg, T.CARD[card][face], (a) => T.canPlay(m, h, card, face, a).tg))
@@ -10917,9 +12478,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         }
       // up to 3 paid steps, plus every free step a face has granted (a free move of 4 or 5 is walked in full)
       const steps = Math.min(3, Math.floor(ap / R().MOVE_AP)) + (h.freeMove || 0);
-      if (steps > 0 && !T.isAnchored(h))
+      const onFoot = h.ride == null; // inside a vehicle: its moves and cards, and Mounted faces (below)
+      if (steps > 0 && onFoot && !T.isAnchored(h))
         for (const node of T.reachableWalk(m, h, steps, false)) out.push({ t: 'walk', hero, node });
-      for (const node of [h.pos].concat(B.walkNeighbors(m.board, h.pos))) {
+      for (const node of onFoot ? [h.pos].concat(B.walkNeighbors(m.board, h.pos)) : []) {
         const nd = m.board.nodes[node];
         if (!nd.objective || (node !== h.pos && nd.height)) continue;
         if (!worthInteracting(m, nd.objective, h)) continue;
@@ -10937,12 +12499,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           for (const r of resolutionsByAlly(chk.tg, b, (a) => T.canUseBasic(m, h, b.id, a).tg))
             out.push(Object.assign({ t: 'basic', hero, basic: b.id }, r));
       }
+      // Heel: a pet walks up to its speed (src/data/pets.js)
+      for (const p of T.petsOf(m, h)) {
+        const hc = T.canHeel(m, h, p.uid);
+        if (hc.ok) for (const node of hc.options) out.push({ t: 'heel', hero, pet: p.uid, node });
+      }
       const ally = T.downedAllyOf(m, h);
-      if (ally && ally.downed && ap >= R().RALLY_AP && B.adjacent(m.board, h.pos, ally.pos))
+      if (onFoot && ally && ally.downed && ap >= R().RALLY_AP && B.adjacent(m.board, h.pos, ally.pos))
         out.push({ t: 'rally', hero });
       h.gear.forEach((g, gear) =>
         T.GEAR_BY[g.id].abilities.forEach((ab, ability) => {
-          if (g.cds[ability] > 0 || T.crystalsFor(m, hero) < ab.cost) return;
+          if (!onFoot || !T.canUseGear(m, h, gear, ability).ok) return;
           const tg = T.targetsFor(m, h, ab.tgt, ab, 0, 0);
           if (tg.invalid || (tg.need !== 'none' && !(tg.options && tg.options.length))) return;
           for (const r of resolutionsByAlly(tg, ab, (a) => T.targetsFor(m, h, ab.tgt, ab, 0, 0, a)))
@@ -10953,6 +12520,19 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         if (h.consumables.indexOf(id) === item) out.push({ t: 'item', hero, item }); // two of a kind are one choice
       });
       if (ETHERIONS.every((f) => h.held.includes(f))) out.push({ t: 'valve', hero });
+      if (!h.downed) for (const dice of T.apSpends(h)) out.push({ t: 'asAP', hero, dice });
+      // a vehicle (src/engine/vehicles.js): get in, get out, drive, and its cards
+      if (m.vehicles) {
+        for (const vehicle of T.boardOptions(m, h)) out.push({ t: 'board', hero, vehicle });
+        for (const node of T.leaveOptions(m, h)) out.push({ t: 'leave', hero, node });
+        for (const node of T.driveOptions(m, h)) out.push({ t: 'drive', hero, node });
+        for (const c of T.vehicleCards(m, h)) {
+          const chk = T.canUseVehicleCard(m, h, c.id);
+          if (chk.ok)
+            for (const r of resolutionsByAlly(chk.tg, c, (a) => T.canUseVehicleCard(m, h, c.id, a).tg))
+              out.push(Object.assign({ t: 'vcard', hero, id: c.id }, r));
+        }
+      }
     });
     return out;
   };
@@ -10996,6 +12576,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         return T.doInteract(m, h, a.node, false, a.pay);
       case 'rally':
         return T.rally(m, h);
+      case 'heel':
+        return T.heel(m, h, a.pet, a.node);
       case 'basic':
         return T.useBasic(m, h, a.basic, ctx);
       case 'gear':
@@ -11004,6 +12586,16 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         return T.useConsumable(m, h, a.item);
       case 'valve':
         return { ok: T.valve(m, h) };
+      case 'asAP':
+        return T.spendAsAP(m, h, a.dice);
+      case 'board':
+        return T.board(m, h, a.vehicle);
+      case 'leave':
+        return T.leave(m, h, a.node);
+      case 'drive':
+        return T.drive(m, h, a.node);
+      case 'vcard':
+        return T.useVehicleCard(m, h, a.id, ctx);
       case 'pick': // the dice of the pilot's next roll (T.setRollPick)
         return T.setRollPick(h, a.kinds);
       default:
@@ -11015,7 +12607,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const h = m.heroes[a.hero];
     const at = a.node != null ? ` → node ${a.node}` : '';
     const who = (uid) => {
-      const e = m.enemies.concat(m.heroes, m.decoys).find((x) => x.uid === uid);
+      const e = m.enemies.concat(m.heroes, m.decoys, m.pets || []).find((x) => x.uid === uid);
       return e ? ` → ${e.name}` : '';
     };
     const tail =
@@ -11028,7 +12620,14 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       const def = T.GEAR_BY[h.gear[a.gear].id];
       return `${h.name}: ${def.name} — ${def.abilities[a.ability].n}${tail}`;
     }
+    if (a.t === 'vcard') {
+      const v = T.vehicleOf(m, h);
+      const c = v && T.vehicleDef(v).cards.find((x) => x.id === a.id);
+      return `${h.name}: ${c ? c.n : a.id}${tail}`;
+    }
+    if (a.t === 'board') return `${h.name}: gets in`;
     if (a.t === 'pick') return `${h.name}: next roll ${(a.kinds || []).join(', ') || 'at random'}`;
+    if (a.t === 'heel') return `${h.name}: Heel ${who(a.pet).slice(3)}${at}`;
     if (a.t === 'item') return `${h.name}: ${T.CONSUMABLE_BY[h.consumables[a.item]].name}`;
     return `${h.name}: ${a.t}${at}`;
   };
@@ -11123,6 +12722,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     // bonus not yet used, a foe Marked for some rounds — counts at this share of what it will be worth, so a set-up
     // is not scored as nothing just because it pays off later than the round being looked at.
     ahead: 0.6,
+    petHp: 0.5, // per point of a pet's vitality: it soaks blows and acts, but it is not a pilot
+    petDead: 12, // a pet lost is its card lost for the rest of the mission
     spare: 0.5, // per temporary die minted and not yet spent, while the search is still choosing (see loose)
   };
   /** What a hero has bought for later rounds, in points before the `ahead` share. */
@@ -11152,10 +12753,14 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       s += W.heroHp * h.hp;
       const kept = T.apValue(h) + ETHERIONS.concat('O').reduce((n, f) => n + T.elCount(h, f), 0);
       s += W.dice * Math.min(kept, 4) + W.hoard * Math.max(0, kept - 4);
-      s -= W.cooldown * h.track.reduce((n, t) => n + t.left + (t.phase === 'dur' ? t.cd : 0), 0);
+      // a burnt card is gone for the mission: it weighs as a card at the far end of the track
+      s -=
+        W.cooldown *
+        h.track.reduce((n, t) => n + (t.phase === 'burnt' ? 6 : t.left + (t.phase === 'dur' ? t.cd : 0)), 0);
       s += W.item * h.consumables.length;
       s += W.ahead * banked(m, h);
     }
+    for (const p of m.pets || []) s += p.dead ? -W.petDead : W.petHp * p.hp;
     // a Mark is 2 damage already bought: the next hit on that foe, by anyone, deals it
     for (const e of m.enemies)
       if (e.alive) {
@@ -11449,6 +13054,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
    */
   T.joinPilot = function (run, i, h) {
     const others = run.heroes.filter((x, j) => x && j !== i);
+    if (h.setOut == null && T.pilotPower(h)) h.setOut = T.pilotPower(h); // what it came with, before catching up
     const behind = others.length ? Math.min(...others.map(T.pilotPower)) - T.pilotPower(h) : 0;
     if (behind > 0) h.upUnspent = (h.upUnspent || 0) + behind;
     if (h.level == null) h.level = 1;
@@ -11624,9 +13230,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     item: (run, m, h, c) => T.useConsumable(m, h, c.ci),
     interact: (run, m, h, c) => T.doInteract(m, h, c.node, false, c.pay),
     rally: (run, m, h) => T.rally(m, h),
+    heel: (run, m, h, c) => T.heel(m, h, c.pet, c.node),
     note: (run, m, h, c) => T.addNote(m, c.hero, c.text),
     rollPick: (run, m, h, c) => T.setRollPick(h, c.kinds),
     valve: (run, m, h) => ({ ok: !!T.valve(m, h) }),
+    asAP: (run, m, h, c) => T.spendAsAP(m, h, c.dice),
     dump: (run, m, h, c) => (T.dump(m, h, c.di), { ok: true }),
     reroll: (run, m, h, c) => (c.picked.length && T.rerollHeld(m, h, c.picked), { ok: true }),
     walk: (run, m, h, c) => {
@@ -11636,13 +13244,21 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       h.freeMove = 0;
       return r;
     },
+    // in a vehicle (src/engine/vehicles.js)
+    board: (run, m, h, c) => T.board(m, h, c.vehicle),
+    leave: (run, m, h, c) => T.leave(m, h, c.node),
+    drive: (run, m, h, c) => T.drive(m, h, c.node),
+    vcard: (run, m, h, c) => T.useVehicleCard(m, h, c.id, c.ctx),
     // between missions
+    pickVehicle: (run, m, h, c) => T.pickVehicle(run, c.hero, c.vehicle),
     adjustUp: (run, m, h, c) => T.adjustUp(h, c.card, c.which, c.delta),
     autoUp: (run, m, h) => (T.autoAllocate(h), { ok: true }),
     sellGear: (run, m, h, c) => (T.sellGear(run, c.hero, c.gi), { ok: true }),
+    loadCard: (run, m, h, c) => T.changeLoadout(run, c.hero, c.card, typeof c.out === 'string' ? c.out : null),
     takeCard: (run, m, h, c) => T.takeOfferedCard(run, c.card, c.hero, typeof c.drop === 'string' ? c.drop : undefined),
     skipCard: (run, m, h, c) => T.skipOfferedCard(run, c.hero),
     buyGear: (run, m, h, c) => T.buyGear(run, c.gear, c.hero),
+    adoptPet: (run, m, h, c) => T.adoptPet(run, c.hero, typeof c.drop === 'string' ? c.drop : undefined),
     evTakeCard: (run, m, h, c) => {
       const r = T.addCard(h, c.card);
       if (r.ok && run.event && run.event.followup) run.event.followup.done = true;
@@ -11657,12 +13273,18 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'item',
     'interact',
     'rally',
+    'heel',
     'valve',
+    'asAP',
     'dump',
     'reroll',
     'walk',
+    'board',
+    'leave',
+    'drive',
+    'vcard',
   ]);
-  T.COMMAND_OPS = Object.keys(HERO_OPS).concat(['ready', 'addHero', 'rounds']);
+  T.COMMAND_OPS = Object.keys(HERO_OPS).concat(['ready', 'addHero', 'rounds', 'setOut']);
 
   T.execCommand = function (run, cmd, seats) {
     const op = cmd && cmd.op;
@@ -11697,6 +13319,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       T.endHeroPhase(m);
       m.heroes.forEach((x) => (x.freeMove = 0));
       return { ok: true, ended: true };
+    }
+    if (op === 'setOut') {
+      // the squad has its vehicles: the mission begins (the host's call, as how rounds go is)
+      if (run.phase !== 'garage') return { ok: false, why: 'not now' };
+      if (run.party && !T.mayLead(run, seats)) return { ok: false, why: `${run.party.players[0].name} sets out.` };
+      return T.leaveGarage(run);
     }
     if (op === 'rounds') {
       // how rounds go is the host's choice, and may change at any time; a turn under way is let go
@@ -11794,33 +13422,61 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
    more hands, so the mission brings more to do and more to fight; pilots who
    come back from earlier expeditions bring their growth, and the mission grows
    to meet it. Every rule here is a number a table can work out before play:
-   the squad's size and its level, then a few additions to the mission.
+   the squad's power (its pilots' power, added up) and the chosen difficulty,
+   then a few additions to the mission.
    Board shape, and the seed that names it, never change: what scales is what
    stands on the board and what the objective asks (docs/reference/SCALING.md).
    ========================================================================== */
 (function (T) {
   /**
-   * The formulas, as data. `size` is the squad's pilots past the two every mission is written for;
-   * `level` is the squad's renown, its pilots' levels past 1, averaged and rounded down (T.squadLevel).
-   *  - hp:    each foe's vitality grows by this share, per pilot past two and per level.
-   *  - foes:  extra foes, per pilot past two and per level (rounded down).
+   * The formulas, as data. An expedition is sized, as it sets out, from two things: the squad's **power**, the
+   * sum of its pilots' power (T.pilotPowerFor: PILOT for a new pilot, one more for every level past 1), and the
+   * difficulty the players chose (the tide, T.TIDES, which shapes clocks and objectives tier by tier). Every
+   * mission is written for two new pilots, power 2 × PILOT; each point of power past that adds, to every mission:
+   *  - hp:    each foe's vitality grows by this share.
+   *  - foes:  extra foes (rounded down).
    *  - need:  more to do: the objective's count (seals, rounds held, caches, docks, marks), likewise.
    *  - swarm: a swarm's cap grows by this, likewise.
+   * One more new pilot is PILOT points (+50% vitality, 2 foes, 1 more to do, a swarm 1 larger); a level is 1.
    */
   T.SCALING = {
     BASE_SQUAD: 2,
+    PILOT: 10, // a new pilot's power
     LEVEL_UP: 6, // points of growth a level (T.pilotLevel): about what a tier of a run gives
+    ROAD_UP: 3, // points of growth the route expects a pilot to gain for every row it has come (tools/sim.js runs)
     CARD_UP: 2, // a trait past the first six counts as this many points
-    size: { hp: 0.5, foes: 2, need: 1, swarm: 1 },
-    level: { hp: 0.05, foes: 0.25, need: 0.25, swarm: 0.25 },
-    // the Heart: its chamber has no objective to grow, so a bigger squad meets more of the fight itself. Per pilot
-    // past two, the Heart's foes take this much more vitality on top of `size.hp`, and its extras are `foes` of the usual.
-    boss: { hp: 0.2, foes: 0.5 },
+    power: { hp: 0.05, foes: 0.2, need: 0.1, swarm: 0.1 },
+    // the Heart: its chamber has no objective to grow, so a stronger squad meets more of the fight itself. Per point
+    // of power, the Heart's foes take this much more vitality on top of `power.hp`, and its extras are `foes` of the usual.
+    boss: { hp: 0.02, foes: 0.5 },
   };
 
   /** How many pilots fly in this run (a squad is two to five). */
   T.squadSize = (run) => Math.max(run.heroes.length, run.party ? run.party.owner.length : 0, 1);
-  /** The squad's level past 1, averaged over its pilots and rounded down (pilots new to the road are level 1). */
+  /**
+   * A pilot's power for a mission. As it sets out: PILOT, and one more for every level past 1 it came with
+   * (h.level, fixed as it sets out). On the road it keeps growing, and the route already expects that: about
+   * ROAD_UP points for every row behind the stop (a tier's worth, LEVEL_UP a tier, where the stop's row is not
+   * known). Growth past that counts too, a level for every LEVEL_UP points, so a squad that grows faster than the
+   * road meets missions that grow with it; one that grows slower never brings less than it set out with.
+   * `at` is { tier, row } of the mission; with neither, the power it set out with.
+   */
+  T.pilotPowerFor = function (h, at) {
+    const S = T.SCALING;
+    const setOut = Math.max(0, ((h && h.level) || 1) - 1);
+    if (!at || (!at.tier && at.row == null)) return S.PILOT + setOut;
+    const from = h.setOut != null ? h.setOut : setOut * S.LEVEL_UP; // growth points it set out with
+    const expected = at.row != null ? at.row * S.ROAD_UP : (at.tier - 1) * S.LEVEL_UP;
+    const ahead = Math.floor((T.pilotPower(h) - from - expected) / S.LEVEL_UP);
+    return S.PILOT + setOut + Math.max(0, ahead);
+  };
+  /** The squad's power: the sum of its pilots' (a seat whose pilot is still drafting counts as a new pilot). */
+  T.squadPower = function (run, at) {
+    const hs = run.heroes.filter(Boolean);
+    const waiting = Math.max(0, T.squadSize(run) - hs.length);
+    return hs.reduce((s, h) => s + T.pilotPowerFor(h, at), 0) + waiting * T.SCALING.PILOT;
+  };
+  /** The squad's level past 1, averaged over its pilots and rounded down (what the route and pilot cards show). */
   T.squadLevel = function (run) {
     const hs = run.heroes.filter(Boolean);
     if (!hs.length) return 0;
@@ -11828,18 +13484,21 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     return Math.floor(sum / hs.length);
   };
   /**
-   * What the squad adds to a mission: { size, level, hp (percent), foes, need, swarm }.
-   * Two new pilots add nothing: hp 100, and zero of everything else.
+   * What the squad adds to a mission at `at` ({ tier, row }): { size, power, over, hp (percent), foes, need, swarm }.
+   * `over` is the squad's power past two new pilots'. Two new pilots add nothing: hp 100, and zero of everything
+   * else. With no tier, what it adds as the expedition sets out.
    */
-  T.scaleFor = function (run) {
+  T.scaleFor = function (run, at) {
     const S = T.SCALING;
     const size = Math.max(0, T.squadSize(run) - S.BASE_SQUAD);
-    const level = T.squadLevel(run);
-    const add = (k) => Math.floor(size * S.size[k] + level * S.level[k] + 1e-9);
+    const power = T.squadPower(run, at);
+    const over = Math.max(0, power - S.BASE_SQUAD * S.PILOT);
+    const add = (k) => Math.floor(over * S.power[k] + 1e-9);
     return {
       size,
-      level,
-      hp: Math.round(100 * (1 + size * S.size.hp + level * S.level.hp)),
+      power,
+      over,
+      hp: Math.round(100 * (1 + over * S.power.hp)),
       foes: add('foes'),
       need: add('need'),
       swarm: add('swarm'),
@@ -11869,7 +13528,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const enemyAt = new Set(spec.enemies.map((e) => e.node));
     const free = (id, onGoal) => {
       const n = b.nodes[id];
-      return n && !n.height && !n.hazard && (onGoal || !n.objective) && !n.spawn && !enemyAt.has(id);
+      return n && !n.height && !n.hazard && !n.terrain && (onGoal || !n.objective) && !n.spawn && !enemyAt.has(id);
     };
     // a start for every pilot: the mission's own first, then free spaces from the front column back
     if (spec.starts.length < pilots) {
@@ -11885,7 +13544,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         .concat(ids.filter((id) => !taken.has(id) && !free(id) && free(id, true)).sort(order));
       spec.starts = spec.starts.concat(near.slice(0, pilots - spec.starts.length));
     }
-    const hp = spec.isBoss ? sc.hp + Math.round(100 * sc.size * T.SCALING.boss.hp) : sc.hp;
+    const hp = spec.isBoss ? sc.hp + Math.round(100 * sc.over * T.SCALING.boss.hp) : sc.hp;
     if (hp !== 100) spec.foeHp = hp;
     // the Heart's chamber takes half as many extras, from its own spawn: its fight is the Heart and its Spawners
     const extras = spec.isBoss ? Math.floor(sc.foes * T.SCALING.boss.foes + 1e-9) : sc.foes;
@@ -11897,7 +13556,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         const taken = new Set(spec.enemies.map((e) => e.node).concat(spec.starts));
         const open = (key) => {
           const id = b.at[key];
-          return !taken.has(id) && b.nodes[id] && !b.nodes[id].hazard && !b.nodes[id].objective;
+          const n = b.nodes[id];
+          return !taken.has(id) && n && !n.hazard && !n.objective && (!n.terrain || T.TERRAIN[n.terrain].foot);
         };
         // the back two columns, as the tides' escorts stand; a board full there takes them past the front column
         let spots = Object.keys(b.at).filter((key) => +key.split(',')[0] >= b.cols - 2 && open(key));
@@ -11992,6 +13652,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       row.forEach((id) => {
         const n = all[id];
         if (n.type === 'haven' || n.type === 'event') return;
+        if (T.MISSIONS[n.type] && T.MISSIONS[n.type].big) {
+          // a big-map mission goes on a big page, of the leg's ground if there is one, from a stream of its own
+          const big = T.BIG_ATLAS.filter((p) => p.ground === ground);
+          n.page = T.runStream(run, 'bigmap').pick((big.length ? big : T.BIG_ATLAS).map((p) => p.id));
+          return;
+        }
         const before = Object.values(all)
           .filter((m) => m.next.includes(id))
           .map((m) => m.page);
@@ -12201,7 +13867,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const cap = R().MAX_PER_SPECIES;
     const load = {};
     const slot = {};
-    const ids = cards.slice().sort((a, b) => T.CARD[a].clades.length - T.CARD[b].clades.length);
+    // a pet's or a piece of gear's card counts toward the nine, not toward a clade (src/data/pets.js)
+    const ids = cards
+      .filter((id) => !T.isKinless(id))
+      .sort((a, b) => T.CARD[a].clades.length - T.CARD[b].clades.length);
     const place = (i) => {
       if (i === ids.length) return true;
       for (const sp of T.CARD[ids[i]].clades) {
@@ -12228,18 +13897,39 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     if (!c) return { ok: false, why: 'unknown' };
     const mine = c.clades.filter((sp) => h.species.includes(sp));
     if (!mine.length) return { ok: false, why: 'not your bloodline' };
-    if (h.cards.includes(cardId)) return { ok: false, why: 'already held' };
+    if (T.holds(h, cardId)) return { ok: false, why: 'already held' };
     if (h.cards.length >= R().MAX_CARDS) return { ok: false, why: 'kit is full (9)' };
     if (!T.cladeSlots(h, h.cards.concat(cardId)))
       return { ok: false, why: `already 3 of 9 from ${mine.map((sp) => T.SPECIES[sp].name).join(' and ')}` };
     return { ok: true };
   };
+  /**
+   * A pilot keeps every trait it earns (Garrett, 2026-11-21: "all old cards are kept, but only 9 cards can be
+   * taken into a mission"). h.cards is what flies this mission, at most MAX_CARDS; h.reserve holds the rest,
+   * left behind with their points still on them. Between missions any of them can change places (T.loadCard).
+   */
+  T.reserveOf = (h) => h.reserve || (h.reserve = []);
+  /** Every trait a pilot holds: those it flies with and those in reserve. */
+  T.collection = (h) => h.cards.concat(h.reserve || []);
+  T.holds = (h, cardId) => h.cards.includes(cardId) || (h.reserve || []).includes(cardId);
+  /** Can this trait join the pilot at all: its bloodline, not held, and some kit of nine could fly it? */
+  T.canCollect = function (h, cardId) {
+    const r = T.canAddCard(h, cardId);
+    if (r.ok || ['unknown', 'not your bloodline', 'already held'].includes(r.why)) return r;
+    return T.swapDrops(h, cardId).length ? { ok: true } : { ok: false, why: 'that would break the 3-of-9 cap' };
+  };
+  /** A new trait joins the kit when it has room, and the reserve when it is full. */
   T.addCard = function (h, cardId) {
     const r = T.canAddCard(h, cardId);
-    if (!r.ok) return r;
-    h.cards.push(cardId);
+    if (r.ok) {
+      h.cards.push(cardId);
+      h.up[cardId] = [0, 0];
+      return { ok: true };
+    }
+    if (!T.canCollect(h, cardId).ok) return r;
+    T.reserveOf(h).push(cardId);
     h.up[cardId] = [0, 0];
-    return { ok: true };
+    return { ok: true, reserve: true };
   };
   /**
    * A trait taken twice carries h.bound[id] = [n, spent]: n points that only it may use, of which `spent`
@@ -12257,47 +13947,80 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     return b ? b[0] - b[1] : 0;
   };
   /**
-   * A trait leaves the kit (an exchange, a molt or a trade): every upgrade point on it comes back to spend
-   * again, and so do the points a second copy bound to it, spent or not (Garrett, 2026-11-20: "when players
-   * lose a card they should get their points refunded"). With the card gone, they are free points.
+   * A trait leaves the pilot for good: every upgrade point on it comes back to spend again, bound ones too
+   * (Garrett, 2026-11-20). Since 2.107 the game itself never takes a trait away (a trait left behind waits in
+   * reserve, its points on it), so this is for what truly ends, such as a companion lost.
    */
   T.removeCard = function (h, cardId) {
+    // a pet's card goes with its pet, and the pet with its card
+    if (h.pets) h.pets = h.pets.filter((p) => p.card !== cardId);
     const b = boundOf(h, cardId);
     h.upUnspent += freeSpent(h, cardId) + (b ? b[0] : 0);
     h.cards = h.cards.filter((c) => c !== cardId);
+    if (h.reserve) h.reserve = h.reserve.filter((c) => c !== cardId);
     delete h.up[cardId];
     if (h.bound) delete h.bound[cardId];
   };
   /**
-   * A pilot whose kit is full (MAX_CARDS) grows by exchange: a new trait comes in and an old one goes out,
-   * so the kit stays at nine (Garrett, 2026-11-20). The new card must be of the pilot's bloodline, not held,
-   * and fit the 3-of-9 cap once the old card has gone.
+   * A new trait comes into the kit in place of one that stays behind (2.107; before, the one that went was
+   * lost and its points refunded). The new card must be of the pilot's bloodline, not held, and fit the
+   * 3-of-9 cap once the other has gone to the reserve.
    */
   T.canSwapCard = function (h, cardId, dropId) {
     const c = T.CARD[cardId];
     if (!c || !T.CARD[dropId]) return { ok: false, why: 'unknown' };
-    if (h.cards.length < R().MAX_CARDS) return { ok: false, why: 'the kit has room: take the trait instead' };
-    if (!h.cards.includes(dropId)) return { ok: false, why: 'not held' };
-    if (h.cards.includes(cardId)) return { ok: false, why: 'already held' };
+    if (!h.cards.includes(dropId)) return { ok: false, why: 'not in the kit' };
+    if (T.holds(h, cardId)) return { ok: false, why: 'already held' };
     if (!c.clades.some((sp) => h.species.includes(sp))) return { ok: false, why: 'not your bloodline' };
     if (!T.cladeSlots(h, h.cards.filter((x) => x !== dropId).concat(cardId)))
       return { ok: false, why: 'that would break the 3-of-9 cap' };
     return { ok: true };
   };
-  /** The held traits a full kit could give up for this one. */
+  /** The traits in the kit that could stay behind for this one. */
   T.swapDrops = (h, cardId) => h.cards.filter((d) => T.canSwapCard(h, cardId, d).ok);
-  /**
-   * Exchange: the old trait leaves and the new one takes its place in the kit, unupgraded. The points
-   * on the old one, bound ones included, come back to the free pool (`T.removeCard`).
-   */
+  /** Exchange: the new trait takes the other's place in the kit, unupgraded; the other waits in reserve, points and all. */
   T.swapCard = function (h, cardId, dropId) {
     const r = T.canSwapCard(h, cardId, dropId);
     if (!r.ok) return r;
     const at = h.cards.indexOf(dropId);
-    T.removeCard(h, dropId);
-    h.cards.splice(at, 0, cardId);
+    h.cards.splice(at, 1, cardId);
+    T.reserveOf(h).push(dropId);
     h.up[cardId] = [0, 0];
     return { ok: true, swapped: dropId };
+  };
+  /**
+   * Between missions, a trait in reserve comes into the kit: in place of `outId`, which goes to the reserve, or
+   * into an empty place when the kit has fewer than nine. The 3-of-9 cap holds for the kit that flies. The dice
+   * follow: each awakened card in the kit swaps a plain die for its element's (T.diceSet).
+   */
+  T.canLoadCard = function (h, inId, outId) {
+    if (!(h.reserve || []).includes(inId)) return { ok: false, why: 'not in reserve' };
+    if (outId && !h.cards.includes(outId)) return { ok: false, why: 'not in the kit' };
+    if (!outId && h.cards.length >= R().MAX_CARDS)
+      return { ok: false, why: 'the kit is full: choose one to leave behind' };
+    const kit = h.cards.filter((x) => x !== outId).concat(inId);
+    if (!T.cladeSlots(h, kit)) return { ok: false, why: `no more than ${R().MAX_PER_SPECIES} from one bloodline` };
+    return { ok: true };
+  };
+  /** The traits in the kit that could stay behind for this reserve trait. */
+  T.loadOuts = (h, inId) => h.cards.filter((d) => T.canLoadCard(h, inId, d).ok);
+  T.loadCard = function (h, inId, outId) {
+    const r = T.canLoadCard(h, inId, outId);
+    if (!r.ok) return r;
+    const res = T.reserveOf(h);
+    res.splice(res.indexOf(inId), 1);
+    if (outId) {
+      h.cards.splice(h.cards.indexOf(outId), 1, inId);
+      res.push(outId);
+    } else h.cards.push(inId);
+    return { ok: true };
+  };
+  /** The squad's loadout changes on the route, at havens and events, and at rewards: never in a mission. */
+  T.changeLoadout = function (run, heroIdx, inId, outId) {
+    if (run.mission || run.phase === 'mission') return { ok: false, why: 'the kit is set for this mission' };
+    const h = run.heroes[heroIdx];
+    if (!h) return { ok: false, why: 'no such pilot' };
+    return T.loadCard(h, inId, outId || null);
   };
   T.draftPack = function (run, h, size) {
     size = size || 4;
@@ -12335,6 +14058,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       title: pb.title,
       species: pb.species,
       cards: pb.cards,
+      reserve: pb.reserve,
       up: pb.up,
     });
     // a trait taken twice brings its own points: those on it now are not from the free pool
@@ -12346,9 +14070,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     // a pilot players made remembers which recipe it is, so what it learns can be kept (T.progressRecord)
     if (/^made_/.test(pb.id)) h.madeId = pb.id;
     if (pb.runs) h.runs = pb.runs; // the expeditions it has flown
-    // its level is set as it sets out, and the missions of this expedition answer it (T.squadLevel)
+    // its level is set as it sets out, and the missions of this expedition answer it (T.squadPower)
     const lvl = T.pilotLevel(h);
     if (lvl > 1) h.level = lvl;
+    // and the growth it set out with, so what it grows on the road can be told apart (T.pilotPowerFor)
+    const grown = T.pilotPower(h);
+    if (grown) h.setOut = grown;
     return h;
   };
 
@@ -12362,7 +14089,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const onCards = Object.values(h.up || {}).reduce((s, v) => s + v[0] + v[1], 0);
     const bound = Object.values(h.bound || {}).reduce((s, b) => s + b[0] - b[1], 0); // bound but not yet spent
     const pts = onCards + bound + (h.upUnspent || 0) - R().START_UP;
-    return Math.max(0, pts + S.CARD_UP * Math.max(0, h.cards.length - R().START_CARDS));
+    // a kit flies nine at most, whatever waits in reserve; a gear card is equipment bought on the expedition, not growth
+    const held = Math.min(R().MAX_CARDS, T.collection(h).filter((c) => !(T.CARD[c] && T.CARD[c].gear)).length);
+    return Math.max(0, pts + S.CARD_UP * Math.max(0, held - R().START_CARDS));
   };
   /** A pilot's level: 1 for a new pilot, and one more for every LEVEL_UP points of growth (about a tier of a run). */
   T.pilotLevel = (h) => 1 + Math.floor(T.pilotPower(h) / T.SCALING.LEVEL_UP);
@@ -12395,7 +14124,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   /** The recipe of a hero a player built: its name, clades, cards and the points on them. */
   T.madeFrom = function (h, at) {
     const up = {};
-    h.cards.forEach((c) => (up[c] = (h.up[c] || [0, 0]).slice(0, 2)));
+    // pets stay with the expedition they were found on, as gear and its card do (src/data/pets.js)
+    const own = (c) => !T.isKinless(c);
+    h = Object.assign({}, h, { cards: h.cards.filter(own), reserve: (h.reserve || []).filter(own) });
+    T.collection(h).forEach((c) => (up[c] = (h.up[c] || [0, 0]).slice(0, 2)));
     const bound = {};
     Object.keys(h.bound || {}).forEach((c) => (bound[c] = h.bound[c].slice(0, 2)));
     const key = [h.name, h.species.join('+'), h.cards.slice().sort().join('+')].join('|');
@@ -12405,6 +14137,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       title: h.title || '',
       species: h.species.slice(),
       cards: h.cards.slice(),
+      reserve: (h.reserve || []).slice(),
       up,
       bound,
       spare: h.upUnspent || 0,
@@ -12434,9 +14167,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       if (!T.canAddCard(probe, c).ok) return null;
       probe.cards.push(c);
     }
+    // the traits it keeps in reserve (2.107): of its bloodline, none twice, each one some kit of nine could fly
+    const reserve = rec.reserve == null ? [] : rec.reserve;
+    if (!Array.isArray(reserve) || reserve.length > T.CARDS.length) return null;
+    for (const c of reserve) {
+      if (typeof c !== 'string' || !T.CARD[c] || T.holds(probe, c)) return null;
+      if (!T.canCollect(probe, c).ok) return null;
+      probe.reserve = (probe.reserve || []).concat(c);
+    }
     const up = {};
     let spent = 0;
-    for (const c of cards) {
+    for (const c of cards.concat(reserve)) {
       const u = (rec.up && rec.up[c]) || [0, 0];
       if (!Array.isArray(u) || !isInt(u[0], 0, R().P_CAP) || !isInt(u[1], 0, R().E_CAP)) return null;
       up[c] = [u[0], u[1]];
@@ -12446,14 +14187,15 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     for (const c of Object.keys(rec.bound || {})) {
       const b = rec.bound[c];
       const shared = T.CARD[c] && T.CARD[c].clades.filter((s) => sp.includes(s)).length >= 2;
-      if (!cards.includes(c) || !shared || !Array.isArray(b) || b[0] !== R().DOUBLE_UP) return null;
+      if (!probe.cards.concat(reserve).includes(c) || !shared || !Array.isArray(b) || b[0] !== R().DOUBLE_UP)
+        return null;
       if (!isInt(b[1], 0, b[0]) || b[1] > up[c][0] + up[c][1]) return null;
       bound[c] = [b[0], b[1]];
       spent -= b[1];
     }
     // a pilot back from expeditions may hold more than a new one's six points, never more than its kit can carry
     const spare = rec.spare == null ? null : rec.spare;
-    if (spare != null && !isInt(spare, 0, (R().P_CAP + R().E_CAP) * R().MAX_CARDS)) return null;
+    if (spare != null && !isInt(spare, 0, (R().P_CAP + R().E_CAP) * (R().MAX_CARDS + reserve.length))) return null;
     const runs = rec.runs == null ? 0 : rec.runs;
     if (!isInt(runs, 0, 9999)) return null;
     if (!runs && spent + (spare || 0) > R().START_UP) return null; // a new pilot has six points, no more
@@ -12468,6 +14210,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       at: typeof rec.at === 'string' ? rec.at.slice(0, 30) : '',
     };
     if (spare != null) out.spare = spare;
+    if (reserve.length) out.reserve = reserve.slice();
     if (runs) out.runs = runs;
     // who a pilot made in Make a pilot is (2.83): a callsign, a domain, and three short answers. Optional.
     const word = (v, n) => (typeof v === 'string' ? v.replace(/\s+/g, ' ').trim().slice(0, n) : '');
@@ -12510,7 +14253,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   // UP allocation
   T.adjustUp = function (h, cardId, which, delta) {
     const i = which === 'E' ? 1 : 0;
-    const cap = which === 'E' ? R().E_CAP : R().P_CAP;
+    // a pet's card has no Ethereal face; a gear card is bought as it is, never trained (2.119)
+    const c = T.CARD[cardId];
+    const cap = c && c.gear ? 0 : which === 'E' ? (c && c.pet ? 0 : R().E_CAP) : R().P_CAP;
     const cur = h.up[cardId] || [0, 0];
     // a point bound to this card (a trait taken twice) is spent before a free one, and comes back last
     if (delta > 0) {
@@ -12543,7 +14288,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       .map((x) => x.cid);
     for (const cid of order) {
       if (h.upUnspent <= 0 || T.awakenedCount(h) >= R().START_AWAKE) break;
-      if (T.heroE(h, cid) === 0) T.adjustUp(h, cid, 'E', 1);
+      if (T.heroE(h, cid) === 0 && !T.isKinless(cid)) T.adjustUp(h, cid, 'E', 1);
     }
   };
   T.autoAllocate = function (h) {
@@ -12565,6 +14310,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         if (h.upUnspent <= 0) break;
         const c = T.CARD[cid];
         const which =
+          c.E &&
           (c.sig >= 2 || c.E.fx.some((x) => ['blink', 'engine', 'strike'].includes(x.v))) &&
           h.up[cid][1] < h.up[cid][0] + 1
             ? 'E'
@@ -12574,7 +14320,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     }
   };
   T.respecHero = function (h) {
-    h.cards.forEach((c) => {
+    T.collection(h).forEach((c) => {
       h.upUnspent += freeSpent(h, c);
       h.up[c] = [0, 0];
       if (boundOf(h, c)) boundOf(h, c)[1] = 0;
@@ -12593,9 +14339,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     if (tier >= 2) {
       const rng = T.runStream(run, 'squad');
       run.heroes.forEach((h) => {
-        h.gear.push({ id: T.GEAR[rng.int(T.GEAR.length)].id, cds: [0, 0] });
+        T.equipGear(h, T.GEAR[rng.int(T.GEAR.length)].id);
         if (tier >= 3) {
-          h.gear.push({ id: T.GEAR[rng.int(T.GEAR.length)].id, cds: [0, 0] });
+          T.equipGear(h, T.GEAR[rng.int(T.GEAR.length)].id);
           const extra = T.cardOffer(run, 1)[0];
           if (extra) T.addCard(h, extra);
           T.autoAllocate(h);
@@ -12615,8 +14361,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const run = T.newRun(seed);
     run.heroes = heroes.map((i) => T.heroFromPrebuilt(run, T.PREBUILTS[i]));
     run.heroes.forEach((h) => T.autoAllocate(h));
-    if (kit === 'tier') T.addProgression(run, tier);
-    else run.crystals = 12;
+    if (kit === 'tier') {
+      T.addProgression(run, tier);
+      // the tier's kit is what the squad brings to its first stop, not growth ahead of the road (T.pilotPowerFor)
+      run.heroes.forEach((h) => (h.setOut = T.pilotPower(h)));
+    } else run.crystals = 12;
     // the mission is the first node of a whole Tide, so the run can go on afterwards
     T.startMap(run);
     const node = run.map.all[run.map.rows[0][0]];
@@ -12666,7 +14415,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       node.type = type = 'elite';
       run.nextElite = false;
     }
-    if (type === 'haven') {
+    if (T.MISSIONS[type] && T.MISSIONS[type].big) {
+      // a mission that needs vehicles: each player picks one first (Garrett, 2026-11-21), then it launches
+      run.phase = 'garage';
+      run.garage = { type, tier: node.tier, picks: run.heroes.map(() => null) };
+    } else if (type === 'haven') {
       run.phase = 'haven';
       run.haven = T.havenStock(run);
     } else if (type === 'event') {
@@ -12691,9 +14444,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     // as the simulators do) one the board's stream picks, unless the caller names one
     const node = run.map && nodeId != null ? run.map.all[nodeId] : null;
     const picked = board.pick(T.ATLAS).id; // drawn either way, so naming a page leaves the rest of the board alike
-    if (!pageId) pageId = node && node.page ? node.page : picked;
-    // the squad's size and level ask more of the mission (src/engine/scaling.js); two new pilots ask nothing more
-    const sc = T.scaleFor(run);
+    // a mission for a big map (a Crossing) is played on one of the big pages, drawn after
+    const bigPick = gen.big ? board.pick(T.BIG_ATLAS).id : null;
+    if (gen.big && pageId && !T.PAGE_BY[pageId].big) pageId = null;
+    if (!pageId) pageId = node && node.page && (!gen.big || T.PAGE_BY[node.page].big) ? node.page : bigPick || picked;
+    // the squad's power asks more of the mission (src/engine/scaling.js); two new pilots ask nothing more
+    const sc = T.scaleFor(run, { tier, row: node ? node.row : null });
     const spec = gen.gen(board, tier, T.scaledTide(T.TIDES[run.tide] || T.TIDES.rising, sc), T.PAGE_BY[pageId]);
     T.scaleSpec(spec, sc, T.squadSize(run), T.makeRng(T.subSeed(seed, 'squad')));
     spec.page = pageId;
@@ -12701,6 +14457,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     spec.place = T.placeConditions(T.PAGE_BY[pageId], T.makeRng(T.subSeed(seed, 'place')));
     spec.title = board.pick(gen.title);
     spec.blurb = gen.blurb;
+    // the vehicles the players picked for it (T.pickVehicle), or the ones the table would pick by default
+    if (gen.big) spec.vehicles = T.vehiclePicks(run, pageId);
     const threat = T.expeditionOf(run) && T.expeditionOf(run).threatDef;
     if (type === 'boss' && threat) {
       // the finale keeps the Heart's rules; the expedition says what the Heart is this time
@@ -12708,6 +14466,38 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       spec.blurb = threat.look + ' ' + gen.blurb;
     }
     return { spec, seed };
+  };
+  /* ───────────── vehicles: each player picks one before a mission that needs them ───────────── */
+  /**
+   * The vehicle each pilot brings to a big-map mission: the one its player picked (run.garage), or the page's
+   * suggestion for that seat at the table (`suggest`, in turn), which is what the simulated players bring.
+   */
+  T.vehiclePicks = function (run, pageId) {
+    const page = pageId && T.PAGE_BY[pageId];
+    const suggest = (page && page.suggest) || ['crawler', 'skiff', 'wing'];
+    return run.heroes.map((h, i) => (run.garage && run.garage.picks[i]) || suggest[i % suggest.length]);
+  };
+  /** The page a waiting big-map mission will be played on (for the garage to show its ground). */
+  T.garagePage = function (run) {
+    if (!run.garage) return null;
+    return T.missionSpec(run, run.garage.type, run.garage.tier).spec.page;
+  };
+  /** A player picks the vehicle hero i brings. Once every pilot has one, the mission launches. */
+  T.pickVehicle = function (run, i, type) {
+    if (run.phase !== 'garage' || !run.garage) return { ok: false, why: 'not now' };
+    if (!run.heroes[i] || !T.VEHICLE_BY[type]) return { ok: false, why: 'no such vehicle' };
+    run.garage.picks[i] = type;
+    return { ok: true };
+  };
+  /** Set out: every pilot without a pick takes the page's suggestion. */
+  T.leaveGarage = function (run) {
+    if (run.phase !== 'garage' || !run.garage) return { ok: false, why: 'not now' };
+    const g = run.garage;
+    const pageId = T.garagePage(run);
+    g.picks = T.vehiclePicks(run, pageId);
+    T.launchMission(run, g.type, g.tier);
+    delete run.garage;
+    return { ok: true };
   };
   T.launchMission = function (run, type, tier, pageId) {
     T.settlePurses(run);
@@ -12870,6 +14660,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const rw = run.lastReward;
     run.mission = null;
     run.purses = m.purses.slice();
+    // a pet that died is gone for that mission only: it sets out again, whole, with the next (Garrett, 2026-11-21)
     run.secondWindUsed = m.secondWindUsed;
     run.stats.missions++;
     run.stats.kills += m.stats.kills;
@@ -12899,7 +14690,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     }
     if (m.isBoss && m.won) run.won = true;
     if (!m.won) {
-      if (!m.isBoss && run.lifeline > 0) {
+      // the whole squad down ends the expedition outright (Garrett, 2026-11-21): the Lifeline carries a mission
+      // lost any other way. The pilots are whole again for the next expedition.
+      const wiped = m.heroes.every((h) => h.downed);
+      if (wiped) run.stats.wiped = true;
+      if (!m.isBoss && !wiped && run.lifeline > 0) {
         run.lifeline--;
         run.stats.lifelineUsed = true;
         rw.lifeline = true;
@@ -12935,15 +14730,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     });
     run.phase = 'reward';
   };
-  /** A hero takes a card from their own offer; a hero whose kit is full names the trait it gives up for it. */
+  /**
+   * A hero takes a card from their own offer. A hero whose kit is full keeps it too: it waits in reserve, or
+   * comes in now in place of `dropId`, which stays behind with its points (nothing is lost, nothing refunded).
+   */
   T.takeOfferedCard = function (run, cardId, heroIdx, dropId) {
     const rw = run.lastReward;
     if (rw.picked[heroIdx] || !rw.offers[heroIdx].includes(cardId))
       return { ok: false, why: 'that trait is not on offer to this hero' };
     const h = run.heroes[heroIdx];
     if (h.cards.length >= R().MAX_CARDS && !h.cards.includes(cardId)) {
-      if (!dropId) return { ok: false, why: 'the kit is full (9): choose a trait to give up for it' };
-      const s = T.swapCard(h, cardId, dropId);
+      const s = dropId ? T.swapCard(h, cardId, dropId) : T.addCard(h, cardId);
       if (s.ok) rw.picked[heroIdx] = true;
       return s;
     }
@@ -12967,7 +14764,112 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       .shuffle(T.GEAR.filter((g) => !owned.has(g.id)))
       .slice(0, 3)
       .map((g) => g.id);
-    return { gear, cons: [], healed: false, bought: [] };
+    // a stray (src/data/pets.js), from a stream of its own so the gear on offer is the same either way
+    const pet = run.heroes.some((h) => (h.pets || []).length < T.PET.MAX) ? T.newPet(run) : null;
+    return { gear, cons: [], healed: false, bought: [], pet };
+  };
+  /* ───────────────────────────── PETS ───────────────────────────── */
+  /**
+   * A pet found on the expedition (src/data/pets.js): three clades, none human, one trait drawn from each, and
+   * the card their three Physical faces make. Draws from the run's 'pets' stream only.
+   */
+  T.newPet = function (run) {
+    const rng = T.runStream(run, 'pets');
+    const species = rng.shuffle(T.SPECIES_ORDER.filter((sp) => sp !== 'human')).slice(0, 3);
+    const traits = [];
+    for (const sp of species) {
+      const pool = T.cardsOf(sp).filter((c) => !traits.includes(c.id));
+      traits.push(pool[rng.int(pool.length)].id);
+    }
+    run.petSeq = (run.petSeq || 0) + 1;
+    const id = 'pet' + run.petSeq;
+    const rec = { id, name: rng.pick(T.PET_NAMES), species, traits, card: `pet~${id}~${traits.join('~')}` };
+    T.registerPet(rec);
+    return rec;
+  };
+  /**
+   * Where a card in a kit comes from: a clade's bloodline, a pet (src/data/pets.js) or a piece of gear (2.119).
+   * Everything in h.cards counts toward the nine whatever its source.
+   */
+  T.cardSource = function (h, cardId) {
+    const rec = T.petRecOf(h, cardId);
+    if (rec) return { kind: 'pet', id: rec.id };
+    const c = T.CARD[cardId];
+    if (c && c.gear) return { kind: 'gear', id: c.gear };
+    return { kind: 'clade', id: c ? c.clades.find((sp) => h.species.includes(sp)) || c.sp : null };
+  };
+  /**
+   * Can this hero take this pet in? A pet is pocketed like a vehicle (Garrett, 2026-11-21: "Pocket vehicles and
+   * pocket pets. It is all inventory"): its card joins the kit when there is room, or in place of dropId, which
+   * waits in reserve with its points; with a full kit and no dropId, the card waits in reserve itself (2.107).
+   */
+  T.canAdopt = function (h, rec, dropId) {
+    if (!rec) return { ok: false, why: 'no pet here' };
+    if ((h.pets || []).length >= T.PET.MAX) return { ok: false, why: `already ${T.PET.MAX} pets` };
+    if (T.holds(h, rec.card)) return { ok: false, why: 'already yours' };
+    if (dropId && !h.cards.includes(dropId)) return { ok: false, why: 'not in the kit' };
+    return { ok: true };
+  };
+  /** Give a pet to a hero. Nothing is refunded: a card the pet's displaces goes to the reserve. */
+  T.givePet = function (h, rec, dropId) {
+    const r = T.canAdopt(h, rec, dropId);
+    if (!r.ok) return r;
+    T.registerPet(rec);
+    h.pets = (h.pets || []).concat({
+      id: rec.id,
+      name: rec.name,
+      species: rec.species.slice(),
+      traits: rec.traits.slice(),
+      card: rec.card,
+    });
+    h.up[rec.card] = [0, 0];
+    let reserve = false;
+    if (h.cards.length < R().MAX_CARDS && !dropId) h.cards.push(rec.card);
+    else if (dropId) {
+      h.cards.splice(h.cards.indexOf(dropId), 1, rec.card);
+      T.reserveOf(h).push(dropId);
+    } else {
+      T.reserveOf(h).push(rec.card);
+      reserve = true;
+    }
+    return { ok: true, reserve };
+  };
+  /** Adopt the haven's stray: T.PET.PRICE crystals from the hero's purse. */
+  T.adoptPet = function (run, heroIdx, dropId) {
+    const h = run.heroes[heroIdx];
+    const rec = run.haven && run.haven.pet;
+    const r = T.canAdopt(h, rec, dropId);
+    if (!r.ok) return r;
+    const s = T.purseSeat(run, heroIdx);
+    if (run.purses[s] < T.PET.PRICE) return { ok: false, why: 'not enough ◇' };
+    run.purses[s] -= T.PET.PRICE;
+    T.givePet(h, rec, dropId);
+    run.haven.pet = null;
+    return { ok: true };
+  };
+  /**
+   * Equip a piece of gear. Gear whose abilities go on cooldown has a card (src/data/world.js, 2.119): it joins
+   * the kit when there is room and waits in the reserve when not, as a trait earned with a full kit does.
+   */
+  T.equipGear = function (h, gearId) {
+    h.gear.push({ id: gearId, cds: [0, 0] });
+    const cid = T.GEAR_BY[gearId].card;
+    if (!cid || T.holds(h, cid)) return { ok: true };
+    h.up[cid] = [0, 0];
+    if (h.cards.length < R().MAX_CARDS) {
+      h.cards.push(cid);
+      return { ok: true };
+    }
+    T.reserveOf(h).push(cid);
+    return { ok: true, reserve: true };
+  };
+  /** Take a piece of gear off: its card goes with it, unless a second of the same gear is still worn. */
+  T.unequipGear = function (h, gi) {
+    const g = h.gear.splice(gi, 1)[0];
+    if (!g) return null;
+    const cid = T.GEAR_BY[g.id].card;
+    if (cid && !h.gear.some((x) => x.id === g.id)) T.removeCard(h, cid);
+    return g;
   };
   T.buyGear = function (run, gearId, heroIdx) {
     const g = T.GEAR_BY[gearId];
@@ -12976,14 +14878,14 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     if (run.purses[s] < g.price) return { ok: false, why: 'not enough ◇' };
     if (h.gear.length >= R().GEAR_SLOTS) return { ok: false, why: 'gear slots full (2)' };
     run.purses[s] -= g.price;
-    h.gear.push({ id: gearId, cds: [0, 0] });
+    const eq = T.equipGear(h, gearId);
     run.haven.gear = run.haven.gear.filter((x) => x !== gearId);
     run.haven.bought.push(gearId);
-    return { ok: true };
+    return { ok: true, reserve: !!eq.reserve };
   };
   T.sellGear = function (run, heroIdx, gi) {
     const h = run.heroes[heroIdx];
-    const g = h.gear.splice(gi, 1)[0];
+    const g = T.unequipGear(h, gi);
     if (g) run.purses[T.purseSeat(run, heroIdx)] += Math.floor(T.GEAR_BY[g.id].price / 2);
   };
   T.havenRest = function (run, full) {
@@ -13042,13 +14944,17 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     run.event.followup = followup;
     return { ok: true, result: opt.result, followup };
   };
+  /**
+   * A trade or a molt: a new trait of the same bloodline takes this one's place in the kit, and the old one goes
+   * to the reserve with its points (2.107: a pilot keeps every trait it has earned).
+   */
   T.tradeCard = function (run, heroIdx, dropId) {
     const h = run.heroes[heroIdx];
+    if (T.isKinless(dropId)) return null; // a pet's or a gear's card is not traded
     const sp = T.CARD[dropId].clades.find((x) => h.species.includes(x)) || T.CARD[dropId].sp;
-    T.removeCard(h, dropId);
-    const cands = T.cardsOf(sp).filter((c) => c.id !== dropId && T.canAddCard(h, c.id).ok);
+    const cands = T.cardsOf(sp).filter((c) => T.canSwapCard(h, c.id, dropId).ok);
     const nc = T.runStream(run, 'event').pick(cands);
-    if (nc) T.addCard(h, nc.id);
+    if (nc) T.swapCard(h, nc.id, dropId);
     return nc ? nc.id : null;
   };
 
@@ -13059,7 +14965,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
    * exactly where it was, in the middle of a round if need be. Saving draws no random number.
    * T.SAVE_VERSION goes up whenever the saved shape changes; `migrate` brings older saves forward.
    */
-  T.SAVE_VERSION = 27;
+  T.SAVE_VERSION = 33;
   T.serializeRun = function (run) {
     const m = run.mission;
     // the mission plays the run's own heroes: write them once, and leave out the animation queue
@@ -13433,13 +15339,60 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       if (r.length !== 'short' && r.length !== 'full') r.length = 'full';
       r.v = 27;
     },
+    // 2.104 adds vehicles: a mission may hold `vehicles`, a pilot inside one `ride`, and a run waiting to set out on
+    // a Crossing `garage`. A save from before has none of them, and nothing in it changes.
+    27(r) {
+      r.v = 28;
+    },
+    // 2.107: a pilot keeps every trait it earns, and flies nine (h.reserve holds the rest). Nothing in a save from
+    // before was in reserve: what an exchange gave up then was gone, its points refunded.
+    28(r) {
+      for (const h of r.heroes || []) if (h && !Array.isArray(h.reserve)) h.reserve = [];
+      r.v = 29;
+    },
+    // 2.109 added pets (src/data/pets.js): a hero's pets, and the pets on the board of a mission in progress.
+    29(r) {
+      (r.heroes || []).forEach((h) => (h.pets = h.pets || []));
+      if (r.mission && !r.mission.pets) r.mission.pets = [];
+      if (r.haven && r.haven.pet === undefined) r.haven.pet = null;
+      r.v = 30;
+    },
+    // 2.115 added Dusk faces: a mission keeps the ones placed this round, to land at round end.
+    30(r) {
+      if (r.mission && !Array.isArray(r.mission.dusk)) r.mission.dusk = [];
+      r.v = 31;
+    },
+    // 2.118 added Resonance: a mission keeps the elements in the air. An older one has none there.
+    31(r) {
+      if (r.mission && !r.mission.air) r.mission.air = { M: 0, C: 0, S: 0, T: 0, O: 0 };
+      r.v = 32;
+    },
+    // 2.119 put every gear ability with a cooldown on a card in the nine (src/data/world.js): worn gear gets its
+    // card, in the kit when there is room and in the reserve when not. Its old per-ability cooldowns are kept.
+    32(r) {
+      for (const h of r.heroes || []) {
+        if (!h || !Array.isArray(h.gear) || !Array.isArray(h.cards)) continue;
+        h.up = h.up || {};
+        h.reserve = h.reserve || [];
+        for (const g of h.gear) if (T.GEAR_BY[g.id]) migrateGearCard(h, g.id);
+      }
+      r.v = 33;
+    },
   };
+  function migrateGearCard(h, gearId) {
+    const cid = T.GEAR_BY[gearId].card;
+    if (!cid || h.cards.includes(cid) || h.reserve.includes(cid)) return;
+    h.up[cid] = [0, 0];
+    if (h.cards.length < R().MAX_CARDS) h.cards.push(cid);
+    else h.reserve.push(cid);
+  }
   T.deserializeRun = function (json) {
     const r = JSON.parse(json);
     if (r.v == null) r.v = 1;
     if (r.v > T.SAVE_VERSION) throw new Error('this save is from a newer version of the game');
     while (r.v < T.SAVE_VERSION) migrate[r.v](r);
     if (r.mission) r.mission.heroes = r.heroes;
+    T.registerPets(r.heroes);
     return r;
   };
   T.saveRun = function (run) {
@@ -13986,6 +15939,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       'M2 6c4-3 6 3 10 0s6 3 10 0v4c-4 3-6-3-10 0S6 7 2 10zM2 14c4-3 6 3 10 0s6 3 10 0v4c-4 3-6-3-10 0s-6-3-10 0z', // water that runs
     'node.salvage': 'M3 8h18v13H3zM3 8l3-5h12l3 5M9 12h6v2H9z', // a crate, lid open
     'node.survey': 'M5 2h2v17H5zM7 3h11l-3 4 3 4H7zM2 20h20v2H2z', // a flag planted in the ground
+    'node.crossing': 'M3 15h14l2-5h2v2l-1.5 3H22v2H2v-2zM6 10h7l1 3H5zM4 20h16v2H4z', // a vehicle on the road
     'node.hidden':
       'M10 2a8 8 0 1 0 4.9 14.3L21 22.4l1.4-1.4-6.1-6.1A8 8 0 0 0 10 2zm0 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10z', // a lens
     'node.elite': 'M4 2h4l4 6 4-6h4l-6 9 6 11h-4l-4-7-4 7H4l6-11z', // crossed blades, read as one mark
@@ -14048,6 +16002,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'gear.harpoon': 'M2 20 16 6l-2-2 8-2-2 8-2-2L4 22z',
     'gear.climbrig': 'M5 2h3v20H5zM16 2h3v20h-3zM8 5h8v2H8zM8 11h8v2H8zM8 17h8v2H8z',
     'gear.medkit': 'M3 6h18v15H3zM9 3h6v3h-2V5h-2v1H9zM11 9v3H8v3h3v3h2v-3h3v-3h-3V9z',
+    'gear.baton': 'M3 19 15 7l2 2L5 21zM16 1l-3 6h3l-2 5 6-7h-3l2-4z', // a rod with a spark at its tip
+    'gear.coilgun': 'M2 9h15V7h3v2h2v3h-2v2h-3v-2h-4l-2 6H7l1-6H2zM5 10v1h1v-1zm3 0v1h1v-1zm3 0v1h1v-1z', // a rifle, coils along it
 
     /* ── consumables ── */
     'cons.vial': 'M9 2h6v2h-1v5l6 11v2H4v-2l6-11V4H9zM8 16l-2 4h12l-2-4z',
@@ -14513,6 +16469,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'kw.stasis': 'M5 2h14v2l-5 8 5 8v2H5v-2l5-8-5-8zm3 2 4 6 4-6z',
     'kw.hover': 'M12 2 20 10l-1.4 1.4L12 4.8l-6.6 6.6L4 10zM12 9l8 8-1.4 1.4-6.6-6.6-6.6 6.6L4 17z',
     'kw.empower': 'M12 1 20 11h-5v12H9V11H4z',
+    'kw.mounted': 'M3 15h14l2-5h2v2l-1.5 3H22v2H2v-2zM6 10h7l1 3H5zM6 19a2 2 0 1 0 0 .1zM18 19a2 2 0 1 0 0 .1z',
     'kw.pierce': 'M1 11h16V7l6 5-6 5v-4H1zM8 4h3v16H8z',
     'kw.push': 'M2 10h11V5l9 7-9 7v-5H2z',
     'kw.pull': 'M22 10H11V5l-9 7 9 7v-5h11z',
@@ -14572,6 +16529,41 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       tone: 'bad',
       state: 'Wound',
       tip: 'Wound N: at round end it takes N, then the Wound drops by 1 (Wound 3 is 3, then 2, then 1). A new Wound replaces a smaller one.',
+    },
+    {
+      id: 'aimed',
+      re: 'Aimed',
+      icon: 'kw.mark',
+      tone: 'neutral',
+      tip: 'Aimed: the attack lands on the space its target stood on when it was telegraphed. It strikes whoever stands there then, foe or pilot; an empty space and it misses.',
+    },
+    {
+      id: 'burn',
+      re: 'Burn(?:s|t)?',
+      icon: 'kw.burst',
+      tone: 'neutral',
+      tip: 'Burn: once this face resolves, its whole card is gone until the mission ends, both faces with it. Haste and every other effect cannot bring it back sooner; it is back in hand at the next mission.',
+    },
+    {
+      id: 'resonance',
+      re: 'Resonance|Draws on (?:Mass|Charge|Space|Time|Omni) in the air',
+      icon: 'kw.empower',
+      tone: 'good',
+      tip: 'Resonance: every Ethereal face you play leaves its element in the air, for this round and the next. A face that draws on an element takes it for its bonus, and it is gone; Omni in the air stands in for any element. The squad shares the air.',
+    },
+    {
+      id: 'dusk',
+      re: 'At dusk',
+      icon: 'kw.mark',
+      tone: 'neutral',
+      tip: 'At dusk: the face is placed now and lands at round end, once the foes have acted (before hazards, Fields and Wounds). It strikes whoever is there then. A ring marks where.',
+    },
+    {
+      id: 'flanked',
+      re: 'Flanked',
+      icon: 'kw.mark',
+      tone: 'neutral',
+      tip: 'Flanked: a foe with the squad (pilots, pets or decoys) on two different spaces beside it. Some faces hit harder on a flanked foe; they still hit without one.',
     },
     {
       id: 'blink',
@@ -14665,7 +16657,29 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       icon: 'kw.hover',
       tone: 'good',
       state: 'Hover',
-      tip: 'Hover: off the ground, so hazards and Fields do not touch it, and it cannot be pushed or pulled.',
+      tip: 'Hover N: off the ground for N rounds. Hazards and Fields do not touch it, nothing pushes or pulls it, and its steps may take the ledges (height).',
+    },
+    {
+      id: 'ignorehazards',
+      re: "ignores? hazards|hazards (?:can’t|can't|don’t|don't) (?:touch|bother) you",
+      icon: 'kw.shield',
+      tone: 'good',
+      state: 'HazardImmune',
+      tip: 'Ignore hazards N: for N rounds a hazard does you no harm. You are still on the ground: Fields, pushes and pulls still reach you (Hover lifts you above all three).',
+    },
+    {
+      id: 'mounted',
+      re: 'Mounted',
+      icon: 'kw.mounted',
+      tone: 'good',
+      tip: 'Mounted: this face can be played from inside a vehicle. A face that moves you or touches is not Mounted.',
+    },
+    {
+      id: 'hull',
+      re: 'hull',
+      icon: 'kw.mounted',
+      tone: 'good',
+      tip: 'Hull: a vehicle’s toughness. A blow on anyone inside lands on the hull; at 0 the vehicle is wrecked and its riders are thrown clear.',
     },
     {
       id: 'empower',
@@ -14673,7 +16687,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       icon: 'kw.empower',
       tone: 'good',
       state: 'Empower',
-      tip: 'Empowered: its next strike (or strikes) deal more.',
+      tip: 'Empowered N: its next strike (or strikes) deal N more; an Overcharge Empowers every strike of the weapon’s reach this round.',
     },
     {
       id: 'preempt',
@@ -14748,6 +16762,20 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       tip: 'Mint: adds dice to the bank for this round only. Minted dice never count toward the 15 and vanish at the end of the round.',
     },
     {
+      id: 'draw',
+      re: 'Draws?(?= (?:\\d|an? \\w+ die))',
+      icon: 'kw.mint',
+      tone: 'good',
+      tip: 'Draw N: take N dice of your choice from your pool and bank them showing that face (a plain die first; never one at random). They count toward your 15.',
+    },
+    {
+      id: 'reroll',
+      re: 'Reroll(?:s|ed)?',
+      icon: 'kw.mint',
+      tone: 'good',
+      tip: 'Reroll N: pick up to N of your banked dice and roll them again.',
+    },
+    {
       id: 'decoy',
       re: 'decoy',
       icon: 'kw.decoy',
@@ -14769,11 +16797,32 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       tip: 'Hazard: a Field of damage that belongs to nobody: whoever ends the round on it takes damage.',
     },
     {
+      id: 'climb',
+      re: 'Climb(?:s|ing)?',
+      icon: 'kw.height',
+      tone: 'good',
+      tip: 'Climb N (a Move, climbing): step N spaces along the paths, and the steps may take the ledges. Foes still block the way.',
+    },
+    {
+      id: 'trample',
+      re: 'trampl(?:e|es|ing)',
+      icon: 'kw.push',
+      tone: 'good',
+      tip: 'Trampling: the move goes through foes’ spaces, and each foe in the way is pushed aside as you reach it (into a Field or hazard, if that is where aside is).',
+    },
+    {
+      id: 'guide',
+      re: 'Guide[sd]?',
+      icon: 'kw.push',
+      tone: 'good',
+      tip: 'Guide N: move an ally up to N spaces along the paths, now, to a space you choose. (Rally is the basic action that raises a downed ally.)',
+    },
+    {
       id: 'height',
       re: 'height|ledge(?:s)?',
       icon: 'kw.height',
       tone: 'neutral',
-      tip: 'Height: a raised node. Walking up needs a Space verb (climb, blink) or a ramp; from height, foes below are easier to hit.',
+      tip: 'Height: a raised node. Getting up needs a climbing move, a Blink that says height, Hover, or the ramp; from height, foes below are easier to hit.',
     },
     {
       id: 'heal',
@@ -14964,7 +17013,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   };
   U.faceTipHTML = function (card, fk, P, E) {
     const face = card[fk];
-    return `<b>${esc(card.name)} — ${esc(face.n)}</b> <span class="dim">(${fk === 'P' ? 'Physical' : EL[face.elt || card.el].name} face)</span><div style="margin:4px 0" class="mono small">${costStr(card, face, fk)}</div><div>${esc(face.txt(P, E))}</div>${U.kwGloss(face.txt(P, E))}${fk === 'E' ? `<div class="mute small" style="margin-top:4px">E unlocks and scales this capability; P ${face.txt(1, 0) !== face.txt(0, 0) ? 'also scales a physical sub-part' : 'does not substitute for it'}.</div>` : ''}`;
+    return `<b>${esc(card.name)} — ${esc(face.n)}</b> <span class="dim">(${fk !== 'E' ? (card.pet ? 'Physical face, played through the pet' : card.gear ? 'Gear face: ' + T.gearCostText({ omni: face.el }) + ', never trained' : 'Physical') : EL[face.elt || card.el].name + ' face'}${card.pet || card.gear ? '' : fk !== 'E' ? ' face' : ''})</span><div style="margin:4px 0" class="mono small">${costStr(card, face, fk)}</div><div>${esc(face.txt(P, E))}</div>${U.kwGloss(face.txt(P, E))}${fk === 'E' ? `<div class="mute small" style="margin-top:4px">E unlocks and scales this capability; P ${face.txt(1, 0) !== face.txt(0, 0) ? 'also scales a physical sub-part' : 'does not substitute for it'}.</div>` : ''}`;
   };
   /** The clade a pilot with these clades carries card `c` through: its own bloodline first, else a clade that shares it. */
   U.cladeIn = (c, clades) =>
@@ -14980,13 +17029,13 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const face = (fk) => {
       const f = c[fk];
       const asleep = fk === 'E' && (o.up || o.showUp) && E < T.RULES.ETHEREAL_MIN_E;
-      return `<div class="face ${fk} el-${f.elt || c.el}${asleep ? ' asleep' : ''}"><div class="fh"><span class="fn" style="color:${fk === 'P' ? '#dfe7f2' : ''}">${esc(f.n)}</span>${fk === 'E' ? `<span class="tag bg-${f.elt || c.el} el-${f.elt || c.el}">${EL[f.elt || c.el].name}</span>` : '<span class="tag" style="border:1px solid var(--line2);color:var(--AP)">Physical</span>'}<span class="cost">${costStr(c, f, fk)}</span></div><div class="ft">${U.kw(esc(f.txt(P, asleep ? T.RULES.ETHEREAL_MIN_E : E)))}</div>${asleep ? `<div class="small asleep-note">Asleep — awaken it with ${T.RULES.ETHEREAL_MIN_E} E</div>` : ''}</div>`;
+      return `<div class="face ${fk === 'E' ? 'E' : 'P'} el-${f.elt || c.el}${asleep ? ' asleep' : ''}"><div class="fh"><span class="fn" style="color:${fk !== 'E' ? '#dfe7f2' : ''}">${esc(f.n)}</span>${fk === 'E' ? `<span class="tag bg-${f.elt || c.el} el-${f.elt || c.el}">${EL[f.elt || c.el].name}</span>` : c.gear ? '<span class="tag" style="border:1px solid var(--line2);color:var(--O)">Gear</span>' : '<span class="tag" style="border:1px solid var(--line2);color:var(--AP)">Physical</span>'}${T.isMounted && T.isMounted(c, fk) ? '<span class="tag mounted" data-tip="Mounted: you can play this face from inside a vehicle.">Mounted</span>' : ''}<span class="cost">${costStr(c, f, fk)}</span></div><div class="ft">${U.kw(esc(f.txt(P, asleep ? T.RULES.ETHEREAL_MIN_E : E)))}</div>${asleep ? `<div class="small asleep-note">Asleep — awaken it with ${T.RULES.ETHEREAL_MIN_E} E</div>` : ''}</div>`;
     };
     return `<div class="tcard ${o.pickable ? 'pickable' : ''} ${o.sel ? 'sel' : ''}" data-card="${cardId}" ${o.act ? `data-act="${o.act}" data-arg="${cardId}"` : ''}>
-      <div class="head"><span class="name">${esc(c.name)}</span>${c.sig >= 2 ? '<span class="star" title="signature">★</span>' : c.sig === 1 ? '<span class="star" title="minor signature">☆</span>' : ''}<span class="sp"${c.clades.length > 1 ? ` data-tip="Carried by ${esc(c.clades.map((x) => T.SPECIES[x].name).join(', '))}"` : ''}>${U.icClade(shownSp)} ${esc(c.kin || sp.name)}</span></div>
-      ${U.cardArt(c, false, shownSp)}${face('P')}${face('E')}
+      <div class="head"><span class="name">${esc(c.name)}</span>${c.sig >= 2 ? '<span class="star" title="signature">★</span>' : c.sig === 1 ? '<span class="star" title="minor signature">☆</span>' : ''}<span class="sp"${c.clades.length > 1 ? ` data-tip="Carried by ${esc(c.clades.map((x) => T.SPECIES[x].name).join(', '))}"` : c.gear ? ' data-tip="A gear card: it counts toward the nine, is never trained and goes with its gear"' : ''}>${c.gear ? U.icGear(c.gear) : U.icClade(shownSp)} ${esc(c.kin || sp.name)}</span></div>
+      ${U.cardArt(c, false, shownSp)}${T.faceKeys(cardId).map(face).join('')}
       ${o.bound ? `<div class="small double-note">${o.bound} UP bound to this card</div>` : ''}
-      ${o.up ? `<div class="upctl">P <button class="sm" data-act="up" data-arg="${cardId}|P|-1">−</button><b>${P}</b><button class="sm" data-act="up" data-arg="${cardId}|P|1">+</button> &nbsp; E <button class="sm" data-act="up" data-arg="${cardId}|E|-1">−</button><b>${E}</b><button class="sm" data-act="up" data-arg="${cardId}|E|1">+</button></div>` : o.showUp ? `<div class="mono small dim" style="margin-top:6px">P${P} · E${E}</div>` : ''}
+      ${c.gear ? '' : o.up ? `<div class="upctl">P <button class="sm" data-act="up" data-arg="${cardId}|P|-1">−</button><b>${P}</b><button class="sm" data-act="up" data-arg="${cardId}|P|1">+</button>${c.pet ? '' : ` &nbsp; E <button class="sm" data-act="up" data-arg="${cardId}|E|-1">−</button><b>${E}</b><button class="sm" data-act="up" data-arg="${cardId}|E|1">+</button>`}</div>` : o.showUp ? `<div class="mono small dim" style="margin-top:6px">P${P}${c.pet ? '' : ' · E' + E}</div>` : ''}
       ${o.flavor !== false ? `<div class="flavor">${esc(c.flavor)}</div>` : ''}
     </div>`;
   };
@@ -15027,7 +17076,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
    */
   U.cardArt = (c, asleep, sp) => {
     const elt = (c.E && c.E.elt) || c.el;
-    return `<div class="hart${asleep ? ' asleep' : ''}" style="--c:${EL[elt].color}" aria-hidden="true"><i class="clade">${U.icClade(sp || c.sp)}</i><i class="vp">${U.icFace(c.P, c.el)}</i><i class="ve">${U.icFace(c.E, c.el)}</i></div>`;
+    return `<div class="hart${asleep ? ' asleep' : ''}" style="--c:${EL[elt].color}" aria-hidden="true"><i class="clade">${c.gear ? U.icGear(c.gear) : U.icClade(sp || c.sp)}</i><i class="vp">${U.icFace(c.P, c.el)}</i><i class="ve">${U.icFace(c.E || c.P2, c.el)}</i></div>`;
   };
   /**
    * A die showing face `f`. `kind` is a key of T.DICE (the plain die when left out); `attrs` adds attributes to
@@ -15103,20 +17152,19 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     </div>`;
   }
 
-  /** What this squad's size and level ask of its missions (T.scaleFor), as a pill on the route; nothing for two new pilots. */
+  /** What this squad's power asks of its missions (T.scaleFor), as a pill on the route; nothing for two new pilots. */
   U.scalePill = function (run) {
     const sc = T.scaleFor(run);
-    if (!sc.size && !sc.level) return '';
-    const who = [sc.size ? `a squad of ${sc.size + 2}` : '', sc.level ? `level ${sc.level + 1}` : '']
-      .filter(Boolean)
-      .join(', ');
+    if (!sc.over) return '';
+    const who = `power ${sc.power}` + (sc.size ? `, a squad of ${sc.size + 2}` : '');
     const what = [
       `foes have ${sc.hp}% vitality`,
       sc.foes ? `${sc.foes} more foe${sc.foes > 1 ? 's' : ''} where a mission has room` : '',
       sc.need ? `objectives ask ${sc.need} more` : '',
       sc.swarm ? `swarms grow ${sc.swarm} larger` : '',
     ].filter(Boolean);
-    return `<span class="pill" data-tip="${esc(`<b>The missions answer ${who}</b><div>${what.join('; ')}. The Heart keeps its rules and grows only in vitality.</div>`)}">⚖ ${esc(who)}</span>`;
+    const how = `Each pilot brings power ${T.SCALING.PILOT}, and 1 more for every level past 1; missions are written for two new pilots (${2 * T.SCALING.PILOT}). A pilot that grows faster than the route expects (about 3 points a row) brings 1 more for every 6 points ahead.`;
+    return `<span class="pill" data-tip="${esc(`<b>The missions answer ${who}</b><div>${what.join('; ')}. The Heart keeps its rules and grows only in its fight.</div><div class="dim">${how}</div>`)}">⚖ ${esc(who)}</span>`;
   };
 
   /* ───────────── DRAFT ───────────── */
@@ -15415,6 +17463,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     cascade: 'Cascade',
     salvage: 'Salvage',
     survey: 'Survey',
+    crossing: 'Crossing',
     elite: 'Elite',
     haven: 'Haven',
     event: 'Event',
@@ -15453,8 +17502,15 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           h,
           i,
         ) => `<div class="panel tight"><div class="row">${U.portrait(h, 'sm')}<b style="font-family:var(--serif)">${esc(h.name)}</b>${U.seatTag ? U.seatTag(i) : ''}<span class="dim small">${esc(h.title)}</span><span class="right mono small">${h.hp}/${h.maxHp}</span></div><div class="hpbar"><i style="width:${(100 * h.hp) / h.maxHp}%"></i></div>
-      <div class="row small" style="margin-top:6px"><span class="pill">${h.cards.length} cards</span><span class="pill">UP ${h.upUnspent}</span>${h.gear.map((g) => `<span class="pill" data-tip="${esc(T.GEAR_BY[g.id].desc + (T.GEAR_BY[g.id].passive ? ' Passive: ' + T.GEAR_BY[g.id].passive.txt : ''))}">${U.icGear(g.id)} ${esc(T.GEAR_BY[g.id].name)}</span>`).join('')}</div>
-      <div class="row" style="margin-top:6px">${own(i) ? `<button class="sm" data-act="train" data-arg="${i}">Train (UP ${h.upUnspent})</button>` : ''}<button class="sm ghost" data-act="kit" data-arg="${i}">Kit</button>${T.playerCount(run) > 1 && run.purses ? `<span class="right pill small" data-tip="${esc(T.ownerName(run, i))}'s omnicrystals">${U.ic('crystal', '◇', 'tiny')} ${T.crystalsFor(run, i)}</span>` : ''}</div></div>`,
+      <div class="row small" style="margin-top:6px"><span class="pill">${h.cards.length} cards${h.reserve && h.reserve.length ? ` · ${h.reserve.length} in reserve` : ''}</span><span class="pill">UP ${h.upUnspent}</span>${h.gear.map((g) => `<span class="pill" data-tip="${esc(T.GEAR_BY[g.id].desc + (T.GEAR_BY[g.id].passive ? ' Passive: ' + T.GEAR_BY[g.id].passive.txt : ''))}">${U.icGear(g.id)} ${esc(T.GEAR_BY[g.id].name)}</span>`).join('')}${T.instinctsOf(
+        h,
+      )
+        .map(
+          (x) =>
+            `<span class="pill" data-tip="${esc(`Instinct of the ${T.SPECIES[x.clade] ? T.SPECIES[x.clade].name : x.clade}, always on: ${x.txt}`)}">✦ ${esc(x.name)}</span>`,
+        )
+        .join('')}</div>
+      <div class="row" style="margin-top:6px">${own(i) ? `<button class="sm" data-act="train" data-arg="${i}">Train (UP ${h.upUnspent})</button>` : ''}<button class="sm ghost" data-act="kit" data-arg="${i}">Kit${h.reserve && h.reserve.length ? ' · swap' : ''}</button>${T.playerCount(run) > 1 && run.purses ? `<span class="right pill small" data-tip="${esc(T.ownerName(run, i))}'s omnicrystals">${U.ic('crystal', '◇', 'tiny')} ${T.crystalsFor(run, i)}</span>` : ''}</div></div>`,
       )
       .join('')}</div>`;
   }
@@ -15822,7 +17878,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   function renderMap() {
     const run = U.run;
     const map = run.map;
-    return `<div class="wrap route-screen">${header('The Route', `<span style="margin-left:6px"></span>${U.purseHTML(run)}${run.tide !== 'rising' ? `<span class="pill" data-tip="${esc(T.TIDES[run.tide].txt)}">${U.ic('node.cascade', '🌊', 'tiny')} ${esc(T.TIDES[run.tide].n)}</span>` : ''}${run.lifeline ? '<span class="pill" data-tip="Once per run: lose a non-boss mission and limp on with no rewards.">🕯️ Lifeline</span>' : ''}${U.scalePill(run)}${titleBtn()}`)}
+    return `<div class="wrap route-screen">${header('The Route', `<span style="margin-left:6px"></span>${U.purseHTML(run)}${run.tide !== 'rising' ? `<span class="pill" data-tip="${esc(T.TIDES[run.tide].txt)}">${U.ic('node.cascade', '🌊', 'tiny')} ${esc(T.TIDES[run.tide].n)}</span>` : ''}${run.lifeline ? '<span class="pill" data-tip="Once per run: lose a non-boss mission with someone still standing and limp on with no rewards. If the whole squad goes down, the expedition ends.">🕯️ Lifeline</span>' : ''}${U.scalePill(run)}${titleBtn()}`)}
       ${renderPassage(run)}
       ${joinCard(run)}
       <div class="route3"><div class="r3-squad">${partyBar(run)}</div><div class="r3-main">${run.phase === 'map' && run.available.length ? `<div class="small dim r3-line">${expeditionLine(run)}${esc(T.threatTitle(run))} waits at the end of the route.</div>` : ''}${renderJourney(run)}</div></div>
@@ -15835,8 +17891,51 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const h = U.run.heroes[i];
     U.openModal(`<div class="row"><h3>${esc(h.name)} <span class="dim" style="font-weight:400">${esc(h.title)}</span></h3><span class="right small dim">${h.species.map((s) => U.icClade(s) + ' ' + T.SPECIES[s].name).join(' · ')}</span><button class="sm" data-act="closeModal">Close</button></div>
     <div class="row small" style="margin:6px 0">${h.gear.map((g, gi) => `<span class="pill">${U.icGear(g.id)} ${esc(T.GEAR_BY[g.id].name)} ${own(i) ? `<button class="sm ghost" data-act="sellGear" data-arg="${i}|${gi}" title="sell for half, to your own purse">sell</button>` : ''}</span>`).join('')}</div>
-    <div class="pack">${h.cards.map((cid) => U.cardHTML(cid, { P: T.heroP(h, cid), E: T.heroE(h, cid), showUp: true, flavor: false, clades: h.species })).join('')}</div>`);
+    ${kitLoadout(i, h)}`);
   };
+  /**
+   * The kit that flies and the traits kept in reserve (2.107). Between missions a reserve trait comes in for one
+   * of the nine: pick it, then the one that stays behind. In a mission the kit is set, and the reserve only shown.
+   */
+  U.kitIn = null;
+  function kitLoadout(i, h) {
+    const res = h.reserve || [];
+    const card = (cid, o) =>
+      U.cardHTML(
+        cid,
+        Object.assign({ P: T.heroP(h, cid), E: T.heroE(h, cid), showUp: true, flavor: false, clades: h.species }, o),
+      );
+    const free = !U.run.mission && U.run.phase !== 'mission' && own(i);
+    const pick = free && U.kitIn && U.kitIn.hero === i && res.includes(U.kitIn.card) ? U.kitIn.card : null;
+    const outs = pick ? new Set(T.loadOuts(h, pick)) : null;
+    const el = T.diceSet(h).filter((k) => k !== 'plain');
+    const dice = `${el.length} element ${el.length === 1 ? 'die' : 'dice'} from awakened cards, ${T.RULES.POOL - el.length} plain`;
+    const wrap = (cid, html, act, arg, tip) =>
+      act
+        ? `<div class="kit-pick${cid === pick ? ' on' : ''}" data-act="${act}" data-arg="${esc(arg)}" data-tip="${esc(tip)}" role="button" tabindex="0">${html}</div>`
+        : html;
+    const kit = h.cards
+      .map((cid) => {
+        if (!outs) return card(cid);
+        return outs.has(cid)
+          ? wrap(
+              cid,
+              card(cid),
+              'kitSwap',
+              `${i}|${pick}|${cid}`,
+              `${T.CARD[pick].name} flies, ${T.CARD[cid].name} stays behind with its points.`,
+            )
+          : `<div class="kit-pick dim" data-tip="${esc(`${T.CARD[cid].name} flies: leaving it behind would break the bloodline rule.`)}">${card(cid)}</div>`;
+      })
+      .join('');
+    const room = pick && h.cards.length < T.RULES.MAX_CARDS && T.canLoadCard(h, pick, null).ok;
+    const reserve = res.length
+      ? `<div class="row small" style="margin:10px 0 4px"><b>Reserve · ${res.length}</b><span class="dim">${free ? (pick ? `Now choose the trait ${esc(T.CARD[pick].name)} flies in place of${room ? ', or bring it into the empty place' : ''}.` : 'Kept, points and all. Pick one to bring into the kit for the next mission.') : 'Left behind for this mission.'}</span>${room ? `<button class="sm" data-act="kitSwap" data-arg="${i}|${pick}|">Bring it in</button>` : ''}${pick ? `<button class="sm ghost" data-act="kitPick" data-arg="${i}|">Cancel</button>` : ''}</div>
+      <div class="pack reserve">${res.map((cid) => (free ? wrap(cid, card(cid), 'kitPick', `${i}|${cid}`, cid === pick ? 'Chosen: now pick the one it replaces' : `Bring ${T.CARD[cid].name} into the kit`) : `<div class="kit-pick dim">${card(cid)}</div>`)).join('')}</div>`
+      : '';
+    return `<div class="row small" style="margin:6px 0"><b>Flies this mission · ${h.cards.length} of ${T.RULES.MAX_CARDS}</b><span class="dim">${esc(dice)}</span></div>
+    <div class="pack">${kit}</div>${reserve}`;
+  }
 
   /* ───────────── HAVEN ───────────── */
   /**
@@ -15892,7 +17991,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         )
         .join('')}</div>`;
     } else if (c.tab === 'gear') {
-      body = `<div class="shop-grid">${T.GEAR.map((g) => `<div class="panel tight"><b>${U.icGear(g.id)} ${esc(g.name)} <span class="dim">· ${g.price} ◇</span></b><div class="small dim" style="margin:4px 0">${esc(g.desc)}</div>${g.passive ? `<div class="small">◆ <b>Passive</b>: ${esc(g.passive.txt)}</div>` : ''}${g.abilities.map((a) => `<div class="small">• <b>${esc(a.n)}</b> (${a.cost} ◇, cd ${a.cd}): ${esc(a.txt())}</div>`).join('')}</div>`).join('')}</div>`;
+      body = `<div class="shop-grid">${T.GEAR.map((g) => `<div class="panel tight"><b>${U.icGear(g.id)} ${esc(g.name)} <span class="dim">· ${g.price} ◇</span></b><div class="small dim" style="margin:4px 0">${esc(g.desc)}</div>${g.passive ? `<div class="small">◆ <b>Passive</b>: ${esc(g.passive.txt)}</div>` : ''}${g.abilities.map((a) => `<div class="small">• <b>${esc(a.n)}</b> (${T.gearUseText(a)}): ${esc(a.txt())}</div>`).join('')}${g.card ? `<div class="small dim">${T.gearCardNote(g)}</div>` : ''}</div>`).join('')}</div>`;
     } else body = U.helpHTML();
     return `<div class="wrap">${header('Codex', `<button class="sm" data-act="codexBack">Back</button>`)}<div class="codex-nav" style="margin-bottom:10px">${tabs.map((t) => `<button class="${c.tab === t ? 'primary' : ''}" data-act="codexTab" data-arg="${t}">${t[0].toUpperCase() + t.slice(1)}</button>`).join('')}</div>${body}</div>`;
   }
@@ -15904,7 +18003,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       <p><b>Enemies telegraph.</b> Every enemy shows what it will do before you act. Step out of its zone and a zone shot has no line. Move two nodes and a slow brute spends its turn walking. Hide and ranged shots strike afterimages. Push it off the node and its plan collapses. <b>Defense is proactive</b> — there are no reactions; you prepare on your turn.</p>
       <p><b>Zones.</b> Every node sits in one or two coloured zones. Ranged ("zone") strikes hit anything that shares a zone with you, at any distance. Melee needs a shared edge. Height nodes (dashed ring) can only be reached by Space verbs — blink, climb, hover — or by dropping the ramp with the lever.</p>
       <p><b>States, never keys.</b> Hidden is broken by melee, area, being moved, or being Located. Shield is bypassed by Pierce, area or true damage. Anchored can't be moved — and still acts. No ability ever takes a turn away.</p>
-      <p><b>Resources.</b> <kbd>M</kbd> Mass · <kbd>C</kbd> Charge · <kbd>S</kbd> Space · <kbd>T</kbd> Time · <kbd>◇</kbd> Omni spends as any. One of each M C S T can be folded into an Omni (the anti-brick valve). <b>Omnicrystals (◇)</b> are the managed economy: buy gear and fuel it.</p>
+      <p><b>Resources.</b> <kbd>M</kbd> Mass · <kbd>C</kbd> Charge · <kbd>S</kbd> Space · <kbd>T</kbd> Time · <kbd>◇</kbd> Omni spends as any. One of each M C S T can be folded into an Omni (the anti-brick valve). A banked Omni, or any two banked etherions, can be spent as 1 AP (◇→AP). <b>Omnicrystals (◇)</b> are the managed economy: buy gear and fuel it.</p>
       <p><b>Basic actions.</b> With or without cards, any hero can <b>Strike</b> an adjacent foe for 2 (2 AP), <b>Brace</b> for Shield 1 until their next turn (1 AP), or <b>Shove</b> an adjacent foe 1 node (2 AP). They are weak on purpose: the floor, not a plan. <b>Channel</b> a banked etherion (or Omni) on its own, with no AP: Mass — Strike an adjacent foe for 2 or Shove it 1 node; Charge — Arc 1 damage into a foe up to 3 away, or Reach an objective 2 nodes away (1 AP); Space — Scramble 1 node, up or down a ledge; Time — Brace and slide your track 1 extra. Elements are never dead weight: every crystal you roll is something to do.</p>
       <p><b>Downed.</b> At 0 vitality a hero is downed, not dead. An adjacent ally can <b>Rally</b> them for 2 AP (back at 8). Both downed = mission lost. Lose a non-boss mission and your one <b>Lifeline</b> lets you limp on.</p>
       <p><b>Winning.</b> Follow the route to its end and destroy the Heart. Its shield is fed by its Spawners.</p></div>`;
@@ -16057,7 +18156,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           // a mission in progress is part of the save: carry on in the middle of the round
           U.screen = 'mission';
           U.enterMission();
-        } else U.screen = ['reward', 'haven', 'event'].includes(r.phase) ? r.phase : 'map';
+        } else U.screen = ['reward', 'haven', 'event', 'garage'].includes(r.phase) ? r.phase : 'map';
         U.render();
         return;
       }
@@ -16122,6 +18221,22 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       case 'kit':
         U.openKit(parseInt(arg, 10));
         return;
+      case 'kitPick': {
+        const [i, cid] = arg.split('|');
+        U.kitIn = cid ? { hero: parseInt(i, 10), card: cid } : null;
+        U.openKit(parseInt(i, 10));
+        return;
+      }
+      case 'kitSwap': {
+        const [i, cid, out] = arg.split('|');
+        const r = U.exec({ op: 'loadCard', hero: parseInt(i, 10), card: cid, out: out || null });
+        if (!r.ok) U.toast(r.why);
+        else U.sfx.click();
+        U.kitIn = null;
+        T.saveRun(U.run);
+        U.openKit(parseInt(i, 10));
+        return;
+      }
       case 'upRun': {
         const i = parseInt(t.getAttribute('data-hero'), 10);
         const [cid, which, delta] = arg.split('|');
@@ -16203,6 +18318,15 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       case 'buyGear': {
         const [g, i] = arg.split('|');
         const r = U.exec({ op: 'buyGear', hero: parseInt(i, 10), gear: g });
+        if (!r.ok) U.toast(r.why);
+        else U.sfx.click();
+        U.render();
+        return;
+      }
+      case 'adoptPet': {
+        const i = parseInt(arg, 10);
+        const sel = document.getElementById('petdrop-' + i);
+        const r = U.exec({ op: 'adoptPet', hero: i, drop: sel && sel.value ? sel.value : undefined });
         if (!r.ok) U.toast(r.why);
         else U.sfx.click();
         U.render();
@@ -16544,6 +18668,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
 
   // actions whose data-arg starts with the hero's index ("i|…"), or has it second ("…|i")
   const HERO_FIRST = new Set([
+    'heel',
+    'adoptPet',
     'face',
     'gear',
     'cons',
@@ -16551,10 +18677,13 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     'interact',
     'rally',
     'valve',
+    'asAPMode',
     'dumpMode',
     'die',
     'train',
     'kit',
+    'kitPick',
+    'kitSwap',
     'autoUpRun',
     'sellGear',
     'skipCard',
@@ -16980,12 +19109,25 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     o = o || {};
     const c = T.CARD[cid];
     const sp = U.cladeIn(c, o.clades);
-    const lv = o.P != null ? `P${o.P} · E${o.E}` : `${c.sig >= 2 ? '★ ' : ''}${esc(EL[elOf(c)].name)}`;
-    const inner = `<span class="am-gem" style="--el:${EL[elOf(c)].color}"></span>${U.cardArt(c, false, sp)}<span class="am-tn">${esc(c.name)}</span><span class="am-tc">${U.icClade(sp)} ${esc(c.kin || T.SPECIES[sp].name)}</span><span class="am-tl">${lv}</span>${o.out ? '<span class="am-x" aria-hidden="true">✕</span>' : ''}`;
+    const lv =
+      o.P != null && c.gear
+        ? `gear · ${esc(T.gearCostText({ omni: Math.max(...T.faceKeys(cid).map((k) => c[k].el || 0)) }))}`
+        : o.P != null
+          ? c.pet
+            ? `P${o.P} · pet`
+            : `P${o.P} · E${o.E}`
+          : `${c.sig >= 2 ? '★ ' : ''}${esc(EL[elOf(c)].name)}`;
+    const inner = `<span class="am-gem" style="--el:${EL[elOf(c)].color}"></span>${U.cardArt(c, false, sp)}<span class="am-tn">${esc(c.name)}</span><span class="am-tc">${c.gear ? U.icGear(c.gear) : U.icClade(sp)} ${esc(c.kin || T.SPECIES[sp].name)}</span><span class="am-tl">${lv}</span>${o.out ? '<span class="am-x" aria-hidden="true">✕</span>' : ''}`;
     const cls = `am-tile${o.sel ? ' sel' : ''}${o.out ? ' out' : ''}${o.dim ? ' dim' : ''}${o.cls ? ' ' + o.cls : ''}`;
     const tip = o.tip
       ? ` data-tip="${esc(o.tip)}"`
-      : ` data-tip="${esc(U.faceTipHTML(c, 'P', o.P || 0, o.E || 0) + '<hr>' + U.faceTipHTML(c, 'E', o.P || 0, Math.max(o.E || 0, T.RULES.ETHEREAL_MIN_E)))}"`;
+      : c.pet || c.gear
+        ? ` data-tip="${esc(
+            T.faceKeys(cid)
+              .map((k) => U.faceTipHTML(c, k, o.P || 0, 0))
+              .join('<hr>'),
+          )}"`
+        : ` data-tip="${esc(U.faceTipHTML(c, 'P', o.P || 0, o.E || 0) + '<hr>' + U.faceTipHTML(c, 'E', o.P || 0, Math.max(o.E || 0, T.RULES.ETHEREAL_MIN_E)))}"`;
     if (!o.act) return `<div class="${cls}"${tip}>${inner}</div>`;
     return `<button class="${cls}" data-act="${o.act}" data-arg="${esc(o.arg)}"${o.disabled ? ' disabled' : ''}${tip} aria-pressed="${!!o.sel}">${inner}</button>`;
   }
@@ -16996,7 +19138,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       const face = c[fk];
       return `<div class="am-face ${fk}"><b>${esc(face.n)}</b> <span class="mono dim">${face.ap} AP${face.el ? ` + ${face.el}<span class="el-${face.elt || c.el}">◆</span>` : ''}</span><span>${U.kw(esc(face.txt(P || 0, Math.max(E || 0, fk === 'E' ? T.RULES.ETHEREAL_MIN_E : 0))))}</span></div>`;
     };
-    return `<div class="am-faces">${f('P')}${f('E')}</div>`;
+    return `<div class="am-faces">${T.faceKeys(cid).map(f).join('')}</div>`;
   }
   /** Each pilot's portrait, name and vitality. */
   function squad(run, cls) {
@@ -17052,19 +19194,20 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const offer = rw.offers[i];
     let trait;
     if (rw.picked[i]) {
-      const took = am.taken && am.taken[i] && h.cards.includes(am.taken[i]) ? am.taken[i] : null;
-      trait = `<p class="am-done">✓ ${took ? `<b>${esc(T.CARD[took].name)}</b> joins ${esc(h.name.split(' ')[0])}'s kit` : `${esc(h.name.split(' ')[0])}'s trait is chosen`}.</p>`;
+      const took = am.taken && am.taken[i] && T.holds(h, am.taken[i]) ? am.taken[i] : null;
+      const first = esc(h.name.split(' ')[0]);
+      trait = `<p class="am-done">✓ ${took ? `<b>${esc(T.CARD[took].name)}</b> ${h.cards.includes(took) ? `joins ${first}'s kit` : `waits in ${first}'s reserve: bring it in from Kit between missions`}` : `${first}'s trait is chosen`}.</p>`;
     } else {
       const sel = offer.includes(am.rwCard[i]) ? am.rwCard[i] : offer[0];
       const ex = sel && T.isSwapOffer(run, i, sel);
       const full = h.cards.length >= T.RULES.MAX_CARDS;
-      trait = `<div class="am-lab">${full ? `Trait · ${esc(h.name.split(' ')[0])}'s kit is full: an exchange` : 'Trait · pick one'}</div>
+      trait = `<div class="am-lab">${full ? `Trait · ${esc(h.name.split(' ')[0])}'s kit is full: keep it in reserve, or fly it now` : 'Trait · pick one'}</div>
         <div class="am-offer">${offer.map((cid) => tile(cid, { act: 'amRwCard', arg: `${i}|${cid}`, sel: cid === sel, clades: h.species, cls: T.isSwapOffer(run, i, cid) ? 'swap' : '' })).join('')}</div>
         ${sel ? faces(sel, 0, 0) : ''}
         <div class="am-acts">${
           sel
             ? ex
-              ? `<button class="primary am-cta" data-act="swapPick" data-arg="${sel}|${i}" data-tip="Give up one of ${esc(h.name)}'s nine traits for this one.">Exchange for ${esc(T.CARD[sel].name)} ▶</button>`
+              ? `<button class="primary am-cta" data-act="swapPick" data-arg="${sel}|${i}" data-tip="${esc(`${T.CARD[sel].name} comes into the kit and one of the nine stays behind, in reserve, with its points.`)}">Fly ${esc(T.CARD[sel].name)} now ▶</button><button class="am-cta" data-act="takeCard" data-arg="${sel}|${i}" data-tip="${esc(`Keep ${T.CARD[sel].name} in reserve: the kit flies as it is, and Kit swaps it in between missions.`)}">Keep in reserve</button>`
               : `<button class="primary am-cta" data-act="takeCard" data-arg="${sel}|${i}">Take ${esc(T.CARD[sel].name)} ▶</button>`
             : ''
         }<button class="ghost am-ghost" data-act="skipCard" data-arg="${i}">Skip · +2 ◇</button></div>`;
@@ -17091,6 +19234,13 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const who = ready.length === 1 ? ready[0].h.name.split(' ')[0] : 'the squad';
     return `<div class="am-grow"><button class="ghost am-ghost sm" data-act="train" data-arg="${ready[0].i}" data-tip="${esc(ready.map(({ h }) => `${h.name}: ${h.upUnspent}`).join(' · '))}">✦ Grow a card · ${pts} point${pts === 1 ? '' : 's'} for ${esc(who)}</button></div>`;
   }
+  /** A pilot with traits in reserve can choose the nine that fly next, here as on the route (2.107). */
+  function kitOffer(run) {
+    const i = run.heroes.findIndex((h, k) => U.own(k) && h.reserve && h.reserve.length);
+    if (i < 0) return '';
+    const h = run.heroes[i];
+    return `<button class="ghost am-ghost sm" data-act="kit" data-arg="${i}" data-tip="${esc(`Choose which nine traits fly next: ${h.reserve.length} wait in reserve.`)}">Kit · ${esc(h.name.split(' ')[0])}'s reserve ${h.reserve.length}</button>`;
+  }
   /** The full kit's exchange: the trait coming in, the nine there now, and the one that goes. */
   function renderSwap(run, rw) {
     const i = U.swapPick.hero;
@@ -17098,7 +19248,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const sw = U.swapPick.card;
     const drops = new Set(T.swapDrops(h, sw));
     const drop = drops.has(am.drop) ? am.drop : null;
-    let foot = `<span class="dim">Choose the trait that goes out.</span>`;
+    let foot = `<span class="dim">Choose the trait that stays behind.</span>`;
     if (drop) {
       const u = h.up[drop] || [0, 0];
       const after = h.cards.filter((c) => c !== drop).concat(sw);
@@ -17108,10 +19258,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       const caps = Object.keys(counts)
         .map((s) => `${T.SPECIES[s].name} ${counts[s]}/${T.RULES.MAX_PER_SPECIES || 3}`)
         .join(' · ');
-      foot = `Give up <b>${esc(T.CARD[drop].name)}</b> · <span class="ok">${u[0] + u[1] ? `its ${u[0] + u[1]} point${u[0] + u[1] === 1 ? '' : 's'} come back` : 'no points on it'}</span>${caps ? ` · ${esc(caps)}` : ''}`;
+      foot = `Leave <b>${esc(T.CARD[drop].name)}</b> behind · <span class="ok">${u[0] + u[1] ? `its ${u[0] + u[1]} point${u[0] + u[1] === 1 ? '' : 's'} stay on it` : 'it waits in reserve'}</span>${caps ? ` · ${esc(caps)}` : ''}`;
     }
     return `<div class="am am-swap">${backdrop(null)}${topbar(run)}
-      <div class="am-head"><span class="am-eye">Reward · ${esc(h.name.split(' ')[0])}'s kit is full (${h.cards.length} of ${T.RULES.MAX_CARDS})</span><h1 class="am-h">${esc(T.CARD[sw].name)} comes in. Which trait goes out?</h1><p class="dim">The points spent on the one you give up come back to spend again${h.bound && Object.keys(h.bound).length ? ' (points a second copy bound to it go with it)' : ''}. No more than ${T.RULES.MAX_PER_SPECIES || 3} from one bloodline.</p></div>
+      <div class="am-head"><span class="am-eye">Reward · ${esc(h.name.split(' ')[0])}'s kit is full (${h.cards.length} of ${T.RULES.MAX_CARDS})</span><h1 class="am-h">${esc(T.CARD[sw].name)} comes in. Which trait stays behind?</h1><p class="dim">Nothing is lost: the one left behind waits in reserve with its points, and Kit brings it back between missions. Nine fly, no more than ${T.RULES.MAX_PER_SPECIES || 3} from one bloodline, and the dice follow the cards that fly.</p></div>
       <div class="am-swaprow"><div class="am-in"><div class="am-lab ok">Coming in</div>${tile(sw, { clades: h.species, cls: 'big glow' })}</div><div class="am-arrow" aria-hidden="true">⇄</div>
       <div class="am-kit">${h.cards
         .map((d) => {
@@ -17125,11 +19275,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
             clades: h.species,
             out: d === drop,
             dim: !can,
-            tip: can ? null : `${T.CARD[d].name} stays: giving it up would break the bloodline rule.`,
+            tip: can ? null : `${T.CARD[d].name} flies: leaving it behind would break the bloodline rule.`,
           });
         })
         .join('')}</div></div>
-      <div class="am-bar panel"><div class="am-bartxt">${foot}</div><button class="ghost am-ghost" data-act="swapPick" data-arg="">Back to the offer</button><button class="primary am-cta" data-act="swapDrop" data-arg="${drop ? `${sw}|${i}|${drop}` : ''}" ${drop ? '' : 'disabled'}>Swap</button></div></div>`;
+      <div class="am-bar panel"><div class="am-bartxt">${foot}</div><button class="ghost am-ghost" data-act="swapPick" data-arg="">Back to the offer</button><button class="primary am-cta" data-act="swapDrop" data-arg="${drop ? `${sw}|${i}|${drop}` : ''}" ${drop ? '' : 'disabled'}>Swap in</button></div></div>`;
   }
   U.renderReward = function () {
     const run = U.run;
@@ -17160,7 +19310,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           ${pilotTabs(run, rw, cur)}
           <div class="am-pick">${rewardPick(run, rw, cur)}</div></div>
       </div>
-      <div class="am-foot">${growOffer(run)}<button class="primary am-cta" data-act="rewardDone" ${ready ? '' : 'disabled'} ${ready ? '' : `data-tip="${esc('Still to choose: ' + waiting.map(({ h }) => h.name.split(' ')[0]).join(', '))}"`}>${ready ? 'Onward ▶' : `Choosing… ${run.heroes.length - waiting.length}/${run.heroes.length}`}</button></div></div>`;
+      <div class="am-foot">${growOffer(run)}${kitOffer(run)}<button class="primary am-cta" data-act="rewardDone" ${ready ? '' : 'disabled'} ${ready ? '' : `data-tip="${esc('Still to choose: ' + waiting.map(({ h }) => h.name.split(' ')[0]).join(', '))}"`}>${ready ? 'Onward ▶' : `Choosing… ${run.heroes.length - waiting.length}/${run.heroes.length}`}</button></div></div>`;
   };
 
   /* ───────────── UPGRADE AND AWAKEN: grow one card ───────────── */
@@ -17168,10 +19318,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   U.openTrain = function (i) {
     const run = U.run;
     const h = run.heroes[i];
-    if (!am.up || am.up.hero !== i || !h.cards.includes(am.up.card)) {
+    // a gear card is bought as it is, never trained (2.119): the upgrade view leaves it out
+    const trainable = h.cards.filter((c) => !T.CARD[c].gear);
+    if (!am.up || am.up.hero !== i || !trainable.includes(am.up.card)) {
       // start on the first card with room to grow, a sleeping card first
-      const asleep = h.cards.find((c) => T.heroE(h, c) < T.RULES.ETHEREAL_MIN_E);
-      am.up = { hero: i, card: asleep || h.cards[0], face: asleep ? 'E' : 'E' };
+      const asleep = trainable.find((c) => !T.CARD[c].pet && T.heroE(h, c) < T.RULES.ETHEREAL_MIN_E);
+      am.up = { hero: i, card: asleep || trainable[0], face: asleep ? 'E' : 'E' };
     }
     const cid = am.up.card;
     const c = T.CARD[cid];
@@ -17179,7 +19331,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const E = T.heroE(h, cid);
     const capP = T.RULES.P_CAP;
     const capE = T.RULES.E_CAP;
-    const fk = am.up.face;
+    const fk = c.pet ? 'P' : am.up.face; // a pet's card grows with P alone
     const lv = fk === 'P' ? P : E;
     const cap = fk === 'P' ? capP : capE;
     const pts = h.upUnspent + T.boundLeft(h, cid);
@@ -17204,7 +19356,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       <div class="am-uphead"><span class="am-eye">Upgrade · ${esc(h.name.split(' ')[0])} has ${h.upUnspent} point${h.upUnspent === 1 ? '' : 's'}</span><h2 class="am-h">Grow one card</h2>
         <span class="am-uptools">${others.map(({ x, k }) => `<button class="ghost sm" data-act="train" data-arg="${k}">${U.portrait(x, 'am-pf-xs')} ${esc(x.name.split(' ')[0])}</button>`).join('')}<button class="ghost sm" data-act="autoUpRun" data-arg="${i}" data-tip="Spend every point the way the simulated players do">Auto</button><button class="sm" data-act="closeModal">Done</button></span></div>
       <div class="am-upbody">
-        <div class="am-upkit" role="listbox" aria-label="${esc(h.name)}'s cards">${h.cards
+        <div class="am-upkit" role="listbox" aria-label="${esc(h.name)}'s cards">${trainable
           .map((k) => {
             const kp = T.heroP(h, k);
             const ke = T.heroE(h, k);
@@ -17215,13 +19367,21 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
               P: kp,
               E: ke,
               clades: h.species,
-              cls: ke < T.RULES.ETHEREAL_MIN_E ? 'asleep' : kp + ke >= capP + capE ? 'maxed' : '',
+              cls: T.CARD[k].pet
+                ? kp >= capP
+                  ? 'maxed'
+                  : ''
+                : ke < T.RULES.ETHEREAL_MIN_E
+                  ? 'asleep'
+                  : kp + ke >= capP + capE
+                    ? 'maxed'
+                    : '',
             });
           })
           .join('')}</div>
         <div class="am-upcard${flash}"><div class="am-spark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>${U.cardHTML(cid, { P, E, showUp: true, flavor: false, clades: h.species, bound: T.boundLeft(h, cid) })}</div>
         <div class="panel am-upside">
-          <div class="am-fbtns">${faceBtn('P')}${faceBtn('E')}</div>
+          <div class="am-fbtns">${c.pet ? faceBtn('P') : faceBtn('P') + faceBtn('E')}</div>
           <div class="am-lab">${esc(face.n)}, ${asleep ? 'now' : 'before'}</div><div class="am-before">${U.kw(esc(before))}</div>
           ${after != null ? `<div class="am-lab gold">${esc(face.n)}, ${asleep ? 'awake' : 'after'}</div><div class="am-after">${U.kw(esc(after))}</div>` : `<div class="am-lab gold">At its height</div><div class="am-after dim">${esc(face.n)} is at ${fk} ${cap}, as far as it grows.</div>`}
           <p class="small dim">${fk === 'P' ? 'Physical costs AP only and grows with P.' : `Ethereal unlocks at E ${T.RULES.ETHEREAL_MIN_E} and grows with E.`} Caps: P ${capP}, E ${capE}.</p>
@@ -17241,7 +19401,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const gear = hv.gear
       .map((gid) => {
         const g = T.GEAR_BY[gid];
-        return `<div class="am-ware"><div class="row"><span class="am-wi">${U.icGear(g.id)}</span><b>${esc(g.name)}</b><span class="right chip gold">${g.price} ◇</span></div><div class="small dim">${esc(g.desc)}</div>${g.passive ? `<div class="small">◆ <b>Passive</b>: ${esc(g.passive.txt)}</div>` : ''}${g.abilities.map((a) => `<div class="small">• <b>${esc(a.n)}</b> <span class="mono dim">${a.cost} ◇ · cd ${a.cd}</span> ${esc(a.txt())}</div>`).join('')}<div class="am-buy">${run.heroes
+        return `<div class="am-ware"><div class="row"><span class="am-wi">${U.icGear(g.id)}</span><b>${esc(g.name)}</b><span class="right chip gold">${g.price} ◇</span></div><div class="small dim">${esc(g.desc)}</div>${g.passive ? `<div class="small">◆ <b>Passive</b>: ${esc(g.passive.txt)}</div>` : ''}${g.abilities.map((a) => `<div class="small">• <b>${esc(a.n)}</b> <span class="mono dim">${T.gearUseText(a)}</span> ${esc(a.txt())}</div>`).join('')}${g.card ? `<div class="small dim">${T.gearCardNote(g)}</div>` : ''}<div class="am-buy">${run.heroes
           .map((h, i) => {
             if (!own(i)) return '';
             const ok = T.crystalsFor(run, i) >= g.price && h.gear.length < 2;
@@ -17250,6 +19410,27 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           .join('')}</div></div>`;
       })
       .join('');
+    // a stray (src/data/pets.js): a pocket pet, whose card joins the kit or the reserve like any other
+    const pr = hv.pet;
+    const stray = pr
+      ? `<div class="am-ware am-pet"><div class="row"><span class="am-wi">🐾</span><b>${esc(pr.name)}</b><span class="small dim">&nbsp;a ${esc(pr.species.map((sp) => T.SPECIES[sp].name).join(', '))} hybrid</span><span class="right chip gold">${T.PET.PRICE} ◇</span></div><div class="small dim">A pet: a small unit of its own on the board (${T.PET.HP} vitality). Its card holds a Physical face from each of its clades and plays from the pet; any one face sends the whole card to the track. It may share your node, where nothing can hurt it, and rides with you in any vehicle. At 0 it is out for the mission, back for the next.</div>${U.cardHTML(pr.card, { P: 0, E: 0, flavor: true })}<div class="am-buy">${run.heroes
+          .map((h, i) => {
+            if (!own(i)) return '';
+            const full = h.cards.length >= T.RULES.MAX_CARDS;
+            const can = T.crystalsFor(run, i) >= T.PET.PRICE && (h.pets || []).length < T.PET.MAX;
+            const drop = full
+              ? `<select id="petdrop-${i}" aria-label="Where the pet's card goes for ${esc(h.name)}"><option value="">Keep in reserve</option>${h.cards.map((c) => `<option value="${esc(c)}">Fly it, ${esc(T.CARD[c].name)} to reserve</option>`).join('')}</select>`
+              : '';
+            const why =
+              (h.pets || []).length >= T.PET.MAX
+                ? `data-tip="${T.PET.MAX} pets at most"`
+                : full
+                  ? 'data-tip="The kit is full: the pet\'s card waits in reserve, or flies in place of a card that does"'
+                  : '';
+            return `${drop}<button class="sm ${can ? 'primary' : ''}" data-act="adoptPet" data-arg="${i}" ${can ? '' : 'disabled'} ${why}>Adopt for ${esc(h.name.split(' ')[0])}</button>`;
+          })
+          .join('')}</div></div>`
+      : '';
     const story = 'Walls against the wind, a fire, and someone who mends things for crystals. Nothing hunts here.';
     return `<div class="am am-haven">${backdrop(U.EVENT_SCENES.haven, 'side')}${topbar(run)}
       <div class="am-split"><div class="am-art ${art(U.EVENT_SCENES.haven)}" aria-hidden="true"></div>
@@ -17262,7 +19443,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           <div class="am-opt"><div class="row"><span class="am-oi canon">✎</span><b>Listen</b></div><span class="small dim am-story">${esc(story)} ${U.canonMark ? U.canonMark('event:haven', story, 'event:text') : ''}</span><div class="am-ob"><button class="sm ghost" data-act="kit" data-arg="0">Look over the kits</button></div></div>
         </div>
         <div class="am-row2">${squad(run)}</div>
-        <div id="am-stalls" class="am-stalls"><div class="am-lab gold">The stalls · gear</div><div class="am-wares">${gear || '<span class="dim small">Sold out.</span>'}</div></div>
+        <div id="am-stalls" class="am-stalls"><div class="am-lab gold">The stalls · gear</div><div class="am-wares">${gear || '<span class="dim small">Sold out.</span>'}</div>${stray ? `<div class="am-lab gold">A stray</div><div class="am-wares">${stray}</div>` : ''}</div>
       </div></div>
       <div class="am-foot"><button class="primary am-cta" data-act="leaveHaven">Leave ▶</button></div></div>`;
   };
@@ -17299,9 +19480,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           .join('')}</div><button class="ghost am-ghost sm" data-act="evSkipCard">Take nothing</button>`;
       else if (f && f.kind === 'tradeCard' && !f.done) {
         const h = run.heroes[f.heroIdx];
-        fu = `<div class="am-lab gold">${esc(h.name)} sheds a trait</div><p class="small dim">A random trait of the same bloodline grows in its place.</p><div class="am-kit">${h.cards.map((cid) => tile(cid, { act: 'evTrade', arg: cid, P: T.heroP(h, cid), E: T.heroE(h, cid), clades: h.species })).join('')}</div><button class="ghost am-ghost sm" data-act="evSkipCard">Keep everything</button>`;
+        fu = `<div class="am-lab gold">${esc(h.name)} sheds a trait</div><p class="small dim">A random trait of the same bloodline grows in its place; the one shed waits in reserve, points and all.</p><div class="am-kit">${h.cards.map((cid) => tile(cid, { act: 'evTrade', arg: cid, P: T.heroP(h, cid), E: T.heroE(h, cid), clades: h.species })).join('')}</div><button class="ghost am-ghost sm" data-act="evSkipCard">Keep everything</button>`;
       } else if (f && f.kind === 'tradeCard' && f.done)
-        fu = `<p>${esc(run.heroes[f.heroIdx].name)} sheds <b>${esc(T.CARD[f.dropped].name)}</b> and grows <b>${f.gained ? esc(T.CARD[f.gained].name) : 'nothing: the bloodline is exhausted'}</b>.</p>`;
+        fu = `<p>${f.gained ? `${esc(run.heroes[f.heroIdx].name)} sets <b>${esc(T.CARD[f.dropped].name)}</b> into reserve and grows <b>${esc(T.CARD[f.gained].name)}</b>` : `${esc(run.heroes[f.heroIdx].name)} keeps <b>${esc(T.CARD[f.dropped].name)}</b>: no trait of the bloodline could grow in its place`}.</p>`;
       else if (f && f.kind === 'boonGiven')
         fu = `<p>${esc(f.hero)} gains <b>${U.icBoon(f.boon)} ${esc(T.BOON_BY[f.boon].name)}</b>: ${esc(T.BOON_BY[f.boon].desc)}</p>`;
       else if (f && f.kind === 'respec')
@@ -17397,7 +19578,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       ]);
     return `<div class="am am-fallen">${backdrop(stopArt(run, here(run)), 'grey')}${topbar(null)}${endTabs('end')}
       <div class="am-grid">
-        <div class="am-col am-fallmain"><span class="am-eye red">No lifelines left · stop ${reached} of ${rows}</span><h1 class="am-h xl">The expedition ends here</h1><p class="am-sub">${esc(T.fillTokens(T.FLAVOR.lose[0], { THREAT: T.threatName(run) }))}</p><p class="dim">${esc(names(run))} came ${reached} stop${reached === 1 ? '' : 's'} down the route${run.stats.lifelineUsed ? ', with the lifeline spent on the way' : ''}. What you found stays found.</p>
+        <div class="am-col am-fallmain"><span class="am-eye red">${run.stats.wiped ? 'The whole squad fell' : 'No lifelines left'} · stop ${reached} of ${rows}</span><h1 class="am-h xl">The expedition ends here</h1><p class="am-sub">${esc(T.fillTokens(T.FLAVOR.lose[0], { THREAT: T.threatName(run) }))}</p><p class="dim">${esc(names(run))} came ${reached} stop${reached === 1 ? '' : 's'} down the route${run.stats.lifelineUsed ? ', with the lifeline spent on the way' : ''}. What you found stays found.</p>
           ${routeTiles(path)}
           <div class="am-foot left">${endButtons(false)}</div></div>
         <div class="panel am-col"><div class="am-lab gold">What carries over</div>${carry.length ? carry.map(([i, t]) => `<div class="am-carry"><span class="am-ci">${i}</span><span>${t}</span></div>`).join('') : '<div class="small dim">This squad came from the pre-made pilots: build your own on the title screen and it keeps what it grows.</div>'}</div>
@@ -17623,6 +19804,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       pending: null,
       rerollLeft: 0,
       rerollPicked: [],
+      asAPPicked: [],
       fxDone: 0,
       built: false,
       overShown: false,
@@ -17862,8 +20044,20 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         zones,
       ).textContent = z.name + ' zone';
     });
+    // a path into water or over a gap is for vehicles only (src/data/vehicles.js): drawn faint and dashed
+    const foot = (k) => !N[k].terrain || T.TERRAIN[N[k].terrain].foot;
     m.board.edges.forEach(([a, b]) =>
-      svgEl('line', { x1: g.px(N[a]), y1: g.py(N[a]), x2: g.px(N[b]), y2: g.py(N[b]), class: 'edge' }, edges),
+      svgEl(
+        'line',
+        {
+          x1: g.px(N[a]),
+          y1: g.py(N[a]),
+          x2: g.px(N[b]),
+          y2: g.py(N[b]),
+          class: 'edge' + (foot(a) && foot(b) ? '' : ' vpath'),
+        },
+        edges,
+      ),
     );
     m.board.climb.forEach(([a, b]) =>
       svgEl(
@@ -17879,6 +20073,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         nodes,
       );
       svgEl('circle', { r: 27, class: 'ring' }, gr);
+      // a big map's ground: water, a gap, rough ground (src/data/vehicles.js), inside the ring
+      if (n.terrain) svgEl('circle', { r: 23, class: 'terrain t-' + n.terrain, fill: T.TERRAIN[n.terrain].color }, gr);
       // the outer ring shows the node's zones: one arc for each
       n.zones.forEach((zone, i) => {
         const k = n.zones.length;
@@ -17930,17 +20126,27 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       const bits = [
         `<b>${n.label ? 'Space ' + n.label : 'Node ' + n.id}</b> — ${n.zones.map((z) => T.ZONES[z].name).join(' and ')} zone`,
       ];
-      if (n.height) bits.push('Height: reachable only by Space verbs (Blink, climb, Hover) or the ramp.');
+      if (n.height) bits.push('Height: reachable only by climbing, a Blink that says height, Hover, or the ramp.');
       if (n.hazard)
         bits.push(
           `Hazard (a Field of damage): ${T.RULES.HAZARD_DMG} true damage at round end to anyone standing here.`,
         );
+      if (n.terrain) bits.push(`<b>${T.TERRAIN[n.terrain].name}</b>: ${T.TERRAIN[n.terrain].txt}`);
+      const vh = T.vehicleAt(m, n.id);
+      if (vh) bits.push(vehicleTip(m, vh));
       if (n.spawn) bits.push('Spawn-node: foes emerge here.');
       if (n.objective) bits.push(objText(m, n));
       for (const f of m.fields || []) if (T.fieldNodes(m, f).includes(n.id)) bits.push(T.fieldText(m, f));
       return bits.join('<div style="height:4px"></div>');
     }
     return '';
+  }
+  /** A vehicle in words: who brought it, its hull, seats, speed, ground and cards. */
+  function vehicleTip(m, v) {
+    const d = T.vehicleDef(v);
+    const riders = T.ridersOf(m, v);
+    const ground = d.ground.map((t) => T.TERRAIN[t].name.toLowerCase()).join(', ') + (d.height ? ', high ground' : '');
+    return `<b>${d.icon} ${esc(d.name)}</b> <span class="dim">${esc(m.heroes[v.owner] ? m.heroes[v.owner].name + "'s" : '')}</span><div class="mono small">hull ${v.hull}/${d.hull} · seats ${riders.length}/${d.seats} · speed ${d.speed} · ${esc(ground)}</div>${riders.length ? `<div class="small">Inside: ${riders.map((r) => esc(r.name)).join(', ')}${v.driver != null ? ' (driving: ' + esc((m.heroes.find((x) => x.uid === v.driver) || {}).name || '') + ')' : ''}</div>` : '<div class="small">Parked: get in from a space beside it (1 AP).</div>'}${d.cards.map((c) => `<div class="small">• <b>${esc(c.n)}</b> <span class="mono dim">${c.ap} AP${c.seat === 'driver' ? ' · driver' : ''}</span> ${esc(c.txt)}</div>`).join('')}`;
   }
   function objText(m, n) {
     const o = n.objective;
@@ -18126,6 +20332,13 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       const t = m.enemies.find((e) => e.type === ob.target);
       prog = t ? `${t.name} ${Math.max(0, t.hp)}/${t.maxHp}` : 'destroyed';
     }
+    // Resonance (2.118): the elements in the air, strong this round or fading
+    const airPill = (mm) => {
+      const up = T.AIR_ELS.filter((k) => mm.air && mm.air[k] > 0);
+      if (!up.length) return '';
+      const say = up.map((k) => `${T.ETHERIONS[k].name}${mm.air[k] > 1 ? '' : ' (fading)'}`).join(', ');
+      return `<span class="pill air-pill" data-tip="${esc('In the air (Resonance): ' + say + '. A face that draws on one takes it; Omni stands in for any.')}">≋ ${esc(up.map((k) => T.ETHERIONS[k].name).join(' · '))}</span>`;
+    };
     const clock = m.clock
       ? `<span class="clock ${m.clock.value <= 2 ? 'hot' : ''}" data-tip="${esc(m.clock.label + ' · round ' + m.round)}"><span class="cv">⏳ ${m.clock.value}</span><small class="rnd">round ${m.round}</small></span>`
       : `<span class="pill mono">Round ${m.round}</span>`;
@@ -18154,7 +20367,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       $('#mtop'),
       `<div class="topbar"><div class="mhead"><div class="kickrow"><span class="kick">${esc(m.archetype === 'boss' ? 'Finale' : m.archetype === 'elite' ? 'Elite' : 'Mission')} · tier ${m.tier}${m.page && T.PAGE_BY[m.page] ? ` · <button class="linkish" data-act="atlasHere" data-tip="This place in the atlas: its board, its rules and its field notes">${esc(T.PAGE_BY[m.page].name)}</button>` : ''}</span>${condsChip}</div><h3 style="margin:0">${esc(m.title)}</h3>
       <div class="obj${U.layout.obj ? ' open' : ''}" data-act="fold" data-arg="obj" title="${U.layout.obj ? 'Click to fold the objective to two lines' : 'Click to read the whole objective'}"><div class="obj-txt"><b>Objective:</b> ${esc(ob.text)}</div><div class="small dim obj-bonus"><span class="obj-bar" style="--p:${Math.round(100 * T.objectiveProgress(m))}%"><i></i></span><span class="pill obj-prog${U.ms.obJust > Date.now() ? ' just' : ''}" style="--p:${Math.round(100 * T.objectiveProgress(m))}%" data-tip="How far the objective has come">${prog}</span> ${m.bonus.map((b) => '<span class="bonus">○ ' + esc(b.text) + '</span>').join(' ')}</div></div></div>
-      <div class="tpills">${clock}${U.purseHTML(m, true)}</div>
+      <div class="tpills">${clock}${airPill(m)}${U.purseHTML(m, true)}</div>
       <div class="endgrp${noteOpen ? ' note-open' : ''}"><div class="endrow">${undoBtn(m)}<button class="ghost sm note-btn${noteOpen ? ' on' : ''}" data-act="noteOpen" aria-expanded="${noteOpen}" aria-label="Write a line of story" data-tip="Give this turn a line of story">✎</button>${menuBtn}<button class="primary endbtn" data-act="endRound" ${m.over ? 'disabled' : ''}>${U.endRoundLabel ? U.endRoundLabel() : 'End Round ▶'}</button></div><div class="turnline small">${turnLine(U.run)}</div>${noteBox(m)}${menu}</div></div>`,
     );
     const end2 = $('#mend2');
@@ -18265,6 +20478,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     else if (ms.mode === 'reroll') txt = `<b>Reroll</b> — click up to ${ms.rerollLeft} banked dice, then confirm.`;
     else if (ms.mode === 'freeMove') txt = `<b>Free step</b> — click a highlighted node (up to ${ms.freeN}).`;
     else if (ms.mode === 'dump') txt = `<b>Return a die</b> — click a banked die to send it back to the pool.`;
+    else if (ms.mode === 'asAP')
+      txt = (ms.asAPPicked || []).length
+        ? `<b>Dice as AP</b> — now click a second etherion: the two make 1 AP.`
+        : `<b>Dice as AP</b> — click an Omni (1 AP), or two etherions, the same or different (1 AP together).`;
     el.innerHTML = `<div class="targeting">${txt}<span class="right row">${allyBtns}${ms.mode === 'choice' ? '<button class="sm primary" data-act="choice" data-arg="push">Push</button><button class="sm primary" data-act="choice" data-arg="pull">Pull</button>' : ''}${ms.mode === 'reroll' ? '<button class="sm primary" data-act="rerollConfirm">Confirm</button>' : ''}<button class="sm ghost" data-act="cancelMode">${ms.mode === 'freeMove' || ms.mode === 'reroll' ? 'Skip' : 'Cancel'}</button></span></div>`;
   }
   function hintText(m) {
@@ -18284,7 +20501,23 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   /** Does this screen take touches rather than a pointer that hovers? (jsdom, with no matchMedia: no.) */
   U.touch = () => typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(hover: none)').matches;
   /** The moves a player can take back: those that only spend what is in hand, on the board in view. */
-  const TAKE_BACK = new Set(['face', 'basic', 'gear', 'item', 'interact', 'rally', 'valve', 'dump', 'walk']);
+  const TAKE_BACK = new Set([
+    'face',
+    'basic',
+    'gear',
+    'item',
+    'interact',
+    'rally',
+    'heel',
+    'valve',
+    'asAP',
+    'dump',
+    'walk',
+    'board',
+    'leave',
+    'drive',
+    'vcard',
+  ]);
   /** Take-backs are for one screen playing alone or passing the screen; online, the host's mission is shared. */
   const takeBackOn = () => !(U.net && U.net.online && U.net.online());
   /** Called by U.exec before a command: the mission as it stands, if the command could be taken back. */
@@ -18317,7 +20550,20 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     if (cmd.op === 'gear') return who + T.GEAR_BY[h.gear[cmd.gi].id].abilities[cmd.ai].n;
     if (cmd.op === 'walk') return who + 'step';
     if (cmd.op === 'item') return who + T.CONSUMABLE_BY[h.consumables[cmd.ci]].name;
-    return who + { interact: 'Interact', rally: 'Rally', valve: 'fold to Omni', dump: 'returned die' }[cmd.op];
+    if (cmd.op === 'vcard') return who + cmd.id;
+    return (
+      who +
+      {
+        interact: 'Interact',
+        rally: 'Rally',
+        valve: 'fold to Omni',
+        asAP: 'dice as AP',
+        dump: 'returned die',
+        board: 'getting in',
+        leave: 'getting out',
+        drive: 'drive',
+      }[cmd.op]
+    );
   }
   /** Put the mission back as it stood before the last move that can be taken back. */
   function takeBack() {
@@ -18608,6 +20854,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       )
       .join('');
     const canPickDie = U.ms.mode === 'reroll' || U.ms.mode === 'dump';
+    const asAPing = U.ms.mode === 'asAP' && sel;
     const poolTip = (x) => {
       const left = T.poolDice(x);
       const n = (k) => left.filter((d) => d === k).length;
@@ -18645,7 +20892,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         .map((f, di) =>
           U.dieHTML(
             f,
-            (canPickDie && sel ? 'pick' : '') + (U.ms.rerollPicked.includes(di) && sel ? ' rolled' : ''),
+            ((canPickDie && sel) || (asAPing && (f === 'O' || T.AS_AP.includes(f))) ? 'pick' : '') +
+              ((U.ms.rerollPicked.includes(di) || (asAPing && (U.ms.asAPPicked || []).includes(di))) && sel
+                ? ' rolled'
+                : ''),
             T.heldKind(h, di),
             `data-act="die" data-arg="${i}|${di}" ${tilt(di)}`,
           ),
@@ -18664,9 +20914,9 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         const P = T.heroP(h, cid),
           E = T.heroE(h, cid);
         const onTrack = h.track.find((t) => t.card === cid);
-        const asleep = E < T.RULES.ETHEREAL_MIN_E;
+        const asleep = !T.isKinless(cid) && E < T.RULES.ETHEREAL_MIN_E;
         const elC = EL[(c.E && c.E.elt) || c.el].color;
-        const title = `<div class="hn">${esc(c.name)}${c.sig >= 2 ? ' <span class="star">★</span>' : ''}<span class="pe">P${P} E${E}</span></div>`;
+        const title = `<div class="hn">${c.pet ? '<span class="petmark" data-tip="A pet\'s card: its faces act from the pet">🐾</span> ' : ''}${esc(c.name)}${c.sig >= 2 ? ' <span class="star">★</span>' : ''}${c.gear ? '<span class="pe" data-tip="A gear card: free or paid in Omni, never trained">gear</span>' : `<span class="pe">P${P}${c.pet ? '' : ' E' + E}</span>`}</div>`;
         const fb = (fk) => {
           const f = c[fk];
           const elt = f.elt || c.el;
@@ -18675,28 +20925,31 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           const tip = U.faceTipHTML(c, fk, P, E).replace(/"/g, '&quot;');
           // a card on the track still reads in full: its faces stay at full strength, only not pressable
           if (onTrack)
-            return `<div class="fbtn ${fk} cool el-${fk === 'E' ? elt : 'AP'}" data-tip="${tip}">${body}</div>`;
+            return `<div class="fbtn ${fk === 'E' ? 'E' : 'P'} cool el-${fk === 'E' ? elt : 'AP'}" data-tip="${tip}">${body}</div>`;
           const chk = !m.over && !h.downed ? T.canPlay(m, h, cid, fk) : { ok: false, why: '' };
-          return `<button class="fbtn ${fk} ${chk.ok ? 'ok' : ''} el-${fk === 'E' ? elt : 'AP'}" data-act="face" data-arg="${i}|${cid}|${fk}" data-tip="${tip}" ${chk.ok ? '' : 'disabled'}>${body}${!chk.ok && chk.why && chk.why !== 'cannot pay' ? `<span class="fwhy">${esc(chk.why)}</span>` : ''}</button>`;
+          return `<button class="fbtn ${fk === 'E' ? 'E' : 'P'} ${chk.ok ? 'ok' : ''} el-${fk === 'E' ? elt : 'AP'}" data-act="face" data-arg="${i}|${cid}|${fk}" data-tip="${tip}" ${chk.ok ? '' : 'disabled'}>${body}${!chk.ok && chk.why && chk.why !== 'cannot pay' ? `<span class="fwhy">${esc(chk.why)}</span>` : ''}${!chk.ok && chk.why === 'cannot pay' && T.payableAsAP(h, f.ap, elt, f.el || 0) ? `<span class="fwhy" data-tip="Spend spare dice as AP (◇→AP: an Omni, or two etherions, for 1 AP each) to pay for this">◇→AP to pay</span>` : ''}</button>`;
         };
+        if (onTrack && onTrack.phase === 'burnt')
+          return `<div class="hcard cooling burnt${c.pet ? ' petcard' : ''}" style="--c:${elC}" data-tip="${esc(`${esc(c.name)} is burnt: it is gone until this mission ends, and nothing brings it back sooner.`)}"><div class="artwrap">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}<span class="cdband">🔥 burnt</span></div>${title}${T.faceKeys(cid).map(fb).join('')}</div>`;
         if (onTrack) {
           const back = onTrack.left + (onTrack.phase === 'dur' ? onTrack.cd : 0);
           const what = onTrack.phase === 'dur' ? 'active, then cooling' : 'cooling';
-          return `<div class="hcard cooling" style="--c:${elC}" data-tip="${esc(`${esc(c.name)} is on the track (${what}): back in hand in ${back}. Its faces read as usual.`)}"><div class="artwrap">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}<span class="cdband">${onTrack.phase === 'dur' ? '●' : '○'} back in ${back}</span></div>${title}${fb('P')}${fb('E')}</div>`;
+          return `<div class="hcard cooling${c.pet ? ' petcard' : ''}" style="--c:${elC}" data-tip="${esc(`${esc(c.name)} is on the track (${what}): back in hand in ${back}. Its faces read as usual.`)}"><div class="artwrap">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}<span class="cdband">${onTrack.phase === 'dur' ? '●' : '○'} back in ${back}</span></div>${title}${T.faceKeys(cid).map(fb).join('')}</div>`;
         }
         // a card with nothing it can do now folds small; hovering it brings it back
-        const idle =
-          m.over || h.downed || (!T.canPlay(m, h, cid, 'P').ok && !T.canPlay(m, h, cid, 'E').ok) ? ' idle' : '';
-        return `<div class="hcard${idle}" style="--c:${elC}">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}${title}${fb('P')}${fb('E')}</div>`;
+        const idle = m.over || h.downed || !T.faceKeys(cid).some((fk) => T.canPlay(m, h, cid, fk).ok) ? ' idle' : '';
+        return `<div class="hcard${idle}${c.pet ? ' petcard' : ''}" style="--c:${elC}">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}${title}${T.faceKeys(cid).map(fb).join('')}</div>`;
       })
       .join('');
     const gear = h.gear
       .map((g, gi) => {
         const def = T.GEAR_BY[g.id];
+        // an ability with a cooldown is played from the gear's card in the hand (2.119): only the rest show here
         return def.abilities
           .map((a, ai) => {
-            const ok = !m.over && !h.downed && g.cds[ai] <= 0 && T.crystalsFor(m, i) >= a.cost;
-            return `<button class="gbtn ${ok ? 'ok' : ''}" data-act="gear" data-arg="${i}|${gi}|${ai}" data-tip="${esc(`<b>${esc(def.name)} — ${esc(a.n)}</b><div>${esc(a.txt())}</div><div class='mono small'>${a.cost} ◇ · cd ${a.cd}</div>${U.kwGloss(a.txt())}`)}" ${ok ? '' : 'disabled'}>${U.icGear(g.id)} ${esc(a.n)} <span class="dim">${a.cost}◇${g.cds[ai] > 0 ? ' · ' + g.cds[ai] : ''}</span></button>`;
+            if (T.onGearCard(a)) return '';
+            const ok = !m.over && T.canUseGear(m, h, gi, ai).ok;
+            return `<button class="gbtn ${ok ? 'ok' : ''}" data-act="gear" data-arg="${i}|${gi}|${ai}" data-tip="${esc(`<b>${esc(def.name)} — ${esc(a.n)}</b><div>${esc(a.txt())}</div><div class='mono small'>${T.gearUseText(a)}</div>${U.kwGloss(a.txt())}`)}" ${ok ? '' : 'disabled'}>${U.icGear(g.id)} ${esc(a.n)} <span class="dim">${T.gearCostText(a)}${g.cds[ai] > 0 ? ' · ' + g.cds[ai] : ''}</span></button>`;
           })
           .join('');
       })
@@ -18707,9 +20960,21 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           `<button class="gbtn" data-act="cons" data-arg="${i}|${ci}" data-tip="${esc(T.CONSUMABLE_BY[c].txt)}" ${m.over || h.downed ? 'disabled' : ''}>${U.icCons(c)} ${esc(T.CONSUMABLE_BY[c].name)}</button>`,
       )
       .join('');
-    const head = `<div class="hh">${U.portrait(h, 'md')}<span class="nm">${esc(h.name)}</span>${U.seatTag ? U.seatTag(i) : ''}<span class="tt">${esc(h.title)}</span><span class="hp">${h.downed ? 'DOWNED' : h.hp + '/' + h.maxHp}${heading(i)}</span></div>
+    // instincts (2.121): a clade's always-on rule, in the name's tip
+    const inst = T.instinctsOf(h)
+      .map((x) => `✦ ${x.name}: ${x.txt}`)
+      .join(' · ');
+    const head = `<div class="hh">${U.portrait(h, 'md')}<span class="nm"${inst ? ` data-tip="${esc(inst)}"` : ''}>${esc(h.name)}${inst ? ' <small class="dim">✦</small>' : ''}</span>${U.seatTag ? U.seatTag(i) : ''}<span class="tt">${esc(h.title)}</span><span class="hp">${h.downed ? 'DOWNED' : h.hp + '/' + h.maxHp}${heading(i)}</span></div>
       <div class="hpbar" style="margin-top:4px"><i style="width:${(100 * Math.max(0, h.hp)) / h.maxHp}%"></i></div>
-      <div class="states">${h.carrying ? `<span class="state" data-tip="Carrying a crate: reach any space on the near edge (A) to set it down. Dropped if you go down.">Crate</span>` : ''}${states}</div>`;
+      <div class="states">${T.petsOf(m, h)
+        .concat((m.pets || []).filter((p) => p.dead && p.owner === h.uid))
+        .map(
+          (p) =>
+            `<span class="state pet${p.dead ? ' dead' : ''}" data-tip="${esc(p.dead ? `${esc(p.name)} died: its card is out for this mission; it comes back for the next.` : `${esc(p.name)}, your pet: ${p.hp}/${p.maxHp}. Its card's faces act from it.`)}">🐾 ${esc(p.name)} ${p.dead ? '✝' : p.hp}</span>`,
+        )
+        .join(
+          '',
+        )}${h.carrying ? `<span class="state" data-tip="Carrying a crate: reach any space on the near edge (A) to set it down. Dropped if you go down.">Crate</span>` : ''}${states}</div>`;
     const diceRow = `<div class="dice"><span class="dhand">${dice || '<span class="dim small">no dice banked</span>'}</span><span class="pool" data-tip="${esc(poolTip(h))}">pool ${h.pool}</span><span class="ap-chip" data-tip="Action points banked">${T.apValue(h)} AP</span></div>`;
     // a pilot not selected folds to its vitality and dice; its cards open on request
     if (!sel && !U.layout.peek[i]) {
@@ -18718,7 +20983,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           !h.track.some((t) => t.card === cid) &&
           !m.over &&
           !h.downed &&
-          (T.canPlay(m, h, cid, 'P').ok || T.canPlay(m, h, cid, 'E').ok),
+          T.faceKeys(cid).some((fk) => T.canPlay(m, h, cid, fk).ok),
       ).length;
       const onTrack = h.track.length;
       return `<div class="hero folded ${h.downed ? 'downed' : ''}" data-act="selHero" data-arg="${i}">
@@ -18731,6 +20996,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const down = T.downedAllyOf(m, h);
     const canRally = !h.downed && down && down.downed && B.adjacent(m.board, h.pos, down.pos) && T.apValue(h) >= 2;
     const canValve = !h.downed && ['M', 'C', 'S', 'T'].every((f) => h.held.includes(f));
+    const canAsAP = !m.over && T.apSpends(h).length > 0;
     // the four basic actions used most stay in view; the rest (and the channelled ones) wait behind More
     const MAIN = ['strike', 'brace', 'shove', 'spot'];
     const basicBtn = (b) => {
@@ -18744,13 +21010,37 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     };
     const interactB = `<button class="sm${canInteract ? ' goal-act' : ''}" data-act="interact" data-arg="${i}" ${canInteract ? '' : 'disabled'} data-tip="Interact with an adjacent objective (2 AP; a survey mark also takes a die of its element). Height objectives require standing on the node.">⚙ Interact <span class="acost">2</span></button>`;
     const rallyB = `<button class="sm" data-act="rally" data-arg="${i}" ${canRally ? '' : 'disabled'} data-tip="Revive a downed adjacent ally (2 AP, back at 8).">✚ Rally <span class="acost">2</span></button>`;
-    const main = T.BASIC.filter((b) => MAIN.includes(b.id)).map(basicBtn);
+    const main = h.ride != null ? [] : T.BASIC.filter((b) => MAIN.includes(b.id)).map(basicBtn);
+    // a vehicle: inside, its moves and cards take the basic actions' place; beside one, a way in
+    if (m.vehicles) main.unshift(...vehicleBtns(m, h, i));
     const more = T.BASIC.filter((b) => !MAIN.includes(b.id))
       .map(basicBtn)
       .filter(Boolean);
     // Interact and Rally join the four when they can be used: they are what the moment is about
     (canInteract ? main : more).push(interactB);
     (canRally ? main : more).push(rallyB);
+    // Heel: one button per pet, beside the four (src/data/pets.js)
+    for (const p of T.petsOf(m, h)) {
+      const ok = !m.over && T.canHeel(m, h, p.uid).ok;
+      main.push(
+        `<button class="sm" data-act="heel" data-arg="${i}|${p.uid}" ${ok ? '' : 'disabled'} data-tip="${esc(`Heel (${T.PET.HEEL_AP} AP): ${esc(p.name)} walks up to ${T.PET.SPEED}. On your node it cannot be hurt.`)}">🐾 Heel ${esc(p.name)} <span class="acost">${T.PET.HEEL_AP}</span></button>`,
+      );
+    }
+    // Dice as AP stands beside the four while a face in hand needs it to be paid for; under More otherwise
+    const asAPNeeded =
+      canAsAP &&
+      h.cards.some(
+        (cid) =>
+          T.inHand(h, cid) &&
+          T.faceKeys(cid).some((fk) => {
+            const c = T.CARD[cid];
+            const f = c[fk];
+            if (fk === 'E' && T.heroE(h, cid) < T.RULES.ETHEREAL_MIN_E) return false;
+            return T.payableAsAP(h, f.ap, f.elt || c.el, f.el || 0);
+          }),
+      );
+    const asAPB = `<button class="sm${U.ms.mode === 'asAP' && sel ? ' primary' : ''}" data-act="asAPMode" data-arg="${i}" ${canAsAP ? '' : 'disabled'} data-tip="${esc('Dice as AP (no cost): one banked Omni, or any two banked etherions (the same or different), become 1 AP. Click an Omni, or two element dice: they go back to the pool and you gain 1 AP until the end of this turn. As often as you like.')}">◇→AP</button>`;
+    (asAPNeeded ? main : more).push(asAPB);
     more.push(
       `<button class="sm" data-act="valve" data-arg="${i}" ${canValve ? '' : 'disabled'} data-tip="Anti-brick valve: fold one each of M, C, S, T into one Omni (3 dice return to the pool).">◇ Fold 4→Omni</button>`,
       `<button class="sm ghost" data-act="dumpMode" data-arg="${i}" ${h.downed || !h.held.length ? 'disabled' : ''} data-tip="Return a banked die to the pool (last resort when your bank is clogged).">↩ Return die</button>`,
@@ -18799,6 +21089,41 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       ${gearRow}
     </div>`;
   }
+  function vehicleBtns(m, h, i) {
+    const out = [];
+    const v = T.vehicleOf(m, h);
+    if (v) {
+      const d = T.vehicleDef(v);
+      out.push(
+        `<span class="veh-chip" data-tip="${esc(vehicleTip(m, v))}">${d.icon} ${esc(d.name)} <span class="mono">hull ${v.hull}/${d.hull}</span></span>`,
+      );
+      if (v.driver === h.uid) {
+        const ok = !m.over && T.driveOptions(m, h).length;
+        out.push(
+          `<button class="sm" data-act="vdrive" data-arg="${i}" ${ok ? '' : 'disabled'} data-tip="${esc(`Drive (1 AP): move the ${d.name} up to ${d.speed} spaces over its ground, with everyone inside. Or click a highlighted space.`)}">➤ Drive <span class="acost">1</span></button>`,
+        );
+      }
+      const outOk = !m.over && T.leaveOptions(m, h).length;
+      out.push(
+        `<button class="sm" data-act="vleave" data-arg="${i}" ${outOk ? '' : 'disabled'} data-tip="Get out (1 AP) onto a free space beside it that you could walk on.">⇲ Get out <span class="acost">1</span></button>`,
+      );
+      for (const c of T.vehicleCards(m, h)) {
+        const ok = !m.over && T.canUseVehicleCard(m, h, c.id).ok;
+        out.push(
+          `<button class="sm" data-act="vcard" data-arg="${i}|${c.id}" ${ok ? '' : 'disabled'} data-tip="${esc(`${c.n} (${c.ap} AP, the ${d.name}'s, once a round${c.seat === 'driver' ? ', the driver' : ', any seat'}): ${c.txt}`)}">${c.icon} ${esc(c.n)} <span class="acost">${c.ap}</span></button>`,
+        );
+      }
+      return out;
+    }
+    for (const uid of h.downed || m.over ? [] : T.boardOptions(m, h)) {
+      const w = m.vehicles.find((x) => x.uid === uid);
+      const d = T.vehicleDef(w);
+      out.push(
+        `<button class="sm goal-act" data-act="vboard" data-arg="${i}|${uid}" data-tip="${esc(`Get in (1 AP). ${vehicleTip(m, w)}`)}">${d.icon} Get in <span class="acost">1</span></button>`,
+      );
+    }
+    return out;
+  }
   function interactNode(m, h) {
     const nodes = [h.pos].concat(B.walkNeighbors(m.board, h.pos));
     for (const n of nodes) {
@@ -18840,6 +21165,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     if (!h || h.downed) return new Set();
     if (ms.mode === 'target' && ms.pending.tg.need === 'node') return new Set(ms.pending.tg.options);
     if (ms.mode === 'freeMove') return new Set(T.reachableWalk(m, h, ms.freeN, false));
+    if (ms.mode === 'idle' && !m.over && h.ride != null) return new Set(T.driveOptions(m, h));
     if (ms.mode === 'idle' && !m.over) {
       const ap = T.apValue(h) + (h.freeMove || 0);
       if (ap <= 0 || h.states.Rooted || h.states.SlowSelf) return new Set();
@@ -18959,8 +21285,10 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           ? m.heroes.find((h) => h.uid === e.intent.target) || m.decoys.find((d) => d.uid === e.intent.target)
           : null;
       const a = N[e.pos];
-      if (tgt && N[tgt.pos]) {
-        const b = N[tgt.pos];
+      // an Aimed attack points at the space it will strike, not at the unit
+      const toward = e.intent.aim != null ? e.intent.aim : tgt ? tgt.pos : null;
+      if (toward != null && N[toward]) {
+        const b = N[toward];
         const dx = g.px(b) - g.px(a),
           dy = g.py(b) - g.py(a);
         const L = Math.hypot(dx, dy) || 1;
@@ -18981,6 +21309,20 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       const lbl = svgEl('text', { x: g.px(a), y: g.py(a) - 34, class: 'intent-lbl', 'text-anchor': 'middle' }, it);
       lbl.textContent = e.intent.label.replace(/ → [^(]*/, ' ').slice(0, 34);
     });
+    // Dusk faces waiting to land (2.115): a ring on the space they will strike, or on the pilot who placed them
+    (m.dusk || []).forEach((d) => {
+      const who = m.heroes.find((h) => h.uid === d.uid) || (m.pets || []).find((p) => p.uid === d.uid);
+      const at = d.node != null ? d.node : who && who.pos;
+      if (at == null || !N[at]) return;
+      svgEl(
+        'circle',
+        { cx: g.px(at), cy: g.py(at), r: 26, class: 'intent-line dusk-ring', 'stroke-dasharray': '2 5' },
+        it,
+      );
+      const face = T.CARD[d.card] && T.CARD[d.card][d.face];
+      const lbl = svgEl('text', { x: g.px(at), y: g.py(at) + 40, class: 'intent-lbl', 'text-anchor': 'middle' }, it);
+      lbl.textContent = '🌘 ' + (face ? face.n : 'dusk');
+    });
     // tokens
     const tk = $('#tokens', svg);
     const seen = new Set();
@@ -18999,6 +21341,34 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       seen.add(id);
       return el;
     };
+    // vehicles: a parked one stands on its space; one with riders sits under them, a badge at its pilot's feet
+    (m.vehicles || []).forEach((v) => {
+      if (!N[v.pos]) return;
+      const d = T.vehicleDef(v);
+      const ridden = T.ridersOf(m, v).length > 0;
+      const el = upsert(
+        'tok-' + v.uid,
+        'vehicle' + (ridden ? ' ridden' : ''),
+        N[v.pos],
+        (el) => {
+          el.setAttribute('data-tipid', 'n' + v.pos);
+          svgEl('rect', { x: -20, y: -20, width: 40, height: 40, rx: 10, class: 'body' }, el);
+          svgEl('text', { y: 7, class: 'glyph', 'text-anchor': 'middle', 'font-size': 20 }, el);
+          svgEl('rect', { x: -18, y: 24, width: 36, height: 4, rx: 2, class: 'hpb' }, el);
+          svgEl('rect', { x: -18, y: 24, width: 36, height: 4, rx: 2, class: 'hpf hull' }, el);
+        },
+        (el) => {
+          el.querySelector('.glyph').textContent = d.icon;
+          el.querySelector('.hpf').setAttribute('width', (36 * Math.max(0, v.hull)) / d.hull);
+          el.setAttribute('data-tip', vehicleTip(m, v));
+          el.setAttribute('data-tipid', 'n' + v.pos);
+        },
+      );
+      el._home = ridden
+        ? `translate(${g.px(N[v.pos]) - 20},${g.py(N[v.pos]) + 14}) scale(.55)`
+        : `translate(${g.px(N[v.pos])},${g.py(N[v.pos])})`;
+      if (!el._walking) el.setAttribute('transform', el._home);
+    });
     m.heroes.forEach((h, i) => {
       if (!N[h.pos]) return;
       const cls = ['hero', U.ms.heroIdx === i ? 'active' : '', h.downed ? 'downed' : ''].join(' ');
@@ -19085,6 +21455,36 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         },
         () => {},
         m.heroes.some((h) => !h.downed && h.pos === d.pos),
+      );
+    });
+    // pets (src/data/pets.js): a small token, at the edge of its pilot's node when it shares it
+    (m.pets || []).forEach((p) => {
+      if (p.dead || !N[p.pos]) return;
+      const safe = T.sheltered(m, p);
+      upsert(
+        'tok-' + p.uid,
+        'pet' + (vt.has(p.uid) ? ' targetable' : '') + (safe ? ' safe' : ''),
+        N[p.pos],
+        (el) => {
+          el.setAttribute('data-act', 'tgtEnemy');
+          el.setAttribute('data-arg', String(p.uid));
+          svgEl('circle', { r: 16, class: 'body' }, el);
+          svgEl('text', { y: 5, class: 'initial', 'font-size': 12 }, el).textContent = p.name.slice(0, 2);
+          svgEl('rect', { x: -14, y: 20, width: 28, height: 4, rx: 2, class: 'hpb' }, el);
+          svgEl('rect', { x: -14, y: 20, width: 28, height: 4, rx: 2, class: 'hpf' }, el);
+          svgEl('text', { y: 32, class: 'hp' }, el);
+        },
+        (el) => {
+          el.querySelector('.hpf').setAttribute('width', (28 * Math.max(0, p.hp)) / p.maxHp);
+          el.querySelector('.hp').textContent = p.hp;
+          stateBadges(el, p, 16);
+          const owner = T.petOwner(m, p);
+          el.setAttribute(
+            'data-tip',
+            `<b>${esc(p.name)}</b> — ${esc(owner ? owner.name : '')}'s pet, a ${esc(p.species.map((sp) => (T.SPECIES[sp] ? T.SPECIES[sp].name : sp)).join(', '))} hybrid. ${p.hp}/${p.maxHp}.${safe ? ' On its pilot’s node: nothing can hurt it.' : ' Foes can target it. At 0 it dies, and its card is lost.'}`,
+          );
+        },
+        m.heroes.some((h) => !h.downed && h.pos === p.pos),
       );
     });
     // ally targetable (foeOrAlly)
@@ -19696,7 +22096,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       .map((b) => `<div class="bonus ${b.achieved ? 'ok' : 'no'}">${b.achieved ? '✓' : '○'} ${esc(b.text)}</div>`)
       .join('');
     U.openModal(
-      `<h2>${m.won ? 'Mission complete' : 'Mission failed'}</h2><p class="dim">${esc(m.title)} · ${m.round} rounds · ${m.stats.kills} foes destroyed</p>${m.won ? bonus : `<p>${U.run.lifeline > 0 && !m.isBoss ? 'Your Lifeline will carry you on — no rewards from this stop.' : 'Tumult keeps the expedition.'}</p>`}${U.momentQuestion ? U.momentQuestion(m) : ''}${U.placeQuestion ? U.placeQuestion(m) : ''}${U.missionOverExtra ? U.missionOverExtra(m) : ''}<div class="row" style="margin-top:12px"><button class="primary" data-act="missionDone">Continue</button></div>`,
+      `<h2>${m.won ? 'Mission complete' : 'Mission failed'}</h2><p class="dim">${esc(m.title)} · ${m.round} rounds · ${m.stats.kills} foes destroyed</p>${m.won ? bonus : `<p>${m.heroes.every((h) => h.downed) ? 'The whole squad is down: the expedition ends here. Your pilots will be whole again for the next one.' : U.run.lifeline > 0 && !m.isBoss ? 'Your Lifeline will carry you on — no rewards from this stop.' : 'Tumult keeps the expedition.'}</p>`}${U.momentQuestion ? U.momentQuestion(m) : ''}${U.placeQuestion ? U.placeQuestion(m) : ''}${U.missionOverExtra ? U.missionOverExtra(m) : ''}<div class="row" style="margin-top:12px"><button class="primary" data-act="missionDone">Continue</button></div>`,
     );
   }
 
@@ -19731,6 +22131,15 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     }
     if (ms.mode === 'idle') {
       if (h.downed) return;
+      if (h.ride != null) {
+        // inside a vehicle a click drives it there (the driver), as a click walks a pilot on foot
+        if (!T.driveOptions(m, h).includes(node)) return;
+        const r = U.exec({ op: 'drive', hero: ms.heroIdx, node });
+        if (!r.ok) return U.toast(r.why);
+        U.sfx.click();
+        afterAction();
+        return;
+      }
       const r = U.exec({ op: 'walk', hero: ms.heroIdx, node });
       if (!r.ok) {
         if (r.why && r.why !== 'no path') U.toast(r.why);
@@ -19775,7 +22184,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     const g = h.gear[gi];
     const def = T.GEAR_BY[g.id];
     const ab = def.abilities[ai];
-    if (g.cds[ai] > 0 || T.crystalsFor(m, i) < ab.cost) return;
+    if (!T.canUseGear(m, h, gi, ai).ok) return;
     const tg = T.targetsFor(m, h, ab.tgt, ab, 0, 0);
     if (tg.need !== 'none' && (!tg.options || !tg.options.length)) {
       U.toast('No valid target.');
@@ -19787,6 +22196,45 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       commitPending({});
     } else {
       U.ms.pending = pending;
+      U.ms.mode = 'target';
+      U.updateMission();
+    }
+  }
+  /** Heel (src/data/pets.js): pick where the pet walks to. */
+  function beginHeel(i, petUid) {
+    const m = M();
+    U.ms.heroIdx = i;
+    const h = hero();
+    const chk = T.canHeel(m, h, petUid);
+    if (!chk.ok) {
+      U.toast(chk.why || 'Cannot do that now.');
+      return;
+    }
+    const p = m.pets.find((x) => x.uid === petUid);
+    U.ms.pending = { kind: 'heel', pet: petUid, tg: { need: 'node', options: chk.options }, label: `Heel — ${p.name}` };
+    U.ms.mode = 'target';
+    U.updateMission();
+  }
+  /** The vehicle's moves: Drive and Get out pick a space; a vehicle card picks its target, as a basic action does. */
+  function beginVehicle(i, kind, id) {
+    const m = M();
+    U.ms.heroIdx = i;
+    const h = hero();
+    let tg, label;
+    if (kind === 'vcard') {
+      const chk = T.canUseVehicleCard(m, h, id);
+      if (!chk.ok) return U.toast(chk.why || 'Cannot do that now.');
+      tg = chk.tg;
+      label = chk.card.n;
+    } else {
+      const opts = kind === 'drive' ? T.driveOptions(m, h) : T.leaveOptions(m, h);
+      if (!opts.length) return U.toast(kind === 'drive' ? 'Nowhere to drive.' : 'Nowhere to get out.');
+      tg = { need: 'node', options: opts };
+      label = kind === 'drive' ? 'Drive' : 'Get out';
+    }
+    U.ms.pending = { kind, id, tg, label, needsChoice: false };
+    if (tg.need === 'none') commitPending({});
+    else {
       U.ms.mode = 'target';
       U.updateMission();
     }
@@ -19826,6 +22274,8 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     let tg = null;
     if (p.kind === 'card') tg = T.canPlay(m, h, p.cardId, p.fk, uid).tg;
     else if (p.kind === 'basic') tg = T.canUseBasic(m, h, p.id, uid).tg;
+    else if (p.kind === 'vcard') tg = T.canUseVehicleCard(m, h, p.id, uid).tg;
+    else if (p.kind !== 'gear') return false;
     else {
       const ab = T.GEAR_BY[h.gear[p.gi].id].abilities[p.ai];
       tg = T.targetsFor(m, h, ab.tgt, ab, 0, 0, uid);
@@ -19852,8 +22302,12 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
     if (fullCtx.ally == null && p.tg.ally != null && m.heroes.length > 2) fullCtx.ally = p.tg.ally;
     const i = ms.heroIdx;
     // every change goes through a command, so it can be carried out on the host's screen (U.exec)
-    if (p.kind === 'card') r = U.exec({ op: 'face', hero: i, card: p.cardId, fk: p.fk, ctx: fullCtx });
+    if (p.kind === 'heel') r = U.exec({ op: 'heel', hero: i, pet: p.pet, node: fullCtx.node });
+    else if (p.kind === 'card') r = U.exec({ op: 'face', hero: i, card: p.cardId, fk: p.fk, ctx: fullCtx });
     else if (p.kind === 'basic') r = U.exec({ op: 'basic', hero: i, id: p.id, ctx: fullCtx });
+    else if (p.kind === 'vcard') r = U.exec({ op: 'vcard', hero: i, id: p.id, ctx: fullCtx });
+    else if (p.kind === 'drive') r = U.exec({ op: 'drive', hero: i, node: fullCtx.node });
+    else if (p.kind === 'leave') r = U.exec({ op: 'leave', hero: i, node: fullCtx.node });
     else r = U.exec({ op: 'gear', hero: i, gi: p.gi, ai: p.ai, ctx: fullCtx });
     ms.pending = null;
     ms.mode = 'idle';
@@ -20055,6 +22509,24 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         beginBasic(+i, id);
         return true;
       }
+      case 'vdrive':
+      case 'vleave':
+      case 'vcard': {
+        const [i, id] = String(arg).split('|');
+        ms.mode = 'idle';
+        ms.pending = null;
+        beginVehicle(+i, act === 'vdrive' ? 'drive' : act === 'vleave' ? 'leave' : 'vcard', id);
+        return true;
+      }
+      case 'vboard': {
+        const [i, uid] = String(arg).split('|').map(Number);
+        ms.heroIdx = i;
+        const r = U.exec({ op: 'board', hero: i, vehicle: uid });
+        if (!r.ok) U.toast(r.why);
+        else U.sfx.click();
+        afterAction();
+        return true;
+      }
       case 'interact': {
         const i = +arg;
         ms.heroIdx = i;
@@ -20068,6 +22540,15 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         if (!r.ok) U.toast(r.why);
         else U.sfx.click();
         afterAction();
+        return true;
+      }
+      case 'heel': {
+        const [i, uid] = arg.split('|').map(Number);
+        if (ms.mode !== 'idle') {
+          ms.mode = 'idle';
+          ms.pending = null;
+        }
+        beginHeel(i, uid);
         return true;
       }
       case 'rally': {
@@ -20092,6 +22573,13 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         afterAction();
         return true;
       }
+      case 'asAPMode': {
+        ms.heroIdx = +arg;
+        ms.mode = ms.mode === 'asAP' ? 'idle' : 'asAP';
+        ms.asAPPicked = [];
+        U.updateMission();
+        return true;
+      }
       case 'dumpMode': {
         ms.heroIdx = +arg;
         ms.mode = ms.mode === 'dump' ? 'idle' : 'dump';
@@ -20106,6 +22594,25 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           U.exec({ op: 'dump', hero: i, di });
           ms.mode = 'idle';
           afterAction();
+        } else if (ms.mode === 'asAP') {
+          const f = h.held[di];
+          const picked = ms.asAPPicked || [];
+          let dice = null;
+          if (f === 'O' && !picked.length) dice = [di];
+          else if (!T.AS_AP.includes(f)) return true;
+          else if (picked[0] === di) ms.asAPPicked = [];
+          else if (!picked.length) ms.asAPPicked = [di];
+          else dice = [picked[0], di];
+          if (dice) {
+            const r = U.exec({ op: 'asAP', hero: i, dice });
+            if (r && r.ok === false) U.toast(r.why);
+            else U.sfx.click();
+            ms.asAPPicked = [];
+            ms.mode = 'idle';
+            afterAction();
+            return true;
+          }
+          U.updateMission();
         } else if (ms.mode === 'reroll') {
           if (ms.rerollPicked.includes(di)) ms.rerollPicked = ms.rerollPicked.filter((x) => x !== di);
           else if (ms.rerollPicked.length < ms.rerollLeft) ms.rerollPicked.push(di);
@@ -20130,6 +22637,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         ms.mode = 'idle';
         ms.pending = null;
         ms.rerollPicked = [];
+        ms.asAPPicked = [];
         U.updateMission();
         return true;
       case 'endRound': {
@@ -22734,7 +25242,11 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
           U.toast('No expedition on its route yet. Start one from Play.');
           return true;
         }
-        U.screen = ['reward', 'haven', 'event'].includes(U.run.phase) ? U.run.phase : U.run.mission ? 'mission' : 'map';
+        U.screen = ['reward', 'haven', 'event', 'garage'].includes(U.run.phase)
+          ? U.run.phase
+          : U.run.mission
+            ? 'mission'
+            : 'map';
         break;
       case 'pilots':
         U.crew = Object.assign(U.crew || {}, { open: null });
@@ -24079,7 +26591,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       t: 'Downed is not dead',
       p: [
         'At 0 vitality a pilot is downed. An ally beside them can <b>Rally</b> them for 2 AP.',
-        'If the whole squad is down the mission is lost. Lose a mission that is not the Heart and your one <b>lifeline</b> lets you carry on.',
+        'If the whole squad is down, the expedition ends; your pilots are whole again for the next one. Lose a mission that is not the Heart any other way (its clock runs out) and your one <b>lifeline</b> lets you carry on.',
       ],
       s: 'That is everything. The Codex has every word, foe and die.',
       pic: () => board({ hero: [1, 1], ally: [2, 1], foes: [[4, 1]] }),
@@ -24134,7 +26646,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
   function gear(q) {
     const g = T.GEAR.filter((x) => !q || (x.name + ' ' + x.desc).toLowerCase().includes(q)).map(
       (x) =>
-        `<article class="cx-card cx-gold"><h3>${U.icGear(x.id)} ${esc(x.name)} <small class="dim">${x.price} ◇</small></h3><p class="small dim">${esc(x.desc)}</p>${x.passive ? `<p class="small">◆ <b>Passive</b>: ${esc(x.passive.txt)}</p>` : ''}${x.abilities.map((a) => `<p class="small">• <b>${esc(a.n)}</b> (${a.cost} ◇, cooldown ${a.cd}): ${esc(a.txt())}</p>`).join('')}</article>`,
+        `<article class="cx-card cx-gold"><h3>${U.icGear(x.id)} ${esc(x.name)} <small class="dim">${x.price} ◇</small></h3><p class="small dim">${esc(x.desc)}</p>${x.passive ? `<p class="small">◆ <b>Passive</b>: ${esc(x.passive.txt)}</p>` : ''}${x.abilities.map((a) => `<p class="small">• <b>${esc(a.n)}</b> (${T.gearUseText(a)}): ${esc(a.txt())}</p>`).join('')}${x.card ? `<p class="small dim">${T.gearCardNote(x)}</p>` : ''}</article>`,
     );
     return g.join('');
   }
@@ -24954,6 +27466,91 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       if (['title', 'host', 'join'].includes(U.screen) && U.render) U.render();
     });
 })((window.T = window.T || {}));
+
+
+/* ───── ui/vehicles.js ───── */
+/* ============================================================================
+   TUMULT — THE GARAGE (browser only)
+   Right before a mission that needs vehicles, each player picks one for their
+   pilot (Garrett, 2026-11-21): one vehicle slot a pilot. The rules are
+   src/engine/vehicles.js; the vehicles, src/data/vehicles.js.
+   ========================================================================== */
+(function (T) {
+  const U = (T.UI = T.UI || {});
+  const esc = (s) =>
+    String(s == null ? '' : s).replace(
+      /[&<>"']/g,
+      (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
+    );
+
+  const groundWords = (d) =>
+    d.ground.map((t) => T.TERRAIN[t].name.toLowerCase()).join(', ') + (d.height ? ', high ground' : '');
+  /** One vehicle, as a card to pick. */
+  function vehicleCard(d, i, on, mine) {
+    const cards = d.cards
+      .map(
+        (c) =>
+          `<div class="small">• <b>${esc(c.n)}</b> <span class="mono dim">${c.ap} AP${c.seat === 'driver' ? ' · driver' : ' · any seat'}${c.weapon ? ' · weapon' : ''}</span> ${esc(c.txt)}</div>`,
+      )
+      .join('');
+    const ride = d.ride ? `<div class="small">◆ Riders: ${esc(T.describeState(d.ride, { t: 1 }))}</div>` : '';
+    return `<div class="am-ware veh-pick${on ? ' on' : ''}"><div class="row"><span class="am-wi" style="font-size:22px">${d.icon}</span><b>${esc(d.name)}</b><span class="right mono small">seats ${d.seats} · speed ${d.speed} · hull ${d.hull}</span></div>
+      <div class="small dim">${esc(d.blurb)}</div><div class="small">Crosses: ${esc(groundWords(d))}</div>${ride}${cards}
+      ${mine ? `<div class="am-buy"><button class="sm ${on ? 'primary' : ''}" data-act="pickVeh" data-arg="${i}|${d.id}">${on ? '✓ Picked' : 'Pick'}</button></div>` : ''}</div>`;
+  }
+
+  U.renderGarage = function () {
+    const run = U.run;
+    const g = run && run.garage;
+    if (!g) return '';
+    const pageId = T.garagePage(run);
+    const page = T.PAGE_BY[pageId];
+    const picks = T.vehiclePicks(run, pageId);
+    const lead = !run.party || T.mayLead(run, U.seats);
+    const pilots = run.heroes
+      .map((h, i) => {
+        const mine = U.own ? U.own(i) : true;
+        const chosen = g.picks[i];
+        const shown = chosen || picks[i];
+        return `<div class="panel veh-pilot"><div class="row"><b>${esc(h.name)}</b><span class="right small dim">${chosen ? 'picked' : 'suggested'}: ${T.VEHICLE_BY[shown].icon} ${esc(T.VEHICLE_BY[shown].name)}</span></div>
+          <div class="veh-grid">${T.VEHICLES.map((d) => vehicleCard(d, i, shown === d.id, mine)).join('')}</div></div>`;
+      })
+      .join('');
+    const ground = page ? `<p class="small">${page.rules.map((r) => '• ' + esc(r)).join('<br>')}</p>` : '';
+    return `<div class="wrap garage">${U.header ? U.header('Vehicles') : ''}
+      <div class="panel"><h2 style="margin:0">${esc(page ? page.name : 'Wide country')}</h2><p class="dim">${esc(page ? page.blurb : '')}</p>${ground}
+      <p class="small">Each pilot brings one vehicle. Getting in or out costs 1 AP, and so does each Drive. Inside, you play only the vehicle's cards and your faces marked <b>Mounted</b>; blows land on the hull, and a wrecked vehicle throws its riders clear.</p>
+      <div class="row">${lead ? '<button class="primary" data-act="setOut">Set out ➤</button>' : '<span class="dim small">Waiting for the host to set out.</span>'}</div></div>
+      ${pilots}</div>`;
+  };
+  (U.SCREENS = U.SCREENS || {}).garage = U.renderGarage;
+
+  U.garageAct = function (act, arg) {
+    if (act === 'pickVeh') {
+      const [i, type] = String(arg).split('|');
+      const r = U.exec({ op: 'pickVehicle', hero: +i, vehicle: type });
+      if (!r.ok) U.toast(r.why);
+      else if (U.sfx && U.sfx.click) U.sfx.click();
+      T.saveRun(U.run);
+      U.render();
+      return true;
+    }
+    if (act === 'setOut') {
+      const r = U.exec({ op: 'setOut' });
+      if (!r.ok) {
+        U.toast(r.why);
+        return true;
+      }
+      U.screen = 'mission';
+      U.enterMission();
+      T.saveRun(U.run);
+      U.render();
+      return true;
+    }
+    return false;
+  };
+  (U.ACTS = U.ACTS || []).push(U.garageAct);
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
 /* ───── web/server.js ───── */
@@ -26085,7 +28682,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
         U.enterMission();
         // the effects in the state were shown before the reload
         U.ms.fxDone = run.mission.fx.length;
-      } else U.screen = ['reward', 'haven', 'event', 'summary'].includes(run.phase) ? run.phase : 'map';
+      } else U.screen = ['reward', 'haven', 'event', 'garage', 'summary'].includes(run.phase) ? run.phase : 'map';
     } else {
       U.run = null;
       U.screen = 'lobby';
@@ -26558,7 +29155,7 @@ window.T.ART = {"pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVI
       }
     } else {
       if (U.screen === 'mission') U.modal = null;
-      U.screen = ['reward', 'haven', 'event', 'summary'].includes(run.phase) ? run.phase : 'map';
+      U.screen = ['reward', 'haven', 'event', 'garage', 'summary'].includes(run.phase) ? run.phase : 'map';
       // the expedition is over: this player's own pilot takes its growth home to this device
       if (run.phase === 'summary' && U.keepProgress) U.keepProgress(run);
     }
