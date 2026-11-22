@@ -51,6 +51,18 @@
         </div>
       </div>
 
+      <!-- Shown instead of loading when the browser would draw the game without the graphics card -->
+      <div class="stage-layer" id="stateAccel" hidden>
+        <div class="stage-panel">
+          <h3 class="stage-title stage-title-error">Turn On Hardware Acceleration</h3>
+          <p>Your browser is drawing without your graphics card, so the Toybox would run at a few frames a second. Turn hardware acceleration on, restart the browser, and come back.</p>
+          <p id="accelSteps"></p>
+          <div class="copy-field" id="accelCopy" hidden style="width:100%"><code id="accelUrl"></code><button type="button" id="accelCopyBtn">Copy</button></div>
+          <p style="font-size:.85rem;color:var(--muted)">Still seeing this after a restart? Update your graphics driver, or try the latest Chrome or Edge.</p>
+          <div class="cta-finale-buttons"><div class="btn-glow-wrap"><a href="/?retry=1#play">Check Again</a></div></div>
+        </div>
+      </div>
+
       <div class="stage-layer" id="stateError" hidden>
         <div class="stage-panel">
           <h3 class="stage-title stage-title-error">Couldn&rsquo;t Start the Toybox</h3>
@@ -69,7 +81,7 @@
           <div><kbd>Mouse</kbd><span>Steer, on one-stick ships</span></div>
           <div><kbd>Space</kbd><kbd>Q</kbd><kbd>R</kbd><span>Abilities</span></div>
           <div><kbd>E</kbd><span>Flip</span></div>
-          <div><kbd>Esc</kbd><span>Free the mouse</span></div>
+          <div><kbd>Esc</kbd><span>Pause, or leave the flight</span></div>
         </div>
         <h3 style="margin-top:1.25rem">Controller</h3>
         <div class="keys">
@@ -116,7 +128,7 @@
   const stage = document.getElementById('toybox');
   const root = stage.dataset.buildRoot.replace(/\/+$/, '');
   const canvas = document.getElementById('unity-canvas');
-  const layers = { gate: 'stateGate', loading: 'stateLoading', running: 'stateRunning', error: 'stateError' };
+  const layers = { gate: 'stateGate', loading: 'stateLoading', running: 'stateRunning', accel: 'stateAccel', error: 'stateError' };
   const fill = document.getElementById('progressFill');
   const pct = document.getElementById('progressPct');
   const stageText = document.getElementById('progressStage');
@@ -164,6 +176,52 @@
     try { return !!document.createElement('canvas').getContext('webgl2'); } catch (e) { return false; }
   }
 
+  // True when WebGL 2 would run without the graphics card (acceleration off, or the GPU blocklisted):
+  // the browser then falls back to a software renderer and the game runs at a few frames a second.
+  // failIfMajorPerformanceCaveat refuses a software context; the renderer name catches the rest.
+  function softwareOnly() {
+    try {
+      const gl = document.createElement('canvas').getContext('webgl2', { failIfMajorPerformanceCaveat: true });
+      if (!gl) return true;
+      const info = gl.getExtension('WEBGL_debug_renderer_info');
+      const name = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL) || '') : '';
+      const lose = gl.getExtension('WEBGL_lose_context');
+      if (lose) lose.loseContext();
+      return /swiftshader|basic render|llvmpipe|softpipe|software|warp/i.test(name);
+    } catch (e) { return false; }
+  }
+  function showAccelHelp() {
+    const ua = navigator.userAgent;
+    const brands = ((navigator.userAgentData && navigator.userAgentData.brands) || []).map(b => b.brand).join(' ');
+    const is = re => re.test(ua) || re.test(brands);
+    let steps, url = '';
+    if (is(/Firefox/)) {
+      steps = 'In Firefox: Settings, General, Performance. Untick "Use recommended performance settings", then tick "Use hardware acceleration when available".';
+    } else if (is(/Vivaldi/)) {
+      steps = 'In Vivaldi: Settings, Webpages, tick "Use Hardware Acceleration When Available".';
+    } else if (is(/Edg\//) || is(/Microsoft Edge/)) {
+      steps = 'In Edge: Settings, System and performance, turn on "Use graphics acceleration when available". Or paste this in the address bar:';
+      url = 'edge://settings/system';
+    } else if (is(/OPR\//) || is(/Opera/)) {
+      steps = 'In Opera: Settings, System, turn on "Use graphics acceleration when available".';
+    } else if (is(/Brave/)) {
+      steps = 'In Brave: Settings, System, turn on "Use graphics acceleration when available". Or paste this in the address bar:';
+      url = 'brave://settings/system';
+    } else {
+      steps = 'In Chrome: Settings, System, turn on "Use graphics acceleration when available". Or paste this in the address bar (in Vivaldi: Settings, Webpages, "Use Hardware Acceleration When Available"):';
+      url = 'chrome://settings/system';
+    }
+    document.getElementById('accelSteps').textContent = steps;
+    const copy = document.getElementById('accelCopy');
+    copy.hidden = !url;
+    document.getElementById('accelUrl').textContent = url;
+    document.getElementById('accelCopyBtn').onclick = () => {
+      try { navigator.clipboard.writeText(url); document.getElementById('accelCopyBtn').textContent = 'Copied'; } catch (e) {}
+    };
+    show('accel');
+    track('toybox_no_acceleration');
+  }
+
   // Show the download size on the gate as soon as we know it.
   fetch(root + '/latest.json', { cache: 'no-cache' })
     .then(r => (r.ok ? r.json() : null))
@@ -177,6 +235,7 @@
 
   document.getElementById('launch').addEventListener('click', async () => {
     if (!webgl2()) { fail('The Toybox needs WebGL 2. Try the latest Chrome, Edge or Firefox on a desktop.'); return; }
+    if (softwareOnly()) { showAccelHelp(); return; }
     show('loading');
     setProgress(0);
     track('toybox_launch');
