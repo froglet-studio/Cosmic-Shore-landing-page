@@ -1,6 +1,6 @@
 ---
 title: Tumult — a free tabletop RPG and board game in your browser
-description: Tumult is a free tabletop RPG and board game by Froglet Games. Draft a squad of pilots, alone or with friends, and cross a restless world in any browser.
+description: "Tumult is a free tabletop RPG and board game by Froglet Games, still in beta and under live development. Draft a squad of pilots, alone or with friends, and cross a restless world in any browser."
 image: /assets/tumult/share.jpg
 image_width: 1200
 image_height: 630
@@ -8,12 +8,36 @@ image_alt: The Tumult title screen over a painting of an octopus-and-raven pilot
 og_site_name: Froglet Games
 head_include: tumult-schema.html
 permalink: /tumult/
+game: tumult
 ---
 {%- assign tm = site.data.tumult -%}
-{% include page-hero.html image="/assets/tumult/hero.webp" label="Free browser game &middot; by Froglet Games" title='Tumult: <span class="gradient-text">an Expedition</span> Across a Restless World' lede="A tabletop RPG crossed with a board game. Draft a squad of pilots, plan every turn against enemies that show you their next move, and cross Tumult by land, sea and air to the Heart at the end of the route." %}
+<section class="hs-hero" aria-labelledby="tumult-h1">
+  <img class="bg flip" src="/assets/tumult/bear.webp" alt="Lunari Hollowreach, an opossum-and-lynx pilot, crossing a marsh boardwalk in a lightning storm" style="object-position:50% 40%" fetchpriority="high" decoding="async">
+  <div class="sh"></div><div class="flh" aria-hidden="true"></div>
+  <div class="in">
+    <span class="hs-lab kick">Free browser game &middot; by Froglet Games &middot; In beta, under live development</span>
+    <h1 id="tumult-h1" class="word">Tumult</h1>
+    <p class="hs-shout" aria-hidden="true"><span>Draft.</span> <span>Plan.</span> <span>Cross.</span></p>
+    <p class="d">A tabletop RPG crossed with a board game. Draft a squad of pilots, plan every turn against enemies that show you their next move, and cross a restless world, alone or with friends, in any browser. <b>Tumult is still in beta and under live development: it changes with every update.</b></p>
+    <div class="hs-acts">
+      {%- if tm.live %}
+      <a class="hs-cta" href="{{ tm.play_url | relative_url }}" data-play="tumult_hero"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg>Play free now</span></a>
+      {%- else %}
+      <span class="hs-cta" aria-disabled="true"><span>Playable soon</span></span>
+      {%- endif %}
+      <a class="hs-gh" href="#how-it-plays"><span>How it plays</span></a>
+    </div>
+  </div>
+  <div class="hs-bdgs" aria-hidden="true">
+    <div class="hs-bdg"><span>Free</span><small>In your browser</small></div>
+    <div class="hs-bdg"><span>In beta</span><small>Live development</small></div>
+    <div class="hs-bdg"><span>1&ndash;5 pilots</span><small>One screen or online</small></div>
+  </div>
+</section>
+<div class="hs-tick" aria-hidden="true"><div>{% for i in (1..4) %}<i></i>Draft a squad<i></i>Read the enemy<i></i>Cross the world<i></i>Free in your browser<i></i>In beta{% endfor %}</div></div>
 
 <section class="page-section tm-first" id="play">
-  {% include tumult-play.html content="tumult_page_hero" note="Free &middot; no download &middot; no account needed &middot; phone, tablet or PC" %}
+  {% include tumult-play.html content="tumult_page_hero" note="Free &middot; no download &middot; no account needed &middot; phone, tablet or PC &middot; in beta, under live development" %}
 </section>
 
 <section class="page-section" id="watch">

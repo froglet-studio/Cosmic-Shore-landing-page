@@ -72,6 +72,11 @@
       </div>
     </div>
 
+    {%- if live %}
+    <!-- The start button under the wide screen (Rev 126): it presses the launch button above -->
+    <div class="hs-start"><button type="button" id="hs-start" aria-label="Start the Toybox"><span>Start</span></button><p>The Toybox runs right here, in your browser.</p></div>
+    {%- endif %}
+
     <div class="play-under">
       <article class="glass-card">
         <h3>Controls</h3>

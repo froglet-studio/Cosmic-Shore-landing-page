@@ -1,0 +1,38 @@
+---
+title: Arena — Cosmic Shore squad games
+description: "The Cosmic Shore Arena: squad against squad, three pilots a side, each in the vessel they know best, on courses built so every hull has a way to win."
+image: /assets/images/Image%20Sequence_027_0000.jpg
+permalink: /arena/
+nav: arena
+---
+{%- assign games = site.data.games.arena -%}
+{%- assign petal = "/fleet-codex/img/ui/petal_" -%}
+{%- capture stats -%}{{ games.size }}|Arena games;3v3|Squads;AI|Fills empty seats{%- endcapture -%}
+{% include page-hero.html image="/assets/hypersea/scenes/027_0000.webp" label="Arena" title="Arena" lede="Squad against squad. Three pilots a side, each in the vessel they know best, on courses built so every hull has a way to win." stats=stats %}
+
+<section class="hs-sec first" id="games">
+  <div class="hs-k rv"><i></i>The arena games</div>
+  <h2 class="hs-h2 rv">Where squads <em>meet</em></h2>
+  {%- for g in games %}
+  <div class="hs-ar" id="{{ g.mode | slugify }}">
+    <div class="pic rv">{% if g.image != "" %}<img src="{{ g.image }}" alt="{{ g.name }}" loading="lazy" decoding="async">{% endif %}</div>
+    <div class="rv rvr">
+      <div class="num">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</div>
+      <h3>{{ g.name }}</h3>
+      <p>{{ g.description }}</p>
+      <div class="hs-chips">{% for e in g.elements %}<span><span class="hs-pe" style="background-image:url({% if e == 'Party' %}/fleet-codex/img/ui/bloom.png{% else %}{{ petal }}{{ e }}.png{% endif %})"></span><span>{{ e }}</span></span>{% endfor %}</div>
+      <div class="hs-chips">{% for h in g.hulls limit: 9 %}<span><span>{{ h }}</span></span>{% endfor %}{% if g.hulls.size > 9 %}<span><span>+{{ g.hulls.size | minus: 9 }}</span></span>{% endif %}</div>
+    </div>
+  </div>
+  {%- endfor %}
+</section>
+
+<section class="hs-sec" id="how">
+  <div class="hs-k rv"><i></i>How a match works</div>
+  <h2 class="hs-h2 rv">From the Arcade <em>to the Arena</em></h2>
+  <div class="hs-steps num">
+    <div class="hs-step rv"><b>Pick your vessel</b><span>Bring the hull you have learned in the Arcade. Its pilot and element ride with it.</span></div>
+    <div class="hs-step rv"><b>Squad up</b><span>Three a side. Play with friends, get matched, or let the AI take a seat.</span></div>
+    <div class="hs-step rv"><b>Win for your domain</b><span>Jade, Ruby or Gold. Every point you score counts for your colours.</span></div>
+  </div>
+</section>

@@ -13,7 +13,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicon-32.png">
 <link rel="icon" type="image/png" sizes="256x256" href="/assets/branding/favicon-256.png">
 <meta name="description" content="{{ page_desc | escape }}">
-<meta name="theme-color" content="#0a0a1a">
+<meta name="theme-color" content="#00041F">
 {%- if page.robots %}
 <meta name="robots" content="{{ page.robots }}">
 {%- elsif page.needs_toybox and site.data.toybox.build_root == "" %}
@@ -47,6 +47,8 @@
 {% include {{ page.head_include }} %}
 {%- endif %}
 
+{% include hs-head.html %}
+
 <!-- Preconnect hints -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,22 +59,26 @@
 <link rel="stylesheet" href="/css/design-3-hyperdrive.css?v={{ site.time | date: "%s" }}">
 <link rel="stylesheet" href="/css/pages.css?v={{ site.time | date: "%s" }}">
 <link rel="stylesheet" href="/css/accents.css?v={{ site.time | date: "%s" }}">
+<link rel="stylesheet" href="/css/hypersea.css?v={{ site.time | date: "%s" }}">
 </head>
-<body>
+<body class="{% if page.game == 'tumult' %}g-tu{% else %}g-cs{% endif %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
 
 {% include analytics-body.html %}
 
-<!-- ANIMATED STAR FIELD -->
-<div class="stars"><canvas id="starfield"></canvas></div>
+{% include hs-backdrop.html %}
 
 {% include topbar.html %}
 
-<main{% if page.content_width %} style="--content: {{ page.content_width }}"{% endif %}>
+<main id="main"{% if page.content_width %} style="--content: {{ page.content_width }}"{% endif %}>
 {{ content }}
 </main>
 
 {% include footer.html %}
 
+{%- if page.codex %}
+{% include hs-codex.html %}
+{%- endif %}
 <script src="/js/site.js?v={{ site.time | date: "%s" }}"></script>
+<script src="/js/hypersea.js?v={{ site.time | date: "%s" }}"></script>
 </body>
 </html>

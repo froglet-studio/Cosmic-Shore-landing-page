@@ -1,0 +1,41 @@
+---
+title: Arcade — every Cosmic Shore arcade game
+description: "Every arcade game in Cosmic Shore, sorted by element: short scored games, one vessel each, from Time races to Charge fights, Mass builds and Space clears. Read from the Fleet Codex."
+image: /assets/images/Image%20Sequence_016_0005.jpg
+permalink: /arcade/
+nav: arcade
+---
+{%- assign games = site.data.games.arcade -%}
+{%- assign petal = "/fleet-codex/img/ui/petal_" -%}
+{%- assign els = "Time|Races against the clock and the line you pick.;Charge|Fights, duels and anything that goes off with a bang.;Mass|Build, carry and hold the prisms that make the HyperSea.;Space|Clear, carve and claim room in the cell.;Party|Mixed games for a whole lobby." | split: ";" -%}
+{%- capture stats -%}{{ games.size }}|Arcade games;4|Intensities each;1–12|Pilots{%- endcapture -%}
+{% include page-hero.html image="/assets/hypersea/scenes/016_0005.webp" label="Arcade" title="Arcade" lede="Short scored games, one vessel each. Every vessel has a game for each element it teaches: Time games race the clock, Charge games fight, Mass games build, Space games clear room." stats=stats %}
+
+<section class="hs-sec first" id="games">
+  <div class="hs-k rv"><i></i>Every arcade game</div>
+  <h2 class="hs-h2 rv">Sort by <em>element</em></h2>
+  <div class="hs-fbar" role="toolbar" aria-label="Filter and sort the games">
+    <span class="fl">Element</span>
+    <button type="button" data-el="all" aria-pressed="true"><span>All</span><em>{{ games.size }}</em></button>
+    {%- for e in els %}{%- assign x = e | split: "|" %}{%- assign n = games | where: "element", x[0] %}
+    {%- if x[0] == "Party" %}{%- assign icon = "/fleet-codex/img/ui/bloom.png" %}{%- else %}{%- assign icon = petal | append: x[0] | append: ".png" %}{%- endif %}
+    <button type="button" data-el="{{ x[0] }}" data-title="{{ x[0] }} games" data-line="{{ x[1] }}" data-icon="{{ icon }}" aria-pressed="false"><span class="hs-pe" style="background-image:url({{ icon }})"></span><span>{{ x[0] }}</span><em>{{ n.size }}</em></button>
+    {%- endfor %}
+    <span class="fl sp">Sort</span>
+    <button type="button" data-sort="el" aria-pressed="true"><span>Element</span></button>
+    <button type="button" data-sort="az" aria-pressed="false"><span>A&ndash;Z</span></button>
+    <button type="button" data-sort="vs" aria-pressed="false"><span>Vessel</span></button>
+  </div>
+  <div class="hs-elx" id="hs-elx" hidden><span class="hs-pe"></span><div><b></b><span></span></div></div>
+  <div class="hs-ag" id="hs-games">
+    {%- for g in games %}
+    {%- if g.element == "Party" %}{%- assign icon = "/fleet-codex/img/ui/bloom.png" %}{%- else %}{%- assign icon = petal | append: g.element | append: ".png" %}{%- endif %}
+    {%- capture hull %}{% if g.hulls.size == 1 %}{{ g.hulls[0] }} only{% else %}{{ g.hulls | join: " · " }}{% endif %}{% endcapture %}
+    <article class="hs-gc" id="{{ g.mode | slugify }}" data-el="{{ g.element }}" data-name="{{ g.name | escape }}" data-hull="{{ g.hulls[0] }}" style="--i:{{ forloop.index0 | at_most: 24 }}">
+      <span class="im">{% if g.image != "" %}<img src="{{ g.image }}" alt="" width="640" height="425" loading="lazy" decoding="async">{% endif %}<span class="el"><span class="hs-pe" style="background-image:url({{ icon }})"></span>{{ g.element }}</span>{% if g.intensity != "" %}<span class="it">{{ g.intensity }}</span>{% endif %}</span>
+      <div class="bd"><h3>{{ g.name }}</h3><span class="hl">{{ hull | strip }}</span><p>{{ g.blurb }}</p></div>
+    </article>
+    {%- endfor %}
+  </div>
+  <p class="hs-note">The list is read from the <a href="/vessels/#codex">Fleet Codex</a>, so a new game shows up here the day it ships. Every game plays in the app; the <a href="/#play">Toybox</a> is free in your browser.</p>
+</section>

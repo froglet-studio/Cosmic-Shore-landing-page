@@ -1,20 +1,61 @@
-{%- comment -%} Main navigation. On the home page the section links are in-page anchors. {%- endcomment -%}
-{%- if page.url == "/" or page.url == "/index.html" -%}{%- assign home = "" -%}{%- else -%}{%- assign home = "/" -%}{%- endif -%}
-<!-- TOP BAR -->
-<header class="topbar" id="topbar">
-  <a href="/" class="topbar-brand"><img src="/assets/branding/froglet-logo.svg" alt="Froglet Games home"></a>
-  <nav class="topbar-nav" id="site-nav" aria-label="Main">
-    <a href="{{ home }}#lore">Story</a>
-    <a href="{{ home }}#vessels">Vessels</a>
-    <a href="{{ home }}#modes">Modes</a>
-    {%- if site.posts.size > 0 %}
-    <a href="/blog/"{% if page.url contains "/blog/" %} aria-current="page"{% endif %}>Blog</a>
-    {%- endif %}
-    {%- if site.data.toybox.build_root != "" %}
-    <a href="{{ home }}#play">Play</a>
-    {%- endif %}
-    <a href="/team/"{% if page.url == "/team/" or page.collection == "team" %} aria-current="page"{% endif %}>Team</a>
-    <a href="{{ home }}#platforms" class="btn-neon">Get the Game</a>
+{%- comment -%}
+  The top bar on every page: the Froglet mark, the game switch (Cosmic Shore at /, Tumult at /tumult/), the
+  game's pages, the theme pill and Get the Game. Pages name their tab with `nav:` in front matter; Tumult pages
+  set `game: tumult`.
+{%- endcomment -%}
+{%- assign tu = false -%}{%- if page.game == "tumult" -%}{%- assign tu = true -%}{%- endif -%}
+{%- assign cur = page.nav -%}
+{%- if page.url contains "/blog/" or page.url == "/team/" or page.collection == "team" -%}{%- assign cur = "studio" -%}{%- endif -%}
+<a class="hs-skip" href="#main">Skip to content</a>
+<header class="hs-hd" id="topbar">
+  <a href="/" class="hs-brand"><img src="/assets/branding/froglet-logo.svg" alt="Froglet Games home" width="120" height="32"></a>
+  <nav class="hs-sw" aria-label="Choose a game">
+    <i aria-hidden="true"></i>
+    <a href="/"{% unless tu %} aria-current="page"{% endunless %}>Cosmic Shore</a>
+    <a href="/tumult/"{% if tu %} aria-current="page"{% endif %}>Tumult</a>
   </nav>
-  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav class="hs-nav" id="hs-nav" aria-label="Main">
+    {%- if tu %}
+    <a href="/tumult/#world">The world</a>
+    <a href="/tumult/#how-it-plays">How it plays</a>
+    <a href="/tumult/#watch">Watch</a>
+    <a href="/tumult/#faq">Questions</a>
+    {%- else %}
+    {%- assign pages = "home|/|Home;vessels|/vessels/|Vessels;arcade|/arcade/|Arcade;arena|/arena/|Arena;voyages|/voyages/|Voyages;pilots|/pilots/|Pilots;studio|/studio/|Studio" | split: ";" %}
+    {%- for p in pages %}{%- assign x = p | split: "|" %}
+    <a href="{{ x[1] }}"{% if cur == x[0] %} aria-current="page"{% endif %}{% if x[0] == "voyages" %} class="soon" title="In development"{% endif %}>{{ x[2] }}</a>
+    {%- endfor %}
+    {%- endif %}
+  </nav>
+  <div class="hs-tools">
+    <button type="button" class="hs-pill" data-theme-open aria-expanded="false" aria-controls="hs-theme" aria-label="Theme and motion">
+      <span class="dot" aria-hidden="true"></span><span class="nm">Photic</span>
+    </button>
+    {%- if tu %}
+    <a class="hs-cta hs-cta-s" href="{{ site.data.tumult.play_url | relative_url }}" data-play="topbar"><span>Play free</span></a>
+    {%- else %}
+    <a class="hs-cta hs-cta-s" href="/#platforms"><span>Get the game</span></a>
+    {%- endif %}
+    <button class="hs-menu" type="button" aria-expanded="false" aria-controls="hs-nav">Menu</button>
+  </div>
 </header>
+<div class="hs-tpop" id="hs-theme" role="dialog" aria-label="Theme and motion" hidden>
+  <div class="top"><span class="hs-lab">Theme &middot; the whole site</span><button type="button" class="hs-x" data-theme-close aria-label="Close">&times;</button></div>
+  {%- assign groups = "Hypersea;Colour vision" | split: ";" %}
+  {%- for g in groups %}
+  <div class="hs-lab grp">{{ g }}</div>
+  <div class="hs-tgrid">
+    {%- for t in site.data.themes %}{%- if t.group == g %}
+    <button type="button" class="hs-topt" data-theme="{{ t.id }}" data-name="{{ t.name }}" aria-pressed="false" title="{{ t.line | escape }}">
+      <span class="hs-sws" aria-hidden="true">{% for c in t.swatches %}<i style="background:{{ c }}"></i>{% endfor %}</span><b>{{ t.name }}</b>
+    </button>
+    {%- endif %}{%- endfor %}
+  </div>
+  {%- endfor %}
+  <div class="hs-mrow"><span class="hs-lab">Motion</span>
+    <div class="hs-seg" role="group" aria-label="Motion">
+      <button type="button" data-motion="full" aria-pressed="true">Full</button><button type="button" data-motion="calm" aria-pressed="false">Calm</button><button type="button" data-motion="off" aria-pressed="false">Off</button>
+    </div>
+  </div>
+  <p>Kept on this device. Until you choose, motion follows your system&rsquo;s reduced-motion setting.</p>
+</div>

@@ -1,0 +1,20 @@
+# The Pilot Codex on /pilots/: the eighteen callsigns, what each pilot sees when you hold LB, and its scene
+# (assets/pilots/<callsign>.webp, from the game repo's Docs/Pilots/art/scenes/). Groups follow what they see.
+- {callsign: ENSIGN, group: The sea, sees: "Your domain's mass: what is yours to defend, and the gaps in it."}
+- {callsign: MANGER, group: The sea, sees: "The mass the wild creatures are heading for."}
+- {callsign: ANVIL, group: Crystals, sees: "Every Mass crystal, even the ones creatures carry."}
+- {callsign: VOLT, group: Crystals, sees: "Every Charge crystal, even the ones creatures carry."}
+- {callsign: ZODIAC, group: Crystals, sees: "Every Space crystal, even the ones creatures carry."}
+- {callsign: SUNDIAL, group: Crystals, sees: "Every Time crystal, even the ones creatures carry."}
+- {callsign: OPAL, group: Crystals, sees: "Every Omni crystal in the cell."}
+- {callsign: RAMPART, group: Prisms, sees: "Every shielded prism."}
+- {callsign: CITADEL, group: Prisms, sees: "Every super-shielded prism: what a payload is for."}
+- {callsign: HORNET, group: Prisms, sees: "Every danger prism: the mass that burns your petals."}
+- {callsign: IVY, group: Life, sees: "Every plant."}
+- {callsign: TALON, group: Life, sees: "Every predator."}
+- {callsign: DOE, group: Life, sees: "Every herbivore."}
+- {callsign: WINGMAN, group: Vessels, sees: "Every vessel on your side, through mass."}
+- {callsign: BANDIT, group: Vessels, sees: "Every opposing vessel, through mass."}
+- {callsign: NEEDLE, group: Paths, sees: "Every ring that sets something off: gates, switches, goals."}
+- {callsign: GALLEON, group: Paths, sees: "The Arks, and the payload aboard."}
+- {callsign: FLUME, group: Paths, sees: "Every soliton: where it is and where it leads."}
