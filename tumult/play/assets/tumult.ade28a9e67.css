@@ -11995,6 +11995,11 @@ button.linkish {
   }
 }
 
+/* the Route tab before there is a route */
+.route-wait {
+  padding-top: 8vh;
+}
+
 
 /* ───── ui/home.css ───── */
 /* ============================================================================
