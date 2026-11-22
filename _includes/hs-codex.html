@@ -1,0 +1,23 @@
+{%- comment -%}
+  The Fleet Codex, full screen over any page with `codex: true` (js/hypersea.js opens it from any [data-codex]).
+  It frames /fleet-codex/, the studio's codex rebuilt from the game by tools/sync_fleet_codex.py.
+{%- endcomment -%}
+<div class="hs-cxo" id="hs-codex" role="dialog" aria-modal="true" aria-label="Fleet Codex" hidden>
+  <div class="wipe" aria-hidden="true"></div>
+  <div class="bar">
+    <div class="t"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h7v16H4zM13 4h7v16h-7z"/><path d="M6.5 8h2M15.5 8h2M6.5 11h2M15.5 11h2"/></svg><span>Fleet Codex<small>Rebuilt from the game</small></span></div>
+    <div class="vs" role="group" aria-label="Vessels">
+      {%- for v in site.data.fleet %}
+      <button type="button" data-cx-key="{{ v.key }}" aria-pressed="false" title="{{ v.name }}">{% if v.thumb != "" %}<img src="{{ v.thumb }}" alt="" loading="lazy">{% endif %}<span>{{ v.name }}</span></button>
+      {%- endfor %}
+    </div>
+    <a class="ext" href="/fleet-codex/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg><span>New tab</span></a>
+    <button type="button" class="cls" aria-label="Close the Fleet Codex">&times;</button>
+  </div>
+  <div class="body">
+    <iframe title="The Fleet Codex" loading="lazy"></iframe>
+    <button type="button" class="arr l" aria-label="Previous vessel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.6"/></svg></button>
+    <button type="button" class="arr r" aria-label="Next vessel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6"/></svg></button>
+    <div class="live"><i></i>Updated with every build</div>
+  </div>
+</div>

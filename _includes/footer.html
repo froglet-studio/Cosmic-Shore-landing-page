@@ -1,10 +1,11 @@
 <!-- FOOTER -->
-<footer class="footer">
-  <div class="footer-brand">
-    <img src="/assets/branding/froglet-logo.png" alt="Froglet Games">
-    <span>&copy; {{ site.time | date: "%Y" }} Froglet Games. All rights reserved.</span>
+<footer class="hs-ft">
+  <div class="b">
+    <img src="/assets/branding/froglet-logo.png" alt="Froglet Games" width="105" height="28">
+    <span>&copy; {{ site.time | date: "%Y" }} Froglet Games</span>
   </div>
-  <nav class="footer-links" aria-label="Footer">
+  <nav aria-label="Footer">
+    <a href="/vessels/#codex">Fleet Codex</a>
     {%- if site.posts.size > 0 %}
     <a href="/blog/">Blog</a>
     {%- endif %}
@@ -15,7 +16,8 @@
     <a href="/privacy">Privacy</a>
     <a href="/delete-my-data">Delete My Data</a>
     <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer">Discord</a>
-    <button type="button" class="footer-link-btn" data-consent-open>Cookie Settings</button>
+    <button type="button" data-consent-open>Cookie Settings</button>
+    <a href="/admin/" rel="nofollow">Studio sign-in</a>
   </nav>
 </footer>
 {% include tester-signup.html %}

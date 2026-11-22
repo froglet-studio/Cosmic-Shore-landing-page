@@ -1,0 +1,51 @@
+---
+title: Pilots — the Cosmic Shore Pilot Codex
+description: "The Pilot Codex: every Cosmic Shore callsign and what its pilot sees. Each pilot is part human, part two animals, with a faction, a homeworld and a story that grows with every voyage."
+image: /assets/images/Image%20Sequence_018_0003.jpg
+permalink: /pilots/
+nav: pilots
+---
+{%- assign pilots = site.data.pilots -%}
+{%- assign first = pilots | where: "callsign", "VOLT" | first -%}
+{%- assign groups = "All,The sea,Crystals,Prisms,Life,Vessels,Paths" | split: "," -%}
+{%- capture stats -%}{{ pilots.size }}|Callsigns;Any|Vessel;LB|To see{%- endcapture -%}
+{% include page-hero.html image="/assets/pilots/volt.webp" label="Pilot Codex" title="Pilots" lede="Every pilot is one of a kind: part human, part two animals, with a faction, a homeworld and a story that grows with every voyage. Their callsign is what they see when you hold LB." stats=stats %}
+
+<section class="hs-sec first" id="codex">
+  <div class="hs-k rv"><i></i>Every callsign</div>
+  <h2 class="hs-h2 rv">Pick <em>a pilot</em></h2>
+  <div class="hs-fbar" role="toolbar" aria-label="Pilots by what they see">
+    <span class="fl">They see</span>
+    {%- for g in groups %}{%- assign n = pilots | where: "group", g %}
+    <button type="button" data-pgroup="{{ g }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"><span>{{ g }}</span><em>{% if g == "All" %}{{ pilots.size }}{% else %}{{ n.size }}{% endif %}</em></button>
+    {%- endfor %}
+  </div>
+  <div class="hs-pilot" id="hs-pilot" aria-live="polite">
+    <img src="/assets/pilots/{{ first.callsign | downcase }}.webp" alt="{{ first.callsign }}, a pilot" width="1536" height="864">
+    <div class="tx">
+      <span class="hs-lab kick" data-f="kick">Callsign 04 &middot; {{ first.group }}</span>
+      <h3>{{ first.callsign }}</h3>
+      <div class="hs-sees"><small>Hold LB to see</small><span data-f="sees">{{ first.sees }}</span></div>
+      <div class="hs-chips"><span><span>Flies any vessel</span></span><span><span>Human + two animals</span></span><span><span>Faction &middot; homeworld</span></span></div>
+      <p>A pilot&rsquo;s chronicle grows with every voyage they fly. Unlock more pilots behind a callsign as you play.</p>
+    </div>
+  </div>
+  <div class="hs-pg6">
+    {%- for p in pilots %}{%- assign c = p.callsign | downcase %}
+    <button type="button" id="{{ c }}" data-pilot="{{ p.callsign }}" data-group="{{ p.group }}" data-sees="{{ p.sees | escape }}" data-no="{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}" data-img="/assets/pilots/{{ c }}.webp" aria-pressed="{% if p.callsign == first.callsign %}true{% else %}false{% endif %}" aria-label="{{ p.callsign }}">
+      <img src="/assets/pilots/{{ c }}.webp" alt="" loading="lazy" decoding="async"><span>{{ p.callsign }}</span>
+    </button>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="hs-sec" id="what">
+  <div class="hs-k rv"><i></i>What makes a pilot</div>
+  <h2 class="hs-h2 rv">Four things, <em>one pilot</em></h2>
+  <div class="hs-steps four">
+    <div class="hs-step rv"><b>Callsign</b><span>What the pilot sees: crystals, prisms, life, vessels or paths through the sea.</span></div>
+    <div class="hs-step rv"><b>Creature</b><span>Human plus two animals, one of a kind, designed as one creature.</span></div>
+    <div class="hs-step rv"><b>Faction</b><span>Who they work for, and the jobs they drum up at port.</span></div>
+    <div class="hs-step rv"><b>Chronicle</b><span>Their story so far, written by the voyages they fly.</span></div>
+  </div>
+</section>

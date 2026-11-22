@@ -1,0 +1,71 @@
+---
+title: Voyages — sail the HyperSea in Cosmic Shore
+description: "Voyages, in development for Cosmic Shore: your squad of three sails one shared HyperSea, the Milky Way as a sea, takes jobs, meets other squads and keeps whatever the Ark brings home."
+image: /assets/images/Image%20Sequence_029_0001.jpg
+permalink: /voyages/
+nav: voyages
+---
+{%- assign tiers = "Galaxy|arms, bulge, the halo's globular clusters|110,000 ly|gal;Arm|giant nurseries, the brightest supergiants|20,000 ly|arm;Sector|star clusters and the brightest stars|4,500 ly|sector;Neighbourhood|a slab of nearby stars round one height, packed in cells|280 ly|neighbourhood;Cell|one 20 ly cell: membrane, cytoplasm, nucleus, and its stars|50 ly|cell" | split: ";" -%}
+{%- capture extra -%}<span class="hs-tagb"><span>In development</span></span>{%- endcapture -%}
+{% include page-hero.html cls="gal" image="/assets/hypersea/galaxy.webp" label="Voyages &middot; the HyperSea" title="Voyages" lede="Where everything you learn leads. Your squad of three sets sail from its home port onto one shared HyperSea, takes jobs, meets other squads, and keeps whatever the Ark brings home." stats="3|Pilots a squad;1|Shared HyperSea;20 ly|A minute of sailing" extra=extra %}
+
+<section class="hs-sec first" id="map">
+  <div class="hs-k rv"><i></i>The HyperSea map</div>
+  <h2 class="hs-h2 rv">Our Milky Way, <em>as a sea</em></h2>
+  <p class="hs-lead rv">The HyperSea is the Milky Way as an Ark crew feels it: a sea crossed at twenty light years a minute. Zoom from the whole galaxy down to one living cell, with its membrane, its nucleus and the stars inside it.</p>
+  <div class="hs-mapw rv">
+    <div class="hs-mlad" role="group" aria-label="Zoom level">
+      {%- for t in tiers %}{%- assign x = t | split: "|" %}
+      <button type="button" data-tier="{{ forloop.index0 }}" data-name="{{ x[0] }}" data-what="{{ x[1] | escape }}" data-width="{{ x[2] }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"><span>{{ x[0] }}</span><small>{{ x[2] }}</small></button>
+      {%- endfor %}
+      <div class="zm"><button type="button" data-zoom="-1" aria-label="Zoom out">&minus;</button><button type="button" data-zoom="1" aria-label="Zoom in">+</button></div>
+    </div>
+    <div class="hs-mapv" id="hs-mapv">
+      {%- for t in tiers %}{%- assign x = t | split: "|" %}
+      <img src="/assets/hypersea/map/{{ x[3] }}.webp" alt="The HyperSea at {{ x[0] | downcase }} scale" {% if forloop.first %}class="on"{% else %}loading="lazy"{% endif %} decoding="async">
+      {%- endfor %}
+      <div class="cap"><b>Galaxy</b><span>arms, bulge, the halo&rsquo;s globular clusters</span></div>
+      <div class="sc">110,000 ly<i></i></div>
+    </div>
+  </div>
+  <p class="hs-note">Drawn from the game&rsquo;s own Voyage Board chart. Double-click the map, or use + and &minus;, to zoom.</p>
+</section>
+
+<section class="hs-sec" id="story">
+  <div class="hs-k rv"><i></i>The story</div>
+  <h2 class="hs-h2 rv">Set sail on <em>the HyperSea</em></h2>
+  <p class="hs-lead rv">The HyperSea is one map for everyone: named places joined by lanes. Much of the work out there is carrying news, which only couriers can move faster than light. <b>Voyages are the fourth place to play, after the Toybox, the Arcade and the Arena.</b></p>
+  <div class="hs-route">
+    <svg viewBox="0 0 1000 60" preserveAspectRatio="none" aria-hidden="true"><path d="M90 30 C200 -10 300 70 400 30 S600 -10 700 30 S880 70 910 30"/></svg>
+    {%- assign stops = "Port|Your pilots drum up jobs for their factions. Pick one and load the Ark.;Lanes|Fly the Ark down the lanes between places, the way the Arkway flies.;Places|Vault fields, lairs, wrecks, contested cores and harbours, each a real cell.;Meetings|Cross another squad's path and play it out together, fight or deal.;Home|Whatever is aboard the Ark when you get home is yours." | split: ";" %}
+    {%- for s in stops %}{%- assign x = s | split: "|" %}
+    <div class="hs-stop rv"><div class="dot"><b>{{ forloop.index }}</b></div><h3>{{ x[0] }}</h3><p>{{ x[1] }}</p></div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="hs-sec" id="squad">
+  <div class="hs-k rv"><i></i>Your squad</div>
+  <h2 class="hs-h2 rv">Three pilots, <em>one Ark</em></h2>
+  <div class="hs-sq">
+    <p class="hs-lead rv" style="margin:0">A squad is three vessels. Each seat holds four cards: <b>the vessel, its element, the pilot and an artifact</b>. The Ark carries the artifacts, and the payload you came for.</p>
+    <div class="cards rv rvr">
+      <div><b>Vessel</b><span>How you fly.</span></div><div><b>Element</b><span>Which ability leads.</span></div><div><b>Pilot</b><span>What you see.</span></div><div><b>Artifact</b><span>What the payload does.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="hs-sec" id="pilots">
+  <div class="hs-k rv"><i></i>Meet the pilots</div>
+  <h2 class="hs-h2 rv">Who flies <em>with you</em></h2>
+  <div class="hs-teaser">
+    <div>
+      <p class="hs-lead rv" style="margin:0">{{ site.data.pilots.size }} callsigns, and every pilot behind one is one of a kind. <b>Each sees the HyperSea differently.</b></p>
+      <div class="hs-acts rv"><a class="hs-cta" href="/pilots/"><span>Open the Pilot Codex</span></a></div>
+    </div>
+    <div class="hs-strip rv rvr">
+      {%- assign show = "GALLEON,VOLT,IVY,BANDIT,CITADEL" | split: "," %}
+      {%- for n in show %}<a href="/pilots/#{{ n | downcase }}"><img src="/assets/pilots/{{ n | downcase }}.webp" alt="{{ n }}" loading="lazy"></a>{% endfor %}
+    </div>
+  </div>
+</section>

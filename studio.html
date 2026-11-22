@@ -1,0 +1,52 @@
+---
+title: Froglet Games — the studio behind Cosmic Shore and Tumult
+description: "Froglet Games makes games about the HyperSea: Cosmic Shore, the party game for pilots, and Tumult, the planet every pilot comes from. Our dev blog, our team and how to reach us."
+image: /assets/images/Image%20Sequence_029_0001.jpg
+permalink: /studio/
+nav: studio
+og_site_name: Froglet Games
+---
+{%- assign team = site.team | sort: "order" -%}
+{%- capture stats -%}2|Games;{{ team.size }}|In the crew;{{ site.posts.size }}|{% if site.posts.size == 1 %}Post{% else %}Posts{% endif %}{%- endcapture -%}
+{% include page-hero.html image="/assets/hypersea/scenes/029_0001.webp" label="Froglet Games" title="Studio" lede="A small team making games about the HyperSea: Cosmic Shore, and Tumult, the planet every pilot comes from." stats=stats %}
+
+<section class="hs-sec first" id="blog">
+  <div class="hs-k rv"><i></i>Dev blog</div>
+  <h2 class="hs-h2 rv">From <em>the studio</em></h2>
+  <div class="hs-posts">
+    {%- if site.posts.size > 0 %}{%- assign post = site.posts.first %}
+    <a class="hs-bp hs-cd rv" href="{{ post.url }}">
+      <img src="{{ post.image | default: '/assets/hypersea/scenes/025_0000.webp' }}" alt="{{ post.image_alt | default: '' | escape }}" loading="lazy">
+      <div class="in"><span class="m">{{ post.category | default: "Dev Log" }} &middot; {{ post.date | date: "%-d %b %Y" }}{% assign dev = site.team | where: "slug", post.author | first %}{% if dev %} &middot; by {{ dev.name }}{% endif %}</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p><span class="m">Read the post &rarr;</span></div>
+    </a>
+    {%- endif %}
+    <div class="side">
+      {%- for post in site.posts offset: 1 limit: 2 %}
+      <a class="hs-tk hs-cd rv" href="{{ post.url }}"><small>{{ post.category | default: "Dev Log" }} &middot; {{ post.date | date: "%-d %b %Y" }}</small><b>{{ post.title }}</b><span>Read &rarr;</span></a>
+      {%- endfor %}
+      <a class="hs-tk hs-cd rv" href="/blog/"><b>Every post</b><small>Build notes, design deep-dives and patch notes</small><span>The dev blog &rarr;</span></a>
+      <a class="hs-tk hs-cd rv" href="/blog/feed.xml"><b>RSS feed</b><small>New posts in your reader</small><span>Subscribe &rarr;</span></a>
+      <a class="hs-tk hs-cd rv" href="/tumult/"><b>Tumult</b><small>Our second game: still in beta, under live development</small><span>Play it free &rarr;</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="hs-sec" id="team">
+  <div class="hs-k rv"><i></i>The team</div>
+  <h2 class="hs-h2 rv">Meet <em>the crew</em></h2>
+  <div class="hs-crew">
+    {%- for p in team %}
+    <a class="hs-pc hs-cd rv" href="{{ p.url }}"><span class="ph">{% if p.photo and p.photo != "" %}<img src="{{ p.photo }}" alt="" loading="lazy">{% else %}{{ p.name | slice: 0 }}{% endif %}</span><b>{{ p.name | escape }}</b><small>{{ p.title | escape }}</small></a>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="hs-sec" id="contact">
+  <div class="hs-k rv"><i></i>Say hello</div>
+  <h2 class="hs-h2 rv">Get in <em>touch</em></h2>
+  <div class="hs-contact">
+    <a class="hs-tk hs-cd rv" href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer"><b>Discord</b><small>Meet the pilots and the team</small><span>Join &rarr;</span></a>
+    <a class="hs-tk hs-cd rv" href="/support"><b>Support</b><small>Questions, bugs, account trouble</small><span>Get help &rarr;</span></a>
+    <a class="hs-tk hs-cd rv" href="/admin/" rel="nofollow"><b>Studio sign-in</b><small>For the team: profiles and posts</small><span>Sign in &rarr;</span></a>
+  </div>
+</section>

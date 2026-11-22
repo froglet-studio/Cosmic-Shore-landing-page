@@ -1,14 +1,23 @@
-{%- comment -%} Short parallax hero for subpages. image: URL-encoded path; title may contain HTML. {%- endcomment -%}
-<section class="page-hero">
-  <div class="page-hero-bg" style="background-image: url('{{ include.image }}')"></div>
-  <div class="page-hero-inner">
-    <span class="section-label reveal">{{ include.label }}</span>
-    <h1 class="reveal reveal-d1">{{ include.title }}</h1>
+{%- comment -%}
+  The page hero on every page below Home (the HyperSea look). image: a URL-encoded path; title may contain HTML
+  (a <span class="gradient-text"> part takes the accent). Optional: lede, meta (a row of small facts), stats
+  (pairs "value|label;value|label"), extra (HTML after the stats), cls (e.g. "gal" or "short").
+{%- endcomment -%}
+<section class="hs-phx {{ include.cls }}" aria-labelledby="page-h1">
+  <img class="bg" src="{{ include.image }}" alt="" fetchpriority="high" decoding="async">
+  <div class="sh"></div>
+  <div class="in">
+    <span class="hs-lab kick">{{ include.label }}</span>
+    <h1 id="page-h1">{{ include.title }}</h1>
     {%- if include.lede %}
-    <p class="lede reveal reveal-d2">{{ include.lede }}</p>
+    <p class="d">{{ include.lede }}</p>
     {%- endif %}
     {%- if include.meta %}
-    <div class="page-meta reveal reveal-d3">{{ include.meta }}</div>
+    <div class="meta">{{ include.meta }}</div>
     {%- endif %}
+    {%- if include.stats %}
+    <div class="hs-stats">{% assign st = include.stats | split: ";" %}{% for s in st %}{% assign x = s | split: "|" %}<div><b>{{ x[0] }}</b><small>{{ x[1] }}</small></div>{% endfor %}</div>
+    {%- endif %}
+    {{ include.extra }}
   </div>
 </section>

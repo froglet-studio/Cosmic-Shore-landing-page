@@ -1,0 +1,29 @@
+/* Froglet Studio (/admin/) in the HyperSea look: the site's theme (the visitor's saved choice, js/hs-boot.js),
+   its type and its square, skewed controls. Loaded after studio.css and hypersea.css. */
+html {
+  --panel: color-mix(in srgb, var(--sf) 90%, transparent); --line: var(--ln); --line-2: color-mix(in srgb, var(--ln) 100%, var(--tx) 10%);
+  --text: var(--tx2); --bright: var(--tx); --muted: var(--tx2);
+  --cyan: var(--a1); --teal: var(--a1); --magenta: var(--a2); --lime: var(--cta); --orange: var(--a3); --red: var(--fire);
+}
+html, body { background: var(--bg); color: var(--tx2); font-family: var(--body); }
+body::before { background: url(/assets/hypersea/sky.webp) repeat 0 0 / 2400px 1200px; opacity: .35; }
+body::after { background:
+  radial-gradient(60vmax 45vmax at 105% -10%, color-mix(in srgb, var(--studio-accent) 26%, transparent), transparent 70%),
+  radial-gradient(55vmax 40vmax at -10% 110%, color-mix(in srgb, var(--a2) 18%, transparent), transparent 70%),
+  radial-gradient(ellipse 80% 60% at 50% 50%, color-mix(in srgb, var(--bg2) 30%, transparent), color-mix(in srgb, var(--bg2) 70%, transparent)); }
+.st-brand, .st-brand-sub, .st-photo span, .st-pcard-photo span, .st-pcard-body > b, .st-pcard-fav b { font-family: var(--disp); font-style: italic; }
+.st-brand { color: var(--a1); text-transform: uppercase; letter-spacing: .04em; }
+.st-brand-sub { color: var(--a2); }
+.st-label, .st-nav-item, .st-btn, .st-head h1, .st-head h2, .st-view h1, .st-view h2 { font-family: var(--disp); letter-spacing: .08em; }
+.st-view h1, .st-view h2, .st-head h1, .st-head h2 { font-style: italic; text-transform: uppercase; color: var(--tx); }
+.st-card, .st-gate-card, .st-input, .st-file, .st-md, .st-preview, .st-toast, .st-nav, .st-token, .st-pcard, .st-list > * { border-radius: 0 !important; }
+.st-card, .st-gate-card { border: 0; border-left: 3px solid var(--a1); background: var(--panel); backdrop-filter: blur(14px); }
+.st-gate-card { clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px); }
+.st-input { background: var(--sf); border-color: var(--ln); color: var(--tx); }
+.st-input:focus { border-color: var(--a1); }
+.st-btn { border-radius: 0 !important; transform: skewX(-10deg); text-transform: uppercase; transition: transform .3s cubic-bezier(.22,1,.36,1), background-color .3s, color .3s; }
+.st-btn > * { transform: skewX(10deg); }
+.st-btn:hover { transform: skewX(-10deg) translateY(-2px); }
+.st-btn-lime { background: var(--cta); border-color: var(--cta); color: var(--on); }
+.st-btn-lime:hover { background: var(--cta); color: var(--on); box-shadow: 0 10px 30px color-mix(in srgb, var(--cta) 40%, transparent); }
+.st-nav-item[aria-current="page"], .st-nav-item.is-on, .st-nav-item[aria-selected="true"] { color: var(--tx); box-shadow: inset 3px 0 0 var(--a1); }

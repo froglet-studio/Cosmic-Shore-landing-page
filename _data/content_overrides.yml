@@ -8,4 +8,6 @@ vessels:
   Serpent: Navigate with just one thumb and place seeds that will steal ALL local blocks into a wall that can be shielded. Use walls to disrupt enemy volume and navigation.
   Urchin: Rides other pilots' trails and surfaces like rails, turning their prismscapes into its road, then fires a cascade of chain spikes from the ride.
 modes:
+  Scurry: Capture every crystal in the cell before your rivals do.
+  Maelstrom: A gauntlet of games in a row, played for the crown.
   Joust: Score by overtaking. Sweep your faster vessel's skimmer past a slower rival to land a joust; first to the target wins.

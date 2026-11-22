@@ -1,336 +1,110 @@
 ---
-layout: null
+title: Cosmic Shore — The Party Game for Pilots
+description: "Cosmic Shore — The Party Game for Pilots. Play with friends and find your favorite fly style: master drift, unleash firepower, and chase glory on the galaxy's largest space station."
+image: /assets/images/Image%20Sequence_030_0008.jpg
+og_site_name: Cosmic Shore
+head_include: home-schema.html
+nav: home
+codex: true
+body_class: hs-home
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cosmic Shore — The Party Game for Pilots</title>
-<link rel="canonical" href="https://www.froglet.games/">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/branding/favicon-32.png">
-<link rel="icon" type="image/png" sizes="256x256" href="assets/branding/favicon-256.png">
-<meta name="description" content="Cosmic Shore — The Party Game for Pilots. Play with friends and find your favorite fly style.">
-<meta name="theme-color" content="#0a0a1a">
+{%- assign fleet = site.data.fleet -%}
+{%- assign games = site.data.games -%}
+{%- capture tick_cs -%}{% for g in games.arena %}<i></i>{{ g.name }}{% endfor %}{% for g in games.arcade limit: 8 %}<i></i>{{ g.name }}{% endfor %}{%- endcapture -%}
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.froglet.games/">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Cosmic Shore">
-<meta property="og:title" content="Cosmic Shore — The Party Game for Pilots">
-<meta property="og:description" content="Play with friends and find your favorite fly style. Master drift, unleash firepower, and chase glory on the galaxy's largest space station.">
-<meta property="og:image" content="https://www.froglet.games/assets/images/Image%20Sequence_030_0008.jpg">
-
-<!-- Twitter / X -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Cosmic Shore — The Party Game for Pilots">
-<meta name="twitter:description" content="Play with friends and find your favorite fly style. Master drift, unleash firepower, and chase glory on the galaxy's largest space station.">
-<meta name="twitter:image" content="https://www.froglet.games/assets/images/Image%20Sequence_030_0008.jpg">
-
-<!-- Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "VideoGame",
-  "name": "Cosmic Shore",
-  "url": "https://www.froglet.games/",
-  "description": "The Party Game for Pilots. Master drift, unleash firepower, and chase glory on the galaxy's largest space station.",
-  "genre": ["Party Game", "Action"],
-  "gamePlatform": ["PC", "iOS", "Android"],
-  "applicationCategory": "Game",
-  "operatingSystem": "Windows, iOS, Android",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Froglet Games",
-    "url": "https://www.froglet.games/"
-  },
-  "image": "https://www.froglet.games/assets/images/hero-1.jpg"
-}
-</script>
-
-<!-- Preconnect hints -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://www.googletagmanager.com">
-<link rel="preconnect" href="https://www.youtube.com">
-
-{% include analytics-head.html %}
-
-<link rel="stylesheet" href="css/design-3-hyperdrive.css?v={{ site.time | date: "%s" }}">
-<link rel="stylesheet" href="css/pages.css?v={{ site.time | date: "%s" }}">
-{% feed_meta %}
-</head>
-<body>
-
-{% include analytics-body.html %}
-
-<!-- ANIMATED STAR FIELD -->
-<div class="stars">
-  <canvas id="starfield"></canvas>
-</div>
-
-{% include topbar.html %}
-
-<!-- HERO -->
-<section class="hero" id="hero">
-  <div class="hero-parallax-bg" id="heroBg"></div>
-  <div class="hero-content">
-    <div class="hero-title-wrap reveal">
-      <img src="assets/branding/CosmicShoreLogoLarge.png" alt="Cosmic Shore" class="hero-logo">
-    </div>
-    <p class="hero-tagline reveal reveal-d1">The Party Game for Pilots</p>
-    <p class="hero-desc reveal reveal-d2">Master drift, unleash firepower, and chase glory on the galaxy&rsquo;s largest space station.</p>
-    <div class="hero-actions reveal reveal-d3">
-      <div class="btn-glow-wrap">
-        <a href="#platforms">Get the Game</a>
-      </div>
-      <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer" class="btn-ghost">Join Discord</a>
+<section class="hs-hero" aria-labelledby="hero-h1">
+  <img class="bg" src="/assets/hypersea/scenes/025_0000.webp" alt="" fetchpriority="high" decoding="async">
+  <div class="sh"></div>
+  <div class="in">
+    <h1 id="hero-h1"><img src="/assets/branding/CosmicShoreLogoLarge.png" alt="Cosmic Shore"></h1>
+    <p class="hs-shout" aria-hidden="true"><span>Fly.</span> <span>Drift.</span> <span>Joust.</span></p>
+    <p class="d"><b>The party game for pilots.</b> Master drift, unleash firepower, and chase glory on the galaxy&rsquo;s largest space station.</p>
+    <div class="hs-acts">
+      <a class="hs-cta" href="#platforms"><span>Get the game</span></a>
+      {%- if site.data.toybox.build_root != "" %}
+      <a class="hs-gh" href="#play"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg>Play free in your browser</span></a>
+      {%- endif %}
     </div>
   </div>
-</section>
-
-<!-- LORE / INTRO -->
-<section class="section" id="lore">
-  <div class="lore-split">
-    <div class="lore-text reveal-left">
-      <span class="section-label">The Story</span>
-      <h2 class="section-title">Welcome to<br><span class="gradient-text">The Cosmic Shore</span></h2>
-      <p>As a native of the planet Tumult you are one of the most adaptive creatures in the known universe. With a burning curiosity for the unexplored, a healthy sense of adventure, and a strong competitive streak you&rsquo;ve left the planet to chase glory and fortune on the galaxy&rsquo;s largest space station.</p>
-      <p>Here, the greatest pilots and biggest names in the Milky Way compete in a series of simple but exhilarating contests. Show off the finest flying in the Galaxy, or have the most fun trying!</p>
-    </div>
-    <div class="lore-visual reveal-right">
-      <div class="lore-img-box" data-lightbox>
-        <img src="assets/images/Image Sequence_018_0003.jpg" alt="Cosmic Shore" loading="lazy">
-      </div>
-      <div class="lore-img-box" data-lightbox>
-        <img src="assets/images/Image Sequence_029_0001.jpg" alt="Cosmic Shore gameplay" loading="lazy">
-      </div>
-      <div class="lore-img-box" data-lightbox>
-        <img src="assets/images/Image Sequence_027_0000.jpg" alt="Cosmic Shore scene" loading="lazy">
-      </div>
-    </div>
+  <div class="hs-bdgs" aria-hidden="true">
+    <div class="hs-bdg"><span>Open beta</span><small>iPhone and iPad</small></div>
+    <div class="hs-bdg"><span>Phone + PC</span><small>One game, every screen</small></div>
+    <div class="hs-bdg"><span>{{ fleet.size }} vessels</span><small>Each flies its own way</small></div>
   </div>
 </section>
+<div class="hs-tick" aria-hidden="true"><div>{{ tick_cs }}{{ tick_cs }}</div></div>
 
-<!-- VESSELS: the Hangar. One big view and a picker of every vessel (_data/vessels.yml, generated from
-     the game by tools/sync_game_content.py). js/site.js swaps the big view; without it, the first shows. -->
-{%- assign fleet = site.data.vessels -%}
-{%- assign v = fleet[0] -%}
-<section class="section section-compact" id="vessels">
-  <div class="split-head">
+<section class="hs-sec" id="lore">
+  <div class="hs-k rv"><i></i>The story</div>
+  <h2 class="hs-h2 rv">Welcome to <em>the Cosmic Shore</em></h2>
+  <div class="hs-zine">
     <div>
-      <span class="section-label reveal">The Fleet</span>
-      <h2 class="section-title reveal reveal-d1">{{ fleet.size }} Ways to <span class="gradient-text">Fly</span></h2>
+      <p class="rv">As a native of the planet Tumult you are one of the most adaptive creatures in the known universe. With a burning curiosity for the unexplored, a healthy sense of adventure, and a strong competitive streak you&rsquo;ve left the planet to chase glory and fortune on the galaxy&rsquo;s largest space station.</p>
+      <p class="rv">Here, the greatest pilots and biggest names in the Milky Way compete in a series of simple but exhilarating contests. Show off the finest flying in the Galaxy, or have the most fun trying!</p>
     </div>
-    <p class="split-lede reveal reveal-d2">Every vessel in the game. Pick one to see how it flies.</p>
+    <div class="hs-stack rv rvr">
+      <img src="/assets/hypersea/scenes/021_0012.webp" alt="Vessels racing through a living cell" loading="lazy" decoding="async">
+      <img src="/assets/hypersea/scenes/023_0000.webp" alt="A joust between two pilots" loading="lazy" decoding="async">
+      <img src="/assets/hypersea/scenes/030_0008.webp" alt="The Cosmic Shore at speed" loading="lazy" decoding="async">
+    </div>
   </div>
+</section>
 
-  <div class="picker" data-picker>
-    <div class="picker-stage glass-card">
-      <div class="picker-media" data-media>
-        <img data-f="img" src="{{ v.image }}" alt="The {{ v.name }}" width="960" height="540" decoding="async">
-      </div>
-      <div class="picker-body" aria-live="polite">
-        <div class="picker-title">
-          <h3 data-f="name">{{ v.name }}</h3>
-          <span class="chip chip-cyan" data-f="chip"{% if v.seats < 2 %} hidden{% endif %}>{{ v.seats }} seats</span>
-          <span class="picker-count" data-f="count">01 / {% if fleet.size < 10 %}0{% endif %}{{ fleet.size }}</span>
-        </div>
-        <p data-f="blurb">{{ v.blurb }}</p>
-        <div class="picker-actions">
-          <button type="button" class="picker-arrow" data-dir="-1" aria-label="Previous vessel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
-          <button type="button" class="picker-arrow" data-dir="1" aria-label="Next vessel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
-          <button type="button" class="btn-ghost picker-trailer" data-trailer-play{% unless v.trailer %} hidden{% endunless %}>Watch the trailer</button>
-        </div>
-      </div>
+<section class="hs-sec" id="ways">
+  <div class="hs-k rv"><i></i>Four ways to play</div>
+  <h2 class="hs-h2 rv">Pick <em>where to fly</em></h2>
+  <div class="hs-ways">
+    <a class="hs-way rv" href="#play"><img src="/assets/hypersea/scenes/025_0000.webp" alt="" loading="lazy"><span class="sh"></span><span class="n">Free play</span><span class="tx"><h3>Toybox</h3><p>Fly free. No score, no clock: every vessel and toy to try.</p><span class="go">Explore &rarr;</span></span></a>
+    <a class="hs-way rv" href="/arcade/"><img src="/assets/hypersea/scenes/016_0005.webp" alt="" loading="lazy"><span class="sh"></span><span class="n">{{ games.arcade.size }} games</span><span class="tx"><h3>Arcade</h3><p>Short scored games, one vessel each, sorted by element.</p><span class="go">Explore &rarr;</span></span></a>
+    <a class="hs-way rv" href="/arena/"><img src="/assets/hypersea/scenes/027_0000.webp" alt="" loading="lazy"><span class="sh"></span><span class="n">{{ games.arena.size }} games</span><span class="tx"><h3>Arena</h3><p>Squad against squad, every hull that can fly the course.</p><span class="go">Explore &rarr;</span></span></a>
+    <a class="hs-way rv" href="/voyages/"><img src="/assets/hypersea/galaxy.webp" alt="" loading="lazy"><span class="sh"></span><span class="n">In development</span><span class="tx"><h3>Voyages</h3><p>Sail the HyperSea with your squad. Coming next.</p><span class="go">Explore &rarr;</span></span></a>
+  </div>
+</section>
+
+<section class="hs-sec" id="vessels">
+  <div class="hs-k rv"><i></i>The fleet</div>
+  <h2 class="hs-h2 rv">Your <em>vessel</em></h2>
+  <div class="hs-teaser">
+    <div>
+      <p class="hs-lead rv" style="margin:0">Every vessel flies its own way and carries four abilities, one for each element. <b>Pick one, learn its games, then take it to the Arena.</b></p>
+      <div class="hs-acts rv"><a class="hs-cta" href="/vessels/"><span>Meet the fleet</span></a><button type="button" class="hs-gh" data-codex=""><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Fleet Codex</span></button></div>
     </div>
-
-    <ul class="picker-list picker-thumbs" aria-label="Every vessel">
-      {%- for x in fleet %}
-      <li><button type="button" class="picker-item" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
-          data-img="{{ x.image }}" data-alt="The {{ x.name }}" data-name="{{ x.name }}" data-blurb="{{ x.blurb | escape }}"
-          data-chip="{% if x.seats > 1 %}{{ x.seats }} seats{% endif %}"{% if x.trailer %} data-trailer="{{ x.trailer }}"{% endif %}>
-        <img src="{{ x.thumb }}" alt="" width="256" height="144" decoding="async"><span>{{ x.name }}</span>
-      </button></li>
+    <div class="hs-strip rv rvr">
+      {%- for v in fleet limit: 5 %}
+      <a href="/vessels/#codex={{ v.key }}" data-codex="{{ v.key }}"><img src="{{ v.image }}" alt="The {{ v.name }}" loading="lazy" decoding="async"></a>
       {%- endfor %}
-    </ul>
+    </div>
   </div>
 </section>
-
-<!-- GAME MODES: tabs beside the heading; each kind is a big view plus a short list that scrolls in its
-     own box (_data/modes.yml). Without JavaScript every panel shows, one after another. -->
-{%- assign modes = site.data.modes -%}
-<section class="section section-compact modes-section" id="modes">
-  <div data-tabs class="mode-tabs">
-    <div class="split-head">
-      <div>
-        <span class="section-label reveal">Game Modes</span>
-        <h2 class="section-title reveal reveal-d1">Find Your <span class="gradient-text">Game</span></h2>
-      </div>
-      <div class="mode-tablist" role="tablist" aria-label="Kinds of game">
-        <button type="button" role="tab" id="tab-toybox" aria-controls="panel-toybox" aria-selected="false">Toybox</button>
-        <button type="button" role="tab" id="tab-arcade" aria-controls="panel-arcade" aria-selected="true">Arcade <span class="tab-count">{{ modes.arcade.size }}</span></button>
-        <button type="button" role="tab" id="tab-arena" aria-controls="panel-arena" aria-selected="false">Arena <span class="tab-count">{{ modes.arena.size }}</span></button>
-        {%- if modes.missions.size > 0 %}
-        <button type="button" role="tab" id="tab-missions" aria-controls="panel-missions" aria-selected="false">Missions <span class="tab-count">{{ modes.missions.size }}</span></button>
-        {%- endif %}
-      </div>
-    </div>
-
-    <div class="mode-panel" role="tabpanel" id="panel-toybox" aria-labelledby="tab-toybox">
-      <p class="mode-panel-lede">Free flight, no score, no clock. Where every pilot starts.</p>
-      <div class="picker">
-        <div class="picker-stage glass-card">
-          <div class="picker-media"><img src="assets/images/Image Sequence_025_0000.jpg" alt="A vessel flying freestyle through a living cell" loading="lazy"></div>
-        </div>
-        <div class="picker-side">
-          <h3>Toybox</h3>
-          <p>Free flight in a living cell, with no score and no clock. Swap between vessels, change the world around you, paint, and ride the Wanderway from scene to scene. It is where every pilot starts, and where the game's toys live.</p>
-          {%- if site.data.toybox.build_root != "" %}
-          <div class="card-actions"><div class="btn-glow-wrap"><a href="#play">Play in your browser</a></div></div>
-          {%- endif %}
-        </div>
-      </div>
-    </div>
-
-    {%- assign groups = "arcade|Short, sharp matches, most of them built around one vessel.;arena|Mixed fleets: several vessel classes in one match.;missions|Objectives against the cell itself." | split: ";" %}
-    {%- for g in groups %}
-    {%- assign parts = g | split: "|" %}{%- assign key = parts[0] %}{%- assign list = modes[key] %}
-    {%- if list.size > 0 %}{%- assign m = list[0] %}
-    <div class="mode-panel" role="tabpanel" id="panel-{{ key }}" aria-labelledby="tab-{{ key }}">
-      <p class="mode-panel-lede">{{ parts[1] }}</p>
-      <div class="picker" data-picker>
-        <div class="picker-stage glass-card">
-          <div class="picker-media picker-media-card" data-media>
-            <img data-f="img" src="{{ m.image }}" alt="{{ m.name }}" width="768" height="510" loading="lazy" decoding="async">
-          </div>
-          <div class="picker-body" aria-live="polite">
-            <div class="picker-title">
-              <h3 data-f="name">{{ m.name }}</h3>
-              <span class="chip chip-cyan" data-f="chip"{% unless m.players %} hidden{% endunless %}>{{ m.players }} players</span>
-            </div>
-            <p data-f="blurb">{{ m.blurb }}</p>
-            <p class="picker-vessels" data-f="vessels-row"{% if m.vessels.size == 0 %} hidden{% endif %}><span>Vessels</span> <span data-f="vessels">{{ m.vessels | join: " · " }}</span></p>
-          </div>
-        </div>
-
-        <ul class="picker-list picker-rows" aria-label="{{ key | capitalize }} modes">
-          {%- for x in list %}
-          {%- capture meta %}{% if x.players %}{{ x.players }} players{% endif %}{% if x.players and x.vessels.size > 0 %} · {% endif %}{{ x.vessels | join: " · " }}{% endcapture %}
-          <li><button type="button" class="picker-item" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
-              data-img="{{ x.image }}" data-alt="{{ x.name }}" data-name="{{ x.name }}" data-blurb="{{ x.blurb | escape }}"
-              data-chip="{% if x.players %}{{ x.players }} players{% endif %}" data-vessels="{{ x.vessels | join: ' · ' }}">
-            <img src="{{ x.thumb }}" alt="" width="192" height="128" loading="lazy" decoding="async">
-            <span class="picker-row-text"><span class="picker-row-name">{{ x.name }}</span><span class="picker-row-meta">{{ meta | strip }}</span></span>
-          </button></li>
-          {%- endfor %}
-        </ul>
-      </div>
-    </div>
-    {%- endif %}
-    {%- endfor %}
-  </div>
-</section>
-
-
 
 {% if site.data.toybox.build_root != "" -%}
-<!-- PLAY IN THE BROWSER -->
-<section class="section-full" id="play" style="--content: 1280px; scroll-margin-top: 4.5rem">
-  <div class="section-header">
-    <span class="section-label reveal">Play</span>
-    <h2 class="section-title reveal reveal-d1">Fly the <span class="gradient-text">Toybox</span></h2>
-    <p class="reveal reveal-d2">Freestyle flight with the toys, right in your browser. No install, no account. Just fly.</p>
+<div class="hs-tick r" aria-hidden="true" style="margin-top:clamp(64px,8vw,110px)"><div>{% for i in (1..4) %}<i></i>Press start<i></i>Play in your browser<i></i>No download{% endfor %}</div></div>
+<section class="hs-sec" id="play">
+  <div class="hs-k rv"><i></i>Play</div>
+  <h2 class="hs-h2 rv">Press <em>start</em></h2>
+  <p class="hs-lead rv">Freestyle flight with the toys, right in your browser. No install, no account. Just fly.</p>
+  <div class="hs-play">
+    {% include toybox-player.html %}
   </div>
-  {% include toybox-player.html %}
 </section>
 {%- endif %}
 
-
-<!-- GET THE GAME -->
-<section class="section-full" id="platforms">
-  <div class="section-header">
-    <span class="section-label reveal">Get the Game</span>
-    <h2 class="section-title reveal reveal-d1">Choose Your <span class="gradient-text">Launch Pad</span></h2>
-  </div>
+<section class="hs-sec" id="platforms">
+  <div class="hs-k rv"><i></i>Get the game</div>
+  <h2 class="hs-h2 rv">On <em>every screen</em></h2>
   {% include platforms.html %}
-  <p class="reveal" style="text-align:center;margin-top:2rem;font-size:.9rem">Not on your platform yet? <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer" style="color:var(--cyan)">Join the Discord</a> for launch news.</p>
+  <p class="hs-note">Not on your platform yet? <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer">Join the Discord</a> for launch news.</p>
 </section>
 
 {% if site.posts.size > 0 -%}
-<!-- DEV BLOG -->
-<section class="section" id="devlog">
-  <div class="section-header">
-    <span class="section-label reveal">Dev Blog</span>
-    <h2 class="section-title reveal reveal-d1">Notes from <span class="gradient-text">the Hangar</span></h2>
-  </div>
-  <div class="post-grid">
-    {%- for post in site.posts limit:3 %}
-    {%- assign delay = forloop.index0 | prepend: "reveal-d" | replace: "reveal-d0", "" %}
-    {% include post-card.html post=post delay=delay %}
-    {%- endfor %}
-  </div>
-  <div class="reveal" style="text-align:center;margin-top:2.5rem"><a href="/blog/" class="btn-ghost">All Posts</a></div>
+{%- assign post = site.posts.first %}
+<section class="hs-sec" id="devlog">
+  <div class="hs-k rv"><i></i>From the studio</div>
+  <h2 class="hs-h2 rv">Latest <em>news</em></h2>
+  <a class="hs-bp hs-cd rv" href="{{ post.url }}">
+    <img src="{{ post.image | default: '/assets/hypersea/scenes/025_0000.webp' }}" alt="{{ post.image_alt | default: '' | escape }}" loading="lazy">
+    <div class="in"><span class="m">{{ post.category | default: "Dev Log" }} &middot; {{ post.date | date: "%-d %b %Y" }}</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p><span class="m">Read the post &rarr;</span></div>
+  </a>
+  <p class="hs-note"><a href="/studio/">All posts and the team &rarr;</a></p>
 </section>
 {%- endif %}
-
-<!-- CTA FINALE -->
-<section class="cta-finale">
-  <div class="cta-finale-inner">
-    <span class="section-label reveal">Ready, Pilot?</span>
-    <h2 class="reveal reveal-d1">Chase Glory on<br><span class="gradient-text">The Cosmic Shore</span></h2>
-    <p class="reveal reveal-d2">The galaxy's greatest competition awaits. Pick your vessel, master your style, prove you belong.</p>
-    <div class="cta-finale-buttons reveal reveal-d3">
-      <div class="btn-glow-wrap">
-        <a href="#platforms">Get the Game</a>
-      </div>
-      <a href="{{ site.data.stores.discord }}" target="_blank" rel="noopener noreferrer" class="btn-ghost">Join the Community</a>
-    </div>
-  </div>
-</section>
-
-{% include footer.html %}
-
-<script src="/js/site.js?v={{ site.time | date: "%s" }}"></script>
-<script>
-// ── Lightbox ────────────────────────────────────────────────
-(function() {
-  let overlay = null;
-
-  function closeLightbox() {
-    if (!overlay) return;
-    const el = overlay;
-    overlay = null;
-    el.classList.remove('active');
-    setTimeout(() => el.remove(), 350);
-  }
-
-  document.querySelectorAll('[data-lightbox]').forEach(box => {
-    box.addEventListener('click', () => {
-      if (overlay) return;
-      const src = box.querySelector('img').src;
-      const alt = box.querySelector('img').alt;
-
-      overlay = document.createElement('div');
-      overlay.className = 'lightbox-overlay';
-      const img = document.createElement('img');
-      img.src = src;
-      img.alt = alt;
-      overlay.appendChild(img);
-      document.body.appendChild(overlay);
-
-      requestAnimationFrame(() => overlay.classList.add('active'));
-
-      overlay.addEventListener('click', closeLightbox);
-    });
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeLightbox();
-  });
-})();
-
-</script>
-</body>
-</html>

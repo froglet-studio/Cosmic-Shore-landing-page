@@ -1,0 +1,29 @@
+{%- comment -%}
+  The calm backdrop behind every page (Rev 126): Cosmic Shore pans the HyperSea sky, breathes its foam and cells,
+  turns two galaxies and drifts the codex's flora and fauna; Tumult blurs the storm painting with fog and a far flash.
+  No grids, lines or streaks (Shombith, 2026-11-22).
+{%- endcomment -%}
+{%- if page.game == "tumult" %}
+<div class="hs-bg" aria-hidden="true">
+  <div class="bi" style="background-image:url(/assets/tumult/bear.webp)"></div><div class="bt"></div><div class="bd"></div>
+  <span class="fog" style="top:22%;animation-duration:70s;animation-delay:-35s"></span>
+  <span class="fog" style="top:48%;animation-duration:90s;animation-delay:-45s"></span>
+  <span class="fog" style="top:74%;animation-duration:80s;animation-delay:-40s"></span>
+  <span class="fl" style="right:-260px;top:16%;animation-duration:13s"></span>
+  <span class="fl" style="left:-300px;top:58%;animation-duration:17s;animation-delay:-6s"></span>
+</div>
+{%- else %}
+<div class="hs-bg" aria-hidden="true">
+  <div class="sky"></div>
+  <span class="fm" style="left:-14vw;top:4vh;width:70vmax;height:70vmax;background-image:url(/assets/hypersea/foam.webp);opacity:.5;animation-duration:46s;animation-delay:-15s"></span>
+  <span class="fm" style="left:52vw;top:30vh;width:62vmax;height:62vmax;background-image:url(/assets/hypersea/cells.webp);opacity:.42;animation-duration:58s;animation-delay:-19s"></span>
+  <span class="fm" style="left:-10vw;top:58vh;width:66vmax;height:66vmax;background-image:url(/assets/hypersea/cells.webp);opacity:.36;animation-duration:64s;animation-delay:-21s"></span>
+  <div class="bt"></div><div class="bd"></div>
+  <span class="gx" style="left:62vw;top:-8vh;width:52vmax;height:52vmax;opacity:.3"><img src="/assets/hypersea/galaxy.webp" alt="" style="animation-duration:520s"></span>
+  <span class="gx" style="left:-18vw;top:56vh;width:56vmax;height:56vmax;opacity:.24"><img src="/assets/hypersea/galaxy.webp" alt="" style="animation-duration:640s"></span>
+  {%- assign life = "gyroid,4,14,190,.42,-120,-60,84,7|piranha,86,22,150,.38,140,40,70,9|coral,9,44,170,.36,90,-90,96,11|lantern,90,52,110,.44,-100,30,64,8|quadfish,6,74,160,.34,120,-40,78,10|watershed,84,80,210,.3,-150,-80,104,12|shoal,40,90,200,.3,160,-30,88,9|brittlestar,70,64,140,.36,-80,-100,92,13|physarum,22,30,170,.3,60,50,110,11|quasicrystal,56,12,150,.3,-120,60,100,10" | split: "|" %}
+  {%- for l in life %}{%- assign f = l | split: "," %}
+  <span class="lf" style="left:{{ f[1] }}vw;top:{{ f[2] }}vh;width:{{ f[3] }}px;opacity:{{ f[4] }};--dx:{{ f[5] }}px;--dy:{{ f[6] }}px;animation-duration:{{ f[7] }}s;animation-delay:-{{ forloop.index | times: 7 }}s"><img src="/assets/hypersea/life/{{ f[0] }}.webp" alt="" style="animation-duration:{{ f[8] }}s" loading="lazy"></span>
+  {%- endfor %}
+</div>
+{%- endif %}
