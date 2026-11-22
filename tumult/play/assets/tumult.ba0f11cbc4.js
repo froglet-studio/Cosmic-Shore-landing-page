@@ -1,5 +1,5 @@
 window.T = window.T || {};
-window.T.BUILD = {"version":"2.126.0","playtest":false};
+window.T.BUILD = {"version":"2.127.0","playtest":false};
 window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"assets/pilots/ALOIX.43e4999b34.jpg","pilot/ANOTH":"assets/pilots/ANOTH.8c8ba3872e.jpg","pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVIL":"assets/pilots/ANVIL.d03812188c.jpg","pilot/ARARA":"assets/pilots/ARARA.a9a5f5e370.jpg","pilot/ARILIA":"assets/pilots/ARILIA.811131207d.jpg","pilot/ASTROFOIL":"assets/pilots/ASTROFOIL.5c9fa6f14d.jpg","pilot/ATHARA":"assets/pilots/ATHARA.566837ceea.jpg","pilot/BANDIT":"assets/pilots/BANDIT.09391a446f.jpg","pilot/BELBERIN":"assets/pilots/BELBERIN.fe552f843d.jpg","pilot/BELDIRI":"assets/pilots/BELDIRI.bb899d0989.jpg","pilot/BELKO":"assets/pilots/BELKO.bf1893ac6e.jpg","pilot/BELMIDEK":"assets/pilots/BELMIDEK.9f9b46dd53.jpg","pilot/BELRENRO":"assets/pilots/BELRENRO.a8d1afd2ec.jpg","pilot/BELSIAR":"assets/pilots/BELSIAR.3421845c80.jpg","pilot/BELSOTH":"assets/pilots/BELSOTH.ddc38ecbd4.jpg","pilot/BELTHALY":"assets/pilots/BELTHALY.9ca6a590b5.jpg","pilot/BELWEN":"assets/pilots/BELWEN.bdae9555bc.jpg","pilot/BRILOLIA":"assets/pilots/BRILOLIA.8c33011094.jpg","pilot/BRIOLA":"assets/pilots/BRIOLA.d016ba9df1.jpg","pilot/BRIRAIX":"assets/pilots/BRIRAIX.ad5523ef69.jpg","pilot/BRISH":"assets/pilots/BRISH.7ffedf9d77.jpg","pilot/BRISILIA":"assets/pilots/BRISILIA.55b830452a.jpg","pilot/BUSHY":"assets/pilots/BUSHY.22cbdd91fa.jpg","pilot/CABEANE":"assets/pilots/CABEANE.a3f9f37902.jpg","pilot/CAKOOLA":"assets/pilots/CAKOOLA.410a91f525.jpg","pilot/CALADEK":"assets/pilots/CALADEK.4b0d375c6b.jpg","pilot/CALAOLA":"assets/pilots/CALAOLA.7d0d031d3c.jpg","pilot/CALOSH":"assets/pilots/CALOSH.a4d55479d5.jpg","pilot/CANUAR":"assets/pilots/CANUAR.224b61c8a2.jpg","pilot/CARIEL":"assets/pilots/CARIEL.5798c71984.jpg","pilot/CARIO":"assets/pilots/CARIO.fcc67b00ee.jpg","pilot/CITADEL":"assets/pilots/CITADEL.ee7edc065c.jpg","pilot/COMET":"assets/pilots/COMET.0af72b6f6d.jpg","pilot/CORANE":"assets/pilots/CORANE.c7026949b3.jpg","pilot/CORBEEK":"assets/pilots/CORBEEK.78e1c6ddb3.jpg","pilot/CORBEMO":"assets/pilots/CORBEMO.46051982a0.jpg","pilot/CORLILIA":"assets/pilots/CORLILIA.658f4b32f5.jpg","pilot/CORN":"assets/pilots/CORN.65f73d8382.jpg","pilot/CORNDO":"assets/pilots/CORNDO.c16588c87e.jpg","pilot/CORRARIN":"assets/pilots/CORRARIN.879c9ccf14.jpg","pilot/DAMSEL":"assets/pilots/DAMSEL.adb17d42d3.jpg","pilot/DAREK":"assets/pilots/DAREK.1dfdf1341f.jpg","pilot/DARSOANE":"assets/pilots/DARSOANE.3f55e457c7.jpg","pilot/DARX":"assets/pilots/DARX.4434a58e68.jpg","pilot/DELKO":"assets/pilots/DELKO.5d1e306ef5.jpg","pilot/DELLALIA":"assets/pilots/DELLALIA.1672cffe6e.jpg","pilot/DELLIAR":"assets/pilots/DELLIAR.e5a0375180.jpg","pilot/DELLOANE":"assets/pilots/DELLOANE.73d7910dea.jpg","pilot/DELLORIN":"assets/pilots/DELLORIN.408027cb25.jpg","pilot/DELMADEK":"assets/pilots/DELMADEK.3a826e35b1.jpg","pilot/DELNURI":"assets/pilots/DELNURI.3db0ec910b.jpg","pilot/DELSOKO":"assets/pilots/DELSOKO.e4c15c3589.jpg","pilot/DOE":"assets/pilots/DOE.f54ac28b36.jpg","pilot/DOZER":"assets/pilots/DOZER.0c2e273a78.jpg","pilot/ECHO":"assets/pilots/ECHO.09a66c8cd4.jpg","pilot/EMAO":"assets/pilots/EMAO.d8fb6d5e8b.jpg","pilot/ENSIGN":"assets/pilots/ENSIGN.dc51eec735.jpg","pilot/FENKORA":"assets/pilots/FENKORA.725f42bbe3.jpg","pilot/FENLALIA":"assets/pilots/FENLALIA.c2507593a2.jpg","pilot/FENRA":"assets/pilots/FENRA.11faa43159.jpg","pilot/FENX":"assets/pilots/FENX.7305adac5b.jpg","pilot/FIEST":"assets/pilots/FIEST.ca4f6072bf.jpg","pilot/FLUME":"assets/pilots/FLUME.99e34640fa.jpg","pilot/FLUX":"assets/pilots/FLUX.53b20c2d11.jpg","pilot/GALBEMO":"assets/pilots/GALBEMO.f3284426f7.jpg","pilot/GALLEON":"assets/pilots/GALLEON.4007ec2ba5.jpg","pilot/GALLITH":"assets/pilots/GALLITH.5231762b0e.jpg","pilot/GALMAO":"assets/pilots/GALMAO.52299a1823.jpg","pilot/GALSOLY":"assets/pilots/GALSOLY.fa08182309.jpg","pilot/GALSOOLA":"assets/pilots/GALSOOLA.4c636b23c0.jpg","pilot/HABEAR":"assets/pilots/HABEAR.c1432e4446.jpg","pilot/HAN":"assets/pilots/HAN.1836d0f7c3.jpg","pilot/HORNET":"assets/pilots/HORNET.c42014a776.jpg","pilot/IDIO":"assets/pilots/IDIO.cdde754cbb.jpg","pilot/ILORIN":"assets/pilots/ILORIN.b99e2531b1.jpg","pilot/IRI":"assets/pilots/IRI.37eadaad4b.jpg","pilot/ISOLO":"assets/pilots/ISOLO.2fb9735223.jpg","pilot/ITHAX":"assets/pilots/ITHAX.0ead69e72c.jpg","pilot/IVY":"assets/pilots/IVY.473c6f1896.jpg","pilot/JODIOLA":"assets/pilots/JODIOLA.1f05357781.jpg","pilot/JORIRO":"assets/pilots/JORIRO.58e95a465f.jpg","pilot/JORO":"assets/pilots/JORO.c85885531a.jpg","pilot/JOSORA":"assets/pilots/JOSORA.1cebcfd064.jpg","pilot/JOTHAAR":"assets/pilots/JOTHAAR.b0ce1e8cfd.jpg","pilot/JOUS":"assets/pilots/JOUS.1441533e13.jpg","pilot/JUGGER":"assets/pilots/JUGGER.586ce53079.jpg","pilot/KABEN":"assets/pilots/KABEN.11aeb58071.jpg","pilot/KADIWEN":"assets/pilots/KADIWEN.b7c104428c.jpg","pilot/KALARA":"assets/pilots/KALARA.dcf1fb3cb3.jpg","pilot/KAMASH":"assets/pilots/KAMASH.3f121ebad5.jpg","pilot/KARIIX":"assets/pilots/KARIIX.26a2fc2eb5.jpg","pilot/KASH":"assets/pilots/KASH.e0ac12c2b3.jpg","pilot/KRUSH":"assets/pilots/KRUSH.334b99716e.jpg","pilot/LONGSHIFT":"assets/pilots/LONGSHIFT.ddbb54691b.jpg","pilot/LUDIRA":"assets/pilots/LUDIRA.650f72fc2c.jpg","pilot/LULAANE":"assets/pilots/LULAANE.b4607cb3ba.jpg","pilot/LULIIA":"assets/pilots/LULIIA.faec6f17f0.jpg","pilot/LUNULO":"assets/pilots/LUNULO.c34b9c91ea.jpg","pilot/MAESTRO":"assets/pilots/MAESTRO.a123e74967.jpg","pilot/MAIX":"assets/pilots/MAIX.4b2949e043.jpg","pilot/MAKOOLA":"assets/pilots/MAKOOLA.d012951ffc.jpg","pilot/MALIMO":"assets/pilots/MALIMO.46cca662aa.jpg","pilot/MALOANE":"assets/pilots/MALOANE.fb0febbb8f.jpg","pilot/MAMAOLA":"assets/pilots/MAMAOLA.fd43dae51a.jpg","pilot/MAMO":"assets/pilots/MAMO.e7c7558b96.jpg","pilot/MANGER":"assets/pilots/MANGER.a0cc5e1ece.jpg","pilot/MASON":"assets/pilots/MASON.bb77e506ba.jpg","pilot/MATA":"assets/pilots/MATA.df79b0b771.jpg","pilot/MIBEN":"assets/pilots/MIBEN.ee2acc08ee.jpg","pilot/MILAWEN":"assets/pilots/MILAWEN.3fc4c98f63.jpg","pilot/MILOLY":"assets/pilots/MILOLY.7672bea8a5.jpg","pilot/MIRAVE":"assets/pilots/MIRAVE.860273dbe5.jpg","pilot/MIRIN":"assets/pilots/MIRIN.02fa308242.jpg","pilot/MIRIOLA":"assets/pilots/MIRIOLA.9f4cc46468.jpg","pilot/MIRISA":"assets/pilots/MIRISA.b07a8d02e5.jpg","pilot/MISISH":"assets/pilots/MISISH.14775cdde4.jpg","pilot/NEEDLE":"assets/pilots/NEEDLE.5c9752c43d.jpg","pilot/NEKOANE":"assets/pilots/NEKOANE.12595b28fc.jpg","pilot/NELASA":"assets/pilots/NELASA.9067cbecd6.jpg","pilot/NELOEL":"assets/pilots/NELOEL.bfd6c80df6.jpg","pilot/NEMAIX":"assets/pilots/NEMAIX.ba3482a3d6.jpg","pilot/NEMAMO":"assets/pilots/NEMAMO.99e0c5eb4e.jpg","pilot/NEMATH":"assets/pilots/NEMATH.35c2ca859f.jpg","pilot/NENUVE":"assets/pilots/NENUVE.94f14ed8e5.jpg","pilot/NENUX":"assets/pilots/NENUX.f1d1bb0fe0.jpg","pilot/NETHAEL":"assets/pilots/NETHAEL.be820038e5.jpg","pilot/OLIA":"assets/pilots/OLIA.da6136c8fe.jpg","pilot/OLO":"assets/pilots/OLO.9b6a4ab50b.jpg","pilot/OLOEL":"assets/pilots/OLOEL.69aed7c06d.jpg","pilot/OLONE":"assets/pilots/OLONE.4af0e1679c.jpg","pilot/OMAKO":"assets/pilots/OMAKO.ff8f9475a0.jpg","pilot/OMIX":"assets/pilots/OMIX.7e4cce2f55.jpg","pilot/OPAL":"assets/pilots/OPAL.f4ce50ebbd.jpg","pilot/ORA":"assets/pilots/ORA.4c9ef87a50.jpg","pilot/OTH":"assets/pilots/OTH.c00d404eac.jpg","pilot/OVEX":"assets/pilots/OVEX.0e23891b01.jpg","pilot/PEDIRI":"assets/pilots/PEDIRI.ff60b065ac.jpg","pilot/PEKOAR":"assets/pilots/PEKOAR.90011b2608.jpg","pilot/PELOWEN":"assets/pilots/PELOWEN.3961de0010.jpg","pilot/PEMIIX":"assets/pilots/PEMIIX.6e5f68277a.jpg","pilot/PENDO":"assets/pilots/PENDO.3a9665e717.jpg","pilot/PENOOLA":"assets/pilots/PENOOLA.2240a3f002.jpg","pilot/PERENSA":"assets/pilots/PERENSA.c2f79395b5.jpg","pilot/PEVETH":"assets/pilots/PEVETH.a7262bbee0.jpg","pilot/PEWEN":"assets/pilots/PEWEN.724de93a6c.jpg","pilot/QUIBEMO":"assets/pilots/QUIBEMO.cf223775f3.jpg","pilot/QUIKOTH":"assets/pilots/QUIKOTH.5b32c6fee0.jpg","pilot/QUILOX":"assets/pilots/QUILOX.74ddb1971a.jpg","pilot/RAMPART":"assets/pilots/RAMPART.d688721f54.jpg","pilot/REAPER":"assets/pilots/REAPER.fcf80ec2b0.jpg","pilot/RIPTIDE":"assets/pilots/RIPTIDE.4a3167f030.jpg","pilot/RODIIX":"assets/pilots/RODIIX.86e905da55.jpg","pilot/ROLAMO":"assets/pilots/ROLAMO.2eb683e84d.jpg","pilot/ROLODEK":"assets/pilots/ROLODEK.722a593429.jpg","pilot/ROSIRIN":"assets/pilots/ROSIRIN.d29bee21d7.jpg","pilot/ROSONDO":"assets/pilots/ROSONDO.66d75c34bc.jpg","pilot/SABERO":"assets/pilots/SABERO.1c5a6df9ce.jpg","pilot/SAMAIA":"assets/pilots/SAMAIA.2c22477f3f.jpg","pilot/SANUIA":"assets/pilots/SANUIA.57d607dc33.jpg","pilot/SARAX":"assets/pilots/SARAX.0b9ca8d036.jpg","pilot/SASOKO":"assets/pilots/SASOKO.78f94f903d.jpg","pilot/SATHAANE":"assets/pilots/SATHAANE.8061cd8012.jpg","pilot/SCALES":"assets/pilots/SCALES.87715f6be5.jpg","pilot/SHRAPNEL":"assets/pilots/SHRAPNEL.60bf432658.jpg","pilot/SIPHON":"assets/pilots/SIPHON.64319ecec6.jpg","pilot/SLINGSHOT":"assets/pilots/SLINGSHOT.782ce6f557.jpg","pilot/SPARE01":"assets/pilots/SPARE01.e7bb1001da.jpg","pilot/SPARE02":"assets/pilots/SPARE02.4661694d58.jpg","pilot/SPARE03":"assets/pilots/SPARE03.157488b8ca.jpg","pilot/SPARE04":"assets/pilots/SPARE04.8cee2a69f6.jpg","pilot/SPARE05":"assets/pilots/SPARE05.7b664e7e50.jpg","pilot/SPARE06":"assets/pilots/SPARE06.6784507633.jpg","pilot/SPARE07":"assets/pilots/SPARE07.b83ac8694b.jpg","pilot/SPARE08":"assets/pilots/SPARE08.0f29c38886.jpg","pilot/STRIDER":"assets/pilots/STRIDER.1f777221cb.jpg","pilot/SUNDIAL":"assets/pilots/SUNDIAL.e301dbb8a1.jpg","pilot/TAKOANE":"assets/pilots/TAKOANE.f587bc8275.jpg","pilot/TAKOUS":"assets/pilots/TAKOUS.7e9c0c4788.jpg","pilot/TALOLO":"assets/pilots/TALOLO.f410317b58.jpg","pilot/TALON":"assets/pilots/TALON.98273b2e9a.jpg","pilot/TAMO":"assets/pilots/TAMO.b86f11dac8.jpg","pilot/TANUWEN":"assets/pilots/TANUWEN.fcc7bda948.jpg","pilot/TENACIOUS":"assets/pilots/TENACIOUS.c0e1c59b06.jpg","pilot/TENDER":"assets/pilots/TENDER.83a2dbd7da.jpg","pilot/TOMAHAWK":"assets/pilots/TOMAHAWK.9de0540c54.jpg","pilot/TRACE":"assets/pilots/TRACE.6c835c4aad.jpg","pilot/UIX":"assets/pilots/UIX.0fe225230f.jpg","pilot/ULIA":"assets/pilots/ULIA.4a68fe9c11.jpg","pilot/ULINE":"assets/pilots/ULINE.ae7d05e530.jpg","pilot/ULOTH":"assets/pilots/ULOTH.71d6f7c78c.jpg","pilot/URO":"assets/pilots/URO.d153fb9c2a.jpg","pilot/UTHAEL":"assets/pilots/UTHAEL.0a0b4d057c.jpg","pilot/VERAO":"assets/pilots/VERAO.f428fc465b.jpg","pilot/VEVEOLA":"assets/pilots/VEVEOLA.2cb64352bc.jpg","pilot/VOLT":"assets/pilots/VOLT.80a1160ef3.jpg","pilot/WINGMAN":"assets/pilots/WINGMAN.8d484a3eaa.jpg","pilot/WYNE":"assets/pilots/WYNE.efc33aaea6.jpg","pilot/WYSOOLA":"assets/pilots/WYSOOLA.8c6ed6c54f.jpg","pilot/WYVE":"assets/pilots/WYVE.2bb9ad32fe.jpg","pilot/XABEDEK":"assets/pilots/XABEDEK.eabb0f810c.jpg","pilot/XALAAI":"assets/pilots/XALAAI.36e79f1ad5.jpg","pilot/XATHALO":"assets/pilots/XATHALO.d23dd174f6.jpg","pilot/XATHATA":"assets/pilots/XATHATA.f204d7c75c.jpg","pilot/YOMILIA":"assets/pilots/YOMILIA.b03bd1a399.jpg","pilot/YON":"assets/pilots/YON.10cd6d706c.jpg","pilot/YONE":"assets/pilots/YONE.a4357d30ec.jpg","pilot/YONOEK":"assets/pilots/YONOEK.a5e16f1f7d.jpg","pilot/YOVE":"assets/pilots/YOVE.45a3fec698.jpg","pilot/YOX":"assets/pilots/YOX.8a9d3ef821.jpg","pilot/ZEBEEL":"assets/pilots/ZEBEEL.228eb5f947.jpg","pilot/ZERIOLA":"assets/pilots/ZERIOLA.a42ba833dd.jpg","pilot/ZESONDO":"assets/pilots/ZESONDO.56538e063c.jpg","pilot/ZETH":"assets/pilots/ZETH.7549b5d26e.jpg","pilot/ZODIAC":"assets/pilots/ZODIAC.935c77c2bc.jpg","scene/AANE":"assets/scenes/AANE.19ab7f1c48.webp","scene/ALOIX":"assets/scenes/ALOIX.aaede637bf.webp","scene/ANOTH":"assets/scenes/ANOTH.849e56e96b.webp","scene/ANUDEK":"assets/scenes/ANUDEK.c7fc3c6d91.webp","scene/ANVIL":"assets/scenes/ANVIL.2e925512a0.webp","scene/ARARA":"assets/scenes/ARARA.c712c541d4.webp","scene/ARILIA":"assets/scenes/ARILIA.38d174512a.webp","scene/ASTROFOIL":"assets/scenes/ASTROFOIL.442347f8d5.webp","scene/ATHARA":"assets/scenes/ATHARA.5a0dc94b6b.webp","scene/BANDIT":"assets/scenes/BANDIT.9d2d80e3a6.webp","scene/BELBERIN":"assets/scenes/BELBERIN.9dc892d85d.webp","scene/BELDIRI":"assets/scenes/BELDIRI.7d790fdb67.webp","scene/BELKO":"assets/scenes/BELKO.56e1f880d8.webp","scene/BELMIDEK":"assets/scenes/BELMIDEK.7b1da9d6b0.webp","scene/BELRENRO":"assets/scenes/BELRENRO.dc9ff56a3a.webp","scene/BELSIAR":"assets/scenes/BELSIAR.a8eaf9d88b.webp","scene/BELSOTH":"assets/scenes/BELSOTH.54a3be9405.webp","scene/BELTHALY":"assets/scenes/BELTHALY.fa15ba2be1.webp","scene/BELWEN":"assets/scenes/BELWEN.767a6c0025.webp","scene/BRILOLIA":"assets/scenes/BRILOLIA.c6e8d0fca0.webp","scene/BRIOLA":"assets/scenes/BRIOLA.60d0f0ecf5.webp","scene/BRIRAIX":"assets/scenes/BRIRAIX.a6e34af4ca.webp","scene/BRISH":"assets/scenes/BRISH.b7278bc17a.webp","scene/BRISILIA":"assets/scenes/BRISILIA.ed69a87a70.webp","scene/BUSHY":"assets/scenes/BUSHY.37f0cffc7e.webp","scene/CABEANE":"assets/scenes/CABEANE.ae36719e11.webp","scene/CAKOOLA":"assets/scenes/CAKOOLA.1e9758eb23.webp","scene/CALADEK":"assets/scenes/CALADEK.ede525d8fd.webp","scene/CALAOLA":"assets/scenes/CALAOLA.6ba5fcbd98.webp","scene/CALOSH":"assets/scenes/CALOSH.c23b3c6773.webp","scene/CANUAR":"assets/scenes/CANUAR.40963d2f4a.webp","scene/CARIEL":"assets/scenes/CARIEL.09df404ab3.webp","scene/CARIO":"assets/scenes/CARIO.37cd14ba51.webp","scene/CITADEL":"assets/scenes/CITADEL.0c830e6ac4.webp","scene/COMET":"assets/scenes/COMET.738dc2177c.webp","scene/CORANE":"assets/scenes/CORANE.581f169af1.webp","scene/CORBEEK":"assets/scenes/CORBEEK.0873c8c795.webp","scene/CORBEMO":"assets/scenes/CORBEMO.9845817e52.webp","scene/CORLILIA":"assets/scenes/CORLILIA.e40de856b8.webp","scene/CORN":"assets/scenes/CORN.fb1b40e6f8.webp","scene/CORNDO":"assets/scenes/CORNDO.6755bf5e75.webp","scene/CORRARIN":"assets/scenes/CORRARIN.bf468113ff.webp","scene/DAMSEL":"assets/scenes/DAMSEL.59812cfeda.webp","scene/DAREK":"assets/scenes/DAREK.7ed92a3ef9.webp","scene/DARSOANE":"assets/scenes/DARSOANE.4b79c3c341.webp","scene/DARX":"assets/scenes/DARX.ff23e4f983.webp","scene/DELKO":"assets/scenes/DELKO.e44a3ebb31.webp","scene/DELLALIA":"assets/scenes/DELLALIA.56350ea109.webp","scene/DELLIAR":"assets/scenes/DELLIAR.4bc6f8803d.webp","scene/DELLOANE":"assets/scenes/DELLOANE.25922c8374.webp","scene/DELLORIN":"assets/scenes/DELLORIN.2d3d679877.webp","scene/DELMADEK":"assets/scenes/DELMADEK.cf8021a033.webp","scene/DELNURI":"assets/scenes/DELNURI.b339d62834.webp","scene/DELSOKO":"assets/scenes/DELSOKO.9dbe840e12.webp","scene/DOE":"assets/scenes/DOE.743094a514.webp","scene/DOZER":"assets/scenes/DOZER.bac0ce0f02.webp","scene/ECHO":"assets/scenes/ECHO.51b039badf.webp","scene/EMAO":"assets/scenes/EMAO.ef58a4cac6.webp","scene/ENSIGN":"assets/scenes/ENSIGN.41d1bdb5e2.webp","scene/FENKORA":"assets/scenes/FENKORA.ca6f5e4882.webp","scene/FENLALIA":"assets/scenes/FENLALIA.baec7fbcfd.webp","scene/FENRA":"assets/scenes/FENRA.a47ec27e47.webp","scene/FENX":"assets/scenes/FENX.328d8fd42c.webp","scene/FIEST":"assets/scenes/FIEST.29ffa75d52.webp","scene/FLUME":"assets/scenes/FLUME.831e812850.webp","scene/FLUX":"assets/scenes/FLUX.784c434eca.webp","scene/GALBEMO":"assets/scenes/GALBEMO.2e81ec9091.webp","scene/GALLEON":"assets/scenes/GALLEON.b9dcec2de6.webp","scene/GALLITH":"assets/scenes/GALLITH.14fe31bedf.webp","scene/GALMAO":"assets/scenes/GALMAO.b04936aa04.webp","scene/GALSOLY":"assets/scenes/GALSOLY.4d8fb255fd.webp","scene/GALSOOLA":"assets/scenes/GALSOOLA.d6b6071caf.webp","scene/HABEAR":"assets/scenes/HABEAR.c3754c0a42.webp","scene/HAN":"assets/scenes/HAN.1bd1f99f64.webp","scene/HORNET":"assets/scenes/HORNET.f9f87eec8c.webp","scene/IDIO":"assets/scenes/IDIO.bc2d1284c2.webp","scene/ILORIN":"assets/scenes/ILORIN.34002ec122.webp","scene/IRI":"assets/scenes/IRI.a76c37a550.webp","scene/ISOLO":"assets/scenes/ISOLO.b910f79333.webp","scene/ITHAX":"assets/scenes/ITHAX.28a03e245a.webp","scene/IVY":"assets/scenes/IVY.2253d01f62.webp","scene/JODIOLA":"assets/scenes/JODIOLA.0a429f4a78.webp","scene/JORIRO":"assets/scenes/JORIRO.d10f1e899a.webp","scene/JORO":"assets/scenes/JORO.dc03642cf9.webp","scene/JOSORA":"assets/scenes/JOSORA.32e3d61908.webp","scene/JOTHAAR":"assets/scenes/JOTHAAR.9ea6f9b85b.webp","scene/JOUS":"assets/scenes/JOUS.1d6c9420f6.webp","scene/JUGGER":"assets/scenes/JUGGER.d3181c4ef2.webp","scene/KABEN":"assets/scenes/KABEN.8de422d186.webp","scene/KADIWEN":"assets/scenes/KADIWEN.6c415c4ef9.webp","scene/KALARA":"assets/scenes/KALARA.e99f7c696f.webp","scene/KAMASH":"assets/scenes/KAMASH.116ea9f1e1.webp","scene/KARIIX":"assets/scenes/KARIIX.23268b67f5.webp","scene/KASH":"assets/scenes/KASH.76634040ff.webp","scene/KRUSH":"assets/scenes/KRUSH.fc3cd954e8.webp","scene/LONGSHIFT":"assets/scenes/LONGSHIFT.f9e1adaeff.webp","scene/LUDIRA":"assets/scenes/LUDIRA.ec7816d32b.webp","scene/LULAANE":"assets/scenes/LULAANE.51ebe15152.webp","scene/LULIIA":"assets/scenes/LULIIA.9077a35410.webp","scene/LUNULO":"assets/scenes/LUNULO.d1e62aa922.webp","scene/MAESTRO":"assets/scenes/MAESTRO.eca4b31129.webp","scene/MAIX":"assets/scenes/MAIX.78642e32c3.webp","scene/MAKOOLA":"assets/scenes/MAKOOLA.7c7e42d0be.webp","scene/MALIMO":"assets/scenes/MALIMO.c9a29152c0.webp","scene/MALOANE":"assets/scenes/MALOANE.de5471baf6.webp","scene/MAMAOLA":"assets/scenes/MAMAOLA.4dc26ed1a2.webp","scene/MAMO":"assets/scenes/MAMO.b283bab210.webp","scene/MANGER":"assets/scenes/MANGER.0468cebff3.webp","scene/MASON":"assets/scenes/MASON.75cea94d65.webp","scene/MATA":"assets/scenes/MATA.49f9953920.webp","scene/MIBEN":"assets/scenes/MIBEN.15388d4ad6.webp","scene/MILAWEN":"assets/scenes/MILAWEN.4c32be2cad.webp","scene/MILOLY":"assets/scenes/MILOLY.87efbbe09b.webp","scene/MIRAVE":"assets/scenes/MIRAVE.79e2dbd2bd.webp","scene/MIRIN":"assets/scenes/MIRIN.f5b4dfb3f6.webp","scene/MIRIOLA":"assets/scenes/MIRIOLA.2059a5711b.webp","scene/MIRISA":"assets/scenes/MIRISA.ddcf6f697d.webp","scene/MISISH":"assets/scenes/MISISH.911a8a377c.webp","scene/NEEDLE":"assets/scenes/NEEDLE.3dbf5b9812.webp","scene/NEKOANE":"assets/scenes/NEKOANE.d18e5cb9fc.webp","scene/NELASA":"assets/scenes/NELASA.3e445596c5.webp","scene/NELOEL":"assets/scenes/NELOEL.1ade9e4fc8.webp","scene/NEMAIX":"assets/scenes/NEMAIX.18184f34ef.webp","scene/NEMAMO":"assets/scenes/NEMAMO.5a05761c3b.webp","scene/NEMATH":"assets/scenes/NEMATH.b5b90d5a72.webp","scene/NENUVE":"assets/scenes/NENUVE.ae2897a48c.webp","scene/NENUX":"assets/scenes/NENUX.9e6f103485.webp","scene/NETHAEL":"assets/scenes/NETHAEL.114b9e3744.webp","scene/OLIA":"assets/scenes/OLIA.ee5b2e13e0.webp","scene/OLO":"assets/scenes/OLO.35b9f3df87.webp","scene/OLOEL":"assets/scenes/OLOEL.da6296c23d.webp","scene/OLONE":"assets/scenes/OLONE.2ac1694841.webp","scene/OMAKO":"assets/scenes/OMAKO.67ed22a958.webp","scene/OMIX":"assets/scenes/OMIX.50f67bdc07.webp","scene/OPAL":"assets/scenes/OPAL.3daa48ed44.webp","scene/ORA":"assets/scenes/ORA.3070108394.webp","scene/OTH":"assets/scenes/OTH.f5503d3437.webp","scene/OVEX":"assets/scenes/OVEX.a68728232f.webp","scene/PEDIRI":"assets/scenes/PEDIRI.826555c6d7.webp","scene/PEKOAR":"assets/scenes/PEKOAR.3ebc194bfd.webp","scene/PELOWEN":"assets/scenes/PELOWEN.b93e1feb77.webp","scene/PEMIIX":"assets/scenes/PEMIIX.4db83bf174.webp","scene/PENDO":"assets/scenes/PENDO.b016a66667.webp","scene/PENOOLA":"assets/scenes/PENOOLA.b65f3b48ac.webp","scene/PERENSA":"assets/scenes/PERENSA.b312ab0ac6.webp","scene/PEVETH":"assets/scenes/PEVETH.8d93ba651e.webp","scene/PEWEN":"assets/scenes/PEWEN.44fafcbc17.webp","scene/QUIBEMO":"assets/scenes/QUIBEMO.950538197c.webp","scene/QUIKOTH":"assets/scenes/QUIKOTH.a034cc225b.webp","scene/QUILOX":"assets/scenes/QUILOX.31b123f95c.webp","scene/RAMPART":"assets/scenes/RAMPART.c39804e525.webp","scene/REAPER":"assets/scenes/REAPER.d14c0aa60b.webp","scene/RIPTIDE":"assets/scenes/RIPTIDE.c9036541af.webp","scene/RODIIX":"assets/scenes/RODIIX.3d188ea9a0.webp","scene/ROLAMO":"assets/scenes/ROLAMO.107fd45e3c.webp","scene/ROLODEK":"assets/scenes/ROLODEK.968ef4eb57.webp","scene/ROSIRIN":"assets/scenes/ROSIRIN.6ecfbed451.webp","scene/ROSONDO":"assets/scenes/ROSONDO.3a73615b2d.webp","scene/SABERO":"assets/scenes/SABERO.8d0ce150ea.webp","scene/SAMAIA":"assets/scenes/SAMAIA.0643b1c910.webp","scene/SANUIA":"assets/scenes/SANUIA.42e5aa4e28.webp","scene/SARAX":"assets/scenes/SARAX.2e7e752e4b.webp","scene/SASOKO":"assets/scenes/SASOKO.864a2df87d.webp","scene/SATHAANE":"assets/scenes/SATHAANE.60583be976.webp","scene/SCALES":"assets/scenes/SCALES.0548e15be5.webp","scene/SHRAPNEL":"assets/scenes/SHRAPNEL.53eb5e756e.webp","scene/SIPHON":"assets/scenes/SIPHON.f8a26b6185.webp","scene/SLINGSHOT":"assets/scenes/SLINGSHOT.93d04d1ef7.webp","scene/SPARE01":"assets/scenes/SPARE01.b8c82ffc82.webp","scene/SPARE02":"assets/scenes/SPARE02.7cebea6d1d.webp","scene/SPARE03":"assets/scenes/SPARE03.d420985727.webp","scene/SPARE04":"assets/scenes/SPARE04.23fb0f067d.webp","scene/SPARE05":"assets/scenes/SPARE05.ac53bf8c68.webp","scene/SPARE06":"assets/scenes/SPARE06.a8814e5a25.webp","scene/SPARE07":"assets/scenes/SPARE07.3f7285ebad.webp","scene/SPARE08":"assets/scenes/SPARE08.2f72e653db.webp","scene/STRIDER":"assets/scenes/STRIDER.a0fccff34e.webp","scene/SUNDIAL":"assets/scenes/SUNDIAL.74ce284aa1.webp","scene/TAKOANE":"assets/scenes/TAKOANE.50b7909e7a.webp","scene/TAKOUS":"assets/scenes/TAKOUS.4423f66569.webp","scene/TALOLO":"assets/scenes/TALOLO.a0dc4ff99f.webp","scene/TALON":"assets/scenes/TALON.9ddf0dab5d.webp","scene/TAMO":"assets/scenes/TAMO.dc1c243760.webp","scene/TANUWEN":"assets/scenes/TANUWEN.ff811edd1c.webp","scene/TENACIOUS":"assets/scenes/TENACIOUS.3d447a26ac.webp","scene/TENDER":"assets/scenes/TENDER.e5b9cad127.webp","scene/TOMAHAWK":"assets/scenes/TOMAHAWK.66f74d0f4c.webp","scene/TRACE":"assets/scenes/TRACE.acccb15093.webp","scene/UIX":"assets/scenes/UIX.c67a2f0b9c.webp","scene/ULIA":"assets/scenes/ULIA.32294a4cda.webp","scene/ULINE":"assets/scenes/ULINE.ae6d70adb2.webp","scene/ULOTH":"assets/scenes/ULOTH.0c5c64445e.webp","scene/URO":"assets/scenes/URO.153e388940.webp","scene/UTHAEL":"assets/scenes/UTHAEL.a7c79f3ad8.webp","scene/VERAO":"assets/scenes/VERAO.c941b75d70.webp","scene/VEVEOLA":"assets/scenes/VEVEOLA.b6fc585b22.webp","scene/VOLT":"assets/scenes/VOLT.6bc64f10d3.webp","scene/WINGMAN":"assets/scenes/WINGMAN.113acd08b6.webp","scene/WYNE":"assets/scenes/WYNE.0ba11f9e6d.webp","scene/WYSOOLA":"assets/scenes/WYSOOLA.2bbeb36c29.webp","scene/WYVE":"assets/scenes/WYVE.e46330e1cc.webp","scene/XABEDEK":"assets/scenes/XABEDEK.b958807c03.webp","scene/XALAAI":"assets/scenes/XALAAI.c0c25fa102.webp","scene/XATHALO":"assets/scenes/XATHALO.b060046450.webp","scene/XATHATA":"assets/scenes/XATHATA.8e3b0348a0.webp","scene/YOMILIA":"assets/scenes/YOMILIA.172a4b32ca.webp","scene/YON":"assets/scenes/YON.96a08a3e46.webp","scene/YONE":"assets/scenes/YONE.dafec6cd55.webp","scene/YONOEK":"assets/scenes/YONOEK.913e824f05.webp","scene/YOVE":"assets/scenes/YOVE.1099c24040.webp","scene/YOX":"assets/scenes/YOX.a22bebea1c.webp","scene/ZEBEEL":"assets/scenes/ZEBEEL.81939caf01.webp","scene/ZERIOLA":"assets/scenes/ZERIOLA.01e889f7d1.webp","scene/ZESONDO":"assets/scenes/ZESONDO.3899ccfed5.webp","scene/ZETH":"assets/scenes/ZETH.446cb00c81.webp","scene/ZODIAC":"assets/scenes/ZODIAC.cf92a6f4c3.webp","portrait/sheet-1":"assets/portraits/sheet-1.044e47199d.webp","portrait/sheet-2":"assets/portraits/sheet-2.a0a86a6b7e.webp","portrait/sheet-3":"assets/portraits/sheet-3.c17b5b3caa.webp","portrait/sheet-4":"assets/portraits/sheet-4.3cc95a8dc5.webp","portrait/sheet-5":"assets/portraits/sheet-5.a07207cfc3.webp","portrait/sheet-6":"assets/portraits/sheet-6.91ea2aa75e.webp"};
 
 /* ───── data/cards.js ───── */
@@ -16998,7 +16998,8 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     document.body.appendChild(t);
     setTimeout(() => t.remove(), ms || 2200);
   };
-  /** Open a modal; `opts.sheet` slides it up from the bottom (a phone's More), `opts.side` in from the right. */
+  /** Open a modal; `opts.sheet` slides it up from the bottom (a phone's More), `opts.side` in from the right,
+   *  `opts.cls` names a look of its own (the window gets that class, its backdrop the class plus "-bg"). */
   U.openModal = function (html, onMount, opts) {
     U.modal = Object.assign({ html, onMount }, opts || {});
     U.render();
@@ -18121,7 +18122,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
           break;
       }
     if (U.modal)
-      html += `<div class="modal-bg${U.modal.sheet ? ' sheet' : ''}${U.modal.side ? ' side' : ''}" data-act="closeModalBg"><div class="modal">${U.modal.html}</div></div>`;
+      html += `<div class="modal-bg${U.modal.sheet ? ' sheet' : ''}${U.modal.side ? ' side' : ''}${U.modal.cls ? ' ' + U.modal.cls + '-bg' : ''}" data-act="closeModalBg"><div class="modal${U.modal.cls ? ' ' + U.modal.cls : ''}">${U.modal.html}</div></div>`;
     html += tutorialHTML();
     // the web version lays the loading screen over a mission until its paintings are here (src/ui/shell.js)
     if (U.loadingGate) html += U.loadingGate() || '';
@@ -25123,10 +25124,6 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     const u = A.user();
     const full = u && !u.guest;
     const o = ui.offer;
-    const btn = (p) =>
-      o[p] && !(u && (u.links || []).includes(p))
-        ? `<button data-act="acctProvider" data-arg="${p}" ${ui.busy ? 'disabled' : ''}>${full ? 'Add' : 'Continue with'} ${LABEL[p]}</button>`
-        : '';
     const email = o.email
       ? ui.codeSent
         ? `<div class="acct-row"><span class="small">We sent a code to ${esc(ui.email)}.</span><input id="acctCode" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="6 digits" style="width:7em"><button class="primary" data-act="acctEmailVerify" ${ui.busy ? 'disabled' : ''}>${full ? 'Add email' : 'Sign in'}</button><button class="ghost sm" data-act="acctEmailBack">Another address</button></div>`
@@ -25134,9 +25131,6 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
       : '';
     const none =
       !o.google && !o.discord && !o.email ? '<p class="mute small">Sign-in isn\'t set up on this server yet.</p>' : '';
-    const intro = full
-      ? `<p>Signed in as <b>${esc(u.name)}</b> with ${esc(linksText(u))}. Your pilots and saves follow this account to any device.</p>`
-      : `<p>${u ? `You're playing as <b>${esc(u.name)}</b>, a guest on this device.` : "You're playing as a guest."} Sign in to keep your account, pilots and saves on any device and to host games online. Solo play never needs an account.</p>`;
     const name = u
       ? `<div class="acct-row"><span class="dim small">Name other players see</span><input id="acctName" maxlength="24" value="${esc(u.name)}"><button class="sm" data-act="acctRename" ${ui.busy ? 'disabled' : ''}>Save</button></div>`
       : '';
@@ -25151,12 +25145,33 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
         : u
           ? `<div class="acct-row acct-end"><button class="ghost sm" data-act="acctDelete">Delete guest account…</button></div>`
           : '';
-    return `<div class="acct"><div class="row"><h3>Account</h3><button class="sm right" data-act="closeModal">Close</button></div>
-      ${ui.reason ? `<p class="acct-reason">${esc(ui.reason)}</p>` : ''}${intro}
-      <div class="acct-row">${btn('google')}${btn('discord')}</div>${email}${none}
-      ${ui.msg ? `<p class="acct-msg small">${esc(ui.msg)}</p>` : ''}${name}${end}</div>`;
+    // Sign in 5, "Split hero" (Frogma - Tumult, Sign in + Lobby (Nov 22)): the captain behind Home on the
+    // left, the sign-in on the right
+    const cap = U.homeCaptain ? U.homeCaptain() : null;
+    const scene = cap && U.sceneSrc ? U.sceneSrc(cap) : null;
+    const left = `<div class="si-art"><div class="si-paint"${scene ? ` style="background-image:url(${scene})"` : ''}></div><div class="si-art-txt"><p>“A pilot who leaves no name leaves no story.”</p><span>Said on the Ark</span>${cap ? `<em>Captain · ${esc(U.callsignOf ? U.callsignOf(cap) : '')} · ${esc(cap.name)}</em>` : ''}</div></div>`;
+    const ben = (t) => `<div class="si-chk"><i aria-hidden="true">✓</i><span>${t}</span></div>`;
+    const head = full
+      ? `<span class="si-eye">Your account</span><h2 class="si-title">${esc(u.name)}</h2><p class="si-lede">Signed in with ${esc(linksText(u))}. Your pilots and saves follow this account to any device.</p>`
+      : `<span class="si-eye">Sign in to Tumult</span><h2 class="si-title">Put your name<br>on the route</h2>${ui.reason ? `<p class="si-reason">${esc(ui.reason)}</p>` : ''}<div class="si-bens">${ben('Your pilots and saves on any device')}${ben('Host tables others can find')}${ben('Friends, invites and your canon notes, credited to you')}</div>`;
+    const ICON = {
+      google:
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M18 12v3M21 12v2"/></svg>',
+      discord:
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h.01M12 10h.01M15 10h.01"/></svg>',
+    };
+    const row = (p) =>
+      o[p] && !(u && (u.links || []).includes(p))
+        ? `<button class="si-btn" data-act="acctProvider" data-arg="${p}" ${ui.busy ? 'disabled' : ''}>${ICON[p]}<span>${full ? 'Add' : 'Continue with'} ${LABEL[p]}</span><i aria-hidden="true">→</i></button>`
+        : '';
+    const fine = full
+      ? ''
+      : '<p class="si-fine">Solo play never needs an account. We keep no password, and no email address in the clear.</p>';
+    return `<div class="si">${left}<div class="si-main"><button class="si-x" data-act="closeModal" aria-label="Close">✕</button>${head}
+      <div class="si-btns">${row('google')}${row('discord')}</div>${email}${none}
+      ${ui.msg ? `<p class="acct-msg small">${esc(ui.msg)}</p>` : ''}${name}${end}${fine}</div></div>`;
   }
-  const show = () => U.openModal(modalHtml());
+  const show = () => U.openModal(modalHtml(), null, { cls: 'si-modal' });
 
   /** Open the account box, saying why sign-in is needed (the online screens use it on a 403). */
   U.askSignIn = function (reason) {
@@ -25164,7 +25179,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     show();
     A.providers().then((o) => {
       ui.offer = o || {};
-      if (U.modal && U.modal.html.includes('class="acct"')) show();
+      if (U.modal && U.modal.html.includes('class="si"')) show();
     });
   };
 
@@ -27125,7 +27140,19 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     if (typeof document === 'undefined') return;
     document.querySelectorAll('[data-lobby-count]').forEach((el) => (el.textContent = lobbyChipText()));
     const p = document.getElementById('lobbyPanel');
-    if (p) p.outerHTML = lobbyPanelHTML();
+    if (p) {
+      // while a name is being typed into Find, only the list changes
+      const typing = document.activeElement && document.activeElement.id === 'lobbyFind';
+      const tmp = document.createElement('div');
+      tmp.innerHTML = lobbyPanelHTML();
+      const fresh = tmp.firstChild;
+      fresh.classList.add('lb-still'); // already open: no slide-in again
+      if (typing) {
+        const list = fresh.querySelector('#lobbyList');
+        const here = document.getElementById('lobbyList');
+        if (list && here) here.outerHTML = list.outerHTML;
+      } else p.replaceWith(fresh);
+    }
     const ppl = document.getElementById('hostPeople');
     if (ppl) ppl.innerHTML = peopleRows(true);
   }
@@ -27179,6 +27206,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     capKey = who ? who.key : null;
     return who;
   }
+  U.homeCaptain = () => captain(); // the sign-in window shows the same captain (src/ui/account.js)
   function plateHTML(who) {
     const face = U.portraitSrc ? U.portraitSrc(who) : null;
     const mark = U.canonMark
@@ -27289,7 +27317,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
         <div class="hm-tile"><b>◆ Cards with two faces</b><span>Physical and Ethereal, and they grow as you play</span></div>
         <div class="hm-tile"><b>⛵ A route to the Heart</b><span>Every board is different</span></div>
         <div class="hm-tile"><b>✎ Write the world</b><span>Your notes can become canon</span></div>
-      </aside>`,
+      </aside>${U.lobbyOpen ? lobbyPanelHTML() : ''}`,
       'is-landing',
     );
   }
@@ -27372,11 +27400,16 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
         <div class="hs-foot"><p class="hs-line">${esc(setupLine(s))}${s.players > 2 ? ' A bigger squad meets bigger missions.' : ''}</p><button class="primary hm-cta" data-act="${go}">${go === 'hostOpen' ? 'Host it ▶' : 'Start ▶'}</button></div>
       </div></details>`;
   }
+  /** One quiet line under Continue for a player who is not signed in: the expedition lives in this browser only. */
+  function keepNudge() {
+    if (!acct() || signedIn()) return '';
+    return `<p class="hm-keep">Saved in this browser only. <button class="hm-keep-btn" data-act="signIn" data-arg="Sign in to keep your expedition, pilots and saves on any device.">Sign in to keep it on any device</button></p>`;
+  }
   function home(meta, run) {
     const w = run ? whereNow(run) : null;
     const games = liveGames();
     const hero = w
-      ? `<div class="hm-panel"><span class="hm-eyebrow">${esc(w.kick)}</span><h1 class="hm-display hm-place">${esc(w.title)}</h1>${pips(w)}${w.line ? `<p class="hm-lede">${esc(w.line)}</p>` : ''}<div class="hm-ctas"><button class="primary hm-cta" data-act="continueRun">Continue ▶</button></div></div>`
+      ? `<div class="hm-panel"><span class="hm-eyebrow">${esc(w.kick)}</span><h1 class="hm-display hm-place">${esc(w.title)}</h1>${pips(w)}${w.line ? `<p class="hm-lede">${esc(w.line)}</p>` : ''}<div class="hm-ctas"><button class="primary hm-cta" data-act="continueRun">Continue ▶</button></div>${keepNudge()}</div>`
       : `<div class="hm-panel"><span class="hm-eyebrow">An expedition on Tumult</span><h1 class="hm-display">Tumult</h1><p class="hm-lede">Draft a squad of pilots from Tumult's bloodlines and lead them down from the Ark, across Tumult by land, sea and air, to the Heart at the end of the route. Every turn is a puzzle: four dice, a six-column track, and enemies that tell you what they'll do.</p></div>`;
     const tiles = [];
     if (online()) {
@@ -27503,14 +27536,14 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     if (!lobbyCap) return `<p class="mute small">Sign in to see who is online.</p>`;
     if (!list.length) return `<p class="mute small">Nobody else is online right now.</p>`;
     const where = (p) => {
-      const st = p.status || {};
+      const st = p.status || p;
       if (st.open) return `Hosting a table · ${st.open.players} of ${st.open.max}`;
       return st.where === 'game' ? 'In a game' : st.where === 'solo' ? 'Playing solo' : 'Online';
     };
     return list
       .slice(0, 40)
       .map((p) => {
-        const st = p.status || {};
+        const st = p.status || p;
         const btn =
           st.open && st.open.code && !host
             ? `<button class="sm primary" data-act="netJoinGame" data-arg="${esc(st.open.code)}">Join</button>`
@@ -27603,18 +27636,192 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     return framed('play', body, 'is-page');
   };
 
-  /* ───────────── the Lobby panel (Games, People) ───────────── */
-  function lobbyPanelHTML() {
-    const tab = U.lobbyTab === 'people' ? 'people' : 'games';
-    const g = liveGames().length;
-    const tabs = `<div class="hm-tabs" role="tablist"><button role="tab" class="${tab === 'games' ? 'on' : ''}" aria-selected="${tab === 'games'}" data-act="lobbyTab" data-arg="games">Games${g ? ' ' + g : ''}</button><button role="tab" class="${tab === 'people' ? 'on' : ''}" aria-selected="${tab === 'people'}" data-act="lobbyTab" data-arg="people">People${onlineCount() ? ' ' + onlineCount() : ''}</button></div>`;
-    const games = `<div class="net-games" id="${U.screen === 'join' ? 'netGamesPanel' : 'netGames'}">${U.gamesList ? U.gamesList() : '<p class="mute small">Online play needs the web version.</p>'}</div><p class="small mute">Join a game with an open seat without a code. Mid-mission, you join between missions: you land on the route and draft your pilot there. Your own games come back to you here if you closed the tab.</p>`;
-    const people = `<div class="hm-people-list">${peopleRows(false)}</div><p class="small mute">Everyone signed in and online shows here.</p>`;
-    const foot = online()
-      ? `<div class="hm-lobby-foot"><button class="ghost sm" data-act="joinOpen">Enter a code</button><button class="primary sm" data-act="hostOpen">Host a table</button></div>`
-      : '';
-    return `<div class="hm-lobby-bg" id="lobbyPanel" data-act="lobbyClose"><aside class="hm-lobby" role="dialog" aria-label="Lobby" data-stop="1"><div class="hm-lobby-h"><div><b>Lobby</b><div class="small dim">${onlineCount() ? `● ${onlineCount()} online` : ''}${g ? ` · ${g} game${g > 1 ? 's' : ''}` : ''}</div></div><button class="ghost sm" data-act="lobbyClose" aria-label="Close the Lobby">✕</button></div>${tabs}<div class="hm-lobby-body">${tab === 'games' ? games : people}</div>${foot}</aside></div>`;
+  /* ───────────── the Lobby panel (Lobby 1, "Drawer plus"; Frogma, Sign in + Lobby (Nov 22)) ─────────────
+     A drawer from the right with a glowing edge: Games (each table with its seats and a way in), People
+     (who is online, friends first, with Add, Invite and Join) and Requests (friend requests, asks to join,
+     invites, from src/ui/social.js). A person's row opens their card beside the drawer. */
+  const SOC = () => (U.social && U.social.on() ? U.social : null);
+  let cardFresh = false; // the card was just opened: it flies out (a redraw does not replay it)
+  const stOf = (p) => p.status || p; // the lobby sends { where, open } on the row itself
+  function whereLine(p) {
+    const st = stOf(p);
+    if (st.open) return `Hosting a table · ${st.open.players} of ${st.open.max}`;
+    return st.where === 'game' ? 'In an online game' : st.where === 'solo' ? 'Playing solo' : 'On Home';
   }
+  const dotOf = (p) => (stOf(p).where === 'solo' ? 'away' : 'on');
+  /** A player's face in the Lobby: their first pilot's portrait when their card has one, else their initials. */
+  function lobbyFace(id, name, cls) {
+    const S = SOC();
+    const card = S && id ? S.card(id) : null;
+    const art = card && card.pilots && card.pilots.find((x) => x.art);
+    const a = art && (U.PILOT_ART || []).find((x) => x.key === art.art);
+    const src = a && U.portraitSrc ? U.portraitSrc(a) : null;
+    return src
+      ? `<img class="lb-face ${cls || ''}" src="${src}" alt="" draggable="false">`
+      : face(name, null, `lb-face ${cls || ''}`);
+  }
+  function personActions(p) {
+    const S = SOC();
+    const st = stOf(p);
+    const out = [];
+    if (st.open && st.open.code)
+      out.push(`<button class="lb-btn go" data-act="netJoinGame" data-arg="${esc(st.open.code)}">Join</button>`);
+    else if (S && net() && net().role === 'host' && net().code)
+      out.push(`<button class="lb-btn cy" data-act="socialInvite" data-arg="${esc(p.id)}">Invite</button>`);
+    if (S && !p.guest && p.id !== (me() || {}).id && !S.isFriend(p.id))
+      out.push(
+        S.sent(p.id) === 'friend'
+          ? `<span class="lb-tag pu">Requested</span>`
+          : `<button class="lb-btn" data-act="socialAdd" data-arg="${esc(p.id)}">+ Add</button>`,
+      );
+    return out.join('');
+  }
+  function personRow(p) {
+    const S = SOC();
+    const friend = S && S.isFriend(p.id);
+    return `<div class="lb-person${U.lobbyProfile === p.id ? ' on' : ''}" data-act="lobbyProfile" data-arg="${esc(p.id || '')}" role="button" tabindex="0"><span class="lb-av">${lobbyFace(p.id, p.name)}<i class="lb-dot ${dotOf(p)}"></i></span><span class="lb-who"><b>${esc(p.name || 'A player')}${friend ? ' <span class="lb-tag cy">Friend</span>' : ''}${p.guest ? ' <span class="lb-tag">Guest</span>' : ''}</b><span>${esc(whereLine(p))}</span></span><span class="lb-acts">${personActions(p)}</span></div>`;
+  }
+  function peopleTab() {
+    if (!lobbyCap)
+      return `<div class="lb-empty"><p>Sign in to see who is online, add friends and invite them to your table.</p>${acct() ? '<button class="lb-btn go" data-act="signIn">Sign in</button>' : ''}</div>`;
+    const S = SOC();
+    const q = (U.lobbyFind || '').trim().toLowerCase();
+    const mine = (me() || {}).id;
+    const list = (U.lobbyPeople || [])
+      .filter((p) => p.id !== mine)
+      .filter(
+        (p) =>
+          !q ||
+          String(p.name || '')
+            .toLowerCase()
+            .includes(q),
+      )
+      .sort((a, b) => (S ? S.isFriend(b.id) - S.isFriend(a.id) : 0));
+    const find = `<label class="lb-find"><span aria-hidden="true">⌕</span><input id="lobbyFind" placeholder="Find a player by name" value="${esc(U.lobbyFind || '')}" autocomplete="off"></label>`;
+    const rows = list.length
+      ? list.slice(0, 60).map(personRow).join('')
+      : `<p class="lb-note">${q ? 'Nobody online by that name.' : 'Nobody else is online right now.'}</p>`;
+    const nudge = S ? '' : `<p class="lb-note">Sign in to add friends and send requests.</p>`;
+    return `${find}<div class="lb-list" id="lobbyList">${rows}</div>${nudge}`;
+  }
+  function gameCard(g, i) {
+    const N = net();
+    const mine = N && N.remembered ? N.remembered() : null;
+    const S = SOC();
+    const names = g.names.filter(Boolean);
+    const seats =
+      names.map((n) => `<span class="lb-seat" title="${esc(n)}">${esc(n.slice(0, 1).toUpperCase())}</span>`).join('') +
+      (g.open ? '<span class="lb-seat open">+</span>' : '');
+    const back = mine && mine.code === g.code;
+    const btn = back
+      ? `<button class="lb-btn go" data-act="netRejoin">Rejoin</button>`
+      : g.open
+        ? `<button class="lb-btn go" data-act="netJoinGame" data-arg="${esc(g.code)}">Join ▶</button>`
+        : S && g.by && g.by !== (me() || {}).id
+          ? `<button class="lb-btn pu" data-act="socialAsk" data-arg="${esc(g.by)}">${S.sent(g.by) === 'join' ? 'Asked' : 'Ask to join'}</button>`
+          : '';
+    const tag = g.open
+      ? '<span class="lb-tag go">Open seat</span>'
+      : names.length >= T.MAX_PLAYERS
+        ? '<span class="lb-tag">Full</span>'
+        : '<span class="lb-tag pu">Mid-mission</span>';
+    return `<div class="lb-game" style="animation-delay:${(i * 0.06).toFixed(2)}s"><div class="lb-game-top">${lobbyFace(g.by, g.host || '?')}<span class="lb-who"><b>${esc(g.host || 'Someone')}’s table ${tag}</b><span>${esc(g.stage || '')}${g.pilots.length ? ' · flying ' + esc(g.pilots.slice(0, 3).join(', ')) : ''}</span></span>${btn}</div><div class="lb-seats">${seats}<span class="lb-seatn">${names.length} aboard · <span class="mono">${esc(g.code)}</span></span></div></div>`;
+  }
+  function gamesTab() {
+    const N = net();
+    if (!N) return '<p class="lb-note">Online play needs the web version.</p>';
+    const games = liveGames().filter((g) => g.code !== N.code);
+    const list = games.length
+      ? games.map(gameCard).join('')
+      : '<div class="lb-empty"><p>Nobody is playing online right now. Host a table and it shows here for others to join.</p></div>';
+    return `<div class="lb-list">${list}</div><p class="lb-note">Take an open seat without a code. A table mid-mission takes you between missions: ask its host, and you land on the route and draft your pilot there.</p>`;
+  }
+  function requestsTab() {
+    const S = SOC();
+    if (!S)
+      return `<div class="lb-empty"><p>Sign in and friend requests, asks to join your table and invites arrive here.</p>${acct() ? '<button class="lb-btn go" data-act="signIn">Sign in</button>' : ''}</div>`;
+    const list = S.waiting();
+    if (!list.length) return '<div class="lb-empty"><p>No requests right now.</p></div>';
+    const what = {
+      friend: 'wants to be friends',
+      join: 'asks to join your table',
+      invite: 'invites you to their table',
+    };
+    const yes = { friend: 'Accept', join: 'Let in', invite: 'Join' };
+    return `<div class="lb-list">${list
+      .map(
+        (n) =>
+          `<div class="lb-req"><span class="lb-av">${lobbyFace(n.from, n.name)}</span><span class="lb-who"><b>${esc(n.name || 'A player')}</b><span>${what[n.kind]}</span></span><span class="lb-acts"><button class="lb-btn go" data-act="socialAnswer" data-arg="${esc(n.from)}|1">${yes[n.kind]}</button><button class="lb-btn" data-act="socialAnswer" data-arg="${esc(n.from)}|0" aria-label="Decline">✕</button></span></div>`,
+      )
+      .join('')}</div>`;
+  }
+  /** The card that flies out beside the drawer: a player's pilots, record and the ways to play with them. */
+  function profileCard(id) {
+    const p = (U.lobbyPeople || []).find((x) => x.id === id) || { id, name: '' };
+    const S = SOC();
+    const card = S ? S.card(id) : null;
+    const name = (card && card.name) || p.name || 'A player';
+    const arts = ((card && card.pilots) || [])
+      .map((x) => ({ x, a: (U.PILOT_ART || []).find((a) => a.key === x.art) }))
+      .filter((o) => o.a);
+    const banner = arts.length && U.sceneSrc ? U.sceneSrc(arts[0].a) : null;
+    const pilots = arts
+      .slice(0, 4)
+      .map((o) => `<img src="${U.portraitSrc(o.a)}" alt="${esc(o.x.name)}" title="${esc(o.x.name)}" draggable="false">`)
+      .join('');
+    const stat = (n, l) => `<div class="lb-stat"><b>${n}</b><span>${l}</span></div>`;
+    const st = stOf(p);
+    const acts = [];
+    if (st.open && st.open.code)
+      acts.push(
+        `<button class="lb-btn go wide" data-act="netJoinGame" data-arg="${esc(st.open.code)}">Join their table ▶</button>`,
+      );
+    else if (S && st.where === 'game')
+      acts.push(
+        `<button class="lb-btn go wide" data-act="socialAsk" data-arg="${esc(id)}">${S.sent(id) === 'join' ? 'Asked to join' : 'Ask to join'}</button>`,
+      );
+    if (S && net() && net().role === 'host' && net().code)
+      acts.push(`<button class="lb-btn cy" data-act="socialInvite" data-arg="${esc(id)}">Invite</button>`);
+    if (S && !p.guest)
+      acts.push(
+        S.isFriend(id)
+          ? `<button class="lb-btn" data-act="socialUnfriend" data-arg="${esc(id)}" data-tip="Remove from your friends">✓ Friends</button>`
+          : S.sent(id) === 'friend'
+            ? `<span class="lb-tag pu">Request sent</span>`
+            : `<button class="lb-btn" data-act="socialAdd" data-arg="${esc(id)}">+ Add friend</button>`,
+      );
+    return `<div class="lb-card${cardFresh ? ' fresh' : ''}" role="dialog" aria-label="${esc(name)}" data-stop="1"><button class="lb-x" data-act="lobbyProfile" data-arg="" aria-label="Close">✕</button><div class="lb-banner"${banner ? ` style="background-image:url(${banner})"` : ''}></div><div class="lb-card-in"><div class="lb-card-who">${lobbyFace(id, name, 'big')}<div><b>${esc(name)}</b><span><i class="lb-dot ${dotOf(p)}"></i> ${esc(whereLine(p))}</span></div></div>${
+      card
+        ? `<div class="lb-stats">${stat(card.runs || 0, 'Expeditions')}${stat(card.wins || 0, 'Hearts')}${stat(card.canon || 0, 'Canon')}</div>${pilots ? `<div><div class="lb-lab">Pilots</div><div class="lb-pilots">${pilots}</div></div>` : ''}`
+        : `<p class="lb-note">${S ? 'Their card is on its way.' : p.guest ? 'A guest: no card yet.' : 'Sign in to see their card.'}</p>`
+    }<div class="lb-card-acts">${acts.join('')}</div></div></div>`;
+  }
+  function lobbyPanelHTML() {
+    const tabs = ['games', 'people', 'requests'];
+    const tab = tabs.includes(U.lobbyTab) ? U.lobbyTab : 'games';
+    const S = SOC();
+    const g = liveGames().length;
+    const reqs = S ? S.waiting().length : 0;
+    const label = {
+      games: `Games${g ? ' ' + g : ''}`,
+      people: `People${onlineCount() ? ' ' + onlineCount() : ''}`,
+      requests: 'Requests',
+    };
+    const bar = `<div class="lb-tabs" role="tablist">${tabs
+      .map(
+        (t) =>
+          `<button role="tab" class="${t === tab ? 'on' : ''}" aria-selected="${t === tab}" data-act="lobbyTab" data-arg="${t}">${label[t]}${t === 'requests' && reqs ? `<em>${reqs}</em>` : ''}</button>`,
+      )
+      .join('')}</div>`;
+    const body = tab === 'games' ? gamesTab() : tab === 'people' ? peopleTab() : requestsTab();
+    const foot = online()
+      ? `<div class="lb-foot"><button class="lb-btn wide" data-act="joinOpen">Enter a code</button><button class="lb-host" data-act="hostOpen">Host a table ▶</button></div>`
+      : '';
+    const pill = onlineCount() ? `<span class="lb-pill"><i></i>${onlineCount()} online</span>` : '';
+    const prof = U.lobbyProfile ? profileCard(U.lobbyProfile) : '';
+    return `<div class="hm-lobby-bg lb-bg" id="lobbyPanel" data-act="lobbyClose">${prof}<aside class="hm-lobby lb" role="dialog" aria-label="Lobby" data-stop="1"><div class="lb-h"><b>Lobby</b>${pill}<button class="lb-x" data-act="lobbyClose" aria-label="Close the Lobby">✕</button></div>${bar}<div class="lb-body" id="lobbyBody">${body}</div>${foot}</aside></div>`;
+  }
+  U.lobbyRedraw = () => redrawLobbyBits();
   U.lobbyPanelHTML = lobbyPanelHTML;
 
   /* ───────────── the waiting room during the draft ───────────── */
@@ -27738,6 +27945,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
         return true;
       case 'lobbyOpen':
         U.lobbyOpen = true;
+        if (U.social && U.social.refresh) U.social.refresh();
         if (U.screen === 'title') U.render();
         else if (typeof document !== 'undefined') {
           const wrap = document.createElement('div');
@@ -27748,14 +27956,23 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
       case 'lobbyClose':
         if (e && e.target && e.target.closest && e.target.closest('[data-stop]') && el.id === 'lobbyPanel') return true;
         U.lobbyOpen = false;
+        U.lobbyProfile = null;
         if (typeof document !== 'undefined') {
           const p = document.getElementById('lobbyPanel');
           if (p) p.remove();
         }
         return true;
       case 'lobbyTab':
-        U.lobbyTab = arg === 'people' ? 'people' : 'games';
+        U.lobbyTab = ['people', 'requests'].includes(arg) ? arg : 'games';
+        if (U.lobbyTab === 'requests' && U.social && U.social.refresh) U.social.refresh();
         redrawLobbyBits();
+        return true;
+      case 'lobbyProfile':
+        // a button inside the row (Add, Invite, Join) acts for itself; the row opens the card
+        U.lobbyProfile = arg && arg !== U.lobbyProfile ? arg : null;
+        cardFresh = !!U.lobbyProfile;
+        redrawLobbyBits();
+        cardFresh = false;
         return true;
       case 'copyInvite': {
         const link = inviteLink();
@@ -27786,6 +28003,18 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     }
     return prevExtra ? prevExtra(act, arg, el, e) : false;
   };
+  if (typeof document !== 'undefined')
+    document.addEventListener('input', (e) => {
+      if (!e.target || e.target.id !== 'lobbyFind') return;
+      U.lobbyFind = e.target.value;
+      const box = document.getElementById('lobbyBody');
+      if (!box) return;
+      const tmp = document.createElement('div');
+      tmp.innerHTML = peopleTab();
+      const list = tmp.querySelector('#lobbyList');
+      const here = document.getElementById('lobbyList');
+      if (list && here) here.outerHTML = list.outerHTML;
+    });
   if (typeof document !== 'undefined')
     document.addEventListener('change', (e) => {
       if (e.target && e.target.id === 'netName') keepName();
@@ -27922,7 +28151,8 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
            that code's room; everything else (pilots, canon notes, saves) is plain HTTPS to the store.
      room  join('tumult-<CODE>'): the same socket's live channel between the game's screens.
      user  id(), can(), canEdit(), isOwner(), profiles(ids), from the sign-in module (T.Account).
-     lobby watch(fn) → stop: who is online in Tumult now (the game's Lobby panel), while signed in.
+     lobby watch(fn) → stop: who is online in Tumult now (the game's Lobby panel), while signed in;
+           nudge(to) and onNudge(fn): "a note is waiting", so the Lobby's requests arrive at once.
 
    It also keeps a signed-in player's run in the cloud (saves/<user id>), so it follows them to another
    device. Who is signed in comes from T.Account (the sign-in module); a session is made only when
@@ -28272,6 +28502,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
     let tries = 0;
     let wanted = false;
     const fns = new Set();
+    const nudged = new Set();
     const status = () => {
       const N = T.UI && T.UI.net;
       if (N && N.online && N.online()) {
@@ -28302,6 +28533,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
       sock.onmessage = (e) => {
         try {
           const m = JSON.parse(e.data);
+          if (m.type === 'nudge') return nudged.forEach((fn) => fn(m.from));
           if (m.type !== 'online') return;
           players = m.players || [];
           fns.forEach((fn) => fn(players));
@@ -28325,6 +28557,15 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
         return () => fns.delete(fn);
       },
       players: () => players.slice(),
+      /** Tell another player's screens that a note is waiting for them (src/ui/social.js). */
+      nudge(to) {
+        if (ws && ws.readyState === 1) ws.send(JSON.stringify({ op: 'nudge', to }));
+      },
+      /** Hear that someone left this player a note: fn(fromId). Returns a function that stops it. */
+      onNudge(fn) {
+        nudged.add(fn);
+        return () => nudged.delete(fn);
+      },
       /** Signed in: be in the lobby. Signed out: leave it. */
       follow() {
         wanted = !!token();
@@ -28740,6 +28981,7 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
         open: !!g.open,
         over: !!g.over,
         at,
+        by: str(g.by, 64), // the host's account (the Lobby's Ask to join writes to it)
       });
     }
     N.games = out.sort((a, b) => b.at - a.at);
@@ -30050,6 +30292,319 @@ window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"
   }
   start();
   if (T.Backend && T.Backend.onChange) T.Backend.onChange(start);
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
+/* ───── ui/social.js ───── */
+/* ============================================================================
+   TUMULT — THE LOBBY'S SOCIAL SIDE (the web version only): profiles, friends, requests, invites.
+   docs/reference/HOME.md ("The Lobby"), docs/reference/BACKEND.md (the store paths).
+
+   Store paths (server/src/rules.js):
+     profile/<me>                 my card: name, a few pilots, expeditions, hearts, canon notes
+     friends/<me>                 { list: [user id…] }, only mine to read
+     inbox/<them>/from/<me>       a note I leave another player; they answer in inbox/<me>/from/<them>
+
+   A note is one of: friend (a friend request) and friend-ok (its yes); join (asking to sit at their table),
+   join-ok (let in, with the code) and join-no; invite (come to my table, with the code). A yes, a no or an
+   invite is read once and then deleted; a request waits in the Lobby's Requests tab until it is answered.
+   The Lobby's socket carries a nudge with each note, so it arrives at once; the inbox is also read every
+   20 seconds and whenever the Lobby opens. Only accounts take part: a guest sees who is online and the
+   games, and is asked to sign in for the rest. Without a server this file does nothing.
+   ========================================================================== */
+(function (T) {
+  const U = T.UI;
+  if (!U || typeof window === 'undefined') return;
+  const esc = (s) => (U.esc ? U.esc(s) : String(s));
+
+  let db = null;
+  let lobby = null;
+  let uid = null;
+  let myName = '';
+  let friends = new Set();
+  let inbox = []; // [{ from, kind, code, name, at }]
+  const sent = new Map(); // id → kind, notes sent this session (so a button can say "Request sent")
+  const cards = new Map(); // id → profile | null (null: asked, none kept)
+  const told = new Set(); // notes already shown as a toast this session
+  let poll = null;
+  let stopNudge = null;
+  let publishedAt = 0;
+
+  const me = () => {
+    const A = T.Account;
+    const u = A && typeof A.user === 'function' ? A.user() : null;
+    return u && u.id && !u.guest ? u : null;
+  };
+  const redraw = () => {
+    if (U.lobbyRedraw) U.lobbyRedraw();
+  };
+  const net = () => U.net || null;
+  /** The code of the table this screen hosts, when it hosts one. */
+  const myTable = () => {
+    const N = net();
+    return N && N.role === 'host' && N.code ? N.code : '';
+  };
+
+  const S = (U.social = {
+    /** True when this player can make friends and send requests: signed in, with the store reachable. */
+    on: () => !!(db && uid),
+    isFriend: (id) => friends.has(id),
+    friends: () => [...friends],
+    sent: (id) => sent.get(id) || '',
+    /** Requests waiting for an answer from this player: friend requests, asks to join, invites. */
+    waiting: () => inbox.filter((n) => n.kind === 'friend' || n.kind === 'join' || n.kind === 'invite'),
+    /** A player's card, from the cache; asks the store when it has not been read yet. */
+    card(id) {
+      if (cards.has(id)) return cards.get(id);
+      cards.set(id, null);
+      if (db)
+        db.doc('profile/' + id)
+          .get()
+          .then((s) => {
+            const d = s && s.exists && s.data ? s.data() : null;
+            if (d) cards.set(id, d);
+            redraw();
+          })
+          .catch(() => {});
+      return null;
+    },
+  });
+
+  /* ───────────── sending ───────────── */
+  async function send(to, kind, code) {
+    if (!S.on() || !to || to === uid) return false;
+    try {
+      await db.doc(`inbox/${to}/from/${uid}`).set({ kind, code: code || '', name: myName });
+      if (lobby && lobby.nudge) lobby.nudge(to);
+      sent.set(to, kind);
+      return true;
+    } catch (e) {
+      if (U.toast) U.toast(esc((e && e.message) || 'That did not reach them. Try again.'), 3200);
+      return false;
+    }
+  }
+  const drop = (from) =>
+    db
+      .doc(`inbox/${uid}/from/${from}`)
+      .delete()
+      .catch(() => {});
+  async function saveFriends() {
+    try {
+      await db.doc('friends/' + uid).set({ list: [...friends] });
+    } catch (e) {
+      /* kept on this screen; the next change writes it again */
+    }
+  }
+
+  S.addFriend = async (id) => {
+    if (await send(id, 'friend')) {
+      if (U.toast) U.toast('Friend request sent.');
+      redraw();
+    }
+  };
+  S.removeFriend = async (id) => {
+    friends.delete(id);
+    redraw();
+    await saveFriends();
+  };
+  S.askJoin = async (id) => {
+    if (await send(id, 'join')) {
+      if (U.toast) U.toast('Asked to join. They answer from their Lobby.', 2600);
+      redraw();
+    }
+  };
+  S.invite = async (id) => {
+    const code = myTable();
+    if (!code) {
+      if (U.toast) U.toast('Host a table first, then invite players to it.', 2600);
+      return;
+    }
+    if (await send(id, 'invite', code)) {
+      if (U.toast) U.toast('Invite sent.');
+      redraw();
+    }
+  };
+  /** Answer a request in the inbox: yes or no. */
+  S.answer = async (from, yes) => {
+    const n = inbox.find((x) => x.from === from);
+    if (!n) return;
+    inbox = inbox.filter((x) => x !== n);
+    redraw();
+    if (n.kind === 'friend' && yes) {
+      friends.add(from);
+      await saveFriends();
+      await send(from, 'friend-ok');
+    } else if (n.kind === 'join') {
+      const code = myTable();
+      if (yes && code) await send(from, 'join-ok', code);
+      else await send(from, 'join-no');
+    } else if (n.kind === 'invite' && yes && n.code) {
+      U.lobbyOpen = false;
+      U.extraAct('netJoinGame', n.code);
+    }
+    await drop(from);
+    redraw();
+  };
+
+  /* ───────────── receiving ───────────── */
+  function toastNote(n) {
+    if (!U.toast || told.has(n.from + n.kind + n.at)) return;
+    told.add(n.from + n.kind + n.at);
+    const who = `<b>${esc(n.name || 'A player')}</b>`;
+    const btns = (yes, no) =>
+      `<span class="so-toast-btns"><button class="sm primary" data-act="socialAnswer" data-arg="${esc(n.from)}|1">${yes}</button><button class="sm ghost" data-act="socialAnswer" data-arg="${esc(n.from)}|0">${no}</button></span>`;
+    if (n.kind === 'friend') U.toast(`${who} wants to be friends. ${btns('Accept', 'Not now')}`, 9000);
+    else if (n.kind === 'join')
+      U.toast(`${who} asks to join your table. ${btns(myTable() ? 'Let in' : 'OK', 'Not now')}`, 12000);
+    else if (n.kind === 'invite') U.toast(`${who} invites you to their table. ${btns('Join', 'Not now')}`, 12000);
+  }
+  async function readInbox() {
+    if (!S.on()) return;
+    let list;
+    try {
+      const snap = await db.collection(`inbox/${uid}/from`).get();
+      list = snap.docs.map((d) => Object.assign({ from: d.id }, d.data() || {}));
+    } catch (e) {
+      return;
+    }
+    const keep = [];
+    for (const n of list) {
+      if (n.kind === 'friend-ok') {
+        friends.add(n.from);
+        sent.delete(n.from);
+        await saveFriends();
+        if (U.toast) U.toast(`<b>${esc(n.name || 'A player')}</b> is now your friend.`, 3000);
+        drop(n.from);
+      } else if (n.kind === 'join-ok' && n.code) {
+        sent.delete(n.from);
+        if (U.toast)
+          U.toast(
+            `<b>${esc(n.name || 'The host')}</b> let you in. <button class="sm primary" data-act="netJoinGame" data-arg="${esc(n.code)}">Join ▶</button>`,
+            15000,
+          );
+        drop(n.from);
+      } else if (n.kind === 'join-no') {
+        sent.delete(n.from);
+        if (U.toast) U.toast(`<b>${esc(n.name || 'The host')}</b> can't take you right now.`, 3000);
+        drop(n.from);
+      } else {
+        keep.push(n);
+        toastNote(n);
+      }
+    }
+    inbox = keep;
+    redraw();
+  }
+  S.refresh = readInbox;
+
+  /* ───────────── my card ───────────── */
+  function myCard() {
+    const meta = T.loadMeta ? T.loadMeta() : {};
+    const run = U.run || (T.loadRun && T.loadRun());
+    const heroes = ((run && run.heroes) || []).filter(Boolean);
+    const made = T.loadMade ? T.loadMade() : [];
+    const pilots = heroes
+      .concat(made)
+      .slice(0, 6)
+      .map((h) => {
+        let a = null;
+        try {
+          a = U.pilotOf ? U.pilotOf(h) : null;
+        } catch (e) {
+          a = null;
+        }
+        return { name: h.name || '', art: a ? a.key : '' };
+      })
+      .filter((p) => p.name);
+    return {
+      name: myName,
+      pilots,
+      runs: meta.runs || 0,
+      wins: meta.wins || 0,
+      best: meta.bestRow || 0,
+      canon: T.loadCanon ? T.loadCanon().length : 0,
+    };
+  }
+  S.publish = async (force) => {
+    if (!S.on() || (!force && Date.now() - publishedAt < 60000)) return;
+    publishedAt = Date.now();
+    try {
+      const card = myCard();
+      await db.doc('profile/' + uid).set(card);
+      cards.set(uid, card);
+    } catch (e) {
+      /* the next visit tries again */
+    }
+  };
+
+  /* ───────────── signing in and out ───────────── */
+  async function start() {
+    const u = me();
+    if (!u || !T.Backend || !T.Backend.available()) return stop();
+    if (uid === u.id) return;
+    stop();
+    try {
+      db = await T.Backend.use('db');
+      lobby = await T.Backend.use('lobby');
+    } catch (e) {
+      db = null;
+    }
+    if (!db) return;
+    uid = u.id;
+    myName = u.name || '';
+    try {
+      const s = await db.doc('friends/' + uid).get();
+      const d = s && s.exists && s.data ? s.data() : null;
+      friends = new Set((d && Array.isArray(d.list) && d.list) || []);
+    } catch (e) {
+      friends = new Set();
+    }
+    if (lobby && typeof lobby.onNudge === 'function') stopNudge = lobby.onNudge(() => readInbox());
+    poll = setInterval(readInbox, 20000);
+    readInbox();
+    S.publish(true);
+    redraw();
+  }
+  function stop() {
+    if (poll) clearInterval(poll);
+    if (stopNudge) stopNudge();
+    poll = stopNudge = null;
+    uid = null;
+    friends = new Set();
+    inbox = [];
+  }
+
+  const prevExtra = U.extraAct;
+  U.extraAct = function (act, arg, el, e) {
+    const id = String(arg || '');
+    switch (act) {
+      case 'socialAdd':
+        S.addFriend(id);
+        return true;
+      case 'socialUnfriend':
+        S.removeFriend(id);
+        return true;
+      case 'socialAsk':
+        S.askJoin(id);
+        return true;
+      case 'socialInvite':
+        S.invite(id);
+        return true;
+      case 'socialAnswer': {
+        const [from, yes] = id.split('|');
+        if (el && el.closest) {
+          const t = el.closest('.toast');
+          if (t) t.remove();
+        }
+        S.answer(from, yes === '1');
+        return true;
+      }
+    }
+    return prevExtra ? prevExtra(act, arg, el, e) : false;
+  };
+
+  if (T.Account && typeof T.Account.onChange === 'function') T.Account.onChange(() => start());
+  window.addEventListener('load', () => setTimeout(start, 0));
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
