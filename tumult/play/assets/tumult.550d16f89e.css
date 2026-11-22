@@ -61,13 +61,16 @@ button {
   padding: 7px 12px;
   cursor: pointer;
   transition:
-    transform 0.08s,
-    background 0.15s,
-    border-color 0.15s;
+    transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1),
+    background 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s,
+    color 0.2s;
 }
 button:hover:not(:disabled) {
-  background: #1a2440;
+  background: #16203a;
   border-color: var(--cyan);
+  box-shadow: 0 6px 18px -8px rgba(0, 212, 255, 0.55);
   transform: translateY(-1px);
 }
 button:active:not(:disabled) {
@@ -11784,6 +11787,251 @@ button.linkish {
 @media (max-width: 1199px) {
   .home.is-landing .hm-tiles {
     display: none;
+  }
+}
+
+/* ---------- motion: the setup unfolds, and everything you can press answers the pointer ---------- */
+.home .hm-setup[open]:not(.hm-quiet) .hm-setup-body {
+  animation: hm-unfold 0.42s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.home .hm-setup[open]:not(.hm-quiet) .hs-row,
+.home .hm-setup[open]:not(.hm-quiet) .hs-foot,
+.home .hm-setup[open]:not(.hm-quiet) .hs-again {
+  animation: hm-rise 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.home .hm-setup[open]:not(.hm-quiet) .hs-row:nth-of-type(1) {
+  animation-delay: 0.04s;
+}
+.home .hm-setup[open]:not(.hm-quiet) .hs-row:nth-of-type(2) {
+  animation-delay: 0.08s;
+}
+.home .hm-setup[open]:not(.hm-quiet) .hs-row:nth-of-type(3) {
+  animation-delay: 0.12s;
+}
+.home .hm-setup[open]:not(.hm-quiet) .hs-row:nth-of-type(4) {
+  animation-delay: 0.16s;
+}
+.home .hm-setup[open]:not(.hm-quiet) .hs-foot {
+  animation-delay: 0.22s;
+}
+@keyframes hm-unfold {
+  from {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0;
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+@keyframes hm-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.home .hm-setup {
+  transition:
+    border-color 0.25s,
+    box-shadow 0.25s;
+}
+.home .hm-setup > summary {
+  transition: background 0.2s;
+}
+.home .hm-setup > summary:hover {
+  background: rgba(0, 212, 255, 0.07);
+}
+.home .hm-setup:not([open]):hover {
+  --hs-edge: var(--hs-cyan);
+  border-color: var(--hs-cyan);
+  box-shadow: 0 0 22px rgba(0, 212, 255, 0.2);
+}
+.home .hm-setup > summary::after {
+  transition: transform 0.3s ease;
+}
+.home .hs-opt {
+  position: relative;
+  transition:
+    background 0.22s,
+    color 0.22s,
+    box-shadow 0.22s;
+}
+.home .hs-opt:not(.on):not(:disabled):hover {
+  background: rgba(0, 212, 255, 0.12);
+  color: #fff;
+  box-shadow: inset 0 -2px 0 var(--hs-cyan);
+}
+.home .hs-opt.on {
+  box-shadow: 0 0 16px rgba(0, 212, 255, 0.45);
+}
+.home .hs-opt:active:not(:disabled),
+.home .hm-act:active,
+.home button.hm-big:active {
+  transform: scale(0.97);
+}
+.home button.hm-cta {
+  transition:
+    transform 0.18s ease,
+    filter 0.18s;
+}
+.home button.hm-cta:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1) saturate(1.1);
+}
+.home button.hm-cta:active {
+  transform: translateY(0) scale(0.98);
+}
+.home .hm-act .hm-ic {
+  transition:
+    transform 0.25s ease,
+    filter 0.25s;
+}
+.home .hm-act:hover .hm-ic {
+  transform: scale(1.12);
+  filter: drop-shadow(0 0 6px var(--hs-cyan));
+}
+.home .hs-again {
+  transition:
+    border-color 0.2s,
+    color 0.2s,
+    background 0.2s;
+}
+.home .hs-again:hover {
+  border-color: var(--hs-cyan);
+  color: #fff;
+  background: rgba(0, 212, 255, 0.08);
+}
+.home button.hm-big,
+.home .hm-tile {
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s,
+    transform 0.2s;
+}
+.home button.hm-big:hover,
+.home .hm-tile:hover {
+  transform: translateY(-2px);
+}
+.home .hm-tile:hover {
+  --hs-edge: var(--hs-cyan);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.22);
+}
+.home .hm-plate-face {
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+.home .hm-plate:hover .hm-plate-face {
+  transform: scale(1.05);
+  box-shadow: 0 0 26px rgba(0, 212, 255, 0.6);
+}
+/* the top bar: a tab's underline grows from its middle, the gear turns. None of them takes the
+   plain button's box on hover (style.css): the logo, the tabs and the setup's choices light up instead */
+.sh-logo:hover:not(:disabled),
+.sh-tab:hover:not(:disabled),
+.home .hm-link:hover:not(:disabled) {
+  background: none;
+  border-color: transparent;
+  box-shadow: none;
+  transform: none;
+}
+.sh-tab:hover:not(:disabled) {
+  color: #fff;
+  background: linear-gradient(0deg, rgba(0, 212, 255, 0.1), transparent 70%);
+}
+.home .hs-opt:hover:not(:disabled) {
+  transform: none;
+  border-color: var(--hs-line);
+}
+.home .hs-opt:last-child:hover {
+  border-color: transparent;
+}
+.sh-top .sh-logo:focus-visible,
+.sh-top .sh-tab:focus-visible {
+  outline: none;
+  color: #fff;
+  text-shadow: 0 0 12px rgba(0, 212, 255, 0.8);
+}
+.sh-tab {
+  position: relative;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+.sh-tab::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  height: 2px;
+  background: var(--cy);
+  box-shadow: 0 0 8px var(--cy);
+  transition:
+    left 0.25s ease,
+    right 0.25s ease;
+}
+.sh-tab:not(.on):hover::after,
+.sh-tab:not(.on):focus-visible::after {
+  left: 16px;
+  right: 16px;
+}
+.sh-logo {
+  transition:
+    text-shadow 0.25s,
+    color 0.25s;
+}
+.sh-logo:hover:not(:disabled) {
+  color: #fff;
+  text-shadow: 0 0 14px rgba(0, 212, 255, 0.7);
+}
+.sh-gear {
+  transition:
+    transform 0.4s ease,
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.sh-gear:hover {
+  transform: rotate(60deg);
+  border-color: var(--cy);
+  box-shadow: 0 0 14px rgba(0, 212, 255, 0.35);
+}
+.sh-right > button:not(.sh-gear),
+.sh-right > a {
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s,
+    border-color 0.2s;
+}
+.sh-right > button:not(.sh-gear):hover,
+.sh-right > a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 14px rgba(0, 212, 255, 0.3);
+}
+:root[data-motion='off'] .home .hm-setup-body,
+:root[data-motion='off'] .home .hs-row,
+:root[data-motion='off'] .home .hs-foot,
+:root[data-motion='off'] .home .hs-again {
+  animation: none !important;
+}
+:root[data-motion='off'] .home *,
+:root[data-motion='off'] .sh-top * {
+  transition-duration: 0s !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .home .hm-setup-body,
+  .home .hs-row,
+  .home .hs-foot,
+  .home .hs-again {
+    animation: none !important;
+  }
+  .home *,
+  .sh-top * {
+    transition-duration: 0s !important;
   }
 }
 
