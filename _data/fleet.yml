@@ -36,8 +36,8 @@
   crew: []
   blurb: A flying siege tank – big, slow, and explosive. Charge devastating shots, dig in to reload, rush and ride your own shockwaves, and set
     whole areas on fire.
-  image: /fleet-codex/img/Grizzly.webp
-  thumb: /fleet-codex/img/Grizzly.webp
+  image: /fleet-codex/img/dom/Grizzly_Jade_16006472d4.webp
+  thumb: /fleet-codex/img/dom/Grizzly_Jade_16006472d4.webp
 - key: Squirrel
   name: Squirrel
   seats: 1
@@ -128,23 +128,23 @@
   crew: []
   blurb: Digs its own way. The reticle on its nose is the tunnel it would form; bend it with the right stick, shorten it with LT, and RT ripples
     the wormhole open and dives you through it, out the far end with the speed you went in with.
-  image: /fleet-codex/img/Meerkat.webp
-  thumb: /fleet-codex/img/Meerkat.webp
+  image: /fleet-codex/img/dom/Meerkat_Jade_11da20f96a.webp
+  thumb: /fleet-codex/img/dom/Meerkat_Jade_11da20f96a.webp
 - key: TigerMoth
   name: Tiger Moth
   seats: 1
   crew: []
   blurb: Slow, wide and quiet, like the Butterfly – until a bat comes. Hold to shut your wings and drop the way your dust falls; let go and you
     fly on down the line you fell.
-  image: /fleet-codex/img/TigerMoth.webp
-  thumb: /fleet-codex/img/TigerMoth.webp
+  image: /fleet-codex/img/dom/Butterfly_Jade_cdeecab376.webp
+  thumb: /fleet-codex/img/dom/Butterfly_Jade_cdeecab376.webp
 - key: Swordfish
   name: Swordfish
   seats: 1
   crew: []
   blurb: All sword. Your triggers swing a blade that cuts every prism it touches; hold both to light it, and a lit blade lays afterimages of itself.
-  image: /fleet-codex/img/Swordfish.webp
-  thumb: /fleet-codex/img/Swordfish.webp
+  image: /fleet-codex/img/dom/Rhino_Jade_f4e2632768.webp
+  thumb: /fleet-codex/img/dom/Rhino_Jade_f4e2632768.webp
 - key: Goby
   name: Goby
   seats: 2

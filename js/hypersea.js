@@ -100,7 +100,7 @@
         if (src && state.el !== 'all') {
           elx.querySelector('b').textContent = src.dataset.title;
           elx.querySelector('span:not(.hs-pe)').textContent = src.dataset.line;
-          elx.querySelector('.hs-pe').style.backgroundImage = 'url(' + src.dataset.icon + ')';
+          elx.querySelector('.hs-pe').style.setProperty('--pe', 'url(' + src.dataset.icon + ')');
         }
       }
     }

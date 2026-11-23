@@ -43,7 +43,7 @@ arcade:
   intensity: I1–I4
   blurb: Meerkats only, and time is everything. The reticle on your nose is the tunnel you would dig – bend it toward the next ring with the right
     stick, shorten it with LT, and pull RT to ripple it open and dive through, out the far end with the speed you went in with.
-  image: ''
+  image: /fleet-codex/img/dom/Meerkat_Jade_11da20f96a.webp
 - mode: DecoyRun
   name: Decoy Run
   element: Time

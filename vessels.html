@@ -8,7 +8,7 @@ scripts: [/js/codex.js]
 ---
 {%- assign fleet = site.data.fleet -%}
 {%- assign crews = fleet | where_exp: "v", "v.seats > 1" -%}
-{%- assign petal = "/fleet-codex/img/ui/petal_" -%}
+{%- assign petal = "/assets/hypersea/el/flower_" -%}
 {%- capture expand -%}<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>{%- endcapture -%}
 {%- capture stats -%}{{ fleet.size }}|Vessels and crews;4|Elements each;{{ crews.size }}|Crew vessels{%- endcapture -%}
 {%- capture extra -%}<div class="corner"><a class="hs-cta hs-shine" href="#codex"><span>{{ expand }}Open the Fleet Codex</span></a></div>{%- endcapture -%}
@@ -38,11 +38,11 @@ scripts: [/js/codex.js]
   <h2 class="hs-h2 rv">Four elements, <em>one kit</em></h2>
   <p class="hs-lead rv">Collect crystals to raise an element. The higher it is, the stronger that ability. <b>At level five each ability gets its upgrade.</b></p>
   <div class="hs-steps five">
-    <div class="hs-step rv"><b><span class="hs-pe" style="background-image:url({{ petal }}Time.png)"></span>Time</b><span>Speed and the line you take: boosts, drifts and dashes.</span></div>
-    <div class="hs-step rv"><b><span class="hs-pe" style="background-image:url({{ petal }}Charge.png)"></span>Charge</b><span>What fires and goes off: guns, rockets, bombs.</span></div>
-    <div class="hs-step rv"><b><span class="hs-pe" style="background-image:url({{ petal }}Mass.png)"></span>Mass</b><span>The prisms you lay and carry: walls, shields, trails.</span></div>
-    <div class="hs-step rv"><b><span class="hs-pe" style="background-image:url({{ petal }}Space.png)"></span>Space</b><span>Room around you: reach, range, the cell you clear.</span></div>
-    <div class="hs-step rv"><b><span class="hs-pe" style="background-image:url(/fleet-codex/img/ui/omni.png)"></span>Omni</b><span>One crystal that powers a vessel&rsquo;s big move.</span></div>
+    <div class="hs-step rv"><b><span class="hs-pe" style="--pe:url({{ petal }}Time.png)"></span>Time</b><span>Speed and the line you take: boosts, drifts and dashes.</span></div>
+    <div class="hs-step rv"><b><span class="hs-pe" style="--pe:url({{ petal }}Charge.png)"></span>Charge</b><span>What fires and goes off: guns, rockets, bombs.</span></div>
+    <div class="hs-step rv"><b><span class="hs-pe" style="--pe:url({{ petal }}Mass.png)"></span>Mass</b><span>The prisms you lay and carry: walls, shields, trails.</span></div>
+    <div class="hs-step rv"><b><span class="hs-pe" style="--pe:url({{ petal }}Space.png)"></span>Space</b><span>Room around you: reach, range, the cell you clear.</span></div>
+    <div class="hs-step rv"><b><span class="hs-pe" style="--pe:url(/fleet-codex/img/ui/omni.png)"></span>Omni</b><span>One crystal that powers a vessel&rsquo;s big move.</span></div>
   </div>
 </section>
 
