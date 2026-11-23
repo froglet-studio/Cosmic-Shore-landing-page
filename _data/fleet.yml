@@ -36,8 +36,8 @@
   crew: []
   blurb: A flying siege tank – big, slow, and explosive. Charge devastating shots, dig in to reload, rush and ride your own shockwaves, and set
     whole areas on fire.
-  image: ''
-  thumb: ''
+  image: /fleet-codex/img/Grizzly.webp
+  thumb: /fleet-codex/img/Grizzly.webp
 - key: Squirrel
   name: Squirrel
   seats: 1
@@ -128,23 +128,23 @@
   crew: []
   blurb: Digs its own way. The reticle on its nose is the tunnel it would form; bend it with the right stick, shorten it with LT, and RT ripples
     the wormhole open and dives you through it, out the far end with the speed you went in with.
-  image: ''
-  thumb: ''
+  image: /fleet-codex/img/Meerkat.webp
+  thumb: /fleet-codex/img/Meerkat.webp
 - key: TigerMoth
   name: Tiger Moth
   seats: 1
   crew: []
   blurb: Slow, wide and quiet, like the Butterfly – until a bat comes. Hold to shut your wings and drop the way your dust falls; let go and you
     fly on down the line you fell.
-  image: ''
-  thumb: ''
+  image: /fleet-codex/img/TigerMoth.webp
+  thumb: /fleet-codex/img/TigerMoth.webp
 - key: Swordfish
   name: Swordfish
   seats: 1
   crew: []
   blurb: All sword. Your triggers swing a blade that cuts every prism it touches; hold both to light it, and a lit blade lays afterimages of itself.
-  image: ''
-  thumb: ''
+  image: /fleet-codex/img/Swordfish.webp
+  thumb: /fleet-codex/img/Swordfish.webp
 - key: Goby
   name: Goby
   seats: 2
