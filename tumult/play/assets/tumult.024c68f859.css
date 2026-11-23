@@ -2228,6 +2228,68 @@ button:disabled .acost {
   width: 24px;
   height: 24px;
 }
+/* painted faces (src/ui/ability-art.js): each side of the cut shows its face in action */
+.hart.painted {
+  height: 64px;
+}
+.hart .pa {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.hart .pa span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hart .pa-p {
+  left: 0;
+  width: 54%;
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%);
+}
+.hart .pa-e {
+  right: 0;
+  width: 54%;
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+}
+.hart.painted .clade {
+  display: none;
+}
+.hart.painted .vp,
+.hart.painted .ve {
+  top: auto;
+  bottom: 3px;
+  transform: none;
+  padding: 3px;
+  border-radius: 50%;
+  background: rgba(8, 12, 24, 0.62);
+  line-height: 0;
+}
+.hart.painted .vp {
+  left: 4px;
+}
+.hart.painted .ve {
+  right: 4px;
+}
+.hart.painted .vp .icn,
+.hart.painted .ve .icn {
+  width: 16px;
+  height: 16px;
+}
+.hart.asleep .pa-e {
+  filter: grayscale(0.85) brightness(0.55);
+}
+.tip-art {
+  float: left;
+  width: 72px;
+  height: 72px;
+  margin: 0 8px 4px 0;
+  border-radius: 6px;
+}
 .hart.asleep .ve {
   opacity: 0.35;
   filter: grayscale(0.6);
@@ -7153,6 +7215,38 @@ body:has(.mission.hud) .net-away {
 .calm .cr .spk,
 .calm .cr .bud {
   animation: none;
+}
+/* beasts of Tumult (2.132): painted heads in a danger ring; they share the blow and the hit, and wither by
+   shrinking into the ground */
+.cr-beast .bd {
+  animation-duration: 3.8s;
+}
+.die .cr-beast .bd {
+  animation: crBeastDie 1.2s ease-in forwards;
+}
+@keyframes crBeastDie {
+  0% {
+    transform: none;
+    opacity: 1;
+    filter: none;
+  }
+  35% {
+    transform: translate(0, -4px) scale(1.06);
+    filter: brightness(1.8) saturate(0.3);
+  }
+  100% {
+    transform: translate(0, 18px) scale(0.3);
+    opacity: 0;
+    filter: grayscale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cr-beast .bd {
+    animation: none;
+  }
+  .die .cr-beast .bd {
+    animation: crBeastDie 0.3s linear forwards;
+  }
 }
 
 
