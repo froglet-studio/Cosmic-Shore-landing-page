@@ -60,7 +60,7 @@ def games_from(fleet, overrides):
     by_mode = {}
     for v in fleet["vessels"]:
         for c in v.get("cards", []):
-            g = by_mode.setdefault(c["mode"], dict(card=c, hulls=[]))
+            g = by_mode.setdefault(c["mode"], dict(card=c, hulls=[], vessel=v))
             if v["name"] not in g["hulls"]:
                 g["hulls"].append(v["name"])
     arcade, arena = [], []
@@ -74,7 +74,8 @@ def games_from(fleet, overrides):
         item = {
             "mode": mode, "name": c["name"], "element": els[0] if els else "Party", "elements": els or ["Party"],
             "hulls": g["hulls"], "intensity": intensity(c), "blurb": blurb(text),
-            "image": "/fleet-codex/" + c["art"] if c.get("art") else "",
+            # a card with no art of its own shows its first hull in the default livery, never a blank tile
+            "image": "/fleet-codex/" + c["art"] if c.get("art") else hull_image(g["vessel"], fleet),
         }
         if "ArenaGames" in rosters:
             item["description"] = re.sub(r"\s+", " ", text.replace(" - ", " – ")).strip()
@@ -84,6 +85,16 @@ def games_from(fleet, overrides):
     arcade.sort(key=lambda g: ((ELEMENTS + ["Party"]).index(g["element"]), g["name"]))
     arena.sort(key=lambda g: (ARENA_ORDER.index(g["mode"]) if g["mode"] in ARENA_ORDER else 99, g["name"]))
     return {"arcade": arcade, "arena": arena}
+
+
+def hull_image(v, fleet):
+    """The codex picture of a hull for a card: the default domain's livery (an opaque scene, readable on any theme),
+    else the plain preview (a transparent hull that disappears on a dark card), else nothing."""
+    dom = (fleet.get("palette") or {}).get("default", "Jade")
+    for rel in ((v.get("domainImages") or {}).get(dom), v.get("image")):
+        if rel and os.path.exists(os.path.join(OUT, rel)):
+            return "/fleet-codex/" + rel
+    return ""
 
 
 def slug(name):
@@ -100,7 +111,7 @@ def fleet_from(fleet, overrides_all):
     for v in listed:
         sl = slug(v["name"])
         big, thumb = "/assets/vessels/%s.webp" % sl, "/assets/vessels/thumbs/%s.webp" % sl
-        codex_img = "/fleet-codex/" + v["image"] if v.get("image") and os.path.exists(os.path.join(OUT, v["image"])) else ""
+        codex_img = hull_image(v, fleet)
         image = big if os.path.exists(SITE + big) else codex_img
         crew = v.get("crew") or {}
         item = {"key": v["key"], "name": v["name"], "seats": crew.get("seats") or 1, "crew": crew.get("names") or [],

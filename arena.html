@@ -6,7 +6,7 @@ permalink: /arena/
 nav: arena
 ---
 {%- assign games = site.data.games.arena -%}
-{%- assign petal = "/fleet-codex/img/ui/petal_" -%}
+{%- assign petal = "/assets/hypersea/el/flower_" -%}
 {%- capture stats -%}{{ games.size }}|Arena games;3v3|Squads;AI|Fills empty seats{%- endcapture -%}
 {% include page-hero.html image="/assets/hypersea/scenes/027_0000.webp" label="Arena" title="Arena" lede="Squad against squad. Three pilots a side, each in the vessel they know best, on courses built so every hull has a way to win." stats=stats %}
 
@@ -20,7 +20,7 @@ nav: arena
       <div class="num">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</div>
       <h3>{{ g.name }}</h3>
       <p>{{ g.description }}</p>
-      <div class="hs-chips">{% for e in g.elements %}<span><span class="hs-pe" style="background-image:url({% if e == 'Party' %}/fleet-codex/img/ui/bloom.png{% else %}{{ petal }}{{ e }}.png{% endif %})"></span><span>{{ e }}</span></span>{% endfor %}</div>
+      <div class="hs-chips">{% for e in g.elements %}<span><span class="hs-pe" style="--pe:url({% if e == 'Party' %}/fleet-codex/img/ui/bloom.png{% else %}{{ petal }}{{ e }}.png{% endif %})"></span><span>{{ e }}</span></span>{% endfor %}</div>
       <div class="hs-chips">{% for h in g.hulls limit: 9 %}<span><span>{{ h }}</span></span>{% endfor %}{% if g.hulls.size > 9 %}<span><span>+{{ g.hulls.size | minus: 9 }}</span></span>{% endif %}</div>
     </div>
   </div>

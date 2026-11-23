@@ -316,12 +316,14 @@ main > :last-child.hs-sec { padding-bottom: clamp(64px, 8vw, 110px); }
 .hs-step span { display: block; margin-top: 8px; font-size: 14px; line-height: 1.55; color: var(--tx2); }
 .hs-steps.num .hs-step::before { counter-increment: st; content: "0" counter(st); position: absolute; right: 18px; top: 12px; font: italic 700 30px var(--disp); color: color-mix(in srgb, var(--a1) 40%, transparent); }
 .g-tu .hs-step { border-left-color: var(--a3); }
-.hs-pe { display: inline-block; flex: none; width: 26px; height: 26px; background: center / contain no-repeat; }
+/* element icons are the game's petal flowers, drawn as masks so they take the text colour on every theme */
+.hs-pe { display: inline-block; flex: none; width: 26px; height: 26px; background: currentColor;
+  -webkit-mask: var(--pe) center / contain no-repeat; mask: var(--pe) center / contain no-repeat; }
 
 /* arcade: the codex grid */
-.hs-fbar { position: sticky; top: var(--hd); z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 30px; padding: 12px 0;
+.hs-fbar { position: sticky; top: var(--hd); z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 30px; padding: 12px 14px;
   background: color-mix(in srgb, var(--bg) 72%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
-.hs-fbar .fl { font: 600 10px var(--disp); letter-spacing: .14em; text-transform: uppercase; color: var(--tx2); margin-right: 2px; }
+.hs-fbar .fl { flex: none; white-space: nowrap; font: 600 10px var(--disp); letter-spacing: .14em; text-transform: uppercase; color: var(--tx2); margin-right: 4px; }
 .hs-fbar .sp { margin-left: auto; }
 .hs-fbar button { white-space: nowrap; display: inline-flex; align-items: center; gap: 7px; height: 38px; padding: 0 12px; border: 1px solid var(--ln); background: var(--sf); color: var(--tx2);
   font: 700 12px var(--disp); letter-spacing: .1em; text-transform: uppercase; transform: skewX(-10deg); cursor: pointer; transition: color .3s, border-color .3s, background-color .3s; }
@@ -330,7 +332,6 @@ main > :last-child.hs-sec { padding-bottom: clamp(64px, 8vw, 110px); }
 .hs-fbar button:hover { color: var(--tx); border-color: var(--a1); }
 .hs-fbar button[aria-pressed="true"] { background: var(--a1); border-color: var(--a1); color: var(--bg2); }
 .hs-fbar button[aria-pressed="true"] em { background: var(--bg2); color: var(--a1); }
-.hs-fbar button[aria-pressed="true"] .hs-pe { filter: brightness(0); }
 .hs-fbar .hs-pe { width: 18px; height: 18px; }
 .hs-elx { display: flex; align-items: center; gap: 16px; margin-top: 18px; padding: 16px 20px; border-left: 3px solid var(--a1); background: color-mix(in srgb, var(--sf) 70%, transparent); animation: hsDash .5s var(--e) both; }
 .hs-elx[hidden] { display: none; }
@@ -345,7 +346,7 @@ main > :last-child.hs-sec { padding-bottom: clamp(64px, 8vw, 110px); }
 .hs-gc .im { position: relative; display: block; aspect-ratio: 768 / 510; overflow: hidden; background: var(--bg2); }
 .hs-gc .im img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .9s var(--e); }
 .hs-gc:hover .im img { transform: scale(1.06); }
-.hs-gc .el { position: absolute; left: 10px; top: 10px; display: flex; align-items: center; gap: 6px; padding: 4px 10px 4px 6px; background: color-mix(in srgb, var(--bg2) 80%, transparent); backdrop-filter: blur(6px);
+.hs-gc .el { position: absolute; left: 10px; top: 10px; display: flex; align-items: center; gap: 6px; padding: 4px 10px 4px 6px; background: rgb(0 0 0 / .58); backdrop-filter: blur(6px);
   font: 700 10px var(--disp); letter-spacing: .14em; text-transform: uppercase; color: #fff; }
 .hs-gc .el .hs-pe { width: 16px; height: 16px; }
 .hs-gc .it { position: absolute; right: 10px; top: 10px; padding: 3px 8px; background: var(--a1); color: var(--bg2); font: 700 10px var(--disp); letter-spacing: .1em; }
