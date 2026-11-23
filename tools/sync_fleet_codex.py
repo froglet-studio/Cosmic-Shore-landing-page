@@ -7,11 +7,12 @@
 
 The Fleet Codex is the studio's book of the fleet (game repo Docs/FleetCodex/): every vessel, its four
 abilities and their upgrades, the games it teaches, its controls and its recent changes, read from the
-shipped assets by Tools/Build/fleet_codex.py. This site serves it at /fleet-codex/ (the Vessels page opens
-it full screen), so it is rebuilt here from the game, never edited by hand.
+shipped assets by Tools/Build/fleet_codex.py. This site draws it itself on the Vessels page (#codex, js/codex.js)
+from fleet-codex/fleet.json and fleet-codex/img/, so the data is rebuilt here from the game, never edited by hand.
+/fleet-codex/ only redirects to /vessels/#codex: the studio's artifact page is not served (Shombith, 2026-11-23).
 
 What it writes (this repo):
-  - fleet-codex/: the codex page (Docs/FleetCodex/index.html), fleet.json, themes.css, theme.js and img/;
+  - fleet-codex/: fleet.json and img/ (every image the data names), and index.html, a redirect to /vessels/#codex;
   - _data/fleet.yml: every vessel the codex lists, in its order, with a blurb and the largest picture there is
     (the site's 960x540 hangar art from tools/sync_game_content.py, else the codex's own preview);
   - _data/games.yml: every arcade and arena card in the codex, one entry per game mode, with its element,
@@ -38,15 +39,6 @@ ELEMENTS = ["Time", "Charge", "Mass", "Space"]
 BLURB_LIMIT = 150
 # The Arena page's order: Regatta teaches Time, Broadside Charge, Brood Rush Mass and Space together.
 ARENA_ORDER = ["Regatta", "Broadside", "BroodRush", "AstroLeague"]
-WRAP = ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
-        '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
-        '<link rel="canonical" href="https://www.froglet.games/fleet-codex/">'
-        '<link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicon-32.png">'
-        '<meta name="description" content="The Fleet Codex: every Cosmic Shore vessel, its four abilities and their upgrades, '
-        'the games it teaches, its controls and what changed lately, rebuilt from the game.">'
-        '<style>:root{box-sizing:border-box}body{margin:0;padding:0}img{max-width:100%}'
-        '[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>\n%s\n</body></html>\n')
-
 
 def blurb(text):
     text = re.sub(r"\s+", " ", text.replace(" - ", " – ")).strip()
@@ -127,24 +119,31 @@ def render(data, fleet):
     return head + yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=140)
 
 
+REDIRECT = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Fleet Codex — Cosmic Shore</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://www.froglet.games/vessels/#codex">
+<meta http-equiv="refresh" content="0; url=/vessels/#codex">
+<script>location.replace('/vessels/#codex' + (location.hash.length > 1 ? '=' + location.hash.slice(1) : ''));</script>
+</head><body><p>The Fleet Codex is on the <a href="/vessels/#codex">Vessels page</a>.</p></body></html>
+"""
+
+
+def missing_images(fleet):
+    """Every img/ path fleet.json names that is not in fleet-codex/ (the Vessels page would draw it broken)."""
+    refs = set(re.findall(r'"(img/[^"]+)"', json.dumps(fleet)))
+    return sorted(r for r in refs if not os.path.exists(os.path.join(OUT, r)))
+
+
 def copy_codex(src, game):
-    """src: a folder holding fleet.json and img/ (fleet_codex.py --out). game: the repo, for the page itself."""
+    """src: a folder holding fleet.json and img/ (fleet_codex.py --out). game: unused, kept for the call sites."""
     os.makedirs(OUT, exist_ok=True)
     if os.path.isdir(os.path.join(OUT, "img")):
         shutil.rmtree(os.path.join(OUT, "img"))
     shutil.copytree(os.path.join(src, "img"), os.path.join(OUT, "img"))
-    for f in ("fleet.json", "themes.css", "theme.js"):
-        if os.path.exists(os.path.join(src, f)):
-            shutil.copy(os.path.join(src, f), os.path.join(OUT, f))
-    page = None
-    if game and os.path.exists(os.path.join(game, "Docs/FleetCodex/index.html")):
-        page = open(os.path.join(game, "Docs/FleetCodex/index.html"), encoding="utf-8").read()
-    elif os.path.exists(os.path.join(src, "index.html")):
-        page = open(os.path.join(src, "index.html"), encoding="utf-8").read()
-    if page is not None:
-        if not page.lstrip().lower().startswith("<!doctype"):
-            page = WRAP % page
-        open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(page)
+    shutil.copy(os.path.join(src, "fleet.json"), os.path.join(OUT, "fleet.json"))
+    open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(REDIRECT)
 
 
 def main():
@@ -163,6 +162,11 @@ def main():
     elif a.from_dir and not a.check:
         copy_codex(a.from_dir, None)
     fleet = json.load(open(os.path.join(OUT, "fleet.json"), encoding="utf-8"))
+    gone = missing_images(fleet)
+    if gone:
+        print("fleet-codex/ is missing %d image(s) fleet.json names, e.g. %s" % (len(gone), ", ".join(gone[:5])), file=sys.stderr)
+        if a.check:
+            return 1
     outs = {GAMES: render(games_from(fleet, overrides), fleet), FLEET: render(fleet_from(fleet, overrides_all), fleet)}
     if a.check:
         stale = [os.path.relpath(p, SITE) for p, t in outs.items() if not os.path.exists(p) or open(p, encoding="utf-8").read() != t]

@@ -4,23 +4,23 @@ description: "Every Cosmic Shore vessel: how it flies, its four abilities (one f
 image: /assets/images/Image%20Sequence_020_0002.jpg
 permalink: /vessels/
 nav: vessels
-codex: true
+scripts: [/js/codex.js]
 ---
 {%- assign fleet = site.data.fleet -%}
 {%- assign crews = fleet | where_exp: "v", "v.seats > 1" -%}
 {%- assign petal = "/fleet-codex/img/ui/petal_" -%}
 {%- capture expand -%}<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>{%- endcapture -%}
 {%- capture stats -%}{{ fleet.size }}|Vessels and crews;4|Elements each;{{ crews.size }}|Crew vessels{%- endcapture -%}
-{%- capture extra -%}<div class="corner"><button type="button" class="hs-cta hs-shine" data-codex=""><span>{{ expand }}Open the Fleet Codex</span></button></div>{%- endcapture -%}
+{%- capture extra -%}<div class="corner"><a class="hs-cta hs-shine" href="#codex"><span>{{ expand }}Open the Fleet Codex</span></a></div>{%- endcapture -%}
 {% include page-hero.html image="/assets/hypersea/scenes/020_0002.webp" label="The fleet" title="Vessels" lede="Every vessel flies its own way. Each carries four abilities, one for each element, and its own games that teach them. The Fleet Codex has every one in full." stats=stats extra=extra %}
 
 <section class="hs-sec first" id="pick">
   <div class="hs-k rv"><i></i>Pick a vessel</div>
   <h2 class="hs-h2 rv">Choose your <em>ride</em></h2>
-  <p class="hs-lead rv">Every vessel&rsquo;s abilities, element games, controls and numbers, straight from the game. <b>Pick one to open its page in the Fleet Codex.</b></p>
+  <p class="hs-lead rv">Every vessel&rsquo;s abilities, element games, controls and numbers, straight from the game. <b>Pick one to open it in the Fleet Codex below.</b></p>
   <div class="hs-vg">
     {%- for v in fleet %}
-    <a class="hs-vc hs-cd rv" href="/fleet-codex/#{{ v.key }}" data-codex="{{ v.key }}" aria-label="Open the {{ v.name }} in the Fleet Codex">
+    <a class="hs-vc hs-cd rv" href="#codex={{ v.key }}" data-codex="{{ v.key }}" aria-label="Open the {{ v.name }} in the Fleet Codex">
       <span class="no">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
       {%- if v.seats > 1 %}<span class="seats">{{ v.seats }} seats</span>{% endif %}
       <span class="im">{% if v.image != "" %}<img src="{{ v.image }}" alt="The {{ v.name }}" width="960" height="540" loading="lazy" decoding="async">{% endif %}</span>
@@ -49,10 +49,9 @@ codex: true
 <section class="hs-sec" id="codex">
   <div class="hs-k rv"><i></i>Fleet Codex</div>
   <h2 class="hs-h2 rv">Everything, <em>in one place</em></h2>
-  <div class="hs-teaser">
-    <p class="hs-lead rv" style="margin:0">The Fleet Codex is the studio&rsquo;s own book of the fleet: every vessel, its four abilities and their upgrades, the games each one teaches, its controls on pad, keyboard and phone, and what changed lately. <b>It is rebuilt from the game, so it is never out of date.</b></p>
-    <button type="button" class="hs-strip rv rvr" data-codex="" style="border:0;padding:0;background:none;cursor:pointer" aria-label="Open the Fleet Codex">
-      {%- for v in fleet offset: 5 limit: 4 %}<img src="{{ v.image }}" alt="" loading="lazy">{% endfor %}
-    </button>
+  <p class="hs-lead rv">Every vessel, its four abilities and their level-5 upgrades, the games each one teaches, its controls on pad, keyboard and phone, and what changed lately. <b>Rebuilt from the game, so it is never out of date.</b></p>
+  <div class="cx" id="cx" aria-live="polite">
+    <div class="cx-load"><span></span><span></span><span></span></div>
+    <noscript><p class="cx-empty">The Fleet Codex needs JavaScript. Every vessel is listed above.</p></noscript>
   </div>
 </section>

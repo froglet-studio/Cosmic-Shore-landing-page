@@ -4,6 +4,7 @@ description: "The Pilot Codex: every Cosmic Shore callsign and what its pilot se
 image: /assets/images/Image%20Sequence_018_0003.jpg
 permalink: /pilots/
 nav: pilots
+scripts: [/js/pilot-viewer.js]
 ---
 {%- assign pilots = site.data.pilots -%}
 {%- assign first = pilots | where: "callsign", "VOLT" | first -%}
@@ -28,8 +29,10 @@ nav: pilots
       <div class="hs-sees"><small>Hold LB to see</small><span data-f="sees">{{ first.sees }}</span></div>
       <div class="hs-chips"><span><span>Flies any vessel</span></span><span><span>Human + two animals</span></span><span><span>Faction &middot; homeworld</span></span></div>
       <p>A pilot&rsquo;s chronicle grows with every voyage they fly. Unlock more pilots behind a callsign as you play.</p>
+      <button type="button" class="hs-gh" data-pv-open><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Full screen</span></button>
     </div>
   </div>
+  <p class="hs-note">Open any pilot full screen, then drag or swipe to meet the next.</p>
   <div class="hs-pg6">
     {%- for p in pilots %}{%- assign c = p.callsign | downcase %}
     <button type="button" id="{{ c }}" data-pilot="{{ p.callsign }}" data-group="{{ p.group }}" data-sees="{{ p.sees | escape }}" data-no="{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}" data-img="/assets/pilots/{{ c }}.webp" aria-pressed="{% if p.callsign == first.callsign %}true{% else %}false{% endif %}" aria-label="{{ p.callsign }}">
@@ -49,3 +52,11 @@ nav: pilots
     <div class="hs-step rv"><b>Chronicle</b><span>Their story so far, written by the voyages they fly.</span></div>
   </div>
 </section>
+
+<div class="hs-pv" id="hs-pv" role="dialog" aria-modal="true" aria-label="Pilots, full screen" aria-roledescription="carousel" hidden>
+  <div class="trk"></div>
+  <div class="top"><span class="ct" aria-live="polite"></span><button type="button" class="cls" aria-label="Close">&times;</button></div>
+  <button type="button" class="nav prev" aria-label="Previous pilot"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button type="button" class="nav next" aria-label="Next pilot"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
+  <div class="rail" role="group" aria-label="Every pilot"></div>
+</div>

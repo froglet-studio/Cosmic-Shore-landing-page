@@ -4,6 +4,7 @@ description: "Voyages, in development for Cosmic Shore: your squad of three sail
 image: /assets/images/Image%20Sequence_029_0001.jpg
 permalink: /voyages/
 nav: voyages
+scripts: [/js/ark3d.js]
 ---
 {%- assign tiers = "Galaxy|arms, bulge, the halo's globular clusters|110,000 ly|gal;Arm|giant nurseries, the brightest supergiants|20,000 ly|arm;Sector|star clusters and the brightest stars|4,500 ly|sector;Neighbourhood|a slab of nearby stars round one height, packed in cells|280 ly|neighbourhood;Cell|one 20 ly cell: membrane, cytoplasm, nucleus, and its stars|50 ly|cell" | split: ";" -%}
 {%- capture extra -%}<span class="hs-tagb"><span>In development</span></span>{%- endcapture -%}
@@ -20,7 +21,7 @@ nav: voyages
       {%- endfor %}
       <div class="zm"><button type="button" data-zoom="-1" aria-label="Zoom out">&minus;</button><button type="button" data-zoom="1" aria-label="Zoom in">+</button></div>
     </div>
-    <div class="hs-mapv" id="hs-mapv">
+    <div class="hs-mapv" id="hs-mapv" tabindex="0" role="img" aria-label="The HyperSea map. Drag to move, scroll or pinch to zoom; arrow keys and + and − work too.">
       {%- for t in tiers %}{%- assign x = t | split: "|" %}
       <img src="/assets/hypersea/map/{{ x[3] }}.webp" alt="The HyperSea at {{ x[0] | downcase }} scale" {% if forloop.first %}class="on"{% else %}loading="lazy"{% endif %} decoding="async">
       {%- endfor %}
@@ -28,7 +29,28 @@ nav: voyages
       <div class="sc">110,000 ly<i></i></div>
     </div>
   </div>
-  <p class="hs-note">Drawn from the game&rsquo;s own Voyage Board chart. Double-click the map, or use + and &minus;, to zoom.</p>
+  <p class="hs-note">Drawn from the game&rsquo;s own Voyage Board chart. <b>Drag to move around, scroll or pinch to zoom.</b> Zoom in far enough and you dive to the next level; zoom out to climb back.</p>
+</section>
+
+<section class="hs-sec" id="ark">
+  <div class="hs-k rv"><i></i>The Ark</div>
+  <h2 class="hs-h2 rv">Your ship <em>between the stars</em></h2>
+  <div class="hs-ark">
+    <div class="tx rv">
+      <p class="hs-lead" style="margin:0">The Ark carries your squad, its artifacts and the payload you came for. A clam of the HyperSea: its shell fans out aft, its jets fire from the gape, and its seams glow in your domain&rsquo;s colour. <b>It is the game&rsquo;s own model.</b></p>
+      <ul class="facts">
+        <li><b>3</b><span>Pilots in the squad it carries</span></li>
+        <li><b>20 ly</b><span>A minute of sailing down the lanes</span></li>
+        <li><b>4</b><span>Cards each seat holds: vessel, element, pilot, artifact</span></li>
+      </ul>
+    </div>
+    <div class="hs-ark3d rv rvr" id="hs-ark" data-src="/assets/hypersea/ark.glb">
+      <canvas tabindex="0" aria-label="The Ark in 3D. Drag to turn it, scroll or pinch to zoom; arrow keys work too."></canvas>
+      <div class="load"><span></span><span></span><span></span></div>
+      <p class="fail">This browser cannot draw the Ark in 3D.</p>
+      <div class="bar"><span class="hs-lab">Drag to turn &middot; scroll to zoom</span><div class="doms" role="radiogroup" aria-label="The Ark's domain"></div></div>
+    </div>
+  </div>
 </section>
 
 <section class="hs-sec" id="story">
