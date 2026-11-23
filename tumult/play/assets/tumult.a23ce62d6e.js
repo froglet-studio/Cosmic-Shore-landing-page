@@ -1,5 +1,5 @@
 window.T = window.T || {};
-window.T.BUILD = {"version":"2.131.0","playtest":false};
+window.T.BUILD = {"version":"2.137.0","playtest":false};
 window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"assets/pilots/ALOIX.43e4999b34.jpg","pilot/ANOTH":"assets/pilots/ANOTH.8c8ba3872e.jpg","pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVIL":"assets/pilots/ANVIL.d03812188c.jpg","pilot/ARARA":"assets/pilots/ARARA.a9a5f5e370.jpg","pilot/ARILIA":"assets/pilots/ARILIA.811131207d.jpg","pilot/ASTROFOIL":"assets/pilots/ASTROFOIL.5c9fa6f14d.jpg","pilot/ATHARA":"assets/pilots/ATHARA.566837ceea.jpg","pilot/BANDIT":"assets/pilots/BANDIT.09391a446f.jpg","pilot/BELBERIN":"assets/pilots/BELBERIN.fe552f843d.jpg","pilot/BELDIRI":"assets/pilots/BELDIRI.bb899d0989.jpg","pilot/BELKO":"assets/pilots/BELKO.bf1893ac6e.jpg","pilot/BELMIDEK":"assets/pilots/BELMIDEK.9f9b46dd53.jpg","pilot/BELRENRO":"assets/pilots/BELRENRO.a8d1afd2ec.jpg","pilot/BELSIAR":"assets/pilots/BELSIAR.3421845c80.jpg","pilot/BELSOTH":"assets/pilots/BELSOTH.ddc38ecbd4.jpg","pilot/BELTHALY":"assets/pilots/BELTHALY.9ca6a590b5.jpg","pilot/BELWEN":"assets/pilots/BELWEN.bdae9555bc.jpg","pilot/BRILOLIA":"assets/pilots/BRILOLIA.8c33011094.jpg","pilot/BRIOLA":"assets/pilots/BRIOLA.d016ba9df1.jpg","pilot/BRIRAIX":"assets/pilots/BRIRAIX.ad5523ef69.jpg","pilot/BRISH":"assets/pilots/BRISH.7ffedf9d77.jpg","pilot/BRISILIA":"assets/pilots/BRISILIA.55b830452a.jpg","pilot/BUSHY":"assets/pilots/BUSHY.22cbdd91fa.jpg","pilot/CABEANE":"assets/pilots/CABEANE.a3f9f37902.jpg","pilot/CAKOOLA":"assets/pilots/CAKOOLA.410a91f525.jpg","pilot/CALADEK":"assets/pilots/CALADEK.4b0d375c6b.jpg","pilot/CALAOLA":"assets/pilots/CALAOLA.7d0d031d3c.jpg","pilot/CALOSH":"assets/pilots/CALOSH.a4d55479d5.jpg","pilot/CANUAR":"assets/pilots/CANUAR.224b61c8a2.jpg","pilot/CARIEL":"assets/pilots/CARIEL.5798c71984.jpg","pilot/CARIO":"assets/pilots/CARIO.fcc67b00ee.jpg","pilot/CITADEL":"assets/pilots/CITADEL.ee7edc065c.jpg","pilot/COMET":"assets/pilots/COMET.0af72b6f6d.jpg","pilot/CORANE":"assets/pilots/CORANE.c7026949b3.jpg","pilot/CORBEEK":"assets/pilots/CORBEEK.78e1c6ddb3.jpg","pilot/CORBEMO":"assets/pilots/CORBEMO.46051982a0.jpg","pilot/CORLILIA":"assets/pilots/CORLILIA.658f4b32f5.jpg","pilot/CORN":"assets/pilots/CORN.65f73d8382.jpg","pilot/CORNDO":"assets/pilots/CORNDO.c16588c87e.jpg","pilot/CORRARIN":"assets/pilots/CORRARIN.879c9ccf14.jpg","pilot/DAMSEL":"assets/pilots/DAMSEL.adb17d42d3.jpg","pilot/DAREK":"assets/pilots/DAREK.1dfdf1341f.jpg","pilot/DARSOANE":"assets/pilots/DARSOANE.3f55e457c7.jpg","pilot/DARX":"assets/pilots/DARX.4434a58e68.jpg","pilot/DELKO":"assets/pilots/DELKO.5d1e306ef5.jpg","pilot/DELLALIA":"assets/pilots/DELLALIA.1672cffe6e.jpg","pilot/DELLIAR":"assets/pilots/DELLIAR.e5a0375180.jpg","pilot/DELLOANE":"assets/pilots/DELLOANE.73d7910dea.jpg","pilot/DELLORIN":"assets/pilots/DELLORIN.408027cb25.jpg","pilot/DELMADEK":"assets/pilots/DELMADEK.3a826e35b1.jpg","pilot/DELNURI":"assets/pilots/DELNURI.3db0ec910b.jpg","pilot/DELSOKO":"assets/pilots/DELSOKO.e4c15c3589.jpg","pilot/DOE":"assets/pilots/DOE.f54ac28b36.jpg","pilot/DOZER":"assets/pilots/DOZER.0c2e273a78.jpg","pilot/ECHO":"assets/pilots/ECHO.09a66c8cd4.jpg","pilot/EMAO":"assets/pilots/EMAO.d8fb6d5e8b.jpg","pilot/ENSIGN":"assets/pilots/ENSIGN.dc51eec735.jpg","pilot/FENKORA":"assets/pilots/FENKORA.725f42bbe3.jpg","pilot/FENLALIA":"assets/pilots/FENLALIA.c2507593a2.jpg","pilot/FENRA":"assets/pilots/FENRA.11faa43159.jpg","pilot/FENX":"assets/pilots/FENX.7305adac5b.jpg","pilot/FIEST":"assets/pilots/FIEST.ca4f6072bf.jpg","pilot/FLUME":"assets/pilots/FLUME.99e34640fa.jpg","pilot/FLUX":"assets/pilots/FLUX.53b20c2d11.jpg","pilot/GALBEMO":"assets/pilots/GALBEMO.f3284426f7.jpg","pilot/GALLEON":"assets/pilots/GALLEON.4007ec2ba5.jpg","pilot/GALLITH":"assets/pilots/GALLITH.5231762b0e.jpg","pilot/GALMAO":"assets/pilots/GALMAO.52299a1823.jpg","pilot/GALSOLY":"assets/pilots/GALSOLY.fa08182309.jpg","pilot/GALSOOLA":"assets/pilots/GALSOOLA.4c636b23c0.jpg","pilot/HABEAR":"assets/pilots/HABEAR.c1432e4446.jpg","pilot/HAN":"assets/pilots/HAN.1836d0f7c3.jpg","pilot/HORNET":"assets/pilots/HORNET.c42014a776.jpg","pilot/IDIO":"assets/pilots/IDIO.cdde754cbb.jpg","pilot/ILORIN":"assets/pilots/ILORIN.b99e2531b1.jpg","pilot/IRI":"assets/pilots/IRI.37eadaad4b.jpg","pilot/ISOLO":"assets/pilots/ISOLO.2fb9735223.jpg","pilot/ITHAX":"assets/pilots/ITHAX.0ead69e72c.jpg","pilot/IVY":"assets/pilots/IVY.473c6f1896.jpg","pilot/JODIOLA":"assets/pilots/JODIOLA.1f05357781.jpg","pilot/JORIRO":"assets/pilots/JORIRO.58e95a465f.jpg","pilot/JORO":"assets/pilots/JORO.c85885531a.jpg","pilot/JOSORA":"assets/pilots/JOSORA.1cebcfd064.jpg","pilot/JOTHAAR":"assets/pilots/JOTHAAR.b0ce1e8cfd.jpg","pilot/JOUS":"assets/pilots/JOUS.1441533e13.jpg","pilot/JUGGER":"assets/pilots/JUGGER.586ce53079.jpg","pilot/KABEN":"assets/pilots/KABEN.11aeb58071.jpg","pilot/KADIWEN":"assets/pilots/KADIWEN.b7c104428c.jpg","pilot/KALARA":"assets/pilots/KALARA.dcf1fb3cb3.jpg","pilot/KAMASH":"assets/pilots/KAMASH.3f121ebad5.jpg","pilot/KARIIX":"assets/pilots/KARIIX.26a2fc2eb5.jpg","pilot/KASH":"assets/pilots/KASH.e0ac12c2b3.jpg","pilot/KRUSH":"assets/pilots/KRUSH.334b99716e.jpg","pilot/LONGSHIFT":"assets/pilots/LONGSHIFT.ddbb54691b.jpg","pilot/LUDIRA":"assets/pilots/LUDIRA.650f72fc2c.jpg","pilot/LULAANE":"assets/pilots/LULAANE.b4607cb3ba.jpg","pilot/LULIIA":"assets/pilots/LULIIA.faec6f17f0.jpg","pilot/LUNULO":"assets/pilots/LUNULO.c34b9c91ea.jpg","pilot/MAESTRO":"assets/pilots/MAESTRO.a123e74967.jpg","pilot/MAIX":"assets/pilots/MAIX.4b2949e043.jpg","pilot/MAKOOLA":"assets/pilots/MAKOOLA.d012951ffc.jpg","pilot/MALIMO":"assets/pilots/MALIMO.46cca662aa.jpg","pilot/MALOANE":"assets/pilots/MALOANE.fb0febbb8f.jpg","pilot/MAMAOLA":"assets/pilots/MAMAOLA.fd43dae51a.jpg","pilot/MAMO":"assets/pilots/MAMO.e7c7558b96.jpg","pilot/MANGER":"assets/pilots/MANGER.a0cc5e1ece.jpg","pilot/MASON":"assets/pilots/MASON.bb77e506ba.jpg","pilot/MATA":"assets/pilots/MATA.df79b0b771.jpg","pilot/MIBEN":"assets/pilots/MIBEN.ee2acc08ee.jpg","pilot/MILAWEN":"assets/pilots/MILAWEN.3fc4c98f63.jpg","pilot/MILOLY":"assets/pilots/MILOLY.7672bea8a5.jpg","pilot/MIRAVE":"assets/pilots/MIRAVE.860273dbe5.jpg","pilot/MIRIN":"assets/pilots/MIRIN.02fa308242.jpg","pilot/MIRIOLA":"assets/pilots/MIRIOLA.9f4cc46468.jpg","pilot/MIRISA":"assets/pilots/MIRISA.b07a8d02e5.jpg","pilot/MISISH":"assets/pilots/MISISH.14775cdde4.jpg","pilot/NEEDLE":"assets/pilots/NEEDLE.5c9752c43d.jpg","pilot/NEKOANE":"assets/pilots/NEKOANE.12595b28fc.jpg","pilot/NELASA":"assets/pilots/NELASA.9067cbecd6.jpg","pilot/NELOEL":"assets/pilots/NELOEL.bfd6c80df6.jpg","pilot/NEMAIX":"assets/pilots/NEMAIX.ba3482a3d6.jpg","pilot/NEMAMO":"assets/pilots/NEMAMO.99e0c5eb4e.jpg","pilot/NEMATH":"assets/pilots/NEMATH.35c2ca859f.jpg","pilot/NENUVE":"assets/pilots/NENUVE.94f14ed8e5.jpg","pilot/NENUX":"assets/pilots/NENUX.f1d1bb0fe0.jpg","pilot/NETHAEL":"assets/pilots/NETHAEL.be820038e5.jpg","pilot/OLIA":"assets/pilots/OLIA.da6136c8fe.jpg","pilot/OLO":"assets/pilots/OLO.9b6a4ab50b.jpg","pilot/OLOEL":"assets/pilots/OLOEL.69aed7c06d.jpg","pilot/OLONE":"assets/pilots/OLONE.4af0e1679c.jpg","pilot/OMAKO":"assets/pilots/OMAKO.ff8f9475a0.jpg","pilot/OMIX":"assets/pilots/OMIX.7e4cce2f55.jpg","pilot/OPAL":"assets/pilots/OPAL.f4ce50ebbd.jpg","pilot/ORA":"assets/pilots/ORA.4c9ef87a50.jpg","pilot/OTH":"assets/pilots/OTH.c00d404eac.jpg","pilot/OVEX":"assets/pilots/OVEX.0e23891b01.jpg","pilot/PEDIRI":"assets/pilots/PEDIRI.ff60b065ac.jpg","pilot/PEKOAR":"assets/pilots/PEKOAR.90011b2608.jpg","pilot/PELOWEN":"assets/pilots/PELOWEN.3961de0010.jpg","pilot/PEMIIX":"assets/pilots/PEMIIX.6e5f68277a.jpg","pilot/PENDO":"assets/pilots/PENDO.3a9665e717.jpg","pilot/PENOOLA":"assets/pilots/PENOOLA.2240a3f002.jpg","pilot/PERENSA":"assets/pilots/PERENSA.c2f79395b5.jpg","pilot/PEVETH":"assets/pilots/PEVETH.a7262bbee0.jpg","pilot/PEWEN":"assets/pilots/PEWEN.724de93a6c.jpg","pilot/QUIBEMO":"assets/pilots/QUIBEMO.cf223775f3.jpg","pilot/QUIKOTH":"assets/pilots/QUIKOTH.5b32c6fee0.jpg","pilot/QUILOX":"assets/pilots/QUILOX.74ddb1971a.jpg","pilot/RAMPART":"assets/pilots/RAMPART.d688721f54.jpg","pilot/REAPER":"assets/pilots/REAPER.fcf80ec2b0.jpg","pilot/RIPTIDE":"assets/pilots/RIPTIDE.4a3167f030.jpg","pilot/RODIIX":"assets/pilots/RODIIX.86e905da55.jpg","pilot/ROLAMO":"assets/pilots/ROLAMO.2eb683e84d.jpg","pilot/ROLODEK":"assets/pilots/ROLODEK.722a593429.jpg","pilot/ROSIRIN":"assets/pilots/ROSIRIN.d29bee21d7.jpg","pilot/ROSONDO":"assets/pilots/ROSONDO.66d75c34bc.jpg","pilot/SABERO":"assets/pilots/SABERO.1c5a6df9ce.jpg","pilot/SAMAIA":"assets/pilots/SAMAIA.2c22477f3f.jpg","pilot/SANUIA":"assets/pilots/SANUIA.57d607dc33.jpg","pilot/SARAX":"assets/pilots/SARAX.0b9ca8d036.jpg","pilot/SASOKO":"assets/pilots/SASOKO.78f94f903d.jpg","pilot/SATHAANE":"assets/pilots/SATHAANE.8061cd8012.jpg","pilot/SCALES":"assets/pilots/SCALES.87715f6be5.jpg","pilot/SHRAPNEL":"assets/pilots/SHRAPNEL.60bf432658.jpg","pilot/SIPHON":"assets/pilots/SIPHON.64319ecec6.jpg","pilot/SLINGSHOT":"assets/pilots/SLINGSHOT.782ce6f557.jpg","pilot/SPARE01":"assets/pilots/SPARE01.e7bb1001da.jpg","pilot/SPARE02":"assets/pilots/SPARE02.4661694d58.jpg","pilot/SPARE03":"assets/pilots/SPARE03.157488b8ca.jpg","pilot/SPARE04":"assets/pilots/SPARE04.8cee2a69f6.jpg","pilot/SPARE05":"assets/pilots/SPARE05.7b664e7e50.jpg","pilot/SPARE06":"assets/pilots/SPARE06.6784507633.jpg","pilot/SPARE07":"assets/pilots/SPARE07.b83ac8694b.jpg","pilot/SPARE08":"assets/pilots/SPARE08.0f29c38886.jpg","pilot/STRIDER":"assets/pilots/STRIDER.1f777221cb.jpg","pilot/SUNDIAL":"assets/pilots/SUNDIAL.e301dbb8a1.jpg","pilot/TAKOANE":"assets/pilots/TAKOANE.f587bc8275.jpg","pilot/TAKOUS":"assets/pilots/TAKOUS.7e9c0c4788.jpg","pilot/TALOLO":"assets/pilots/TALOLO.f410317b58.jpg","pilot/TALON":"assets/pilots/TALON.98273b2e9a.jpg","pilot/TAMO":"assets/pilots/TAMO.b86f11dac8.jpg","pilot/TANUWEN":"assets/pilots/TANUWEN.fcc7bda948.jpg","pilot/TENACIOUS":"assets/pilots/TENACIOUS.c0e1c59b06.jpg","pilot/TENDER":"assets/pilots/TENDER.83a2dbd7da.jpg","pilot/TOMAHAWK":"assets/pilots/TOMAHAWK.9de0540c54.jpg","pilot/TRACE":"assets/pilots/TRACE.6c835c4aad.jpg","pilot/UIX":"assets/pilots/UIX.0fe225230f.jpg","pilot/ULIA":"assets/pilots/ULIA.4a68fe9c11.jpg","pilot/ULINE":"assets/pilots/ULINE.ae7d05e530.jpg","pilot/ULOTH":"assets/pilots/ULOTH.71d6f7c78c.jpg","pilot/URO":"assets/pilots/URO.d153fb9c2a.jpg","pilot/UTHAEL":"assets/pilots/UTHAEL.0a0b4d057c.jpg","pilot/VERAO":"assets/pilots/VERAO.f428fc465b.jpg","pilot/VEVEOLA":"assets/pilots/VEVEOLA.2cb64352bc.jpg","pilot/VOLT":"assets/pilots/VOLT.80a1160ef3.jpg","pilot/WINGMAN":"assets/pilots/WINGMAN.8d484a3eaa.jpg","pilot/WYNE":"assets/pilots/WYNE.efc33aaea6.jpg","pilot/WYSOOLA":"assets/pilots/WYSOOLA.8c6ed6c54f.jpg","pilot/WYVE":"assets/pilots/WYVE.2bb9ad32fe.jpg","pilot/XABEDEK":"assets/pilots/XABEDEK.eabb0f810c.jpg","pilot/XALAAI":"assets/pilots/XALAAI.36e79f1ad5.jpg","pilot/XATHALO":"assets/pilots/XATHALO.d23dd174f6.jpg","pilot/XATHATA":"assets/pilots/XATHATA.f204d7c75c.jpg","pilot/YOMILIA":"assets/pilots/YOMILIA.b03bd1a399.jpg","pilot/YON":"assets/pilots/YON.10cd6d706c.jpg","pilot/YONE":"assets/pilots/YONE.a4357d30ec.jpg","pilot/YONOEK":"assets/pilots/YONOEK.a5e16f1f7d.jpg","pilot/YOVE":"assets/pilots/YOVE.45a3fec698.jpg","pilot/YOX":"assets/pilots/YOX.8a9d3ef821.jpg","pilot/ZEBEEL":"assets/pilots/ZEBEEL.228eb5f947.jpg","pilot/ZERIOLA":"assets/pilots/ZERIOLA.a42ba833dd.jpg","pilot/ZESONDO":"assets/pilots/ZESONDO.56538e063c.jpg","pilot/ZETH":"assets/pilots/ZETH.7549b5d26e.jpg","pilot/ZODIAC":"assets/pilots/ZODIAC.935c77c2bc.jpg","scene/AANE":"assets/scenes/AANE.19ab7f1c48.webp","scene/ALOIX":"assets/scenes/ALOIX.aaede637bf.webp","scene/ANOTH":"assets/scenes/ANOTH.849e56e96b.webp","scene/ANUDEK":"assets/scenes/ANUDEK.c7fc3c6d91.webp","scene/ANVIL":"assets/scenes/ANVIL.2e925512a0.webp","scene/ARARA":"assets/scenes/ARARA.c712c541d4.webp","scene/ARILIA":"assets/scenes/ARILIA.38d174512a.webp","scene/ASTROFOIL":"assets/scenes/ASTROFOIL.442347f8d5.webp","scene/ATHARA":"assets/scenes/ATHARA.5a0dc94b6b.webp","scene/BANDIT":"assets/scenes/BANDIT.9d2d80e3a6.webp","scene/BELBERIN":"assets/scenes/BELBERIN.9dc892d85d.webp","scene/BELDIRI":"assets/scenes/BELDIRI.7d790fdb67.webp","scene/BELKO":"assets/scenes/BELKO.56e1f880d8.webp","scene/BELMIDEK":"assets/scenes/BELMIDEK.7b1da9d6b0.webp","scene/BELRENRO":"assets/scenes/BELRENRO.dc9ff56a3a.webp","scene/BELSIAR":"assets/scenes/BELSIAR.a8eaf9d88b.webp","scene/BELSOTH":"assets/scenes/BELSOTH.54a3be9405.webp","scene/BELTHALY":"assets/scenes/BELTHALY.fa15ba2be1.webp","scene/BELWEN":"assets/scenes/BELWEN.767a6c0025.webp","scene/BRILOLIA":"assets/scenes/BRILOLIA.c6e8d0fca0.webp","scene/BRIOLA":"assets/scenes/BRIOLA.60d0f0ecf5.webp","scene/BRIRAIX":"assets/scenes/BRIRAIX.a6e34af4ca.webp","scene/BRISH":"assets/scenes/BRISH.b7278bc17a.webp","scene/BRISILIA":"assets/scenes/BRISILIA.ed69a87a70.webp","scene/BUSHY":"assets/scenes/BUSHY.37f0cffc7e.webp","scene/CABEANE":"assets/scenes/CABEANE.ae36719e11.webp","scene/CAKOOLA":"assets/scenes/CAKOOLA.1e9758eb23.webp","scene/CALADEK":"assets/scenes/CALADEK.ede525d8fd.webp","scene/CALAOLA":"assets/scenes/CALAOLA.6ba5fcbd98.webp","scene/CALOSH":"assets/scenes/CALOSH.c23b3c6773.webp","scene/CANUAR":"assets/scenes/CANUAR.40963d2f4a.webp","scene/CARIEL":"assets/scenes/CARIEL.09df404ab3.webp","scene/CARIO":"assets/scenes/CARIO.37cd14ba51.webp","scene/CITADEL":"assets/scenes/CITADEL.0c830e6ac4.webp","scene/COMET":"assets/scenes/COMET.738dc2177c.webp","scene/CORANE":"assets/scenes/CORANE.581f169af1.webp","scene/CORBEEK":"assets/scenes/CORBEEK.0873c8c795.webp","scene/CORBEMO":"assets/scenes/CORBEMO.9845817e52.webp","scene/CORLILIA":"assets/scenes/CORLILIA.e40de856b8.webp","scene/CORN":"assets/scenes/CORN.fb1b40e6f8.webp","scene/CORNDO":"assets/scenes/CORNDO.6755bf5e75.webp","scene/CORRARIN":"assets/scenes/CORRARIN.bf468113ff.webp","scene/DAMSEL":"assets/scenes/DAMSEL.59812cfeda.webp","scene/DAREK":"assets/scenes/DAREK.7ed92a3ef9.webp","scene/DARSOANE":"assets/scenes/DARSOANE.4b79c3c341.webp","scene/DARX":"assets/scenes/DARX.ff23e4f983.webp","scene/DELKO":"assets/scenes/DELKO.e44a3ebb31.webp","scene/DELLALIA":"assets/scenes/DELLALIA.56350ea109.webp","scene/DELLIAR":"assets/scenes/DELLIAR.4bc6f8803d.webp","scene/DELLOANE":"assets/scenes/DELLOANE.25922c8374.webp","scene/DELLORIN":"assets/scenes/DELLORIN.2d3d679877.webp","scene/DELMADEK":"assets/scenes/DELMADEK.cf8021a033.webp","scene/DELNURI":"assets/scenes/DELNURI.b339d62834.webp","scene/DELSOKO":"assets/scenes/DELSOKO.9dbe840e12.webp","scene/DOE":"assets/scenes/DOE.743094a514.webp","scene/DOZER":"assets/scenes/DOZER.bac0ce0f02.webp","scene/ECHO":"assets/scenes/ECHO.51b039badf.webp","scene/EMAO":"assets/scenes/EMAO.ef58a4cac6.webp","scene/ENSIGN":"assets/scenes/ENSIGN.41d1bdb5e2.webp","scene/FENKORA":"assets/scenes/FENKORA.ca6f5e4882.webp","scene/FENLALIA":"assets/scenes/FENLALIA.baec7fbcfd.webp","scene/FENRA":"assets/scenes/FENRA.a47ec27e47.webp","scene/FENX":"assets/scenes/FENX.328d8fd42c.webp","scene/FIEST":"assets/scenes/FIEST.29ffa75d52.webp","scene/FLUME":"assets/scenes/FLUME.831e812850.webp","scene/FLUX":"assets/scenes/FLUX.784c434eca.webp","scene/GALBEMO":"assets/scenes/GALBEMO.2e81ec9091.webp","scene/GALLEON":"assets/scenes/GALLEON.b9dcec2de6.webp","scene/GALLITH":"assets/scenes/GALLITH.14fe31bedf.webp","scene/GALMAO":"assets/scenes/GALMAO.b04936aa04.webp","scene/GALSOLY":"assets/scenes/GALSOLY.4d8fb255fd.webp","scene/GALSOOLA":"assets/scenes/GALSOOLA.d6b6071caf.webp","scene/HABEAR":"assets/scenes/HABEAR.c3754c0a42.webp","scene/HAN":"assets/scenes/HAN.1bd1f99f64.webp","scene/HORNET":"assets/scenes/HORNET.f9f87eec8c.webp","scene/IDIO":"assets/scenes/IDIO.bc2d1284c2.webp","scene/ILORIN":"assets/scenes/ILORIN.34002ec122.webp","scene/IRI":"assets/scenes/IRI.a76c37a550.webp","scene/ISOLO":"assets/scenes/ISOLO.b910f79333.webp","scene/ITHAX":"assets/scenes/ITHAX.28a03e245a.webp","scene/IVY":"assets/scenes/IVY.2253d01f62.webp","scene/JODIOLA":"assets/scenes/JODIOLA.0a429f4a78.webp","scene/JORIRO":"assets/scenes/JORIRO.d10f1e899a.webp","scene/JORO":"assets/scenes/JORO.dc03642cf9.webp","scene/JOSORA":"assets/scenes/JOSORA.32e3d61908.webp","scene/JOTHAAR":"assets/scenes/JOTHAAR.9ea6f9b85b.webp","scene/JOUS":"assets/scenes/JOUS.1d6c9420f6.webp","scene/JUGGER":"assets/scenes/JUGGER.d3181c4ef2.webp","scene/KABEN":"assets/scenes/KABEN.8de422d186.webp","scene/KADIWEN":"assets/scenes/KADIWEN.6c415c4ef9.webp","scene/KALARA":"assets/scenes/KALARA.e99f7c696f.webp","scene/KAMASH":"assets/scenes/KAMASH.116ea9f1e1.webp","scene/KARIIX":"assets/scenes/KARIIX.23268b67f5.webp","scene/KASH":"assets/scenes/KASH.76634040ff.webp","scene/KRUSH":"assets/scenes/KRUSH.fc3cd954e8.webp","scene/LONGSHIFT":"assets/scenes/LONGSHIFT.f9e1adaeff.webp","scene/LUDIRA":"assets/scenes/LUDIRA.ec7816d32b.webp","scene/LULAANE":"assets/scenes/LULAANE.51ebe15152.webp","scene/LULIIA":"assets/scenes/LULIIA.9077a35410.webp","scene/LUNULO":"assets/scenes/LUNULO.d1e62aa922.webp","scene/MAESTRO":"assets/scenes/MAESTRO.eca4b31129.webp","scene/MAIX":"assets/scenes/MAIX.78642e32c3.webp","scene/MAKOOLA":"assets/scenes/MAKOOLA.7c7e42d0be.webp","scene/MALIMO":"assets/scenes/MALIMO.c9a29152c0.webp","scene/MALOANE":"assets/scenes/MALOANE.de5471baf6.webp","scene/MAMAOLA":"assets/scenes/MAMAOLA.4dc26ed1a2.webp","scene/MAMO":"assets/scenes/MAMO.b283bab210.webp","scene/MANGER":"assets/scenes/MANGER.0468cebff3.webp","scene/MASON":"assets/scenes/MASON.75cea94d65.webp","scene/MATA":"assets/scenes/MATA.49f9953920.webp","scene/MIBEN":"assets/scenes/MIBEN.15388d4ad6.webp","scene/MILAWEN":"assets/scenes/MILAWEN.4c32be2cad.webp","scene/MILOLY":"assets/scenes/MILOLY.87efbbe09b.webp","scene/MIRAVE":"assets/scenes/MIRAVE.79e2dbd2bd.webp","scene/MIRIN":"assets/scenes/MIRIN.f5b4dfb3f6.webp","scene/MIRIOLA":"assets/scenes/MIRIOLA.2059a5711b.webp","scene/MIRISA":"assets/scenes/MIRISA.ddcf6f697d.webp","scene/MISISH":"assets/scenes/MISISH.911a8a377c.webp","scene/NEEDLE":"assets/scenes/NEEDLE.3dbf5b9812.webp","scene/NEKOANE":"assets/scenes/NEKOANE.d18e5cb9fc.webp","scene/NELASA":"assets/scenes/NELASA.3e445596c5.webp","scene/NELOEL":"assets/scenes/NELOEL.1ade9e4fc8.webp","scene/NEMAIX":"assets/scenes/NEMAIX.18184f34ef.webp","scene/NEMAMO":"assets/scenes/NEMAMO.5a05761c3b.webp","scene/NEMATH":"assets/scenes/NEMATH.b5b90d5a72.webp","scene/NENUVE":"assets/scenes/NENUVE.ae2897a48c.webp","scene/NENUX":"assets/scenes/NENUX.9e6f103485.webp","scene/NETHAEL":"assets/scenes/NETHAEL.114b9e3744.webp","scene/OLIA":"assets/scenes/OLIA.ee5b2e13e0.webp","scene/OLO":"assets/scenes/OLO.35b9f3df87.webp","scene/OLOEL":"assets/scenes/OLOEL.da6296c23d.webp","scene/OLONE":"assets/scenes/OLONE.2ac1694841.webp","scene/OMAKO":"assets/scenes/OMAKO.67ed22a958.webp","scene/OMIX":"assets/scenes/OMIX.50f67bdc07.webp","scene/OPAL":"assets/scenes/OPAL.3daa48ed44.webp","scene/ORA":"assets/scenes/ORA.3070108394.webp","scene/OTH":"assets/scenes/OTH.f5503d3437.webp","scene/OVEX":"assets/scenes/OVEX.a68728232f.webp","scene/PEDIRI":"assets/scenes/PEDIRI.826555c6d7.webp","scene/PEKOAR":"assets/scenes/PEKOAR.3ebc194bfd.webp","scene/PELOWEN":"assets/scenes/PELOWEN.b93e1feb77.webp","scene/PEMIIX":"assets/scenes/PEMIIX.4db83bf174.webp","scene/PENDO":"assets/scenes/PENDO.b016a66667.webp","scene/PENOOLA":"assets/scenes/PENOOLA.b65f3b48ac.webp","scene/PERENSA":"assets/scenes/PERENSA.b312ab0ac6.webp","scene/PEVETH":"assets/scenes/PEVETH.8d93ba651e.webp","scene/PEWEN":"assets/scenes/PEWEN.44fafcbc17.webp","scene/QUIBEMO":"assets/scenes/QUIBEMO.950538197c.webp","scene/QUIKOTH":"assets/scenes/QUIKOTH.a034cc225b.webp","scene/QUILOX":"assets/scenes/QUILOX.31b123f95c.webp","scene/RAMPART":"assets/scenes/RAMPART.c39804e525.webp","scene/REAPER":"assets/scenes/REAPER.d14c0aa60b.webp","scene/RIPTIDE":"assets/scenes/RIPTIDE.c9036541af.webp","scene/RODIIX":"assets/scenes/RODIIX.3d188ea9a0.webp","scene/ROLAMO":"assets/scenes/ROLAMO.107fd45e3c.webp","scene/ROLODEK":"assets/scenes/ROLODEK.968ef4eb57.webp","scene/ROSIRIN":"assets/scenes/ROSIRIN.6ecfbed451.webp","scene/ROSONDO":"assets/scenes/ROSONDO.3a73615b2d.webp","scene/SABERO":"assets/scenes/SABERO.8d0ce150ea.webp","scene/SAMAIA":"assets/scenes/SAMAIA.0643b1c910.webp","scene/SANUIA":"assets/scenes/SANUIA.42e5aa4e28.webp","scene/SARAX":"assets/scenes/SARAX.2e7e752e4b.webp","scene/SASOKO":"assets/scenes/SASOKO.864a2df87d.webp","scene/SATHAANE":"assets/scenes/SATHAANE.60583be976.webp","scene/SCALES":"assets/scenes/SCALES.0548e15be5.webp","scene/SHRAPNEL":"assets/scenes/SHRAPNEL.53eb5e756e.webp","scene/SIPHON":"assets/scenes/SIPHON.f8a26b6185.webp","scene/SLINGSHOT":"assets/scenes/SLINGSHOT.93d04d1ef7.webp","scene/SPARE01":"assets/scenes/SPARE01.b8c82ffc82.webp","scene/SPARE02":"assets/scenes/SPARE02.7cebea6d1d.webp","scene/SPARE03":"assets/scenes/SPARE03.d420985727.webp","scene/SPARE04":"assets/scenes/SPARE04.23fb0f067d.webp","scene/SPARE05":"assets/scenes/SPARE05.ac53bf8c68.webp","scene/SPARE06":"assets/scenes/SPARE06.a8814e5a25.webp","scene/SPARE07":"assets/scenes/SPARE07.3f7285ebad.webp","scene/SPARE08":"assets/scenes/SPARE08.2f72e653db.webp","scene/STRIDER":"assets/scenes/STRIDER.a0fccff34e.webp","scene/SUNDIAL":"assets/scenes/SUNDIAL.74ce284aa1.webp","scene/TAKOANE":"assets/scenes/TAKOANE.50b7909e7a.webp","scene/TAKOUS":"assets/scenes/TAKOUS.4423f66569.webp","scene/TALOLO":"assets/scenes/TALOLO.a0dc4ff99f.webp","scene/TALON":"assets/scenes/TALON.9ddf0dab5d.webp","scene/TAMO":"assets/scenes/TAMO.dc1c243760.webp","scene/TANUWEN":"assets/scenes/TANUWEN.ff811edd1c.webp","scene/TENACIOUS":"assets/scenes/TENACIOUS.3d447a26ac.webp","scene/TENDER":"assets/scenes/TENDER.e5b9cad127.webp","scene/TOMAHAWK":"assets/scenes/TOMAHAWK.66f74d0f4c.webp","scene/TRACE":"assets/scenes/TRACE.acccb15093.webp","scene/UIX":"assets/scenes/UIX.c67a2f0b9c.webp","scene/ULIA":"assets/scenes/ULIA.32294a4cda.webp","scene/ULINE":"assets/scenes/ULINE.ae6d70adb2.webp","scene/ULOTH":"assets/scenes/ULOTH.0c5c64445e.webp","scene/URO":"assets/scenes/URO.153e388940.webp","scene/UTHAEL":"assets/scenes/UTHAEL.a7c79f3ad8.webp","scene/VERAO":"assets/scenes/VERAO.c941b75d70.webp","scene/VEVEOLA":"assets/scenes/VEVEOLA.b6fc585b22.webp","scene/VOLT":"assets/scenes/VOLT.6bc64f10d3.webp","scene/WINGMAN":"assets/scenes/WINGMAN.113acd08b6.webp","scene/WYNE":"assets/scenes/WYNE.0ba11f9e6d.webp","scene/WYSOOLA":"assets/scenes/WYSOOLA.2bbeb36c29.webp","scene/WYVE":"assets/scenes/WYVE.e46330e1cc.webp","scene/XABEDEK":"assets/scenes/XABEDEK.b958807c03.webp","scene/XALAAI":"assets/scenes/XALAAI.c0c25fa102.webp","scene/XATHALO":"assets/scenes/XATHALO.b060046450.webp","scene/XATHATA":"assets/scenes/XATHATA.8e3b0348a0.webp","scene/YOMILIA":"assets/scenes/YOMILIA.172a4b32ca.webp","scene/YON":"assets/scenes/YON.96a08a3e46.webp","scene/YONE":"assets/scenes/YONE.dafec6cd55.webp","scene/YONOEK":"assets/scenes/YONOEK.913e824f05.webp","scene/YOVE":"assets/scenes/YOVE.1099c24040.webp","scene/YOX":"assets/scenes/YOX.a22bebea1c.webp","scene/ZEBEEL":"assets/scenes/ZEBEEL.81939caf01.webp","scene/ZERIOLA":"assets/scenes/ZERIOLA.01e889f7d1.webp","scene/ZESONDO":"assets/scenes/ZESONDO.3899ccfed5.webp","scene/ZETH":"assets/scenes/ZETH.446cb00c81.webp","scene/ZODIAC":"assets/scenes/ZODIAC.cf92a6f4c3.webp","portrait/sheet-1":"assets/portraits/sheet-1.044e47199d.webp","portrait/sheet-2":"assets/portraits/sheet-2.a0a86a6b7e.webp","portrait/sheet-3":"assets/portraits/sheet-3.c17b5b3caa.webp","portrait/sheet-4":"assets/portraits/sheet-4.3cc95a8dc5.webp","portrait/sheet-5":"assets/portraits/sheet-5.a07207cfc3.webp","portrait/sheet-6":"assets/portraits/sheet-6.91ea2aa75e.webp"};
 window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3","sfx/ally-mass":"assets/audio/sfx/ally-mass.a42b7e9e48.mp3","sfx/ally-space":"assets/audio/sfx/ally-space.3adb6604b2.mp3","sfx/ally-time":"assets/audio/sfx/ally-time.dcaa4691cd.mp3","sfx/big-reward":"assets/audio/sfx/big-reward.5b427853d2.mp3","sfx/block-break":"assets/audio/sfx/block-break.5e8a571b28.mp3","sfx/boost":"assets/audio/sfx/boost.032b2b658a.mp3","sfx/bump":"assets/audio/sfx/bump.a302970354.mp3","sfx/click":"assets/audio/sfx/click.62964b4526.mp3","sfx/close":"assets/audio/sfx/close.f0c5aee0d4.mp3","sfx/comeback-charge":"assets/audio/sfx/comeback-charge.7a33d514ac.mp3","sfx/comeback-mass":"assets/audio/sfx/comeback-mass.78b1590812.mp3","sfx/comeback-space":"assets/audio/sfx/comeback-space.152a325a92.mp3","sfx/comeback-time":"assets/audio/sfx/comeback-time.bc1f7be2e3.mp3","sfx/confirm":"assets/audio/sfx/confirm.e4de9811a7.mp3","sfx/creature-hit":"assets/audio/sfx/creature-hit.03d7a219c9.mp3","sfx/crystal":"assets/audio/sfx/crystal.a1b7e57321.mp3","sfx/denied":"assets/audio/sfx/denied.04957755ac.mp3","sfx/drift-release":"assets/audio/sfx/drift-release.e738945c65.mp3","sfx/energy":"assets/audio/sfx/energy.934817b223.mp3","sfx/explosion":"assets/audio/sfx/explosion.3050127e5a.mp3","sfx/game-over":"assets/audio/sfx/game-over.702ea21020.mp3","sfx/goal":"assets/audio/sfx/goal.cfe75da49b.mp3","sfx/hover":"assets/audio/sfx/hover.ccadb0cfe6.mp3","sfx/impact":"assets/audio/sfx/impact.fe37fd06b0.mp3","sfx/joust-charge":"assets/audio/sfx/joust-charge.87f06324dc.mp3","sfx/joust-mass":"assets/audio/sfx/joust-mass.6224b3cb46.mp3","sfx/joust-space":"assets/audio/sfx/joust-space.f3c0a48ee9.mp3","sfx/joust-time":"assets/audio/sfx/joust-time.bb4491648e.mp3","sfx/kill-1":"assets/audio/sfx/kill-1.b66e724a8c.mp3","sfx/kill-2":"assets/audio/sfx/kill-2.ab0d89d7b1.mp3","sfx/kill-3":"assets/audio/sfx/kill-3.502d04263f.mp3","sfx/kill-4":"assets/audio/sfx/kill-4.9ea4c9bd63.mp3","sfx/kill-5":"assets/audio/sfx/kill-5.1dcb41de1d.mp3","sfx/kill-6":"assets/audio/sfx/kill-6.e4d67b43e1.mp3","sfx/laser":"assets/audio/sfx/laser.51b7a7d958.mp3","sfx/lets-go":"assets/audio/sfx/lets-go.724c055e35.mp3","sfx/mine":"assets/audio/sfx/mine.895f98ef93.mp3","sfx/open":"assets/audio/sfx/open.3f77dc083f.mp3","sfx/redeem":"assets/audio/sfx/redeem.dc1d933feb.mp3","sfx/score":"assets/audio/sfx/score.f1a1cb678d.mp3","sfx/shield-down":"assets/audio/sfx/shield-down.fe30285159.mp3","sfx/shield-up":"assets/audio/sfx/shield-up.20446b8988.mp3","sfx/skim":"assets/audio/sfx/skim.278c4db469.mp3","sfx/small-reward":"assets/audio/sfx/small-reward.d4f5f59ac8.mp3","sfx/spawn":"assets/audio/sfx/spawn.3226f9dbb6.mp3","sfx/speed-burst":"assets/audio/sfx/speed-burst.fbba886883.mp3","sfx/switch-2":"assets/audio/sfx/switch-2.26b3b37ab0.mp3","sfx/switch":"assets/audio/sfx/switch.037e07875f.mp3","sfx/upgrade":"assets/audio/sfx/upgrade.5b427853d2.mp3","music/chill-time-3":"assets/audio/music/chill-time-3.eca02cddb7.mp3","music/cosmic-shore-2":"assets/audio/music/cosmic-shore-2.5734c1223d.mp3","music/cosmic-shore-3-loop":"assets/audio/music/cosmic-shore-3-loop.bb6b2dbb29.mp3","music/cosmic-shore-3":"assets/audio/music/cosmic-shore-3.f3edad3958.mp3","music/disoriented":"assets/audio/music/disoriented.708257d7e5.mp3","music/end-game-outro":"assets/audio/music/end-game-outro.a4b43851e7.mp3","music/secret-hide-away":"assets/audio/music/secret-hide-away.42597bb658.mp3","music/severity":"assets/audio/music/severity.2952453c7a.mp3","music/sky-fire":"assets/audio/music/sky-fire.75c69b47e4.mp3","music/space-gliding":"assets/audio/music/space-gliding.87c150d42c.mp3","music/waited-so-long":"assets/audio/music/waited-so-long.5c0c2c9e3e.mp3"};
 
@@ -894,8 +894,13 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
    • A pet comes with one card, made when it is found (Garrett, 2026-11-21: "it has a random card from each of
      the three species. grab the physical part from all three cards and turn it into one card with three
      physical abilities. the whole card goes on cooldown when one is used"). One trait is drawn from each of
-     its clades, and the pet card carries the three Physical faces, as faces P, P2 and P3. It has no Ethereal
-     face. It sits in the pilot's kit, counts toward the nine, and grows with P like any Physical face.
+     its clades, and the pet card carries the three Physical faces, as faces P, P2 and P3. It sits in the
+     pilot's kit, counts toward the nine, and grows with P like any Physical face.
+   • Awakening a pet (2.133; Garrett, 2026-11-22: "let players spend their upgrade points awakening ethereal
+     abilities in their pets"). The card also holds the three traits' Ethereal faces, as E, E2 and E3, asleep.
+     Each upgrade point spent on the pet's E awakens one more of them, in its traits' order: E 1 wakes E, E 2
+     wakes E2 as well, E 3 all three. Every awake one grows with the card's E like any Ethereal face, and costs
+     its own trait's etherion.
    • A pet card is paid with the pilot's dice and goes on the pilot's track whole, whichever face was played,
      but it acts from the pet: its reach, its strikes, its steps, its own states ("you" on the face is the
      pet). What a face does to dice, the track or the purse still goes to the pilot (T.PET_PILOT_VERBS).
@@ -929,11 +934,37 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
    */
   T.PET_PILOT_VERBS = ['mint', 'draw', 'reroll', 'haste', 'engine', 'rest', 'execute'];
 
-  /** The face keys of a card: P and E for a trait, P, P2 and P3 for a pet's card. */
+  /** The face keys of a card: P and E for a trait; P, P2 and P3, then E, E2 and E3, for a pet's card. */
   T.PET_FACES = ['P', 'P2', 'P3'];
+  T.PET_ETH = ['E', 'E2', 'E3'];
+  T.PET_ALL = T.PET_FACES.concat(T.PET_ETH);
   T.faceKeys = (cardId) => {
     const c = T.CARD[cardId];
-    return c && c.pet ? T.PET_FACES : c && c.faces ? c.faces : ['P', 'E']; // a gear card names its own (world.js)
+    return c && c.pet ? (c.E ? T.PET_ALL : T.PET_FACES) : c && c.faces ? c.faces : ['P', 'E']; // gear names its own
+  };
+  /** Is this face key an Ethereal face (E on a trait; E, E2 or E3 on a pet's card)? */
+  T.isEthFace = (fk) => fk === 'E' || fk === 'E2' || fk === 'E3';
+  /**
+   * Can this face be played yet, by its card's E? A Physical face always; a trait's Ethereal face from
+   * T.RULES.ETHEREAL_MIN_E; a pet's k-th Ethereal face from E k (one awakened a point).
+   */
+  T.faceAwake = function (h, cardId, fk) {
+    if (!T.isEthFace(fk)) return true;
+    const c = T.CARD[cardId];
+    const E = T.heroE(h, cardId);
+    if (c && c.pet) return E >= T.PET_ETH.indexOf(fk) + 1;
+    return E >= T.RULES.ETHEREAL_MIN_E;
+  };
+  /** The E a face needs before it can be played (1 for a trait's, 1-3 for a pet's), 0 for a Physical face. */
+  T.faceNeedE = function (cardId, fk) {
+    if (!T.isEthFace(fk)) return 0;
+    const c = T.CARD[cardId];
+    return c && c.pet ? T.PET_ETH.indexOf(fk) + 1 : T.RULES.ETHEREAL_MIN_E;
+  };
+  /** The faces a pilot sees in hand: a pet's Ethereal faces once they are awake, every other card's all. */
+  T.handFaces = (h, cardId) => {
+    const c = T.CARD[cardId];
+    return c && c.pet ? T.faceKeys(cardId).filter((fk) => T.faceAwake(h, cardId, fk)) : T.faceKeys(cardId);
   };
   /** A card that belongs to no clade: a pet's or a gear's. It counts toward the nine, never toward a 3-of-9. */
   T.isKinless = (cardId) => {
@@ -953,10 +984,14 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       name: rec.name,
       el: traits[0].el,
       sig: 0,
-      E: null,
       flavor: `A ${rec.species.map((sp) => (T.SPECIES[sp] ? T.SPECIES[sp].name : sp)).join(', ')} hybrid.`,
     };
     T.PET_FACES.forEach((k, i) => (card[k] = Object.assign({}, traits[i].P, { from: traits[i].id })));
+    // its Ethereal faces, asleep until the pet's E awakens them; each pays its own trait's etherion
+    T.PET_ETH.forEach(
+      (k, i) =>
+        (card[k] = Object.assign({}, traits[i].E, { elt: traits[i].E.elt || traits[i].el, from: traits[i].id })),
+    );
     T.CARD[card.id] = card;
     return card;
   };
@@ -4979,6 +5014,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     FACES: ['M','C','S','T','O','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP'], // the plain die, a d20: each element once, 15 AP
     ELEMENT_DICE: 1,         // each card awakened (E 1+) puts one die of its element in the pool in place of a plain die (2.29)
     FOE_HP: 180,             // foes' vitality, percent of the bestiary's (140 in 2.83: the chosen element die; 145 in 2.85; 150 in 2.108: weapons; 160 in 2.119: gear runs on Omni; 166 in 2.120: dice as AP; 180 since 2.122: instincts)
+    HYBRID_FOES: 1,          // 2.134: every foe but the Spawners and the Heart is a hybrid of three clades with a hybrid card (src/engine/hybrids.js); 0 turns it off
     MOVE_AP: 1,              // AP per walk step
     INTERACT_AP: 2,
     RALLY_AP: 2, RALLY_HP: 8,  // revive a downed adjacent ally
@@ -5238,6 +5274,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     tidecaller:{ name:'Tidecaller', glyph:'🌊', role:'elite', elite:true, hp:[12,14,16], speed:1, policy:'tidecaller',
       abilities:{ undertow:{ n:'Undertow', kind:'los', dmg:[2,3,3], pull:2 }, surge:{ n:'Surge', kind:'los', dmg:[4,5,6], weaken:1 } },
       flavor:'An elite. Drags you toward the hazard. Anchor yourself.' },
+    rival:    { name:'Rival Pilot', glyph:'🧑‍🚀', role:'elite', elite:true, rival:true, hp:[15,18,22], speed:2, policy:'rival',
+      abilities:{ shot:{ n:'Sidearm', kind:'los', dmg:[3,4,5] }, blade:{ n:'Close In', kind:'melee', dmg:[5,6,7] } },
+      flavor:'Another pilot on the same stretch, human and two clades like you, on orders of its own. It plays its traits as you play yours.' },
     heart:    { name:'The Heart', glyph:'🫀', role:'boss', boss:true, hp:[50,61,86], speed:0, policy:'heart', anchored:true, shield:[4,4,4],
       abilities:{ lance:{ n:'Lance', kind:'los', dmg:[3,4,5] }, crush:{ n:'Crush', kind:'melee', dmg:[7,8,9], pull:2 }, call:{ n:'Call the Swarm', kind:'summon' } },
       flavor:'What waits at the end of the route. Its shield is fed by its Spawners. When it is half-dead, the Vault begins to drown.' },
@@ -5326,29 +5365,36 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   T.PREBUILTS = [
     // Each pre-made hero is a painted pilot (src/ui/pilots.js): that pilot's name and pair of clades, head clade first.
     // The ids are the heroes' old names, kept because saved canon notes are keyed on them (`hero:<id>`).
+    // role and line are what the draft's first screen shows (src/ui/pick.js); blurb is the longer note.
     { id:'cavitt', name:'Rosh', title:'the Brawler-in-the-Cloud', species:['human','octopus','raven'],
       cards:['oct_cloak','oct_jet','rav_mob','rav_carrion','hum_throw','hum_mind'],
       up:{ rav_mob:[2,0], rav_carrion:[1,1], oct_cloak:[0,1], oct_jet:[1,0] },
+      role:'Striker', line:'Closes through cover and drops on the weakest.',
       blurb:'P-leaning striker. Closes through cover, vanishes, drops on whatever is weakest.' },
     { id:'marish', name:'Ekora', title:'the Tidewarden', species:['human','otter','eel'],
       cards:['eel_discharge','eel_electro','wea_musk','ott_kelp','hum_persist','hum_tool'],
       up:{ eel_discharge:[0,2], wea_musk:[0,2], ott_kelp:[0,1], hum_tool:[1,0] },
+      role:'Controller', line:'Chains, weakens and anchors foes in the current.',
       blurb:'E-leaning controller. Chains, weakens, anchors the party in the current.' },
     { id:'ossa', name:'Nedira', title:'the Bulwark', species:['human','hedgehog','tortoise'],
       cards:['tor_shell','tor_beak','heh_spines','heh_burst','hum_grip','hum_persist'],
       up:{ tor_shell:[1,2], heh_spines:[1,1], tor_beak:[1,0] },
+      role:'Bulwark', line:'Shells up and holds a shield over the squad.',
       blurb:'Immovable. Shells up, bristles, and holds a shield over the party.' },
     { id:'veil', name:'Echo', title:'the Nightwing', species:['human','mouse','owl'],
       cards:['owl_silent','owl_sound','owl_talon','mou_scurry','mou_tiny','hum_pattern'],
       up:{ owl_silent:[1,1], mou_tiny:[0,2], owl_talon:[1,0], owl_sound:[1,0] },
+      role:'Scout', line:'Sees everything, is nowhere, strikes from surprise.',
       blurb:'Scout-skirmisher. Sees everything, is nowhere, strikes from surprise.' },
     { id:'mycel', name:'Karenth', title:'the Network', species:['human','axolotl','koi'],
       cards:['axo_regen','axo_tail','koi_calm','koi_gold','hum_coop','hum_lang'],
       up:{ koi_gold:[0,2], axo_regen:[1,1], koi_calm:[1,0], axo_tail:[1,0] },
+      role:'Support', line:'Feeds the squad dice and luck, regrows anything.',
       blurb:'Support-sustain. Feeds the party dice and luck, calms the water, regrows anything.' },
     { id:'kess', name:'Slingshot', title:'the Catapult', species:['human','flamingo','mantis_shrimp'],
       cards:['msh_punch','msh_spear','msh_colours','fla_salt','fla_march','hum_throw'],
       up:{ msh_punch:[1,2], fla_salt:[0,1], msh_spear:[1,0], fla_march:[1,0] },
+      role:'Burst', line:'Punches twice at once and salts the shallows.',
       blurb:'Burst and area. Punches twice at once, salts the shallows, marches the flock.' },
   ];
 
@@ -7170,7 +7216,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       gen(rng, tier, tide, page) {
         const up = tideAt(tide, tier);
         const b = boardFor(rng, page, 4, 3, { corridors: 1 });
-        const kind = pick(rng, ['bulwark', 'harrier', 'tidecaller']);
+        const kind = pick(rng, ['bulwark', 'harrier', 'tidecaller', 'rival']);
         const starts = [b.at['0,1'], b.at['0,2']];
         const enemies = [
           { type: kind, node: b.at['3,1'] },
@@ -7188,7 +7234,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           starts,
           enemies,
           eliteKind: kind,
-          objective: { kind: 'kill', text: `Destroy the ${T.ENEMIES[kind].name}`, target: kind },
+          objective: {
+            kind: 'kill',
+            text: kind === 'rival' ? 'Defeat the rival pilot' : `Destroy the ${T.ENEMIES[kind].name}`,
+            target: kind,
+          },
           clock: null,
           spawns: [],
           bonus: [
@@ -7842,6 +7892,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     // a bigger or more seasoned squad meets tougher foes (T.scaleFor): m.foeHp is that, in percent
     if (m.foeHp && m.foeHp !== 100) e.hp = e.maxHp = Math.round((e.maxHp * m.foeHp) / 100);
     e.uid = nextUid(m);
+    T.hybridize(m, e); // three clades and a hybrid card (src/engine/hybrids.js)
     m.enemies.push(e);
     return e;
   };
@@ -7878,8 +7929,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     return e;
   }
   T.enemyAbility = (e, key) => {
-    const ab = T.ENEMIES[e.type].abilities[key];
-    return ab;
+    return T.foeAbilityByKey(e, key);
   };
   T.enemyDmg = (e, ab) => (Array.isArray(ab.dmg) ? ab.dmg[e.ti] : ab.dmg || 0);
 
@@ -7894,7 +7944,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     B.build(spec.board);
     const m = {
       seed,
-      rngs: { dice: T.subSeed(seed, 'dice'), foes: T.subSeed(seed, 'foes') },
+      rngs: { dice: T.subSeed(seed, 'dice'), foes: T.subSeed(seed, 'foes'), hybrid: T.subSeed(seed, 'hybrid') },
       uids: 0,
       archetype,
       tier,
@@ -7931,6 +7981,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       spawnedCount: 0,
     };
     if (spec.foeHp && spec.foeHp !== 100) m.foeHp = spec.foeHp; // only when it scales: a two-pilot save is unchanged
+    if (spec.foeLv) m.foeLv = spec.foeLv; // the squad's power in foe levels (src/engine/hybrids.js)
     m.heroes.forEach((h) => (h.uid = nextUid(m)));
     spec.enemies.forEach((en) => T.spawnEnemy(m, en.type, tier, en.node));
     m.heroes.forEach((h, i) => {
@@ -9418,7 +9469,8 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       E = T.heroE(h, cardId);
     const elt = face.elt || card.el;
     const eln = face.el || 0;
-    if (faceKey === 'E' && E < R().ETHEREAL_MIN_E) return { ok: false, why: 'needs E ' + R().ETHEREAL_MIN_E };
+    if (!face) return { ok: false, why: 'no such face' };
+    if (!T.faceAwake(h, cardId, faceKey)) return { ok: false, why: 'needs E ' + T.faceNeedE(cardId, faceKey) };
     // a pet's card acts from the pet (src/data/pets.js): no pet on the board, no play
     const body = T.isPetCard(h, cardId) ? T.petFor(m, h, cardId) : h;
     if (!body) return { ok: false, why: 'your pet is not here' };
@@ -9446,7 +9498,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const body = chk.body;
     say(
       m,
-      `${h.name} plays ${card.name} — ${face.n}${faceKey === 'E' ? ' (' + T.ETHERIONS[elt].name + ')' : ''}${body !== h ? ', through ' + body.name : ''}.`,
+      `${h.name} plays ${card.name} — ${face.n}${T.isEthFace(faceKey) ? ' (' + T.ETHERIONS[elt].name + ')' : ''}${body !== h ? ', through ' + body.name : ''}.`,
       'hero',
     );
     fx(m, { t: 'play', hero: h.uid, card: cardId, face: faceKey });
@@ -9474,7 +9526,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       say(m, `${body.name} waits for dusk.`, 'hero');
     } else T.runEffects(m, body, face.fx, rctx);
     // Resonance (2.118): an Ethereal face leaves its element in the air, after it has drawn on what was there
-    if (faceKey === 'E' && T.AIR_ELS.includes(elt)) T.leaveInAir(m, elt);
+    if (T.isEthFace(faceKey) && T.AIR_ELS.includes(elt)) T.leaveInAir(m, elt);
     if (body !== h) delete rctx.pendingFreeMove; // a free step a pet's face grants is the pet's, and it has taken it
     T.afterAction(m);
     return { ok: true, ctx: rctx };
@@ -11135,6 +11187,186 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
+/* ───── engine/hybrids.js ───── */
+/* ============================================================================
+   TUMULT — HYBRID FOES (2.134; pure, no DOM)
+   ----------------------------------------------------------------------------
+   Garrett, 2026-11-22: "lets make the enemies more interesting. make them triple hybrids like the pets. but
+   have the higher level ones able to use both the physical and ethereal powers ... Then the scaling formula
+   can upgrade them like you would the player characters."
+
+   • A foe is still its role (Biter, Brute, Warden, ...): its body, vitality, speed and the ability its
+     policy plays. On top of that, each foe that comes onto the board is a hybrid of three clades, none
+     human, drawn when it spawns from a stream of the mission's own ('hybrid'), and carries a hybrid card
+     like a pet's: one trait from each clade, the trait's Physical face (P, P2, P3) and its Ethereal face
+     (E, E2, E3).
+   • The foe plays a face of its card as an intent, telegraphed like any other, then the card cools:
+     it is back after the face's cooldown and one round more, so the role's own ability comes between.
+   • A foe has a level, as a pilot does: its mission's tier, one more for an elite, and the squad's power
+     past (or short of) two new pilots', a level for every 10 (a new pilot's worth; T.foeLevel). Its card
+     plays at P = level − 1 and E = level − 2 (0 to 3 each), and E is how many of its Ethereal faces are
+     awake, one a point, as on a pet: a tier-1 foe plays its Physical faces at P 0, a tier-3 foe one
+     Ethereal face, a tier-3 elite with a big squad all three.
+   • A face becomes a foe's move through the verbs it already has (T.foeAbility): a strike is a melee or a
+     zone attack (an area strike hits everyone beside it) and keeps its pushes, pulls, roots, Weaken and
+     drain; a face that only hinders (Weaken, a root, a shove) is a 1-damage hex that carries it; a Shield
+     on itself is a ward, a heal on itself a mend, Hidden a veil. A trait none of whose faces is any of
+     these is never drawn for a foe; an Ethereal face that is none of them just stays unplayed.
+   The Spawners and the Heart stay what they are: no hybrid card.
+   ========================================================================== */
+(function (T) {
+  T.HYBRID = {
+    NOT: ['spawner', 'heart'], // roles that carry no hybrid card
+    LEVEL_POWER: 10, // squad power past two new pilots' for a foe level (a new pilot)
+    REST: 1, // rounds the card cools past the face's own cooldown
+  };
+  T.HYBRID_FACES = ['P', 'P2', 'P3', 'E', 'E2', 'E3'];
+  /** Names a rival pilot flies under (drawn from the mission's 'hybrid' stream). */
+  T.RIVAL_NAMES = [
+    'Vesk',
+    'Orrin',
+    'Tamsa',
+    'Kell',
+    'Brisa',
+    'Dorn',
+    'Ilka',
+    'Sevrin',
+    'Mako',
+    'Ytta',
+    'Corran',
+    'Lune',
+  ];
+  const num = (v, P, E) => (typeof v === 'function' ? v(P, E) : v || 0);
+  const FOE_TGT = (t) => typeof t === 'string' && t.startsWith('foe');
+
+  /**
+   * One card face as a foe's ability at P and E: { n, kind, dmg, push, pull, anchor, weaken, heal, ward, veil },
+   * or null when the face has nothing a foe can do with it. Plain data, worked out afresh from the card.
+   */
+  T.foeAbility = function (face, P, E) {
+    if (!face || !face.fx) return null;
+    const fx = face.fx;
+    const find = (v) => fx.find((x) => x.v === v);
+    const s = find('strike');
+    const ab = { n: face.n, hy: true };
+    const riders = () => {
+      const w = find('weaken');
+      if (w && !w.self) ab.weaken = Math.max(1, num(w.val, P, E));
+      const a = fx.find((x) => x.v === 'anchor' && (x.who === 'foe' || x.who === 'target'));
+      if (a) ab.anchor = Math.max(1, num(a.dur, P, E) || 1);
+      const f = find('force');
+      if (f) ab[f.kind === 'pull' ? 'pull' : 'push'] = Math.max(1, num(f.n, P, E) || 1);
+    };
+    if (s) {
+      ab.kind =
+        s.kind === 'los' || s.kind === 'any'
+          ? 'los'
+          : ['area', 'zone_all', 'nodeArea'].includes(s.kind)
+            ? 'area'
+            : 'melee';
+      ab.dmg = Math.max(1, num(s.dmg, P, E));
+      riders();
+      const hl = fx.find((x) => x.v === 'heal' && !x.party && !x.target);
+      if (hl) ab.heal = Math.max(1, num(hl.n, P, E));
+      return ab;
+    }
+    if (FOE_TGT(face.tgt) && fx.some((x) => ['weaken', 'anchor', 'force'].includes(x.v))) {
+      riders();
+      if (!ab.weaken && !ab.anchor && !ab.push && !ab.pull) return null;
+      ab.kind = face.tgt === 'foe_melee' || face.tgt === 'foe_adj_all' ? 'melee' : 'los';
+      ab.dmg = 1;
+      return ab;
+    }
+    if (face.tgt === 'self' || face.tgt === 'party') {
+      const sh = fx.find((x) => x.v === 'shield' && !x.next);
+      if (sh) return Object.assign(ab, { kind: 'ward', ward: Math.max(1, num(sh.val, P, E)) });
+      const hl = find('heal');
+      if (hl) return Object.assign(ab, { kind: 'mend', heal: Math.max(1, num(hl.n, P, E)) });
+      if (find('hidden')) return Object.assign(ab, { kind: 'veil' });
+    }
+    return null;
+  };
+  /** Can a foe play this trait's Physical face at all? (Only such traits are drawn for a hybrid card.) */
+  const usable = (c) => !!T.foeAbility(c.P, 0, 0);
+
+  /** A foe's level: its tier, one more for an elite, and the squad's power in levels (m.foeLv). At least 1. */
+  T.foeLevel = (m, e) => Math.max(1, (e.tier || 1) + (e.elite ? 1 : 0) + ((m && m.foeLv) || 0));
+
+  /** Give a new foe its three clades and hybrid card, from the mission's 'hybrid' stream. */
+  T.hybridize = function (m, e) {
+    if (!R().HYBRID_FOES || !m.rngs || m.rngs.hybrid == null || T.HYBRID.NOT.includes(e.type)) return;
+    const rng = T.stream(m.rngs, 'hybrid');
+    const rival = !!T.ENEMIES[e.type].rival;
+    // a rival pilot is what a pilot is: human and two clades (2.135; Garrett: "you can also put the players up against other Non player characters")
+    const species = rival
+      ? ['human'].concat(rng.shuffle(T.SPECIES_ORDER.filter((sp) => sp !== 'human')).slice(0, 2))
+      : rng.shuffle(T.SPECIES_ORDER.filter((sp) => sp !== 'human')).slice(0, 3);
+    const traits = [];
+    for (const sp of species) {
+      const pool = T.cardsOf(sp).filter((c) => !traits.includes(c.id) && usable(c));
+      if (pool.length) traits.push(pool[rng.int(pool.length)].id);
+    }
+    if (traits.length < 3) return;
+    const L = T.foeLevel(m, e);
+    e.clades = species;
+    e.hy = {
+      traits,
+      level: L,
+      P: Math.max(0, Math.min(R().P_CAP, L - 1)),
+      // a rival pilot awakens as a pilot does, a face sooner than a creature
+      E: Math.max(0, Math.min(R().E_CAP, L - (rival ? 1 : 2))),
+      cd: 0,
+    };
+    if (rival) {
+      e.rival = true;
+      e.name = 'Rival ' + rng.pick(T.RIVAL_NAMES);
+    }
+  };
+  /** The trait behind face `fk` of a foe's hybrid card. */
+  const traitOf = (e, fk) => T.CARD[e.hy.traits[T.HYBRID_FACES.indexOf(fk) % 3]];
+  /**
+   * A foe's hybrid faces it can play now (its awake ones, which a foe can do something with), Ethereal first:
+   * [{ fk, key, ab, sp }].
+   */
+  T.foeHybridFaces = function (e) {
+    if (!e || !e.hy) return [];
+    const out = [];
+    ['E3', 'E2', 'E', 'P', 'P2', 'P3'].forEach((fk) => {
+      const eth = fk[0] === 'E';
+      if (eth && e.hy.E < (fk === 'E' ? 1 : +fk[1])) return;
+      const c = traitOf(e, fk);
+      const ab = floored(e, T.foeAbility(eth ? c.E : c.P, e.hy.P, e.hy.E));
+      if (ab) out.push({ fk, key: 'hy:' + fk, ab, sp: e.clades[T.HYBRID_FACES.indexOf(fk) % 3], card: c.id });
+    });
+    return out;
+  };
+  /** The hardest hit of a foe's role (its own abilities' damage at its tier). */
+  T.roleDmg = (e) =>
+    Math.max(0, ...Object.values(T.ENEMIES[e.type].abilities).map((a) => (a.dmg ? T.enemyDmg(e, a) : 0)));
+  /**
+   * An attack from the hybrid card hits at least as hard as the role's own hardest hit, so the card adds what
+   * the trait does (a push, a root, Weaken, reach) to the foe's body rather than trading its blow for it.
+   */
+  function floored(e, ab) {
+    if (ab && ['melee', 'los', 'area'].includes(ab.kind)) ab.dmg = Math.max(ab.dmg, T.roleDmg(e));
+    return ab;
+  }
+  /** A foe's ability by intent key: its role's (T.ENEMIES), or a face of its hybrid card ('hy:P2'). */
+  T.foeAbilityByKey = function (e, key) {
+    if (typeof key === 'string' && key.startsWith('hy:')) {
+      if (!e.hy) return null;
+      const fk = key.slice(3);
+      const c = traitOf(e, fk);
+      const ab = floored(e, T.foeAbility(fk[0] === 'E' ? c.E : c.P, e.hy.P, e.hy.E));
+      if (ab) ab.cdr = Math.max(1, (fk[0] === 'E' ? c.E : c.P).cd || 1) + T.HYBRID.REST;
+      return ab;
+    }
+    return T.ENEMIES[e.type].abilities[key];
+  };
+  const R = () => T.RULES;
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
 /* ───── engine/vehicles.js ───── */
 /* ============================================================================
    TUMULT — VEHICLES (rules)
@@ -11540,6 +11772,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   /* ───────────────────────────── INTENTS ───────────────────────────── */
   T.chooseIntents = function (m) {
     for (const e of T.liveEnemies(m)) {
+      if (e.hy && e.hy.cd > 0) e.hy.cd--; // a hybrid card cools a round at a time (src/engine/hybrids.js)
       // a Fixed foe repeats the intent it was fixed on (same move, same target)
       if (e.states.Fixed && e.states.Fixed.intent) {
         e.intent = JSON.parse(JSON.stringify(e.states.Fixed.intent));
@@ -11647,6 +11880,18 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           else setI('surge', t, `(${dmgOf(e, A.surge)} zone, Weakens)`);
           break;
         }
+        case 'rival': {
+          // a pilot: its blade on whoever is beside it, its sidearm on the weakest in its zone, else it closes in
+          const adj = adjacentTargets(m, e);
+          const lt = zoneTargets(m, e);
+          if (adj.length) setI('blade', adj.sort((a, b) => a.hp - b.hp)[0], `(${dmgOf(e, A.blade)})`);
+          else if (lt.length) setI('shot', lt.sort((a, b) => a.hp - b.hp)[0], `(${dmgOf(e, A.shot)} zone)`);
+          else {
+            const t = nearestTarget(m, e);
+            if (t) setI('blade', t, `(${dmgOf(e, A.blade)}, closing)`);
+          }
+          break;
+        }
         case 'heart': {
           if (e.phase === 1) {
             const lt = zoneTargets(m, e).filter((c) => c.kind === 'hero');
@@ -11666,11 +11911,65 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           break;
         }
       }
+      // a hybrid foe plays a face of its card when the card is back and a face has something to do
+      const hy = hybridIntent(m, e, intent);
+      if (hy) intent = hy;
       e.intent = intent;
       // an aimed ability strikes the space its target stands on now, whoever stands there when it lands
-      if (intent && A[intent.key].aimed) T.aimIntent(m, e);
+      if (intent && !intent.hy && A[intent.key].aimed) T.aimIntent(m, e);
     }
   };
+  /**
+   * A hybrid foe's intent (src/engine/hybrids.js): with its card back in hand, the first of its faces, Ethereal
+   * first, that has something to do now. An attack needs a target it can reach this round (a melee one within its
+   * speed and a step, a zone one in its zone, an area one beside it); a ward wants a pilot beside it or a wound, a
+   * mend a wound of at least what it heals, a veil a line to it. Null when none fits: the role's own intent stands.
+   */
+  function hybridIntent(m, e, base) {
+    if (!e.hy || e.hy.cd > 0) return null;
+    // a face on itself waits for a round its role has no blow to land, or for a foe at half its vitality
+    const busy = base && base.target != null && ['melee', 'los', 'area', 'teleStrike'].includes(base.kind);
+    const selfOk = !busy || e.hp <= e.maxHp / 2;
+    const near = (c) => dist(m, e.pos, c.pos);
+    const low = (list) => list.slice().sort((a, b) => a.hp - b.hp || a.uid - b.uid)[0];
+    for (const { key, ab, sp } of T.foeHybridFaces(e)) {
+      let t = null;
+      let ok = false;
+      if (ab.kind === 'melee') {
+        const adj = adjacentTargets(m, e);
+        t = adj.length ? low(adj) : T.isAnchored(e) ? null : nearestTarget(m, e);
+        ok = !!t && (adj.length > 0 || near(t) <= e.speed + 1);
+      } else if (ab.kind === 'los') {
+        const lt = zoneTargets(m, e);
+        t = lt.length ? low(lt) : null;
+        ok = !!t;
+      } else if (ab.kind === 'area') ok = adjacentTargets(m, e).length > 0;
+      else if (!selfOk) ok = false;
+      else if (ab.kind === 'ward') ok = !st(e).Shield && (heroesAdjacent(m, e).length > 0 || e.hp < e.maxHp * 0.75);
+      else if (ab.kind === 'mend') ok = e.maxHp - e.hp >= ab.heal;
+      else if (ab.kind === 'veil') ok = !T.isHidden(e) && zoneTargets(m, e).length > 0;
+      if (!ok) continue;
+      const kin = T.SPECIES[sp] ? T.SPECIES[sp].name : sp;
+      const extra =
+        ab.kind === 'ward'
+          ? `(Shield ${ab.ward})`
+          : ab.kind === 'mend'
+            ? `(heals ${ab.heal})`
+            : ab.kind === 'veil'
+              ? '(goes Hidden)'
+              : `(${ab.dmg}${ab.kind === 'los' ? ' zone' : ab.kind === 'area' ? ' to all adjacent' : ''}${ab.push ? ', push ' + ab.push : ''}${ab.pull ? ', pull ' + ab.pull : ''}${ab.anchor ? ', roots ' + ab.anchor : ''}${ab.weaken ? ', Weaken ' + ab.weaken : ''}${ab.heal ? ', heals ' + ab.heal : ''})`;
+      return {
+        key,
+        hy: true,
+        target: t ? t.uid : null,
+        targetName: t ? t.name : null,
+        label: `${ab.n} [${kin}]${t ? ' → ' + t.name : ''} ${extra}`,
+        dmg: ab.dmg || 0,
+        kind: ab.kind,
+      };
+    }
+    return null;
+  }
   /**
    * Aimed (2.103): the intent locks on the space its target stands on now. When it lands it strikes whoever
    * stands there then, pilot or foe; on an empty space it misses. Only a melee or zone attack can be aimed.
@@ -11678,7 +11977,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   T.aimIntent = function (m, e) {
     const I = e.intent;
     if (!I || I.aim != null || I.target == null) return false;
-    const ab = T.ENEMIES[e.type].abilities[I.key];
+    const ab = T.enemyAbility(e, I.key);
     if (!ab || (ab.kind !== 'melee' && ab.kind !== 'los')) return false;
     const t = findTarget(m, I.target);
     if (!t) return false;
@@ -11819,8 +12118,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       if (!e.alive || m.over) continue;
       const I = e.intent;
       if (!I) continue;
-      const A = T.ENEMIES[e.type].abilities;
-      const ab = A[I.key];
+      const ab = T.enemyAbility(e, I.key);
+      if (!ab) continue;
+      if (I.hy) e.hy.cd = ab.cdr; // the hybrid card goes away for its face's cooldown and a round more
       e.lastKey = I.key;
       e.bracedRecently = false;
       if (I.aim != null && (ab.kind === 'melee' || ab.kind === 'los')) {
@@ -11934,6 +12234,29 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           if (t) approach(m, e, t.pos, e.speed);
           break;
         }
+        // a hybrid card's faces on itself (src/engine/hybrids.js)
+        case 'ward': {
+          st(e).Shield = { v: ab.ward, t: 2, all: true };
+          T.say(m, `${e.name} uses ${ab.n}: Shield ${ab.ward}.`, 'enemy');
+          m.fx.push({ t: 'state', ent: e.uid, name: 'Shield' });
+          break;
+        }
+        case 'mend': {
+          const was = e.hp;
+          e.hp = Math.min(e.maxHp, e.hp + ab.heal);
+          T.say(m, `${e.name} uses ${ab.n} and heals ${e.hp - was}.`, 'enemy');
+          break;
+        }
+        case 'veil': {
+          if (st(e).Located) {
+            T.say(m, `${e.name} tries ${ab.n}, but it is Located.`, 'enemy');
+            break;
+          }
+          st(e).Hidden = { t: 2, canMove: true };
+          T.say(m, `${e.name} uses ${ab.n} and fades from sight.`, 'enemy');
+          m.fx.push({ t: 'state', ent: e.uid, name: 'Hidden' });
+          break;
+        }
       }
       // melee attacks also carry a pull (Heart's crush drags first)
       if (
@@ -12022,7 +12345,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         h.cards.some((c) =>
           T.faceKeys(c).some((fk) =>
             T.CARD[c][fk].fx.some(
-              (x) => (fk === 'E' && x.v === 'blink' && x.height) || (x.v === 'move' && x.climb) || x.v === 'hover',
+              (x) => (T.isEthFace(fk) && x.v === 'blink' && x.height) || (x.v === 'move' && x.climb) || x.v === 'hover',
             ),
           ),
         ) ||
@@ -12061,7 +12384,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           .sort((a, b) => B.dist(m.board, a, goal.node, true) - B.dist(m.board, b, goal.node, true))[0];
         const gain = cur - B.dist(m.board, node, goal.node, true);
         if (gain <= 0) continue;
-        const score = gain * 2 - face.ap - (fk === 'E' ? 1 : 0) + (node === goal.node && goal.needOn ? 5 : 0);
+        const score = gain * 2 - face.ap - (T.isEthFace(fk) ? 1 : 0) + (node === goal.node && goal.needOn ? 5 : 0);
         if (!best || score > best.score) best = { cid, fk, ctx: { node }, score };
       }
     if (best && best.score > 0) {
@@ -12175,7 +12498,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       for (const fk of T.faceKeys(cid)) {
         const card = T.CARD[cid];
         const f = card[fk];
-        if (fk === 'E' && T.heroE(h, cid) < T.RULES.ETHEREAL_MIN_E) continue;
+        if (!T.faceAwake(h, cid, fk)) continue;
         const elt = f.elt || card.el;
         const eln = f.el || 0;
         if (!T.payableAsAP(h, f.ap, elt, eln)) continue;
@@ -12286,7 +12609,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
                 score = dmg * n * 2;
               } else continue;
               score -= face.ap;
-              if (fk === 'E') score -= 1;
+              if (T.isEthFace(fk)) score -= 1;
             } else if (face.fx.some((x) => x.v === 'shield' || (x.v === 'thorns' && x.next) || x.v === 'stasis')) {
               if (threat >= 4) score = threat;
               else continue;
@@ -13578,6 +13901,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const B = T.SCALING.boss;
     const hp = spec.isBoss ? sc.hp + Math.round(100 * (sc.over * B.hp - sc.under * B.under)) : sc.hp;
     if (hp !== 100) spec.foeHp = hp;
+    // foes level up with the squad's power, a level for every new pilot's worth past two (src/engine/hybrids.js)
+    const lv = Math.floor(sc.over / T.HYBRID.LEVEL_POWER + 1e-9) - Math.round(sc.under / T.HYBRID.LEVEL_POWER + 1e-9);
+    if (lv) spec.foeLv = lv;
     // the Heart's chamber takes half as many extras, from its own spawn: its fight is the Heart and its Spawners
     const extras = spec.isBoss ? Math.floor(sc.foes * T.SCALING.boss.foes + 1e-9) : sc.foes;
     if (extras > 0) {
@@ -14285,9 +14611,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   // UP allocation
   T.adjustUp = function (h, cardId, which, delta) {
     const i = which === 'E' ? 1 : 0;
-    // a pet's card has no Ethereal face; a gear card is bought as it is, never trained (2.119)
+    // a gear card is bought as it is, never trained (2.119); a pet's E awakens its Ethereal faces one a point (2.133)
     const c = T.CARD[cardId];
-    const cap = c && c.gear ? 0 : which === 'E' ? (c && c.pet ? 0 : R().E_CAP) : R().P_CAP;
+    const cap = c && c.gear ? 0 : which === 'E' ? R().E_CAP : R().P_CAP;
     const cur = h.up[cardId] || [0, 0];
     // a point bound to this card (a trait taken twice) is spent before a free one, and comes back last
     if (delta > 0) {
@@ -17046,7 +17372,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   };
   U.faceTipHTML = function (card, fk, P, E) {
     const face = card[fk];
-    return `<b>${esc(card.name)} — ${esc(face.n)}</b> <span class="dim">(${fk !== 'E' ? (card.pet ? 'Physical face, played through the pet' : card.gear ? 'Gear face: ' + T.gearCostText({ omni: face.el }) + ', never trained' : 'Physical') : EL[face.elt || card.el].name + ' face'}${card.pet || card.gear ? '' : fk !== 'E' ? ' face' : ''})</span><div style="margin:4px 0" class="mono small">${costStr(card, face, fk)}</div><div>${esc(face.txt(P, E))}</div>${U.kwGloss(face.txt(P, E))}${fk === 'E' ? `<div class="mute small" style="margin-top:4px">E unlocks and scales this capability; P ${face.txt(1, 0) !== face.txt(0, 0) ? 'also scales a physical sub-part' : 'does not substitute for it'}.</div>` : ''}`;
+    return `<b>${esc(card.name)} — ${esc(face.n)}</b> <span class="dim">(${!T.isEthFace(fk) ? (card.pet ? 'Physical face, played through the pet' : card.gear ? 'Gear face: ' + T.gearCostText({ omni: face.el }) + ', never trained' : 'Physical') : EL[face.elt || card.el].name + ' face' + (card.pet ? ', played through the pet' : '')}${card.pet || card.gear ? '' : !T.isEthFace(fk) ? ' face' : ''})</span><div style="margin:4px 0" class="mono small">${costStr(card, face, fk)}</div><div>${esc(face.txt(P, E))}</div>${U.kwGloss(face.txt(P, E))}${T.isEthFace(fk) ? `<div class="mute small" style="margin-top:4px">E unlocks and scales this capability; P ${face.txt(1, 0) !== face.txt(0, 0) ? 'also scales a physical sub-part' : 'does not substitute for it'}.</div>` : ''}`;
   };
   /** The clade a pilot with these clades carries card `c` through: its own bloodline first, else a clade that shares it. */
   U.cladeIn = (c, clades) =>
@@ -17061,8 +17387,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const sp = T.SPECIES[shownSp];
     const face = (fk) => {
       const f = c[fk];
-      const asleep = fk === 'E' && (o.up || o.showUp) && E < T.RULES.ETHEREAL_MIN_E;
-      return `<div class="face ${fk === 'E' ? 'E' : 'P'} el-${f.elt || c.el}${asleep ? ' asleep' : ''}"><div class="fh"><span class="fn" style="color:${fk !== 'E' ? '#dfe7f2' : ''}">${esc(f.n)}</span>${fk === 'E' ? `<span class="tag bg-${f.elt || c.el} el-${f.elt || c.el}">${EL[f.elt || c.el].name}</span>` : c.gear ? '<span class="tag" style="border:1px solid var(--line2);color:var(--O)">Gear</span>' : '<span class="tag" style="border:1px solid var(--line2);color:var(--AP)">Physical</span>'}${T.isMounted && T.isMounted(c, fk) ? '<span class="tag mounted" data-tip="Mounted: you can play this face from inside a vehicle.">Mounted</span>' : ''}<span class="cost">${costStr(c, f, fk)}</span></div><div class="ft">${U.kw(esc(f.txt(P, asleep ? T.RULES.ETHEREAL_MIN_E : E)))}</div>${asleep ? `<div class="small asleep-note">Asleep — awaken it with ${T.RULES.ETHEREAL_MIN_E} E</div>` : ''}</div>`;
+      const need = T.faceNeedE(cardId, fk);
+      const eth = T.isEthFace(fk);
+      // a pet's Ethereal faces read asleep wherever its card is shown, until its E awakens them
+      const asleep = eth && (o.up || o.showUp || c.pet) && E < need;
+      return `<div class="face ${eth ? 'E' : 'P'} el-${f.elt || c.el}${asleep ? ' asleep' : ''}"><div class="fh"><span class="fn" style="color:${!eth ? '#dfe7f2' : ''}">${esc(f.n)}</span>${eth ? `<span class="tag bg-${f.elt || c.el} el-${f.elt || c.el}">${EL[f.elt || c.el].name}</span>` : c.gear ? '<span class="tag" style="border:1px solid var(--line2);color:var(--O)">Gear</span>' : '<span class="tag" style="border:1px solid var(--line2);color:var(--AP)">Physical</span>'}${T.isMounted && T.isMounted(c, fk) ? '<span class="tag mounted" data-tip="Mounted: you can play this face from inside a vehicle.">Mounted</span>' : ''}<span class="cost">${costStr(c, f, fk)}</span></div><div class="ft">${U.kw(esc(f.txt(P, asleep ? need : E)))}</div>${asleep ? `<div class="small asleep-note">Asleep — awaken it with ${need} E</div>` : ''}</div>`;
     };
     return `<div class="tcard ${o.pickable ? 'pickable' : ''} ${o.sel ? 'sel' : ''}" data-card="${cardId}" ${o.act ? `data-act="${o.act}" data-arg="${cardId}"` : ''}>
       <div class="head"><span class="name">${esc(c.name)}</span>${c.sig >= 2 ? '<span class="star" title="signature">★</span>' : c.sig === 1 ? '<span class="star" title="minor signature">☆</span>' : ''}<span class="sp"${c.clades.length > 1 ? ` data-tip="Carried by ${esc(c.clades.map((x) => T.SPECIES[x].name).join(', '))}"` : c.gear ? ' data-tip="A gear card: it counts toward the nine, is never trained and goes with its gear"' : ''}>${c.gear ? U.icGear(c.gear) : U.icClade(shownSp)} ${esc(c.kin || sp.name)}</span></div>
@@ -17299,6 +17628,8 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     U.screen = 'draft';
   };
   /** The draft's first step leads back: to the title, to the first pilot, or out of an online game. */
+  U.draftOut = (d) => draftOut(d);
+  U.squadOf = (run) => squadOf(run);
   function draftOut(d) {
     if (U.net && U.net.online()) return `<button class="ghost right" data-act="netLeave">Leave game</button>`;
     const prev = d.heroIdx > 0 ? U.run.heroes[d.heroIdx - 1] : null;
@@ -17306,86 +17637,53 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       return `<button class="ghost right" data-act="draftPrev" data-tip="Back to ${esc(prev.name)}, the pilot before, as you left them.">Back to ${esc(prev.name)}</button>`;
     return `<button class="ghost right" data-act="draftQuit">Back to the title</button>`;
   }
+  /**
+   * The draft: its first step is the Spotlight (src/ui/pick.js, Frogma "Choose your pilot"); bloodlines, packs and
+   * upgrades are drawn by src/ui/draft.js (Frogma "Draft flow", Gallery then a closer look).
+   */
   function renderDraft() {
     const d = U.draft;
-    const run = U.run;
-    const n = d.heroIdx + 1;
-    const who = U.seatTag ? U.seatTag(d.heroIdx) : '';
-    let body = '';
-    if (d.step === 'mode') {
-      const free = (pb) => !run.heroes.some((h) => h && h.name === pb.name);
-      const made = U.madeHeroes().filter((x) => free(x.rec));
-      body = `<div class="panel"><h3>Pilot ${n} ${who}· choose how to build</h3><p class="dim small">Every hero is Human plus two other bloodlines, six trait cards to start, six Upgrade Points to spend. You'll grow to nine cards over the run (never more than 3 of 9 from one bloodline).</p>
-        <div class="row" style="margin:10px 0"><button class="primary" data-act="draftMode" data-arg="draft">Draft from packs (recommended)</button><span class="dim small">Pick 1 of 4, six times — a real limited draft across your three pools.</span>${draftOut(d)}</div>
-        <h3 style="margin-top:14px">…or Quick Build a pre-made hero</h3>
-        <div class="prebuilt-grid">${T.PREBUILTS.filter(free)
-          .map((pb) => pilotCard(pb))
-          .join('')}</div>
-        ${made.length ? `<h3 style="margin-top:14px">…or play a pilot someone made</h3><p class="dim small">Every pilot built in the draft is kept here, ${U.heroesShared && U.heroesShared() ? 'for everyone who plays this page' : 'on this device'}, ready to fly again.</p><div class="prebuilt-grid">${made.map((x) => pilotCard(x.rec, x.who, x.mine)).join('')}</div>` : ''}</div>`;
-    } else if (d.step === 'species') {
-      body = `<div class="panel"><h3>Pilot ${n} ${who}: choose two bloodlines (Human is always the third)</h3>
-        <div class="row" style="margin:8px 0">${U.portrait({ name: d.name, species: ['human'].concat(d.species) }, 'lg')}<span class="small dim">The portrait follows the two bloodlines: a painting of that exact pair when one exists, else the nearest stand-in.</span></div>
-        <div class="row" style="margin:8px 0"><label class="small dim">Name</label><input id="heroName" value="${esc(d.name)}" style="background:#0b1222;border:1px solid var(--line2);color:var(--txt);padding:5px 8px;border-radius:6px"></div>
-        <div class="species-grid">${T.SPECIES_ORDER.filter((s) => s !== 'human')
-          .map((s) => {
-            const sp = T.SPECIES[s];
-            const sel = d.species.includes(s);
-            return `<div class="sp-card ${sel ? 'sel' : ''}" data-act="pickSpecies" data-arg="${s}"><div class="ic">${U.icClade(s)}</div><b>${esc(sp.name)}</b><div class="small dim">leans ${sp.lean}</div><div class="small" style="margin-top:4px">${esc(sp.tagline)}</div><div class="small mute" style="margin-top:4px">${T.cardsOf(
-              s,
-            )
-              .filter((c) => c.sig >= 2)
-              .map((c) => '★ ' + c.name)
-              .join(' · ')}</div></div>`;
-          })
-          .join('')}</div>
-        <div class="row" style="margin-top:12px"><button class="primary" data-act="openPacks" ${d.species.length === 2 ? '' : 'disabled'}>Open the first pack</button><button class="ghost" data-act="draftBack">Back</button></div></div>`;
-    } else if (d.step === 'packs') {
-      // the draft (Frogma "Finalised UI", D-Draft-v2): the pack across the middle, the kit filling up along the foot
-      const h = d.hero;
-      const slots = [];
-      for (let k = 0; k < T.RULES.START_CARDS; k++) {
-        const cid = h.cards[k];
-        slots.push(
-          cid
-            ? `<span class="kit-slot full" style="--c:${EL[(T.CARD[cid].E && T.CARD[cid].E.elt) || T.CARD[cid].el].color}" data-tip="${esc(T.CARD[cid].name)}">${esc(T.CARD[cid].name)}</span>`
-            : `<span class="kit-slot${k === h.cards.length ? ' next' : ''}">${k === h.cards.length ? 'pick ' + (k + 1) : ''}</span>`,
-        );
-      }
-      body = `<div class="panel draft2"><div class="d2-head"><h3>${esc(h.name)} · pick ${d.picks + 1} of ${T.RULES.START_CARDS}</h3><span class="d2-tab on">New pack · ${d.pack.length}</span><span class="right small dim">Kit ${h.cards.length}/${T.RULES.START_CARDS} · ${h.species.map((s) => `${U.icClade(s)}${T.cladeCount(h, s)}/3`).join(' · ')}</span></div>
-        <p class="dim small">This pack mixes your three bloodlines: click a card to take it, or pass the pack. ★ marks a bloodline's signature traits. Hover any face for exact numbers at your current P/E.</p>
-        <div class="pack">${d.pack.map((cid) => U.cardHTML(cid, { pickable: true, act: 'pickCard', clades: h.species })).join('')}</div>
-        <div class="d2-kit"><span class="lab">Kit</span>${slots.join('')}<span class="d2-acts"><button class="ghost" data-act="draftBack" data-arg="species" data-tip="Choose other bloodlines. The cards picked so far are put back.">Back to bloodlines</button><button class="ghost" data-act="rerollPack" title="Costs nothing in this version; use it if a pack has nothing for you">Pass this pack</button></span></div></div>`;
-    } else if (d.step === 'wait') {
-      const other = run.party.players.find((p, s) => !run.heroes[s]);
-      body = U.waitingRoom
-        ? U.waitingRoom(run)
-        : `<div class="panel"><h3>Your pilot is ready</h3><p class="dim">Waiting for ${esc(other ? other.name : 'the other player')} to finish drafting…</p></div>`;
-    } else if (d.step === 'up') {
-      const h = d.hero;
-      body = `<div class="panel"><div class="row"><h3>${esc(h.name)} — spend Upgrade Points</h3><span class="right pill">UP left: <b style="margin-left:4px">${h.upUnspent}</b></span><button class="sm" data-act="autoUp">Auto</button><button class="sm ghost" data-act="resetUp">Reset</button></div>
-        <p class="dim small">P deepens the physical face's numbers (reliable, AP-fed). E awakens the ethereal face — it cannot be played until its card has E 1 — and scales its <i>capability</i>, something P can never buy. Every hero sets out with at least ${T.RULES.START_AWAKE} cards awakened. Caps: P 3, E 3 per card.</p>
-        <div class="pack">${h.cards.map((cid) => U.cardHTML(cid, { P: T.heroP(h, cid), E: T.heroE(h, cid), up: true, bound: T.boundLeft(h, cid), clades: h.species })).join('')}</div>
-        ${U.pilotQuestion ? U.pilotQuestion(h, d) : ''}
-        <div class="row" style="margin-top:12px"><button class="primary" data-act="confirmHero">${d.heroIdx < squadOf(U.run) - 1 && !(U.net && U.net.online()) ? `Confirm — draft pilot ${d.heroIdx + 2}` : 'Confirm — set out'}</button><button class="ghost" data-act="draftBack" data-tip="Build this pilot another way: a different pre-made pilot, or a fresh draft.">Back</button></div></div>`;
-    }
-    return `<div class="wrap">${header('The Draft')}<div class="row small dim" style="margin-bottom:8px">${run.heroes
-      .filter(Boolean)
-      .map(
-        (h) =>
-          `<span class="pill">${U.portrait(h, 'xs')} ${esc(h.name)} — ${h.species
-            .slice(1)
-            .map((s) => U.icClade(s))
-            .join('')}</span>`,
-      )
-      .join('')}</div>${body}</div>`;
+    if (d.step === 'mode' && U.renderPick) return U.renderPick(d, U.run);
+    return U.renderDraftScreen();
   }
   /** The draft's actions, for the screens that start a draft with a pilot chosen (src/ui/crew.js). */
   U.draftAct = (act, arg) => draftAct(act, arg);
   function draftAct(act, arg) {
     const d = U.draft;
     const run = U.run;
+    // the closer look (src/ui/draft.js): any card, bloodline or pilot opened big; the filter of the bloodlines
+    const looks = {
+      cardLook: 1,
+      lookTo: 1,
+      lookStep: 1,
+      cladeLook: 1,
+      cladeStep: 1,
+      preLook: 1,
+      lookClose: 1,
+      draftFilter: 1,
+    };
+    if (looks[act]) {
+      const inp = $('#heroName');
+      if (inp && inp.value.trim()) d.name = inp.value.trim().slice(0, 24);
+      const n = d.step === 'packs' ? d.pack.length : d.hero ? d.hero.cards.length : 1;
+      if (act === 'cardLook' || act === 'lookTo') d.look = { kind: 'card', i: +arg || 0 };
+      else if (act === 'lookStep' && d.look) d.look = { kind: 'card', i: (d.look.i + +arg + n) % n };
+      else if (act === 'cladeLook') d.look = { kind: 'clade', id: arg };
+      else if (act === 'cladeStep' && d.look) {
+        const order = T.SPECIES_ORDER.filter((s) => s !== 'human');
+        const k = order.indexOf(d.look.id);
+        d.look = { kind: 'clade', id: order[(k + +arg + order.length) % order.length] };
+      } else if (act === 'preLook') d.look = { kind: 'pre', id: arg };
+      else if (act === 'draftFilter') d.filter = arg;
+      else d.look = null;
+      U.render();
+      return;
+    }
+    if (act !== 'up' && act !== 'pickSpecies' && act !== 'autoUp' && act !== 'resetUp') d.look = null;
     if (act === 'draftMode') {
       d.step = 'species';
+    } else if (act === 'spotPilot') {
+      d.spot = arg; // the pilot in the Spotlight (src/ui/pick.js); Fly takes them
     } else if (act === 'prebuilt') {
       const c = choiceById(arg);
       if (!c) return;
@@ -17499,7 +17797,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
 
   /* ───────────── MAP ───────────── */
   const NODE_ICON = {};
-  ['swarm', 'vault', 'hidden', 'cascade', 'salvage', 'survey', 'elite', 'haven', 'event', 'boss'].forEach(
+  ['swarm', 'vault', 'hidden', 'cascade', 'salvage', 'survey', 'crossing', 'elite', 'haven', 'event', 'boss'].forEach(
     (k) => (NODE_ICON[k] = U.icNode(k)),
   );
   const NODE_NAME = {
@@ -17597,120 +17895,61 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     return `<span class="pull pull-${dir}">${dir === 'up' ? '▲' : dir === 'down' ? '▼' : '•'} ${g} g</span>`;
   }
   /**
-   * The route, read from the top down: the squad sets out at the top, each leg over its painting, each stop a
-   * painted roundel of the place it is played in (its atlas page), the road already taken lit gold, the next
-   * choices glowing, the squad standing where it last stopped, and the threat waiting at the foot.
+   * The route as a map of Tumult (src/ui/overworld.js): what each stop is called, what its tip says and which
+   * painting it wears come from here, so the map and the stop cards agree.
    */
   function renderRoute(run) {
-    const map = run.map;
-    const ROW = 116;
-    const HEAD = 64; // room above the first row for the squad before it sets out
-    const H = map.rows.length * ROW + HEAD;
     const ex = T.expeditionOf(run);
-    // the stops stand in a field to the right of the leg titles (--gut, which narrow screens set to 0)
-    const fx = (x) => `calc(var(--gut) + (100% - var(--gut)) * ${x / 100})`;
-    const pos = (nd) => {
-      const n = map.rows[nd.row].length;
-      return { x: n === 1 ? 50 : ((nd.col + 0.5) / n) * 100, y: HEAD + (nd.row + 0.5) * ROW };
-    };
-    const legs = [];
-    for (let r = 0; r < map.rows.length;) {
-      const a = T.actOf(r, map);
-      let r2 = r;
-      while (r2 + 1 < map.rows.length && T.actOf(r2 + 1, map) === a && map.all[map.rows[r2 + 1][0]].type !== 'boss')
-        r2++;
-      legs.push({ act: a, from: r, to: r2 });
-      r = r2 + 1;
-    }
-    const at = run.nodeId != null ? run.nodeId : null;
-    const here = at != null ? map.all[at].row : -1;
-    const bands = legs
-      .map((l) => {
-        const top = l.from === 0 ? 0 : HEAD + l.from * ROW;
-        const h = (l.to - l.from + 1) * ROW + (l.from === 0 ? HEAD : 0);
-        const boss = map.all[map.rows[l.from][0]].type === 'boss';
-        const leg = ex && ex.legs[l.act];
-        const art = U.artClass(boss && ex ? ex.legs[2].scene : leg ? leg.scene : U.LEG_SCENES[l.act]);
-        const label = boss ? esc(T.threatTitle(run)) : esc(map.actNames[l.act]);
-        const passed = here > l.to;
-        const kick = boss ? 'The end of the route' : `Leg ${ROMAN[l.act]}${leg ? ' · ' + GROUND_NAME[leg.ground] : ''}`;
-        const readout = boss
-          ? T.THREAT_BY && ex && T.THREAT_BY[ex.threat]
-            ? esc(T.THREAT_BY[ex.threat].look)
-            : ''
-          : leg
-            ? '&gt; ' + esc(GROUND_READOUT[leg.ground])
-            : '';
-        return `<div class="leg${boss ? ' finale' : ''}${passed ? ' passed' : ''}${leg ? ' g-' + leg.ground : ''}" style="top:${top}px;height:${h}px"><div class="leg-art ${art}"></div><div class="leg-head"><span class="leg-kick">${kick}</span><span class="actlabel">${label}</span>${readout ? `<span class="leg-read">${readout}</span>` : ''}</div></div>`;
-      })
-      .join('');
-    const curves = [];
-    Object.values(map.all).forEach((nd) =>
-      nd.next.forEach((nid) => {
-        const m = map.all[nid];
-        const a = pos(nd),
-          b = pos(m);
-        const taken = nd.done && m.done;
-        const open = nd.id === at && run.available.includes(nid) && run.phase === 'map';
-        const cls = taken ? 'taken' : open ? 'open' : nd.row < here ? 'gone' : '';
-        const my = (a.y + b.y) / 2;
-        curves.push(
-          `<path class="cur ${cls}" d="M${a.x} ${a.y} C${a.x} ${my} ${b.x} ${my} ${b.x} ${b.y}" vector-effect="non-scaling-stroke"/>`,
-        );
-      }),
-    );
-    // before the first stop, the roads lead down from where the squad sets out
-    if (at == null)
-      map.rows[0].forEach((id) => {
-        const b = pos(map.all[id]);
-        const a = { x: 50, y: HEAD / 2 };
-        const my = (a.y + b.y) / 2;
-        curves.push(
-          `<path class="cur open" d="M${a.x} ${a.y} C${a.x} ${my} ${b.x} ${my} ${b.x} ${b.y}" vector-effect="non-scaling-stroke"/>`,
-        );
+    const missions = run.history.slice();
+    const how = {};
+    Object.values(run.map.all)
+      .filter((nd) => nd.done)
+      .sort((x, y) => x.row - y.row)
+      .forEach((nd) => {
+        if (nd.type === 'haven') how[nd.id] = 'rested here';
+        else if (nd.type === 'event') how[nd.id] = 'a fork in the road';
+        else if (T.MISSIONS[nd.type]) {
+          const h = missions.shift();
+          if (h)
+            how[nd.id] =
+              `${h.won ? 'won' : 'lost'} · ${h.rounds} round${h.rounds === 1 ? '' : 's'}${h.kills ? ' · ' + h.kills + ' foe' + (h.kills === 1 ? '' : 's') + ' down' : ''}`;
+        }
       });
-    const nodes = Object.values(map.all)
-      .map((nd) => {
-        const p = pos(nd);
-        const type = nd.type;
-        const avail = run.available.includes(nd.id) && run.phase === 'map';
-        const ahead = nd.row - Math.max(here, -1);
-        const cls = [
-          'mnode',
-          'k-' + type,
-          avail ? 'avail' : '',
-          nd.done ? 'done' : '',
-          at === nd.id ? 'current' : '',
-          type === 'boss' ? 'boss' : '',
-          !nd.done && !avail && ahead > 2 ? 'far' : '',
-          !nd.done && nd.row <= here && at !== nd.id ? 'missed' : '',
-        ].join(' ');
-        const pg = nd.page && T.PAGE_BY[nd.page];
-        const plate = type === 'boss' ? (ex ? ex.legs[2].scene : null) : pg ? pg.plate : null;
-        const art = U.artClass(plate);
-        const tip = T.MISSIONS[type]
+    const stop = (nd) => {
+      const type = nd.type;
+      const pg = nd.page && T.PAGE_BY[nd.page];
+      const plate = type === 'boss' ? (ex ? ex.legs[2].scene : null) : pg ? pg.plate : null;
+      const art = U.artClass(plate);
+      const done = how[nd.id] ? `<div class="small ok" style="margin-top:4px">✓ ${esc(how[nd.id])}</div>` : '';
+      const tip =
+        (T.MISSIONS[type]
           ? (pg
               ? `<div class="tip-plate ${art}"></div><b>${esc(pg.name)}</b> <span class="dim">· ${U.gravityText(pg.gravity)}</span><div>${esc(pg.blurb)}</div><div class="small" style="margin-top:4px"><b>${type === 'boss' ? esc(T.threatTitle(run)) : NODE_NAME[type]}</b>${type === 'haven' || type === 'event' ? '' : ' · tier ' + nd.tier}: `
               : `<b>${type === 'boss' ? esc(T.threatTitle(run)) : NODE_NAME[type]}</b> · tier ${nd.tier}<div class="small">`) +
             esc(T.MISSIONS[type].blurb) +
             '</div>' +
+            (type === 'boss' && ex && T.THREAT_BY && T.THREAT_BY[ex.threat]
+              ? `<div class="small dim">${esc(T.THREAT_BY[ex.threat].look)}</div>`
+              : '') +
             (nd.done ? '' : briefTip(U.stopPreview(run, nd.id)))
           : type === 'haven'
             ? '<b>Haven</b><div>A night under a windbreak: rest, trade and buy gear.</div>'
-            : '<b>Event</b><div>A fork in the route: something on the road, and a choice about it.</div>';
-        const tier = type === 'haven' || type === 'event' ? '' : `<span class="tier">${'◆'.repeat(nd.tier)}</span>`;
-        const name = type === 'boss' ? esc(T.threatTitle(run)) : pg ? esc(pg.name) : NODE_NAME[type];
-        const sub = type === 'boss' ? 'The Heart’s rules' : pg ? NODE_NAME[type] : '';
-        return `<div class="${cls}" data-node="${nd.id}" style="left:${fx(p.x)};top:${p.y}px" ${avail ? `data-act="goNode" data-arg="${nd.id}"` : ''} data-tip="${esc(tip)}"><div class="medal${art ? ' painted' : ''}">${art ? `<span class="plate ${art}"></span>` : ''}<span class="mic">${NODE_ICON[type]}</span></div><div class="t"><span class="nm">${name}</span>${sub || tier || pg ? `<span class="sub">${sub ? sub + ' ' : ''}${tier}${pg && type !== 'boss' ? pullTag(pg.gravity) : ''}</span>` : ''}</div></div>`;
-      })
-      .join('');
-    // the squad stands where it last stopped (or at the head of the route, before it sets out)
-    const sp = at != null ? pos(map.all[at]) : { x: 50, y: HEAD / 2 };
-    const squad = `<div class="squad-mark${at == null ? ' start' : ''}" style="left:${fx(sp.x)};top:${sp.y}px">${run.heroes
-      .filter(Boolean)
-      .map((h) => U.portrait(h, 'sm'))
-      .join('')}${at == null ? '<span class="sm-label">Setting out</span>' : ''}</div>`;
-    return `<div class="route" style="height:${H}px">${bands}<svg class="currents" viewBox="0 0 100 ${H}" preserveAspectRatio="none">${curves.join('')}</svg>${nodes}${squad}</div>`;
+            : '<b>Event</b><div>A fork in the route: something on the road, and a choice about it.</div>') + done;
+      const tier =
+        type === 'haven' || type === 'event' || type === 'boss'
+          ? ''
+          : `<span class="tier">${'◆'.repeat(nd.tier)}</span>`;
+      const name = type === 'boss' ? T.threatTitle(run) : pg ? pg.name : NODE_NAME[type];
+      const sub = type === 'boss' ? 'The Heart’s rules' : pg ? NODE_NAME[type] : '';
+      return {
+        art,
+        tip,
+        name,
+        icon: NODE_ICON[type],
+        sub: sub || tier ? `${sub ? sub + ' ' : ''}${tier}${pg && type !== 'boss' ? pullTag(pg.gravity) : ''}` : '',
+      };
+    };
+    return U.renderOverworld(run, { stop });
   }
   /** One line of a passage: the Terminal's log in its own type, a pilot's words beside their portrait. */
   function passageLine(run, l) {
@@ -17818,14 +18057,6 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const foes = p.foes.map((f) => (f.n > 1 ? f.n + ' ' : '') + esc(f.name)).join(', ');
     return `<div class="small" style="margin-top:4px"><b>${GOAL_VERB[p.goal] || 'Win'}:</b> ${esc(p.objective)}</div><div class="small dim">${p.clock ? '⏳ ' + p.clock.value + ' rounds · ' : ''}${foes}${p.spawns.length ? ' · and more keep coming' : ''}</div>`;
   }
-  // the chart of the whole route stays open or folded as the player left it
-  document.addEventListener(
-    'toggle',
-    (e) => {
-      if (e.target && e.target.classList && e.target.classList.contains('route-panel')) U.routeOpen = e.target.open;
-    },
-    true,
-  );
   // a stop card and its roundel on the route light up together
   document.addEventListener('mouseover', (e) => {
     const card = e.target && e.target.closest && e.target.closest('.stopcard[data-node]');
@@ -17839,72 +18070,26 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     }
   });
   /**
-   * The route as a journey column (Frogma "Finalised UI", Route 3): the Heart at the top, the legs still to
-   * come as bands, the leg the squad is on with its next stops as big art cards, and the stops passed below.
+   * The route screen's body: the map of Tumult the expedition crosses (Garrett, 2026-11-22), a line saying where
+   * the squad stands and what its guides say of the ground ahead, and the next stops as cards to compare.
    */
-  function legsOf(map) {
-    const legs = [];
-    for (let r = 0; r < map.rows.length;) {
-      const a = T.actOf(r);
-      let r2 = r;
-      while (r2 + 1 < map.rows.length && T.actOf(r2 + 1) === a && map.all[map.rows[r2 + 1][0]].type !== 'boss') r2++;
-      legs.push({ act: a, from: r, to: r2, boss: map.all[map.rows[r][0]].type === 'boss' });
-      r = r2 + 1;
-    }
-    return legs;
-  }
-  function stopName(run, nd) {
-    const pg = nd.page && T.PAGE_BY[nd.page];
-    return nd.type === 'boss' ? T.threatTitle(run) : pg ? pg.name : NODE_NAME[nd.type];
-  }
   function renderJourney(run) {
     const map = run.map;
     const ex = T.expeditionOf(run);
     const at = run.nodeId != null ? run.nodeId : null;
     const here = at != null ? map.all[at].row : -1;
-    const legs = legsOf(map);
     const next = Math.min(here + 1, map.rows.length - 1);
-    const cur = legs.find((l) => next >= l.from && next <= l.to) || legs[0];
-    const bossLeg = legs.find((l) => l.boss);
+    const act = T.actOf(next, map);
+    const boss = map.all[map.rows[next][0]].type === 'boss';
+    const leg = ex && ex.legs[act];
     const away = map.rows.length - 1 - here;
-    const heart = `<div class="j-heart${cur === bossLeg ? ' near' : ''}${bossLeg && ex ? ' ' + U.artClass(ex.legs[2].scene) : ''}"><span class="j-heart-t">${esc(T.threatTitle(run))}</span><span class="small">${away <= 1 ? 'the next stop' : away + ' stops away'}</span></div>`;
-    const legName = (l) => {
-      const leg = ex && ex.legs[l.act];
-      return `Leg ${ROMAN[l.act]}${leg ? ' · ' + GROUND_NAME[leg.ground] : ''}`;
-    };
-    const ahead = legs
-      .filter((l) => !l.boss && l.from > cur.to)
-      .reverse()
-      .map((l) => {
-        const leg = ex && ex.legs[l.act];
-        const art = U.artClass(leg ? leg.scene : U.LEG_SCENES[l.act]);
-        return `<div class="j-leg ${art}"><span class="j-shade"></span><span class="j-leg-t"><b>${legName(l)}</b> <span class="dim small">· ${esc(map.actNames[l.act])} · ${l.to - l.from + 1} stop${l.to > l.from ? 's' : ''}</span></span></div>`;
-      })
-      .join('');
     const choosing = run.phase === 'map' && run.available.length && T.squadReady(run);
-    const now = cur.boss
-      ? ''
-      : `<div class="j-now"><div class="row"><span class="kick">${legName(cur)}</span><span class="dim small">${esc(map.actNames[cur.act])}${choosing ? ' · you are here · choose the next stop' : ''}</span></div></div>`;
-    // the stops passed, newest first; a mission's line says how it went
-    const missions = run.history.slice();
-    const passed = Object.values(map.all)
-      .filter((nd) => nd.done)
-      .sort((x, y) => x.row - y.row)
-      .map((nd) => {
-        let how = nd.type === 'haven' ? 'rested' : nd.type === 'event' ? 'a fork in the road' : '';
-        if (T.MISSIONS[nd.type] && nd.type !== 'haven' && nd.type !== 'event') {
-          const h = missions.shift();
-          if (h)
-            how = `${h.won ? 'won' : 'lost'} · ${h.rounds} round${h.rounds === 1 ? '' : 's'}${h.kills ? ' · ' + h.kills + ' foe' + (h.kills === 1 ? '' : 's') + ' down' : ''}`;
-        }
-        const pg = nd.page && T.PAGE_BY[nd.page];
-        const art = U.artClass(pg ? pg.plate : null);
-        return `<div class="j-past ${art}"><span class="j-shade"></span><span class="j-past-t"><span class="ok">✓</span> <b>${esc(stopName(run, nd))}</b> <span class="dim small">${NODE_NAME[nd.type]}${how ? ' · ' + esc(how) : ''}</span></span></div>`;
-      })
-      .reverse()
-      .join('');
-    const start = `<div class="j-past j-start"><span class="j-past-t"><span class="ok">${at == null ? '●' : '✓'}</span> <b>The Ark</b> <span class="dim small">${at == null ? 'setting out' : 'where the route began'}</span></span></div>`;
-    return `<div class="journey">${heart}${ahead}${now}${choosing ? `<div class="stopcards">${run.available.map((id) => stopCard(run, id)).join('')}</div>` : ''}${passed}${start}</div>`;
+    const where = boss
+      ? `<span class="kick">The end of the route</span><span class="dim small">${esc(T.threatTitle(run))}${choosing ? ' · the last road' : ''}</span>`
+      : `<span class="kick">Leg ${ROMAN[act]}${leg ? ' · ' + GROUND_NAME[leg.ground] : ''}</span><span class="dim small">${esc(map.actNames[act])}${choosing ? ' · choose the next stop' : ''}</span>`;
+    const far = `<span class="right small j-far"><b>${esc(T.threatTitle(run))}</b> · ${away <= 1 ? 'the next stop' : away + ' stops away'}</span>`;
+    const guides = leg && !boss ? `<div class="j-guides">&gt; ${esc(GROUND_READOUT[leg.ground])}</div>` : '';
+    return `<div class="journey">${renderRoute(run)}<div class="j-now"><div class="row">${where}${far}</div>${guides}</div>${choosing ? `<div class="stopcards">${run.available.map((id) => stopCard(run, id)).join('')}</div>` : ''}</div>`;
   }
   /**
    * A newcomer joining on the route (2.79): the squad sees them bringing a pilot, and the route waits for them.
@@ -17927,8 +18112,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     return `<div class="wrap route-screen">${header('The Route', `<span style="margin-left:6px"></span>${U.purseHTML(run)}${run.tide !== 'rising' ? `<span class="pill" data-tip="${esc(T.TIDES[run.tide].txt)}">${U.ic('node.cascade', '🌊', 'tiny')} ${esc(T.TIDES[run.tide].n)}</span>` : ''}${run.lifeline ? '<span class="pill" data-tip="Once per run: lose a non-boss mission with someone still standing and limp on with no rewards. If the whole squad goes down, the expedition ends.">🕯️ Lifeline</span>' : ''}${U.scalePill(run)}${titleBtn()}`)}
       ${renderPassage(run)}
       ${joinCard(run)}
-      <div class="route3"><div class="r3-squad">${partyBar(run)}</div><div class="r3-main">${run.phase === 'map' && run.available.length ? `<div class="small dim r3-line">${expeditionLine(run)}${esc(T.threatTitle(run))} waits at the end of the route.</div>` : ''}${renderJourney(run)}</div></div>
-      <details class="panel route-panel" style="margin-top:12px"${U.routeOpen ? ' open' : ''}><summary class="row"><span class="dim small">The whole route, as a chart: every road and stop from the top. Glowing stops are reachable; hover one to see what it holds.</span><span class="right small dim">Stop ${run.nodeId != null ? map.all[run.nodeId].row + 1 : 0} of ${map.rows.length}</span></summary>${renderRoute(run)}</details></div>`;
+      <div class="route3"><div class="r3-squad">${partyBar(run)}</div><div class="r3-main">${run.phase === 'map' && run.available.length ? `<div class="small dim r3-line">${expeditionLine(run)}${esc(T.threatTitle(run))} waits at the end of the route.</div>` : ''}${renderJourney(run)}</div></div></div>`;
   }
 
   /* ───────────── TRAIN / KIT modals ───────────── */
@@ -18150,6 +18334,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     }
     shown = U.screen;
     if (U.screen === 'mission') U.afterMissionRender();
+    if (U.screen === 'map' && U.overworldMount) U.overworldMount();
     if (U.modal && U.modal.onMount) U.modal.onMount();
     if (U.canonRestore) U.canonRestore();
     if (U.seaApply) U.seaApply();
@@ -18470,6 +18655,405 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
 })((window.T = window.T || {}));
 
 
+/* ───── ui/overworld.js ───── */
+/* ============================================================================
+   TUMULT — THE OVERWORLD (Garrett, 2026-11-22: "a tumult map between missions
+   instead of a little ladder ... the big boss far away, and branching paths to
+   get there across a landscape").
+
+   The route drawn as a map of the ground the expedition crosses: the squad sets
+   out on the left, each leg is a stretch of country of its own ground (land,
+   sea or air), every stop stands where its roads meet, and what waits at the
+   end of the route stands on the far right, big, over its own ground. Pure
+   drawing: it reads the run's map (T.genTideMap, unchanged) and the expedition,
+   and changes nothing. The country is painted from the run's seed, so the same
+   expedition always shows the same land.
+   ========================================================================== */
+(function (T) {
+  'use strict';
+  const U = (T.UI = T.UI || {});
+  const esc = (s) =>
+    String(s == null ? '' : s).replace(
+      /[&<>"']/g,
+      (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
+    );
+
+  /** The map's own size, in its units. The page keeps this shape, so a stop's place is a share of each side. */
+  const W = 1000,
+    H = 470;
+  const START = { x: 52, y: H / 2 };
+  const BOSS = { x: 905, y: H / 2 - 6 };
+  const ROMAN = ['I', 'II', 'III'];
+  const GROUND_NAME = { land: 'by land', sea: 'by sea', air: 'by air' };
+
+  /** A small seeded stream for the drawing only (the engine's streams are left alone). */
+  function rand(seed) {
+    let a = seed >>> 0 || 1;
+    return () => {
+      a = (a + 0x6d2b79f5) >>> 0;
+      let t = a;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  const seedOf = (run, salt) => {
+    let h = 2166136261 ^ salt;
+    const s = String(run.seed) + '|' + (run.map ? run.map.rows.length : 0);
+    for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+    return h >>> 0;
+  };
+  const f1 = (n) => Math.round(n * 10) / 10;
+
+  /** The legs of the route (a run of rows on one tier), the finale apart. */
+  function legsOf(map) {
+    const legs = [];
+    for (let r = 0; r < map.rows.length;) {
+      const a = T.actOf(r, map);
+      let r2 = r;
+      while (r2 + 1 < map.rows.length && T.actOf(r2 + 1, map) === a && map.all[map.rows[r2 + 1][0]].type !== 'boss')
+        r2++;
+      legs.push({ act: a, from: r, to: r2, boss: map.all[map.rows[r][0]].type === 'boss' });
+      r = r2 + 1;
+    }
+    return legs;
+  }
+
+  /**
+   * Where every stop stands: the rows run left to right toward the finale, the stops of a row stand apart up
+   * and down it, each nudged off the grid so the roads wander like roads.
+   */
+  function layout(run) {
+    const map = run.map;
+    const rng = rand(seedOf(run, 1));
+    const n = map.rows.length;
+    const x0 = 140,
+      x1 = 730;
+    const colX = (r) => (r === n - 1 ? BOSS.x : n <= 2 ? x0 : x0 + (r * (x1 - x0)) / (n - 2));
+    const pos = {};
+    map.rows.forEach((row, r) => {
+      const k = row.length;
+      row.forEach((id, c) => {
+        if (map.all[id].type === 'boss') return (pos[id] = { x: BOSS.x, y: BOSS.y });
+        const span = k === 1 ? 0 : k === 2 ? 170 : 250;
+        const y = H / 2 + 8 + (k === 1 ? 0 : -span / 2 + (c * span) / (k - 1));
+        pos[id] = { x: colX(r) + (rng() - 0.5) * 34, y: y + (rng() - 0.5) * 44 };
+      });
+    });
+    return { pos, colX };
+  }
+
+  /* ───────────── the country ───────────── */
+
+  /** A wavy line from (x, ya) to (x, yb), for a border between two grounds. */
+  function seam(rng, x, wob) {
+    let d = `M${f1(x)} -10`;
+    for (let y = 30; y <= H + 40; y += 40)
+      d += ` Q${f1(x + (rng() - 0.5) * wob)} ${y - 20} ${f1(x + (rng() - 0.5) * wob * 0.6)} ${y}`;
+    return d;
+  }
+  /** One ground's country between x0 and x1: its colour, its shapes and its weather. */
+  function country(rng, g, x0, x1, id) {
+    const w = x1 - x0;
+    const out = [];
+    const pick = (a, b) => a + rng() * (b - a);
+    if (g === 'land') {
+      out.push(`<rect x="${x0}" y="0" width="${w}" height="${H}" fill="url(#ow-land)"/>`);
+      // contour lines of rolling ground, the uphill heavier
+      for (let i = 0; i < 9; i++) {
+        const y = pick(20, H - 20);
+        let d = `M${x0} ${f1(y)}`;
+        for (let x = x0; x < x1; x += 50) d += ` q25 ${f1(pick(-18, 18))} 50 0`;
+        out.push(`<path d="${d}" class="ow-contour"/>`);
+      }
+      // quarry pits: rings dug into the ground
+      for (let i = 0; i < Math.max(1, Math.round(w / 260)); i++) {
+        const cx = pick(x0 + 30, x1 - 30),
+          cy = pick(40, H - 40),
+          r = pick(14, 26);
+        out.push(
+          `<g class="ow-pit"><ellipse cx="${f1(cx)}" cy="${f1(cy)}" rx="${f1(r)}" ry="${f1(r * 0.62)}"/><ellipse cx="${f1(cx)}" cy="${f1(cy + 2)}" rx="${f1(r * 0.62)}" ry="${f1(r * 0.36)}"/><ellipse cx="${f1(cx)}" cy="${f1(cy + 3)}" rx="${f1(r * 0.28)}" ry="${f1(r * 0.16)}"/></g>`,
+        );
+      }
+      // windbreaks: the long walls the roads keep to (docs/LORE.md)
+      for (let i = 0; i < Math.max(2, Math.round(w / 120)); i++) {
+        const x = pick(x0 + 10, x1 - 70),
+          y = pick(30, H - 30),
+          len = pick(40, 90),
+          tilt = pick(-12, 12);
+        out.push(`<path d="M${f1(x)} ${f1(y)} l${f1(len)} ${f1(tilt)}" class="ow-break"/>`);
+      }
+      // rocks
+      for (let i = 0; i < Math.round(w / 22); i++) {
+        const x = pick(x0 + 6, x1 - 6),
+          y = pick(10, H - 10),
+          s = pick(2, 5);
+        out.push(
+          `<path d="M${f1(x - s)} ${f1(y)} l${f1(s)} ${f1(-s * 1.2)} l${f1(s)} ${f1(s * 1.2)}z" class="ow-rock"/>`,
+        );
+      }
+    } else if (g === 'sea') {
+      out.push(`<rect x="${x0}" y="0" width="${w}" height="${H}" fill="url(#ow-sea)"/>`);
+      // swell: rows of small wave marks
+      for (let i = 0; i < Math.round(w / 9); i++) {
+        const x = pick(x0 + 8, x1 - 20),
+          y = pick(10, H - 10);
+        out.push(`<path d="M${f1(x)} ${f1(y)} q4 -4 8 0 q4 -4 8 0" class="ow-wave"/>`);
+      }
+      // islands: coasts that collapse and come back elsewhere
+      for (let i = 0; i < Math.max(2, Math.round(w / 150)); i++) {
+        const cx = pick(x0 + 30, x1 - 30),
+          cy = pick(36, H - 36),
+          r = pick(10, 24);
+        let d = '';
+        for (let a = 0; a <= 12; a++) {
+          const t = (a / 12) * Math.PI * 2,
+            rr = r * (0.75 + rng() * 0.45);
+          d += `${a ? 'L' : 'M'}${f1(cx + Math.cos(t) * rr * 1.5)} ${f1(cy + Math.sin(t) * rr)}`;
+        }
+        out.push(`<path d="${d}z" class="ow-isle"/>`);
+      }
+      // kelp beds
+      for (let i = 0; i < Math.round(w / 90); i++) {
+        const x = pick(x0 + 10, x1 - 10),
+          y = pick(30, H - 10);
+        out.push(`<path d="M${f1(x)} ${f1(y)} q-5 -9 0 -18 q5 -9 0 -18" class="ow-kelp"/>`);
+      }
+    } else {
+      out.push(`<rect x="${x0}" y="0" width="${w}" height="${H}" fill="url(#ow-air)"/>`);
+      // the high country: peaks, snow on the heavy side
+      for (let i = 0; i < Math.max(5, Math.round(w / 26)); i++) {
+        const x = pick(x0 + 14, x1 - 14),
+          y = pick(40, H - 8),
+          s = pick(12, 30);
+        out.push(
+          `<g class="ow-peak"><path d="M${f1(x - s)} ${f1(y)} L${f1(x)} ${f1(y - s * 1.3)} L${f1(x + s)} ${f1(y)}z"/><path class="cap" d="M${f1(x - s * 0.32)} ${f1(y - s * 0.88)} L${f1(x)} ${f1(y - s * 1.3)} L${f1(x + s * 0.32)} ${f1(y - s * 0.88)} l${f1(-s * 0.16)} ${f1(s * 0.12)}z"/></g>`,
+        );
+      }
+      // cloud shelves
+      for (let i = 0; i < Math.max(3, Math.round(w / 80)); i++) {
+        const x = pick(x0, x1 - 60),
+          y = pick(20, H - 30),
+          s = pick(14, 26);
+        out.push(
+          `<path d="M${f1(x)} ${f1(y)} a${f1(s)} ${f1(s * 0.7)} 0 0 1 ${f1(s * 1.6)} -${f1(s * 0.4)} a${f1(s * 0.9)} ${f1(s * 0.7)} 0 0 1 ${f1(s * 1.8)} ${f1(s * 0.3)} a${f1(s * 0.6)} ${f1(s * 0.5)} 0 0 1 0 ${f1(s * 0.6)}z" class="ow-cloud"/>`,
+        );
+      }
+    }
+    // the wind never stops: long streaks across every ground, strongest in the air
+    const streaks = g === 'air' ? 7 : 3;
+    for (let i = 0; i < streaks; i++) {
+      const x = pick(x0, x1 - 80),
+        y = pick(16, H - 16),
+        len = pick(60, 140);
+      out.push(`<path d="M${f1(x)} ${f1(y)} q${f1(len / 2)} ${f1(pick(-14, 14))} ${f1(len)} 0" class="ow-wind"/>`);
+    }
+    return `<g class="ow-ground g-${g}" clip-path="url(#${id})">${out.join('')}</g>`;
+  }
+
+  /** What waits at the end of the route, drawn big over its own ground. Its look comes from its threat. */
+  function landmark(threat) {
+    const x = BOSS.x,
+      y = BOSS.y;
+    const glow = `<circle cx="${x}" cy="${y}" r="120" fill="url(#ow-dread)"/>`;
+    const shapes = {
+      storm: `<g class="lm lm-storm">${[78, 60, 44, 28]
+        .map(
+          (r, i) =>
+            `<ellipse cx="${x}" cy="${y}" rx="${r}" ry="${f1(r * 0.55)}" transform="rotate(${-14 + i * 9} ${x} ${y})"/>`,
+        )
+        .join('')}<circle cx="${x}" cy="${y}" r="11" class="eye"/></g>`,
+      knot: `<g class="lm lm-knot">${[0, 120, 240]
+        .map((a) => `<path d="M${x} ${y} c30 -10 60 10 70 40 c4 14 -4 28 -18 30" transform="rotate(${a} ${x} ${y})"/>`)
+        .join('')}<circle cx="${x}" cy="${y}" r="9" class="eye"/></g>`,
+      engine: `<g class="lm lm-engine"><path d="M${x - 70} ${y + 40} q70 -24 140 0" class="water"/><path d="M${x - 46} ${y + 34} l10 -66 h22 l6 -22 h16 l6 22 h22 l10 66z"/><circle cx="${x}" cy="${y - 14}" r="14" class="eye"/><path d="M${x - 70} ${y + 52} q70 -18 140 0" class="water"/></g>`,
+      reef: `<g class="lm lm-reef">${[-48, -24, 0, 22, 46]
+        .map(
+          (dx, i) =>
+            `<path d="M${x + dx - 9} ${y + 46} q-6 -${40 + i * 6} ${9 + (i % 2) * 4} -${62 + (i % 3) * 14} q14 ${30 + i * 4} 9 ${62 + (i % 3) * 14}z"/>`,
+        )
+        .join('')}<circle cx="${x}" cy="${y - 6}" r="9" class="eye"/></g>`,
+      hive: `<g class="lm lm-hive"><path d="M${x - 80} ${y + 48} q80 -150 160 0z"/>${[0, 1, 2]
+        .map((i) => `<ellipse cx="${x - 30 + i * 30}" cy="${y + 18 - (i % 2) * 22}" rx="7" ry="9" class="eye"/>`)
+        .join('')}</g>`,
+      beacon: `<g class="lm lm-beacon"><path d="M${x - 22} ${y + 54} l12 -96 h20 l12 96z"/><path d="M${x - 16} ${y - 42} h32 l-6 -16 h-20z"/><circle cx="${x}" cy="${y - 64}" r="10" class="eye"/>${[
+        -1, 1,
+      ]
+        .map((s) => `<path d="M${x} ${y - 64} l${s * 90} -30 v60z" class="beam"/>`)
+        .join('')}</g>`,
+    };
+    return glow + (shapes[threat] || shapes.storm);
+  }
+
+  /** A road between two stops: a wandering curve, its bend fixed by the pair, so it is the same road every time. */
+  function road(a, b, salt) {
+    const mx = (a.x + b.x) / 2,
+      my = (a.y + b.y) / 2;
+    const dx = b.x - a.x,
+      dy = b.y - a.y;
+    const len = Math.hypot(dx, dy) || 1;
+    const bend = ((((salt * 2654435761) >>> 0) % 1000) / 1000 - 0.5) * 0.36 * len;
+    return `M${f1(a.x)} ${f1(a.y)} Q${f1(mx - (dy / len) * bend)} ${f1(my + (dx / len) * bend)} ${f1(b.x)} ${f1(b.y)}`;
+  }
+
+  /**
+   * The route as a map of Tumult. `h` hands in what the route screen already knows how to say about a stop
+   * (its name, its tip, its icon), so the map and the stop cards always agree.
+   */
+  U.renderOverworld = function (run, h) {
+    const map = run.map;
+    const ex = T.expeditionOf(run);
+    const rng = rand(seedOf(run, 2));
+    const legs = legsOf(map);
+    const { pos, colX } = layout(run);
+    const at = run.nodeId != null ? run.nodeId : null;
+    const here = at != null ? map.all[at].row : -1;
+    const n = map.rows.length;
+    const groundOf = (act) => (ex && ex.legs[act] ? ex.legs[act].ground : ['land', 'sea', 'air'][act]);
+
+    // each leg's stretch of country: from halfway after the last leg's stops to halfway past its own
+    const edge = (r) => (r <= 0 ? 0 : r >= n ? W : (colX(r - 1) + colX(r)) / 2);
+    const spans = legs.map((l) => ({ l, x0: edge(l.from), x1: l.boss ? W : edge(l.to + 1), g: groundOf(l.act) }));
+    const seamX = spans.slice(1).map((s) => s.x0);
+    const seams = seamX.map((x) => seam(rng, x, 46));
+    // clip each ground to its stretch, between its wavy borders
+    const clips = spans
+      .map((s, i) => {
+        const left = i === 0 ? `M-10 -10 L-10 ${H + 40}` : seams[i - 1].replace(/^M/, 'M');
+        const right = i === spans.length - 1 ? `M${W + 10} -10 L${W + 10} ${H + 40}` : seams[i];
+        // a closed shape: down the left border, back up the right one
+        const pts = (d) => d.match(/-?\d+(\.\d+)?/g).map(Number);
+        const l = pts(left),
+          r = pts(right);
+        const lp = [],
+          rp = [];
+        for (let k = 0; k < l.length; k += 2) lp.push(l[k] + ' ' + l[k + 1]);
+        for (let k = 0; k < r.length; k += 2) rp.push(r[k] + ' ' + r[k + 1]);
+        return `<clipPath id="owc${i}"><path d="M${lp.join(' L')} L${rp.reverse().join(' L')}z"/></clipPath>`;
+      })
+      .join('');
+    const ground = spans
+      .map((s, i) =>
+        s.l.boss && i > 0 && spans[i - 1].g === s.g ? '' : country(rng, s.g, s.x0 - 30, s.x1 + 30, 'owc' + i),
+      )
+      .join('');
+    // the finale shares its ground with the last leg: that ground runs on under it, darker
+    const lastLeg = spans.length > 1 && spans[spans.length - 1].l.boss ? spans[spans.length - 2] : null;
+    const finale = spans[spans.length - 1];
+    const runOn =
+      lastLeg && lastLeg.g === finale.g
+        ? country(rng, finale.g, finale.x0 - 30, W + 10, 'owc' + (spans.length - 1))
+        : '';
+    const coast = seams.map((d) => `<path d="${d}" class="ow-seam"/>`).join('');
+
+    // the roads: taken, open, behind, and still to come
+    const roads = [];
+    Object.values(map.all).forEach((nd) =>
+      nd.next.forEach((nid) => {
+        const m = map.all[nid];
+        const taken = nd.done && m.done;
+        const open = nd.id === at && run.available.includes(nid) && run.phase === 'map';
+        const cls = taken ? 'taken' : open ? 'open' : nd.row < here ? 'gone' : m.row - here > 2 ? 'far' : '';
+        const d = road(pos[nd.id], pos[nid], nd.id * 31 + nid);
+        roads.push(`<path class="ow-bed ${cls}" d="${d}"/><path class="ow-road ${cls}" d="${d}"/>`);
+      }),
+    );
+    if (at == null)
+      map.rows[0].forEach((id) => {
+        const d = road(START, pos[id], id + 7);
+        roads.push(`<path class="ow-bed open" d="${d}"/><path class="ow-road open" d="${d}"/>`);
+      });
+    else {
+      // the road the squad set out on stays drawn
+      const first = map.rows[0].find((id) => map.all[id].done);
+      if (first != null) {
+        const d = road(START, pos[first], first + 7);
+        roads.push(`<path class="ow-bed taken" d="${d}"/><path class="ow-road taken" d="${d}"/>`);
+      }
+    }
+
+    // the mist over the country more than a leg ahead: known, not yet seen
+    const nextLeg = legs.findIndex((l) => here + 1 >= l.from && here + 1 <= l.to);
+    const mistFrom = nextLeg >= 0 && spans[nextLeg + 1] && !spans[nextLeg + 1].l.boss ? spans[nextLeg + 1].x0 : null;
+    const mist =
+      mistFrom != null
+        ? `<rect x="${f1(mistFrom)}" y="0" width="${f1(BOSS.x - 120 - mistFrom)}" height="${H}" fill="url(#ow-mist)" class="ow-mist"/>`
+        : '';
+
+    const svg = `<svg class="ow-land" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="ow-land" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3524"/><stop offset="1" stop-color="#232516"/></linearGradient>
+        <linearGradient id="ow-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f3a52"/><stop offset="1" stop-color="#0a2338"/></linearGradient>
+        <linearGradient id="ow-air" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4b5a74"/><stop offset="1" stop-color="#2a3550"/></linearGradient>
+        <radialGradient id="ow-dread"><stop offset="0" stop-color="#ff5a4a" stop-opacity="0.55"/><stop offset="0.55" stop-color="#8a1e3a" stop-opacity="0.28"/><stop offset="1" stop-color="#2a0a1a" stop-opacity="0"/></radialGradient>
+        <linearGradient id="ow-mist" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9fb4c8" stop-opacity="0"/><stop offset="0.25" stop-color="#9fb4c8" stop-opacity="0.16"/><stop offset="0.85" stop-color="#9fb4c8" stop-opacity="0.2"/><stop offset="1" stop-color="#9fb4c8" stop-opacity="0.05"/></linearGradient>
+        <radialGradient id="ow-vig" cx="0.45" cy="0.5" r="0.75"><stop offset="0.6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>
+        ${clips}
+      </defs>
+      ${ground}${runOn}${coast}
+      <rect x="${BOSS.x - 140}" y="0" width="${W - BOSS.x + 140}" height="${H}" class="ow-far"/>
+      ${landmark(ex ? ex.threat : 'storm')}
+      ${mist}
+      <g class="ow-roads">${roads.join('')}</g>
+      <g class="ow-camp" transform="translate(${START.x} ${START.y})"><path d="M-16 12 L0 -14 L16 12z"/><path d="M-6 12 L0 2 L6 12z" class="door"/><path d="M-26 18 h52" class="ground"/></g>
+      <g class="ow-rose" transform="translate(${W - 44} ${H - 40})"><circle r="17"/><path d="M0 -24 L5 0 L0 24 L-5 0z"/><path d="M-24 0 L0 4 L24 0 L0 -4z" class="minor"/><text y="-28" text-anchor="middle">UP</text></g>
+      <rect x="0" y="0" width="${W}" height="${H}" fill="url(#ow-vig)" pointer-events="none"/>
+    </svg>`;
+
+    // the legs, named over their country
+    const pct = (x) => f1((x / W) * 100) + '%';
+    const pctY = (y) => f1((y / H) * 100) + '%';
+    const labels = spans
+      .map((s) => {
+        const passed = here > s.l.to;
+        if (s.l.boss)
+          return `<div class="leg finale" style="left:${pct(BOSS.x - 130)};width:${pct(W - BOSS.x + 126)}"><span class="leg-kick">The end of the route</span></div>`;
+        return `<div class="leg g-${s.g}${passed ? ' passed' : ''}" style="left:${pct(s.x0)};width:${pct(s.x1 - s.x0)}"><span class="leg-kick">Leg ${ROMAN[s.l.act]} · ${GROUND_NAME[s.g]}</span><span class="actlabel">${esc(map.actNames[s.l.act])}</span></div>`;
+      })
+      .join('');
+
+    // the stops
+    const nodes = Object.values(map.all)
+      .map((nd) => {
+        const p = pos[nd.id];
+        const avail = run.available.includes(nd.id) && run.phase === 'map';
+        const ahead = nd.row - Math.max(here, -1);
+        const cls = [
+          'mnode',
+          'k-' + nd.type,
+          avail ? 'avail' : '',
+          nd.done ? 'done' : '',
+          at === nd.id ? 'current' : '',
+          nd.type === 'boss' ? 'boss' : '',
+          !nd.done && !avail && ahead > 2 ? 'far' : '',
+          !nd.done && nd.row <= here && at !== nd.id ? 'missed' : '',
+        ].join(' ');
+        const s = h.stop(nd);
+        return `<div class="${cls}" data-node="${nd.id}" style="left:${pct(p.x)};top:${pctY(p.y)}" ${avail ? `data-act="goNode" data-arg="${nd.id}"` : ''} data-tip="${esc(s.tip)}"><div class="medal${s.art ? ' painted' : ''}">${s.art ? `<span class="plate ${s.art}"></span>` : ''}<span class="mic">${s.icon || ''}</span>${nd.done ? '<span class="ow-tick">✓</span>' : ''}</div><div class="t"><span class="nm">${esc(s.name)}</span>${s.sub ? `<span class="sub">${s.sub}</span>` : ''}</div></div>`;
+      })
+      .join('');
+
+    // the squad stands where it last stopped, or at the camp it sets out from
+    const sp = at != null ? pos[at] : START;
+    const squad = `<div class="squad-mark${at == null ? ' start' : ''}" style="left:${pct(sp.x)};top:${pctY(sp.y)}">${run.heroes
+      .filter(Boolean)
+      .map((x) => U.portrait(x, 'sm'))
+      .join('')}${at == null ? '<span class="sm-label">Setting out</span>' : ''}</div>`;
+
+    return `<div class="ow-scroll"><div class="route overworld">${svg}${labels}${nodes}${squad}</div></div>`;
+  };
+
+  /** On a narrow screen the map scrolls sideways: bring the squad into view. */
+  U.overworldMount = function () {
+    if (typeof document === 'undefined') return;
+    const sc = document.querySelector('.ow-scroll');
+    const mark = sc && sc.querySelector('.squad-mark');
+    if (!sc || !mark || sc.scrollWidth <= sc.clientWidth) return;
+    sc.scrollLeft = Math.max(0, mark.offsetLeft - sc.clientWidth * 0.3);
+  };
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
 /* ───── ui/sea.js ───── */
 /* ============================================================================
    TUMULT — THE SEA AROUND THE BOARD (browser only)
@@ -18756,6 +19340,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   ]);
   const DRAFT = new Set([
     'draftMode',
+    'spotPilot',
     'prebuilt',
     'pickSpecies',
     'draftBack',
@@ -19256,7 +19841,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         ? `gear · ${esc(T.gearCostText({ omni: Math.max(...T.faceKeys(cid).map((k) => c[k].el || 0)) }))}`
         : o.P != null
           ? c.pet
-            ? `P${o.P} · pet`
+            ? `P${o.P}${o.E ? ' · E' + o.E : ''} · pet`
             : `P${o.P} · E${o.E}`
           : `${c.sig >= 2 ? '★ ' : ''}${esc(EL[elOf(c)].name)}`;
     const inner = `<span class="am-gem" style="--el:${EL[elOf(c)].color}"></span>${U.cardArt(c, false, sp)}<span class="am-tn">${esc(c.name)}</span><span class="am-tc">${c.gear ? U.icGear(c.gear) : U.icClade(sp)} ${esc(c.kin || T.SPECIES[sp].name)}</span><span class="am-tl">${lv}</span>${o.out ? '<span class="am-x" aria-hidden="true">✕</span>' : ''}`;
@@ -19266,7 +19851,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       : c.pet || c.gear
         ? ` data-tip="${esc(
             T.faceKeys(cid)
-              .map((k) => U.faceTipHTML(c, k, o.P || 0, 0))
+              .map((k) => U.faceTipHTML(c, k, o.P || 0, Math.max(o.E || 0, T.faceNeedE(cid, k))))
               .join('<hr>'),
           )}"`
         : ` data-tip="${esc(U.faceTipHTML(c, 'P', o.P || 0, o.E || 0) + '<hr>' + U.faceTipHTML(c, 'E', o.P || 0, Math.max(o.E || 0, T.RULES.ETHEREAL_MIN_E)))}"`;
@@ -19278,7 +19863,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const c = T.CARD[cid];
     const f = (fk) => {
       const face = c[fk];
-      return `<div class="am-face ${fk}"><b>${esc(face.n)}</b> <span class="mono dim">${face.ap} AP${face.el ? ` + ${face.el}<span class="el-${face.elt || c.el}">◆</span>` : ''}</span><span>${U.kw(esc(face.txt(P || 0, Math.max(E || 0, fk === 'E' ? T.RULES.ETHEREAL_MIN_E : 0))))}</span></div>`;
+      return `<div class="am-face ${fk}"><b>${esc(face.n)}</b> <span class="mono dim">${face.ap} AP${face.el ? ` + ${face.el}<span class="el-${face.elt || c.el}">◆</span>` : ''}</span><span>${U.kw(esc(face.txt(P || 0, Math.max(E || 0, T.faceNeedE(cid, fk)))))}</span></div>`;
     };
     return `<div class="am-faces">${T.faceKeys(cid).map(f).join('')}</div>`;
   }
@@ -19473,25 +20058,32 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const E = T.heroE(h, cid);
     const capP = T.RULES.P_CAP;
     const capE = T.RULES.E_CAP;
-    const fk = c.pet ? 'P' : am.up.face; // a pet's card grows with P alone
+    const fk = am.up.face === 'E' ? 'E' : 'P';
     const lv = fk === 'P' ? P : E;
     const cap = fk === 'P' ? capP : capE;
     const pts = h.upUnspent + T.boundLeft(h, cid);
     const can = lv < cap && pts > 0;
-    const asleep = fk === 'E' && E < T.RULES.ETHEREAL_MIN_E;
-    const face = c[fk];
+    // a pet's E awakens its Ethereal faces one a point (2.133): its E shows the next to wake, or the last at E 3
+    const petEth = (e) => T.PET_ETH[Math.min(e, T.PET_ETH.length - 1)];
+    const shown = c.pet && fk === 'E' ? petEth(E) : fk;
+    const asleep = fk === 'E' && E < T.faceNeedE(cid, shown);
+    const face = c[shown];
     const before = asleep ? 'Asleep: this face cannot be played yet.' : face.txt(P, E);
     const after = lv >= cap ? null : fk === 'P' ? face.txt(P + 1, E) : face.txt(P, E + 1);
     const flash = am.flash && am.flash.card === cid && Date.now() - am.flash.at < 1500 ? ' am-grown' : '';
     const others = run.heroes.map((x, k) => ({ x, k })).filter(({ k }) => U.own(k) && k !== i);
     const faceBtn = (k) => {
-      const f = c[k];
+      const f = c[c.pet && k === 'E' ? petEth(E) : k];
       const l = k === 'P' ? P : E;
       const cp = k === 'P' ? capP : capE;
       const label =
-        k === 'E' && E < T.RULES.ETHEREAL_MIN_E
-          ? `Awaken ${esc(f.n)}`
-          : `${esc(f.n)} ${k}${l} → ${l >= cp ? 'max' : k + (l + 1)}`;
+        c.pet && k === 'E' && E < cp
+          ? `Awaken ${esc(f.n)} · E${E} → E${E + 1}`
+          : c.pet
+            ? `${k === 'P' ? 'Physical' : 'Ethereal'} ${k}${l} → ${l >= cp ? 'max' : k + (l + 1)}`
+            : k === 'E' && E < T.RULES.ETHEREAL_MIN_E
+              ? `Awaken ${esc(f.n)}`
+              : `${esc(f.n)} ${k}${l} → ${l >= cp ? 'max' : k + (l + 1)}`;
       return `<button class="am-fbtn${fk === k ? ' on' : ''}" data-act="amUpFace" data-arg="${k}" aria-pressed="${fk === k}">${label}</button>`;
     };
     U.openModal(`<div class="am-sheet am-up" role="dialog" aria-label="Grow one card">
@@ -19510,7 +20102,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
               E: ke,
               clades: h.species,
               cls: T.CARD[k].pet
-                ? kp >= capP
+                ? kp >= capP && ke >= capE
                   ? 'maxed'
                   : ''
                 : ke < T.RULES.ETHEREAL_MIN_E
@@ -19523,10 +20115,10 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           .join('')}</div>
         <div class="am-upcard${flash}"><div class="am-spark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>${U.cardHTML(cid, { P, E, showUp: true, flavor: false, clades: h.species, bound: T.boundLeft(h, cid) })}</div>
         <div class="panel am-upside">
-          <div class="am-fbtns">${c.pet ? faceBtn('P') : faceBtn('P') + faceBtn('E')}</div>
+          <div class="am-fbtns">${faceBtn('P') + faceBtn('E')}</div>
           <div class="am-lab">${esc(face.n)}, ${asleep ? 'now' : 'before'}</div><div class="am-before">${U.kw(esc(before))}</div>
           ${after != null ? `<div class="am-lab gold">${esc(face.n)}, ${asleep ? 'awake' : 'after'}</div><div class="am-after">${U.kw(esc(after))}</div>` : `<div class="am-lab gold">At its height</div><div class="am-after dim">${esc(face.n)} is at ${fk} ${cap}, as far as it grows.</div>`}
-          <p class="small dim">${fk === 'P' ? 'Physical costs AP only and grows with P.' : `Ethereal unlocks at E ${T.RULES.ETHEREAL_MIN_E} and grows with E.`} Caps: P ${capP}, E ${capE}.</p>
+          <p class="small dim">${fk === 'P' ? (c.pet ? "A pet card's three Physical faces cost AP only and grow with P together." : 'Physical costs AP only and grows with P.') : c.pet ? "Each point of E awakens one more of the pet's Ethereal faces, in order; every awake one grows with E." : `Ethereal unlocks at E ${T.RULES.ETHEREAL_MIN_E} and grows with E.`} Caps: P ${capP}, E ${capE}.</p>
           <button class="primary am-cta wide" data-act="upRun" data-hero="${i}" data-arg="${cid}|${fk}|1" ${can ? '' : 'disabled'}>${asleep ? 'Awaken it ▶' : 'Grow it ▶'}</button>
           ${lv > 0 ? `<button class="ghost am-ghost sm wide" data-act="upRun" data-hero="${i}" data-arg="${cid}|${fk}|-1">↶ Take a point back</button>` : ''}
         </div>
@@ -20573,6 +21165,21 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     // drag and wheel move the view on a PC; − / % / + anywhere (src/ui/show.js)
     if (U.cameraOn) U.cameraOn(host, svg, g.W, g.H);
   }
+  /** A hybrid foe's clades and the faces of its card it can play (src/engine/hybrids.js). */
+  function hybridTip(e) {
+    if (!e.hy || !e.clades) return '';
+    const kin = e.clades.map((sp) => (T.SPECIES[sp] ? T.SPECIES[sp].name : sp)).join(' · ');
+    const faces = T.foeHybridFaces(e)
+      .slice()
+      .reverse()
+      .map(
+        ({ fk, ab }) =>
+          `<div class="small">${fk[0] === 'E' ? '◆' : '•'} <b>${esc(ab.n)}</b> <span class="dim">${esc(ab.kind)}${ab.dmg ? ' ' + ab.dmg : ab.ward ? ' ' + ab.ward : ab.heal ? ' ' + ab.heal : ''}</span></div>`,
+      )
+      .join('');
+    const cd = e.hy.cd > 0 ? ` · card back in ${e.hy.cd}` : ' · card ready';
+    return `<div style="margin-top:4px" class="small"><b>Hybrid</b> ${esc(kin)} <span class="dim mono">· level ${e.hy.level} (P${e.hy.P} E${e.hy.E})${cd}</span></div>${faces}`;
+  }
   function tipFor(id) {
     const m = M();
     if (id.startsWith('e')) {
@@ -20583,7 +21190,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         .filter((k) => k !== 'Anchored' || !e.anchoredPerm)
         .map((k) => `<span class="state">${U.stateName(k)}</span>`)
         .join(' ');
-      return `<b>${U.icEnemy(e.type, e.glyph)} ${esc(e.name)}</b> <span class="dim">tier ${e.tier}${e.elite ? ' · elite' : ''}</span><div class="mono small">hp ${e.hp}/${e.maxHp}${e.shield ? ' · Shield ' + e.shield : ''} · speed ${e.speed}</div>${e.intent ? `<div style="color:#ffb3c7">Intent: ${esc(e.intent.label)}</div>` : ''}${states ? `<div style="margin-top:4px">${states}</div>` : ''}<div class="flavor">${esc(d.flavor)}</div>`;
+      return `<b>${U.icEnemy(e.type, e.glyph)} ${esc(e.name)}</b> <span class="dim">tier ${e.tier}${e.elite ? ' · elite' : ''}</span><div class="mono small">hp ${e.hp}/${e.maxHp}${e.shield ? ' · Shield ' + e.shield : ''} · speed ${e.speed}</div>${e.intent ? `<div style="color:#ffb3c7">Intent: ${esc(e.intent.label)}</div>` : ''}${states ? `<div style="margin-top:4px">${states}</div>` : ''}${hybridTip(e)}<div class="flavor">${esc(d.flavor)}</div>`;
     }
     if (id.startsWith('h')) {
       const h = m.heroes.find((x) => x.uid === +id.slice(1));
@@ -21393,30 +22000,31 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           E = T.heroE(h, cid);
         const onTrack = h.track.find((t) => t.card === cid);
         const asleep = !T.isKinless(cid) && E < T.RULES.ETHEREAL_MIN_E;
+        const faces = T.handFaces(h, cid); // a pet's Ethereal faces join its card as they awaken
         const elC = EL[(c.E && c.E.elt) || c.el].color;
         const title = `<div class="hn">${c.pet ? '<span class="petmark" data-tip="A pet\'s card: its faces act from the pet">🐾</span> ' : ''}${esc(c.name)}${c.sig >= 2 ? ' <span class="star">★</span>' : ''}${c.gear ? '<span class="pe" data-tip="A gear card: free or paid in Omni, never trained">gear</span>' : `<span class="pe">P${P}${c.pet ? '' : ' E' + E}</span>`}</div>`;
         const fb = (fk) => {
           const f = c[fk];
           const elt = f.elt || c.el;
           const cost = `${f.ap}AP${f.el ? ' +' + f.el + '<span style="color:' + EL[elt].color + '">◆</span>' : ''}${f.cd ? ' cd' + f.cd : ''}`;
-          const body = `<span class="fic" style="color:${fk === 'E' ? EL[elt].color : 'var(--txt)'}">${U.icFace(f, c.el)}</span><span>${esc(f.n)}</span><span class="fcost">${cost}</span>`;
+          const body = `<span class="fic" style="color:${T.isEthFace(fk) ? EL[elt].color : 'var(--txt)'}">${U.icFace(f, c.el)}</span><span>${esc(f.n)}</span><span class="fcost">${cost}</span>`;
           const tip = U.faceTipHTML(c, fk, P, E).replace(/"/g, '&quot;');
           // a card on the track still reads in full: its faces stay at full strength, only not pressable
           if (onTrack)
-            return `<div class="fbtn ${fk === 'E' ? 'E' : 'P'} cool el-${fk === 'E' ? elt : 'AP'}" data-tip="${tip}">${body}</div>`;
+            return `<div class="fbtn ${T.isEthFace(fk) ? 'E' : 'P'} cool el-${T.isEthFace(fk) ? elt : 'AP'}" data-tip="${tip}">${body}</div>`;
           const chk = !m.over && !h.downed ? T.canPlay(m, h, cid, fk) : { ok: false, why: '' };
-          return `<button class="fbtn ${fk === 'E' ? 'E' : 'P'} ${chk.ok ? 'ok' : ''} el-${fk === 'E' ? elt : 'AP'}" data-act="face" data-arg="${i}|${cid}|${fk}" data-tip="${tip}" ${chk.ok ? '' : 'disabled'}>${body}${!chk.ok && chk.why && chk.why !== 'cannot pay' ? `<span class="fwhy">${esc(chk.why)}</span>` : ''}${!chk.ok && chk.why === 'cannot pay' && T.payableAsAP(h, f.ap, elt, f.el || 0) ? `<span class="fwhy" data-tip="Spend spare dice as AP (◇→AP: an Omni, or two etherions, for 1 AP each) to pay for this">◇→AP to pay</span>` : ''}</button>`;
+          return `<button class="fbtn ${T.isEthFace(fk) ? 'E' : 'P'} ${chk.ok ? 'ok' : ''} el-${T.isEthFace(fk) ? elt : 'AP'}" data-act="face" data-arg="${i}|${cid}|${fk}" data-tip="${tip}" ${chk.ok ? '' : 'disabled'}>${body}${!chk.ok && chk.why && chk.why !== 'cannot pay' ? `<span class="fwhy">${esc(chk.why)}</span>` : ''}${!chk.ok && chk.why === 'cannot pay' && T.payableAsAP(h, f.ap, elt, f.el || 0) ? `<span class="fwhy" data-tip="Spend spare dice as AP (◇→AP: an Omni, or two etherions, for 1 AP each) to pay for this">◇→AP to pay</span>` : ''}</button>`;
         };
         if (onTrack && onTrack.phase === 'burnt')
-          return `<div class="hcard cooling burnt${c.pet ? ' petcard' : ''}" style="--c:${elC}" data-tip="${esc(`${esc(c.name)} is burnt: it is gone until this mission ends, and nothing brings it back sooner.`)}"><div class="artwrap">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}<span class="cdband">🔥 burnt</span></div>${title}${T.faceKeys(cid).map(fb).join('')}</div>`;
+          return `<div class="hcard cooling burnt${c.pet ? ' petcard' : ''}" style="--c:${elC}" data-tip="${esc(`${esc(c.name)} is burnt: it is gone until this mission ends, and nothing brings it back sooner.`)}"><div class="artwrap">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}<span class="cdband">🔥 burnt</span></div>${title}${faces.map(fb).join('')}</div>`;
         if (onTrack) {
           const back = onTrack.left + (onTrack.phase === 'dur' ? onTrack.cd : 0);
           const what = onTrack.phase === 'dur' ? 'active, then cooling' : 'cooling';
-          return `<div class="hcard cooling${c.pet ? ' petcard' : ''}" style="--c:${elC}" data-tip="${esc(`${esc(c.name)} is on the track (${what}): back in hand in ${back}. Its faces read as usual.`)}"><div class="artwrap">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}<span class="cdband">${onTrack.phase === 'dur' ? '●' : '○'} back in ${back}</span></div>${title}${T.faceKeys(cid).map(fb).join('')}</div>`;
+          return `<div class="hcard cooling${c.pet ? ' petcard' : ''}" style="--c:${elC}" data-tip="${esc(`${esc(c.name)} is on the track (${what}): back in hand in ${back}. Its faces read as usual.`)}"><div class="artwrap">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}<span class="cdband">${onTrack.phase === 'dur' ? '●' : '○'} back in ${back}</span></div>${title}${faces.map(fb).join('')}</div>`;
         }
         // a card with nothing it can do now folds small; hovering it brings it back
         const idle = m.over || h.downed || !T.faceKeys(cid).some((fk) => T.canPlay(m, h, cid, fk).ok) ? ' idle' : '';
-        return `<div class="hcard${idle}${c.pet ? ' petcard' : ''}" style="--c:${elC}">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}${title}${T.faceKeys(cid).map(fb).join('')}</div>`;
+        return `<div class="hcard${idle}${c.pet ? ' petcard' : ''}" style="--c:${elC}">${U.cardArt(c, asleep, U.cladeIn(c, h.species))}${title}${faces.map(fb).join('')}</div>`;
       })
       .join('');
     const gear = h.gear
@@ -21513,7 +22121,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           T.faceKeys(cid).some((fk) => {
             const c = T.CARD[cid];
             const f = c[fk];
-            if (fk === 'E' && T.heroE(h, cid) < T.RULES.ETHEREAL_MIN_E) return false;
+            if (!T.faceAwake(h, cid, fk)) return false;
             return T.payableAsAP(h, f.ap, f.elt || c.el, f.el || 0);
           }),
       );
@@ -23388,8 +23996,8 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   }
   const elOfPlay = (f) => {
     const c = T.CARD && T.CARD[f.card];
-    if (!c || f.face !== 'E') return null;
-    return (c.E && c.E.elt) || c.el;
+    if (!c || !T.isEthFace(f.face)) return null;
+    return (c[f.face] && c[f.face].elt) || c.el;
   };
   /**
    * Answer one effect from the queue with a flash and a sound. Called by the mission screen for each effect as
@@ -25668,11 +26276,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     if (op === 'face') {
       const k = cmd.card + ':' + cmd.fk;
       c.faces[k] = (c.faces[k] || 0) + 1;
-      c[cmd.fk === 'E' ? 'E' : 'P']++;
+      c[T.isEthFace(cmd.fk) ? 'E' : 'P']++;
       const h = m.heroes[cmd.hero];
-      const e0 = cmd.fk === 'E' && h && T.heroE && T.heroE(h, cmd.card) === 0;
+      const e0 = T.isEthFace(cmd.fk) && h && T.heroE && T.heroE(h, cmd.card) === 0;
       if (e0) c.E0++;
-      undo = { face: k, fk: cmd.fk === 'E' ? 'E' : 'P', e0 };
+      undo = { face: k, fk: T.isEthFace(cmd.fk) ? 'E' : 'P', e0 };
     } else if (op === 'gear') undo = (c.gear++, { n: 'gear' });
     else if (op === 'basic') undo = (c.basic++, { n: 'basic' });
     else if (op === 'item') undo = (c.items++, { n: 'items' });
@@ -27493,6 +28101,645 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   (U.INPUTS = U.INPUTS || []).push(U.crewInput);
   Object.assign((U.SCREENS = U.SCREENS || {}), { pilots: U.renderPilots, pilot: U.renderPilot, maker: U.renderMaker });
 })((window.T = window.T || {}));
+
+
+/* ───── ui/pick.js ───── */
+/* ============================================================================
+   TUMULT — CHOOSE YOUR PILOT, the Spotlight (browser only)
+   The draft's first step (U.draft.step 'mode'), as picked on Frogma - Tumult,
+   page "Choose your pilot (Nov 22)", board 2: the pilot in the spotlight fills
+   the screen in their own painting, and a strip along the foot picks another:
+   Draft your own first, then the ready pilots, then the crew players made.
+   Tapping a tile only moves the spotlight (act spotPilot); Fly takes the pilot
+   (act prebuilt), Draft your own opens the draft (act draftMode).
+   Under 760px it folds to the phone layout: painting on top, the strip as a
+   rail, Fly under the thumb.
+   ========================================================================== */
+(function (T) {
+  const U = (T.UI = T.UI || {});
+  const esc = (s) => U.esc(s);
+  const EL = T.ETHERIONS;
+
+  const RULES =
+    'Every pilot is Human plus two bloodlines. They set out with six trait cards and six Upgrade Points, and grow to nine cards over the expedition, never more than three from one bloodline.';
+  const svg = (d, s) =>
+    `<svg width="${s || 16}" height="${s || 16}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+  const IC = {
+    chev: '<path d="M9 6l6 6-6 6"/>',
+    plus: '<path d="M12 5v14M5 12h14"/>',
+    info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.1"/>',
+    star: '<path d="M12 3l2.6 5.6 6 .6-4.5 4.1 1.3 6L12 16.3 6.6 19.3l1.3-6L3.4 9.2l6-.6z" fill="currentColor"/>',
+  };
+  const elOf = (cid) => (T.CARD[cid].E && T.CARD[cid].E.elt) || T.CARD[cid].el;
+
+  /** Every pilot this seat may fly: the ready ones, then the ones players made. [{ pb, who, mine, crew }] */
+  function choices(run) {
+    const free = (pb) => !run.heroes.some((h) => h && h.name === pb.name);
+    const ready = T.PREBUILTS.filter(free).map((pb) => ({ pb, crew: false }));
+    const made = (U.madeHeroes ? U.madeHeroes() : [])
+      .filter((x) => free(x.rec))
+      .map((x) => ({ pb: x.rec, who: x.who, mine: x.mine, crew: true }));
+    return ready.concat(made);
+  }
+  /** A candidate's painting: its pilot, scene and portrait (null where none fits). */
+  function artOf(pb) {
+    const a = U.pilotOf({ id: pb.id, name: pb.name, species: pb.species });
+    return { a, scene: U.sceneSrc(a), face: U.portraitSrc(a) };
+  }
+  /** What a made pilot is like when it has no role of its own: its signature traits. */
+  function lineOf(pb) {
+    if (pb.line) return pb.line;
+    const sig = pb.cards.filter((c) => T.CARD[c] && T.CARD[c].sig >= 2);
+    return (sig.length ? sig : pb.cards.slice(0, 3)).map((c) => T.CARD[c].name).join(' · ');
+  }
+  function levelOf(pb) {
+    if (!pb.runs) return 1;
+    return T.pilotLevel({ up: pb.up || {}, bound: pb.bound || {}, cards: pb.cards, upUnspent: pb.spare || 0 });
+  }
+
+  function tile(c, on) {
+    const { scene } = artOf(c.pb);
+    const bg = scene ? ` style="background-image:url(${scene})"` : '';
+    return `<button class="pk-tile${on ? ' on' : ''}" data-act="spotPilot" data-arg="${esc(c.pb.id)}" aria-pressed="${on}"><span class="pk-tile-art"${bg}></span><span class="pk-shine"></span><span class="pk-tile-name">${esc(c.pb.name)}</span>${c.crew ? `<span class="pk-sr">Made by ${esc(c.who)}</span>` : ''}</button>`;
+  }
+
+  function kit(pb) {
+    return `<ul class="pk-kit">${pb.cards
+      .map((cid) => {
+        const c = T.CARD[cid];
+        const e = EL[elOf(cid)];
+        const sig =
+          c.sig >= 2
+            ? `<span class="pk-sig" data-tip="A signature trait of its bloodline">${svg(IC.star, 11)}</span>`
+            : '';
+        return `<li data-tip="${esc(e.name)}"><i style="--c:${e.color}"></i>${esc(c.name)}${sig}</li>`;
+      })
+      .join('')}</ul>`;
+  }
+
+  /** The draft's first screen. */
+  U.renderPick = function (d, run) {
+    const all = choices(run);
+    const c = all.find((x) => x.pb.id === d.spot) || all[0];
+    const n = d.heroIdx + 1;
+    const of = U.squadOf ? U.squadOf(run) : 1;
+    const seat = U.seatTag ? U.seatTag(d.heroIdx) : '';
+    const out = U.draftOut ? U.draftOut(d) : '';
+    const sound = `<button class="pk-ni" data-act="toggleSound" aria-label="Sound">${U.sound ? '🔊' : '🔇'}</button>`;
+    const bar = `<div class="pk-bar"><span class="pk-logo">TUMULT</span><span class="pk-where">THE DRAFT</span><span class="pk-flow"><i class="on">PILOT</i><i>BLOODLINES</i><i>PACKS</i><i>UPGRADE</i></span><span class="pk-nav">${sound}<button class="pk-ni" data-act="help">Help</button><button class="pk-ni" data-act="atlas">Atlas</button><button class="pk-ni" data-act="codex">Codex</button><button class="pk-ni" data-act="look">Look</button></span><span class="pk-out">${out}</span></div>`;
+    const info = `<button class="pk-info" data-tip="${esc(RULES)}">${svg(IC.info, 15)}<span>How pilots work</span></button>`;
+    let hero = '';
+    let scene = '';
+    if (c) {
+      const pb = c.pb;
+      const art = artOf(pb);
+      if (art.scene)
+        scene = `<div class="pk-scene" style="background-image:url(${art.scene})" aria-hidden="true"></div>`;
+      const face = art.face
+        ? `<img class="pk-face" src="${art.face}" alt="" draggable="false">`
+        : `<span class="pk-face none">${pb.species
+            .slice(1)
+            .map((s) => U.icClade(s))
+            .join('')}</span>`;
+      const tag = c.crew
+        ? `<span class="pk-role">Crew</span><span class="pk-by">Made by ${esc(c.who)}${pb.runs ? ` · Level ${levelOf(pb)} · ${pb.runs} expedition${pb.runs > 1 ? 's' : ''}` : ''}</span>`
+        : `<span class="pk-role">${esc(pb.role || 'Ready pilot')}</span>`;
+      const clades = pb.species
+        .slice(1)
+        .map((s) => `<span class="pk-clade">${U.icClade(s, 'pk-cl')}${esc(T.SPECIES[s].name)}</span>`)
+        .join('');
+      const forget = c.mine
+        ? `<button class="pk-forget" data-act="forgetMade" data-arg="${esc(pb.id)}" data-tip="Take ${esc(pb.name)} off this device's list.">Remove</button>`
+        : '';
+      hero = `<section class="pk-hero" aria-live="polite">
+        <div class="pk-eyebrow"><span>Pilot ${n} of ${of}</span>${seat ? `<span class="pk-seat">${seat}</span>` : ''}</div>
+        <div class="pk-tags">${tag}</div>
+        <div class="pk-id">${face}<div><h1 class="pk-name">${esc(pb.name)}</h1>${pb.title ? `<div class="pk-title">${esc(pb.title)}</div>` : ''}</div></div>
+        <div class="pk-clades">${clades}</div>
+        <p class="pk-line">${esc(lineOf(pb))}</p>
+        <div class="pk-kitbox"><span class="pk-lab">Kit · ${pb.cards.length} cards</span>${kit(pb)}</div>
+        <div class="pk-acts"><button class="pk-cta" data-act="prebuilt" data-arg="${esc(pb.id)}"><span>Fly ${esc(pb.name)}</span>${svg(IC.chev, 18)}</button>${info}${forget}</div>
+      </section>`;
+    } else {
+      hero = `<section class="pk-hero"><div class="pk-eyebrow"><span>Pilot ${n} of ${of}</span></div><h1 class="pk-name">Draft your own</h1><p class="pk-line">Pick two bloodlines, then one card from each of six packs.</p><div class="pk-acts"><button class="pk-cta" data-act="draftMode" data-arg="draft"><span>Start the draft</span>${svg(IC.chev, 18)}</button>${info}</div></section>`;
+    }
+    const ready = all.filter((x) => !x.crew);
+    const crew = all.filter((x) => x.crew);
+    const grp = (lab, list) =>
+      list.length
+        ? `<div class="pk-grp"><span class="pk-lab">${lab}</span><div class="pk-tiles">${list.map((x) => tile(x, c && x.pb.id === c.pb.id)).join('')}</div></div>`
+        : '';
+    const strip = `<nav class="pk-strip" aria-label="Pilots">
+      <div class="pk-grp"><span class="pk-lab">Build</span><button class="pk-draft" data-act="draftMode" data-arg="draft" data-tip="Recommended. Pick two bloodlines, then one card from each of six packs.">${svg(IC.plus, 24)}<span>Draft your own</span></button></div>
+      ${grp('Ready pilots', ready)}${grp(`Crew · ${crew.length}`, crew)}
+      <span class="pk-out">${out}</span></nav>`;
+    return `<div class="pick${c ? '' : ' no-pilot'}">${scene}<div class="pk-veil" aria-hidden="true"></div><div class="pk-motes" aria-hidden="true">${'<i></i>'.repeat(10)}</div>${bar}${hero}${strip}</div>`;
+  };
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
+/* ───── ui/draft.js ───── */
+/* ============================================================================
+   TUMULT — THE DRAFT SCREEN (Frogma "Draft flow, playable", mix 1: Gallery, then a closer look; Shombith
+   2026-11-22). Everything of a step laid out at once; any card, bloodline or pilot opens big on tap.
+   The rules and the actions stay in core.js (draftAct); this file only draws. Browser only.
+   ========================================================================== */
+(function (T) {
+  const U = (T.UI = T.UI || {});
+  const esc = (s) =>
+    String(s == null ? '' : s).replace(
+      /[&<>"]/g,
+      (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c],
+    );
+  const EL = T.ETHERIONS;
+  const STEPS = [
+    ['mode', 'Pilot'],
+    ['species', 'Bloodlines'],
+    ['packs', 'Packs'],
+    ['up', 'Upgrade'],
+  ];
+  const squadOf = (run) => (run && run.party ? run.party.owner.length : 1);
+
+  /* ── small pieces ── */
+  const I = {
+    chev: 'M9 6l6 6-6 6',
+    back: 'M15 6l-6 6 6 6',
+    x: 'M6 6l12 12M18 6L6 18',
+    eye: 'M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z',
+    swap: 'M7 7h11l-3-3M17 17H6l3 3',
+    auto: 'M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6',
+    undo: 'M9 14 4 9l5-5M4 9h11a5 5 0 0 1 0 10h-3',
+    info: 'M12 8h.01M11 12h1v5h1M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z',
+    check: 'M5 12l5 5 9-10',
+  };
+  const ico = (k, s) =>
+    `<svg width="${s || 16}" height="${s || 16}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${I[k]}"/></svg>`;
+  const elCol = (k) => (EL[k] ? EL[k].color : '#e7edf2');
+  const gem = (el) => `<span class="dr-gem" style="--g:${elCol(el)}">${U.icEl ? U.icEl(el, 'tiny') : ''}</span>`;
+
+  /** Words of art in a face's text, in bold with their number: the card stays calm, the key facts stand out. */
+  const KWS = [
+    'Zone strike',
+    'Circle down',
+    'Hidden',
+    'Shield',
+    'Weakened',
+    'Weaken',
+    'Anchored',
+    'Marked',
+    'Mark',
+    'Aimed',
+    'Burst',
+    'Melee',
+    'Strike',
+    'Heal',
+    'Rooted',
+    'Root',
+    'Slowed',
+    'Slow',
+    'Pull',
+    'Push',
+    'Blink',
+    'Exposed',
+    'Guard',
+    'Taunt',
+    'Shove',
+  ];
+  const KRE = new RegExp('\\b(' + KWS.join('|') + ')( \\d+)?\\b', 'g');
+  const bold = (text) => esc(text).replace(KRE, (m) => `<b>${m}</b>`);
+
+  /** A stable number for a string, to vary a card's painting and its crop. */
+  const hash = (s) => {
+    let h = 0;
+    for (const ch of String(s)) h = (h * 131 + ch.charCodeAt(0)) >>> 0;
+    return h;
+  };
+  /** A painting for a trait card: one of its own clade's pilots (that clade's head first), else none. */
+  function cardPainting(c) {
+    const all = U.PILOT_ART || [];
+    let cand = all.filter((a) => c.sp === 'human' || a.clades.includes(c.sp));
+    const own = cand.filter((a) => a.clades[0] === c.sp);
+    if (own.length > 1 || (own.length && cand.length < 3)) cand = own;
+    return cand.length ? cand[hash(c.name) % cand.length] : null;
+  }
+  /** The art at the top of a calm card: a painting cropped its own way, else the clade's head. */
+  function cardArt(c) {
+    const a = cardPainting(c);
+    const src = a && U.sceneSrc ? U.sceneSrc(a) : null;
+    if (src) {
+      const h = hash(c.id);
+      return `<span class="dr-pic" style="background-image:url(${src});background-position:${15 + (h % 70)}% ${20 + ((h >> 8) % 45)}%"></span>`;
+    }
+    return `<span class="dr-pic dr-headart">${U.icClade(c.sp, 'dr-bighead')}</span>`;
+  }
+
+  /** One face of a calm card: its cost, its text at the levels shown, and (upgrading) its level bars. */
+  function face(c, fk, P, E, o) {
+    const f = c[fk];
+    if (!f) return '';
+    const isE = T.isEthFace ? T.isEthFace(fk) : fk === 'E';
+    const need = !isE ? 0 : c.pet && T.PET_ETH ? T.PET_ETH.indexOf(fk) + 1 : T.RULES.ETHEREAL_MIN_E;
+    const elt = f.elt || c.el;
+    const lv = isE ? E : P;
+    const asleep = isE && (o.up || c.pet) && E < need;
+    const txt = f.txt(P, asleep ? need : E);
+    const col = isE ? elCol(elt) : '#00d4ff';
+    const cost = `${f.ap || f.el ? '' : '0'}${f.ap ? f.ap + '<span>&nbsp;AP</span>' : ''}${f.ap && f.el ? '<span>&nbsp;+&nbsp;</span>' : ''}${f.el ? f.el + `<i style="color:${elCol(elt)}">${U.icEl ? U.icEl(elt, 'tiny') : '◆'}</i>` : ''}<span class="cd">&nbsp;· CD ${f.cd || 0}</span>${f.dur ? `<span class="cd">&nbsp;· Dur ${f.dur}</span>` : ''}`;
+    let bars = '';
+    let next = '';
+    if (o.up && !c.gear && !(isE && c.pet)) {
+      const segs = [1, 2, 3]
+        .map((j) => {
+          const d = j === lv ? -1 : j - lv;
+          return `<button class="dr-sg${j <= lv ? ' on' : ''}${j === lv + 1 ? ' nx' : ''}" data-act="up" data-arg="${c.id}|${fk}|${d}" aria-label="Set ${fk} to ${j === lv ? lv - 1 : j}"></button>`;
+        })
+        .join('');
+      const cap = asleep ? `Asleep · ${need} E wakes it` : `${fk} ${lv} / 3`;
+      bars = `<div class="dr-lv">${segs}<span class="dr-lc${asleep ? ' z' : ''}">${cap}</span></div>`;
+      if (o.next && lv < 3) {
+        const nP = isE ? P : P + 1;
+        const nE = isE ? Math.max(E + 1, need) : E;
+        const now = txt;
+        const then = f.txt(nP, nE);
+        next = asleep
+          ? `<p class="dr-nxt"><b>+1 E wakes it:</b> the face can be played.</p>`
+          : then === now
+            ? `<p class="dr-nxt dim">+1 ${fk} changes no number at this step.</p>`
+            : `<p class="dr-nxt"><b>+1 ${fk}:</b> ${bold(then)}</p>`;
+      }
+    }
+    const tip = U.faceTipHTML ? ` data-tip="${esc(U.faceTipHTML(c, fk, P, E))}"` : '';
+    return `<div class="dr-face${asleep ? ' sl' : ''}" style="--lc:${col}"><div class="dr-fh"><span class="dr-ck"${tip}>${isE ? 'E' : 'P'}</span><b class="dr-fn">${esc(f.n)}</b><span class="dr-cost">${cost}</span></div><p class="dr-ft">${bold(txt)}</p>${bars}${next}</div>`;
+  }
+
+  /**
+   * A calm card (round 2's "Gallery"): the painting with the name on it, then the two faces in plain words, the
+   * keyword and its number in bold. o: { P, E, up (level bars), next ("what +1 buys"), flavor, look (an act|arg
+   * the art opens), take (the Take button), clades, cls }
+   */
+  U.calmCard = function (cid, o) {
+    o = o || {};
+    const c = T.CARD[cid];
+    const P = o.P || 0,
+      E = o.E || 0;
+    const sp = U.cladeIn ? U.cladeIn(c, o.clades) : c.sp;
+    const kin = c.kin || (T.SPECIES[sp] ? T.SPECIES[sp].name : '');
+    const star = c.sig >= 2 ? '<span class="dr-star" title="Signature trait">★</span>' : '';
+    const look = o.look
+      ? `<button class="dr-look" data-act="${o.look[0]}" data-arg="${esc(o.look[1])}" aria-label="Look closer at ${esc(c.name)}"></button>`
+      : '';
+    const faces = T.faceKeys(cid)
+      .map((fk) => face(c, fk, P, E, o))
+      .join('');
+    return `<div class="dr-card ${o.cls || ''}" data-card="${cid}" style="--ec:${elCol((c.E && c.E.elt) || c.el)}"><div class="dr-ca">${cardArt(c)}<i class="dr-sh"></i><span class="dr-ccl">${esc(kin)}</span>${gem((c.E && c.E.elt) || c.el)}<div class="dr-cnm"><b>${esc(c.name)}</b>${star}${o.flavor !== false && c.flavor ? `<span class="dr-cfl">${esc(c.flavor)}</span>` : ''}</div>${look}</div><div class="dr-cb">${faces}</div>${o.bound ? `<div class="dr-bound">${o.bound} UP bound to this card</div>` : ''}</div>`;
+  };
+
+  /** A small tile of a card: the painting, the name, and (upgrading) its P and E as pips. */
+  function tile(cid, h, act, arg, cls) {
+    const c = T.CARD[cid];
+    const pips = (n, col) => [0, 1, 2].map((j) => `<i class="${j < n ? 'on' : ''}" style="--lc:${col}"></i>`).join('');
+    const pp = h
+      ? `<span class="dr-tb"><span class="dr-pp"><span class="dr-ck sm" style="--lc:#00d4ff">P</span>${pips(T.heroP(h, cid), '#00d4ff')}</span>${c.E ? `<span class="dr-pp"><span class="dr-ck sm" style="--lc:${elCol(c.E.elt || c.el)}">E</span>${pips(T.heroE(h, cid), elCol(c.E.elt || c.el))}</span>` : ''}</span>`
+      : '';
+    return `<button class="dr-tile ${cls || ''}" data-act="${act}" data-arg="${esc(arg)}" style="--ec:${elCol((c.E && c.E.elt) || c.el)}" aria-label="${esc(c.name)}"><span class="dr-ca">${cardArt(c)}<i class="dr-sh"></i>${gem((c.E && c.E.elt) || c.el)}<span class="dr-cnm"><b>${esc(c.name)}</b>${c.sig >= 2 ? '<span class="dr-star">★</span>' : ''}</span></span>${pp}</button>`;
+  }
+
+  /** The painting a pilot of these clades wears, as a banner background (or nothing). */
+  const sceneOf = (h) => {
+    const a = U.pilotOf ? U.pilotOf(h) : null;
+    const src = a && U.sceneSrc ? U.sceneSrc(a) : null;
+    return { a, src };
+  };
+  const banner = (h, title, sub, cls) => {
+    const { src } = sceneOf(h);
+    return `<div class="dr-ban ${cls || ''}">${src ? `<span class="dr-bpic" style="background-image:url(${src})"></span>` : ''}<span class="dr-ring"></span><div class="dr-bt"><b>${esc(title)}</b><small>${sub}</small></div></div>`;
+  };
+  const go = (txt, sub, act, arg, off) =>
+    `<button class="dr-go${off ? ' off' : ''}" data-act="${act}"${arg != null ? ` data-arg="${esc(arg)}"` : ''}${off ? ' disabled' : ''}><span><b>${txt}</b><small>${sub}</small></span>${ico('chev', 18)}</button>`;
+  const backb = (label, act, arg, tip) =>
+    `<button class="dr-back" data-act="${act}"${arg != null ? ` data-arg="${esc(arg)}"` : ''}${tip ? ` data-tip="${esc(tip)}"` : ''}>${ico('back', 16)}<span>${esc(label)}</span></button>`;
+  const lean = (s) =>
+    (T.SPECIES[s].lean || '')
+      .split('/')
+      .map((e) => `<i style="color:${elCol(e)}">${U.icEl ? U.icEl(e, 'tiny') : e}</i>`)
+      .join('');
+  const shortName = (n) =>
+    n
+      .replace(
+        /^(Long-Eared|Red-Legged|Barn|Mimic|Tokay|Electric|Venus|Eurasian|Spotted|Ring-Tailed|Golden|Sea|Red|Bald|Red-tailed|Atlantic|Blue-Footed|Wild|Horned|Giant|Three-Toed|Praying|Brown|Field|Bighorn|Cordyceps) /,
+        '',
+      )
+      .replace(' Mycelium', '');
+
+  /* ── the top bar: the squad's seats, and where this pilot is in the draft ── */
+  function topbar(d) {
+    const run = U.run;
+    const n = squadOf(run);
+    const seats = [];
+    for (let i = 0; i < n; i++) {
+      const h = run.heroes[i];
+      const cur = i === d.heroIdx;
+      const sub = h
+        ? h.species
+            .slice(1)
+            .map((s) => T.SPECIES[s].name)
+            .join(' · ')
+        : cur
+          ? 'drafting'
+          : 'next';
+      seats.push(
+        `<span class="dr-seat${h ? ' done' : cur ? ' on' : ''}"><b>${esc(h ? h.name : cur ? (d.hero && d.hero.name) || d.name : 'Pilot ' + (i + 1))}</b><small>${esc(sub)}</small></span>`,
+      );
+    }
+    const at = Math.max(
+      0,
+      STEPS.findIndex((s) => s[0] === d.step),
+    );
+    const prog = STEPS.map(
+      ([, l], i) => `<li class="${i === at ? 'on' : i < at ? 'done' : ''}"><i>${i + 1}</i><span>${l}</span></li>`,
+    ).join('');
+    const pp = STEPS.map((s, i) => `<li class="${i === at ? 'on' : i < at ? 'done' : ''}"></li>`).join('');
+    return `<header class="dr-top"><span class="dr-brand">TUMULT</span><span class="dr-brand2">THE DRAFT</span><nav class="dr-seats" aria-label="Squad">${seats.join('')}</nav><ol class="dr-prog">${prog}</ol><ol class="dr-pprog" aria-hidden="true">${pp}</ol><span class="dr-tools"><button class="dr-ib" data-act="toggleSound" aria-label="Sound">${U.sound ? '🔊' : '🔇'}</button><button class="dr-ib" data-act="help" aria-label="Help">?</button></span></header>`;
+  }
+
+  /* ── step 1: how to build this pilot ── */
+  function stepMode(d) {
+    const run = U.run;
+    const who = U.seatTag ? U.seatTag(d.heroIdx) : '';
+    const free = (pb) => !run.heroes.some((h) => h && h.name === pb.name);
+    const pre = T.PREBUILTS.filter(free).map((pb) => ({ pb, who: '', mine: false }));
+    const made = U.madeHeroes ? U.madeHeroes().filter((x) => free(x.rec)) : [];
+    const pcard = (x) => {
+      const pb = x.pb || x.rec;
+      const { src } = sceneOf({ id: pb.id, name: pb.name, species: pb.species });
+      const clades = pb.species
+        .slice(1)
+        .map((s) => T.SPECIES[s].name)
+        .join(' · ');
+      const forget = x.mine
+        ? `<button class="dr-x" data-act="forgetMade" data-arg="${esc(pb.id)}" data-tip="Take ${esc(pb.name)} off this device's list." aria-label="Forget ${esc(pb.name)}">${ico('x', 12)}</button>`
+        : '';
+      return `<div class="dr-pcard"><button class="dr-pc" data-act="preLook" data-arg="${esc(pb.id)}" aria-label="Look closer at ${esc(pb.name)}">${src ? `<span class="dr-pa" style="background-image:url(${src})"></span>` : ''}<span class="dr-pn"><b>${esc(pb.name)}</b><small>${esc(clades)}</small>${x.who ? `<small class="dr-by">Made by ${esc(x.who)}</small>` : ''}</span></button><button class="dr-fly" data-act="prebuilt" data-arg="${esc(pb.id)}">Fly</button>${forget}</div>`;
+    };
+    const madeHTML = made.length
+      ? `<div class="dr-lab" style="margin-top:18px">Pilots players made · ${U.heroesShared && U.heroesShared() ? 'shared with everyone on this page' : 'kept on this device'}</div><div class="dr-pgrid">${made.map((x) => pcard({ rec: x.rec, who: x.who, mine: x.mine })).join('')}</div>`
+      : '';
+    const out =
+      U.net && U.net.online()
+        ? backb('Leave game', 'netLeave')
+        : d.heroIdx > 0 && run.heroes[d.heroIdx - 1]
+          ? backb(
+              'Back to ' + run.heroes[d.heroIdx - 1].name,
+              'draftPrev',
+              null,
+              'Back to the pilot before, as you left them.',
+            )
+          : backb('Back to the title', 'draftQuit');
+    return `<div class="dr-hdr rise"><div><h1 class="dr-h1">Pilot ${d.heroIdx + 1} ${who}· how will you build them?</h1><p class="dr-lede">Every pilot is Human plus two bloodlines, with ${T.RULES.START_CARDS} trait cards and ${T.RULES.START_UP || 6} Upgrade Points. You grow to nine cards over the run.</p></div></div>
+      <div class="dr-build"><button class="dr-opt rise" data-act="draftMode" data-arg="draft"><span class="dr-rec">Recommended</span><span class="dr-fan"><i></i><i></i><i></i><i></i></span><b>Draft from packs</b><span class="dr-ot">Choose two bloodlines, then take 1 card of 4, six times: a real limited draft across your three pools.</span><span class="dr-take">Start drafting ${ico('chev', 16)}</span></button>
+      <div class="rise"><div class="dr-lab">Or fly a ready-made pilot · tap one for a closer look</div><div class="dr-pgrid">${pre.map(pcard).join('')}</div>${madeHTML}</div></div>
+      <div class="dr-foot">${out}</div>`;
+  }
+
+  /* ── step 2: two bloodlines ── */
+  function stepSpecies(d) {
+    const f = d.filter || 'all';
+    const filters = [
+      ['all', 'All'],
+      ['M', 'Mass'],
+      ['C', 'Charge'],
+      ['S', 'Space'],
+      ['T', 'Time'],
+    ]
+      .map(
+        ([k, l]) =>
+          `<button class="dr-fb${f === k ? ' on' : ''}" data-act="draftFilter" data-arg="${k}">${k === 'all' ? '' : `<i style="color:${elCol(k)}">${U.icEl ? U.icEl(k, 'tiny') : ''}</i>`}${l}</button>`,
+      )
+      .join('');
+    const list = T.SPECIES_ORDER.filter((s) => s !== 'human' && (f === 'all' || T.SPECIES[s].lean.split('/')[0] === f));
+    const heads = list
+      .map((s) => {
+        const i = d.species.indexOf(s);
+        return `<div class="dr-hd${i >= 0 ? ' sel' : ''}"><button class="dr-hb" data-act="pickSpecies" data-arg="${s}" aria-label="${esc(T.SPECIES[s].name)}">${U.icClade(s, 'dr-hp')}<span class="dr-hn">${esc(shortName(T.SPECIES[s].name))}</span><span class="dr-lean">${lean(s)}</span>${i >= 0 ? `<span class="dr-badge">${i + 1}</span>` : ''}</button><button class="dr-peek" data-act="cladeLook" data-arg="${s}" aria-label="Look closer at ${esc(T.SPECIES[s].name)}">${ico('eye', 14)}</button></div>`;
+      })
+      .join('');
+    const h = { name: d.name, species: ['human'].concat(d.species) };
+    const { a } = sceneOf(h);
+    const note = !d.species.length
+      ? 'Pick two bloodlines. The portrait follows them.'
+      : a
+        ? U.isExact(a, h)
+          ? 'An exact painting of this pair'
+          : 'Stand-in painting: ' + a.clades.map((x) => (T.SPECIES[x] ? T.SPECIES[x].name : x)).join(' and ')
+        : '';
+    const slots = [0, 1]
+      .map((i) => {
+        const s = d.species[i];
+        return s
+          ? `<button class="dr-slot full" data-act="pickSpecies" data-arg="${s}" data-tip="Take ${esc(T.SPECIES[s].name)} out">${U.icClade(s, 'dr-slh')}<span>${esc(T.SPECIES[s].name)}</span></button>`
+          : `<span class="dr-slot empty"><span>${i ? 'Second bloodline' : 'First bloodline'}</span></span>`;
+      })
+      .join('');
+    const sig = d.species
+      .map((s) =>
+        T.cardsOf(s)
+          .filter((c) => c.sp === s)
+          .sort((x, y) => y.sig - x.sig)
+          .slice(0, 2)
+          .map((c) => tile(c.id, null, 'cladeLook', s, 'sm'))
+          .join(''),
+      )
+      .join('');
+    const line = ['human']
+      .concat(d.species)
+      .map((s) => T.SPECIES[s].name)
+      .join(' · ');
+    return `<div class="dr-hdr rise dr-hdr-bl"><div><h1 class="dr-h1">Choose two bloodlines</h1><p class="dr-lede">Human is always the third. Each bloodline brings its own traits; the eye shows them.</p></div></div>
+      <div class="dr-bl rise"><div class="dr-flt">${filters}<span class="dr-lab dr-cnt">${list.length} bloodlines</span></div><div class="dr-hgrid">${heads}</div></div>
+      <aside class="dr-me rise"><div class="dr-lab">Your pilot</div><label class="dr-nf"><span>Name</span><input id="heroName" value="${esc(d.name)}" maxlength="24" autocomplete="off"></label>
+        ${banner(h, d.name, esc(line), 'dr-pair')}<span class="dr-note">${esc(note)}</span>
+        <div class="dr-slots"><span class="dr-slot hum"><span class="dr-hum">H</span><span>Human</span></span>${slots}</div>
+        ${sig ? `<div class="dr-lab">Signature traits you could draft</div><div class="dr-sig">${sig}</div>` : ''}<span class="dr-fill"></span>
+        ${go('Open the first pack', `${d.species.length} of 2 bloodlines chosen`, 'openPacks', null, d.species.length !== 2)}</aside>
+      <div class="dr-foot">${backb('Back', 'draftBack')}</div>`;
+  }
+
+  /* ── step 3: the packs ── */
+  function kitBar(h) {
+    const N = T.RULES.START_CARDS;
+    const slots = [];
+    for (let k = 0; k < N; k++) {
+      const cid = h.cards[k];
+      if (cid) {
+        const c = T.CARD[cid];
+        slots.push(
+          `<span class="dr-ks full" style="--ec:${elCol((c.E && c.E.elt) || c.el)}" data-tip="${esc(c.name)}">${cardArt(c)}<span class="dr-ksn">${esc(c.name)}</span></span>`,
+        );
+      } else if (k === h.cards.length) slots.push(`<span class="dr-ks nx">pick ${k + 1}</span>`);
+    }
+    const counts = h.species
+      .map(
+        (s) =>
+          `<span class="dr-cntc${T.cladeCount(h, s) >= 3 ? ' full' : ''}" data-tip="${esc(T.SPECIES[s].name)}: ${T.cladeCount(h, s)} of 3">${U.icClade(s, 'dr-cp')}<b>${T.cladeCount(h, s)}</b>/3</span>`,
+      )
+      .join('');
+    return `<div class="dr-kit"><span class="dr-kl">Kit <b>${h.cards.length}</b>/${N}</span><div class="dr-kslots">${slots.join('')}</div><div class="dr-cnts">${counts}</div></div>`;
+  }
+  function stepPacks(d) {
+    const h = d.hero;
+    const cards = d.pack
+      .map(
+        (cid, i) =>
+          `<div class="dr-pk rise">${U.calmCard(cid, { clades: h.species, look: ['cardLook', i] })}<button class="dr-take" data-act="pickCard" data-arg="${cid}">Take ${esc(T.CARD[cid].name)}</button></div>`,
+      )
+      .join('');
+    return `<div class="dr-hdr rise"><div><h1 class="dr-h1">Pick ${d.picks + 1} of ${T.RULES.START_CARDS}</h1><p class="dr-lede">One card from this pack joins ${esc(h.name)}’s kit. Tap the art for a closer look.</p></div><span class="dr-sp"></span><button class="dr-tb" data-act="rerollPack" data-tip="Costs nothing in this version; use it if a pack has nothing for you.">${ico('swap')}<span>Pass this pack</span></button></div>
+      <div class="dr-pack">${cards}</div>
+      <div class="dr-kitwrap">${kitBar(h)}</div>
+      <div class="dr-foot">${backb('Back to bloodlines', 'draftBack', 'species', 'Choose other bloodlines. The cards picked so far are put back.')}</div>`;
+  }
+
+  /* ── step 4: Upgrade Points ── */
+  function upBlock(h) {
+    const orbs = [];
+    const all = Math.max(h.upUnspent, T.RULES.START_UP || 6);
+    for (let j = 0; j < all; j++) orbs.push(`<i class="${j < h.upUnspent ? 'f' : ''}"></i>`);
+    return `<div class="dr-upp"><span class="dr-n">${h.upUnspent}</span><span class="dr-t">UP<br>left</span><span class="dr-ob">${orbs.join('')}</span></div>`;
+  }
+  const awakeN = (h) => h.cards.filter((cid) => T.heroE(h, cid) >= T.RULES.ETHEREAL_MIN_E).length;
+  function confirmLabel(d) {
+    const h = d.hero;
+    const more = d.heroIdx < squadOf(U.run) - 1 && !(U.net && U.net.online());
+    const after = more ? `then draft pilot ${d.heroIdx + 2}` : 'then set out';
+    const carry = h.upUnspent > 0 ? `${h.upUnspent} UP carry over · ` : '';
+    return go(`Confirm ${esc(h.name)}`, carry + after, 'confirmHero');
+  }
+  function stepUp(d) {
+    const h = d.hero;
+    const cards = h.cards
+      .map(
+        (cid, i) =>
+          `<div class="rise">${U.calmCard(cid, { P: T.heroP(h, cid), E: T.heroE(h, cid), up: true, flavor: false, clades: h.species, bound: T.boundLeft(h, cid), look: ['cardLook', i] })}</div>`,
+      )
+      .join('');
+    const rules = `<span class="dr-rb" tabindex="0">${ico('info')}<span>How P and E work</span><span class="dr-rtip"><b class="cy">P</b> deepens the physical face’s numbers, reliable and paid in AP. <b style="color:#f2c14e">E</b> awakens the ethereal face (it can’t be played until its card has E ${T.RULES.ETHEREAL_MIN_E}) and scales its capability, something P can never buy. Every pilot sets out with at least ${T.RULES.START_AWAKE} cards awake. Caps: P 3, E 3 per card.</span></span>`;
+    const q = U.pilotQuestion ? U.pilotQuestion(h, d) : '';
+    return `<div class="dr-hdr rise dr-hdr-up"><div><h1 class="dr-h1">Spend ${esc(h.name)}’s Upgrade Points</h1><p class="dr-lede">Tap a bar to set a level. Tap the art to see what the next point buys.</p></div></div>
+      <div class="dr-up">${cards}</div>
+      <aside class="dr-side rise"><div class="dr-row">${upBlock(h)}<span class="dr-tools2"><button class="dr-tb" data-act="autoUp">${ico('auto')}<span>Auto</span></button><button class="dr-tb" data-act="resetUp">${ico('undo')}<span>Reset</span></button></span></div>
+        <div class="dr-row"><span class="dr-rdy${awakeN(h) >= T.RULES.START_AWAKE ? '' : ' warn'}">${ico('check', 15)}${awakeN(h)} of ${h.cards.length} awake</span>${rules}</div>
+        ${q ? `<div class="dr-q">${q}</div>` : ''}</aside>
+      <div class="dr-foot">${backb('Back', 'draftBack', null, 'Build this pilot another way: a different pre-made pilot, or a fresh draft.')}<span class="dr-sp"></span>${confirmLabel(d)}</div>`;
+  }
+
+  /* ── the closer look: any card, bloodline or pilot, big ── */
+  function flow(ids, at, mk) {
+    const n = ids.length;
+    return ids
+      .map((cid, i) => {
+        let dd = i - at;
+        if (dd > n / 2) dd -= n;
+        if (dd < -n / 2) dd += n;
+        const ad = Math.abs(dd);
+        const st = `transform:translateX(${dd * 360}px) translateZ(${-ad * 160}px) rotateY(${dd * -24}deg);opacity:${ad > 1 ? 0 : dd ? 0.55 : 1};z-index:${10 - ad}`;
+        return `<div class="dr-fl${dd ? ' side' : ' mid'}" style="${st}">${mk(cid, dd === 0)}${dd ? `<button class="dr-flhit" data-act="lookTo" data-arg="${i}" aria-label="${esc(T.CARD[cid].name)}"></button>` : ''}</div>`;
+      })
+      .join('');
+  }
+  const arw = (act, arg, dir, label) =>
+    `<button class="dr-arw" data-act="${act}" data-arg="${arg}" aria-label="${label}">${ico(dir, 20)}</button>`;
+  function overlay(d) {
+    const L = d.look;
+    if (!L) return '';
+    let body = '';
+    if (L.kind === 'card' && d.step === 'packs' && d.pack.length) {
+      const i = Math.min(L.i, d.pack.length - 1);
+      const cid = d.pack[i];
+      body = `<div class="dr-flow">${flow(d.pack, i, (id) => U.calmCard(id, { clades: d.hero.species, cls: 'big' }))}</div>
+        <div class="dr-obar">${arw('lookStep', -1, 'back', 'Previous card')}<button class="dr-take big" data-act="pickCard" data-arg="${cid}">Take ${esc(T.CARD[cid].name)}</button>${arw('lookStep', 1, 'chev', 'Next card')}</div>`;
+    } else if (L.kind === 'card' && d.step === 'up' && d.hero) {
+      const h = d.hero;
+      const i = Math.min(L.i, h.cards.length - 1);
+      body = `<div class="dr-flow up">${flow(h.cards, i, (id, mid) => U.calmCard(id, { P: T.heroP(h, id), E: T.heroE(h, id), up: mid, next: mid, flavor: false, clades: h.species, cls: 'big' }))}</div>
+        <div class="dr-obar">${arw('lookStep', -1, 'back', 'Previous card')}${upBlock(h)}${arw('lookStep', 1, 'chev', 'Next card')}</div>`;
+    } else if (L.kind === 'clade' && T.SPECIES[L.id]) {
+      const s = L.id;
+      const sp = T.SPECIES[s];
+      const picked = d.species.includes(s);
+      const word = shortName(sp.name);
+      const pickTxt = picked ? 'Remove ' + word : d.species.length < 2 ? 'Choose ' + word : 'Swap in ' + word;
+      const sig = T.cardsOf(s)
+        .filter((c) => c.sp === s)
+        .sort((x, y) => y.sig - x.sig)
+        .slice(0, 3);
+      const leanTxt = sp.lean
+        .split('/')
+        .map(
+          (e) => `<span style="color:${elCol(e)}">${U.icEl ? U.icEl(e, 'tiny') : ''}${EL[e] ? EL[e].name : e}</span>`,
+        )
+        .join('');
+      body = `<div class="dr-ocl"><div class="dr-ocl-l">${U.icClade(s, 'dr-bighead2')}<div class="dr-row c">${arw('cladeStep', -1, 'back', 'Previous bloodline')}${arw('cladeStep', 1, 'chev', 'Next bloodline')}</div></div>
+        <div class="rise"><div class="dr-lab">Bloodline</div><h1 class="dr-h1 xl">${esc(sp.name)}</h1><p class="dr-lede big">${esc(sp.tagline)}</p>
+        <div class="dr-row" style="margin-top:10px"><span class="dr-leanb">${leanTxt}</span><span class="dr-sp"></span>${d.step === 'species' ? `<button class="dr-take${picked ? ' in' : ''}" data-act="pickSpecies" data-arg="${s}">${esc(pickTxt)}</button>` : ''}</div>
+        <div class="dr-lab" style="margin-top:16px">Its signature traits</div><div class="dr-clsig">${sig.map((c) => U.calmCard(c.id, { flavor: false })).join('')}</div></div></div>`;
+    } else if (L.kind === 'pre') {
+      const free = (pb) => !U.run.heroes.some((h) => h && h.name === pb.name);
+      const list = T.PREBUILTS.filter(free).concat((U.madeHeroes ? U.madeHeroes() : []).map((x) => x.rec).filter(free));
+      const i = Math.max(
+        0,
+        list.findIndex((p) => p.id === L.id),
+      );
+      const pb = list[i];
+      if (pb) {
+        const h = { id: pb.id, name: pb.name, species: pb.species };
+        const clades = pb.species
+          .slice(1)
+          .map((s) => T.SPECIES[s].name)
+          .join(' · ');
+        const cards = pb.cards
+          .map((cid) => {
+            const c = T.CARD[cid];
+            return `<span><i style="background:${elCol((c.E && c.E.elt) || c.el)}"></i>${esc(c.name)}</span>`;
+          })
+          .join('');
+        const prev = list[(i + list.length - 1) % list.length].id;
+        const next = list[(i + 1) % list.length].id;
+        body = `<div class="dr-opre">${banner(h, pb.name, esc(pb.title || ''), 'rise')}
+          <div class="rise dr-col"><div class="dr-lab">Ready-made pilot</div><h1 class="dr-h1 xl">${esc(pb.name)}</h1><p class="dr-lede">Human · ${esc(clades)}</p>${pb.blurb ? `<p class="dr-lede hi">${esc(pb.blurb)}</p>` : ''}
+          <div class="dr-plist">${cards}</div><span class="dr-fill"></span>
+          <div class="dr-row">${arw('preLook', prev, 'back', 'Previous pilot')}${arw('preLook', next, 'chev', 'Next pilot')}<span class="dr-sp"></span>${go('Fly ' + esc(pb.name), 'a ready-made pilot, points already spent', 'prebuilt', pb.id)}</div></div></div>`;
+      }
+    }
+    if (!body) return '';
+    return `<div class="dr-ovl"><button class="dr-tb dr-ovx" data-act="lookClose">${ico('x')}<span>Close</span></button>${body}</div>`;
+  }
+
+  /** The draft screen. `wait` (online, waiting for the other player) keeps its own room. */
+  U.renderDraftScreen = function () {
+    const d = U.draft;
+    const run = U.run;
+    if (d.step === 'wait') {
+      const other = run.party.players.find((p, s) => !run.heroes[s]);
+      const body = U.waitingRoom
+        ? U.waitingRoom(run)
+        : `<div class="panel"><h3>Your pilot is ready</h3><p class="dim">Waiting for ${esc(other ? other.name : 'the other player')} to finish drafting…</p></div>`;
+      return `<div class="wrap">${U.header('The Draft')}${body}</div>`;
+    }
+    const body =
+      d.step === 'mode'
+        ? stepMode(d)
+        : d.step === 'species'
+          ? stepSpecies(d)
+          : d.step === 'packs'
+            ? stepPacks(d)
+            : stepUp(d);
+    // the sea behind: the painting this pilot will wear, blurred
+    const h = d.hero || { name: d.name, species: ['human'].concat(d.species || []) };
+    let { src } = sceneOf(h);
+    if (!src && run.heroes.length) src = sceneOf(run.heroes[run.heroes.length - 1]).src;
+    return `<div class="dr dr-s-${d.step}">${src ? `<div class="dr-bgs" style="background-image:url(${src})"></div>` : ''}<div class="dr-veil"></div>${topbar(d)}<main class="dr-main">${body}</main>${overlay(d)}</div>`;
+  };
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
 /* ───── ui/binder.js ───── */
@@ -29827,7 +31074,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       switch (f.t) {
         case 'play': {
           const c = T.CARD && T.CARD[f.card];
-          lastEl = c && f.face === 'E' ? (c.E && c.E.elt) || c.el : null;
+          lastEl = c && T.isEthFace(f.face) ? (c[f.face] && c[f.face].elt) || c.el : null;
           helped = 0;
           break;
         }
