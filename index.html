@@ -5,7 +5,6 @@ image: /assets/images/Image%20Sequence_030_0008.jpg
 og_site_name: Cosmic Shore
 head_include: home-schema.html
 nav: home
-codex: true
 body_class: hs-home
 ---
 {%- assign fleet = site.data.fleet -%}
@@ -67,11 +66,11 @@ body_class: hs-home
   <div class="hs-teaser">
     <div>
       <p class="hs-lead rv" style="margin:0">Every vessel flies its own way and carries four abilities, one for each element. <b>Pick one, learn its games, then take it to the Arena.</b></p>
-      <div class="hs-acts rv"><a class="hs-cta" href="/vessels/"><span>Meet the fleet</span></a><button type="button" class="hs-gh" data-codex=""><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Fleet Codex</span></button></div>
+      <div class="hs-acts rv"><a class="hs-cta" href="/vessels/"><span>Meet the fleet</span></a><a class="hs-gh" href="/vessels/#codex"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Fleet Codex</span></a></div>
     </div>
     <div class="hs-strip rv rvr">
       {%- for v in fleet limit: 5 %}
-      <a href="/vessels/#codex={{ v.key }}" data-codex="{{ v.key }}"><img src="{{ v.image }}" alt="The {{ v.name }}" loading="lazy" decoding="async"></a>
+      <a href="/vessels/#codex={{ v.key }}"><img src="{{ v.image }}" alt="The {{ v.name }}" loading="lazy" decoding="async"></a>
       {%- endfor %}
     </div>
   </div>

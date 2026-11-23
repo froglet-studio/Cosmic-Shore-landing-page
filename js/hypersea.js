@@ -71,52 +71,6 @@
     rv.forEach(function (el) { el.classList.add('in'); });
   }
 
-  // ── the Fleet Codex, full screen ──────────────────────────
-  // Any [data-codex] opens it: the value is a vessel's codex key, or "" for the fleet. The codex itself is the
-  // page at /fleet-codex/ (tools/sync_fleet_codex.py), shown in a frame so it stays exactly what the studio publishes.
-  var cxo = document.getElementById('hs-codex');
-  if (cxo) {
-    var frame = cxo.querySelector('iframe'), vsBtns = $$('[data-cx-key]', cxo), ext = cxo.querySelector('.ext');
-    var keys = vsBtns.map(function (b) { return b.dataset.cxKey; });
-    var last = null, cur = '';
-    function go(key) {
-      cur = key || '';
-      var url = '/fleet-codex/' + (cur ? '#' + encodeURIComponent(cur) : '');
-      if (frame.getAttribute('src') !== url) frame.setAttribute('src', url);
-      if (ext) ext.href = url;
-      press(vsBtns, vsBtns.filter(function (b) { return b.dataset.cxKey === cur; })[0]);
-      var on = cxo.querySelector('[aria-pressed="true"]');
-      if (on && on.scrollIntoView) on.scrollIntoView({ block: 'nearest', inline: 'center' });
-    }
-    function openCx(key, from) {
-      last = from || null;
-      go(key);
-      cxo.hidden = false;
-      root.classList.add('hs-lock');
-      if (history.replaceState) history.replaceState(null, '', '#codex' + (cur ? '=' + encodeURIComponent(cur) : ''));
-      cxo.querySelector('.cls').focus();
-    }
-    function closeCx() {
-      cxo.hidden = true;
-      root.classList.remove('hs-lock');
-      if (history.replaceState) history.replaceState(null, '', location.pathname + location.search);
-      if (last) last.focus();
-    }
-    function step(d) {
-      var i = keys.indexOf(cur);
-      go(keys[((i < 0 ? (d > 0 ? -1 : 0) : i) + d + keys.length) % keys.length]);
-    }
-    $$('[data-codex]').forEach(function (b) {
-      b.addEventListener('click', function (e) { e.preventDefault(); openCx(b.getAttribute('data-codex'), b); });
-    });
-    vsBtns.forEach(function (b) { b.addEventListener('click', function () { go(b.dataset.cxKey); }); });
-    cxo.querySelector('.cls').addEventListener('click', closeCx);
-    $$('.arr', cxo).forEach(function (b) { b.addEventListener('click', function () { step(b.classList.contains('l') ? -1 : 1); }); });
-    document.addEventListener('keydown', function (e) { if (!cxo.hidden && e.key === 'Escape') closeCx(); });
-    var m = location.hash.match(/^#codex(?:=(.*))?$/);
-    if (m) openCx(m[1] ? decodeURIComponent(m[1]) : '', null);
-  }
-
   // ── Arcade: filter by element, sort ───────────────────────
   var ag = document.getElementById('hs-games');
   if (ag) {
@@ -156,24 +110,105 @@
     if (ORDER.indexOf(h) >= 0) { state.el = h; apply(); }
   }
 
-  // ── Voyages: the galaxy map, five zoom levels ─────────────
+  // ── Voyages: the galaxy map, five zoom levels, dragged and zoomed like the game's chart ──
+  // Each level is one picture. Drag to pan; the wheel, a pinch, a double-click or + and − zoom it.
+  // Zooming past a level's closest view dives into the next level; zooming out past its widest view
+  // climbs back out, so the five pictures read as one continuous chart.
   var mapv = document.getElementById('hs-mapv');
   if (mapv) {
     var tiers = $$('[data-tier]'), imgs = $$('img', mapv), ti = 0;
     var cap = mapv.querySelector('.cap'), sc = mapv.querySelector('.sc');
-    function tier(i) {
-      ti = Math.max(0, Math.min(tiers.length - 1, i));
-      imgs.forEach(function (im, j) { im.classList.toggle('on', j === ti); im.classList.toggle('out', j < ti); });
-      press(tiers, tiers[ti]);
+    var MAXS = 3.2, vw = 0, vh = 0, s = 1, x = 0, y = 0, busy = false;
+    function size() { vw = mapv.clientWidth; vh = mapv.clientHeight; }
+    function clamp() {
+      s = Math.max(1, Math.min(MAXS, s));
+      x = Math.min(0, Math.max(vw - vw * s, x));
+      y = Math.min(0, Math.max(vh - vh * s, y));
+    }
+    function paint() {
+      clamp();
+      imgs[ti].style.transform = 'translate(' + x + 'px,' + y + 'px) scale(' + s + ')';
+      var w = tiers[ti].dataset.width, n = parseFloat(w.replace(/,/g, ''));
+      sc.firstChild.nodeValue = s > 1.05 ? '≈ ' + Math.round(n / s).toLocaleString('en-GB') + ' ly' : w;
+    }
+    function label() {
       var t = tiers[ti];
+      press(tiers, t);
       cap.querySelector('b').textContent = t.dataset.name;
       cap.querySelector('span').textContent = t.dataset.what;
-      sc.firstChild.nodeValue = t.dataset.width;
     }
-    tiers.forEach(function (b, i) { b.addEventListener('click', function () { tier(i); }); });
-    $$('[data-zoom]').forEach(function (b) { b.addEventListener('click', function () { tier(ti + Number(b.dataset.zoom)); }); });
-    mapv.addEventListener('dblclick', function () { tier(ti + 1 >= tiers.length ? 0 : ti + 1); });
-    tier(0);
+    // go to level i; dir +1 dives in (the new picture grows out of the middle), -1 climbs out
+    function tier(i, dir) {
+      i = Math.max(0, Math.min(tiers.length - 1, i));
+      if (i === ti) { s = 1; x = 0; y = 0; paint(); return; }
+      var old = imgs[ti];
+      old.classList.remove('on');
+      old.classList.toggle('out', i > ti);
+      old.style.transform = '';
+      ti = i;
+      var im = imgs[ti];
+      im.classList.remove('out');
+      if (dir < 0) { s = MAXS * 0.8; x = (vw - vw * s) / 2; y = (vh - vh * s) / 2; } else { s = 1; x = 0; y = 0; }
+      im.classList.add('on');
+      label(); paint();
+      busy = !root.classList.contains('mo-off');
+      setTimeout(function () { busy = false; }, 450);
+    }
+    function zoomAt(f, px, py) {
+      if (busy) return;
+      var ns = s * f;
+      if (ns > MAXS && ti < tiers.length - 1 && s >= MAXS - 0.01) return tier(ti + 1, 1);
+      if (ns < 1 && ti > 0 && s <= 1.01) return tier(ti - 1, -1);
+      ns = Math.max(1, Math.min(MAXS, ns));
+      x = px - (px - x) * (ns / s); y = py - (py - y) * (ns / s); s = ns;
+      paint();
+    }
+    function local(e) { var r = mapv.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top]; }
+    mapv.addEventListener('wheel', function (e) {
+      e.preventDefault();
+      var p = local(e), d = e.deltaMode === 1 ? e.deltaY * 33 : e.deltaY;
+      zoomAt(Math.exp(-d * 0.0016), p[0], p[1]);
+    }, { passive: false });
+    var pts = new Map(), pinch = null;
+    mapv.addEventListener('pointerdown', function (e) {
+      if (e.target.closest('button, a')) return;
+      if (mapv.setPointerCapture) mapv.setPointerCapture(e.pointerId);
+      pts.set(e.pointerId, local(e));
+      mapv.classList.add('drag');
+    });
+    mapv.addEventListener('pointermove', function (e) {
+      if (!pts.has(e.pointerId)) return;
+      var p = local(e);
+      if (pts.size >= 2) {
+        pts.set(e.pointerId, p);
+        var two = Array.from(pts.values()), a = two[0], b = two[1];
+        var dist = Math.hypot(a[0] - b[0], a[1] - b[1]), mid = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+        if (pinch) { x += mid[0] - pinch.m[0]; y += mid[1] - pinch.m[1]; zoomAt(dist / pinch.d, mid[0], mid[1]); }
+        pinch = { d: dist, m: mid };
+        return;
+      }
+      var q = pts.get(e.pointerId);
+      x += p[0] - q[0]; y += p[1] - q[1];
+      pts.set(e.pointerId, p);
+      paint();
+    });
+    function up(e) { pts.delete(e.pointerId); pinch = null; if (!pts.size) mapv.classList.remove('drag'); }
+    mapv.addEventListener('pointerup', up);
+    mapv.addEventListener('pointercancel', up);
+    mapv.addEventListener('dblclick', function (e) { var p = local(e); zoomAt(1.8, p[0], p[1]); });
+    mapv.addEventListener('keydown', function (e) {
+      var k = e.key, st = 60;
+      if (k === '+' || k === '=') zoomAt(1.4, vw / 2, vh / 2);
+      else if (k === '-' || k === '_') zoomAt(1 / 1.4, vw / 2, vh / 2);
+      else if (k === 'ArrowLeft') { x += st; paint(); } else if (k === 'ArrowRight') { x -= st; paint(); }
+      else if (k === 'ArrowUp') { y += st; paint(); } else if (k === 'ArrowDown') { y -= st; paint(); }
+      else return;
+      e.preventDefault();
+    });
+    tiers.forEach(function (b, i) { b.addEventListener('click', function () { tier(i, i > ti ? 1 : -1); }); });
+    $$('[data-zoom]').forEach(function (b) { b.addEventListener('click', function () { zoomAt(Number(b.dataset.zoom) > 0 ? 1.6 : 1 / 1.6, vw / 2, vh / 2); }); });
+    window.addEventListener('resize', function () { size(); paint(); });
+    size(); label(); paint();
   }
 
   // ── Pilots: the Pilot Codex ───────────────────────────────
