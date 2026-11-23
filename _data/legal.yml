@@ -6,7 +6,7 @@ entity: "Froglet Inc."                               # legal entity name, e.g. "
 address: "1120 Cramton Ave NE, Ada, MI 49301"        # postal address
 store_developer_name: "Froglet Games"                # developer name exactly as shown on Google Play / the App Store
 effective_date: "January 1, 2022"                    # e.g. "November 1, 2026"
-updated_date: "November 17, 2026"                     # last-updated date shown under the title
+updated_date: "November 23, 2026"                     # last-updated date shown under the title
 privacy_email: ""                                    # privacy contact; when empty the pages fall back to support_email
 eu_representative: ""                                # EU/UK representative, if one is appointed; leave empty if none
 support_email: "support@froglet.games"               # Google Group (collaborative inbox) in Froglet's Google Workspace; create it before this goes live
