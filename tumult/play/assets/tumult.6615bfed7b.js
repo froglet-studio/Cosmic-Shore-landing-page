@@ -1,6 +1,6 @@
 window.T = window.T || {};
-window.T.BUILD = {"version":"2.139.0","playtest":false};
-window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"assets/pilots/ALOIX.43e4999b34.jpg","pilot/ANOTH":"assets/pilots/ANOTH.8c8ba3872e.jpg","pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVIL":"assets/pilots/ANVIL.d03812188c.jpg","pilot/ARARA":"assets/pilots/ARARA.a9a5f5e370.jpg","pilot/ARILIA":"assets/pilots/ARILIA.811131207d.jpg","pilot/ASTROFOIL":"assets/pilots/ASTROFOIL.5c9fa6f14d.jpg","pilot/ATHARA":"assets/pilots/ATHARA.566837ceea.jpg","pilot/BANDIT":"assets/pilots/BANDIT.09391a446f.jpg","pilot/BELBERIN":"assets/pilots/BELBERIN.fe552f843d.jpg","pilot/BELDIRI":"assets/pilots/BELDIRI.bb899d0989.jpg","pilot/BELKO":"assets/pilots/BELKO.bf1893ac6e.jpg","pilot/BELMIDEK":"assets/pilots/BELMIDEK.9f9b46dd53.jpg","pilot/BELRENRO":"assets/pilots/BELRENRO.a8d1afd2ec.jpg","pilot/BELSIAR":"assets/pilots/BELSIAR.3421845c80.jpg","pilot/BELSOTH":"assets/pilots/BELSOTH.ddc38ecbd4.jpg","pilot/BELTHALY":"assets/pilots/BELTHALY.9ca6a590b5.jpg","pilot/BELWEN":"assets/pilots/BELWEN.bdae9555bc.jpg","pilot/BRILOLIA":"assets/pilots/BRILOLIA.8c33011094.jpg","pilot/BRIOLA":"assets/pilots/BRIOLA.d016ba9df1.jpg","pilot/BRIRAIX":"assets/pilots/BRIRAIX.ad5523ef69.jpg","pilot/BRISH":"assets/pilots/BRISH.7ffedf9d77.jpg","pilot/BRISILIA":"assets/pilots/BRISILIA.55b830452a.jpg","pilot/BUSHY":"assets/pilots/BUSHY.22cbdd91fa.jpg","pilot/CABEANE":"assets/pilots/CABEANE.a3f9f37902.jpg","pilot/CAKOOLA":"assets/pilots/CAKOOLA.410a91f525.jpg","pilot/CALADEK":"assets/pilots/CALADEK.4b0d375c6b.jpg","pilot/CALAOLA":"assets/pilots/CALAOLA.7d0d031d3c.jpg","pilot/CALOSH":"assets/pilots/CALOSH.a4d55479d5.jpg","pilot/CANUAR":"assets/pilots/CANUAR.224b61c8a2.jpg","pilot/CARIEL":"assets/pilots/CARIEL.5798c71984.jpg","pilot/CARIO":"assets/pilots/CARIO.fcc67b00ee.jpg","pilot/CITADEL":"assets/pilots/CITADEL.ee7edc065c.jpg","pilot/COMET":"assets/pilots/COMET.0af72b6f6d.jpg","pilot/CORANE":"assets/pilots/CORANE.c7026949b3.jpg","pilot/CORBEEK":"assets/pilots/CORBEEK.78e1c6ddb3.jpg","pilot/CORBEMO":"assets/pilots/CORBEMO.46051982a0.jpg","pilot/CORLILIA":"assets/pilots/CORLILIA.658f4b32f5.jpg","pilot/CORN":"assets/pilots/CORN.65f73d8382.jpg","pilot/CORNDO":"assets/pilots/CORNDO.c16588c87e.jpg","pilot/CORRARIN":"assets/pilots/CORRARIN.879c9ccf14.jpg","pilot/DAMSEL":"assets/pilots/DAMSEL.adb17d42d3.jpg","pilot/DAREK":"assets/pilots/DAREK.1dfdf1341f.jpg","pilot/DARSOANE":"assets/pilots/DARSOANE.3f55e457c7.jpg","pilot/DARX":"assets/pilots/DARX.4434a58e68.jpg","pilot/DELKO":"assets/pilots/DELKO.5d1e306ef5.jpg","pilot/DELLALIA":"assets/pilots/DELLALIA.1672cffe6e.jpg","pilot/DELLIAR":"assets/pilots/DELLIAR.e5a0375180.jpg","pilot/DELLOANE":"assets/pilots/DELLOANE.73d7910dea.jpg","pilot/DELLORIN":"assets/pilots/DELLORIN.408027cb25.jpg","pilot/DELMADEK":"assets/pilots/DELMADEK.3a826e35b1.jpg","pilot/DELNURI":"assets/pilots/DELNURI.3db0ec910b.jpg","pilot/DELSOKO":"assets/pilots/DELSOKO.e4c15c3589.jpg","pilot/DOE":"assets/pilots/DOE.f54ac28b36.jpg","pilot/DOZER":"assets/pilots/DOZER.0c2e273a78.jpg","pilot/ECHO":"assets/pilots/ECHO.09a66c8cd4.jpg","pilot/EMAO":"assets/pilots/EMAO.d8fb6d5e8b.jpg","pilot/ENSIGN":"assets/pilots/ENSIGN.dc51eec735.jpg","pilot/FENKORA":"assets/pilots/FENKORA.725f42bbe3.jpg","pilot/FENLALIA":"assets/pilots/FENLALIA.c2507593a2.jpg","pilot/FENRA":"assets/pilots/FENRA.11faa43159.jpg","pilot/FENX":"assets/pilots/FENX.7305adac5b.jpg","pilot/FIEST":"assets/pilots/FIEST.ca4f6072bf.jpg","pilot/FLUME":"assets/pilots/FLUME.99e34640fa.jpg","pilot/FLUX":"assets/pilots/FLUX.53b20c2d11.jpg","pilot/GALBEMO":"assets/pilots/GALBEMO.f3284426f7.jpg","pilot/GALLEON":"assets/pilots/GALLEON.4007ec2ba5.jpg","pilot/GALLITH":"assets/pilots/GALLITH.5231762b0e.jpg","pilot/GALMAO":"assets/pilots/GALMAO.52299a1823.jpg","pilot/GALSOLY":"assets/pilots/GALSOLY.fa08182309.jpg","pilot/GALSOOLA":"assets/pilots/GALSOOLA.4c636b23c0.jpg","pilot/HABEAR":"assets/pilots/HABEAR.c1432e4446.jpg","pilot/HAN":"assets/pilots/HAN.1836d0f7c3.jpg","pilot/HORNET":"assets/pilots/HORNET.c42014a776.jpg","pilot/IDIO":"assets/pilots/IDIO.cdde754cbb.jpg","pilot/ILORIN":"assets/pilots/ILORIN.b99e2531b1.jpg","pilot/IRI":"assets/pilots/IRI.37eadaad4b.jpg","pilot/ISOLO":"assets/pilots/ISOLO.2fb9735223.jpg","pilot/ITHAX":"assets/pilots/ITHAX.0ead69e72c.jpg","pilot/IVY":"assets/pilots/IVY.473c6f1896.jpg","pilot/JODIOLA":"assets/pilots/JODIOLA.1f05357781.jpg","pilot/JORIRO":"assets/pilots/JORIRO.58e95a465f.jpg","pilot/JORO":"assets/pilots/JORO.c85885531a.jpg","pilot/JOSORA":"assets/pilots/JOSORA.1cebcfd064.jpg","pilot/JOTHAAR":"assets/pilots/JOTHAAR.b0ce1e8cfd.jpg","pilot/JOUS":"assets/pilots/JOUS.1441533e13.jpg","pilot/JUGGER":"assets/pilots/JUGGER.586ce53079.jpg","pilot/KABEN":"assets/pilots/KABEN.11aeb58071.jpg","pilot/KADIWEN":"assets/pilots/KADIWEN.b7c104428c.jpg","pilot/KALARA":"assets/pilots/KALARA.dcf1fb3cb3.jpg","pilot/KAMASH":"assets/pilots/KAMASH.3f121ebad5.jpg","pilot/KARIIX":"assets/pilots/KARIIX.26a2fc2eb5.jpg","pilot/KASH":"assets/pilots/KASH.e0ac12c2b3.jpg","pilot/KRUSH":"assets/pilots/KRUSH.334b99716e.jpg","pilot/LONGSHIFT":"assets/pilots/LONGSHIFT.ddbb54691b.jpg","pilot/LUDIRA":"assets/pilots/LUDIRA.650f72fc2c.jpg","pilot/LULAANE":"assets/pilots/LULAANE.b4607cb3ba.jpg","pilot/LULIIA":"assets/pilots/LULIIA.faec6f17f0.jpg","pilot/LUNULO":"assets/pilots/LUNULO.c34b9c91ea.jpg","pilot/MAESTRO":"assets/pilots/MAESTRO.a123e74967.jpg","pilot/MAIX":"assets/pilots/MAIX.4b2949e043.jpg","pilot/MAKOOLA":"assets/pilots/MAKOOLA.d012951ffc.jpg","pilot/MALIMO":"assets/pilots/MALIMO.46cca662aa.jpg","pilot/MALOANE":"assets/pilots/MALOANE.fb0febbb8f.jpg","pilot/MAMAOLA":"assets/pilots/MAMAOLA.fd43dae51a.jpg","pilot/MAMO":"assets/pilots/MAMO.e7c7558b96.jpg","pilot/MANGER":"assets/pilots/MANGER.a0cc5e1ece.jpg","pilot/MASON":"assets/pilots/MASON.bb77e506ba.jpg","pilot/MATA":"assets/pilots/MATA.df79b0b771.jpg","pilot/MIBEN":"assets/pilots/MIBEN.ee2acc08ee.jpg","pilot/MILAWEN":"assets/pilots/MILAWEN.3fc4c98f63.jpg","pilot/MILOLY":"assets/pilots/MILOLY.7672bea8a5.jpg","pilot/MIRAVE":"assets/pilots/MIRAVE.860273dbe5.jpg","pilot/MIRIN":"assets/pilots/MIRIN.02fa308242.jpg","pilot/MIRIOLA":"assets/pilots/MIRIOLA.9f4cc46468.jpg","pilot/MIRISA":"assets/pilots/MIRISA.b07a8d02e5.jpg","pilot/MISISH":"assets/pilots/MISISH.14775cdde4.jpg","pilot/NEEDLE":"assets/pilots/NEEDLE.5c9752c43d.jpg","pilot/NEKOANE":"assets/pilots/NEKOANE.12595b28fc.jpg","pilot/NELASA":"assets/pilots/NELASA.9067cbecd6.jpg","pilot/NELOEL":"assets/pilots/NELOEL.bfd6c80df6.jpg","pilot/NEMAIX":"assets/pilots/NEMAIX.ba3482a3d6.jpg","pilot/NEMAMO":"assets/pilots/NEMAMO.99e0c5eb4e.jpg","pilot/NEMATH":"assets/pilots/NEMATH.35c2ca859f.jpg","pilot/NENUVE":"assets/pilots/NENUVE.94f14ed8e5.jpg","pilot/NENUX":"assets/pilots/NENUX.f1d1bb0fe0.jpg","pilot/NETHAEL":"assets/pilots/NETHAEL.be820038e5.jpg","pilot/OLIA":"assets/pilots/OLIA.da6136c8fe.jpg","pilot/OLO":"assets/pilots/OLO.9b6a4ab50b.jpg","pilot/OLOEL":"assets/pilots/OLOEL.69aed7c06d.jpg","pilot/OLONE":"assets/pilots/OLONE.4af0e1679c.jpg","pilot/OMAKO":"assets/pilots/OMAKO.ff8f9475a0.jpg","pilot/OMIX":"assets/pilots/OMIX.7e4cce2f55.jpg","pilot/OPAL":"assets/pilots/OPAL.f4ce50ebbd.jpg","pilot/ORA":"assets/pilots/ORA.4c9ef87a50.jpg","pilot/OTH":"assets/pilots/OTH.c00d404eac.jpg","pilot/OVEX":"assets/pilots/OVEX.0e23891b01.jpg","pilot/PEDIRI":"assets/pilots/PEDIRI.ff60b065ac.jpg","pilot/PEKOAR":"assets/pilots/PEKOAR.90011b2608.jpg","pilot/PELOWEN":"assets/pilots/PELOWEN.3961de0010.jpg","pilot/PEMIIX":"assets/pilots/PEMIIX.6e5f68277a.jpg","pilot/PENDO":"assets/pilots/PENDO.3a9665e717.jpg","pilot/PENOOLA":"assets/pilots/PENOOLA.2240a3f002.jpg","pilot/PERENSA":"assets/pilots/PERENSA.c2f79395b5.jpg","pilot/PEVETH":"assets/pilots/PEVETH.a7262bbee0.jpg","pilot/PEWEN":"assets/pilots/PEWEN.724de93a6c.jpg","pilot/QUIBEMO":"assets/pilots/QUIBEMO.cf223775f3.jpg","pilot/QUIKOTH":"assets/pilots/QUIKOTH.5b32c6fee0.jpg","pilot/QUILOX":"assets/pilots/QUILOX.74ddb1971a.jpg","pilot/RAMPART":"assets/pilots/RAMPART.d688721f54.jpg","pilot/REAPER":"assets/pilots/REAPER.fcf80ec2b0.jpg","pilot/RIPTIDE":"assets/pilots/RIPTIDE.4a3167f030.jpg","pilot/RODIIX":"assets/pilots/RODIIX.86e905da55.jpg","pilot/ROLAMO":"assets/pilots/ROLAMO.2eb683e84d.jpg","pilot/ROLODEK":"assets/pilots/ROLODEK.722a593429.jpg","pilot/ROSIRIN":"assets/pilots/ROSIRIN.d29bee21d7.jpg","pilot/ROSONDO":"assets/pilots/ROSONDO.66d75c34bc.jpg","pilot/SABERO":"assets/pilots/SABERO.1c5a6df9ce.jpg","pilot/SAMAIA":"assets/pilots/SAMAIA.2c22477f3f.jpg","pilot/SANUIA":"assets/pilots/SANUIA.57d607dc33.jpg","pilot/SARAX":"assets/pilots/SARAX.0b9ca8d036.jpg","pilot/SASOKO":"assets/pilots/SASOKO.78f94f903d.jpg","pilot/SATHAANE":"assets/pilots/SATHAANE.8061cd8012.jpg","pilot/SCALES":"assets/pilots/SCALES.87715f6be5.jpg","pilot/SHRAPNEL":"assets/pilots/SHRAPNEL.60bf432658.jpg","pilot/SIPHON":"assets/pilots/SIPHON.64319ecec6.jpg","pilot/SLINGSHOT":"assets/pilots/SLINGSHOT.782ce6f557.jpg","pilot/SPARE01":"assets/pilots/SPARE01.e7bb1001da.jpg","pilot/SPARE02":"assets/pilots/SPARE02.4661694d58.jpg","pilot/SPARE03":"assets/pilots/SPARE03.157488b8ca.jpg","pilot/SPARE04":"assets/pilots/SPARE04.8cee2a69f6.jpg","pilot/SPARE05":"assets/pilots/SPARE05.7b664e7e50.jpg","pilot/SPARE06":"assets/pilots/SPARE06.6784507633.jpg","pilot/SPARE07":"assets/pilots/SPARE07.b83ac8694b.jpg","pilot/SPARE08":"assets/pilots/SPARE08.0f29c38886.jpg","pilot/STRIDER":"assets/pilots/STRIDER.1f777221cb.jpg","pilot/SUNDIAL":"assets/pilots/SUNDIAL.e301dbb8a1.jpg","pilot/TAKOANE":"assets/pilots/TAKOANE.f587bc8275.jpg","pilot/TAKOUS":"assets/pilots/TAKOUS.7e9c0c4788.jpg","pilot/TALOLO":"assets/pilots/TALOLO.f410317b58.jpg","pilot/TALON":"assets/pilots/TALON.98273b2e9a.jpg","pilot/TAMO":"assets/pilots/TAMO.b86f11dac8.jpg","pilot/TANUWEN":"assets/pilots/TANUWEN.fcc7bda948.jpg","pilot/TENACIOUS":"assets/pilots/TENACIOUS.c0e1c59b06.jpg","pilot/TENDER":"assets/pilots/TENDER.83a2dbd7da.jpg","pilot/TOMAHAWK":"assets/pilots/TOMAHAWK.9de0540c54.jpg","pilot/TRACE":"assets/pilots/TRACE.6c835c4aad.jpg","pilot/UIX":"assets/pilots/UIX.0fe225230f.jpg","pilot/ULIA":"assets/pilots/ULIA.4a68fe9c11.jpg","pilot/ULINE":"assets/pilots/ULINE.ae7d05e530.jpg","pilot/ULOTH":"assets/pilots/ULOTH.71d6f7c78c.jpg","pilot/URO":"assets/pilots/URO.d153fb9c2a.jpg","pilot/UTHAEL":"assets/pilots/UTHAEL.0a0b4d057c.jpg","pilot/VERAO":"assets/pilots/VERAO.f428fc465b.jpg","pilot/VEVEOLA":"assets/pilots/VEVEOLA.2cb64352bc.jpg","pilot/VOLT":"assets/pilots/VOLT.80a1160ef3.jpg","pilot/WINGMAN":"assets/pilots/WINGMAN.8d484a3eaa.jpg","pilot/WYNE":"assets/pilots/WYNE.efc33aaea6.jpg","pilot/WYSOOLA":"assets/pilots/WYSOOLA.8c6ed6c54f.jpg","pilot/WYVE":"assets/pilots/WYVE.2bb9ad32fe.jpg","pilot/XABEDEK":"assets/pilots/XABEDEK.eabb0f810c.jpg","pilot/XALAAI":"assets/pilots/XALAAI.36e79f1ad5.jpg","pilot/XATHALO":"assets/pilots/XATHALO.d23dd174f6.jpg","pilot/XATHATA":"assets/pilots/XATHATA.f204d7c75c.jpg","pilot/YOMILIA":"assets/pilots/YOMILIA.b03bd1a399.jpg","pilot/YON":"assets/pilots/YON.10cd6d706c.jpg","pilot/YONE":"assets/pilots/YONE.a4357d30ec.jpg","pilot/YONOEK":"assets/pilots/YONOEK.a5e16f1f7d.jpg","pilot/YOVE":"assets/pilots/YOVE.45a3fec698.jpg","pilot/YOX":"assets/pilots/YOX.8a9d3ef821.jpg","pilot/ZEBEEL":"assets/pilots/ZEBEEL.228eb5f947.jpg","pilot/ZERIOLA":"assets/pilots/ZERIOLA.a42ba833dd.jpg","pilot/ZESONDO":"assets/pilots/ZESONDO.56538e063c.jpg","pilot/ZETH":"assets/pilots/ZETH.7549b5d26e.jpg","pilot/ZODIAC":"assets/pilots/ZODIAC.935c77c2bc.jpg","scene/AANE":"assets/scenes/AANE.19ab7f1c48.webp","scene/ALOIX":"assets/scenes/ALOIX.aaede637bf.webp","scene/ANOTH":"assets/scenes/ANOTH.849e56e96b.webp","scene/ANUDEK":"assets/scenes/ANUDEK.c7fc3c6d91.webp","scene/ANVIL":"assets/scenes/ANVIL.2e925512a0.webp","scene/ARARA":"assets/scenes/ARARA.c712c541d4.webp","scene/ARILIA":"assets/scenes/ARILIA.38d174512a.webp","scene/ASTROFOIL":"assets/scenes/ASTROFOIL.442347f8d5.webp","scene/ATHARA":"assets/scenes/ATHARA.5a0dc94b6b.webp","scene/BANDIT":"assets/scenes/BANDIT.9d2d80e3a6.webp","scene/BELBERIN":"assets/scenes/BELBERIN.9dc892d85d.webp","scene/BELDIRI":"assets/scenes/BELDIRI.7d790fdb67.webp","scene/BELKO":"assets/scenes/BELKO.56e1f880d8.webp","scene/BELMIDEK":"assets/scenes/BELMIDEK.7b1da9d6b0.webp","scene/BELRENRO":"assets/scenes/BELRENRO.dc9ff56a3a.webp","scene/BELSIAR":"assets/scenes/BELSIAR.a8eaf9d88b.webp","scene/BELSOTH":"assets/scenes/BELSOTH.54a3be9405.webp","scene/BELTHALY":"assets/scenes/BELTHALY.fa15ba2be1.webp","scene/BELWEN":"assets/scenes/BELWEN.767a6c0025.webp","scene/BRILOLIA":"assets/scenes/BRILOLIA.c6e8d0fca0.webp","scene/BRIOLA":"assets/scenes/BRIOLA.60d0f0ecf5.webp","scene/BRIRAIX":"assets/scenes/BRIRAIX.a6e34af4ca.webp","scene/BRISH":"assets/scenes/BRISH.b7278bc17a.webp","scene/BRISILIA":"assets/scenes/BRISILIA.ed69a87a70.webp","scene/BUSHY":"assets/scenes/BUSHY.37f0cffc7e.webp","scene/CABEANE":"assets/scenes/CABEANE.ae36719e11.webp","scene/CAKOOLA":"assets/scenes/CAKOOLA.1e9758eb23.webp","scene/CALADEK":"assets/scenes/CALADEK.ede525d8fd.webp","scene/CALAOLA":"assets/scenes/CALAOLA.6ba5fcbd98.webp","scene/CALOSH":"assets/scenes/CALOSH.c23b3c6773.webp","scene/CANUAR":"assets/scenes/CANUAR.40963d2f4a.webp","scene/CARIEL":"assets/scenes/CARIEL.09df404ab3.webp","scene/CARIO":"assets/scenes/CARIO.37cd14ba51.webp","scene/CITADEL":"assets/scenes/CITADEL.0c830e6ac4.webp","scene/COMET":"assets/scenes/COMET.738dc2177c.webp","scene/CORANE":"assets/scenes/CORANE.581f169af1.webp","scene/CORBEEK":"assets/scenes/CORBEEK.0873c8c795.webp","scene/CORBEMO":"assets/scenes/CORBEMO.9845817e52.webp","scene/CORLILIA":"assets/scenes/CORLILIA.e40de856b8.webp","scene/CORN":"assets/scenes/CORN.fb1b40e6f8.webp","scene/CORNDO":"assets/scenes/CORNDO.6755bf5e75.webp","scene/CORRARIN":"assets/scenes/CORRARIN.bf468113ff.webp","scene/DAMSEL":"assets/scenes/DAMSEL.59812cfeda.webp","scene/DAREK":"assets/scenes/DAREK.7ed92a3ef9.webp","scene/DARSOANE":"assets/scenes/DARSOANE.4b79c3c341.webp","scene/DARX":"assets/scenes/DARX.ff23e4f983.webp","scene/DELKO":"assets/scenes/DELKO.e44a3ebb31.webp","scene/DELLALIA":"assets/scenes/DELLALIA.56350ea109.webp","scene/DELLIAR":"assets/scenes/DELLIAR.4bc6f8803d.webp","scene/DELLOANE":"assets/scenes/DELLOANE.25922c8374.webp","scene/DELLORIN":"assets/scenes/DELLORIN.2d3d679877.webp","scene/DELMADEK":"assets/scenes/DELMADEK.cf8021a033.webp","scene/DELNURI":"assets/scenes/DELNURI.b339d62834.webp","scene/DELSOKO":"assets/scenes/DELSOKO.9dbe840e12.webp","scene/DOE":"assets/scenes/DOE.743094a514.webp","scene/DOZER":"assets/scenes/DOZER.bac0ce0f02.webp","scene/ECHO":"assets/scenes/ECHO.51b039badf.webp","scene/EMAO":"assets/scenes/EMAO.ef58a4cac6.webp","scene/ENSIGN":"assets/scenes/ENSIGN.41d1bdb5e2.webp","scene/FENKORA":"assets/scenes/FENKORA.ca6f5e4882.webp","scene/FENLALIA":"assets/scenes/FENLALIA.baec7fbcfd.webp","scene/FENRA":"assets/scenes/FENRA.a47ec27e47.webp","scene/FENX":"assets/scenes/FENX.328d8fd42c.webp","scene/FIEST":"assets/scenes/FIEST.29ffa75d52.webp","scene/FLUME":"assets/scenes/FLUME.831e812850.webp","scene/FLUX":"assets/scenes/FLUX.784c434eca.webp","scene/GALBEMO":"assets/scenes/GALBEMO.2e81ec9091.webp","scene/GALLEON":"assets/scenes/GALLEON.b9dcec2de6.webp","scene/GALLITH":"assets/scenes/GALLITH.14fe31bedf.webp","scene/GALMAO":"assets/scenes/GALMAO.b04936aa04.webp","scene/GALSOLY":"assets/scenes/GALSOLY.4d8fb255fd.webp","scene/GALSOOLA":"assets/scenes/GALSOOLA.d6b6071caf.webp","scene/HABEAR":"assets/scenes/HABEAR.c3754c0a42.webp","scene/HAN":"assets/scenes/HAN.1bd1f99f64.webp","scene/HORNET":"assets/scenes/HORNET.f9f87eec8c.webp","scene/IDIO":"assets/scenes/IDIO.bc2d1284c2.webp","scene/ILORIN":"assets/scenes/ILORIN.34002ec122.webp","scene/IRI":"assets/scenes/IRI.a76c37a550.webp","scene/ISOLO":"assets/scenes/ISOLO.b910f79333.webp","scene/ITHAX":"assets/scenes/ITHAX.28a03e245a.webp","scene/IVY":"assets/scenes/IVY.2253d01f62.webp","scene/JODIOLA":"assets/scenes/JODIOLA.0a429f4a78.webp","scene/JORIRO":"assets/scenes/JORIRO.d10f1e899a.webp","scene/JORO":"assets/scenes/JORO.dc03642cf9.webp","scene/JOSORA":"assets/scenes/JOSORA.32e3d61908.webp","scene/JOTHAAR":"assets/scenes/JOTHAAR.9ea6f9b85b.webp","scene/JOUS":"assets/scenes/JOUS.1d6c9420f6.webp","scene/JUGGER":"assets/scenes/JUGGER.d3181c4ef2.webp","scene/KABEN":"assets/scenes/KABEN.8de422d186.webp","scene/KADIWEN":"assets/scenes/KADIWEN.6c415c4ef9.webp","scene/KALARA":"assets/scenes/KALARA.e99f7c696f.webp","scene/KAMASH":"assets/scenes/KAMASH.116ea9f1e1.webp","scene/KARIIX":"assets/scenes/KARIIX.23268b67f5.webp","scene/KASH":"assets/scenes/KASH.76634040ff.webp","scene/KRUSH":"assets/scenes/KRUSH.fc3cd954e8.webp","scene/LONGSHIFT":"assets/scenes/LONGSHIFT.f9e1adaeff.webp","scene/LUDIRA":"assets/scenes/LUDIRA.ec7816d32b.webp","scene/LULAANE":"assets/scenes/LULAANE.51ebe15152.webp","scene/LULIIA":"assets/scenes/LULIIA.9077a35410.webp","scene/LUNULO":"assets/scenes/LUNULO.d1e62aa922.webp","scene/MAESTRO":"assets/scenes/MAESTRO.eca4b31129.webp","scene/MAIX":"assets/scenes/MAIX.78642e32c3.webp","scene/MAKOOLA":"assets/scenes/MAKOOLA.7c7e42d0be.webp","scene/MALIMO":"assets/scenes/MALIMO.c9a29152c0.webp","scene/MALOANE":"assets/scenes/MALOANE.de5471baf6.webp","scene/MAMAOLA":"assets/scenes/MAMAOLA.4dc26ed1a2.webp","scene/MAMO":"assets/scenes/MAMO.b283bab210.webp","scene/MANGER":"assets/scenes/MANGER.0468cebff3.webp","scene/MASON":"assets/scenes/MASON.75cea94d65.webp","scene/MATA":"assets/scenes/MATA.49f9953920.webp","scene/MIBEN":"assets/scenes/MIBEN.15388d4ad6.webp","scene/MILAWEN":"assets/scenes/MILAWEN.4c32be2cad.webp","scene/MILOLY":"assets/scenes/MILOLY.87efbbe09b.webp","scene/MIRAVE":"assets/scenes/MIRAVE.79e2dbd2bd.webp","scene/MIRIN":"assets/scenes/MIRIN.f5b4dfb3f6.webp","scene/MIRIOLA":"assets/scenes/MIRIOLA.2059a5711b.webp","scene/MIRISA":"assets/scenes/MIRISA.ddcf6f697d.webp","scene/MISISH":"assets/scenes/MISISH.911a8a377c.webp","scene/NEEDLE":"assets/scenes/NEEDLE.3dbf5b9812.webp","scene/NEKOANE":"assets/scenes/NEKOANE.d18e5cb9fc.webp","scene/NELASA":"assets/scenes/NELASA.3e445596c5.webp","scene/NELOEL":"assets/scenes/NELOEL.1ade9e4fc8.webp","scene/NEMAIX":"assets/scenes/NEMAIX.18184f34ef.webp","scene/NEMAMO":"assets/scenes/NEMAMO.5a05761c3b.webp","scene/NEMATH":"assets/scenes/NEMATH.b5b90d5a72.webp","scene/NENUVE":"assets/scenes/NENUVE.ae2897a48c.webp","scene/NENUX":"assets/scenes/NENUX.9e6f103485.webp","scene/NETHAEL":"assets/scenes/NETHAEL.114b9e3744.webp","scene/OLIA":"assets/scenes/OLIA.ee5b2e13e0.webp","scene/OLO":"assets/scenes/OLO.35b9f3df87.webp","scene/OLOEL":"assets/scenes/OLOEL.da6296c23d.webp","scene/OLONE":"assets/scenes/OLONE.2ac1694841.webp","scene/OMAKO":"assets/scenes/OMAKO.67ed22a958.webp","scene/OMIX":"assets/scenes/OMIX.50f67bdc07.webp","scene/OPAL":"assets/scenes/OPAL.3daa48ed44.webp","scene/ORA":"assets/scenes/ORA.3070108394.webp","scene/OTH":"assets/scenes/OTH.f5503d3437.webp","scene/OVEX":"assets/scenes/OVEX.a68728232f.webp","scene/PEDIRI":"assets/scenes/PEDIRI.826555c6d7.webp","scene/PEKOAR":"assets/scenes/PEKOAR.3ebc194bfd.webp","scene/PELOWEN":"assets/scenes/PELOWEN.b93e1feb77.webp","scene/PEMIIX":"assets/scenes/PEMIIX.4db83bf174.webp","scene/PENDO":"assets/scenes/PENDO.b016a66667.webp","scene/PENOOLA":"assets/scenes/PENOOLA.b65f3b48ac.webp","scene/PERENSA":"assets/scenes/PERENSA.b312ab0ac6.webp","scene/PEVETH":"assets/scenes/PEVETH.8d93ba651e.webp","scene/PEWEN":"assets/scenes/PEWEN.44fafcbc17.webp","scene/QUIBEMO":"assets/scenes/QUIBEMO.950538197c.webp","scene/QUIKOTH":"assets/scenes/QUIKOTH.a034cc225b.webp","scene/QUILOX":"assets/scenes/QUILOX.31b123f95c.webp","scene/RAMPART":"assets/scenes/RAMPART.c39804e525.webp","scene/REAPER":"assets/scenes/REAPER.d14c0aa60b.webp","scene/RIPTIDE":"assets/scenes/RIPTIDE.c9036541af.webp","scene/RODIIX":"assets/scenes/RODIIX.3d188ea9a0.webp","scene/ROLAMO":"assets/scenes/ROLAMO.107fd45e3c.webp","scene/ROLODEK":"assets/scenes/ROLODEK.968ef4eb57.webp","scene/ROSIRIN":"assets/scenes/ROSIRIN.6ecfbed451.webp","scene/ROSONDO":"assets/scenes/ROSONDO.3a73615b2d.webp","scene/SABERO":"assets/scenes/SABERO.8d0ce150ea.webp","scene/SAMAIA":"assets/scenes/SAMAIA.0643b1c910.webp","scene/SANUIA":"assets/scenes/SANUIA.42e5aa4e28.webp","scene/SARAX":"assets/scenes/SARAX.2e7e752e4b.webp","scene/SASOKO":"assets/scenes/SASOKO.864a2df87d.webp","scene/SATHAANE":"assets/scenes/SATHAANE.60583be976.webp","scene/SCALES":"assets/scenes/SCALES.0548e15be5.webp","scene/SHRAPNEL":"assets/scenes/SHRAPNEL.53eb5e756e.webp","scene/SIPHON":"assets/scenes/SIPHON.f8a26b6185.webp","scene/SLINGSHOT":"assets/scenes/SLINGSHOT.93d04d1ef7.webp","scene/SPARE01":"assets/scenes/SPARE01.b8c82ffc82.webp","scene/SPARE02":"assets/scenes/SPARE02.7cebea6d1d.webp","scene/SPARE03":"assets/scenes/SPARE03.d420985727.webp","scene/SPARE04":"assets/scenes/SPARE04.23fb0f067d.webp","scene/SPARE05":"assets/scenes/SPARE05.ac53bf8c68.webp","scene/SPARE06":"assets/scenes/SPARE06.a8814e5a25.webp","scene/SPARE07":"assets/scenes/SPARE07.3f7285ebad.webp","scene/SPARE08":"assets/scenes/SPARE08.2f72e653db.webp","scene/STRIDER":"assets/scenes/STRIDER.a0fccff34e.webp","scene/SUNDIAL":"assets/scenes/SUNDIAL.74ce284aa1.webp","scene/TAKOANE":"assets/scenes/TAKOANE.50b7909e7a.webp","scene/TAKOUS":"assets/scenes/TAKOUS.4423f66569.webp","scene/TALOLO":"assets/scenes/TALOLO.a0dc4ff99f.webp","scene/TALON":"assets/scenes/TALON.9ddf0dab5d.webp","scene/TAMO":"assets/scenes/TAMO.dc1c243760.webp","scene/TANUWEN":"assets/scenes/TANUWEN.ff811edd1c.webp","scene/TENACIOUS":"assets/scenes/TENACIOUS.3d447a26ac.webp","scene/TENDER":"assets/scenes/TENDER.e5b9cad127.webp","scene/TOMAHAWK":"assets/scenes/TOMAHAWK.66f74d0f4c.webp","scene/TRACE":"assets/scenes/TRACE.acccb15093.webp","scene/UIX":"assets/scenes/UIX.c67a2f0b9c.webp","scene/ULIA":"assets/scenes/ULIA.32294a4cda.webp","scene/ULINE":"assets/scenes/ULINE.ae6d70adb2.webp","scene/ULOTH":"assets/scenes/ULOTH.0c5c64445e.webp","scene/URO":"assets/scenes/URO.153e388940.webp","scene/UTHAEL":"assets/scenes/UTHAEL.a7c79f3ad8.webp","scene/VERAO":"assets/scenes/VERAO.c941b75d70.webp","scene/VEVEOLA":"assets/scenes/VEVEOLA.b6fc585b22.webp","scene/VOLT":"assets/scenes/VOLT.6bc64f10d3.webp","scene/WINGMAN":"assets/scenes/WINGMAN.113acd08b6.webp","scene/WYNE":"assets/scenes/WYNE.0ba11f9e6d.webp","scene/WYSOOLA":"assets/scenes/WYSOOLA.2bbeb36c29.webp","scene/WYVE":"assets/scenes/WYVE.e46330e1cc.webp","scene/XABEDEK":"assets/scenes/XABEDEK.b958807c03.webp","scene/XALAAI":"assets/scenes/XALAAI.c0c25fa102.webp","scene/XATHALO":"assets/scenes/XATHALO.b060046450.webp","scene/XATHATA":"assets/scenes/XATHATA.8e3b0348a0.webp","scene/YOMILIA":"assets/scenes/YOMILIA.172a4b32ca.webp","scene/YON":"assets/scenes/YON.96a08a3e46.webp","scene/YONE":"assets/scenes/YONE.dafec6cd55.webp","scene/YONOEK":"assets/scenes/YONOEK.913e824f05.webp","scene/YOVE":"assets/scenes/YOVE.1099c24040.webp","scene/YOX":"assets/scenes/YOX.a22bebea1c.webp","scene/ZEBEEL":"assets/scenes/ZEBEEL.81939caf01.webp","scene/ZERIOLA":"assets/scenes/ZERIOLA.01e889f7d1.webp","scene/ZESONDO":"assets/scenes/ZESONDO.3899ccfed5.webp","scene/ZETH":"assets/scenes/ZETH.446cb00c81.webp","scene/ZODIAC":"assets/scenes/ZODIAC.cf92a6f4c3.webp","portrait/sheet-1":"assets/portraits/sheet-1.044e47199d.webp","portrait/sheet-2":"assets/portraits/sheet-2.a0a86a6b7e.webp","portrait/sheet-3":"assets/portraits/sheet-3.c17b5b3caa.webp","portrait/sheet-4":"assets/portraits/sheet-4.3cc95a8dc5.webp","portrait/sheet-5":"assets/portraits/sheet-5.a07207cfc3.webp","portrait/sheet-6":"assets/portraits/sheet-6.91ea2aa75e.webp","ability-art/sheet-001":"assets/ability-art/sheet-001.2ec4703618.webp","ability-art/sheet-002":"assets/ability-art/sheet-002.ab85ca0c29.webp","ability-art/sheet-003":"assets/ability-art/sheet-003.cc5fe9ae14.webp","ability-art/sheet-004":"assets/ability-art/sheet-004.33c57e94d9.webp","ability-art/sheet-005":"assets/ability-art/sheet-005.08ccfb8c12.webp","ability-art/sheet-006":"assets/ability-art/sheet-006.09736c24b3.webp","ability-art/sheet-007":"assets/ability-art/sheet-007.1a34aaaa74.webp","ability-art/sheet-008":"assets/ability-art/sheet-008.817e3fc1cb.webp","ability-art/sheet-009":"assets/ability-art/sheet-009.2762c46df3.webp","ability-art/sheet-010":"assets/ability-art/sheet-010.9ead9e0640.webp","ability-art/sheet-011":"assets/ability-art/sheet-011.48943648d1.webp","ability-art/sheet-012":"assets/ability-art/sheet-012.a8af122197.webp","ability-art/sheet-013":"assets/ability-art/sheet-013.c654e54954.webp","ability-art/sheet-014":"assets/ability-art/sheet-014.752198be26.webp","ability-art/sheet-015":"assets/ability-art/sheet-015.76ffffb133.webp","ability-art/sheet-016":"assets/ability-art/sheet-016.ee9e279158.webp","ability-art/sheet-017":"assets/ability-art/sheet-017.d33e22612c.webp","ability-art/sheet-018":"assets/ability-art/sheet-018.200b29650d.webp","ability-art/sheet-019":"assets/ability-art/sheet-019.6c7c4b5457.webp","ability-art/sheet-020":"assets/ability-art/sheet-020.3976e49bbc.webp","ability-art/sheet-021":"assets/ability-art/sheet-021.00d89ab101.webp","ability-art/sheet-022":"assets/ability-art/sheet-022.cc54e973b7.webp","ability-art/sheet-023":"assets/ability-art/sheet-023.1eb73a36c9.webp","ability-art/sheet-024":"assets/ability-art/sheet-024.64c7560bd5.webp","ability-art/sheet-025":"assets/ability-art/sheet-025.33f41b05ff.webp","ability-art/sheet-026":"assets/ability-art/sheet-026.e8f968001a.webp","ability-art/sheet-027":"assets/ability-art/sheet-027.e04c3e4498.webp","ability-art/sheet-028":"assets/ability-art/sheet-028.2474e58284.webp","ability-art/sheet-029":"assets/ability-art/sheet-029.a82c94b965.webp","ability-art/sheet-030":"assets/ability-art/sheet-030.0d37643fab.webp","ability-art/sheet-031":"assets/ability-art/sheet-031.3dcc47848f.webp","ability-art/sheet-032":"assets/ability-art/sheet-032.2a99a7754c.webp","ability-art/sheet-033":"assets/ability-art/sheet-033.8ad0a26d7b.webp","ability-art/sheet-034":"assets/ability-art/sheet-034.0b30c196fb.webp","ability-art/sheet-035":"assets/ability-art/sheet-035.2bfef61172.webp","ability-art/sheet-036":"assets/ability-art/sheet-036.6ed390a961.webp","ability-art/sheet-037":"assets/ability-art/sheet-037.3b833b29f6.webp","ability-art/sheet-038":"assets/ability-art/sheet-038.503980778d.webp","ability-art/sheet-039":"assets/ability-art/sheet-039.eb7e6d234d.webp","ability-art/sheet-040":"assets/ability-art/sheet-040.c55d9339d5.webp","ability-art/sheet-041":"assets/ability-art/sheet-041.2e724301d1.webp","ability-art/sheet-042":"assets/ability-art/sheet-042.ed47514015.webp","ability-art/sheet-043":"assets/ability-art/sheet-043.68b9e2ddb6.webp","ability-art/sheet-044":"assets/ability-art/sheet-044.d82e8bb731.webp","ability-art/sheet-045":"assets/ability-art/sheet-045.2bf03bfe56.webp","ability-art/sheet-046":"assets/ability-art/sheet-046.02081221da.webp","ability-art/sheet-047":"assets/ability-art/sheet-047.a92bfd17bd.webp","ability-art/sheet-048":"assets/ability-art/sheet-048.0871ec3b13.webp","ability-art/sheet-049":"assets/ability-art/sheet-049.3ec4537326.webp","ability-art/sheet-050":"assets/ability-art/sheet-050.b872ba2524.webp","ability-art/sheet-051":"assets/ability-art/sheet-051.83b5c11397.webp","ability-art/sheet-052":"assets/ability-art/sheet-052.af5e18d1c1.webp","ability-art/sheet-053":"assets/ability-art/sheet-053.c384179c46.webp","ability-art/sheet-054":"assets/ability-art/sheet-054.29b90622f2.webp","ability-art/sheet-055":"assets/ability-art/sheet-055.1253c94c87.webp","ability-art/sheet-056":"assets/ability-art/sheet-056.78647f29cd.webp","ability-art/sheet-057":"assets/ability-art/sheet-057.d9936bdd1d.webp","ability-art/sheet-058":"assets/ability-art/sheet-058.b4e6b94572.webp","ability-art/sheet-059":"assets/ability-art/sheet-059.47e7c209fe.webp","ability-art/sheet-060":"assets/ability-art/sheet-060.a0723852cb.webp","ability-art/sheet-061":"assets/ability-art/sheet-061.b7b0ed4035.webp","ability-art/sheet-062":"assets/ability-art/sheet-062.171f56935b.webp","ability-art/sheet-063":"assets/ability-art/sheet-063.65c31a32e2.webp","ability-art/sheet-064":"assets/ability-art/sheet-064.89f1045cd9.webp","ability-art/sheet-065":"assets/ability-art/sheet-065.8e0ee5b800.webp","ability-art/sheet-066":"assets/ability-art/sheet-066.3db3c55db7.webp","ability-art/sheet-067":"assets/ability-art/sheet-067.8263e83e8b.webp","ability-art/sheet-068":"assets/ability-art/sheet-068.f1bfb3900a.webp","ability-art/sheet-069":"assets/ability-art/sheet-069.30a2fe8110.webp","ability-art/sheet-070":"assets/ability-art/sheet-070.a9d9f53fb4.webp","ability-art/sheet-071":"assets/ability-art/sheet-071.deae7ee66b.webp","ability-art/sheet-072":"assets/ability-art/sheet-072.272031fd4c.webp","ability-art/sheet-073":"assets/ability-art/sheet-073.fbd59ab16d.webp","ability-art/sheet-074":"assets/ability-art/sheet-074.ae4a702b98.webp","ability-art/sheet-075":"assets/ability-art/sheet-075.8d44aa4759.webp","ability-art/sheet-076":"assets/ability-art/sheet-076.feeb5989d4.webp","ability-art/sheet-077":"assets/ability-art/sheet-077.948fb42d08.webp","ability-art/sheet-078":"assets/ability-art/sheet-078.c3d8b84f32.webp","ability-art/sheet-079":"assets/ability-art/sheet-079.c8afb3fe2f.webp","ability-art/sheet-080":"assets/ability-art/sheet-080.c1f316a007.webp","ability-art/sheet-081":"assets/ability-art/sheet-081.fdb920d335.webp","ability-art/sheet-082":"assets/ability-art/sheet-082.78052204fb.webp","ability-art/sheet-083":"assets/ability-art/sheet-083.3ebcd1dae4.webp","ability-art/sheet-084":"assets/ability-art/sheet-084.4c68f3d5e9.webp","ability-art/sheet-085":"assets/ability-art/sheet-085.ac6812cae0.webp","ability-art/sheet-086":"assets/ability-art/sheet-086.10240bda99.webp","ability-art/sheet-087":"assets/ability-art/sheet-087.e7cfb8a8b3.webp","ability-art/sheet-088":"assets/ability-art/sheet-088.913cbbc734.webp","ability-art/sheet-089":"assets/ability-art/sheet-089.093dcaec4e.webp","ability-art/sheet-090":"assets/ability-art/sheet-090.e9f171399b.webp","ability-art/sheet-091":"assets/ability-art/sheet-091.1b9427f4b8.webp","ability-art/sheet-092":"assets/ability-art/sheet-092.aac381f02d.webp","ability-art/sheet-093":"assets/ability-art/sheet-093.c02ee3301e.webp","ability-art/sheet-094":"assets/ability-art/sheet-094.4a296b0365.webp","ability-art/sheet-095":"assets/ability-art/sheet-095.2c2d7a1f59.webp","ability-art/sheet-096":"assets/ability-art/sheet-096.bc43773fc4.webp","ability-art/sheet-097":"assets/ability-art/sheet-097.41db3e1afb.webp","ability-art/sheet-098":"assets/ability-art/sheet-098.679f73681e.webp","ability-art/sheet-099":"assets/ability-art/sheet-099.6ffae29052.webp","ability-art/sheet-100":"assets/ability-art/sheet-100.9f30db4c1d.webp","ability-art/sheet-101":"assets/ability-art/sheet-101.b8121b6fe7.webp","ability-art/sheet-102":"assets/ability-art/sheet-102.50d8248f9a.webp","ability-art/sheet-103":"assets/ability-art/sheet-103.0899e3b53a.webp","ability-art/sheet-104":"assets/ability-art/sheet-104.e77a09a221.webp","ability-art/sheet-105":"assets/ability-art/sheet-105.7501ed9127.webp","ability-art/sheet-106":"assets/ability-art/sheet-106.6d63f6993b.webp","ability-art/sheet-107":"assets/ability-art/sheet-107.2448e11dc3.webp","ability-art/sheet-108":"assets/ability-art/sheet-108.a290c2249a.webp","ability-art/sheet-109":"assets/ability-art/sheet-109.ad147ce312.webp","ability-art/sheet-110":"assets/ability-art/sheet-110.1ebfadf7a6.webp","ability-art/sheet-111":"assets/ability-art/sheet-111.60c40f432c.webp","ability-art/sheet-112":"assets/ability-art/sheet-112.f3ccbd6f30.webp","ability-art/sheet-113":"assets/ability-art/sheet-113.080bdf0055.webp","ability-art/sheet-114":"assets/ability-art/sheet-114.08aa5da754.webp","ability-art/sheet-115":"assets/ability-art/sheet-115.63c2e2b979.webp","ability-art/sheet-116":"assets/ability-art/sheet-116.130006f485.webp","ability-art/sheet-117":"assets/ability-art/sheet-117.de1ceb9d0a.webp","ability-art/sheet-118":"assets/ability-art/sheet-118.5f67a2c695.webp"};
+window.T.BUILD = {"version":"2.145.0","playtest":false};
+window.T.ART = {"pilot/AANE":"assets/pilots/AANE.aa751eab20.jpg","pilot/ALOIX":"assets/pilots/ALOIX.43e4999b34.jpg","pilot/ANOTH":"assets/pilots/ANOTH.8c8ba3872e.jpg","pilot/ANUDEK":"assets/pilots/ANUDEK.c78e66febd.jpg","pilot/ANVIL":"assets/pilots/ANVIL.d03812188c.jpg","pilot/ARARA":"assets/pilots/ARARA.a9a5f5e370.jpg","pilot/ARILIA":"assets/pilots/ARILIA.811131207d.jpg","pilot/ASTROFOIL":"assets/pilots/ASTROFOIL.5c9fa6f14d.jpg","pilot/ATHARA":"assets/pilots/ATHARA.566837ceea.jpg","pilot/BANDIT":"assets/pilots/BANDIT.09391a446f.jpg","pilot/BELBERIN":"assets/pilots/BELBERIN.fe552f843d.jpg","pilot/BELDIRI":"assets/pilots/BELDIRI.bb899d0989.jpg","pilot/BELKO":"assets/pilots/BELKO.bf1893ac6e.jpg","pilot/BELMIDEK":"assets/pilots/BELMIDEK.9f9b46dd53.jpg","pilot/BELRENRO":"assets/pilots/BELRENRO.a8d1afd2ec.jpg","pilot/BELSIAR":"assets/pilots/BELSIAR.3421845c80.jpg","pilot/BELSOTH":"assets/pilots/BELSOTH.ddc38ecbd4.jpg","pilot/BELTHALY":"assets/pilots/BELTHALY.9ca6a590b5.jpg","pilot/BELWEN":"assets/pilots/BELWEN.bdae9555bc.jpg","pilot/BRILOLIA":"assets/pilots/BRILOLIA.8c33011094.jpg","pilot/BRIOLA":"assets/pilots/BRIOLA.d016ba9df1.jpg","pilot/BRIRAIX":"assets/pilots/BRIRAIX.ad5523ef69.jpg","pilot/BRISH":"assets/pilots/BRISH.7ffedf9d77.jpg","pilot/BRISILIA":"assets/pilots/BRISILIA.55b830452a.jpg","pilot/BUSHY":"assets/pilots/BUSHY.22cbdd91fa.jpg","pilot/CABEANE":"assets/pilots/CABEANE.a3f9f37902.jpg","pilot/CAKOOLA":"assets/pilots/CAKOOLA.410a91f525.jpg","pilot/CALADEK":"assets/pilots/CALADEK.4b0d375c6b.jpg","pilot/CALAOLA":"assets/pilots/CALAOLA.7d0d031d3c.jpg","pilot/CALOSH":"assets/pilots/CALOSH.a4d55479d5.jpg","pilot/CANUAR":"assets/pilots/CANUAR.224b61c8a2.jpg","pilot/CARIEL":"assets/pilots/CARIEL.5798c71984.jpg","pilot/CARIO":"assets/pilots/CARIO.fcc67b00ee.jpg","pilot/CITADEL":"assets/pilots/CITADEL.ee7edc065c.jpg","pilot/COMET":"assets/pilots/COMET.0af72b6f6d.jpg","pilot/CORANE":"assets/pilots/CORANE.c7026949b3.jpg","pilot/CORBEEK":"assets/pilots/CORBEEK.78e1c6ddb3.jpg","pilot/CORBEMO":"assets/pilots/CORBEMO.46051982a0.jpg","pilot/CORLILIA":"assets/pilots/CORLILIA.658f4b32f5.jpg","pilot/CORN":"assets/pilots/CORN.65f73d8382.jpg","pilot/CORNDO":"assets/pilots/CORNDO.c16588c87e.jpg","pilot/CORRARIN":"assets/pilots/CORRARIN.879c9ccf14.jpg","pilot/DAMSEL":"assets/pilots/DAMSEL.adb17d42d3.jpg","pilot/DAREK":"assets/pilots/DAREK.1dfdf1341f.jpg","pilot/DARSOANE":"assets/pilots/DARSOANE.3f55e457c7.jpg","pilot/DARX":"assets/pilots/DARX.4434a58e68.jpg","pilot/DELKO":"assets/pilots/DELKO.5d1e306ef5.jpg","pilot/DELLALIA":"assets/pilots/DELLALIA.1672cffe6e.jpg","pilot/DELLIAR":"assets/pilots/DELLIAR.e5a0375180.jpg","pilot/DELLOANE":"assets/pilots/DELLOANE.73d7910dea.jpg","pilot/DELLORIN":"assets/pilots/DELLORIN.408027cb25.jpg","pilot/DELMADEK":"assets/pilots/DELMADEK.3a826e35b1.jpg","pilot/DELNURI":"assets/pilots/DELNURI.3db0ec910b.jpg","pilot/DELSOKO":"assets/pilots/DELSOKO.e4c15c3589.jpg","pilot/DOE":"assets/pilots/DOE.f54ac28b36.jpg","pilot/DOZER":"assets/pilots/DOZER.0c2e273a78.jpg","pilot/ECHO":"assets/pilots/ECHO.09a66c8cd4.jpg","pilot/EMAO":"assets/pilots/EMAO.d8fb6d5e8b.jpg","pilot/ENSIGN":"assets/pilots/ENSIGN.dc51eec735.jpg","pilot/FENKORA":"assets/pilots/FENKORA.725f42bbe3.jpg","pilot/FENLALIA":"assets/pilots/FENLALIA.c2507593a2.jpg","pilot/FENRA":"assets/pilots/FENRA.11faa43159.jpg","pilot/FENX":"assets/pilots/FENX.7305adac5b.jpg","pilot/FIEST":"assets/pilots/FIEST.ca4f6072bf.jpg","pilot/FLUME":"assets/pilots/FLUME.99e34640fa.jpg","pilot/FLUX":"assets/pilots/FLUX.53b20c2d11.jpg","pilot/GALBEMO":"assets/pilots/GALBEMO.f3284426f7.jpg","pilot/GALLEON":"assets/pilots/GALLEON.4007ec2ba5.jpg","pilot/GALLITH":"assets/pilots/GALLITH.5231762b0e.jpg","pilot/GALMAO":"assets/pilots/GALMAO.52299a1823.jpg","pilot/GALSOLY":"assets/pilots/GALSOLY.fa08182309.jpg","pilot/GALSOOLA":"assets/pilots/GALSOOLA.4c636b23c0.jpg","pilot/HABEAR":"assets/pilots/HABEAR.c1432e4446.jpg","pilot/HAN":"assets/pilots/HAN.1836d0f7c3.jpg","pilot/HORNET":"assets/pilots/HORNET.c42014a776.jpg","pilot/IDIO":"assets/pilots/IDIO.cdde754cbb.jpg","pilot/ILORIN":"assets/pilots/ILORIN.b99e2531b1.jpg","pilot/IRI":"assets/pilots/IRI.37eadaad4b.jpg","pilot/ISOLO":"assets/pilots/ISOLO.2fb9735223.jpg","pilot/ITHAX":"assets/pilots/ITHAX.0ead69e72c.jpg","pilot/IVY":"assets/pilots/IVY.473c6f1896.jpg","pilot/JODIOLA":"assets/pilots/JODIOLA.1f05357781.jpg","pilot/JORIRO":"assets/pilots/JORIRO.58e95a465f.jpg","pilot/JORO":"assets/pilots/JORO.c85885531a.jpg","pilot/JOSORA":"assets/pilots/JOSORA.1cebcfd064.jpg","pilot/JOTHAAR":"assets/pilots/JOTHAAR.b0ce1e8cfd.jpg","pilot/JOUS":"assets/pilots/JOUS.1441533e13.jpg","pilot/JUGGER":"assets/pilots/JUGGER.586ce53079.jpg","pilot/KABEN":"assets/pilots/KABEN.11aeb58071.jpg","pilot/KADIWEN":"assets/pilots/KADIWEN.b7c104428c.jpg","pilot/KALARA":"assets/pilots/KALARA.dcf1fb3cb3.jpg","pilot/KAMASH":"assets/pilots/KAMASH.3f121ebad5.jpg","pilot/KARIIX":"assets/pilots/KARIIX.26a2fc2eb5.jpg","pilot/KASH":"assets/pilots/KASH.e0ac12c2b3.jpg","pilot/KRUSH":"assets/pilots/KRUSH.334b99716e.jpg","pilot/LONGSHIFT":"assets/pilots/LONGSHIFT.ddbb54691b.jpg","pilot/LUDIRA":"assets/pilots/LUDIRA.650f72fc2c.jpg","pilot/LULAANE":"assets/pilots/LULAANE.b4607cb3ba.jpg","pilot/LULIIA":"assets/pilots/LULIIA.faec6f17f0.jpg","pilot/LUNULO":"assets/pilots/LUNULO.c34b9c91ea.jpg","pilot/MAESTRO":"assets/pilots/MAESTRO.a123e74967.jpg","pilot/MAIX":"assets/pilots/MAIX.4b2949e043.jpg","pilot/MAKOOLA":"assets/pilots/MAKOOLA.d012951ffc.jpg","pilot/MALIMO":"assets/pilots/MALIMO.46cca662aa.jpg","pilot/MALOANE":"assets/pilots/MALOANE.fb0febbb8f.jpg","pilot/MAMAOLA":"assets/pilots/MAMAOLA.fd43dae51a.jpg","pilot/MAMO":"assets/pilots/MAMO.e7c7558b96.jpg","pilot/MANGER":"assets/pilots/MANGER.a0cc5e1ece.jpg","pilot/MASON":"assets/pilots/MASON.bb77e506ba.jpg","pilot/MATA":"assets/pilots/MATA.df79b0b771.jpg","pilot/MIBEN":"assets/pilots/MIBEN.ee2acc08ee.jpg","pilot/MILAWEN":"assets/pilots/MILAWEN.3fc4c98f63.jpg","pilot/MILOLY":"assets/pilots/MILOLY.7672bea8a5.jpg","pilot/MIRAVE":"assets/pilots/MIRAVE.860273dbe5.jpg","pilot/MIRIN":"assets/pilots/MIRIN.02fa308242.jpg","pilot/MIRIOLA":"assets/pilots/MIRIOLA.9f4cc46468.jpg","pilot/MIRISA":"assets/pilots/MIRISA.b07a8d02e5.jpg","pilot/MISISH":"assets/pilots/MISISH.14775cdde4.jpg","pilot/NEEDLE":"assets/pilots/NEEDLE.5c9752c43d.jpg","pilot/NEKOANE":"assets/pilots/NEKOANE.12595b28fc.jpg","pilot/NELASA":"assets/pilots/NELASA.9067cbecd6.jpg","pilot/NELOEL":"assets/pilots/NELOEL.bfd6c80df6.jpg","pilot/NEMAIX":"assets/pilots/NEMAIX.ba3482a3d6.jpg","pilot/NEMAMO":"assets/pilots/NEMAMO.99e0c5eb4e.jpg","pilot/NEMATH":"assets/pilots/NEMATH.35c2ca859f.jpg","pilot/NENUVE":"assets/pilots/NENUVE.94f14ed8e5.jpg","pilot/NENUX":"assets/pilots/NENUX.f1d1bb0fe0.jpg","pilot/NETHAEL":"assets/pilots/NETHAEL.be820038e5.jpg","pilot/OLIA":"assets/pilots/OLIA.da6136c8fe.jpg","pilot/OLO":"assets/pilots/OLO.9b6a4ab50b.jpg","pilot/OLOEL":"assets/pilots/OLOEL.69aed7c06d.jpg","pilot/OLONE":"assets/pilots/OLONE.4af0e1679c.jpg","pilot/OMAKO":"assets/pilots/OMAKO.ff8f9475a0.jpg","pilot/OMIX":"assets/pilots/OMIX.7e4cce2f55.jpg","pilot/OPAL":"assets/pilots/OPAL.f4ce50ebbd.jpg","pilot/ORA":"assets/pilots/ORA.4c9ef87a50.jpg","pilot/OTH":"assets/pilots/OTH.c00d404eac.jpg","pilot/OVEX":"assets/pilots/OVEX.0e23891b01.jpg","pilot/PEDIRI":"assets/pilots/PEDIRI.ff60b065ac.jpg","pilot/PEKOAR":"assets/pilots/PEKOAR.90011b2608.jpg","pilot/PELOWEN":"assets/pilots/PELOWEN.3961de0010.jpg","pilot/PEMIIX":"assets/pilots/PEMIIX.6e5f68277a.jpg","pilot/PENDO":"assets/pilots/PENDO.3a9665e717.jpg","pilot/PENOOLA":"assets/pilots/PENOOLA.2240a3f002.jpg","pilot/PERENSA":"assets/pilots/PERENSA.c2f79395b5.jpg","pilot/PEVETH":"assets/pilots/PEVETH.a7262bbee0.jpg","pilot/PEWEN":"assets/pilots/PEWEN.724de93a6c.jpg","pilot/QUIBEMO":"assets/pilots/QUIBEMO.cf223775f3.jpg","pilot/QUIKOTH":"assets/pilots/QUIKOTH.5b32c6fee0.jpg","pilot/QUILOX":"assets/pilots/QUILOX.74ddb1971a.jpg","pilot/RAMPART":"assets/pilots/RAMPART.d688721f54.jpg","pilot/REAPER":"assets/pilots/REAPER.fcf80ec2b0.jpg","pilot/RIPTIDE":"assets/pilots/RIPTIDE.4a3167f030.jpg","pilot/RODIIX":"assets/pilots/RODIIX.86e905da55.jpg","pilot/ROLAMO":"assets/pilots/ROLAMO.2eb683e84d.jpg","pilot/ROLODEK":"assets/pilots/ROLODEK.722a593429.jpg","pilot/ROSIRIN":"assets/pilots/ROSIRIN.d29bee21d7.jpg","pilot/ROSONDO":"assets/pilots/ROSONDO.66d75c34bc.jpg","pilot/SABERO":"assets/pilots/SABERO.1c5a6df9ce.jpg","pilot/SAMAIA":"assets/pilots/SAMAIA.2c22477f3f.jpg","pilot/SANUIA":"assets/pilots/SANUIA.57d607dc33.jpg","pilot/SARAX":"assets/pilots/SARAX.0b9ca8d036.jpg","pilot/SASOKO":"assets/pilots/SASOKO.78f94f903d.jpg","pilot/SATHAANE":"assets/pilots/SATHAANE.8061cd8012.jpg","pilot/SCALES":"assets/pilots/SCALES.87715f6be5.jpg","pilot/SHRAPNEL":"assets/pilots/SHRAPNEL.60bf432658.jpg","pilot/SIPHON":"assets/pilots/SIPHON.64319ecec6.jpg","pilot/SLINGSHOT":"assets/pilots/SLINGSHOT.782ce6f557.jpg","pilot/SPARE01":"assets/pilots/SPARE01.e7bb1001da.jpg","pilot/SPARE02":"assets/pilots/SPARE02.4661694d58.jpg","pilot/SPARE03":"assets/pilots/SPARE03.157488b8ca.jpg","pilot/SPARE04":"assets/pilots/SPARE04.8cee2a69f6.jpg","pilot/SPARE05":"assets/pilots/SPARE05.7b664e7e50.jpg","pilot/SPARE06":"assets/pilots/SPARE06.6784507633.jpg","pilot/SPARE07":"assets/pilots/SPARE07.b83ac8694b.jpg","pilot/SPARE08":"assets/pilots/SPARE08.0f29c38886.jpg","pilot/STRIDER":"assets/pilots/STRIDER.1f777221cb.jpg","pilot/SUNDIAL":"assets/pilots/SUNDIAL.e301dbb8a1.jpg","pilot/TAKOANE":"assets/pilots/TAKOANE.f587bc8275.jpg","pilot/TAKOUS":"assets/pilots/TAKOUS.7e9c0c4788.jpg","pilot/TALOLO":"assets/pilots/TALOLO.f410317b58.jpg","pilot/TALON":"assets/pilots/TALON.98273b2e9a.jpg","pilot/TAMO":"assets/pilots/TAMO.b86f11dac8.jpg","pilot/TANUWEN":"assets/pilots/TANUWEN.fcc7bda948.jpg","pilot/TENACIOUS":"assets/pilots/TENACIOUS.c0e1c59b06.jpg","pilot/TENDER":"assets/pilots/TENDER.83a2dbd7da.jpg","pilot/TOMAHAWK":"assets/pilots/TOMAHAWK.9de0540c54.jpg","pilot/TRACE":"assets/pilots/TRACE.6c835c4aad.jpg","pilot/UIX":"assets/pilots/UIX.0fe225230f.jpg","pilot/ULIA":"assets/pilots/ULIA.4a68fe9c11.jpg","pilot/ULINE":"assets/pilots/ULINE.ae7d05e530.jpg","pilot/ULOTH":"assets/pilots/ULOTH.71d6f7c78c.jpg","pilot/URO":"assets/pilots/URO.d153fb9c2a.jpg","pilot/UTHAEL":"assets/pilots/UTHAEL.0a0b4d057c.jpg","pilot/VERAO":"assets/pilots/VERAO.f428fc465b.jpg","pilot/VEVEOLA":"assets/pilots/VEVEOLA.2cb64352bc.jpg","pilot/VOLT":"assets/pilots/VOLT.80a1160ef3.jpg","pilot/WINGMAN":"assets/pilots/WINGMAN.8d484a3eaa.jpg","pilot/WYNE":"assets/pilots/WYNE.efc33aaea6.jpg","pilot/WYSOOLA":"assets/pilots/WYSOOLA.8c6ed6c54f.jpg","pilot/WYVE":"assets/pilots/WYVE.2bb9ad32fe.jpg","pilot/XABEDEK":"assets/pilots/XABEDEK.eabb0f810c.jpg","pilot/XALAAI":"assets/pilots/XALAAI.36e79f1ad5.jpg","pilot/XATHALO":"assets/pilots/XATHALO.d23dd174f6.jpg","pilot/XATHATA":"assets/pilots/XATHATA.f204d7c75c.jpg","pilot/YOMILIA":"assets/pilots/YOMILIA.b03bd1a399.jpg","pilot/YON":"assets/pilots/YON.10cd6d706c.jpg","pilot/YONE":"assets/pilots/YONE.a4357d30ec.jpg","pilot/YONOEK":"assets/pilots/YONOEK.a5e16f1f7d.jpg","pilot/YOVE":"assets/pilots/YOVE.45a3fec698.jpg","pilot/YOX":"assets/pilots/YOX.8a9d3ef821.jpg","pilot/ZEBEEL":"assets/pilots/ZEBEEL.228eb5f947.jpg","pilot/ZERIOLA":"assets/pilots/ZERIOLA.a42ba833dd.jpg","pilot/ZESONDO":"assets/pilots/ZESONDO.56538e063c.jpg","pilot/ZETH":"assets/pilots/ZETH.7549b5d26e.jpg","pilot/ZODIAC":"assets/pilots/ZODIAC.935c77c2bc.jpg","scene/AANE":"assets/scenes/AANE.19ab7f1c48.webp","scene/ALOIX":"assets/scenes/ALOIX.aaede637bf.webp","scene/ANOTH":"assets/scenes/ANOTH.849e56e96b.webp","scene/ANUDEK":"assets/scenes/ANUDEK.c7fc3c6d91.webp","scene/ANVIL":"assets/scenes/ANVIL.2e925512a0.webp","scene/ARARA":"assets/scenes/ARARA.c712c541d4.webp","scene/ARILIA":"assets/scenes/ARILIA.38d174512a.webp","scene/ASTROFOIL":"assets/scenes/ASTROFOIL.442347f8d5.webp","scene/ATHARA":"assets/scenes/ATHARA.5a0dc94b6b.webp","scene/BANDIT":"assets/scenes/BANDIT.9d2d80e3a6.webp","scene/BELBERIN":"assets/scenes/BELBERIN.9dc892d85d.webp","scene/BELDIRI":"assets/scenes/BELDIRI.7d790fdb67.webp","scene/BELKO":"assets/scenes/BELKO.56e1f880d8.webp","scene/BELMIDEK":"assets/scenes/BELMIDEK.7b1da9d6b0.webp","scene/BELRENRO":"assets/scenes/BELRENRO.dc9ff56a3a.webp","scene/BELSIAR":"assets/scenes/BELSIAR.a8eaf9d88b.webp","scene/BELSOTH":"assets/scenes/BELSOTH.54a3be9405.webp","scene/BELTHALY":"assets/scenes/BELTHALY.fa15ba2be1.webp","scene/BELWEN":"assets/scenes/BELWEN.767a6c0025.webp","scene/BRILOLIA":"assets/scenes/BRILOLIA.c6e8d0fca0.webp","scene/BRIOLA":"assets/scenes/BRIOLA.60d0f0ecf5.webp","scene/BRIRAIX":"assets/scenes/BRIRAIX.a6e34af4ca.webp","scene/BRISH":"assets/scenes/BRISH.b7278bc17a.webp","scene/BRISILIA":"assets/scenes/BRISILIA.ed69a87a70.webp","scene/BUSHY":"assets/scenes/BUSHY.37f0cffc7e.webp","scene/CABEANE":"assets/scenes/CABEANE.ae36719e11.webp","scene/CAKOOLA":"assets/scenes/CAKOOLA.1e9758eb23.webp","scene/CALADEK":"assets/scenes/CALADEK.ede525d8fd.webp","scene/CALAOLA":"assets/scenes/CALAOLA.6ba5fcbd98.webp","scene/CALOSH":"assets/scenes/CALOSH.c23b3c6773.webp","scene/CANUAR":"assets/scenes/CANUAR.40963d2f4a.webp","scene/CARIEL":"assets/scenes/CARIEL.09df404ab3.webp","scene/CARIO":"assets/scenes/CARIO.37cd14ba51.webp","scene/CITADEL":"assets/scenes/CITADEL.0c830e6ac4.webp","scene/COMET":"assets/scenes/COMET.738dc2177c.webp","scene/CORANE":"assets/scenes/CORANE.581f169af1.webp","scene/CORBEEK":"assets/scenes/CORBEEK.0873c8c795.webp","scene/CORBEMO":"assets/scenes/CORBEMO.9845817e52.webp","scene/CORLILIA":"assets/scenes/CORLILIA.e40de856b8.webp","scene/CORN":"assets/scenes/CORN.fb1b40e6f8.webp","scene/CORNDO":"assets/scenes/CORNDO.6755bf5e75.webp","scene/CORRARIN":"assets/scenes/CORRARIN.bf468113ff.webp","scene/DAMSEL":"assets/scenes/DAMSEL.59812cfeda.webp","scene/DAREK":"assets/scenes/DAREK.7ed92a3ef9.webp","scene/DARSOANE":"assets/scenes/DARSOANE.4b79c3c341.webp","scene/DARX":"assets/scenes/DARX.ff23e4f983.webp","scene/DELKO":"assets/scenes/DELKO.e44a3ebb31.webp","scene/DELLALIA":"assets/scenes/DELLALIA.56350ea109.webp","scene/DELLIAR":"assets/scenes/DELLIAR.4bc6f8803d.webp","scene/DELLOANE":"assets/scenes/DELLOANE.25922c8374.webp","scene/DELLORIN":"assets/scenes/DELLORIN.2d3d679877.webp","scene/DELMADEK":"assets/scenes/DELMADEK.cf8021a033.webp","scene/DELNURI":"assets/scenes/DELNURI.b339d62834.webp","scene/DELSOKO":"assets/scenes/DELSOKO.9dbe840e12.webp","scene/DOE":"assets/scenes/DOE.743094a514.webp","scene/DOZER":"assets/scenes/DOZER.bac0ce0f02.webp","scene/ECHO":"assets/scenes/ECHO.51b039badf.webp","scene/EMAO":"assets/scenes/EMAO.ef58a4cac6.webp","scene/ENSIGN":"assets/scenes/ENSIGN.41d1bdb5e2.webp","scene/FENKORA":"assets/scenes/FENKORA.ca6f5e4882.webp","scene/FENLALIA":"assets/scenes/FENLALIA.baec7fbcfd.webp","scene/FENRA":"assets/scenes/FENRA.a47ec27e47.webp","scene/FENX":"assets/scenes/FENX.328d8fd42c.webp","scene/FIEST":"assets/scenes/FIEST.29ffa75d52.webp","scene/FLUME":"assets/scenes/FLUME.831e812850.webp","scene/FLUX":"assets/scenes/FLUX.784c434eca.webp","scene/GALBEMO":"assets/scenes/GALBEMO.2e81ec9091.webp","scene/GALLEON":"assets/scenes/GALLEON.b9dcec2de6.webp","scene/GALLITH":"assets/scenes/GALLITH.14fe31bedf.webp","scene/GALMAO":"assets/scenes/GALMAO.b04936aa04.webp","scene/GALSOLY":"assets/scenes/GALSOLY.4d8fb255fd.webp","scene/GALSOOLA":"assets/scenes/GALSOOLA.d6b6071caf.webp","scene/HABEAR":"assets/scenes/HABEAR.c3754c0a42.webp","scene/HAN":"assets/scenes/HAN.1bd1f99f64.webp","scene/HORNET":"assets/scenes/HORNET.f9f87eec8c.webp","scene/IDIO":"assets/scenes/IDIO.bc2d1284c2.webp","scene/ILORIN":"assets/scenes/ILORIN.34002ec122.webp","scene/IRI":"assets/scenes/IRI.a76c37a550.webp","scene/ISOLO":"assets/scenes/ISOLO.b910f79333.webp","scene/ITHAX":"assets/scenes/ITHAX.28a03e245a.webp","scene/IVY":"assets/scenes/IVY.2253d01f62.webp","scene/JODIOLA":"assets/scenes/JODIOLA.0a429f4a78.webp","scene/JORIRO":"assets/scenes/JORIRO.d10f1e899a.webp","scene/JORO":"assets/scenes/JORO.dc03642cf9.webp","scene/JOSORA":"assets/scenes/JOSORA.32e3d61908.webp","scene/JOTHAAR":"assets/scenes/JOTHAAR.9ea6f9b85b.webp","scene/JOUS":"assets/scenes/JOUS.1d6c9420f6.webp","scene/JUGGER":"assets/scenes/JUGGER.d3181c4ef2.webp","scene/KABEN":"assets/scenes/KABEN.8de422d186.webp","scene/KADIWEN":"assets/scenes/KADIWEN.6c415c4ef9.webp","scene/KALARA":"assets/scenes/KALARA.e99f7c696f.webp","scene/KAMASH":"assets/scenes/KAMASH.116ea9f1e1.webp","scene/KARIIX":"assets/scenes/KARIIX.23268b67f5.webp","scene/KASH":"assets/scenes/KASH.76634040ff.webp","scene/KRUSH":"assets/scenes/KRUSH.fc3cd954e8.webp","scene/LONGSHIFT":"assets/scenes/LONGSHIFT.f9e1adaeff.webp","scene/LUDIRA":"assets/scenes/LUDIRA.ec7816d32b.webp","scene/LULAANE":"assets/scenes/LULAANE.51ebe15152.webp","scene/LULIIA":"assets/scenes/LULIIA.9077a35410.webp","scene/LUNULO":"assets/scenes/LUNULO.d1e62aa922.webp","scene/MAESTRO":"assets/scenes/MAESTRO.eca4b31129.webp","scene/MAIX":"assets/scenes/MAIX.78642e32c3.webp","scene/MAKOOLA":"assets/scenes/MAKOOLA.7c7e42d0be.webp","scene/MALIMO":"assets/scenes/MALIMO.c9a29152c0.webp","scene/MALOANE":"assets/scenes/MALOANE.de5471baf6.webp","scene/MAMAOLA":"assets/scenes/MAMAOLA.4dc26ed1a2.webp","scene/MAMO":"assets/scenes/MAMO.b283bab210.webp","scene/MANGER":"assets/scenes/MANGER.0468cebff3.webp","scene/MASON":"assets/scenes/MASON.75cea94d65.webp","scene/MATA":"assets/scenes/MATA.49f9953920.webp","scene/MIBEN":"assets/scenes/MIBEN.15388d4ad6.webp","scene/MILAWEN":"assets/scenes/MILAWEN.4c32be2cad.webp","scene/MILOLY":"assets/scenes/MILOLY.87efbbe09b.webp","scene/MIRAVE":"assets/scenes/MIRAVE.79e2dbd2bd.webp","scene/MIRIN":"assets/scenes/MIRIN.f5b4dfb3f6.webp","scene/MIRIOLA":"assets/scenes/MIRIOLA.2059a5711b.webp","scene/MIRISA":"assets/scenes/MIRISA.ddcf6f697d.webp","scene/MISISH":"assets/scenes/MISISH.911a8a377c.webp","scene/NEEDLE":"assets/scenes/NEEDLE.3dbf5b9812.webp","scene/NEKOANE":"assets/scenes/NEKOANE.d18e5cb9fc.webp","scene/NELASA":"assets/scenes/NELASA.3e445596c5.webp","scene/NELOEL":"assets/scenes/NELOEL.1ade9e4fc8.webp","scene/NEMAIX":"assets/scenes/NEMAIX.18184f34ef.webp","scene/NEMAMO":"assets/scenes/NEMAMO.5a05761c3b.webp","scene/NEMATH":"assets/scenes/NEMATH.b5b90d5a72.webp","scene/NENUVE":"assets/scenes/NENUVE.ae2897a48c.webp","scene/NENUX":"assets/scenes/NENUX.9e6f103485.webp","scene/NETHAEL":"assets/scenes/NETHAEL.114b9e3744.webp","scene/OLIA":"assets/scenes/OLIA.ee5b2e13e0.webp","scene/OLO":"assets/scenes/OLO.35b9f3df87.webp","scene/OLOEL":"assets/scenes/OLOEL.da6296c23d.webp","scene/OLONE":"assets/scenes/OLONE.2ac1694841.webp","scene/OMAKO":"assets/scenes/OMAKO.67ed22a958.webp","scene/OMIX":"assets/scenes/OMIX.50f67bdc07.webp","scene/OPAL":"assets/scenes/OPAL.3daa48ed44.webp","scene/ORA":"assets/scenes/ORA.3070108394.webp","scene/OTH":"assets/scenes/OTH.f5503d3437.webp","scene/OVEX":"assets/scenes/OVEX.a68728232f.webp","scene/PEDIRI":"assets/scenes/PEDIRI.826555c6d7.webp","scene/PEKOAR":"assets/scenes/PEKOAR.3ebc194bfd.webp","scene/PELOWEN":"assets/scenes/PELOWEN.b93e1feb77.webp","scene/PEMIIX":"assets/scenes/PEMIIX.4db83bf174.webp","scene/PENDO":"assets/scenes/PENDO.b016a66667.webp","scene/PENOOLA":"assets/scenes/PENOOLA.b65f3b48ac.webp","scene/PERENSA":"assets/scenes/PERENSA.b312ab0ac6.webp","scene/PEVETH":"assets/scenes/PEVETH.8d93ba651e.webp","scene/PEWEN":"assets/scenes/PEWEN.44fafcbc17.webp","scene/QUIBEMO":"assets/scenes/QUIBEMO.950538197c.webp","scene/QUIKOTH":"assets/scenes/QUIKOTH.a034cc225b.webp","scene/QUILOX":"assets/scenes/QUILOX.31b123f95c.webp","scene/RAMPART":"assets/scenes/RAMPART.c39804e525.webp","scene/REAPER":"assets/scenes/REAPER.d14c0aa60b.webp","scene/RIPTIDE":"assets/scenes/RIPTIDE.c9036541af.webp","scene/RODIIX":"assets/scenes/RODIIX.3d188ea9a0.webp","scene/ROLAMO":"assets/scenes/ROLAMO.107fd45e3c.webp","scene/ROLODEK":"assets/scenes/ROLODEK.968ef4eb57.webp","scene/ROSIRIN":"assets/scenes/ROSIRIN.6ecfbed451.webp","scene/ROSONDO":"assets/scenes/ROSONDO.3a73615b2d.webp","scene/SABERO":"assets/scenes/SABERO.8d0ce150ea.webp","scene/SAMAIA":"assets/scenes/SAMAIA.0643b1c910.webp","scene/SANUIA":"assets/scenes/SANUIA.42e5aa4e28.webp","scene/SARAX":"assets/scenes/SARAX.2e7e752e4b.webp","scene/SASOKO":"assets/scenes/SASOKO.864a2df87d.webp","scene/SATHAANE":"assets/scenes/SATHAANE.60583be976.webp","scene/SCALES":"assets/scenes/SCALES.0548e15be5.webp","scene/SHRAPNEL":"assets/scenes/SHRAPNEL.53eb5e756e.webp","scene/SIPHON":"assets/scenes/SIPHON.f8a26b6185.webp","scene/SLINGSHOT":"assets/scenes/SLINGSHOT.93d04d1ef7.webp","scene/SPARE01":"assets/scenes/SPARE01.b8c82ffc82.webp","scene/SPARE02":"assets/scenes/SPARE02.7cebea6d1d.webp","scene/SPARE03":"assets/scenes/SPARE03.d420985727.webp","scene/SPARE04":"assets/scenes/SPARE04.23fb0f067d.webp","scene/SPARE05":"assets/scenes/SPARE05.ac53bf8c68.webp","scene/SPARE06":"assets/scenes/SPARE06.a8814e5a25.webp","scene/SPARE07":"assets/scenes/SPARE07.3f7285ebad.webp","scene/SPARE08":"assets/scenes/SPARE08.2f72e653db.webp","scene/STRIDER":"assets/scenes/STRIDER.a0fccff34e.webp","scene/SUNDIAL":"assets/scenes/SUNDIAL.74ce284aa1.webp","scene/TAKOANE":"assets/scenes/TAKOANE.50b7909e7a.webp","scene/TAKOUS":"assets/scenes/TAKOUS.4423f66569.webp","scene/TALOLO":"assets/scenes/TALOLO.a0dc4ff99f.webp","scene/TALON":"assets/scenes/TALON.9ddf0dab5d.webp","scene/TAMO":"assets/scenes/TAMO.dc1c243760.webp","scene/TANUWEN":"assets/scenes/TANUWEN.ff811edd1c.webp","scene/TENACIOUS":"assets/scenes/TENACIOUS.3d447a26ac.webp","scene/TENDER":"assets/scenes/TENDER.e5b9cad127.webp","scene/TOMAHAWK":"assets/scenes/TOMAHAWK.66f74d0f4c.webp","scene/TRACE":"assets/scenes/TRACE.acccb15093.webp","scene/UIX":"assets/scenes/UIX.c67a2f0b9c.webp","scene/ULIA":"assets/scenes/ULIA.32294a4cda.webp","scene/ULINE":"assets/scenes/ULINE.ae6d70adb2.webp","scene/ULOTH":"assets/scenes/ULOTH.0c5c64445e.webp","scene/URO":"assets/scenes/URO.153e388940.webp","scene/UTHAEL":"assets/scenes/UTHAEL.a7c79f3ad8.webp","scene/VERAO":"assets/scenes/VERAO.c941b75d70.webp","scene/VEVEOLA":"assets/scenes/VEVEOLA.b6fc585b22.webp","scene/VOLT":"assets/scenes/VOLT.6bc64f10d3.webp","scene/WINGMAN":"assets/scenes/WINGMAN.113acd08b6.webp","scene/WYNE":"assets/scenes/WYNE.0ba11f9e6d.webp","scene/WYSOOLA":"assets/scenes/WYSOOLA.2bbeb36c29.webp","scene/WYVE":"assets/scenes/WYVE.e46330e1cc.webp","scene/XABEDEK":"assets/scenes/XABEDEK.b958807c03.webp","scene/XALAAI":"assets/scenes/XALAAI.c0c25fa102.webp","scene/XATHALO":"assets/scenes/XATHALO.b060046450.webp","scene/XATHATA":"assets/scenes/XATHATA.8e3b0348a0.webp","scene/YOMILIA":"assets/scenes/YOMILIA.172a4b32ca.webp","scene/YON":"assets/scenes/YON.96a08a3e46.webp","scene/YONE":"assets/scenes/YONE.dafec6cd55.webp","scene/YONOEK":"assets/scenes/YONOEK.913e824f05.webp","scene/YOVE":"assets/scenes/YOVE.1099c24040.webp","scene/YOX":"assets/scenes/YOX.a22bebea1c.webp","scene/ZEBEEL":"assets/scenes/ZEBEEL.81939caf01.webp","scene/ZERIOLA":"assets/scenes/ZERIOLA.01e889f7d1.webp","scene/ZESONDO":"assets/scenes/ZESONDO.3899ccfed5.webp","scene/ZETH":"assets/scenes/ZETH.446cb00c81.webp","scene/ZODIAC":"assets/scenes/ZODIAC.cf92a6f4c3.webp","portrait/sheet-1":"assets/portraits/sheet-1.044e47199d.webp","portrait/sheet-2":"assets/portraits/sheet-2.a0a86a6b7e.webp","portrait/sheet-3":"assets/portraits/sheet-3.c17b5b3caa.webp","portrait/sheet-4":"assets/portraits/sheet-4.3cc95a8dc5.webp","portrait/sheet-5":"assets/portraits/sheet-5.a07207cfc3.webp","portrait/sheet-6":"assets/portraits/sheet-6.7534142ada.webp","ability-art/sheet-001":"assets/ability-art/sheet-001.2ec4703618.webp","ability-art/sheet-002":"assets/ability-art/sheet-002.ab85ca0c29.webp","ability-art/sheet-003":"assets/ability-art/sheet-003.cc5fe9ae14.webp","ability-art/sheet-004":"assets/ability-art/sheet-004.33c57e94d9.webp","ability-art/sheet-005":"assets/ability-art/sheet-005.08ccfb8c12.webp","ability-art/sheet-006":"assets/ability-art/sheet-006.09736c24b3.webp","ability-art/sheet-007":"assets/ability-art/sheet-007.1a34aaaa74.webp","ability-art/sheet-008":"assets/ability-art/sheet-008.817e3fc1cb.webp","ability-art/sheet-009":"assets/ability-art/sheet-009.2762c46df3.webp","ability-art/sheet-010":"assets/ability-art/sheet-010.9ead9e0640.webp","ability-art/sheet-011":"assets/ability-art/sheet-011.48943648d1.webp","ability-art/sheet-012":"assets/ability-art/sheet-012.a8af122197.webp","ability-art/sheet-013":"assets/ability-art/sheet-013.c654e54954.webp","ability-art/sheet-014":"assets/ability-art/sheet-014.752198be26.webp","ability-art/sheet-015":"assets/ability-art/sheet-015.76ffffb133.webp","ability-art/sheet-016":"assets/ability-art/sheet-016.ee9e279158.webp","ability-art/sheet-017":"assets/ability-art/sheet-017.d33e22612c.webp","ability-art/sheet-018":"assets/ability-art/sheet-018.200b29650d.webp","ability-art/sheet-019":"assets/ability-art/sheet-019.6c7c4b5457.webp","ability-art/sheet-020":"assets/ability-art/sheet-020.3976e49bbc.webp","ability-art/sheet-021":"assets/ability-art/sheet-021.00d89ab101.webp","ability-art/sheet-022":"assets/ability-art/sheet-022.cc54e973b7.webp","ability-art/sheet-023":"assets/ability-art/sheet-023.1eb73a36c9.webp","ability-art/sheet-024":"assets/ability-art/sheet-024.64c7560bd5.webp","ability-art/sheet-025":"assets/ability-art/sheet-025.33f41b05ff.webp","ability-art/sheet-026":"assets/ability-art/sheet-026.e8f968001a.webp","ability-art/sheet-027":"assets/ability-art/sheet-027.e04c3e4498.webp","ability-art/sheet-028":"assets/ability-art/sheet-028.2474e58284.webp","ability-art/sheet-029":"assets/ability-art/sheet-029.a82c94b965.webp","ability-art/sheet-030":"assets/ability-art/sheet-030.0d37643fab.webp","ability-art/sheet-031":"assets/ability-art/sheet-031.3dcc47848f.webp","ability-art/sheet-032":"assets/ability-art/sheet-032.2a99a7754c.webp","ability-art/sheet-033":"assets/ability-art/sheet-033.8ad0a26d7b.webp","ability-art/sheet-034":"assets/ability-art/sheet-034.0b30c196fb.webp","ability-art/sheet-035":"assets/ability-art/sheet-035.2bfef61172.webp","ability-art/sheet-036":"assets/ability-art/sheet-036.6ed390a961.webp","ability-art/sheet-037":"assets/ability-art/sheet-037.3b833b29f6.webp","ability-art/sheet-038":"assets/ability-art/sheet-038.503980778d.webp","ability-art/sheet-039":"assets/ability-art/sheet-039.eb7e6d234d.webp","ability-art/sheet-040":"assets/ability-art/sheet-040.c55d9339d5.webp","ability-art/sheet-041":"assets/ability-art/sheet-041.2e724301d1.webp","ability-art/sheet-042":"assets/ability-art/sheet-042.ed47514015.webp","ability-art/sheet-043":"assets/ability-art/sheet-043.68b9e2ddb6.webp","ability-art/sheet-044":"assets/ability-art/sheet-044.d82e8bb731.webp","ability-art/sheet-045":"assets/ability-art/sheet-045.2bf03bfe56.webp","ability-art/sheet-046":"assets/ability-art/sheet-046.02081221da.webp","ability-art/sheet-047":"assets/ability-art/sheet-047.a92bfd17bd.webp","ability-art/sheet-048":"assets/ability-art/sheet-048.0871ec3b13.webp","ability-art/sheet-049":"assets/ability-art/sheet-049.3ec4537326.webp","ability-art/sheet-050":"assets/ability-art/sheet-050.b872ba2524.webp","ability-art/sheet-051":"assets/ability-art/sheet-051.83b5c11397.webp","ability-art/sheet-052":"assets/ability-art/sheet-052.af5e18d1c1.webp","ability-art/sheet-053":"assets/ability-art/sheet-053.c384179c46.webp","ability-art/sheet-054":"assets/ability-art/sheet-054.29b90622f2.webp","ability-art/sheet-055":"assets/ability-art/sheet-055.1253c94c87.webp","ability-art/sheet-056":"assets/ability-art/sheet-056.78647f29cd.webp","ability-art/sheet-057":"assets/ability-art/sheet-057.d9936bdd1d.webp","ability-art/sheet-058":"assets/ability-art/sheet-058.b4e6b94572.webp","ability-art/sheet-059":"assets/ability-art/sheet-059.47e7c209fe.webp","ability-art/sheet-060":"assets/ability-art/sheet-060.a0723852cb.webp","ability-art/sheet-061":"assets/ability-art/sheet-061.b7b0ed4035.webp","ability-art/sheet-062":"assets/ability-art/sheet-062.171f56935b.webp","ability-art/sheet-063":"assets/ability-art/sheet-063.65c31a32e2.webp","ability-art/sheet-064":"assets/ability-art/sheet-064.89f1045cd9.webp","ability-art/sheet-065":"assets/ability-art/sheet-065.8e0ee5b800.webp","ability-art/sheet-066":"assets/ability-art/sheet-066.3db3c55db7.webp","ability-art/sheet-067":"assets/ability-art/sheet-067.8263e83e8b.webp","ability-art/sheet-068":"assets/ability-art/sheet-068.f1bfb3900a.webp","ability-art/sheet-069":"assets/ability-art/sheet-069.30a2fe8110.webp","ability-art/sheet-070":"assets/ability-art/sheet-070.a9d9f53fb4.webp","ability-art/sheet-071":"assets/ability-art/sheet-071.deae7ee66b.webp","ability-art/sheet-072":"assets/ability-art/sheet-072.272031fd4c.webp","ability-art/sheet-073":"assets/ability-art/sheet-073.fbd59ab16d.webp","ability-art/sheet-074":"assets/ability-art/sheet-074.ae4a702b98.webp","ability-art/sheet-075":"assets/ability-art/sheet-075.8d44aa4759.webp","ability-art/sheet-076":"assets/ability-art/sheet-076.feeb5989d4.webp","ability-art/sheet-077":"assets/ability-art/sheet-077.948fb42d08.webp","ability-art/sheet-078":"assets/ability-art/sheet-078.c3d8b84f32.webp","ability-art/sheet-079":"assets/ability-art/sheet-079.c8afb3fe2f.webp","ability-art/sheet-080":"assets/ability-art/sheet-080.c1f316a007.webp","ability-art/sheet-081":"assets/ability-art/sheet-081.fdb920d335.webp","ability-art/sheet-082":"assets/ability-art/sheet-082.78052204fb.webp","ability-art/sheet-083":"assets/ability-art/sheet-083.3ebcd1dae4.webp","ability-art/sheet-084":"assets/ability-art/sheet-084.4c68f3d5e9.webp","ability-art/sheet-085":"assets/ability-art/sheet-085.ac6812cae0.webp","ability-art/sheet-086":"assets/ability-art/sheet-086.10240bda99.webp","ability-art/sheet-087":"assets/ability-art/sheet-087.e7cfb8a8b3.webp","ability-art/sheet-088":"assets/ability-art/sheet-088.913cbbc734.webp","ability-art/sheet-089":"assets/ability-art/sheet-089.093dcaec4e.webp","ability-art/sheet-090":"assets/ability-art/sheet-090.e9f171399b.webp","ability-art/sheet-091":"assets/ability-art/sheet-091.1b9427f4b8.webp","ability-art/sheet-092":"assets/ability-art/sheet-092.aac381f02d.webp","ability-art/sheet-093":"assets/ability-art/sheet-093.c02ee3301e.webp","ability-art/sheet-094":"assets/ability-art/sheet-094.4a296b0365.webp","ability-art/sheet-095":"assets/ability-art/sheet-095.2c2d7a1f59.webp","ability-art/sheet-096":"assets/ability-art/sheet-096.bc43773fc4.webp","ability-art/sheet-097":"assets/ability-art/sheet-097.41db3e1afb.webp","ability-art/sheet-098":"assets/ability-art/sheet-098.679f73681e.webp","ability-art/sheet-099":"assets/ability-art/sheet-099.6ffae29052.webp","ability-art/sheet-100":"assets/ability-art/sheet-100.9f30db4c1d.webp","ability-art/sheet-101":"assets/ability-art/sheet-101.b8121b6fe7.webp","ability-art/sheet-102":"assets/ability-art/sheet-102.50d8248f9a.webp","ability-art/sheet-103":"assets/ability-art/sheet-103.0899e3b53a.webp","ability-art/sheet-104":"assets/ability-art/sheet-104.e77a09a221.webp","ability-art/sheet-105":"assets/ability-art/sheet-105.7501ed9127.webp","ability-art/sheet-106":"assets/ability-art/sheet-106.6d63f6993b.webp","ability-art/sheet-107":"assets/ability-art/sheet-107.2448e11dc3.webp","ability-art/sheet-108":"assets/ability-art/sheet-108.a290c2249a.webp","ability-art/sheet-109":"assets/ability-art/sheet-109.ad147ce312.webp","ability-art/sheet-110":"assets/ability-art/sheet-110.1ebfadf7a6.webp","ability-art/sheet-111":"assets/ability-art/sheet-111.60c40f432c.webp","ability-art/sheet-112":"assets/ability-art/sheet-112.f3ccbd6f30.webp","ability-art/sheet-113":"assets/ability-art/sheet-113.080bdf0055.webp","ability-art/sheet-114":"assets/ability-art/sheet-114.08aa5da754.webp","ability-art/sheet-115":"assets/ability-art/sheet-115.63c2e2b979.webp","ability-art/sheet-116":"assets/ability-art/sheet-116.130006f485.webp","ability-art/sheet-117":"assets/ability-art/sheet-117.de1ceb9d0a.webp","ability-art/sheet-118":"assets/ability-art/sheet-118.5f67a2c695.webp","ability-art/sheet-119":"assets/ability-art/sheet-119.bfa62ca10c.webp","ability-art/sheet-120":"assets/ability-art/sheet-120.bd2260fbbf.webp","ability-art/sheet-121":"assets/ability-art/sheet-121.3be8980fcf.webp","foe-art/binder":"assets/foe-art/binder.ede8fa8436.webp","foe-art/biter":"assets/foe-art/biter.14648d0d95.webp","foe-art/brute":"assets/foe-art/brute.5df5f7a51b.webp","foe-art/bulwark":"assets/foe-art/bulwark.fff3481bdb.webp","foe-art/harrier":"assets/foe-art/harrier.3a6d1ead93.webp","foe-art/kiter":"assets/foe-art/kiter.8b1a6b792b.webp","foe-art/lurker":"assets/foe-art/lurker.8a31b45204.webp","foe-art/stinger":"assets/foe-art/stinger.2b20acffaf.webp","foe-art/tidecaller":"assets/foe-art/tidecaller.a370e0ab25.webp","foe-art/warden":"assets/foe-art/warden.1abcc51b46.webp"};
 window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3","sfx/ally-mass":"assets/audio/sfx/ally-mass.a42b7e9e48.mp3","sfx/ally-space":"assets/audio/sfx/ally-space.3adb6604b2.mp3","sfx/ally-time":"assets/audio/sfx/ally-time.dcaa4691cd.mp3","sfx/big-reward":"assets/audio/sfx/big-reward.5b427853d2.mp3","sfx/block-break":"assets/audio/sfx/block-break.5e8a571b28.mp3","sfx/boost":"assets/audio/sfx/boost.032b2b658a.mp3","sfx/bump":"assets/audio/sfx/bump.a302970354.mp3","sfx/click":"assets/audio/sfx/click.62964b4526.mp3","sfx/close":"assets/audio/sfx/close.f0c5aee0d4.mp3","sfx/comeback-charge":"assets/audio/sfx/comeback-charge.7a33d514ac.mp3","sfx/comeback-mass":"assets/audio/sfx/comeback-mass.78b1590812.mp3","sfx/comeback-space":"assets/audio/sfx/comeback-space.152a325a92.mp3","sfx/comeback-time":"assets/audio/sfx/comeback-time.bc1f7be2e3.mp3","sfx/confirm":"assets/audio/sfx/confirm.e4de9811a7.mp3","sfx/creature-hit":"assets/audio/sfx/creature-hit.03d7a219c9.mp3","sfx/crystal":"assets/audio/sfx/crystal.a1b7e57321.mp3","sfx/denied":"assets/audio/sfx/denied.04957755ac.mp3","sfx/drift-release":"assets/audio/sfx/drift-release.e738945c65.mp3","sfx/energy":"assets/audio/sfx/energy.934817b223.mp3","sfx/explosion":"assets/audio/sfx/explosion.3050127e5a.mp3","sfx/game-over":"assets/audio/sfx/game-over.702ea21020.mp3","sfx/goal":"assets/audio/sfx/goal.cfe75da49b.mp3","sfx/hover":"assets/audio/sfx/hover.ccadb0cfe6.mp3","sfx/impact":"assets/audio/sfx/impact.fe37fd06b0.mp3","sfx/joust-charge":"assets/audio/sfx/joust-charge.87f06324dc.mp3","sfx/joust-mass":"assets/audio/sfx/joust-mass.6224b3cb46.mp3","sfx/joust-space":"assets/audio/sfx/joust-space.f3c0a48ee9.mp3","sfx/joust-time":"assets/audio/sfx/joust-time.bb4491648e.mp3","sfx/kill-1":"assets/audio/sfx/kill-1.b66e724a8c.mp3","sfx/kill-2":"assets/audio/sfx/kill-2.ab0d89d7b1.mp3","sfx/kill-3":"assets/audio/sfx/kill-3.502d04263f.mp3","sfx/kill-4":"assets/audio/sfx/kill-4.9ea4c9bd63.mp3","sfx/kill-5":"assets/audio/sfx/kill-5.1dcb41de1d.mp3","sfx/kill-6":"assets/audio/sfx/kill-6.e4d67b43e1.mp3","sfx/laser":"assets/audio/sfx/laser.51b7a7d958.mp3","sfx/lets-go":"assets/audio/sfx/lets-go.724c055e35.mp3","sfx/mine":"assets/audio/sfx/mine.895f98ef93.mp3","sfx/open":"assets/audio/sfx/open.3f77dc083f.mp3","sfx/redeem":"assets/audio/sfx/redeem.dc1d933feb.mp3","sfx/score":"assets/audio/sfx/score.f1a1cb678d.mp3","sfx/shield-down":"assets/audio/sfx/shield-down.fe30285159.mp3","sfx/shield-up":"assets/audio/sfx/shield-up.20446b8988.mp3","sfx/skim":"assets/audio/sfx/skim.278c4db469.mp3","sfx/small-reward":"assets/audio/sfx/small-reward.d4f5f59ac8.mp3","sfx/spawn":"assets/audio/sfx/spawn.3226f9dbb6.mp3","sfx/speed-burst":"assets/audio/sfx/speed-burst.fbba886883.mp3","sfx/switch-2":"assets/audio/sfx/switch-2.26b3b37ab0.mp3","sfx/switch":"assets/audio/sfx/switch.037e07875f.mp3","sfx/upgrade":"assets/audio/sfx/upgrade.5b427853d2.mp3","music/chill-time-3":"assets/audio/music/chill-time-3.eca02cddb7.mp3","music/cosmic-shore-2":"assets/audio/music/cosmic-shore-2.5734c1223d.mp3","music/cosmic-shore-3-loop":"assets/audio/music/cosmic-shore-3-loop.bb6b2dbb29.mp3","music/cosmic-shore-3":"assets/audio/music/cosmic-shore-3.f3edad3958.mp3","music/disoriented":"assets/audio/music/disoriented.708257d7e5.mp3","music/end-game-outro":"assets/audio/music/end-game-outro.a4b43851e7.mp3","music/secret-hide-away":"assets/audio/music/secret-hide-away.42597bb658.mp3","music/severity":"assets/audio/music/severity.2952453c7a.mp3","music/sky-fire":"assets/audio/music/sky-fire.75c69b47e4.mp3","music/space-gliding":"assets/audio/music/space-gliding.87c150d42c.mp3","music/waited-so-long":"assets/audio/music/waited-so-long.5c0c2c9e3e.mp3"};
 
 /* ───── data/cards.js ───── */
@@ -1033,11 +1033,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   /* ───────────────────────── PRIMATES ─────────────────────────
      orangutan · ring-tailed lemur · mandrill. Each carries Human's Opposable Grip, and some of Human's other
      traits; Grooming is every primate's; Canopy Leap the climbers'; Troop Call the troop-livers'. */
-  S('orangutan', { name: 'Orangutan', lean: 'T/C', branch: 'Primates', icon: '🦧',
+  S('orangutan', { name: 'Orangutan', lean: 'T/C', icon: '🦧',
     tagline: 'Thoughtful canopy giant. Long arms, longer patience, clever hands.' });
-  S('lemur', { name: 'Ring-Tailed Lemur', lean: 'C/S', branch: 'Primates', icon: '🐒',
+  S('lemur', { name: 'Ring-Tailed Lemur', lean: 'C/S', icon: '🐒',
     tagline: 'Sun-lover and leaper. Fights with scent and with its troop.' });
-  S('mandrill', { name: 'Mandrill', lean: 'C/M', branch: 'Primates', icon: '🐒',
+  S('mandrill', { name: 'Mandrill', lean: 'C/M', icon: '🐒',
     tagline: 'Painted face, long fangs, the leader of a great troop.' });
   T.shareTrait('hum_grip', 'orangutan', 'lemur', 'mandrill');
   T.shareTrait('hum_tool', 'orangutan');
@@ -1178,15 +1178,15 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      Hyperspeed is the cheetah's alone: an exact run of four. */
   const CATS = ['lynx','caracal','ocelot','tiger','cheetah'];
   const CATS_CLAWED = ['lynx','caracal','ocelot','tiger'];
-  S('lynx', { name: 'Eurasian Lynx', lean: 'S/T', branch: 'Cats', icon: '🐈',
+  S('lynx', { name: 'Eurasian Lynx', lean: 'S/T', icon: '🐈',
     tagline: 'Snow-country ghost. Hears everything, leaves no track, strikes once.' });
-  S('caracal', { name: 'Caracal', lean: 'S/M', branch: 'Cats', icon: '🐈',
+  S('caracal', { name: 'Caracal', lean: 'S/M', icon: '🐈',
     tagline: 'Desert leaper. Swats birds out of the air from a standing jump.' });
-  S('ocelot', { name: 'Ocelot', lean: 'T/S', branch: 'Cats', icon: '🐆',
+  S('ocelot', { name: 'Ocelot', lean: 'T/S', icon: '🐆',
     tagline: 'Dappled night-walker of the forest floor and the branches over it.' });
-  S('tiger', { name: 'Tiger', lean: 'M/C', branch: 'Cats', icon: '🐅',
+  S('tiger', { name: 'Tiger', lean: 'M/C', icon: '🐅',
     tagline: 'The largest cat. Swims, stalks in stripes, and roars the field still.' });
-  S('cheetah', { name: 'Cheetah', lean: 'S/T', branch: 'Cats', icon: '🐆',
+  S('cheetah', { name: 'Cheetah', lean: 'S/T', icon: '🐆',
     tagline: 'The fastest runner alive. Claws like cleats, eyes for the long view.' });
 
   K(CATS,'cat_pounce','Pounce','M',0,
@@ -1228,7 +1228,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Finish', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+E},{v:'execute', threshold:(P,E)=>3+E}],
       txt:(P,E)=>`Melee ${2+E}; if that leaves it at ${3+E} HP or less, it falls (not a boss).` },
-    'One bite, in the one place.', 'Cats');
+    'One bite, in the one place.', 'Cat-like carnivores');
   K(CATS,'cat_feet','Land on Your Feet','S',0,
     { n:'Twist', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'shield', val:(P,E)=>1+h(P), next:true},{v:'hazardImmune', dur:1}],
@@ -1384,15 +1384,15 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      Yip Chorus and Opportunist. The hyena is a cat's cousin, not a dog's: it also carries Killing Bite. */
   const DOGS = ['fennec','fox','jackal','coyote'];
   const DOG_KIN = DOGS.concat('hyena');
-  S('fennec', { name: 'Fennec Fox', lean: 'S/T', branch: 'Dogs and hyenas', icon: '🦊',
+  S('fennec', { name: 'Fennec Fox', lean: 'S/T', icon: '🦊',
     tagline: 'Tiny desert fox with enormous ears. Hears prey under the sand.' });
-  S('fox', { name: 'Red Fox', lean: 'S/C', branch: 'Dogs and hyenas', icon: '🦊',
+  S('fox', { name: 'Red Fox', lean: 'S/C', icon: '🦊',
     tagline: 'Clever, adaptable, and always one step to the side of where you looked.' });
-  S('jackal', { name: 'Golden Jackal', lean: 'C/T', branch: 'Dogs and hyenas', icon: '🐕',
+  S('jackal', { name: 'Golden Jackal', lean: 'C/T', icon: '🐕',
     tagline: 'Hunts in pairs, takes every chance, and is never as lost as it looks.' });
-  S('coyote', { name: 'Coyote', lean: 'T/S', branch: 'Dogs and hyenas', icon: '🐺',
+  S('coyote', { name: 'Coyote', lean: 'T/S', icon: '🐺',
     tagline: 'The trickster. Lives anywhere, sounds like ten of itself.' });
-  S('hyena', { name: 'Spotted Hyena', lean: 'M/C', branch: 'Dogs and hyenas', alsoKin: ['Cats'], icon: '🐕',
+  S('hyena', { name: 'Spotted Hyena', lean: 'M/C', icon: '🐕',
     tagline: 'Bone-cracking jaws, a matriarch\'s clan, and a laugh that carries for miles.' });
   T.shareTrait('cat_bite', 'hyena');
 
@@ -1403,7 +1403,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Scent Lock', ap:1, el:1, cd:3, dur:0, tgt:'foe_any',
       fx:[{v:'reveal', target:true, dur:(P,E)=>2+E},{v:'mark', n:(P,E)=>E, dur:3}],
       txt:(P,E)=>`Lock onto a foe's scent: Revealed for ${2+E} rounds, and it is Marked +${E} for 3 rounds.` },
-    'A thousand smells, and the one that matters.', 'Dogs and hyenas');
+    'A thousand smells, and the one that matters.', 'Pack runners');
   K(DOG_KIN,'dog_howl','Pack Howl','C',0,
     { n:'Howl', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'weaken', val:1, dur:1, area:'adj'},{v:'empower', val:(P,E)=>1+h(P), uses:1, dur:2, target:'ally'}],
@@ -1411,7 +1411,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Chorus', ap:1, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'engine', kind:'ap', val:1, dur:(P,E)=>1+E, party:true},{v:'empower', val:1, uses:1, dur:2, party:true}],
       txt:(P,E)=>`For ${1+E} rounds all heroes gain 1 AP at the start of each turn; all heroes' next strike deals +1.` },
-    'Where we are, and how many.', 'Dogs and hyenas');
+    'Where we are, and how many.', 'Pack runners');
   K(DOG_KIN,'dog_trot','Long Trot','T',0,
     { n:'Trot', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
       fx:[{v:'move', n:(P,E)=>1+P}],
@@ -1419,7 +1419,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Relay', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
       fx:[{v:'move', n:2},{v:'haste', n:(P,E)=>1+E}],
       txt:(P,E)=>`Move 2; Haste: every card on your track returns ${1+E} columns sooner.` },
-    'Not fast. Just never stopping.', 'Dogs and hyenas');
+    'Not fast. Just never stopping.', 'Pack runners');
   K(DOGS,'dog_pin','Pin Down','M',0,
     { n:'Pin', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+P},{v:'anchor', who:'foe', dur:1}],
@@ -1427,7 +1427,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Hold Down', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>1+E},{v:'anchor', who:'foe', dur:(P,E)=>1+h(E)},{v:'weaken', val:1, dur:(P,E)=>1+h(E)}],
       txt:(P,E)=>`Melee ${1+E}; hold it down: Anchored and Weakened 1, for ${1+h(E)} ${1+h(E) > 1 ? 'rounds' : 'round'}.` },
-    'Paws on its back, all your weight behind them.', 'Dogs and hyenas');
+    'Paws on its back, all your weight behind them.', 'Dog family');
 
   // the two foxes
   K(['fennec','fox'],'fox_pounce','Mousing Pounce','M',0,
@@ -1616,11 +1616,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      badger's. The otter also uses tools (Human's Tool Use); the red panda has Human's Opposable Grip (a false
      thumb) and climbs down headfirst like the ocelot (Headfirst Descent). */
   const WEASEL = ['otter','badger','red_panda'];
-  S('otter', { name: 'Sea Otter', lean: 'C/M', branch: 'Weasel kin', icon: '🦦',
+  S('otter', { name: 'Sea Otter', lean: 'C/M', icon: '🦦',
     tagline: 'Floats on its back, cracks shells on a rock, holds hands while it sleeps.' });
-  S('badger', { name: 'Ratel', lean: 'M/T', branch: 'Weasel kin', icon: '🦡',
+  S('badger', { name: 'Ratel', lean: 'M/T', icon: '🦡',
     tagline: 'Loose skin, no fear, and a habit of eating things that sting.' });
-  S('red_panda', { name: 'Red Panda', lean: 'T/S', branch: 'Weasel kin', icon: '🐼',
+  S('red_panda', { name: 'Red Panda', lean: 'T/S', icon: '🐼',
     tagline: 'Treetop dweller in a thick red coat. Stands tall when it means it.' });
   T.shareTrait('hum_tool', 'otter');
   T.shareTrait('hum_grip', 'red_panda');
@@ -1788,11 +1788,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      walrus · orca · narwhal. All three carry Blubber and Breath Hold; the two whales Echolocation and
      Pod Song; the two tuskers Tusk. */
   const SEA = ['walrus','orca','narwhal'];
-  S('walrus', { name: 'Walrus', lean: 'M/T', branch: 'Sea mammals', icon: '🦭',
+  S('walrus', { name: 'Walrus', lean: 'M/T', icon: '🦭',
     tagline: 'A ton of whiskers, blubber and tusk. Loud, sociable, immovable.' });
-  S('orca', { name: 'Orca', lean: 'M/C', branch: 'Sea mammals', icon: '🐋',
+  S('orca', { name: 'Orca', lean: 'M/C', icon: '🐋',
     tagline: 'The ocean’s pack hunter. Clever, coordinated, and never alone.' });
-  S('narwhal', { name: 'Narwhal', lean: 'S/T', branch: 'Sea mammals', icon: '🐋',
+  S('narwhal', { name: 'Narwhal', lean: 'S/T', icon: '🐋',
     tagline: 'A pale whale of the ice, with a long spiral tusk that feels the water.' });
 
   K(SEA,'sea_blubber','Blubber','M',0,
@@ -1802,7 +1802,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Thick Layer', ap:1, el:1, cd:3, dur:0, tgt:'self',
       fx:[{v:'cleanse', ward:1},{v:'shield', val:(P,E)=>2+E, dur:2}],
       txt:(P,E)=>`Shield ${2+E} for 2 rounds, and Cleanse, and you can't be Weakened or Anchored by a foe this round.` },
-    'Warm inside, whatever the water.', 'Sea mammals');
+    'Warm inside, whatever the water.', 'Marine mammals');
   K(SEA,'sea_breath','Breath Hold','T',0,
     { n:'Hold', ap:1, el:0, cd:2, dur:0, tgt:'self',
       fx:[{v:'hazardImmune', dur:2},{v:'heal', n:(P,E)=>1+h(P)}],
@@ -1810,7 +1810,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Long Dive', ap:1, el:1, cd:4, dur:0, tgt:'self',
       fx:[{v:'hazardImmune', dur:(P,E)=>2+E},{v:'heal', n:(P,E)=>2+E},{v:'cleanse'}],
       txt:(P,E)=>`Ignore hazards for ${2+E} rounds, heal ${2+E}, and cleanse (Anchored, Weakened, Wounds).` },
-    'One breath, a long way down.', 'Sea mammals');
+    'One breath, a long way down.', 'Marine mammals');
   K(['orca','narwhal'],'sea_echo','Echolocation','S',0,
     { n:'Click', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'reveal', radius:(P,E)=>2+P, dur:1},{v:'empower', val:1, uses:1, dur:1}],
@@ -1818,7 +1818,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Sound the Deep', ap:1, el:1, cd:3, dur:0, tgt:'self',
       fx:[{v:'reveal', radius:(P,E)=>1+E, dur:2},{v:'mark', area:true, radius:(P,E)=>1+E}],
       txt:(P,E)=>`Reveal everything within ${1+E} for 2 rounds, and Mark every foe within ${1+E} (the next hit on each deals +2).` },
-    'The water answers in echoes.', 'Sea mammals');
+    'The water answers in echoes.', 'Whales');
   K(['orca','narwhal'],'sea_song','Pod Song','C',0,
     { n:'Call the Pod', ap:1, el:0, cd:1, dur:0, tgt:'party',
       fx:[{v:'empower', val:(P,E)=>1+h(P), uses:1, dur:2, party:true},{v:'heal', n:1, target:'ally'}],
@@ -1826,7 +1826,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Chorus', ap:0, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'engine', kind:'ap', val:1, dur:(P,E)=>1+E, party:true}],
       txt:(P,E)=>`All heroes gain 1 AP at the start of each turn for ${1+E} ${1+E > 1 ? 'rounds' : 'round'}.` },
-    'Every pod sings its own dialect.', 'Sea mammals');
+    'Every pod sings its own dialect.', 'Whales');
   K(['walrus','narwhal'],'sea_tusk','Tusk','M',0,
     { n:'Hook', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
       fx:[{v:'stripShield', amount:2},{v:'strike', kind:'melee', dmg:(P,E)=>2+P}],
@@ -1834,7 +1834,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Spear', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>4+E, pierce:true},{v:'force', kind:'push', n:1}],
       txt:(P,E)=>`Melee ${4+E} that ignores Shield, and push it 1.` },
-    'A tooth grown long enough to lean on.', 'Sea mammals');
+    'A tooth grown long enough to lean on.', 'Marine mammals');
 
   // Walrus: blubber, breath, tusk, and these six
   K(['walrus'],'wal_haul','Haul Out','S',0,
@@ -1967,19 +1967,19 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   const HOOVED = ['yak','bison','oryx','ram','moose','deer','zebra'];
   const HORNED = ['yak','bison','oryx','ram'];
   const ANTLERED = ['moose','deer'];
-  S('yak', { name: 'Yak', lean: 'T/M', branch: 'Hoofed animals', icon: '🐂',
+  S('yak', { name: 'Yak', lean: 'T/M', icon: '🐂',
     tagline: 'A shaggy load-carrier of the high cold, steady where the air runs thin.' });
-  S('bison', { name: 'Bison', lean: 'M/T', branch: 'Hoofed animals', icon: '🦬',
+  S('bison', { name: 'Bison', lean: 'M/T', icon: '🦬',
     tagline: 'A ton of shoulder and fur that faces the storm head-on.' });
-  S('oryx', { name: 'Oryx', lean: 'S/T', branch: 'Hoofed animals', icon: '🐐',
+  S('oryx', { name: 'Oryx', lean: 'S/T', icon: '🐐',
     tagline: 'A desert antelope with horns like rapiers and water saved for later.' });
-  S('ram', { name: 'Bighorn Ram', lean: 'M/S', branch: 'Hoofed animals', icon: '🐏',
+  S('ram', { name: 'Bighorn Ram', lean: 'M/S', icon: '🐏',
     tagline: 'Cliff-walker with curled horns and a skull built for collisions.' });
-  S('moose', { name: 'Moose', lean: 'M/C', branch: 'Hoofed animals', icon: '🫎',
+  S('moose', { name: 'Moose', lean: 'M/C', icon: '🫎',
     tagline: 'Tall, solitary and wading. Gentle until it very suddenly is not.' });
-  S('deer', { name: 'Deer', lean: 'S/C', branch: 'Hoofed animals', icon: '🦌',
+  S('deer', { name: 'Deer', lean: 'S/C', icon: '🦌',
     tagline: 'All ears and spring. Gone before you knew it had seen you.' });
-  S('zebra', { name: 'Zebra', lean: 'C/S', branch: 'Hoofed animals', icon: '🦓',
+  S('zebra', { name: 'Zebra', lean: 'C/S', icon: '🦓',
     tagline: 'A herd in stripes that bites, kicks and never stands alone.' });
 
   K(HOOVED,'hoof_hooves','Hooves','S',0,
@@ -1989,7 +1989,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Gallop', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
       fx:[{v:'move', n:(P,E)=>3+E, trample:1},{v:'hazardImmune', dur:1},{v:'empower', val:1, uses:1, dur:1}],
       txt:(P,E)=>`Move ${3+E}, trampling: each foe in your way is pushed 1 aside as you reach it. Ignore hazards this round, and your next hit this turn deals +1.` },
-    'Built for ground, and lots of it.', 'Hoofed animals');
+    'Built for ground, and lots of it.', 'Hoofed mammals and whales');
   K(HOOVED,'hoof_ring','Herd Ring','T',0,
     { n:'Close Ranks', ap:1, el:0, cd:1, dur:0, tgt:'party',
       fx:[{v:'shield', val:(P,E)=>2+h(P), dur:1, party:true, allyRange:1}],
@@ -1997,7 +1997,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Ring of Horns', ap:1, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'shield', val:(P,E)=>1+E, dur:1, party:true},{v:'thorns', val:(P,E)=>1+E, next:true, push:1, dur:1}],
       txt:(P,E)=>`All heroes hold Shield ${1+E} this round; Thorns: the next foe to hit you in melee takes ${1+E} and is pushed 1.` },
-    'Young in the middle, everyone else facing out.', 'Hoofed animals');
+    'Young in the middle, everyone else facing out.', 'Hoofed mammals and whales');
   K(HOOVED,'hoof_eyes','Wide Eyes','S',0,
     { n:'Look Around', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'reveal', radius:(P,E)=>2+P, dur:1},{v:'shield', val:(P,E)=>1+h(P), next:true},{v:'empower', val:1, uses:1, dur:1}],
@@ -2005,7 +2005,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Nothing Behind Me', ap:1, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'reveal', radius:(P,E)=>1+E, dur:1},{v:'shield', val:(P,E)=>1+E, next:true, party:true}],
       txt:(P,E)=>`Reveal everything within ${1+E} this round; Shield: the next hit on each hero is ${1+E} less.` },
-    'Eyes on the sides of the head: it sees almost all the way round.', 'Hoofed animals');
+    'Eyes on the sides of the head: it sees almost all the way round.', 'Hoofed mammals and whales');
   K(HOOVED,'hoof_kick','Kick','M',0,
     { n:'Back Kick', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+P},{v:'force', kind:'push', n:2}],
@@ -2013,7 +2013,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Double Barrel', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+E},{v:'force', kind:'push', n:(P,E)=>2+h(E)},{v:'weaken', val:1, dur:1}],
       txt:(P,E)=>`Melee ${3+E}, push it ${2+h(E)}, and it is Weakened 1 this round.` },
-    'Both hind feet, all at once.', 'Hoofed animals');
+    'Both hind feet, all at once.', 'Hoofed mammals and whales');
   K(HORNED,'hoof_horn','Horn Charge','M',0,
     { n:'Lower Horns', ap:1, el:0, cd:1, dur:0, tgt:'foe_r3',
       fx:[{v:'move', n:2, toward:true, free:true},{v:'strike', kind:'melee', dmg:(P,E)=>2+P, ifAdjacent:true},{v:'force', kind:'push', n:1}],
@@ -2021,7 +2021,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Gore', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+E, pierce:true},{v:'force', kind:'push', n:2}],
       txt:(P,E)=>`Melee ${3+E} that ignores Shield, and push it 2.` },
-    'Head down, and go.', 'Hoofed animals');
+    'Head down, and go.', 'Bovids');
   K(HORNED,'hoof_chew','Ruminate','T',0,
     { n:'Chew the Cud', ap:1, el:0, cd:2, dur:0, tgt:'self',
       fx:[{v:'engine', kind:'regen', val:1, dur:(P,E)=>2+h(P)},{v:'haste', n:1}],
@@ -2029,7 +2029,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Four Stomachs', ap:1, el:1, cd:4, dur:0, tgt:'self',
       fx:[{v:'heal', n:(P,E)=>2+E},{v:'cleanse'},{v:'engine', kind:'regen', val:1, dur:2}],
       txt:(P,E)=>`Heal ${2+E}, cleanse (Anchored, Weakened, Wounds), and heal 1 at the start of each turn for 2 rounds.` },
-    'It eats now and digests later.', 'Hoofed animals');
+    'It eats now and digests later.', 'Bovids');
   K(ANTLERED,'hoof_antlers','Antlers','M',0,
     { n:'Rake', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+P},{v:'weaken', val:1, dur:1}],
@@ -2037,7 +2037,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Lock Antlers', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+E},{v:'anchor', who:'foe', dur:1},{v:'weaken', val:1, dur:(P,E)=>1+h(E)}],
       txt:(P,E)=>`Melee ${3+E}, and lock it in place: Anchored 1 and Weakened 1 for ${1+h(E)} ${1+h(E) > 1 ? 'rounds' : 'round'}.` },
-    'Grown fresh every year, and dropped every winter.', 'Hoofed animals');
+    'Grown fresh every year, and dropped every winter.', 'Deer');
   K(ANTLERED,'hoof_bound','Bound Away','S',0,
     { n:'Bound', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
       fx:[{v:'move', n:(P,E)=>1+P, ignoreFoes:true},{v:'shield', val:1, next:true}],
@@ -2045,7 +2045,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Over the Fence', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>2+E, height:true},{v:'hidden', dur:1}],
       txt:(P,E)=>`Leap to anywhere within ${2+E}, height included, and you are Hidden 1.` },
-    'One spring and it is over the hedge.', 'Hoofed animals');
+    'One spring and it is over the hedge.', 'Deer');
 
   // Yak
   K(['yak'],'yak_coat','Thick Coat','T',0,
@@ -2248,14 +2248,13 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      mouse · porcupine · hare · black hare, with the jerboa. The jerboa's Gnawing Incisors are every
      gnawer's; its Vibrissae the mouse's and porcupine's; its Burrowing the mouse's; its Leap the hares';
      its Erratic Bounding the hares' and the mouse's. Long Ears, Boxing and Lie Low are both hares'. */
-  T.SPECIES.jerboa.branch = 'Gnawers';
-  S('mouse', { name: 'Field Mouse', lean: 'S/T', branch: 'Gnawers', icon: '🐭',
+  S('mouse', { name: 'Field Mouse', lean: 'S/T', icon: '🐭',
     tagline: 'Small, quick and everywhere. Through the gap before you saw the gap.' });
-  S('porcupine', { name: 'Porcupine', lean: 'M/T', branch: 'Gnawers', icon: '🦔',
+  S('porcupine', { name: 'Porcupine', lean: 'M/T', icon: '🦔',
     tagline: 'A slow climber in a coat of thirty thousand quills. Best left alone.' });
-  S('hare', { name: 'Brown Hare', lean: 'S/M', branch: 'Gnawers', icon: '🐇',
+  S('hare', { name: 'Brown Hare', lean: 'S/M', icon: '🐇',
     tagline: 'Long ears, long legs, and a temper in spring.' });
-  S('black_hare', { name: 'Black Hare', lean: 'S/C', branch: 'Gnawers', icon: '🐇',
+  S('black_hare', { name: 'Black Hare', lean: 'S/C', icon: '🐇',
     tagline: 'A night-coloured hare that runs where the moon doesn’t reach.' });
   T.shareTrait('jer_gnaw', 'mouse', 'porcupine', 'hare', 'black_hare');
   T.shareTrait('jer_vibrissae', 'mouse', 'porcupine');
@@ -2271,7 +2270,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Ears Back', ap:1, el:1, cd:3, dur:0, tgt:'self',
       fx:[{v:'reveal', radius:(P,E)=>1+E, dur:1},{v:'move', n:(P,E)=>1+E, free:true},{v:'hidden', dur:1, canMove:true}],
       txt:(P,E)=>`Hear everything within ${1+E} this round, slip ${1+E}, and you are Hidden 1 even if you move.` },
-    'Each ear turns on its own.', 'Gnawers');
+    'Each ear turns on its own.', 'Hares');
   K(HARES,'har_box','Boxing','M',0,
     { n:'Jab', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>3+P},{v:'force', kind:'push', n:1}],
@@ -2279,7 +2278,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Flurry', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
       fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+E},{v:'strike', kind:'melee', dmg:(P,E)=>2+E},{v:'force', kind:'push', n:1}],
       txt:(P,E)=>`Melee ${2+E} twice, then shove it 1.` },
-    'Up on the hind legs, forepaws flying.', 'Gnawers');
+    'Up on the hind legs, forepaws flying.', 'Hares');
   K(HARES,'har_low','Lie Low','T',0,
     { n:'Form', ap:1, el:0, cd:2, dur:0, tgt:'self',
       fx:[{v:'hidden', dur:(P,E)=>1+h(P)},{v:'heal', n:1}],
@@ -2287,7 +2286,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Still as Earth', ap:1, el:1, cd:4, dur:0, tgt:'party',
       fx:[{v:'hidden', dur:(P,E)=>1+E, party:true, radius:1},{v:'shield', val:1, dur:1, party:true}],
       txt:(P,E)=>`You and every ally beside you are Hidden ${1+E}; all heroes hold Shield 1 this round.` },
-    'Ears flat, eyes open, not a whisker moving.', 'Gnawers');
+    'Ears flat, eyes open, not a whisker moving.', 'Hares');
 
   // Mouse
   K(['mouse'],'mou_scurry','Scurry','S',0,
@@ -2445,13 +2444,13 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      Curl Up the three armoured ones'; Dig Claws and Long Tongue the armadillo's and pangolin's. */
   const ARMOURED = ['armadillo','pangolin','hedgehog'];
   const ANTEATERS = ['armadillo','pangolin'];
-  S('sloth', { name: 'Three-Toed Sloth', lean: 'T/C', branch: 'Armoured and slow', icon: '🦥',
+  S('sloth', { name: 'Three-Toed Sloth', lean: 'T/C', icon: '🦥',
     tagline: 'Hangs on, takes its time, and is never, ever in a hurry.' });
-  S('armadillo', { name: 'Armadillo', lean: 'M/S', branch: 'Armoured and slow', icon: '🦔',
+  S('armadillo', { name: 'Armadillo', lean: 'M/S', icon: '🦔',
     tagline: 'Banded armour, digging claws, and a startled leap straight up.' });
-  S('pangolin', { name: 'Pangolin', lean: 'M/T', branch: 'Armoured and slow', icon: '🦔',
+  S('pangolin', { name: 'Pangolin', lean: 'M/T', icon: '🦔',
     tagline: 'A walking pine cone of sharp scales that rolls into a fortress.' });
-  S('hedgehog', { name: 'Hedgehog', lean: 'T/M', branch: 'Armoured and slow', icon: '🦔',
+  S('hedgehog', { name: 'Hedgehog', lean: 'T/M', icon: '🦔',
     tagline: 'A snuffling night forager in a coat of spines. Curls up and waits.' });
 
   K(['sloth','armadillo','pangolin'],'arm_slow','Slow Metabolism','T',0,
@@ -2705,11 +2704,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   /* ───────────────────────── POUCHED AND EGG-LAYING ─────────────────────────
      kangaroo · opossum · platypus. Pouch is the two marsupials'; the opossum also shares the hedgehog's
      Venom Shrug, and the platypus the jerboa's Burrowing. */
-  S('kangaroo', { name: 'Red Kangaroo', lean: 'S/M', branch: 'Pouched and egg-laying', icon: '🦘',
+  S('kangaroo', { name: 'Red Kangaroo', lean: 'S/M', icon: '🦘',
     tagline: 'Tail like a third leg, legs like springs, and a boxer’s stance.' });
-  S('opossum', { name: 'Opossum', lean: 'T/C', branch: 'Pouched and egg-laying', icon: '🐀',
+  S('opossum', { name: 'Opossum', lean: 'T/C', icon: '🐀',
     tagline: 'A night wanderer that shrugs off venom and plays dead convincingly.' });
-  S('platypus', { name: 'Platypus', lean: 'C/T', branch: 'Pouched and egg-laying', icon: '🦫',
+  S('platypus', { name: 'Platypus', lean: 'C/T', icon: '🦫',
     tagline: 'Duck bill, otter feet, venom spurs. Hunts with its eyes shut.' });
   T.shareTrait('hed_venom', 'opossum');
   T.shareTrait('jer_burrow', 'platypus');
@@ -2721,7 +2720,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Carry Them Out', ap:1, el:1, cd:4, dur:0, tgt:'ally',
       fx:[{v:'swap'},{v:'shield', val:(P,E)=>1+E, dur:1, party:true}],
       txt:(P,E)=>`Swap places with an ally, wherever they are; all heroes hold Shield ${1+E} this round.` },
-    'Somewhere warm and safe to be carried.', 'Pouched and egg-laying');
+    'Somewhere warm and safe to be carried.', 'Marsupials');
 
   // Kangaroo
   K(['kangaroo'],'kan_hop','Hop','S',0,
@@ -2915,10 +2914,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   /* ───────────────────────── BIRDS OF PREY AND OWLS ─────────────────────────
      bald eagle · red-tailed hawk, with the barn owl. Hollow Bones and Talon Strike are the owl's, and every raptor's;
      Keen Sight and Stoop are the day hunters'. The hawk's Sky Hyperspeed is the cheetah's run, taken to the air. */
-  T.SPECIES.owl.branch = 'Birds of prey and owls';
-  S('eagle', { name: 'Bald Eagle', lean: 'M/C', branch: 'Birds of prey and owls', icon: '🦅',
+  S('eagle', { name: 'Bald Eagle', lean: 'M/C', icon: '🦅',
     tagline: 'Broad wings, a voice like a rusty hinge, and a grip nothing breaks.' });
-  S('hawk', { name: 'Red-tailed Hawk', lean: 'S/M', branch: 'Birds of prey and owls', icon: '🦅',
+  S('hawk', { name: 'Red-tailed Hawk', lean: 'S/M', icon: '🦅',
     tagline: 'A brick-red tail and a long scream. Quick in the hedges, quicker in the open; hangs on the wind and drops.' });
   T.shareTrait('owl_bones', 'eagle', 'hawk');
   T.shareTrait('owl_talon', 'eagle', 'hawk');
@@ -2930,7 +2928,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Eye of the Sky', ap:1, el:1, cd:3, dur:0, tgt:'foe_any',
       fx:[{v:'reveal', radius:(P,E)=>2+E, dur:1},{v:'reveal', target:true, dur:(P,E)=>2+E},{v:'mark', n:(P,E)=>1+h(E), dur:3}],
       txt:(P,E)=>`See everything within ${2+E} this round; pick a foe: Revealed for ${2+E} rounds, and it is Marked +${1+h(E)} for 3 rounds.` },
-    'It reads a newspaper from a mile up, if it cared to.', 'Birds of prey and owls');
+    'It reads a newspaper from a mile up, if it cared to.', 'Raptors');
   K(['eagle','hawk'],'rap_stoop','Stoop','M',0,
     { n:'Drop', ap:1, el:0, cd:1, dur:0, tgt:'foe_r3',
       fx:[{v:'move', n:2, toward:true, free:true},{v:'strike', kind:'melee', dmg:(P,E)=>2+P, ifAdjacent:true}],
@@ -2938,7 +2936,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Plummet', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
       fx:[{v:'blink', reach:(P,E)=>3+E, dest:'adjTarget', height:true},{v:'strike', kind:'melee', dmg:(P,E)=>3+E},{v:'weaken', val:1, dur:1}],
       txt:(P,E)=>`Fold the wings and fall beside a foe within ${3+E}, height included: melee ${3+E}, and it is Weakened 1 this round.` },
-    'Wings folded, and the whole sky behind it.', 'Birds of prey and owls');
+    'Wings folded, and the whole sky behind it.', 'Raptors');
 
   // Bald eagle: Hollow Bones, Talon Strike, Keen Sight, Stoop, and these five
   K(['eagle'],'eag_soar','Soar','S',0,
@@ -3030,17 +3028,17 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      pelican will). */
   const WADERS = ['crane','heron','egret','ibis','shoebill','flamingo'];
   const SPEARS = ['crane','heron','egret','ibis','shoebill'];
-  S('crane', { name: 'Crane', lean: 'S/C', branch: 'Waders', icon: '🪿',
+  S('crane', { name: 'Crane', lean: 'S/C', icon: '🪿',
     tagline: 'Tall, grey and patient, with a dance for every season and a voice that carries for miles.' });
-  S('heron', { name: 'Heron', lean: 'T/M', branch: 'Waders', icon: '🪿',
+  S('heron', { name: 'Heron', lean: 'T/M', icon: '🪿',
     tagline: 'A statue in the shallows until the moment it is not. Uses bait, on purpose.' });
-  S('egret', { name: 'Egret', lean: 'C/S', branch: 'Waders', icon: '🪿',
+  S('egret', { name: 'Egret', lean: 'C/S', icon: '🪿',
     tagline: 'White plumes, yellow feet, and a habit of riding on bigger animals.' });
-  S('ibis', { name: 'Ibis', lean: 'T/C', branch: 'Waders', icon: '🪿',
+  S('ibis', { name: 'Ibis', lean: 'T/C', icon: '🪿',
     tagline: 'A curved bill that finds what is buried, and a flock that flies in a line.' });
-  S('shoebill', { name: 'Shoebill', lean: 'M/T', branch: 'Waders', icon: '🪿',
+  S('shoebill', { name: 'Shoebill', lean: 'M/T', icon: '🪿',
     tagline: 'Stands still for an hour, then falls on its prey with its whole body. Its bill is a clog.' });
-  S('flamingo', { name: 'Flamingo', lean: 'T/C', branch: 'Waders', icon: '🦩',
+  S('flamingo', { name: 'Flamingo', lean: 'T/C', icon: '🦩',
     tagline: 'Pink from what it eats, at home in lakes that would burn anyone else. Never alone.' });
   T.shareTrait('owl_bones', ...WADERS);
   T.shareTrait('hum_tool', 'heron');
@@ -3293,11 +3291,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      puffin · pelican · blue-footed booby. Every bird's Hollow Bones; every seabird's Plunge Dive, Waterproof and
      Salt Gland. The puffin carries the jerboa's Burrowing, the pelican the shoebill's Big Bill. */
   const SEABIRDS = ['puffin','pelican','booby'];
-  S('puffin', { name: 'Atlantic Puffin', lean: 'S/C', branch: 'Seabirds', icon: '🐧',
+  S('puffin', { name: 'Atlantic Puffin', lean: 'S/C', icon: '🐧',
     tagline: 'Flies underwater, digs its own burrow, and carries ten fish at once.' });
-  S('pelican', { name: 'Pelican', lean: 'M/T', branch: 'Seabirds', icon: '🦤',
+  S('pelican', { name: 'Pelican', lean: 'M/T', icon: '🦤',
     tagline: 'A great glider with a bill that holds more than its belly. Fishes in a line with friends.' });
-  S('booby', { name: 'Blue-Footed Booby', lean: 'C/S', branch: 'Seabirds', icon: '🐦',
+  S('booby', { name: 'Blue-Footed Booby', lean: 'C/S', icon: '🐦',
     tagline: 'Clumsy on land, a dart from the sky. Shows off its bright blue feet.' });
   T.shareTrait('owl_bones', ...SEABIRDS);
   T.shareTrait('jer_burrow', 'puffin');
@@ -3443,15 +3441,15 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      tortoise and lobster will share it). The toucan carries the shoebill's Big Bill. Display Fan, Alarm Call
      and Spur are the peacock's, and the turkey will share them. */
   const BRIGHT = ['raven','parrot','toucan','hummingbird','peacock'];
-  S('raven', { name: 'Raven', lean: 'T/C', branch: 'Perching and bright birds', icon: '🐦‍⬛',
+  S('raven', { name: 'Raven', lean: 'T/C', icon: '🐦‍⬛',
     tagline: 'Clever, playful, never forgets a face. Hunts with wolves and slides down snow for fun.' });
-  S('parrot', { name: 'Parrot', lean: 'C/T', branch: 'Perching and bright birds', icon: '🦜',
+  S('parrot', { name: 'Parrot', lean: 'C/T', icon: '🦜',
     tagline: 'Loud, bright, long-lived, and holds its food in one foot while it talks back.' });
-  S('toucan', { name: 'Toucan', lean: 'S/C', branch: 'Perching and bright birds', icon: '🐦',
+  S('toucan', { name: 'Toucan', lean: 'S/C', icon: '🐦',
     tagline: 'All bill and bluff. The bill is light as foam and the croak carries a mile.' });
-  S('hummingbird', { name: 'Hummingbird', lean: 'S/T', branch: 'Perching and bright birds', icon: '🐦',
+  S('hummingbird', { name: 'Hummingbird', lean: 'S/T', icon: '🐦',
     tagline: 'The smallest bird there is, and the fiercest. Hovers, flies backwards, never stops.' });
-  S('peacock', { name: 'Peacock', lean: 'C/M', branch: 'Perching and bright birds', icon: '🦚',
+  S('peacock', { name: 'Peacock', lean: 'C/M', icon: '🦚',
     tagline: 'A hundred eyes in its tail and a scream like a cat. Eats snakes.' });
   T.shareTrait('owl_bones', ...BRIGHT);
   T.shareTrait('hum_pattern', 'raven', 'parrot');
@@ -3465,7 +3463,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Its Own Voice', ap:2, el:1, cd:4, dur:0, tgt:'foe_r3',
       fx:[{v:'link', within:1, dur:2},{v:'weaken', val:1, dur:1},{v:'strike', kind:'los', dmg:(P,E)=>E}],
       txt:(P,E)=>`Call in a foe's own voice: Link a foe within 3 to a foe beside it for 2 rounds; it is Weakened 1 this round${E ? ` and takes ${E}, and so does the other` : ''}.` },
-    'It says your name better than you do.', 'Perching and bright birds');
+    'It says your name better than you do.', 'Parrots and songbirds');
   K(['parrot'],'bir_life','Long Life','T',0,
     { n:'Old Bird', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'heal', n:(P,E)=>1+P},{v:'cleanse'},{v:'shield', val:1, dur:1}],
@@ -3752,9 +3750,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      ostrich · wild turkey. Every bird's Hollow Bones; Ground Sprint is both of theirs. The turkey shares the
      peacock's Display Fan, Alarm Call and Spur. The ostrich carries the hoofed animals' Kick and Wide Eyes:
      not kin, but the same answer to the same open plain (a variant). */
-  S('ostrich', { name: 'Ostrich', lean: 'S/M', branch: 'Ground birds', variant: true, icon: '🐦',
+  S('ostrich', { name: 'Ostrich', lean: 'S/M', variant: true, icon: '🐦',
     tagline: 'The biggest bird alive. Cannot fly, does not need to. Outruns horses, kicks like one.' });
-  S('turkey', { name: 'Wild Turkey', lean: 'C/T', branch: 'Ground birds', icon: '🦃',
+  S('turkey', { name: 'Wild Turkey', lean: 'C/T', icon: '🦃',
     tagline: 'Wary, fast on foot, roosts high. Gobbles at thunder.' });
   T.shareTrait('owl_bones', 'ostrich', 'turkey');
   T.shareTrait('hoof_kick', 'ostrich');
@@ -3770,7 +3768,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Flat Out', ap:1, el:1, cd:3, dur:0, tgt:'node_move',
       fx:[{v:'move', n:(P,E)=>2+E, ignoreFoes:true},{v:'haste', n:(P,E)=>1+h(E)},{v:'empower', val:1, uses:1, dur:1}],
       txt:(P,E)=>`Run ${2+E}, past foes; Haste: your track slides ${1+h(E)} extra, and your next hit this turn deals +1.` },
-    'Legs, and nothing but legs.', 'Ground birds');
+    'Legs, and nothing but legs.', 'Landfowl');
 
   // Ostrich: Hollow Bones, Ground Sprint, Kick, Wide Eyes, and these five
   K(['ostrich'],'ost_stride','Stride','S',0,
@@ -3850,12 +3848,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   /* ───────────────────────── LIZARDS ─────────────────────────
      gecko · chameleon · basilisk · horned lizard. The gecko's Tail Autotomy and Scaled Hide are every lizard's,
      and its Solar Basking every reptile's (the crocodile and the tortoise will share it). */
-  T.SPECIES.gecko.branch = 'Lizards';
-  S('chameleon', { name: 'Chameleon', lean: 'T/C', branch: 'Lizards', icon: '🦎',
+  S('chameleon', { name: 'Chameleon', lean: 'T/C', icon: '🦎',
     tagline: 'Two eyes that look two ways, a tongue longer than its body, and every colour it likes.' });
-  S('basilisk', { name: 'Basilisk', lean: 'S/M', branch: 'Lizards', icon: '🦎',
+  S('basilisk', { name: 'Basilisk', lean: 'S/M', icon: '🦎',
     tagline: 'Runs on two legs, and across water, faster than it can sink.' });
-  S('horned_lizard', { name: 'Horned Lizard', lean: 'M/T', branch: 'Lizards', icon: '🦎',
+  S('horned_lizard', { name: 'Horned Lizard', lean: 'M/T', icon: '🦎',
     tagline: 'A flat spiked crown, sand-coloured, and blood it can squirt from its eyes.' });
   T.shareTrait('gec_autotomy', 'chameleon', 'basilisk', 'horned_lizard');
   T.shareTrait('gec_hide', 'chameleon', 'basilisk', 'horned_lizard');
@@ -4013,9 +4010,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   /* ───────────────────────── CROCODILES AND TORTOISES ─────────────────────────
      crocodile · tortoise. Both carry the gecko's Solar Basking (every reptile's), and Armoured Hide and Slow
      Heart. The tortoise carries the parrot's Long Life. */
-  S('crocodile', { name: 'Crocodile', lean: 'M/T', branch: 'Crocodiles and tortoises', icon: '🐊',
+  S('crocodile', { name: 'Crocodile', lean: 'M/T', icon: '🐊',
     tagline: 'Two hundred million years of waiting under the surface. Then the roll.' });
-  S('tortoise', { name: 'Giant Tortoise', lean: 'T/M', branch: 'Crocodiles and tortoises', icon: '🐢',
+  S('tortoise', { name: 'Giant Tortoise', lean: 'T/M', icon: '🐢',
     tagline: 'Slow, steady, and older than anyone it meets. Its house goes where it goes.' });
   T.shareTrait('gec_basking', 'crocodile', 'tortoise');
   T.shareTrait('bir_life', 'tortoise');
@@ -4027,7 +4024,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Osteoderms', ap:1, el:1, cd:3, dur:0, tgt:'self',
       fx:[{v:'shield', val:(P,E)=>2+E, dur:2},{v:'thorns', val:1, dur:2},{v:'heal', n:1}],
       txt:(P,E)=>`Shield ${2+E} for 2 rounds; anything that hits you in melee takes 1 meanwhile, and heal 1.` },
-    'Armour grown, not worn.', 'Crocodiles and tortoises');
+    'Armour grown, not worn.', 'Armoured reptiles');
   K(['crocodile','tortoise'],'rep_heart','Slow Heart','T',0,
     { n:'Slow Down', ap:1, el:0, cd:1, dur:0, tgt:'self',
       fx:[{v:'heal', n:(P,E)=>1+P},{v:'engine', kind:'ap', val:1, dur:1}],
@@ -4035,7 +4032,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Two Beats a Minute', ap:1, el:1, cd:5, dur:1, tgt:'self',
       fx:[{v:'stasis', dur:1},{v:'heal', n:(P,E)=>2+E}],
       txt:(P,E)=>`Slow your heart almost to a stop: nothing can target you through the next enemy phase, and heal ${2+E}.` },
-    'A heart that can wait an hour between beats.', 'Crocodiles and tortoises');
+    'A heart that can wait an hour between beats.', 'Armoured reptiles');
 
   // Crocodile: Solar Basking, Armoured Hide, Slow Heart, and these six
   K(['crocodile'],'cro_roll','Death Roll','M',2,
@@ -4132,10 +4129,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      axolotl · newt · tree frog. The axolotl's Toxic Secretion and External Gills are every amphibian's; its
      Regeneration and Lateral Line the newt's too. The tree frog's sticky toes are the gecko's Adhesive Setae:
      not kin, the same answer to the same wall (a variant). */
-  T.SPECIES.axolotl.branch = 'Amphibians';
-  S('newt', { name: 'Newt', lean: 'T/C', branch: 'Amphibians', icon: '🦎',
+  S('newt', { name: 'Newt', lean: 'T/C', icon: '🦎',
     tagline: 'Wanders the woods as a bright red eft for years, then goes back to the water. Tastes terrible.' });
-  S('tree_frog', { name: 'Tree Frog', lean: 'S/C', branch: 'Amphibians', variant: true, icon: '🐸',
+  S('tree_frog', { name: 'Tree Frog', lean: 'S/C', variant: true, icon: '🐸',
     tagline: 'Sticky toes, red eyes, a glass belly, and a voice far too big for it.' });
   T.shareTrait('axo_toxic', 'newt', 'tree_frog');
   T.shareTrait('axo_gills', 'newt', 'tree_frog');
@@ -4239,14 +4235,13 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
      axolotl's Lateral Line every new fish's. Koi and clownfish share Schooling; the koi carries Long Life. The
      seahorse's brood pouch and turret eyes are the kangaroo's Pouch and the chameleon's Turret Eyes, the same
      answers found again (a variant). */
-  T.SPECIES.eel.branch = 'Fish';
-  S('koi', { name: 'Koi', lean: 'T/C', branch: 'Fish', icon: '🐟',
+  S('koi', { name: 'Koi', lean: 'T/C', icon: '🐟',
     tagline: 'Gold and patient, lives for centuries. Swims upstream, and the story says it becomes a dragon.' });
-  S('clownfish', { name: 'Clownfish', lean: 'C/T', branch: 'Fish', icon: '🐠',
+  S('clownfish', { name: 'Clownfish', lean: 'C/T', icon: '🐠',
     tagline: 'Lives in a stinging anemone that never stings it, with a partner it never leaves.' });
-  S('lionfish', { name: 'Lionfish', lean: 'M/C', branch: 'Fish', icon: '🐡',
+  S('lionfish', { name: 'Lionfish', lean: 'M/C', icon: '🐡',
     tagline: 'All fans and venom spines. Corners its prey and swallows it whole.' });
-  S('seahorse', { name: 'Seahorse', lean: 'T/S', branch: 'Fish', variant: true, icon: '🐴',
+  S('seahorse', { name: 'Seahorse', lean: 'T/S', variant: true, icon: '🐴',
     tagline: 'Holds on with its tail, looks two ways at once, and the father carries the young.' });
   const NEW_FISH = ['koi','clownfish','lionfish','seahorse'];
   T.shareTrait('eel_buoyancy', ...NEW_FISH);
@@ -4262,7 +4257,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Bait Ball', ap:1, el:1, cd:3, dur:0, tgt:'party',
       fx:[{v:'shield', val:(P,E)=>1+E, dur:1, party:true},{v:'shield', val:1, next:true, party:true}],
       txt:(P,E)=>`Close up tight: all heroes hold Shield ${1+E} this round, and Shield: each one's next hit taken is 1 less.` },
-    'A thousand fish, one mind.', 'Fish');
+    'A thousand fish, one mind.', 'Ray-finned fish');
 
   // Koi: Buoyancy Control, Lateral Line, Schooling, Long Life, and these five
   K(['koi'],'koi_gate','Dragon Gate','S',2,
@@ -4457,10 +4452,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     'The slowest fish in the sea, and it gets there anyway.');
   // ── Molluscs and jellies (2.64): the Mimic Octopus keeps its nine; the snail and jellyfish join it.
   // Boneless Squeeze is every soft body's; the snail also tastes with Chemo-Suckers and carries the tortoise's Shell.
-  T.SPECIES.octopus.branch = 'Molluscs and jellies';
-  S('snail', { name: 'Snail', lean: 'T/M', branch: 'Molluscs and jellies', icon: '🐌',
+  S('snail', { name: 'Snail', lean: 'T/M', icon: '🐌',
     tagline: 'Carries its house, climbs anything, and seals itself in to wait out the bad weather.' });
-  S('jellyfish', { name: 'Jellyfish', lean: 'C/T', branch: 'Molluscs and jellies', variant: true, icon: '🪼',
+  S('jellyfish', { name: 'Jellyfish', lean: 'C/T', variant: true, icon: '🪼',
     tagline: 'No brain, no bones, a bell full of stings, and one kind that turns young again instead of dying.' });
   T.shareTrait('oct_squeeze', 'snail', 'jellyfish');
   T.shareTrait('oct_chemo', 'snail');
@@ -4561,9 +4555,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     'One kind, when it is dying, simply starts over.');
   // ── Crustaceans (2.65): the lobster and the mantis shrimp. Both molt and wear a carapace;
   // the lobster also has the parrot's Long Life, and the mantis shrimp the chameleon's Turret Eyes.
-  S('lobster', { name: 'Lobster', lean: 'M/T', branch: 'Crustaceans', icon: '🦞',
+  S('lobster', { name: 'Lobster', lean: 'M/T', icon: '🦞',
     tagline: 'Two claws, one for crushing and one for cutting, and it never quite stops growing.' });
-  S('mantis_shrimp', { name: 'Mantis Shrimp', lean: 'M/C', branch: 'Crustaceans', icon: '🦐',
+  S('mantis_shrimp', { name: 'Mantis Shrimp', lean: 'M/C', icon: '🦐',
     tagline: 'Punches hard enough to boil the water, and sees colours nobody else has names for.' });
   const CRUST = ['lobster','mantis_shrimp'];
   T.shareTrait('bir_life', 'lobster');
@@ -4687,16 +4681,15 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     'They fight by taking turns to hit each other on the tail, and the tail can take it.');
   // ── Insects and arachnids (2.66): the Grasshopper (an unpainted clade) moves onto the branch and lends
   // its Exoskeleton, Compound Eyes, Molt and Glide Wings; every insect here also has Antennae.
-  T.SPECIES.hopper.branch = 'Insects and arachnids';
-  S('beetle', { name: 'Beetle', lean: 'M/T', branch: 'Insects and arachnids', icon: '🪲',
+  S('beetle', { name: 'Beetle', lean: 'M/T', icon: '🪲',
     tagline: 'Armoured wing cases, a horn for lifting, and strength far past its size.' });
-  S('butterfly', { name: 'Butterfly', lean: 'S/T', branch: 'Insects and arachnids', icon: '🦋',
+  S('butterfly', { name: 'Butterfly', lean: 'S/T', icon: '🦋',
     tagline: 'Eyes painted on its wings, dust that slips any grip, and a journey longer than its life.' });
-  S('firefly', { name: 'Firefly', lean: 'C/S', branch: 'Insects and arachnids', icon: '✨',
+  S('firefly', { name: 'Firefly', lean: 'C/S', icon: '✨',
     tagline: 'Cold light in the dark, flashing in time with the others, and bitter to anything that bites.' });
-  S('mantis', { name: 'Praying Mantis', lean: 'M/C', branch: 'Insects and arachnids', icon: '🦗',
+  S('mantis', { name: 'Praying Mantis', lean: 'M/C', icon: '🦗',
     tagline: 'Still as a leaf, turns its head to watch you, and strikes before you see it move.' });
-  S('scorpion', { name: 'Scorpion', lean: 'M/C', branch: 'Insects and arachnids', icon: '🦂',
+  S('scorpion', { name: 'Scorpion', lean: 'M/C', icon: '🦂',
     tagline: 'Pincers in front, a sting overhead, and it glows under the right light.' });
   const BUGS = ['beetle','butterfly','firefly','mantis'];
   T.shareTrait('hop_exo', 'beetle', 'firefly', 'mantis', 'scorpion');
@@ -4713,7 +4706,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { n:'Scent Trail', ap:1, el:1, cd:3, dur:0, tgt:'foe_any',
       fx:[{v:'reveal', target:true, dur:2},{v:'mark', n:(P,E)=>1+h(E), dur:3},{v:'empower', val:1, uses:1, dur:2, target:'ally'}],
       txt:(P,E)=>`Smell out one foe: Revealed for 2 rounds, it is Marked +${1+h(E)} for 3 rounds, and an ally's next hit deals +1.` },
-    'Two feelers that taste, smell and listen all at once.', 'Insects and arachnids');
+    'Two feelers that taste, smell and listen all at once.', 'Insects');
 
   // Beetle: Exoskeleton, Compound Eyes, Antennae, and these six
   K(['beetle'],'btl_horn','Horn Lift','M',2,
@@ -4956,6 +4949,287 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       fx:[{v:'shield', val:(P,E)=>1+E, dur:2, party:true, allyRange:2},{v:'engine', kind:'regen', val:1, dur:2, party:true}],
       txt:(P,E)=>`Carry them on your back: for 2 rounds you and every ally within 2 hold Shield ${1+E}, and all heroes heal 1 at the start of each turn.` },
     'The young ride on their mother\'s back until their first molt.');
+
+  /* ───────────────────────── GREY WOLF AND RACCOON (2.145) ─────────────────────────
+     Garrett, 2026-11-24. The grey wolf is in the dog family: it runs with the pack runners (Keen Nose, Pack
+     Howl, Long Trot) and carries the dogs' Pin Down. The raccoon is weasel kin (Musteloidea): Dense Fur; it
+     climbs down headfirst like the ocelot and red panda (Headfirst Descent), and scavenges like the jackal
+     (Scavenger's Luck). Their places on the tree are in src/data/taxonomy.js. */
+  S('wolf', { name: 'Grey Wolf', lean: 'C/T', icon: '🐺',
+    tagline: 'Runs with the pack, sings with the pack, and can go a hundred kilometres alone.' });
+  S('raccoon', { name: 'Raccoon', lean: 'S/T', icon: '🦝',
+    tagline: 'Masked, nimble-fingered, and into everything you thought was shut.' });
+  T.shareTrait('dog_nose', 'wolf');
+  T.shareTrait('dog_howl', 'wolf');
+  T.shareTrait('dog_trot', 'wolf');
+  T.shareTrait('dog_pin', 'wolf');
+  T.shareTrait('wea_fur', 'raccoon');
+  T.shareTrait('oce_descent', 'raccoon');
+  T.shareTrait('jac_luck', 'raccoon');
+
+  // Grey wolf: Keen Nose, Pack Howl, Long Trot, Pin Down, and these five
+  K(['wolf'],'wol_relay','Relay Chase','T',2,
+    { n:'Take a Turn', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', n:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:2, target:'ally'}],
+      txt:(P,E)=>`Run ${1+P} to take up the chase; an ally's next strike deals +1.` },
+    { n:'Run in Shifts', ap:1, el:1, cd:3, dur:0, tgt:'ally_move',
+      fx:[{v:'guide', n:(P,E)=>1+E},{v:'haste', n:1}],
+      txt:(P,E)=>`Send the next runner in: Guide an ally ${1+E}, and Haste: every card on your track returns 1 column sooner.` },
+    'No one wolf runs it down. The pack takes turns.');
+  K(['wolf'],'wol_test','Test the Herd','S',0,
+    { n:'Cull', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
+      fx:[{v:'weaken', val:1, dur:1},{v:'strike', kind:'melee', dmg:(P,E)=>3+P, ifHpBelow:5, elseVal:(P,E)=>1+P}],
+      txt:(P,E)=>`Melee ${1+P}, or ${3+P} if it has 4 hp or fewer; either way it is Weakened 1 this round.` },
+    { n:'Find the Weak One', ap:1, el:1, cd:3, dur:0, tgt:'self',
+      fx:[{v:'reveal', radius:(P,E)=>2+E, dur:2},{v:'mark', area:true, radius:2},{v:'empower', val:1, uses:1, dur:2, party:true}],
+      txt:(P,E)=>`Run at the herd and watch who stumbles: see everything within ${2+E} for 2 rounds, every foe within 2 is Marked, and all heroes' next strike deals +1.` },
+    'Chase them all a little, and see which one falls behind.');
+  K(['wolf'],'wol_scent','Territory','M',0,
+    { n:'Scent Post', ap:1, el:0, cd:2, dur:0, tgt:'node_r2',
+      fx:[{v:'field', radius:1, on:'enter', dur:(P,E)=>2+P, remote:2, fx:[{kw:'mark', n:1},{kw:'weaken', n:1}]},{v:'shield', val:1, next:true}],
+      txt:(P,E)=>`Mark a space within 2 as yours: for ${2+P} rounds a Field lies on it and its neighbours, and a foe that walks in is Marked +1 and Weakened 1. Shield: the next hit on you is 1 less.` },
+    { n:'Hold the Ground', ap:1, el:1, cd:4, dur:0, tgt:'self',
+      fx:[{v:'field', radius:1, on:'end', dur:(P,E)=>1+E, fx:[{kw:'weaken', n:1}]},{v:'shield', val:1, dur:(P,E)=>1+E, party:true, allyRange:1}],
+      txt:(P,E)=>`Claim the ground around you: for ${1+E} rounds a Field lies on and beside your space and foes ending the round there are Weakened 1, and you and every ally beside you hold Shield 1.` },
+    'Everything inside the scent line is spoken for.');
+  K(['wolf'],'wol_harry','Harry','S',0,
+    { n:'Snap and Fall Back', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>1+P},{v:'weaken', val:1, dur:1},{v:'move', n:1, free:true}],
+      txt:(P,E)=>`Melee ${1+P}; it is Weakened 1 this round, and you fall back 1.` },
+    { n:'Wear It Down', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>1+E},{v:'wound', n:(P,E)=>2+h(E), kind:'bite'},{v:'move', n:2, free:true}],
+      txt:(P,E)=>`Snap at its heels: melee ${1+E}, it is Wounded ${2+h(E)}, and you lope 2 away.` },
+    'Bite, back off, bite again. It tires before the wolf does.');
+  K(['wolf'],'wol_pair','Alpha Pair','C',0,
+    { n:'Lead Off', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', n:(P,E)=>1+h(P)},{v:'shield', val:1, dur:1, party:true, allyRange:1},{v:'empower', val:(P,E)=>1+h(P), uses:1, dur:1}],
+      txt:(P,E)=>`Lead off ${1+h(P)}: you and every ally then beside you hold Shield 1 this round, and your next strike this turn deals +${1+h(P)}.` },
+    { n:'The Pack Follows', ap:1, el:1, cd:4, dur:0, tgt:'party',
+      fx:[{v:'shield', val:1, dur:1, party:true},{v:'empower', val:(P,E)=>1+h(E), uses:1, dur:2, party:true}],
+      txt:(P,E)=>`All heroes hold Shield 1 this round, and their next strike deals +${1+h(E)}.` },
+    'Two lead. The rest follow them anywhere.');
+
+  // Raccoon: Dense Fur, Headfirst Descent, Scavenger's Luck, and these six
+  K(['raccoon'],'rac_paws','Feeling Paws','S',2,
+    { n:'Feel Around', ap:1, el:0, cd:1, dur:0, tgt:'self',
+      fx:[{v:'reveal', radius:(P,E)=>1+P, dur:1},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Feel out everything within ${1+P} this round, hidden or not; your next strike this turn deals +1.` },
+    { n:'Wet Hands', ap:1, el:1, cd:3, dur:0, tgt:'self',
+      fx:[{v:'reveal', radius:(P,E)=>2+E, dur:2},{v:'mark', area:true, radius:1}],
+      txt:(P,E)=>`Wet paws feel twice as much: feel out everything within ${2+E} for 2 rounds, and every foe beside you is Marked.` },
+    'Its hands see better than its eyes do.');
+  K(['raccoon'],'rac_latch','Clever Latch','C',0,
+    { n:'Pick at It', ap:1, el:0, cd:1, dur:0, tgt:'node_r2',
+      fx:[{v:'interact', range:2},{v:'reveal', radius:(P,E)=>1+P, dur:1}],
+      txt:(P,E)=>`Reach a node within 2 and work an objective there as if you stood on it (not one up on a ledge), and see within ${1+P}.` },
+    { n:'Undo Anything', ap:1, el:1, cd:3, dur:0, tgt:'node_r3',
+      fx:[{v:'interact', range:(P,E)=>2+h(E)},{v:'cleanse', party:true},{v:'haste', n:(P,E)=>1+h(E)}],
+      txt:(P,E)=>`Work an objective within ${2+h(E)} as if you stood on it (not one up on a ledge); all heroes shake off Anchored, Weakened and Wounds, and Haste: your track returns ${1+h(E)} ${1+h(E) > 1 ? 'columns' : 'column'} sooner.` },
+    'Latches, lids, knots and doors are suggestions.');
+  K(['raccoon'],'rac_mask','Bandit Mask','T',0,
+    { n:'Pilfer', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
+      fx:[{v:'stripShield', amount:(P,E)=>1+h(P)},{v:'strike', kind:'melee', dmg:1},{v:'shield', val:(P,E)=>1+h(P), dur:1}],
+      txt:(P,E)=>`Lift ${1+h(P)} off a foe's Shield and melee 1; you hold Shield ${1+h(P)} this round.` },
+    { n:'Heist', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
+      fx:[{v:'stripShield', amount:(P,E)=>1+E},{v:'mint', face:'O', n:1},{v:'move', n:2, free:true}],
+      txt:(P,E)=>`Lift ${1+E} off its Shield, pocket 1 temporary Omni, and slip 2 away.` },
+    'A mask, and nothing left where it was.');
+  K(['raccoon'],'rac_hands','Quick Hands','M',0,
+    { n:'Swipe Swipe', ap:1, el:0, cd:1, dur:0, tgt:'foe_melee',
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>1+h(P)},{v:'strike', kind:'melee', dmg:(P,E)=>1+h(P+1)}],
+      txt:(P,E)=>`Melee ${1+h(P)}, then melee ${1+h(P+1)}.` },
+    { n:'Grab and Swap', ap:1, el:1, cd:3, dur:0, tgt:'foe_melee',
+      fx:[{v:'strike', kind:'melee', dmg:(P,E)=>2+E},{v:'swap', foe:true, reach:1}],
+      txt:(P,E)=>`Melee ${2+E}, then trade places with it.` },
+    'Two paws, both busy.');
+  K(['raccoon'],'rac_wash','Dousing','C',0,
+    { n:'Rinse', ap:1, el:0, cd:1, dur:0, tgt:'self',
+      fx:[{v:'cleanse', field:(P,E)=>h(P), states:true},{v:'heal', n:1}],
+      txt:(P,E)=>`Wash the ground ${h(P) ? `within ${h(P)}` : 'you stand on'}: hazards and foes' Fields there are cleared; shake off Anchored, Weakened and Wounds, and heal 1.` },
+    { n:'Douse', ap:1, el:1, cd:3, dur:0, tgt:'party',
+      fx:[{v:'cleanse', party:true},{v:'cleanse', field:(P,E)=>1+h(E)}],
+      txt:(P,E)=>`All heroes shake off Anchored, Weakened and Wounds, and the ground within ${1+h(E)} of you is washed clean of hazards and foes' Fields.` },
+    'Everything goes in the water first.');
+  K(['raccoon'],'rac_climb','Climb Anything','S',0,
+    { n:'Scramble', ap:1, el:0, cd:1, dur:0, tgt:'node_move',
+      fx:[{v:'move', climb:true, n:(P,E)=>1+P},{v:'empower', val:1, uses:1, dur:1}],
+      txt:(P,E)=>`Scramble ${1+P}, climbing as you go; your next strike this turn deals +1.` },
+    { n:'Rooftop Run', ap:1, el:1, cd:3, dur:0, tgt:'node_tele',
+      fx:[{v:'blink', reach:(P,E)=>2+E, height:true},{v:'hidden', dur:1}],
+      txt:(P,E)=>`Up a drainpipe and over: reach a node within ${2+E}, height included, and come down Hidden 1.` },
+    'Walls, trees, drainpipes, chimneys.');
+})(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
+
+
+/* ───── data/taxonomy.js ───── */
+/* ============================================================================
+   TUMULT — DATA: THE TREE OF LIFE THE CLADES SIT ON (2.145)
+   ----------------------------------------------------------------------------
+   Where each clade sits in modern phylogeny (Garrett, 2026-11-24: "respect modern
+   taxonomy better... raptors as the group for owls and birds of prey. hyenas
+   should be grouped with cats"). Each node of T.TAXA is a real group of living
+   things, with its common name and its scientific one; `show` marks the level
+   the pilot maker groups clades by (a clade's `branch`). Whales sit inside the
+   even-toed hoofed mammals, birds inside the reptiles, hyenas among the cat-like
+   carnivores, the raccoon and the walrus among the dog-like ones.
+
+   A trait shared by descent names the group it is written for (`kin`), and every
+   clade that carries it descends from that group. A few traits are shared by a
+   way of life instead (waders, seabirds, marine mammals, pack runners): animals
+   that are not each other's closest kin but meet the same world the same way.
+   Those are T.GUILDS, each with the clades it holds. A `variant` clade (the
+   ostrich, the seahorse...) may carry another branch's trait as its own take on it.
+   Clade ids never change; this file only says where they sit.
+   ========================================================================== */
+(function (T) {
+  T.TAXA = {};
+  T.TAXON_ORDER = [];
+  /** A group: its id, names, parent, and the clades placed directly in it. */
+  const N = (id, name, sci, parent, o) => {
+    T.TAXA[id] = Object.assign({ id, name, sci, parent: parent || null }, o || {});
+    T.TAXON_ORDER.push(id);
+  };
+  const G = { show: true };
+
+  N('life', 'Living things', 'Biota');
+  N('plants', 'Plants', 'Plantae', 'life', Object.assign({ of: ['flytrap'] }, G));
+  N('fungi', 'Fungi', 'Fungi', 'life', Object.assign({ of: ['cordyceps'] }, G));
+  N('animals', 'Animals', 'Animalia', 'life');
+  N('cnidarians', 'Jellyfish and corals', 'Cnidaria', 'animals', Object.assign({ of: ['jellyfish'] }, G));
+  N('bilaterians', 'Bilaterians', 'Bilateria', 'animals');
+
+  // ── protostomes ──
+  N('protostomes', 'Protostomes', 'Protostomia', 'bilaterians');
+  N('molluscs', 'Molluscs', 'Mollusca', 'protostomes', Object.assign({ of: ['octopus', 'snail'] }, G));
+  N('panarthropods', 'Panarthropods', 'Panarthropoda', 'protostomes');
+  N('tardigrades', 'Water bears', 'Tardigrada', 'panarthropods', Object.assign({ of: ['tardigrade'] }, G));
+  N('arthropods', 'Arthropods', 'Arthropoda', 'panarthropods', G);
+  N('arachnids', 'Arachnids', 'Arachnida', 'arthropods', { of: ['scorpion'] });
+  N('pancrustaceans', 'Crustaceans and insects', 'Pancrustacea', 'arthropods');
+  N('crustaceans', 'Crustaceans', 'Malacostraca', 'pancrustaceans', { of: ['lobster', 'mantis_shrimp'] });
+  N('insects', 'Insects', 'Insecta', 'pancrustaceans', {
+    of: ['hopper', 'beetle', 'butterfly', 'firefly', 'mantis'],
+  });
+
+  // ── vertebrates ──
+  N('vertebrates', 'Vertebrates', 'Vertebrata', 'bilaterians');
+  N('rayfins', 'Ray-finned fish', 'Actinopterygii', 'vertebrates', Object.assign({ of: ['eel', 'koi', 'clownfish', 'lionfish', 'seahorse'] }, G));
+  N('tetrapods', 'Four-limbed animals', 'Tetrapoda', 'vertebrates');
+  N('amphibians', 'Amphibians', 'Amphibia', 'tetrapods', G);
+  N('salamanders', 'Salamanders', 'Caudata', 'amphibians', { of: ['axolotl', 'newt'] });
+  N('frogs', 'Frogs', 'Anura', 'amphibians', { of: ['tree_frog'] });
+  N('amniotes', 'Amniotes', 'Amniota', 'tetrapods');
+
+  // reptiles, birds among them
+  N('reptiles', 'Reptiles and birds', 'Sauropsida', 'amniotes');
+  N('squamates', 'Lizards', 'Squamata', 'reptiles', Object.assign({ of: ['gecko', 'chameleon', 'basilisk', 'horned_lizard'] }, G));
+  N('archelosaurs', 'Turtles, crocodiles and birds', 'Archelosauria', 'reptiles');
+  N('turtles', 'Turtles', 'Testudines', 'archelosaurs', Object.assign({ of: ['tortoise'] }, G));
+  N('archosaurs', 'Crocodiles and birds', 'Archosauria', 'archelosaurs');
+  N('crocodilians', 'Crocodilians', 'Crocodilia', 'archosaurs', Object.assign({ of: ['crocodile'] }, G));
+  N('birds', 'Birds', 'Aves', 'archosaurs');
+  N('palaeognaths', 'Ostriches and kin', 'Palaeognathae', 'birds', Object.assign({ of: ['ostrich'] }, G));
+  N('landfowl', 'Landfowl', 'Galliformes', 'birds', Object.assign({ of: ['turkey', 'peacock'] }, G));
+  N('neoaves', 'Neoaves', 'Neoaves', 'birds');
+  N('strisores', 'Swifts and hummingbirds', 'Apodiformes', 'neoaves', Object.assign({ of: ['hummingbird'] }, G));
+  N('mirandornithes', 'Flamingos and grebes', 'Mirandornithes', 'neoaves', Object.assign({ of: ['flamingo'] }, G));
+  N('gruiforms', 'Cranes and rails', 'Gruiformes', 'neoaves', Object.assign({ of: ['crane'] }, G));
+  N('shorebirds', 'Shorebirds and auks', 'Charadriiformes', 'neoaves', Object.assign({ of: ['puffin'] }, G));
+  N('waterbirds', 'Waterbirds', 'Aequornithes', 'neoaves', G);
+  N('suliforms', 'Gannets and boobies', 'Suliformes', 'waterbirds', { of: ['booby'] });
+  N('pelecaniforms', 'Pelicans, herons and ibises', 'Pelecaniformes', 'waterbirds', {
+    of: ['pelican', 'heron', 'egret', 'ibis', 'shoebill'],
+  });
+  N('telluraves', 'Land birds', 'Telluraves', 'neoaves');
+  N('afroaves', 'Afroaves', 'Afroaves', 'telluraves');
+  N('raptors', 'Raptors', 'Accipitriformes and Strigiformes', 'afroaves', G);
+  N('accipitriforms', 'Hawks and eagles', 'Accipitriformes', 'raptors', { of: ['eagle', 'hawk'] });
+  N('owls', 'Owls', 'Strigiformes', 'raptors', { of: ['owl'] });
+  N('piciforms', 'Toucans and woodpeckers', 'Piciformes', 'afroaves', Object.assign({ of: ['toucan'] }, G));
+  N('australaves', 'Parrots and songbirds', 'Psittacopasserae', 'telluraves', Object.assign({ of: ['parrot', 'raven'] }, G));
+
+  // mammals
+  N('mammals', 'Mammals', 'Mammalia', 'amniotes');
+  N('monotremes', 'Monotremes', 'Monotremata', 'mammals', Object.assign({ of: ['platypus'] }, G));
+  N('marsupials', 'Marsupials', 'Marsupialia', 'mammals', Object.assign({ of: ['kangaroo', 'opossum'] }, G));
+  N('placentals', 'Placental mammals', 'Placentalia', 'mammals');
+  N('xenarthrans', 'Sloths and armadillos', 'Xenarthra', 'placentals', Object.assign({ of: ['sloth', 'armadillo'] }, G));
+  N('euarchontoglires', 'Primates and rodents', 'Euarchontoglires', 'placentals');
+  N('primates', 'Primates', 'Primates', 'euarchontoglires', Object.assign({ of: ['human', 'orangutan', 'lemur', 'mandrill'] }, G));
+  N('glires', 'Rodents and hares', 'Glires', 'euarchontoglires', G);
+  N('rodents', 'Rodents', 'Rodentia', 'glires', { of: ['jerboa', 'mouse', 'porcupine'] });
+  N('hares', 'Hares', 'Lagomorpha', 'glires', { of: ['hare', 'black_hare'] });
+  N('laurasiatheres', 'Laurasiatheres', 'Laurasiatheria', 'placentals');
+  N('eulipotyphla', 'Hedgehogs and shrews', 'Eulipotyphla', 'laurasiatheres', Object.assign({ of: ['hedgehog'] }, G));
+  N('ungulates', 'Hoofed mammals and whales', 'Euungulata', 'laurasiatheres', G);
+  N('perissodactyls', 'Odd-toed hoofed mammals', 'Perissodactyla', 'ungulates', { of: ['zebra'] });
+  N('artiodactyls', 'Even-toed hoofed mammals', 'Artiodactyla', 'ungulates');
+  N('ruminants', 'Ruminants', 'Ruminantia', 'artiodactyls');
+  N('bovids', 'Bovids', 'Bovidae', 'ruminants', { of: ['yak', 'bison', 'oryx', 'ram'] });
+  N('deer', 'Deer', 'Cervidae', 'ruminants', { of: ['moose', 'deer'] });
+  N('whales', 'Whales', 'Cetacea', 'artiodactyls', { of: ['orca', 'narwhal'] });
+  N('ferae', 'Carnivores and pangolins', 'Ferae', 'laurasiatheres');
+  N('pangolins', 'Pangolins', 'Pholidota', 'ferae', Object.assign({ of: ['pangolin'] }, G));
+  N('carnivores', 'Carnivores', 'Carnivora', 'ferae');
+  N('feliforms', 'Cat-like carnivores', 'Feliformia', 'carnivores', G);
+  N('cats', 'Cats', 'Felidae', 'feliforms', { of: ['lynx', 'caracal', 'ocelot', 'tiger', 'cheetah'] });
+  N('hyenas', 'Hyenas', 'Hyaenidae', 'feliforms', { of: ['hyena'] });
+  N('caniforms', 'Dog-like carnivores', 'Caniformia', 'carnivores', G);
+  N('canids', 'Dog family', 'Canidae', 'caniforms', { of: ['fennec', 'fox', 'jackal', 'coyote', 'wolf'] });
+  N('musteloids', 'Weasel kin', 'Musteloidea', 'caniforms', { of: ['otter', 'badger', 'red_panda', 'raccoon'] });
+  N('pinnipeds', 'Seals and walruses', 'Pinnipedia', 'caniforms', { of: ['walrus'] });
+
+  /** Ways of life shared across the tree: a trait written for one names it as its `kin`. */
+  T.GUILDS = {
+    'Pack runners': {
+      why: 'Long-legged hunters that run prey down together: the dog family, and the hyenas, which are cat-like carnivores that came to the same life.',
+      of: ['fennec', 'fox', 'jackal', 'coyote', 'wolf', 'hyena'],
+    },
+    'Marine mammals': {
+      why: 'Mammals that went back to the sea: whales from the hoofed mammals, the walrus from the dog-like carnivores.',
+      of: ['walrus', 'orca', 'narwhal'],
+    },
+    'Armoured and slow': {
+      why: 'Diggers and curlers in armour or spines, from three branches of the mammals.',
+      of: ['sloth', 'armadillo', 'pangolin', 'hedgehog'],
+    },
+    Waders: {
+      why: 'Long-legged birds of the shallows, from the cranes, the pelican order and the flamingos.',
+      of: ['crane', 'heron', 'egret', 'ibis', 'shoebill', 'flamingo'],
+    },
+    Seabirds: {
+      why: 'Birds that live off the open sea, from the auks, the gannets and the pelicans.',
+      of: ['puffin', 'pelican', 'booby'],
+    },
+    'Armoured reptiles': {
+      why: 'Reptiles in plate and shell: the crocodiles and the turtles.',
+      of: ['crocodile', 'tortoise'],
+    },
+  };
+
+  /** The groups a clade sits in, from its own up to Living things. */
+  T.lineage = (sp) => {
+    const out = [];
+    let id = T.SPECIES[sp] && T.SPECIES[sp].taxon;
+    while (id) {
+      out.push(id);
+      id = T.TAXA[id].parent;
+    }
+    return out;
+  };
+  /** True when clade `sp` may carry a trait written for `kin`: a group it descends from, or a way of life it shares. */
+  T.inKin = (sp, kin) =>
+    T.lineage(sp).some((id) => T.TAXA[id].name === kin) || !!(T.GUILDS[kin] && T.GUILDS[kin].of.includes(sp));
+
+  // Place every clade: `taxon` is its own group, `branch` the group the pilot maker shows it under.
+  for (const id of T.TAXON_ORDER)
+    for (const sp of T.TAXA[id].of || []) {
+      if (!T.SPECIES[sp]) continue;
+      T.SPECIES[sp].taxon = id;
+      let g = id;
+      while (g && !T.TAXA[g].show) g = T.TAXA[g].parent;
+      T.SPECIES[sp].branch = g ? T.TAXA[g].name : T.TAXA[id].name;
+    }
 })(typeof window !== 'undefined' ? (window.T = window.T || {}) : (global.T = global.T || {}));
 
 
@@ -5013,7 +5287,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     TRACK: 6,                // track columns
     FACES: ['M','C','S','T','O','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP','AP'], // the plain die, a d20: each element once, 15 AP
     ELEMENT_DICE: 1,         // each card awakened (E 1+) puts one die of its element in the pool in place of a plain die (2.29)
-    FOE_HP: 180,             // foes' vitality, percent of the bestiary's (140 in 2.83: the chosen element die; 145 in 2.85; 150 in 2.108: weapons; 160 in 2.119: gear runs on Omni; 166 in 2.120: dice as AP; 180 since 2.122: instincts)
+    FOE_HP: 185,             // foes' vitality, percent of the bestiary's (140 in 2.83: the chosen element die; 145 in 2.85; 150 in 2.108: weapons; 160 in 2.119: gear runs on Omni; 166 in 2.120: dice as AP; 180 in 2.122: instincts; 185 since 2.144: fixed foe clades)
     HYBRID_FOES: 1,          // 2.134: every foe but the Spawners and the Heart is a hybrid of three clades with a hybrid card (src/engine/hybrids.js); 0 turns it off
     MOVE_AP: 1,              // AP per walk step
     INTERACT_AP: 2,
@@ -5180,6 +5454,14 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     { id: 'normal', max: 2.9,      name: 'Gravity',       text: '' },
     { id: 'heavy',  max: Infinity, name: 'Heavy gravity', text: 'Anything shoved or pulled takes 1 damage for each space it is moved.' },
   ];
+  /* The route's lanes are bands of gravity (Garrett, 2026-11-24): the top lane of the map is heavy country,
+     the middle about 1 g, the bottom light, 0.1 to 0.3 g. A stop keeps its page's own gravity when it fits
+     the lane, and otherwise is visited at one of the lane's `g`. Lane 0 is the top of the map. */
+  T.LANE_GRAVITY = [
+    { id: 'high', min: 3,   max: 6,   g: [3, 3.5, 4, 5, 6] },
+    { id: 'mid',  min: 0.8, max: 1.2, g: [0.8, 0.9, 1, 1.1, 1.2] },
+    { id: 'low',  min: 0.1, max: 0.3, g: [0.1, 0.2, 0.3] },
+  ];
   T.WEATHER = {
     calm: { name: 'Calm', text: '' },
     wind: { name: 'Wind', text: 'At the end of every round the wind moves every unit 1 space downwind, if a path leads there and the space is free. A shield, an anchor or a hover holds you; so does the Heart.' },
@@ -5240,38 +5522,40 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   /* ───────────────────────────── BESTIARY ───────────────────────────── */
   // Stats are indexed by tier [t1,t2,t3]. Intents are telegraphed at round start.
   // Enemies are built from the same verbs as heroes — no special rules.
+  // clades (2.144; Garrett, 2026-11-24): each creature is one kind of triple hybrid, always the same three clades, painted as one
+  // beast (assets/foe-art). The UI never names them: working out what a foe is from its painting and its moves is the puzzle.
   T.ENEMIES = {
-    biter:    { name:'Biter', glyph:'🦷', role:'swarm', hp:[3,4,5], speed:2, policy:'rush',
+    biter:    { name:'Biter', glyph:'🦷', role:'swarm', hp:[3,4,5], speed:2, policy:'rush', clades:['mouse','crocodile','beetle'],
       abilities:{ bite:{ n:'Bite', kind:'melee', dmg:[2,3,3] } },
       flavor:'Spawn of the Heart. One is nothing. Six are a swarm.' },
-    stinger:  { name:'Stinger', glyph:'🪡', role:'swarm', hp:[3,4,5], speed:1, policy:'shooter',
+    stinger:  { name:'Stinger', glyph:'🪡', role:'swarm', hp:[3,4,5], speed:1, policy:'shooter', clades:['scorpion','hummingbird','lionfish'],
       abilities:{ sting:{ n:'Sting', kind:'los', dmg:[2,3,3] } },
       flavor:'Keeps its zone and never closes.' },
-    brute:    { name:'Brute', glyph:'🦍', role:'bruiser', hp:[10,13,16], speed:1, policy:'brute',
+    brute:    { name:'Brute', glyph:'🦍', role:'bruiser', hp:[10,13,16], speed:1, policy:'brute', clades:['bison','walrus','mandrill'],
       abilities:{ slam:{ n:'Slam', kind:'melee', dmg:[5,6,7], push:1, aimed:true } },
       flavor:'Slow. Then not.' },
-    kiter:    { name:'Kiter', glyph:'🏹', role:'zoner', hp:[7,9,11], speed:2, policy:'kiter',
+    kiter:    { name:'Kiter', glyph:'🏹', role:'zoner', hp:[7,9,11], speed:2, policy:'kiter', clades:['cheetah','porcupine','mantis_shrimp'],
       abilities:{ shot:{ n:'Shot', kind:'los', dmg:[3,4,5] } },
       flavor:'Shoots, retreats, shoots. Deny it the zone.' },
-    warden:   { name:'Warden', glyph:'🗿', role:'guardian', hp:[12,15,18], speed:0, policy:'guardian', shield:[3,3,3], anchored:true,
+    warden:   { name:'Warden', glyph:'🗿', role:'guardian', hp:[12,15,18], speed:0, policy:'guardian', clades:['tortoise','pangolin','moose'], shield:[3,3,3], anchored:true,
       abilities:{ cleave:{ n:'Cleave', kind:'melee', dmg:[4,5,6] }, brace:{ n:'Brace', kind:'brace' } },
       flavor:'It does not move. You go around it or through it — Pierce or true damage; its shield stops area too.' },
-    lurker:   { name:'Lurker', glyph:'🫥', role:'ambusher', hp:[7,9,11], speed:2, policy:'lurker', hidden:true,
+    lurker:   { name:'Lurker', glyph:'🫥', role:'ambusher', hp:[7,9,11], speed:2, policy:'lurker', clades:['lynx','chameleon','octopus'], hidden:true,
       abilities:{ ambush:{ n:'Ambush', kind:'melee', dmg:[5,6,7], ambush:true }, creep:{ n:'Creep', kind:'move' } },
       flavor:'You will not see it until it is adjacent. Reveal it first.' },
-    binder:   { name:'Binder', glyph:'🕸️', role:'controller', hp:[7,9,11], speed:1, policy:'binder',
+    binder:   { name:'Binder', glyph:'🕸️', role:'controller', hp:[7,9,11], speed:1, policy:'binder', clades:['flytrap','eel','cordyceps'],
       abilities:{ bind:{ n:'Bind', kind:'los', dmg:[2,2,3], anchor:2 }, drain:{ n:'Drain', kind:'melee', dmg:[3,3,4], heal:2 } },
       flavor:'Roots you where it wants you. It still cannot stop you acting.' },
     spawner:  { name:'Spawner', glyph:'🫧', role:'structure', hp:[7,9,11], speed:0, policy:'spawner', anchored:true, spawnEvery:3, spawns:'biter',
       abilities:{ spawn:{ n:'Spawn', kind:'summon' } },
       flavor:'A node of the Heart. Kill it and the swarm thins.' },
-    bulwark:  { name:'Bulwark', glyph:'🛡️', role:'elite', elite:true, hp:[18,22,26], speed:1, policy:'bulwark', shield:[2,2,3],
+    bulwark:  { name:'Bulwark', glyph:'🛡️', role:'elite', elite:true, hp:[18,22,26], speed:1, policy:'bulwark', clades:['armadillo','ram','lobster'], shield:[2,2,3],
       abilities:{ crush:{ n:'Crush', kind:'melee', dmg:[5,6,7] }, quake:{ n:'Quake', kind:'area', dmg:[3,4,4] }, brace:{ n:'Brace', kind:'brace' } },
       flavor:'An elite. Its quake punishes clumping.' },
-    harrier:  { name:'Harrier', glyph:'🗡️', role:'elite', elite:true, hp:[12,15,18], speed:2, policy:'harrier', hidden:true,
+    harrier:  { name:'Harrier', glyph:'🗡️', role:'elite', elite:true, hp:[12,15,18], speed:2, policy:'harrier', clades:['narwhal','hawk','mantis'], hidden:true,
       abilities:{ lance:{ n:'Phase Lance', kind:'teleStrike', dmg:[5,6,7], reach:3 }, fade:{ n:'Fade', kind:'hide' } },
       flavor:'An elite. Blinks to your weakest hero. Anchor it or reveal it.' },
-    tidecaller:{ name:'Tidecaller', glyph:'🌊', role:'elite', elite:true, hp:[12,14,16], speed:1, policy:'tidecaller',
+    tidecaller:{ name:'Tidecaller', glyph:'🌊', role:'elite', elite:true, hp:[12,14,16], speed:1, policy:'tidecaller', clades:['orca','jellyfish','seahorse'],
       abilities:{ undertow:{ n:'Undertow', kind:'los', dmg:[2,3,3], pull:2 }, surge:{ n:'Surge', kind:'los', dmg:[4,5,6], weaken:1 } },
       flavor:'An elite. Drags you toward the hazard. Anchor yourself.' },
     rival:    { name:'Rival Pilot', glyph:'🧑‍🚀', role:'elite', elite:true, rival:true, hp:[15,18,22], speed:2, policy:'rival',
@@ -5603,6 +5887,20 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       quiet: ['{A} gnaws on a bone nobody else would have kept.', '{A} giggles in their sleep, which unsettles everyone except {B}.'],
       onward: ['"{PLACE}," {A} says. "Long way. Fine. I walk."', '"{THREAT} will be tired by the end," {A} says. "I will not."'],
       reply: ['{A} giggles.', '"Hm," {A} says, chewing.', '{A} whoops softly.'],
+    },
+    wolf: {
+      win: ['{A} lifts their head and howls once, long and low. Somewhere far off, something answers.', '"Together," {A} says. "That is the only way it ever goes down."'],
+      close: ['{A} walks the edge of camp twice before lying down, counting heads.', '"We split up," {A} says. "We do not split up again."'],
+      quiet: ['{A} sleeps with their back against {B}\'s, one ear always turning.', '{A} sits apart for a while, watching the dark, then comes back to the fire.'],
+      onward: ['"{PLACE}," {A} says, and sets a pace everyone can hold for days.', '"{THREAT} is big," {A} says. "So we tire it first. Then we take it."'],
+      reply: ['{A} huffs.', '"Agreed," {A} says, and means the whole pack.', '{A} bumps {B}\'s shoulder with theirs.'],
+    },
+    raccoon: {
+      win: ['{A} turns something shiny over and over in their fingers. "Mine now. Spoils."', '"Did you see how I opened that?" {A} asks. "Nobody else could have opened that."'],
+      close: ['{A} washes their hands in the nearest water, carefully, until they stop shaking.', '"Too many eyes on us," {A} says. "Next time, we come in from the roof."'],
+      quiet: ['{A} has the camp lockbox open again and swears they did not touch it.', '{A} rinses every bit of supper before eating it, one piece at a time.'],
+      onward: ['"{PLACE}," {A} says. "Good. New lids, new latches."', '"{THREAT}?" {A} pulls their mask down, so to speak. "Everything has a way in."'],
+      reply: ['{A} chitters.', '"Sure, sure," {A} says, fiddling with a buckle.', '{A} pockets something of {B}\'s, then hands it back.'],
     },
     otter: {
       win: ['{A} floats on their back, pleased with themselves. "That went well."', '"Teamwork," {A} says, and holds out a paw for {B} to hold.'],
@@ -7004,13 +7302,19 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
   /**
    * What the place is like on this visit: its gravity band, and a weather drawn from the page's skies
    * (with the wind's direction: +1 blows toward the far edge, E; -1 toward where you arrive, A).
-   * Plain data, kept on the mission. A page without skies, or no page, is calm.
+   * Plain data, kept on the mission. A page without skies, or no page, is calm. `g` is the gravity of this
+   * visit in g: the route's lane gives it (T.LANE_GRAVITY), and a mission off the route has its page's own.
    */
-  T.placeConditions = function (page, rng) {
+  T.placeConditions = function (page, rng, g) {
     const weather = page && page.skies && page.skies.length ? rng.pick(page.skies) : 'calm';
     const wind = weather === 'wind' ? rng.pick([1, -1]) : 0;
-    return { gravity: page ? T.gravityBand(page.gravity) : 'normal', weather, wind };
+    if (g == null) g = page ? page.gravity : 1;
+    return { gravity: T.gravityBand(g), g, weather, wind };
   };
+  /** Which gravity lane (T.LANE_GRAVITY) the c-th of k stops in a route row stands in: 0 top, 1 middle, 2 bottom. */
+  T.laneOf = (c, k) => (k <= 1 ? 1 : Math.round((2 * c) / (k - 1)));
+  /** Whether g lies in a lane's band. */
+  T.fitsLane = (g, lane) => g >= T.LANE_GRAVITY[lane].min && g <= T.LANE_GRAVITY[lane].max;
   T.boardUtil = { gridBoard, addHeight, pick, shuffle, pageBoard, boardFor };
 
   /* ───────────────────────────── MISSION ARCHETYPES ───────────────────────────── */
@@ -11197,8 +11501,8 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
 
    • A foe is still its role (Biter, Brute, Warden, ...): its body, vitality, speed and the ability its
      policy plays. On top of that, each foe that comes onto the board is a hybrid of three clades, none
-     human, drawn when it spawns from a stream of the mission's own ('hybrid'), and carries a hybrid card
-     like a pet's: one trait from each clade, the trait's Physical face (P, P2, P3) and its Ethereal face
+     human: its kind's own three (T.ENEMIES[type].clades, since 2.144), and carries a hybrid card
+     like a pet's: one trait from each clade, drawn when it spawns from a stream of the mission's own ('hybrid'), the trait's Physical face (P, P2, P3) and its Ethereal face
      (E, E2, E3).
    • The foe plays a face of its card as an intent, telegraphed like any other, then the card cools:
      it is back after the face's cooldown and one round more, so the role's own ability comes between.
@@ -11298,9 +11602,13 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const rng = T.stream(m.rngs, 'hybrid');
     const rival = !!T.ENEMIES[e.type].rival;
     // a rival pilot is what a pilot is: human and two clades (2.135; Garrett: "you can also put the players up against other Non player characters")
+    // a creature is its kind's three clades (T.ENEMIES[type].clades, painted as one beast; 2.144), its traits drawn from them
+    const kind = T.ENEMIES[e.type].clades;
     const species = rival
       ? ['human'].concat(rng.shuffle(T.SPECIES_ORDER.filter((sp) => sp !== 'human')).slice(0, 2))
-      : rng.shuffle(T.SPECIES_ORDER.filter((sp) => sp !== 'human')).slice(0, 3);
+      : kind
+        ? kind.slice()
+        : rng.shuffle(T.SPECIES_ORDER.filter((sp) => sp !== 'human')).slice(0, 3);
     const traits = [];
     for (const sp of species) {
       const pool = T.cardsOf(sp).filter((c) => !traits.includes(c.id) && usable(c));
@@ -11932,7 +12240,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const selfOk = !busy || e.hp <= e.maxHp / 2;
     const near = (c) => dist(m, e.pos, c.pos);
     const low = (list) => list.slice().sort((a, b) => a.hp - b.hp || a.uid - b.uid)[0];
-    for (const { key, ab, sp } of T.foeHybridFaces(e)) {
+    for (const { key, ab } of T.foeHybridFaces(e)) {
       let t = null;
       let ok = false;
       if (ab.kind === 'melee') {
@@ -11949,7 +12257,6 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       else if (ab.kind === 'mend') ok = e.maxHp - e.hp >= ab.heal;
       else if (ab.kind === 'veil') ok = !T.isHidden(e) && zoneTargets(m, e).length > 0;
       if (!ok) continue;
-      const kin = T.SPECIES[sp] ? T.SPECIES[sp].name : sp;
       const extra =
         ab.kind === 'ward'
           ? `(Shield ${ab.ward})`
@@ -11963,7 +12270,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         hy: true,
         target: t ? t.uid : null,
         targetName: t ? t.name : null,
-        label: `${ab.n} [${kin}]${t ? ' → ' + t.name : ''} ${extra}`,
+        label: `${ab.n}${t ? ' → ' + t.name : ''} ${extra}`,
         dmg: ab.dmg || 0,
         kind: ab.kind,
       };
@@ -13999,30 +14306,41 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
    * Give every stop that is played on a board its atlas page, from the ground of its leg (src/data/atlas.js),
    * drawn from a stream of its own ('atlas'): not the page of a stop that leads to it, nor of another stop in its
    * row, while the ground has another page to give (the arriving stops come first). Havens and events stay off the board.
+   * The map's lanes are bands of gravity (T.LANE_GRAVITY): a page whose own gravity fits the stop's lane is
+   * picked first, and a stop on a page that does not fit is visited at one of its lane's gravities (stream 'gravity').
+   * Each stop keeps its gravity in `g`.
    */
   T.chartPages = function (run) {
     const rng = T.runStream(run, 'atlas');
     const all = run.map.all;
+    const gOf = (n, lane) => {
+      const own = T.PAGE_BY[n.page].gravity;
+      n.g = T.fitsLane(own, lane) ? own : T.runStream(run, 'gravity').pick(T.LANE_GRAVITY[lane].g);
+    };
     run.map.rows.forEach((row, r) => {
       const ground = T.groundAt(run, r);
       const pages = T.ATLAS.filter((p) => !ground || p.ground === ground).map((p) => p.id);
       const used = [];
-      row.forEach((id) => {
+      row.forEach((id, c) => {
         const n = all[id];
         if (n.type === 'haven' || n.type === 'event') return;
+        const lane = T.laneOf(c, row.length);
+        const fits = (ids) => ids.filter((p) => T.fitsLane(T.PAGE_BY[p].gravity, lane));
         if (T.MISSIONS[n.type] && T.MISSIONS[n.type].big) {
           // a big-map mission goes on a big page, of the leg's ground if there is one, from a stream of its own
           const big = T.BIG_ATLAS.filter((p) => p.ground === ground);
           n.page = T.runStream(run, 'bigmap').pick((big.length ? big : T.BIG_ATLAS).map((p) => p.id));
-          return;
+          return gOf(n, lane);
         }
         const before = Object.values(all)
           .filter((m) => m.next.includes(id))
           .map((m) => m.page);
         const fresh = pages.filter((p) => !before.includes(p) && !used.includes(p));
         const notBefore = pages.filter((p) => !before.includes(p));
-        n.page = rng.pick(fresh.length ? fresh : notBefore.length ? notBefore : pages);
+        const choice = [fits(fresh), fresh, fits(notBefore), notBefore, pages].find((l) => l.length);
+        n.page = rng.pick(choice);
         used.push(n.page);
+        gOf(n, lane);
       });
     });
   };
@@ -14812,7 +15130,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     T.scaleSpec(spec, sc, T.squadSize(run), T.makeRng(T.subSeed(seed, 'squad')));
     spec.page = pageId;
     // the day's weather has a stream of its own, so the board and its foes are the same whatever the sky
-    spec.place = T.placeConditions(T.PAGE_BY[pageId], T.makeRng(T.subSeed(seed, 'place')));
+    // the stop's lane on the route gives its gravity (T.chartPages); on its own the page keeps its own
+    const g = node && node.g != null && node.page === pageId ? node.g : null;
+    spec.place = T.placeConditions(T.PAGE_BY[pageId], T.makeRng(T.subSeed(seed, 'place')), g);
     spec.title = board.pick(gen.title);
     spec.blurb = gen.blurb;
     // the vehicles the players picked for it (T.pickVehicle), or the ones the table would pick by default
@@ -14899,6 +15219,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       type,
       tier,
       page: spec.page,
+      g: spec.place.g,
       elite,
       title: spec.title,
       blurb: spec.blurb,
@@ -16441,6 +16762,12 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       'M3 3 7 7 17 7 21 3 22 13 12 20 2 13zM7.3 12 8.5 10.8 9.7 12 8.5 13.2zM14.3 12 15.5 10.8 16.7 12 15.5 13.2z',
       'M9 20 15 20 14 23 10 23z',
     ],
+    'clade.wolf':
+      'M3 22 4 13 6 7 6 1 9 5 11 4 13 0.5 14 6 17 8 23 11 22 13.5 16 14 14 22zM13.1 8.5 14 7.6 14.9 8.5 14 9.4z',
+    'clade.raccoon': [
+      'M2 3 7 4 9 6 15 6 17 4 22 3 21 11 14 18 12 19 10 18 3 11zM4.5 10 10 8.8 10.8 12.2 6 12.8zM19.5 10 14 8.8 13.2 12.2 18 12.8z',
+      'M10.5 19.5 13.5 19.5 12 21.5z',
+    ],
     'clade.walrus': [
       'M4 4 20 4 22 12 18 15 6 15 2 12zM6.8 8 8 6.8 9.2 8 8 9.2zM14.8 8 16 6.8 17.2 8 16 9.2z',
       'M8 14 10.5 14 9.5 23z',
@@ -16778,7 +17105,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       'lobster',
       'mantis_shrimp',
     ],
-    ['beetle', 'butterfly', 'firefly', 'mantis', 'scorpion'],
+    ['beetle', 'butterfly', 'firefly', 'mantis', 'scorpion', 'wolf', 'raccoon'],
   ];
   const PORTRAIT = {};
   U.PORTRAIT_SHEETS.forEach((ids, s) => ids.forEach((id, i) => (PORTRAIT[id] = { sheet: s + 1, i, n: ids.length })));
@@ -16926,6 +17253,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     ['man_flower.P', 'man_flower.E', 'man_head.P', 'man_head.E', 'man_still.P', 'man_still.E', 'man_strike.P', 'man_strike.E', 'man_sway.P'],
     ['man_sway.E', 'man_wings.P', 'man_wings.E', 'sco_brood.P', 'sco_brood.E', 'sco_burrow.P', 'sco_burrow.E', 'sco_glow.P', 'sco_glow.E'],
     ['sco_pincers.P', 'sco_pincers.E', 'sco_sense.P', 'sco_sense.E', 'sco_sting.E'],
+    ['wol_relay.P', 'wol_relay.E', 'wol_test.P', 'wol_test.E', 'wol_scent.P', 'wol_scent.E', 'wol_harry.P', 'wol_harry.E', 'wol_pair.P'],
+    ['wol_pair.E', 'rac_paws.P', 'rac_paws.E', 'rac_latch.P', 'rac_latch.E', 'rac_mask.P', 'rac_mask.E', 'rac_hands.P', 'rac_hands.E'],
+    ['rac_wash.P', 'rac_wash.E', 'rac_climb.P', 'rac_climb.E'],
   ];
   const AT = {};
   U.ABILITY_SHEETS.forEach((keys, s) => keys.forEach((k, i) => (AT[k] = { sheet: s + 1, i })));
@@ -18073,11 +18403,13 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       const pg = nd.page && T.PAGE_BY[nd.page];
       const plate = type === 'boss' ? (ex ? ex.legs[2].scene : null) : pg ? pg.plate : null;
       const art = U.artClass(plate);
+      // the gravity of this visit: the stop's lane on the map (T.chartPages), or its page's own
+      const gv = pg ? (nd.g != null ? nd.g : pg.gravity) : null;
       const done = how[nd.id] ? `<div class="small ok" style="margin-top:4px">✓ ${esc(how[nd.id])}</div>` : '';
       const tip =
         (T.MISSIONS[type]
           ? (pg
-              ? `<div class="tip-plate ${art}"></div><b>${esc(pg.name)}</b> <span class="dim">· ${U.gravityText(pg.gravity)}</span><div>${esc(pg.blurb)}</div><div class="small" style="margin-top:4px"><b>${type === 'boss' ? esc(T.threatTitle(run)) : NODE_NAME[type]}</b>${type === 'haven' || type === 'event' ? '' : ' · tier ' + nd.tier}: `
+              ? `<div class="tip-plate ${art}"></div><b>${esc(pg.name)}</b> <span class="dim">· ${U.gravityText(gv)}</span><div>${esc(pg.blurb)}</div><div class="small" style="margin-top:4px"><b>${type === 'boss' ? esc(T.threatTitle(run)) : NODE_NAME[type]}</b>${type === 'haven' || type === 'event' ? '' : ' · tier ' + nd.tier}: `
               : `<b>${type === 'boss' ? esc(T.threatTitle(run)) : NODE_NAME[type]}</b> · tier ${nd.tier}<div class="small">`) +
             esc(T.MISSIONS[type].blurb) +
             '</div>' +
@@ -18099,7 +18431,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         tip,
         name,
         icon: NODE_ICON[type],
-        sub: sub || tier ? `${sub ? sub + ' ' : ''}${tier}${pg && type !== 'boss' ? pullTag(pg.gravity) : ''}` : '',
+        sub: sub || tier ? `${sub ? sub + ' ' : ''}${tier}${pg && type !== 'boss' ? pullTag(gv) : ''}` : '',
       };
     };
     return U.renderOverworld(run, { stop });
@@ -18186,7 +18518,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const art = U.artClass(plate);
     const go = `<button class="primary sm sc-go" data-act="goNode" data-arg="${id}">${p.type === 'haven' ? 'Make camp' : p.type === 'event' ? 'Take this road' : 'Set out'} ▶</button>`;
     const name = p.type === 'boss' ? esc(T.threatTitle(run)) : pg ? esc(pg.name) : NODE_NAME[p.type];
-    const head = `<div class="sc-head"><span class="sc-ic">${NODE_ICON[p.type]}</span><span class="sc-nm"><b>${name}</b><span class="dim small">${NODE_NAME[p.type]}${T.MISSIONS[p.type] ? ` · tier <span class="tier">${'◆'.repeat(p.tier)}</span>` : ''}${pg ? ' · ' + U.gravityText(pg.gravity) : ''}</span></span></div>`;
+    const head = `<div class="sc-head"><span class="sc-ic">${NODE_ICON[p.type]}</span><span class="sc-nm"><b>${name}</b><span class="dim small">${NODE_NAME[p.type]}${T.MISSIONS[p.type] ? ` · tier <span class="tier">${'◆'.repeat(p.tier)}</span>` : ''}${pg ? ' · ' + U.gravityText(p.g != null ? p.g : pg.gravity) : ''}</span></span></div>`;
     if (!T.MISSIONS[p.type]) {
       const what =
         p.type === 'haven'
@@ -20977,83 +21309,42 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     return 'MCST'[h % 4];
   };
   /**
-   * A foe of Tumult (2.132): a beast born on the planet, not a creature of the void. A foe with clades
-   * (e.clades, three of them since foes became triple hybrids) shows its lead clade's painted head in a ring the
-   * colour of danger, its other two heads beside it; a foe without them shows the painting of its role
-   * (assets/foe-art) when the page has it, else the old wireframe body. The classes .bd and .live keep the
-   * blow, the hit and the wither of every other foe. Only a look: no rule reads it.
+   * A foe of Tumult (2.132): a beast born on the planet, not a creature of the void. Each kind of creature is one
+   * triple hybrid (T.ENEMIES[type].clades), painted as a single beast (assets/foe-art/<type>, 2.144) in a ring the
+   * colour of danger. Never its three clades side by side (Garrett, 2026-11-24: "that is like showing people the
+   * solution and no puzzle"). A rival pilot (e.rival) shows the painted pilot nearest its pair, as a pilot of the
+   * squad would; a foe with no painting shows the old wireframe body. The classes .bd and .live keep the blow, the
+   * hit and the wither of every other foe. Only a look: no rule reads it.
    */
   const ring = (e) => (e.boss ? '#FFD36B' : e.rival ? '#C58BFF' : e.elite ? '#FFB347' : RED);
-  function headAt(sp, cx, cy, r, id) {
-    const p = U.portraitOf && U.portraitOf(sp);
-    const href = p && T.ART && T.ART['portrait/sheet-' + p.sheet];
-    if (!href) {
-      const ic = (T.SPECIES[sp] && T.SPECIES[sp].icon) || '?';
-      return `<circle cx="${f1(cx)}" cy="${f1(cy)}" r="${f1(r)}" fill="${DARK}"/><text x="${f1(cx)}" y="${f1(cy + r * 0.36)}" font-size="${f1(r * 1.1)}" text-anchor="middle">${ic}</text>`;
-    }
-    const rows = Math.ceil(p.n / 4);
-    const col = p.i % 4,
-      row = Math.floor(p.i / 4);
-    return (
-      `<clipPath id="${id}"><circle cx="${f1(cx)}" cy="${f1(cy)}" r="${f1(r)}"/></clipPath>` +
-      `<g clip-path="url(#${id})"><svg x="${f1(cx - r)}" y="${f1(cy - r)}" width="${f1(2 * r)}" height="${f1(2 * r)}" viewBox="${col * 128 + 6} ${row * 128 + 6} 116 116"><image href="${href}" width="512" height="${rows * 128}"/></svg></g>`
-    );
-  }
   let beastN = 0;
-  function beast(e, clades, w, o) {
-    const h = w * 0.86;
-    const pos = o.x != null ? ` x="${f1(o.x - w / 2)}" y="${f1(o.y - h / 2)}"` : '';
-    const n = ++beastN;
-    const R = 34,
-      r = 15,
-      col = ring(e);
-    const [lead, ...rest] = clades;
-    const sides = rest.slice(0, 2).map((sp, i) => {
-      const cx = i ? 82 : 18,
-        cy = 62;
-      return `<circle cx="${cx}" cy="${cy}" r="${r + 2.5}" fill="${DARK}" stroke="${col}" stroke-width="2"/>${headAt(sp, cx, cy, r, `bh${n}s${i}`)}`;
-    });
-    // a rival pilot (e.rival) leads with the painted pilot of its two clades, as a pilot of the squad would
-    const pilot = e.rival && U.artForPair && U.artForPair(rest.slice(0, 2), new Set());
-    const face = pilot && T.ART && T.ART['pilot/' + pilot.key];
-    const leadImg = face
-      ? `<clipPath id="bh${n}m"><circle cx="50" cy="40" r="${R}"/></clipPath><image href="${face}" x="${50 - R}" y="${40 - R}" width="${2 * R}" height="${2 * R}" clip-path="url(#bh${n}m)" preserveAspectRatio="xMidYMid slice"/>`
-      : headAt(lead, 50, 40, R, `bh${n}m`);
-    const live =
-      `<circle cx="50" cy="40" r="${R + 4}" fill="${DARK}" stroke="${col}" stroke-width="3.2"/>` +
-      leadImg +
-      `<circle cx="50" cy="40" r="${R}" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>` +
-      sides.join('');
-    return (
-      `<svg class="cr cr-beast${e.boss ? ' boss' : ''}${o.cls ? ' ' + o.cls : ''}"${pos} width="${f1(w)}" height="${f1(h)}" viewBox="0 0 100 86" overflow="visible" aria-hidden="true">` +
-      `<g class="bd" style="transform-origin:50px 40px"><g class="live">${live}</g></g></svg>`
-    );
-  }
-  function rolePainting(e, w, o) {
-    const href = T.ART && T.ART['foe-art/' + e.type];
-    if (!href) return '';
+  function painting(e, href, w, o) {
     const h = w * 0.86;
     const pos = o.x != null ? ` x="${f1(o.x - w / 2)}" y="${f1(o.y - h / 2)}"` : '';
     const id = 'fr' + ++beastN;
     return (
-      `<svg class="cr cr-beast cr-role${o.cls ? ' ' + o.cls : ''}"${pos} width="${f1(w)}" height="${f1(h)}" viewBox="0 0 100 86" overflow="visible" aria-hidden="true">` +
+      `<svg class="cr cr-beast cr-role${e.boss ? ' boss' : ''}${o.cls ? ' ' + o.cls : ''}"${pos} width="${f1(w)}" height="${f1(h)}" viewBox="0 0 100 86" overflow="visible" aria-hidden="true">` +
       `<g class="bd" style="transform-origin:50px 43px"><g class="live"><clipPath id="${id}"><circle cx="50" cy="43" r="40"/></clipPath>` +
       `<circle cx="50" cy="43" r="43" fill="${DARK}" stroke="${ring(e)}" stroke-width="3.2"/>` +
-      `<image href="${href}" x="10" y="3" width="80" height="80" clip-path="url(#${id})" preserveAspectRatio="xMidYMid slice"/></g></g></svg>`
+      `<image href="${href}" x="6" y="-1" width="88" height="88" clip-path="url(#${id})" preserveAspectRatio="xMidYMid slice"/></g></g></svg>`
     );
   }
-  /** The clades a foe is drawn from: its own (e.clades), painted ones first in their order, never an empty list. */
-  U.foeClades = (e) => (Array.isArray(e && e.clades) ? e.clades.filter((sp) => T.SPECIES[sp]) : []);
-  U.foeArt = (e, w, o = {}) => {
-    const cl = U.foeClades(e);
-    if (cl.length && T.ART) {
-      // a rival pilot's human third shows beside the beasts' heads, never as the lead
-      const lead = e.rival
-        ? cl.filter((sp) => sp === 'human').concat(cl.filter((sp) => sp !== 'human'))
-        : cl.filter((sp) => sp !== 'human').concat(cl.filter((sp) => sp === 'human'));
-      return beast(e, lead, w, o);
+  /** The painting a foe wears: its kind's beast, or for a rival pilot the pilot of its pair (or nothing). */
+  U.foePainting = (e) => {
+    if (!T.ART || !e) return '';
+    if (e.rival && Array.isArray(e.clades) && U.artForPair) {
+      const pilot = U.artForPair(
+        e.clades.filter((sp) => sp !== 'human' && T.SPECIES[sp]),
+        new Set(),
+      );
+      const face = pilot && T.ART['pilot/' + pilot.key];
+      if (face) return face;
     }
-    return rolePainting(e, w, o) || U.creature(e.type, U.formOf(e), w, o);
+    return T.ART['foe-art/' + e.type] || '';
+  };
+  U.foeArt = (e, w, o = {}) => {
+    const href = U.foePainting(e);
+    return href ? painting(e, href, w, o) : U.creature(e.type, U.formOf(e), w, o);
   };
   /** How wide a foe's body is drawn on the board, in board units (a node's cell is 118). */
   U.foeWidth = (e) =>
@@ -21396,10 +21687,12 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     // drag and wheel move the view on a PC; − / % / + anywhere (src/ui/show.js)
     if (U.cameraOn) U.cameraOn(host, svg, g.W, g.H);
   }
-  /** A hybrid foe's clades and the faces of its card it can play (src/engine/hybrids.js). */
+  /**
+   * A hybrid foe's level and the faces of its card it can play (src/engine/hybrids.js). Never its clades (Garrett,
+   * 2026-11-24): what a foe is made of is for the player to work out from its painting and its moves.
+   */
   function hybridTip(e) {
     if (!e.hy || !e.clades) return '';
-    const kin = e.clades.map((sp) => (T.SPECIES[sp] ? T.SPECIES[sp].name : sp)).join(' · ');
     const faces = T.foeHybridFaces(e)
       .slice()
       .reverse()
@@ -21409,7 +21702,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       )
       .join('');
     const cd = e.hy.cd > 0 ? ` · card back in ${e.hy.cd}` : ' · card ready';
-    return `<div style="margin-top:4px" class="small"><b>Hybrid</b> ${esc(kin)} <span class="dim mono">· level ${e.hy.level} (P${e.hy.P} E${e.hy.E})${cd}</span></div>${faces}`;
+    return `<div style="margin-top:4px" class="small"><b>Triple hybrid</b> <span class="dim mono">· level ${e.hy.level} (P${e.hy.P} E${e.hy.E})${cd}</span></div>${faces}`;
   }
   function tipFor(id) {
     const m = M();
@@ -21683,7 +21976,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       `<div class="topbar"><div class="mhead"><div class="kickrow"><span class="kick">${esc(m.archetype === 'boss' ? 'Finale' : m.archetype === 'elite' ? 'Elite' : 'Mission')} · tier ${m.tier}${m.page && T.PAGE_BY[m.page] ? ` · <button class="linkish" data-act="atlasHere" data-tip="This place in the atlas: its board, its rules and its field notes">${esc(T.PAGE_BY[m.page].name)}</button>` : ''}</span>${condsChip}</div><h3 style="margin:0">${esc(m.title)}</h3>
       <div class="obj${U.layout.obj ? ' open' : ''}" data-act="fold" data-arg="obj" title="${U.layout.obj ? 'Click to fold the objective to two lines' : 'Click to read the whole objective'}"><div class="obj-txt"><b>Objective:</b> ${esc(ob.text)}</div><div class="small dim obj-bonus"><span class="obj-bar" style="--p:${Math.round(100 * T.objectiveProgress(m))}%"><i></i></span><span class="pill obj-prog${U.ms.obJust > Date.now() ? ' just' : ''}" style="--p:${Math.round(100 * T.objectiveProgress(m))}%" data-tip="How far the objective has come">${prog}</span> ${m.bonus.map((b) => '<span class="bonus">○ ' + esc(b.text) + '</span>').join(' ')}</div></div></div>
       <div class="tpills">${clock}${airPill(m)}${U.purseHTML(m, true)}</div>
-      <div class="endgrp${noteOpen ? ' note-open' : ''}"><div class="endrow">${undoBtn(m)}<button class="ghost sm note-btn${noteOpen ? ' on' : ''}" data-act="noteOpen" aria-expanded="${noteOpen}" aria-label="Write a line of story" data-tip="Give this turn a line of story">✎</button>${menuBtn}<button class="primary endbtn" data-act="endRound" ${m.over ? 'disabled' : ''}>${U.endRoundLabel ? U.endRoundLabel() : 'End Round ▶'}</button></div><div class="turnline small">${turnLine(U.run)}</div>${noteBox(m)}${menu}</div></div>`,
+      <div class="endgrp${noteOpen ? ' note-open' : ''}"><div class="endrow">${undoBtn(m)}<button class="ghost sm note-btn${noteOpen ? ' on' : ''}" data-act="noteOpen" aria-expanded="${noteOpen}" aria-label="Write a line of story" data-tip="Give this turn a line of story">✎</button>${U.musicBtnHTML ? U.musicBtnHTML('ghost sm sh-music') : ''}${menuBtn}<button class="primary endbtn" data-act="endRound" ${m.over ? 'disabled' : ''}>${U.endRoundLabel ? U.endRoundLabel() : 'End Round ▶'}</button></div><div class="turnline small">${turnLine(U.run)}</div>${noteBox(m)}${menu}</div></div>`,
     );
     const end2 = $('#mend2');
     if (end2) {
@@ -21790,6 +22083,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       const a = m.heroes.find((x) => x.uid === tg.ally);
       txt += ` For ${esc(a ? a.name : 'your ally')}: click another pilot to choose them instead.`;
     } else if (ms.mode === 'choice') txt = `<b>${esc(ms.pending.label)}</b> — push or pull?`;
+    else if (ms.mode === 'pay') txt = `<b>${esc(ms.pending.label)}</b> — pay with what?`;
     else if (ms.mode === 'reroll') txt = `<b>Reroll</b> — click up to ${ms.rerollLeft} banked dice, then confirm.`;
     else if (ms.mode === 'freeMove') txt = `<b>Free step</b> — click a highlighted node (up to ${ms.freeN}).`;
     else if (ms.mode === 'dump') txt = `<b>Return a die</b> — click a banked die to send it back to the pool.`;
@@ -21797,7 +22091,32 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       txt = (ms.asAPPicked || []).length
         ? `<b>Dice as AP</b> — now click a second etherion: the two make 1 AP.`
         : `<b>Dice as AP</b> — click an Omni (1 AP), or two etherions, the same or different (1 AP together).`;
-    el.innerHTML = `<div class="targeting">${txt}<span class="right row">${allyBtns}${ms.mode === 'choice' ? '<button class="sm primary" data-act="choice" data-arg="push">Push</button><button class="sm primary" data-act="choice" data-arg="pull">Pull</button>' : ''}${ms.mode === 'reroll' ? '<button class="sm primary" data-act="rerollConfirm">Confirm</button>' : ''}<button class="sm ghost" data-act="cancelMode">${ms.mode === 'freeMove' || ms.mode === 'reroll' ? 'Skip' : 'Cancel'}</button></span></div>`;
+    el.innerHTML = `<div class="targeting">${txt}<span class="right row">${allyBtns}${ms.mode === 'choice' ? '<button class="sm primary" data-act="choice" data-arg="push">Push</button><button class="sm primary" data-act="choice" data-arg="pull">Pull</button>' : ''}${ms.mode === 'pay' ? payBtns(ms.pending) : ''}${ms.mode === 'reroll' ? '<button class="sm primary" data-act="rerollConfirm">Confirm</button>' : ''}<button class="sm ghost" data-act="cancelMode">${ms.mode === 'freeMove' || ms.mode === 'reroll' ? 'Skip' : 'Cancel'}</button></span></div>`;
+  }
+  /** The ways of paying for a merged basic action, as buttons: its AP, or the die it channels and what it adds. */
+  function payBtns(p) {
+    const heads = {};
+    p.ways.forEach((id) => {
+      const b = T.BASIC_BY[id];
+      if (!heads[b.n]) heads[b.n] = basicVariants(id)[0];
+    });
+    return p.ways
+      .map((id) => {
+        const b = T.BASIC_BY[id];
+        const head = heads[b.n];
+        const cost = b.el
+          ? `${U.ic('el.' + b.el, b.el)} ${EL[b.el].name} or Omni${b.ap ? ' + ' + b.ap + ' AP' : ''}`
+          : `${b.ap} AP`;
+        // what a way of paying adds beyond the action itself (Brace channelled with Time also Hastes)
+        const plain = (t) => t.replace(/^Channel \w+: /, '').replace(/\.$/, '');
+        const hp = plain(head.txt).toLowerCase();
+        const bp = plain(b.txt);
+        const rest =
+          b !== head && bp.toLowerCase().startsWith(hp) ? bp.slice(hp.length).replace(/^,?\s*(and\s+)?/, '') : '';
+        const extra = rest ? ` <span class="small">+ ${esc(rest.split(':')[0])}</span>` : '';
+        return `<button class="sm primary pay-way" data-act="payWith" data-arg="${id}" data-tip="${esc(b.txt)}">${cost}${extra}</button>`;
+      })
+      .join('');
   }
   function hintText(m) {
     const h = hero();
@@ -22208,9 +22527,9 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         .map((f, di) =>
           U.dieHTML(
             f,
-            ((canPickDie && sel) || (asAPing && (f === 'O' || T.AS_AP.includes(f))) ? 'pick' : '') +
+            ((canPickDie && sel) || (asAPing && (f === 'O' || T.AS_AP.includes(f))) ? 'die-pick' : '') +
               ((U.ms.rerollPicked.includes(di) || (asAPing && (U.ms.asAPPicked || []).includes(di))) && sel
-                ? ' rolled'
+                ? ' die-chosen'
                 : ''),
             T.heldKind(h, di),
             `data-act="die" data-arg="${i}|${di}" ${tilt(di)}`,
@@ -22314,59 +22633,71 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const canRally = !h.downed && down && down.downed && B.adjacent(m.board, h.pos, down.pos) && T.apValue(h) >= 2;
     const canValve = !h.downed && ['M', 'C', 'S', 'T'].every((f) => h.held.includes(f));
     const canAsAP = !m.over && T.apSpends(h).length > 0;
-    // the four basic actions used most stay in view; the rest (and the channelled ones) wait behind More
-    const MAIN = ['strike', 'brace', 'shove', 'spot'];
-    const basicBtn = (b) => {
-      const ok = !m.over && T.canUseBasic(m, h, b.id).ok;
-      if (b.el && !ok) return ''; // a channelled action shows only while its etherion is in the bank
-      const tip = b.el
-        ? `${b.n}, channelled (${b.ap ? b.ap + ' AP + ' : ''}1 ${EL[b.el].name} or Omni${b.ap ? '' : ', no AP'}): ${b.txt}`
-        : `${b.n} (${b.ap} AP): ${b.txt} Anyone can do this, any number of times.`;
-      const mark = b.el ? ` <span style="color:${EL[b.el].color}">+◆</span>` : '';
-      return `<button class="sm" data-act="basic" data-arg="${i}|${b.id}" ${ok ? '' : 'disabled'} data-tip="${esc(esc(tip) + U.kwGloss(b.txt))}">${U.icBasic(b)} ${esc(b.n)}${mark}${b.ap || !b.el ? ` <span class="acost">${b.ap}</span>` : ''}</button>`;
+    const canDump = !m.over && !h.downed && h.held.length > 0;
+    // every action this pilot can take now stands in view; what it cannot take waits behind the fold (2.143).
+    // One action paid for in more than one way (Strike for 2 AP, or channelled with a Mass) is one button: a
+    // second click on the bar above the board chooses the payment, the way push or pull is chosen.
+    const acts = []; // { html, ok }
+    const basicBtn = (head) => {
+      const vars = basicVariants(head.id);
+      const usable = vars.filter((b) => !m.over && T.canUseBasic(m, h, b.id).ok);
+      const ok = usable.length > 0;
+      const shown = ok ? usable : vars;
+      const costChip = (b) =>
+        b.el
+          ? `<span class="acost acost-el" style="--c:${EL[b.el].color}">${U.ic('el.' + b.el, b.el)}${b.ap ? '+' + b.ap : ''}</span>`
+          : `<span class="acost">${b.ap}</span>`;
+      const tip = vars
+        .map((b) =>
+          b.el
+            ? `${b.n}, channelled (${b.ap ? b.ap + ' AP + ' : ''}1 ${EL[b.el].name} or Omni${b.ap ? '' : ', no AP'}): ${b.txt}`
+            : `${b.n} (${b.ap} AP): ${b.txt} Anyone can do this, any number of times.`,
+        )
+        .join(' Or: ');
+      const more = usable.length > 1 ? ' Click, then choose how to pay.' : '';
+      acts.push({
+        ok,
+        html: `<button class="sm" data-act="basic" data-arg="${i}|${head.id}" ${ok ? '' : 'disabled'} data-tip="${esc(esc(tip + more) + U.kwGloss(head.txt))}">${U.icBasic(head)} ${esc(head.n)} ${shown.map(costChip).join('')}</button>`,
+      });
     };
     const interactB = `<button class="sm${canInteract ? ' goal-act' : ''}" data-act="interact" data-arg="${i}" ${canInteract ? '' : 'disabled'} data-tip="Interact with an adjacent objective (2 AP; a survey mark also takes a die of its element). Height objectives require standing on the node.">⚙ Interact <span class="acost">2</span></button>`;
     const rallyB = `<button class="sm" data-act="rally" data-arg="${i}" ${canRally ? '' : 'disabled'} data-tip="Revive a downed adjacent ally (2 AP, back at 8).">✚ Rally <span class="acost">2</span></button>`;
-    const main = h.ride != null ? [] : T.BASIC.filter((b) => MAIN.includes(b.id)).map(basicBtn);
     // a vehicle: inside, its moves and cards take the basic actions' place; beside one, a way in
-    if (m.vehicles) main.unshift(...vehicleBtns(m, h, i));
-    const more = T.BASIC.filter((b) => !MAIN.includes(b.id))
-      .map(basicBtn)
-      .filter(Boolean);
-    // Interact and Rally join the four when they can be used: they are what the moment is about
-    (canInteract ? main : more).push(interactB);
-    (canRally ? main : more).push(rallyB);
-    // Heel: one button per pet, beside the four (src/data/pets.js)
+    if (m.vehicles) acts.push(...vehicleBtns(m, h, i));
+    // what the moment is about comes first: an objective in reach, a partner to pick up
+    if (canInteract) acts.push({ ok: true, html: interactB });
+    if (canRally) acts.push({ ok: true, html: rallyB });
+    if (h.ride == null) basicHeads().forEach(basicBtn);
+    // Heel: one button per pet (src/data/pets.js)
     for (const p of T.petsOf(m, h)) {
       const ok = !m.over && T.canHeel(m, h, p.uid).ok;
-      main.push(
-        `<button class="sm" data-act="heel" data-arg="${i}|${p.uid}" ${ok ? '' : 'disabled'} data-tip="${esc(`Heel (${T.PET.HEEL_AP} AP): ${esc(p.name)} walks up to ${T.PET.SPEED}. On your node it cannot be hurt.`)}">🐾 Heel ${esc(p.name)} <span class="acost">${T.PET.HEEL_AP}</span></button>`,
-      );
+      acts.push({
+        ok,
+        html: `<button class="sm" data-act="heel" data-arg="${i}|${p.uid}" ${ok ? '' : 'disabled'} data-tip="${esc(`Heel (${T.PET.HEEL_AP} AP): ${esc(p.name)} walks up to ${T.PET.SPEED}. On your node it cannot be hurt.`)}">🐾 Heel ${esc(p.name)} <span class="acost">${T.PET.HEEL_AP}</span></button>`,
+      });
     }
-    // Dice as AP stands beside the four while a face in hand needs it to be paid for; under More otherwise
-    const asAPNeeded =
-      canAsAP &&
-      h.cards.some(
-        (cid) =>
-          T.inHand(h, cid) &&
-          T.faceKeys(cid).some((fk) => {
-            const c = T.CARD[cid];
-            const f = c[fk];
-            if (!T.faceAwake(h, cid, fk)) return false;
-            return T.payableAsAP(h, f.ap, f.elt || c.el, f.el || 0);
-          }),
-      );
-    const asAPB = `<button class="sm${U.ms.mode === 'asAP' && sel ? ' primary' : ''}" data-act="asAPMode" data-arg="${i}" ${canAsAP ? '' : 'disabled'} data-tip="${esc('Dice as AP (no cost): one banked Omni, or any two banked etherions (the same or different), become 1 AP. Click an Omni, or two element dice: they go back to the pool and you gain 1 AP until the end of this turn. As often as you like.')}">◇→AP</button>`;
-    (asAPNeeded ? main : more).push(asAPB);
-    more.push(
-      `<button class="sm" data-act="valve" data-arg="${i}" ${canValve ? '' : 'disabled'} data-tip="Anti-brick valve: fold one each of M, C, S, T into one Omni (3 dice return to the pool).">◇ Fold 4→Omni</button>`,
-      `<button class="sm ghost" data-act="dumpMode" data-arg="${i}" ${h.downed || !h.held.length ? 'disabled' : ''} data-tip="Return a banked die to the pool (last resort when your bank is clogged).">↩ Return die</button>`,
+    if (!canInteract) acts.push({ ok: false, html: interactB });
+    if (!canRally) acts.push({ ok: false, html: rallyB });
+    acts.push(
+      {
+        ok: canAsAP,
+        html: `<button class="sm${U.ms.mode === 'asAP' && sel ? ' primary' : ''}" data-act="asAPMode" data-arg="${i}" ${canAsAP ? '' : 'disabled'} data-tip="${esc('Dice as AP (no cost): one banked Omni, or any two banked etherions (the same or different), become 1 AP. Click an Omni, or two element dice: they go back to the pool and you gain 1 AP until the end of this turn. As often as you like.')}">◇→AP</button>`,
+      },
+      {
+        ok: canValve,
+        html: `<button class="sm" data-act="valve" data-arg="${i}" ${canValve ? '' : 'disabled'} data-tip="Anti-brick valve: fold one each of M, C, S, T into one Omni (3 dice return to the pool).">◇ Fold 4→Omni</button>`,
+      },
+      {
+        ok: canDump,
+        html: `<button class="sm${U.ms.mode === 'dump' && sel ? ' primary' : ''}" data-act="dumpMode" data-arg="${i}" ${canDump ? '' : 'disabled'} data-tip="Return a banked die to the pool (last resort when your bank is clogged).">↩ Return die</button>`,
+      },
     );
-    const channelled = T.BASIC.filter((b) => b.el && !m.over && T.canUseBasic(m, h, b.id).ok).length;
+    const main = acts.filter((a) => a.ok).map((a) => a.html);
+    const more = acts.filter((a) => !a.ok).map((a) => a.html);
     const moreOpen = !!U.ms.moreActs;
     const actions = `<div class="actions${moreOpen ? ' more-open' : ''}">
-        ${main.join('')}
-        <button class="sm ghost more-btn" data-act="moreActs" aria-expanded="${moreOpen}" data-tip="Every other basic action${channelled ? ', including ' + channelled + ' you can channel now' : ''}">${moreOpen ? 'Fewer actions ▴' : `More actions (${more.length})${channelled ? ' <span class="more-el">+◆</span>' : ''} ▾`}</button>
+        ${main.join('') || '<span class="dim small no-acts">Nothing you can do right now.</span>'}
+        ${more.length ? `<button class="sm ghost more-btn" data-act="moreActs" aria-expanded="${moreOpen}" data-tip="Actions you cannot take right now, and why in each one's tip">${moreOpen ? 'Hide what you can’t do ▴' : `Can’t do now (${more.length}) ▾`}</button>` : ''}
         <span class="more-acts">${more.join('')}</span>
       </div>`;
     const gearRow = gear || cons ? `<div class="gearrow">${gear}${cons}</div>` : '';
@@ -22406,38 +22737,57 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       ${gearRow}
     </div>`;
   }
+  /** The basic actions as the dock shows them: one per name, its first entry in T.BASIC standing for the rest. */
+  function basicHeads() {
+    const seen = new Set();
+    return T.BASIC.filter((b) => !seen.has(b.n) && seen.add(b.n));
+  }
+  /** Every way of taking the basic action this id names: the same action, paid for in AP or with an etherion. */
+  function basicVariants(id) {
+    const b = T.BASIC_BY[id];
+    return b ? T.BASIC.filter((x) => x.n === b.n) : [];
+  }
+  /** The ways of paying for it this pilot can use now. */
+  function usableVariants(m, h, id) {
+    return basicVariants(id).filter((b) => T.canUseBasic(m, h, b.id).ok);
+  }
   function vehicleBtns(m, h, i) {
     const out = [];
     const v = T.vehicleOf(m, h);
     if (v) {
       const d = T.vehicleDef(v);
-      out.push(
-        `<span class="veh-chip" data-tip="${esc(vehicleTip(m, v))}">${d.icon} ${esc(d.name)} <span class="mono">hull ${v.hull}/${d.hull}</span></span>`,
-      );
+      out.push({
+        ok: true,
+        html: `<span class="veh-chip" data-tip="${esc(vehicleTip(m, v))}">${d.icon} ${esc(d.name)} <span class="mono">hull ${v.hull}/${d.hull}</span></span>`,
+      });
       if (v.driver === h.uid) {
         const ok = !m.over && T.driveOptions(m, h).length;
-        out.push(
-          `<button class="sm" data-act="vdrive" data-arg="${i}" ${ok ? '' : 'disabled'} data-tip="${esc(`Drive (1 AP): move the ${d.name} up to ${d.speed} spaces over its ground, with everyone inside. Or click a highlighted space.`)}">➤ Drive <span class="acost">1</span></button>`,
-        );
+        out.push({
+          ok: !!ok,
+          html: `<button class="sm" data-act="vdrive" data-arg="${i}" ${ok ? '' : 'disabled'} data-tip="${esc(`Drive (1 AP): move the ${d.name} up to ${d.speed} spaces over its ground, with everyone inside. Or click a highlighted space.`)}">➤ Drive <span class="acost">1</span></button>`,
+        });
       }
       const outOk = !m.over && T.leaveOptions(m, h).length;
-      out.push(
-        `<button class="sm" data-act="vleave" data-arg="${i}" ${outOk ? '' : 'disabled'} data-tip="Get out (1 AP) onto a free space beside it that you could walk on.">⇲ Get out <span class="acost">1</span></button>`,
-      );
+      out.push({
+        ok: !!outOk,
+        html: `<button class="sm" data-act="vleave" data-arg="${i}" ${outOk ? '' : 'disabled'} data-tip="Get out (1 AP) onto a free space beside it that you could walk on.">⇲ Get out <span class="acost">1</span></button>`,
+      });
       for (const c of T.vehicleCards(m, h)) {
         const ok = !m.over && T.canUseVehicleCard(m, h, c.id).ok;
-        out.push(
-          `<button class="sm" data-act="vcard" data-arg="${i}|${c.id}" ${ok ? '' : 'disabled'} data-tip="${esc(`${c.n} (${c.ap} AP, the ${d.name}'s, once a round${c.seat === 'driver' ? ', the driver' : ', any seat'}): ${c.txt}`)}">${c.icon} ${esc(c.n)} <span class="acost">${c.ap}</span></button>`,
-        );
+        out.push({
+          ok: !!ok,
+          html: `<button class="sm" data-act="vcard" data-arg="${i}|${c.id}" ${ok ? '' : 'disabled'} data-tip="${esc(`${c.n} (${c.ap} AP, the ${d.name}'s, once a round${c.seat === 'driver' ? ', the driver' : ', any seat'}): ${c.txt}`)}">${c.icon} ${esc(c.n)} <span class="acost">${c.ap}</span></button>`,
+        });
       }
       return out;
     }
     for (const uid of h.downed || m.over ? [] : T.boardOptions(m, h)) {
       const w = m.vehicles.find((x) => x.uid === uid);
       const d = T.vehicleDef(w);
-      out.push(
-        `<button class="sm goal-act" data-act="vboard" data-arg="${i}|${uid}" data-tip="${esc(`Get in (1 AP). ${vehicleTip(m, w)}`)}">${d.icon} Get in <span class="acost">1</span></button>`,
-      );
+      out.push({
+        ok: true,
+        html: `<button class="sm goal-act" data-act="vboard" data-arg="${i}|${uid}" data-tip="${esc(`Get in (1 AP). ${vehicleTip(m, w)}`)}">${d.icon} Get in <span class="acost">1</span></button>`,
+      });
     }
     return out;
   }
@@ -23078,8 +23428,10 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       return chk.ok ? { p: { kind: 'card', cardId: parts[1], fk: parts[2] }, tg: chk.tg, i } : null;
     }
     if (act === 'basic') {
-      const chk = T.canUseBasic(m, h, parts[1]);
-      return chk.ok ? { p: { kind: 'basic', id: parts[1] }, tg: chk.tg, i } : null;
+      // a merged button previews the first way of paying for it that can be used
+      const b = usableVariants(m, h, parts[1])[0];
+      const chk = b && T.canUseBasic(m, h, b.id);
+      return chk && chk.ok ? { p: { kind: 'basic', id: b.id }, tg: chk.tg, i } : null;
     }
     if (act === 'gear') {
       const [gi, ai] = [+parts[1], +parts[2]];
@@ -23572,10 +23924,21 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       U.updateMission();
     }
   }
-  function beginBasic(i, id) {
+  function beginBasic(i, id, chosen) {
     const m = M();
     U.ms.heroIdx = i;
     const h = hero();
+    // one button, more than one way to pay: the bar above the board asks which, as push or pull is asked
+    if (!chosen) {
+      const ways = usableVariants(m, h, id);
+      if (ways.length > 1) {
+        U.ms.pending = { kind: 'pay', hero: i, ways: ways.map((b) => b.id), label: T.BASIC_BY[id].n };
+        U.ms.mode = 'pay';
+        U.updateMission();
+        return;
+      }
+      if (ways.length === 1) id = ways[0].id;
+    }
     const chk = T.canUseBasic(m, h, id);
     if (!chk.ok) {
       U.toast(chk.why || 'Cannot do that now.');
@@ -23848,6 +24211,15 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
           ms.pending = null;
         }
         beginBasic(+i, id);
+        return true;
+      }
+      case 'payWith': {
+        // the payment chosen for a merged action: go on as if its own button had been clicked
+        const p = ms.pending;
+        if (ms.mode !== 'pay' || !p || !p.ways.includes(arg)) return true;
+        ms.mode = 'idle';
+        ms.pending = null;
+        beginBasic(p.hero, arg, true);
         return true;
       }
       case 'vdrive':
@@ -24162,7 +24534,10 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       const pg = m.page && T.PAGE_BY[m.page];
       const pl = m.place || {};
       const parts = [pg ? pg.name.toUpperCase() : (m.title || '').toUpperCase()];
-      if (pg) parts.push(pg.gravity + ' G' + (pg.gravity > 1.5 ? ' · UPHILL' : pg.gravity < 0.7 ? ' · DOWNHILL' : ''));
+      if (pg) {
+        const g = pl.g != null ? pl.g : pg.gravity;
+        parts.push(g + ' G' + (g > 1.5 ? ' · UPHILL' : g < 0.7 ? ' · DOWNHILL' : ''));
+      }
       if (pl.weather === 'wind') parts.push(pl.wind > 0 ? 'WIND → E' : 'WIND ← A');
       if (pl.weather === 'fog') parts.push('FOG');
       parts.push(d.name.toUpperCase());
@@ -27090,7 +27465,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       return `<button class="sh-tab${t.id === tab ? ' on' : ''}" data-act="tab" data-arg="${t.id}"${t.id === tab ? ' aria-current="page"' : ''}${off ? ' data-tip="No expedition on its route yet. Start one from Play."' : ''}>${esc(t.name)}</button>`;
     }).join('');
     const right = U.shellRight ? U.shellRight() : '';
-    return `<header class="sh-top" role="navigation" aria-label="Main"><button class="sh-logo" data-act="tab" data-arg="play" aria-label="Tumult: home">TUMULT</button><nav class="sh-tabs">${tabs}</nav><span class="sh-right">${right}<button class="sh-gear${U.screen === 'settings' ? ' on' : ''}" data-act="settings" aria-label="Settings" data-tip="Settings">⚙</button></span></header>`;
+    return `<header class="sh-top" role="navigation" aria-label="Main"><button class="sh-logo" data-act="tab" data-arg="play" aria-label="Tumult: home">TUMULT</button><nav class="sh-tabs">${tabs}</nav><span class="sh-right">${right}${U.musicBtnHTML ? U.musicBtnHTML() : ''}<button class="sh-gear${U.screen === 'settings' ? ' on' : ''}" data-act="settings" aria-label="Settings" data-tip="Settings">⚙</button></span></header>`;
   }
   function phoneBar(tab) {
     const four = U.SHELL_TABS.filter((t) => t.phone);
@@ -27526,10 +27901,11 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     sound: true,
     master: 100,
     music: 60,
-    muteMusic: false,
+    muteMusic: true, // music starts off (Garrett, 2026-11-24): ♪ by ⚙ or the Audio studio turns it on
     muteFx: false,
     musicMode: 'game',
     musicOff: [],
+    musicOn: 1, // the settings know music starts off: older saves are switched off once (2026-11-24)
   };
   U.prefs = (() => {
     try {
@@ -27543,11 +27919,14 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       for (const k of ['master', 'music'])
         if (Number.isFinite(got[k])) p[k] = Math.max(0, Math.min(100, Math.round(got[k])));
       for (const k of ['sound', 'muteMusic', 'muteFx']) if (typeof got[k] === 'boolean') p[k] = got[k];
+      // settings saved before music started off kept muteMusic false without a choice: start them off too
+      if (got.musicOn !== 1) p.muteMusic = true;
+      p.musicOn = 1;
       if (['game', 'shuffle', 'one'].includes(got.musicMode)) p.musicMode = got.musicMode;
       if (Array.isArray(got.musicOff)) p.musicOff = got.musicOff.filter((x) => typeof x === 'string').slice(0, 50);
       return p;
     } catch {
-      return Object.assign({}, BASE, { musicOff: [] });
+      return Object.assign({}, BASE, { musicOff: [], musicOn: 1 });
     }
   })();
   function savePrefs() {
@@ -28063,10 +28442,18 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       .forEach((s) =>
         (groups[T.SPECIES[s].branch || 'Others'] = groups[T.SPECIES[s].branch || 'Others'] || []).push(s),
       );
+    // groups in the order of the tree (src/data/taxonomy.js), each headed by its common and scientific name
+    const order = (T.TAXON_ORDER || []).map((id) => T.TAXA[id]).filter((x) => x.show);
+    const sci = (br) => (order.find((x) => x.name === br) || {}).sci;
+    const rank = (br) => {
+      const i = order.findIndex((x) => x.name === br);
+      return i < 0 ? order.length : i;
+    };
     const grid = Object.entries(groups)
+      .sort((a, b) => rank(a[0]) - rank(b[0]))
       .map(
         ([br, list]) =>
-          `<div class="mk-branch"><span class="lab">${esc(br)}</span><div class="mk-grid">${list
+          `<div class="mk-branch"><span class="lab">${esc(br)}${sci(br) && sci(br) !== br ? ` <i class="dim">${esc(sci(br))}</i>` : ''}</span><div class="mk-grid">${list
             .map((s) => {
               const k = m.clades.indexOf(s);
               return `<button class="mk-clade${k === 0 ? ' head' : k === 1 ? ' feat' : ''}" data-act="makerClade" data-arg="${s}" aria-pressed="${k >= 0}">${U.icClade(s)} ${esc(cladeName(s))}${k === 0 ? ' <i>head</i>' : k === 1 ? ' <i>2nd</i>' : ''}</button>`;
@@ -29353,7 +29740,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       .filter(([, e]) => !q || (e.name + ' ' + e.role + ' ' + e.flavor).toLowerCase().includes(q))
       .map(
         ([k, e]) =>
-          `<article class="cx-card cx-rose"><h3>${U.icEnemy(k, e.glyph)} ${esc(e.name)} <small class="dim">${esc(e.role)}${e.elite ? ' · elite' : ''}${e.boss ? ' · boss' : ''}</small></h3><p class="small mono dim">Vitality ${e.hp.join(' / ')} · speed ${e.speed}${e.shield ? ' · Shield ' + e.shield.join(' / ') : ''}${e.hidden ? ' · starts Hidden' : ''}</p>${Object.values(
+          `<article class="cx-card cx-rose">${U.foePainting && U.foePainting({ type: k }) ? `<div class="cx-foe">${U.foeArt({ type: k, elite: e.elite, boss: e.boss }, 96)}</div>` : ''}<h3>${U.icEnemy(k, e.glyph)} ${esc(e.name)} <small class="dim">${esc(e.role)}${e.elite ? ' · elite' : ''}${e.boss ? ' · boss' : ''}</small></h3><p class="small mono dim">Vitality ${e.hp.join(' / ')} · speed ${e.speed}${e.shield ? ' · Shield ' + e.shield.join(' / ') : ''}${e.hidden ? ' · starts Hidden' : ''}</p>${Object.values(
             e.abilities,
           )
             .map(
@@ -31526,7 +31913,7 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     const mood = moodNow();
     const was = M.mood;
     M.mood = mood;
-    if (!M.started || M.paused) return;
+    if (!M.started || M.paused || P().muteMusic) return; // music off: nothing streams
     const t = TRACKS.find((x) => x.id === M.cur);
     if (!M.el || !t) return next();
     if (mood !== was && !M.pinned && !fits(t, mood)) next();
@@ -31543,6 +31930,12 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
       } catch (e) {}
     }
     if (M.started && !M.el && musicLevel() > 0) next();
+    else if (M.el && !M.el.paused && P().muteMusic)
+      M.el.pause(); // muted: stop streaming, resume on unmute
+    else if (M.el && M.el.paused && !M.paused && musicLevel() > 0) {
+      const go = M.el.play();
+      if (go && go.catch) go.catch(() => {});
+    }
   }
   /** The first tap or key: the browser now lets the page make sound. */
   function unlock() {
@@ -31631,6 +32024,12 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
     return `<div class="au-now${n.playing ? ' playing' : ''}${compact ? ' compact' : ''}"><div class="au-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div class="au-np"><span class="au-kick">Now playing</span><b class="au-title">${esc(title)}</b><small class="au-sub">${esc(sub)}</small><div class="au-bar"><span class="au-fill" style="width:${pct.toFixed(1)}%"></span></div><span class="au-time"><span data-au-t>${clock(n.time)}</span><span>${n.dur ? clock(n.dur) : '–:––'}</span></span></div><div class="au-tps">${btn('auPrev', 'Back', '⏮')}${btn('auToggle', n.playing ? 'Pause' : 'Play', n.playing ? '❚❚' : '▶', ' main')}${btn('auNext', 'Skip', '⏭')}</div></div>`;
   }
   U.audioNowHTML = nowHTML;
+  /** The small ♪ play/pause beside ⚙: switches the music on or off (and the sound with it, if that was off). */
+  const musicPlaying = () => on() && !P().muteMusic && !M.paused;
+  U.musicBtnHTML = (cls) =>
+    available().length
+      ? `<button class="${cls || 'sh-music'}${musicPlaying() ? ' on' : ''}" data-act="musicToggle" aria-pressed="${musicPlaying()}" aria-label="${musicPlaying() ? 'Pause the music' : 'Play the music'}" data-tip="${musicPlaying() ? 'Pause the music' : 'Play the music'}">${musicPlaying() ? '❚❚' : '♪'}</button>`
+      : '';
   function tracksHTML() {
     const off = P().musicOff || [];
     const n = U.audio.now();
@@ -31724,7 +32123,27 @@ window.T.AUDIO = {"sfx/ally-charge":"assets/audio/sfx/ally-charge.22278fbb7a.mp3
         M.started = true;
         play(arg, { pinned: true });
         return true;
+      case 'musicToggle':
+        if (musicPlaying()) {
+          P().muteMusic = true;
+          if (M.el) M.el.pause();
+        } else {
+          if (!on()) U.sound = true;
+          P().muteMusic = false;
+          M.started = true;
+          if (M.el && M.paused) toggle();
+          else {
+            M.paused = false;
+            if (!M.el) next();
+          }
+        }
+        save();
+        sync();
+        redraw();
+        if (U.screen === 'settings' || (U.modal && U.modal.side)) U.render();
+        return true;
       case 'auToggle':
+        P().muteMusic = false; // the studio's Play means music on
         M.started = true;
         toggle();
         return true;
