@@ -17149,6 +17149,36 @@ button.linkish {
 .dr-tile:hover .dr-pic {
   transform: scale(1.05);
 }
+/* painted faces (src/ui/ability-art.js): Physical left of the cut, Ethereal right, each in its own cell */
+.dr-painted .dr-fa {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 54%;
+  overflow: hidden;
+}
+.dr-painted .dr-fa span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: max(100%, var(--ah, 100%));
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+}
+.dr-painted .dr-fa-p {
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%);
+}
+.dr-painted .dr-fa-e {
+  right: 0;
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+}
+.dr-painted.one .dr-fa {
+  left: 0;
+  right: 0;
+  width: 100%;
+  clip-path: none;
+}
 .dr-headart {
   display: flex;
   align-items: center;
